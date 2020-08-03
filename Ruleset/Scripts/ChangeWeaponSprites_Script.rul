@@ -1,0 +1,200 @@
+###################################################################
+#Script, that changes weapon's sprites in certain situations.
+#Available functions:
+# - Changing of the weapon's inventory sprite if it's unloaded/loaded with certain ammo type.
+# - Changing of the weapon's inventory sprite and hand sprite if weapon's integral bipod is deployed/undeployed.
+#Functions can be combined.
+###################################################################
+
+### Example 1 ###
+###################################################################
+#Case: Weapon has no bipod.
+#      Weapon has different inventory sprites for unloaded state, loaded with ammo 1, loaded with ammo 2, etc.
+#
+#Declare inventory sprites in extraSprites (inv0 - unloaded, inv1 - loaded with ammo 1, etc.) 
+#In this case you have to declare the sprites one after another.
+#
+#      511: Resources/Items/WeaponName/WeaponName_Inv0.png
+#      512: Resources/Items/WeaponName/WeaponName_Inv1.png
+#      513: Resources/Items/WeaponName/WeaponName_Inv2.png
+#
+#Add AMMO_CHANGES_ITEMS_BIGSPRITE tag with value 1 to weapon's ruleset.
+#    tags:
+#      AMMO_CHANGES_ITEMS_BIGSPRITE: 1
+#
+#Add AMMO_INDEX tag to ammo ruleset. 
+#Value has to be equal to ammo index number. 1 for ammo 1, 2 for ammo 2, etc.
+#    tags:
+#      AMMO_INDEX: 1
+#
+#Done.
+###################################################################
+
+### Example 2 ###
+###################################################################
+#Case: Weapon has bipod. Nothing more.
+#
+#Declare inventory sprites in extraSprites.
+#In this case you have to declare the sprites one after another.
+#First one is sprite with undeployed bipod, second one is the sprite with deployed bipod.
+#
+#      506: Resources/Items/WeaponName/WeaponName_Inv.png
+#      507: Resources/Items/WeaponName/WeaponName_Inv_Deployed.png
+#
+#Optionally declare the handsprites if you have battlescape sprites for weapon with deployed bipod. 
+#First one is sprite with undeployed bipod, second one is the sprite with deployed bipod.
+#
+#      216: Resources/Items/WeaponName/WeaponName_Hand.png
+#      224: Resources/Items/WeaponName/WeaponName_Hand_Deployed.png
+#
+#
+#Add ITEM_HAS_BIPOD_BIGSPRITE tag and optionally ITEM_HAS_BIPOD_HANDSPRITE tag to weapon' ruleset.
+#Tag's value is 1.
+#
+#    tags:
+#      ITEM_HAS_BIPOD_BIGSPRITE: 1
+#      ITEM_HAS_BIPOD_HANDSPRITE: 1
+#
+#Done.
+###################################################################
+
+### Example 3 ###
+###################################################################
+#Case: Weapon has bipod.
+#      Weapon has different inventory sprites for unloaded state, loaded with ammo 1, loaded with ammo 2, etc.
+#
+#Declare inventory sprites in extraSprites.
+#In this case, there is a different pattern:
+#
+#   Unloaded weapon and undeployed bipod;
+#   Unloaded weapon and deployed bipod;
+#   Weapon loaded with ammo 1 and undeployed bipod;
+#   Weapon loaded with ammo 1 and deployed bipod;
+#   Weapon loaded with ammo 2 and undeployed bipod;
+#   Weapon loaded with ammo 2 and deployed bipod;
+#
+#And so on.
+#
+#      504: Resources/Items/WeaponName/WeaponName_Inv0.png
+#      505: Resources/Items/WeaponName/WeaponName_Inv0_Deployed.png
+#      506: Resources/Items/WeaponName/WeaponName_Inv1.png
+#      507: Resources/Items/WeaponName/WeaponName_Inv1_Deployed.png
+#      508: Resources/Items/WeaponName/WeaponName_Inv2.png
+#      509: Resources/Items/WeaponName/WeaponName_Inv2_Deployed.png
+#
+#Optionally declare the handsprites just like in example 2.
+#
+#Add AMMO_CHANGES_ITEMS_BIGSPRITE, AMMO_INDEX ITEM_HAS_BIPOD_BIGSPRITE and optionally ITEM_HAS_BIPOD_HANDSPRITE tags.
+#Just like in previous examples.
+#
+#Done.
+#
+###################################################################
+
+#Here is an actual script. Good luck to figure out how it works.
+#I gave up, trying to explain that in comments.
+
+extended:
+  tags:
+    RuleItem:
+      ITEM_HAS_BIPOD_BIGSPRITE: int
+      ITEM_HAS_BIPOD_HANDSPRITE: int
+      AMMO_CHANGES_ITEMS_BIGSPRITE: int
+      AMMO_INDEX: int
+
+  scripts:
+    selectItemSprite:
+
+      #Handles the big sprites (inventory sprites)
+      - offset: 1
+        code: |
+          var ptr RuleItem weaponRuleset;
+          var ptr BattleItem ammoItem;
+          var ptr RuleItem ammoRuleset;
+          var ptr BattleUnit holdingUnit;
+
+          var int changeBigSprite;
+          var int ammoIndex;
+          var int itemHasBipodBigsprite;
+          var int unitIsKneeling;
+          var int spriteOffset;
+
+          if eq blit_part blit_item_big;
+
+            #Get the weapon ruleset.
+            item.getRuleItem weaponRuleset;
+
+            #Get tags from ruleset
+            weaponRuleset.getTag changeBigSprite Tag.AMMO_CHANGES_ITEMS_BIGSPRITE;
+            weaponRuleset.getTag itemHasBipodBigsprite Tag.ITEM_HAS_BIPOD_BIGSPRITE;
+
+            item.getOwner holdingUnit;
+            holdingUnit.isKneeled unitIsKneeling;
+
+            item.getAmmoItem ammoItem;
+            ammoItem.getRuleItem ammoRuleset;
+            ammoRuleset.getTag ammoIndex Tag.AMMO_INDEX;
+
+            #Check the AMMO_CHANGES_ITEMS_BIGSPRITE tag. Continue if it's greater than zero.
+            if gt changeBigSprite 0;
+              #Execute next block if weapon has no bipod bigsprite.
+              if eq itemHasBipodBigsprite 0;
+                set spriteOffset ammoIndex;
+                rules.getSpriteOffsetBigobs sprite_index spriteOffset;
+                return sprite_index;
+              #Execute next block if weapon has bipod sprites.
+              else gt itemHasBipodBigsprite 0;
+                if gt unitIsKneeling 0;
+                  set spriteOffset ammoIndex;
+                  offset spriteOffset 2 1;
+                  rules.getSpriteOffsetBigobs sprite_index spriteOffset;
+                  return sprite_index;
+                else eq unitIsKneeling 0;
+                  set spriteOffset ammoIndex;
+                  mul spriteOffset 2;
+                  rules.getSpriteOffsetBigobs sprite_index spriteOffset;
+                  return sprite_index;
+                end;
+              end;
+            end;
+
+            #Execute next block if AMMO_CHANGES_ITEMS_BIGSPRITE is equal to zero, and item has bipod bigsprite.
+            if and neq null holdingUnit neq 0 unitIsKneeling neq 0 itemHasBipodBigsprite;
+              rules.getSpriteOffsetBigobs sprite_index 1;
+              return sprite_index;
+            end;
+
+          end;
+
+          return sprite_index;
+
+      #Handles the hand sprites (8 frames of weapon in battlescape scene)
+      - offset: 2
+        code: |
+          var ptr RuleItem itemRuleset;
+          var ptr BattleUnit holdingUnit;
+          var int itemHasBipodHandSprite;
+          var int unitIsKneeling;
+
+          #Get weapon ruleset.
+          item.getRuleItem itemRuleset;
+          #Get tag from ruleset.
+          itemRuleset.getTag itemHasBipodHandSprite Tag.ITEM_HAS_BIPOD_HANDSPRITE;
+
+          item.getOwner holdingUnit;
+          holdingUnit.isKneeled unitIsKneeling;
+
+          #Execute next block if ITEM_HAS_BIPOD_HANDSPRITE is greater than zero.
+          if and neq null holdingUnit neq 0 unitIsKneeling neq 0 itemHasBipodHandSprite;
+
+            if or eq blit_part blit_item_lefthand eq blit_part blit_item_righthand;
+
+              rules.getSpriteOffsetHandob sprite_index 8;
+
+              return sprite_index;
+
+            end;
+
+          end;
+
+          return sprite_index;

@@ -1,0 +1,159 @@
+items:
+## NULL-ITEM FOR BACK PACK ##
+  - type: STR_NULL_ITEM_BACK_PACK
+    weight: 0
+    invWidth: 3
+    invHeight: 2
+    bigSprite: 200
+    defaultInventorySlot: STR_BACK_PACK
+    fixedWeapon: true
+    recover: false
+
+
+## FIRST AID KIT ##
+  - type: STR_FIRST_AID_KIT
+#RESOURCES
+    bigSprite: 527
+    floorSprite: 527
+    handSprite: 328
+#INFO
+    categories: [STR_CATEGORY_UTILITY]
+    costSell: 5000
+    listOrder: 2400
+#SPECIFICATIONS
+    battleType: 6
+    size: 0.1
+    weight: 4
+    invWidth: 1
+    invHeight: 2
+#USAGE
+    painKiller: 1
+    heal: 3
+    stimulant: 1
+    woundRecovery: 1
+    healthRecovery: 3
+    stunRecovery: 4
+    energyRecovery: 10
+    tuUse: 10
+    flatRate: true
+    allowSelfHeal: true
+    isConsumable: true
+
+## AUSPEX ##
+  - type: STR_AUSPEX
+#RESOURCES
+    bigSprite: 528
+    floorSprite: 528
+    handSprite: 336
+#INFO
+    categories: [STR_CATEGORY_UTILITY]
+    costSell: 45600
+    listOrder: 2401
+#SPECIFICATIONS
+    battleType: 7
+    size: 0.1
+    weight: 3
+    invWidth: 1
+    invHeight: 2
+#USAGE
+    tuUse: 25
+
+
+## FIRE EXTINGUISHER ##
+  - type: STR_FIRE_EXTINGUISHER
+#RESOURCES
+    bigSprite: 529
+    floorSprite: 529
+    handSprite: 344
+#INFO
+    costBuy: 200
+    costSell: 150
+#SPECIFICATIONS
+    battleType: 1
+    size: 0.1
+    weight: 6
+    invWidth: 1
+    invHeight: 2
+#USAGE
+    clipSize: -1
+    damageType: 9
+    isFireExtinguisher: true
+    power: 20
+    damageAlter:
+      IgnoreSelfDestruct: true
+      RandomType: 3
+      ToStun: 0.0
+      FixRadius: 1
+    tuAimed: 25
+    accuracyAimed: 150
+    maxRange: 6
+    experienceTrainingMode: 32 #train nothing
+
+
+
+## GLOW STICK ##
+  - type: STR_GLOW_STICK
+#RESOURCES
+    bigSprite: 530
+    floorSprite: 530
+    handSprite: 352
+#INFO
+    categories: [STR_CATEGORY_UTILITY]
+    costBuy: 60
+    costSell: 40
+    listOrder: 2403
+#SPECIFICATIONS
+    battleType: 10
+    size: 0.1
+    weight: 4
+    armor: 8
+#THROWING
+    power: 15
+    fuseType: -2
+    tuThrow: 25
+    tuPrime: 10
+    flatRate: false
+
+## Electro-Flare ##
+  - type: STR_ELECTRICAL_FLARE
+#RESOURCES
+    bigSprite: 531
+    floorSprite: 531
+    handSprite: 360
+#INFO
+    categories: [STR_CATEGORY_UTILITY]
+    costBuy: 120
+    costSell: 80
+    listOrder: 2404
+#SPECIFICATIONS
+    battleType: 10
+    size: 0.1
+    weight: 4
+    armor: 60
+#THROWING
+    power: 18
+    tuThrow: 40
+    flatRate: false
+    
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

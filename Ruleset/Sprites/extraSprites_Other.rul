@@ -1,0 +1,43 @@
+extraSprites:
+
+### AVATAR BACKGROUND
+  - type: AvatarBackground
+    singleImage: true
+    files:
+      0: Resources/GUI/Avatar_Background.png
+
+### GLOBE TEXTURES
+  - delete: TEXTURE.DAT
+  - type: TEXTURE.DAT
+    width: 544
+    height: 96
+    subX: 32
+    subY: 32
+    files:
+      0: Resources/Globe/Globe_Textures.png
+
+#PROJECTILES
+  - type: Projectiles
+    width: 105
+    height: 3
+    subX: 3
+    subY: 3
+    files:
+      385: Resources/Projectiles/Pistol_Bullet.png            #11 (pistol bullet)
+      420: Resources/Projectiles/Assault_Rifle_Bullet.png     #12 (assault rifle bullet)
+      455: Resources/Projectiles/Rifle_Bullet.png             #13 (rifle bullet)
+      490: Resources/Projectiles/Cannon_Shell.png             #14 (autocannon shell)
+      525: Resources/Projectiles/Bolt.png                     #15 (.75 bolt)
+      560: Resources/Projectiles/Heavy_Bolt.png               #16 (.998 bolt)
+      595: Resources/Projectiles/40mm_Grenade.png             #17 (40mm grenade)
+#      630: Resources/Projectiles/     #18 (rocket-propelled missile)
+#      665: Resources/Projectiles/     #19 (regular laser beam)
+#      700: Resources/Projectiles/     #20 (hotshot laser beam)
+#      735: Resources/Projectiles/     #21 (plasma projectile)
+#      770: Resources/Projectiles/     #22 (heavy plasma projectile)
+#      805: Resources/Projectiles/     #23 (melta beam)
+#      840: Resources/Projectiles/     #24 (flamer napalm)
+#      875: Resources/Projectiles/     #25 (graviton beam)
+#      910: Resources/Projectiles/     #26
+#      945: Resources/Projectiles/     #27
+#      980: Resources/Projectiles/     #28

@@ -1,0 +1,426 @@
+armors:
+
+#Cultist Clothes (Male 0)
+  - type: STR_CULTIST_CLOTHES_MALE0
+    spriteSheet: CULTIST_CLOTHES_MALE0.PCK
+    spriteInv: CULTIST_CLOTHES_MALE0
+    corpseBattle:
+      - STR_CORPSE_CULTIST_CLOTHES_MALE0
+    frontArmor: 10
+    sideArmor: 10
+    rearArmor: 10
+    underArmor: 10
+    drawingRoutine: 0
+    damageModifier:
+      - 1.0 #0 NONE
+      - 1.0 #1 AP
+      - 1.0 #2 FLAMES
+      - 1.0 #3 HE
+      - 1.0 #4 LASER
+      - 1.0 #5 PLASMA
+      - 1.0 #6 STUN
+      - 1.0 #7 MELEE
+      - 1.0 #8 POWER
+      - 0.0 #9 SMOKE
+      - 1.0 #10 IMPACT
+      - 1.0 #11 MELTA
+      - 1.0 #12 GRAVITON
+      - 1.0 #13 SUPPORT
+    loftempsSet: [ 3 ]
+
+#Cultist Clothes (Female 0)
+  - type: STR_CULTIST_CLOTHES_FEMALE0
+    spriteSheet: CULTIST_CLOTHES_FEMALE0.PCK
+    spriteInv: CULTIST_CLOTHES_FEMALE0
+    corpseBattle:
+      - STR_CORPSE_CULTIST_CLOTHES_FEMALE0
+    frontArmor: 10
+    sideArmor: 10
+    rearArmor: 10
+    underArmor: 10
+    drawingRoutine: 0
+    damageModifier:
+      - 1.0 #0 NONE
+      - 1.0 #1 AP
+      - 1.0 #2 FLAMES
+      - 1.0 #3 HE
+      - 1.0 #4 LASER
+      - 1.0 #5 PLASMA
+      - 1.0 #6 STUN
+      - 1.0 #7 MELEE
+      - 1.0 #8 POWER
+      - 0.0 #9 SMOKE
+      - 1.0 #10 IMPACT
+      - 1.0 #11 MELTA
+      - 1.0 #12 GRAVITON
+      - 1.0 #13 SUPPORT
+    loftempsSet: [ 3 ]
+
+
+#Cultist Clothes (Male 1)
+  - type: STR_CULTIST_CLOTHES_MALE1
+    spriteSheet: CULTIST_CLOTHES_MALE1.PCK
+    spriteInv: CULTIST_CLOTHES_MALE1
+    corpseBattle:
+      - STR_CORPSE_CULTIST_CLOTHES_MALE1
+    frontArmor: 10
+    sideArmor: 10
+    rearArmor: 10
+    underArmor: 10
+    drawingRoutine: 0
+    damageModifier:
+      - 1.0 #0 NONE
+      - 1.0 #1 AP
+      - 1.0 #2 FLAMES
+      - 1.0 #3 HE
+      - 1.0 #4 LASER
+      - 1.0 #5 PLASMA
+      - 1.0 #6 STUN
+      - 1.0 #7 MELEE
+      - 1.0 #8 POWER
+      - 0.0 #9 SMOKE
+      - 1.0 #10 IMPACT
+      - 1.0 #11 MELTA
+      - 1.0 #12 GRAVITON
+      - 1.0 #13 SUPPORT
+    loftempsSet: [ 3 ]
+
+#Cultist Clothes (Female 1)
+  - type: STR_CULTIST_CLOTHES_FEMALE1
+    spriteSheet: CULTIST_CLOTHES_FEMALE1.PCK
+    spriteInv: CULTIST_CLOTHES_FEMALE1
+    corpseBattle:
+      - STR_CORPSE_CULTIST_CLOTHES_FEMALE1
+    frontArmor: 10
+    sideArmor: 10
+    rearArmor: 10
+    underArmor: 10
+    drawingRoutine: 0
+    damageModifier:
+      - 1.0 #0 NONE
+      - 1.0 #1 AP
+      - 1.0 #2 FLAMES
+      - 1.0 #3 HE
+      - 1.0 #4 LASER
+      - 1.0 #5 PLASMA
+      - 1.0 #6 STUN
+      - 1.0 #7 MELEE
+      - 1.0 #8 POWER
+      - 0.0 #9 SMOKE
+      - 1.0 #10 IMPACT
+      - 1.0 #11 MELTA
+      - 1.0 #12 GRAVITON
+      - 1.0 #13 SUPPORT
+    loftempsSet: [ 3 ]
+
+#Cultist Clothes (Male 2)
+  - type: STR_CULTIST_CLOTHES_MALE2
+    spriteSheet: CULTIST_CLOTHES_MALE2.PCK
+    spriteInv: CULTIST_CLOTHES_MALE2
+    corpseBattle:
+      - STR_CORPSE_CULTIST_CLOTHES_MALE2
+    frontArmor: 10
+    sideArmor: 10
+    rearArmor: 10
+    underArmor: 10
+    drawingRoutine: 0
+    damageModifier:
+      - 1.0 #0 NONE
+      - 1.0 #1 AP
+      - 1.0 #2 FLAMES
+      - 1.0 #3 HE
+      - 1.0 #4 LASER
+      - 1.0 #5 PLASMA
+      - 1.0 #6 STUN
+      - 1.0 #7 MELEE
+      - 1.0 #8 POWER
+      - 0.0 #9 SMOKE
+      - 1.0 #10 IMPACT
+      - 1.0 #11 MELTA
+      - 1.0 #12 GRAVITON
+      - 1.0 #13 SUPPORT
+    loftempsSet: [ 3 ]
+
+#Cultist Clothes (Female 2)
+  - type: STR_CULTIST_CLOTHES_FEMALE2
+    spriteSheet: CULTIST_CLOTHES_FEMALE2.PCK
+    spriteInv: CULTIST_CLOTHES_FEMALE2
+    corpseBattle:
+      - STR_CORPSE_CULTIST_CLOTHES_FEMALE2
+    frontArmor: 10
+    sideArmor: 10
+    rearArmor: 10
+    underArmor: 10
+    drawingRoutine: 0
+    damageModifier:
+      - 1.0 #0 NONE
+      - 1.0 #1 AP
+      - 1.0 #2 FLAMES
+      - 1.0 #3 HE
+      - 1.0 #4 LASER
+      - 1.0 #5 PLASMA
+      - 1.0 #6 STUN
+      - 1.0 #7 MELEE
+      - 1.0 #8 POWER
+      - 0.0 #9 SMOKE
+      - 1.0 #10 IMPACT
+      - 1.0 #11 MELTA
+      - 1.0 #12 GRAVITON
+      - 1.0 #13 SUPPORT
+    loftempsSet: [ 3 ]
+
+#Cultist Improvised Armor (Male 0)
+  - type: STR_CULTIST_ARMOR_MALE0
+    spriteSheet: CULTIST_ARMOR_MALE0.PCK
+    spriteInv: CULTIST_ARMOR_MALE0
+    corpseBattle:
+      - STR_CORPSE_CULTIST_ARMOR_MALE0
+    frontArmor: 20
+    sideArmor: 16
+    rearArmor: 18
+    underArmor: 12
+    drawingRoutine: 0
+    damageModifier:
+      - 1.0 #0 NONE
+      - 1.0 #1 AP
+      - 1.0 #2 FLAMES
+      - 1.0 #3 HE
+      - 1.0 #4 LASER
+      - 1.0 #5 PLASMA
+      - 1.0 #6 STUN
+      - 1.0 #7 MELEE
+      - 1.0 #8 POWER
+      - 0.0 #9 SMOKE
+      - 1.0 #10 IMPACT
+      - 1.0 #11 MELTA
+      - 1.0 #12 GRAVITON
+      - 1.0 #13 SUPPORT
+    loftempsSet: [ 3 ]
+
+
+#Cultist Improvised Armor (Female 0)
+  - type: STR_CULTIST_ARMOR_FEMALE0
+    spriteSheet: CULTIST_ARMOR_FEMALE0.PCK
+    spriteInv: CULTIST_ARMOR_FEMALE0
+    corpseBattle:
+      - STR_CORPSE_CULTIST_ARMOR_FEMALE0
+    frontArmor: 20
+    sideArmor: 16
+    rearArmor: 18
+    underArmor: 12
+    drawingRoutine: 0
+    damageModifier:
+      - 1.0 #0 NONE
+      - 1.0 #1 AP
+      - 1.0 #2 FLAMES
+      - 1.0 #3 HE
+      - 1.0 #4 LASER
+      - 1.0 #5 PLASMA
+      - 1.0 #6 STUN
+      - 1.0 #7 MELEE
+      - 1.0 #8 POWER
+      - 0.0 #9 SMOKE
+      - 1.0 #10 IMPACT
+      - 1.0 #11 MELTA
+      - 1.0 #12 GRAVITON
+      - 1.0 #13 SUPPORT
+    loftempsSet: [ 3 ]
+
+#Cultist Improvised Armor (Male 1)
+  - type: STR_CULTIST_ARMOR_MALE1
+    spriteSheet: CULTIST_ARMOR_MALE1.PCK
+    spriteInv: CULTIST_ARMOR_MALE1
+    corpseBattle:
+      - STR_CORPSE_CULTIST_ARMOR_MALE1
+    frontArmor: 20
+    sideArmor: 16
+    rearArmor: 18
+    underArmor: 12
+    drawingRoutine: 0
+    damageModifier:
+      - 1.0 #0 NONE
+      - 1.0 #1 AP
+      - 1.0 #2 FLAMES
+      - 1.0 #3 HE
+      - 1.0 #4 LASER
+      - 1.0 #5 PLASMA
+      - 1.0 #6 STUN
+      - 1.0 #7 MELEE
+      - 1.0 #8 POWER
+      - 0.0 #9 SMOKE
+      - 1.0 #10 IMPACT
+      - 1.0 #11 MELTA
+      - 1.0 #12 GRAVITON
+      - 1.0 #13 SUPPORT
+    loftempsSet: [ 3 ]
+
+
+#Cultist Improvised Armor (Female 1)
+  - type: STR_CULTIST_ARMOR_FEMALE1
+    spriteSheet: CULTIST_ARMOR_FEMALE1.PCK
+    spriteInv: CULTIST_ARMOR_FEMALE1
+    corpseBattle:
+      - STR_CORPSE_CULTIST_ARMOR_FEMALE1
+    frontArmor: 20
+    sideArmor: 16
+    rearArmor: 18
+    underArmor: 12
+    drawingRoutine: 0
+    damageModifier:
+      - 1.0 #0 NONE
+      - 1.0 #1 AP
+      - 1.0 #2 FLAMES
+      - 1.0 #3 HE
+      - 1.0 #4 LASER
+      - 1.0 #5 PLASMA
+      - 1.0 #6 STUN
+      - 1.0 #7 MELEE
+      - 1.0 #8 POWER
+      - 0.0 #9 SMOKE
+      - 1.0 #10 IMPACT
+      - 1.0 #11 MELTA
+      - 1.0 #12 GRAVITON
+      - 1.0 #13 SUPPORT
+    loftempsSet: [ 3 ]
+
+#Cultist Improvised Armor (Male 2)
+  - type: STR_CULTIST_ARMOR_MALE2
+    spriteSheet: CULTIST_ARMOR_MALE2.PCK
+    spriteInv: CULTIST_ARMOR_MALE2
+    corpseBattle:
+      - STR_CORPSE_CULTIST_ARMOR_MALE2
+    frontArmor: 20
+    sideArmor: 16
+    rearArmor: 18
+    underArmor: 12
+    drawingRoutine: 0
+    damageModifier:
+      - 1.0 #0 NONE
+      - 1.0 #1 AP
+      - 1.0 #2 FLAMES
+      - 1.0 #3 HE
+      - 1.0 #4 LASER
+      - 1.0 #5 PLASMA
+      - 1.0 #6 STUN
+      - 1.0 #7 MELEE
+      - 1.0 #8 POWER
+      - 0.0 #9 SMOKE
+      - 1.0 #10 IMPACT
+      - 1.0 #11 MELTA
+      - 1.0 #12 GRAVITON
+      - 1.0 #13 SUPPORT
+    loftempsSet: [ 3 ]
+
+
+#Cultist Improvised Armor (Female 2)
+  - type: STR_CULTIST_ARMOR_FEMALE2
+    spriteSheet: CULTIST_ARMOR_FEMALE2.PCK
+    spriteInv: CULTIST_ARMOR_FEMALE2
+    corpseBattle:
+      - STR_CORPSE_CULTIST_ARMOR_FEMALE2
+    frontArmor: 20
+    sideArmor: 16
+    rearArmor: 18
+    underArmor: 12
+    drawingRoutine: 0
+    damageModifier:
+      - 1.0 #0 NONE
+      - 1.0 #1 AP
+      - 1.0 #2 FLAMES
+      - 1.0 #3 HE
+      - 1.0 #4 LASER
+      - 1.0 #5 PLASMA
+      - 1.0 #6 STUN
+      - 1.0 #7 MELEE
+      - 1.0 #8 POWER
+      - 0.0 #9 SMOKE
+      - 1.0 #10 IMPACT
+      - 1.0 #11 MELTA
+      - 1.0 #12 GRAVITON
+      - 1.0 #13 SUPPORT
+    loftempsSet: [ 3 ]
+
+
+#Cultist Heavy Armor (Male 0)
+  - type: STR_CULTIST_HEAVY_ARMOR_MALE0
+    spriteSheet: CULTIST_HEAVY_ARMOR_MALE0.PCK
+    spriteInv: CULTIST_HEAVY_ARMOR_MALE0
+    corpseBattle:
+      - STR_CORPSE_CULTIST_HEAVY_ARMOR_MALE0
+    frontArmor: 24
+    sideArmor: 20
+    rearArmor: 22
+    underArmor: 18
+    drawingRoutine: 0
+    damageModifier:
+      - 1.0 #0 NONE
+      - 1.0 #1 AP
+      - 1.0 #2 FLAMES
+      - 1.0 #3 HE
+      - 1.0 #4 LASER
+      - 1.0 #5 PLASMA
+      - 1.0 #6 STUN
+      - 1.0 #7 MELEE
+      - 1.0 #8 POWER
+      - 0.0 #9 SMOKE
+      - 1.0 #10 IMPACT
+      - 1.0 #11 MELTA
+      - 1.0 #12 GRAVITON
+      - 1.0 #13 SUPPORT
+    loftempsSet: [ 3 ]
+
+#Cultist Heavy Armor (Male 1)
+  - type: STR_CULTIST_HEAVY_ARMOR_MALE1
+    spriteSheet: CULTIST_HEAVY_ARMOR_MALE1.PCK
+    spriteInv: CULTIST_HEAVY_ARMOR_MALE1
+    corpseBattle:
+      - STR_CORPSE_CULTIST_HEAVY_ARMOR_MALE1
+    frontArmor: 24
+    sideArmor: 20
+    rearArmor: 22
+    underArmor: 18
+    drawingRoutine: 0
+    damageModifier:
+      - 1.0 #0 NONE
+      - 1.0 #1 AP
+      - 1.0 #2 FLAMES
+      - 1.0 #3 HE
+      - 1.0 #4 LASER
+      - 1.0 #5 PLASMA
+      - 1.0 #6 STUN
+      - 1.0 #7 MELEE
+      - 1.0 #8 POWER
+      - 0.0 #9 SMOKE
+      - 1.0 #10 IMPACT
+      - 1.0 #11 MELTA
+      - 1.0 #12 GRAVITON
+      - 1.0 #13 SUPPORT
+    loftempsSet: [ 3 ]
+
+#Cultist Heavy Armor (Male 2)
+  - type: STR_CULTIST_HEAVY_ARMOR_MALE2
+    spriteSheet: CULTIST_HEAVY_ARMOR_MALE2.PCK
+    spriteInv: CULTIST_HEAVY_ARMOR_MALE2
+    corpseBattle:
+      - STR_CORPSE_CULTIST_HEAVY_ARMOR_MALE2
+    frontArmor: 24
+    sideArmor: 20
+    rearArmor: 22
+    underArmor: 18
+    drawingRoutine: 0
+    damageModifier:
+      - 1.0 #0 NONE
+      - 1.0 #1 AP
+      - 1.0 #2 FLAMES
+      - 1.0 #3 HE
+      - 1.0 #4 LASER
+      - 1.0 #5 PLASMA
+      - 1.0 #6 STUN
+      - 1.0 #7 MELEE
+      - 1.0 #8 POWER
+      - 0.0 #9 SMOKE
+      - 1.0 #10 IMPACT
+      - 1.0 #11 MELTA
+      - 1.0 #12 GRAVITON
+      - 1.0 #13 SUPPORT
+    loftempsSet: [ 3 ]

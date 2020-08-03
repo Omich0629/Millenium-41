@@ -1,0 +1,31 @@
+ufos:
+#Arvus Lighter (Chaos)
+#(STR_MEDIUM_SCOUT analogue)
+  - type: STR_ARVUS_CHAOS
+#RESOURCES
+    # marker: 122
+    # markerLand: 132
+    # markerCrash: 142
+    # modSprite: Light_Transport_Dogfight
+#STATS
+    size: STR_SMALL
+    damageMax: 600
+    speedMax: 1400 #3800
+    power: 45
+    reload: 40
+    range: 35
+    score: 75
+    breakOffTime: 800
+#TERRAIN
+    battlescapeTerrainData:
+      name: ARVUS_CHAOS
+      mapDataSets:
+        - BLANKS
+        - ARVUS_CHAOS
+      mapBlocks:
+        - name: ARVUS_CHAOS
+          width: 10
+          length: 10
+
+
+

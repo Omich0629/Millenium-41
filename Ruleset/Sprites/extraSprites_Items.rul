@@ -1,0 +1,291 @@
+extraSprites:
+
+### ITEM SPRITES
+
+## BIG SPRITES (INVENTORY SPRITES)
+  - type: BIGOBS.PCK
+    files:
+#100 - 199 - corpses
+      100: Resources/Armors/Arbites/Arbites_Armor/Arbites_Armor_Corpse_Inv.png
+#      101: ...
+#      102: ...
+#      103: ...
+#      104: ...
+      105: Resources/Armors/Cultists/Cultist_Clothes/Male0/Cultist_Clothes_Male0_Corpse_Inv.png
+      106: Resources/Armors/Cultists/Cultist_Clothes/Female0/Cultist_Clothes_Female0_Corpse_Inv.png
+      107: Resources/Armors/Cultists/Cultist_Clothes/Male1/Cultist_Clothes_Male1_Corpse_Inv.png
+      108: Resources/Armors/Cultists/Cultist_Clothes/Female1/Cultist_Clothes_Female1_Corpse_Inv.png
+      109: Resources/Armors/Cultists/Cultist_Clothes/Male2/Cultist_Clothes_Male2_Corpse_Inv.png
+      110: Resources/Armors/Cultists/Cultist_Clothes/Female2/Cultist_Clothes_Female2_Corpse_Inv.png
+
+      111: Resources/Armors/Cultists/Cultist_Armor/Male0/Cultist_Armor_Male0_Corpse_Inv.png
+      112: Resources/Armors/Cultists/Cultist_Armor/Female0/Cultist_Armor_Female0_Corpse_Inv.png
+
+      113: Resources/Armors/Cultists/Cultist_Armor/Male1/Cultist_Armor_Male1_Corpse_Inv.png
+      114: Resources/Armors/Cultists/Cultist_Armor/Female1/Cultist_Armor_Female1_Corpse_Inv.png
+
+      115: Resources/Armors/Cultists/Cultist_Armor/Male2/Cultist_Armor_Male2_Corpse_Inv.png
+      116: Resources/Armors/Cultists/Cultist_Armor/Female2/Cultist_Armor_Female2_Corpse_Inv.png
+
+      117: Resources/Armors/Cultists/Cultist_Heavy_Armor/Male0/Cultist_Heavy_Armor_Male0_Corpse_Inv.png
+      118: Resources/Armors/Cultists/Cultist_Heavy_Armor/Male1/Cultist_Heavy_Armor_Male1_Corpse_Inv.png
+      119: Resources/Armors/Cultists/Cultist_Heavy_Armor/Male2/Cultist_Heavy_Armor_Male2_Corpse_Inv.png
+
+
+#200 - 299 Reserved for special needs
+      200: Resources/Items/Shared/Null_Item/Null_Item_Backpack.png
+
+#300 - 499 Ammo
+      300: Resources/Items/Ammo/Autopistol_Ammo/Autopistol_Magazine_Inv.png
+      301: Resources/Items/Ammo/Autogun_Ammo/Autogun_Magazine_Inv.png
+      302: Resources/Items/Ammo/Heavy_Stubber_Ammo/Heavy_Stubber_Belt_Inv.png
+      303: Resources/Items/Ammo/Shotgun_Ammo/Shotgun_Shells_Inv.png
+      304: Resources/Items/Ammo/Shotgun_Ammo/Shotgun_Slugs_Inv.png
+      305: Resources/Items/Ammo/Sniper_Rifle_Ammo/Sniper_Rifle_Magazine_Inv.png
+      306: Resources/Items/Ammo/Boltpistol_Ammo/Boltpistol_Magazine_EX_Inv.png
+      307: Resources/Items/Ammo/Boltpistol_Ammo/Boltpistol_Magazine_AP_Inv.png
+      308: Resources/Items/Ammo/Boltpistol_Ammo/Boltpistol_Magazine_I_Inv.png
+      309: Resources/Items/Ammo/Boltgun_Ammo/Boltgun_Magazine_EX_Inv.png
+      310: Resources/Items/Ammo/Boltgun_Ammo/Boltgun_Magazine_AP_Inv.png
+      311: Resources/Items/Ammo/Boltgun_Ammo/Boltgun_Magazine_I_Inv.png
+      312: Resources/Items/Ammo/Grenade_Launcher_Ammo/Frag_Grenade_Pack_Inv.png
+      313: Resources/Items/Ammo/Grenade_Launcher_Ammo/Krak_Grenade_Pack_Inv.png
+      314: Resources/Items/Ammo/Grenade_Launcher_Ammo/Smoke_Grenade_Round_Inv.png
+      315: Resources/Items/Ammo/Grenade_Launcher_Ammo/Stun_Grenade_Round_Inv.png
+      316: Resources/Items/Ammo/Flamer_Ammo/Flamer_Fuel_Inv.png
+
+
+
+#500 + Weapons and other stuff
+      500: Resources/Items/PDF/Autopistol/Autopistol_Inv0.png
+      501: Resources/Items/PDF/Autopistol/Autopistol_Inv1.png
+      502: Resources/Items/PDF/Autogun/Autogun_Inv0.png
+      503: Resources/Items/PDF/Autogun/Autogun_Inv1.png
+      504: Resources/Items/PDF/Heavy_Stubber/Heavy_Stubber_Inv0.png
+      505: Resources/Items/PDF/Heavy_Stubber/Heavy_Stubber_Inv0_Deployed.png
+      506: Resources/Items/PDF/Heavy_Stubber/Heavy_Stubber_Inv1.png
+      507: Resources/Items/PDF/Heavy_Stubber/Heavy_Stubber_Inv1_Deployed.png
+      508: Resources/Items/Arbites/Shotgun_Arbites/Shotgun_Arbites_Inv.png
+      509: Resources/Items/Arbites/Sniper_Rifle_Arbites/Sniper_Rifle_Arbites_Inv0.png
+      510: Resources/Items/Arbites/Sniper_Rifle_Arbites/Sniper_Rifle_Arbites_Inv1.png
+      511: Resources/Items/Arbites/Boltpistol_Arbites/Boltpistol_Arbites_Inv0.png
+      512: Resources/Items/Arbites/Boltpistol_Arbites/Boltpistol_Arbites_Inv1.png
+      513: Resources/Items/Arbites/Boltpistol_Arbites/Boltpistol_Arbites_Inv2.png
+      514: Resources/Items/Arbites/Boltpistol_Arbites/Boltpistol_Arbites_Inv3.png
+      515: Resources/Items/Arbites/Boltgun_Arbites/Boltgun_Arbites_Inv0.png
+      516: Resources/Items/Arbites/Boltgun_Arbites/Boltgun_Arbites_Inv1.png
+      517: Resources/Items/Arbites/Boltgun_Arbites/Boltgun_Arbites_Inv2.png
+      518: Resources/Items/Arbites/Boltgun_Arbites/Boltgun_Arbites_Inv3.png
+      519: Resources/Items/Arbites/Grenade_Launcher_Arbites/Grenade_Launcher_Arbites_Inv.png
+      520: Resources/Items/PDF/Frag_Grenade/Frag_Grenade_Inv.png
+      521: Resources/Items/PDF/Krak_Grenade/Krak_Grenade_Inv.png
+      522: Resources/Items/PDF/Smoke_Grenade/Smoke_Grenade_Inv.png
+      523: Resources/Items/PDF/Stun_Grenade/Stun_Granade_Inv.png
+      524: Resources/Items/Arbites/Shock_Maul_Arbites/Shock_Maul_Arbites_Inv.png
+      525: Resources/Items/Arbites/Power_Maul_Arbites/Power_Maul_Arbites_Inv.png
+      526: Resources/Items/Arbites/Suppression_Shield/Suppression_Shield_Inv.png
+      527: Resources/Items/Shared/First_Aid_Kit/First_Aid_Kit_Inv.png
+      528: Resources/Items/Shared/Auspex/Auspex_Inv.png
+      529: Resources/Items/Shared/Fire_Extinguisher/Fire_Extinguisger_Inv.png
+      530: Resources/Items/Shared/Glow_Stick/Glow_Stick_Inv.png      
+      531: Resources/Items/Shared/Electro_Flare/Electro_Flare_Inv.png
+      532: Resources/Items/Renegades/Autopistol_Renegade/Autopistol_Renegade_Inv0.png
+      533: Resources/Items/Renegades/Autopistol_Renegade/Autopistol_Renegade_Inv1.png
+      534: Resources/Items/Renegades/Autogun_Renegade/Autogun_Renegade_Inv0.png
+      535: Resources/Items/Renegades/Autogun_Renegade/Autogun_Renegade_Inv1.png
+      536: Resources/Items/Renegades/Heavy_Stubber_Renegade/Heavy_Stubber_Renegade_Inv0.png
+      537: Resources/Items/Renegades/Heavy_Stubber_Renegade/Heavy_Stubber_Renegade_Inv1.png
+      538: Resources/Items/Renegades/Shotgun_Renagade/Shotgun_Renagade_Inv.png
+      539: Resources/Items/Renegades/Boltpistol_Renegade/Boltpistol_Renegade_Inv0.png
+      540: Resources/Items/Renegades/Boltpistol_Renegade/Boltpistol_Renegade_Inv1.png
+      541: Resources/Items/Renegades/Boltpistol_Renegade/Boltpistol_Renegade_Inv2.png
+      542: Resources/Items/Renegades/Boltpistol_Renegade/Boltpistol_Renegade_Inv3.png
+      543: Resources/Items/Renegades/Boltgun_Renegade/Boltgun_Renegade_Inv0.png
+      544: Resources/Items/Renegades/Boltgun_Renegade/Boltgun_Renegade_Inv1.png
+      545: Resources/Items/Renegades/Boltgun_Renegade/Boltgun_Renegade_Inv2.png
+      546: Resources/Items/Renegades/Boltgun_Renegade/Boltgun_Renegade_Inv3.png
+      547: Resources/Items/Renegades/Flamer_Renegade/Flamer_Renegade_Inv0.png
+      548: Resources/Items/Renegades/Flamer_Renegade/Flamer_Renegade_Inv1.png
+      549: Resources/Items/Renegades/Frag_Grenade_Renegade/Frag_Grenade_Renegade_Inv.png
+      550: Resources/Items/Renegades/Krak_Grenade_Renegade/Krak_Grenade_Renegade_Inv.png
+
+      551: Resources/Items/Renegades/Improvised_Mace/Improvised_Mace_Inv.png
+      552: Resources/Items/Renegades/Improvised_Sword/Improvised_Sword_Inv.png
+
+
+## FLOOR SPRITES
+  - type: FLOOROB.PCK
+    files:
+#100 - 199 - corpses
+      100: Resources/Armors/Arbites/Arbites_Armor/Arbites_Armor_Corpse_Floor.png
+#      101: ...
+#      102: ...
+#      103: ...
+#      104: ...
+      105: Resources/Armors/Cultists/Cultist_Clothes/Male0/Cultist_Clothes_Male0_Corpse_Floor.png
+      106: Resources/Armors/Cultists/Cultist_Clothes/Female0/Cultist_Clothes_Female0_Corpse_Floor.png
+      107: Resources/Armors/Cultists/Cultist_Clothes/Male1/Cultist_Clothes_Male1_Corpse_Floor.png
+      108: Resources/Armors/Cultists/Cultist_Clothes/Female1/Cultist_Clothes_Female1_Corpse_Floor.png
+      109: Resources/Armors/Cultists/Cultist_Clothes/Male2/Cultist_Clothes_Male2_Corpse_Floor.png
+      110: Resources/Armors/Cultists/Cultist_Clothes/Female2/Cultist_Clothes_Female2_Corpse_Floor.png
+
+      111: Resources/Armors/Cultists/Cultist_Armor/Male0/Cultist_Armor_Male0_Corpse_Floor.png
+      112: Resources/Armors/Cultists/Cultist_Armor/Female0/Cultist_Armor_Female0_Corpse_Floor.png
+
+      113: Resources/Armors/Cultists/Cultist_Armor/Male1/Cultist_Armor_Male1_Corpse_Floor.png
+      114: Resources/Armors/Cultists/Cultist_Armor/Female1/Cultist_Armor_Female1_Corpse_Floor.png
+
+      115: Resources/Armors/Cultists/Cultist_Armor/Male2/Cultist_Armor_Male2_Corpse_Floor.png
+      116: Resources/Armors/Cultists/Cultist_Armor/Female2/Cultist_Armor_Female2_Corpse_Floor.png
+
+      117: Resources/Armors/Cultists/Cultist_Heavy_Armor/Male0/Cultist_Heavy_Armor_Male0_Corpse_Floor.png
+      118: Resources/Armors/Cultists/Cultist_Heavy_Armor/Male1/Cultist_Heavy_Armor_Male1_Corpse_Floor.png
+      119: Resources/Armors/Cultists/Cultist_Heavy_Armor/Male2/Cultist_Heavy_Armor_Male2_Corpse_Floor.png
+
+#200 - 299 Reserved for special needs
+
+
+#300 - 499 Ammo
+      300: Resources/Items/Ammo/Autopistol_Ammo/Autopistol_Magazine_Floor.png
+      301: Resources/Items/Ammo/Autogun_Ammo/Autogun_Magazine_Floor.png
+      302: Resources/Items/Ammo/Heavy_Stubber_Ammo/Heavy_Stubber_Belt_Floor.png
+      303: Resources/Items/Ammo/Shotgun_Ammo/Shotgun_Shells_Floor.png
+      304: Resources/Items/Ammo/Shotgun_Ammo/Shotgun_Slugs_Floor.png
+      305: Resources/Items/Ammo/Sniper_Rifle_Ammo/Sniper_Rifle_Magazine_Floor.png
+      306: Resources/Items/Ammo/Boltpistol_Ammo/Boltpistol_Magazine_Floor.png
+#      307: ...
+#      308: ...
+      309: Resources/Items/Ammo/Boltgun_Ammo/Boltgun_Magazine_Floor.png
+#      310: ...
+#      311: ...
+      312: Resources/Items/Ammo/Grenade_Launcher_Ammo/Frag_Grenade_Pack_Floor.png
+      313: Resources/Items/Ammo/Grenade_Launcher_Ammo/Krak_Grenade_Pack_Floor.png
+      314: Resources/Items/Ammo/Grenade_Launcher_Ammo/Smoke_Grenade_Round_Floor.png
+      315: Resources/Items/Ammo/Grenade_Launcher_Ammo/Stun_Grenade_Round_Floor.png
+      316: Resources/Items/Ammo/Flamer_Ammo/Flamer_Fuel_Floor.png
+
+
+
+#500 + Weapons and other stuff
+      500: Resources/Items/PDF/Autopistol/Autopistol_Floor.png
+#      501: ...
+      502: Resources/Items/PDF/Autogun/Autogun_Floor.png
+#      503: ...
+      504: Resources/Items/PDF/Heavy_Stubber/Heavy_Stubber_Floor.png
+#      505: ...
+#      506: ...
+#      507: ...
+      508: Resources/Items/Arbites/Shotgun_Arbites/Shotgun_Arbites_Floor.png
+      509: Resources/Items/Arbites/Sniper_Rifle_Arbites/Sniper_Rifle_Arbites_Floor.png
+#      510: ...
+      511: Resources/Items/Arbites/Boltpistol_Arbites/Boltpistol_Arbites_Floor.png
+#      512: ...
+#      513: ...
+#      514: ...
+      515: Resources/Items/Arbites/Boltgun_Arbites/Boltgun_Arbites_Floor.png
+#      516: ...
+#      517: ...
+#      518: ...
+      519: Resources/Items/Arbites/Grenade_Launcher_Arbites/Grenade_Launcher_Arbites_Floor.png
+      520: Resources/Items/PDF/Frag_Grenade/Frag_Grenade_Floor.png
+      521: Resources/Items/PDF/Krak_Grenade/Krak_Grenade_Floor.png
+      522: Resources/Items/PDF/Smoke_Grenade/Smoke_Grenade_Floor.png
+      523: Resources/Items/PDF/Stun_Grenade/Stun_Granade_Floor.png
+      524: Resources/Items/Arbites/Shock_Maul_Arbites/Shock_Maul_Arbites_Floor.png
+      525: Resources/Items/Arbites/Power_Maul_Arbites/Power_Maul_Arbites_Floor.png
+      526: Resources/Items/Arbites/Suppression_Shield/Suppression_Shield_Floor.png
+      
+      527: Resources/Items/Shared/First_Aid_Kit/First_Aid_Kit_Floor.png
+      528: Resources/Items/Shared/Auspex/Auspex_Floor.png
+      529: Resources/Items/Shared/Fire_Extinguisher/Fire_Extinguisger_Floor.png
+
+      530: Resources/Items/Shared/Glow_Stick/Glow_Stick_Floor.png      
+      531: Resources/Items/Shared/Electro_Flare/Electro_Flare_Floor.png
+
+      532: Resources/Items/Renegades/Autopistol_Renegade/Autopistol_Renegade_Floor.png
+#      533: ...
+
+      534: Resources/Items/Renegades/Autogun_Renegade/Autogun_Renegade_Floor.png
+#      535: ...
+
+      536: Resources/Items/Renegades/Heavy_Stubber_Renegade/Heavy_Stubber_Renegade_Floor.png
+#      537: ...
+
+      538: Resources/Items/Renegades/Shotgun_Renagade/Shotgun_Renagade_Floor.png
+
+      539: Resources/Items/Renegades/Boltpistol_Renegade/Boltpistol_Renegade_Floor.png
+#      540: ...
+#      541: ...
+#      542: ...
+
+      543: Resources/Items/Renegades/Boltgun_Renegade/Boltgun_Renegade_Floor.png
+#      544: ...
+#      545: ...
+#      546: ...
+
+      547: Resources/Items/Renegades/Flamer_Renegade/Flamer_Renegade_Floor.png
+#      548: ...
+#      549: ...
+#      550: ...
+      551: Resources/Items/Renegades/Improvised_Mace/Improvised_Mace_Floor.png
+      552: Resources/Items/Renegades/Improvised_Sword/Improvised_Sword_Floor.png
+
+## HAND SPRITES (contains 8 images)
+  - type: HANDOB.PCK
+    height: 40
+    width: 256
+    subX: 32
+    subY: 40
+    files:
+      88: Resources/Items/Shared/Empty_Hand/Empty_Hand.png
+#Reserved just in case
+      200: Resources/Items/PDF/Autopistol/Autopistol_Hand.png
+      208: Resources/Items/PDF/Autogun/Autogun_Hand.png
+      216: Resources/Items/PDF/Heavy_Stubber/Heavy_Stubber_Hand.png
+      224: Resources/Items/PDF/Heavy_Stubber/Heavy_Stubber_Hand_Deployed.png
+      232: Resources/Items/Arbites/Shotgun_Arbites/Shotgun_Arbites_Hand.png
+      240: Resources/Items/Arbites/Sniper_Rifle_Arbites/Sniper_Rifle_Arbites_Hand.png
+      248: Resources/Items/Arbites/Boltpistol_Arbites/Boltpistol_Arbites_Hand.png
+      256: Resources/Items/Arbites/Boltgun_Arbites/Boltgun_Arbites_Hand.png
+      264: Resources/Items/Arbites/Grenade_Launcher_Arbites/Grenade_Launcher_Arbites_Hand.png
+      272: Resources/Items/PDF/Frag_Grenade/Frag_Grenade_Hand.png
+      280: Resources/Items/PDF/Krak_Grenade/Krak_Grenade_Hand.png
+      288: Resources/Items/PDF/Smoke_Grenade/Smoke_Grenade_Hand.png
+      296: Resources/Items/PDF/Stun_Grenade/Stun_Granade_Hand.png
+      304: Resources/Items/Arbites/Shock_Maul_Arbites/Shock_Maul_Arbites_Hand.png
+      312: Resources/Items/Arbites/Power_Maul_Arbites/Power_Maul_Arbites_Hand.png
+      320: Resources/Items/Arbites/Suppression_Shield/Suppression_Shield_Hand.png
+      328: Resources/Items/Shared/First_Aid_Kit/First_Aid_Kit_Hand.png
+      336: Resources/Items/Shared/Auspex/Auspex_Hand.png
+      344: Resources/Items/Shared/Fire_Extinguisher/Fire_Extinguisger_Hand.png
+      352: Resources/Items/Shared/Glow_Stick/Glow_Stick_Hand.png
+      360: Resources/Items/Shared/Electro_Flare/Electro_Flare_Hand.png
+
+      368: Resources/Items/Renegades/Autopistol_Renegade/Autopistol_Renegade_Hand.png
+      376: Resources/Items/Renegades/Autogun_Renegade/Autogun_Renegade_Hand.png
+      384: Resources/Items/Renegades/Heavy_Stubber_Renegade/Heavy_Stubber_Renegade_Hand.png
+      392: Resources/Items/Renegades/Shotgun_Renagade/Shotgun_Renagade_Hand.png
+      400: Resources/Items/Renegades/Boltpistol_Renegade/Boltpistol_Renegade_Hand.png
+      408: Resources/Items/Renegades/Boltgun_Renegade/Boltgun_Renegade_Hand.png
+      416: Resources/Items/Renegades/Flamer_Renegade/Flamer_Renegade_Hand.png
+      424: Resources/Items/Renegades/Improvised_Mace/Improvised_Mace_Hand.png
+      432: Resources/Items/Renegades/Improvised_Sword/Improvised_Sword_Hand.png
+#      440: Resources/Items/Arbites
+#      448: Resources/Items/Arbites
+#      456: Resources/Items/Arbites
+#      464: Resources/Items/Arbites
+#      472: Resources/Items/Arbites
+#      480: Resources/Items/Arbites
+#      488: Resources/Items/Arbites
+#      496: Resources/Items/Arbites
+#      504: Resources/Items/Arbites
+#      512: Resources/Items/Arbites
+#      520: Resources/Items/Arbites
+#      528: Resources/Items/Arbites
+#      536: Resources/Items/Arbites
+
+
+
+
+
+

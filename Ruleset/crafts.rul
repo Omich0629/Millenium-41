@@ -1,0 +1,61 @@
+crafts:
+  - type: STR_VALKYRIE_ARBITES
+#RESOURCES
+    # marker: 111
+    # sprite: 1101
+#GENERAL
+    # requires:
+      # - STR_IMPERIAL_GUARD_OPERATIONS
+    costBuy: 600000
+    costSell: 300000
+    costRent: 200000
+    transferTime: 36
+    score: 250
+    spacecraft: false
+    listOrder: 180
+#DOGFIGHT
+    damageMax: 400
+    accel: 6
+    fuelMax: 1250
+    speedMax: 1250
+    repairRate: 10
+    refuelRate: 350
+    radarRange: 700
+    radarChance: 80
+    sightRange: 1000
+#WEAPONS
+    # weapons: 3
+    # weaponTypes:
+      # - 0
+      # - 1
+      # - 4
+    # weaponStrings:
+      # - STR_CRAFT_SLOT_ASSAULT
+      # - STR_CRAFT_SLOT_ROCKET
+      # - STR_CRAFT_SLOT_UPGRADE
+#CREW
+    soldiers: 10
+    vehicles: 1
+    pilots: 2
+    allowLanding: true
+#BATTLESCAPE
+    battlescapeTerrainData:
+      name: VALKYRIE_ARBITES
+      mapDataSets:
+        - BLANKS
+        - VALKYRIE_ARBITES
+      mapBlocks:
+        - name: VALKYRIE_ARBITES
+          width: 10
+          length: 20
+    deployment:
+      - [3, 7, 0, 0]
+      - [4, 7, 0, 0]
+      - [5, 7, 0, 0]
+      - [3, 8, 0, 0]
+      - [4, 8, 0, 0]
+      - [5, 8, 0, 0]
+      - [3, 9, 0, 0]
+      - [4, 9, 0, 0]
+      - [5, 9, 0, 0]
+      - [4, 10, 0, 0]

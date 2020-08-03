@@ -1,0 +1,13 @@
+items:
+#ALIEN_ALLOYS replacement.
+  - type: STR_CERAMITE
+    size: 0.1
+    costSell: 2500
+    specialType: 10
+    recoveryPoints: 1
+    recoveryDividers:
+      STR_UFO: 10
+      STR_OTHER: 150
+
+
+#

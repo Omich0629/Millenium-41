@@ -1,0 +1,39 @@
+extended:
+  tags:
+    RuleItem:
+      HEAVY_WEAPON: int
+
+  scripts:
+    reactionUnitReaction:
+
+      - offset: 3
+        code: |
+          var ptr BattleItem rightHandItem;
+          var ptr BattleItem leftHandItem;
+          var ptr RuleItem weaponRuleset;
+          var int rightHandItemTag;
+          var int leftHandItemTag;
+
+          #Get items from both hands.
+          reaction_unit.getRightHandWeapon rightHandItem;
+          reaction_unit.getLeftHandWeapon leftHandItem;
+
+          #Check item in right hand and get tag HEAVY_WEAPON.
+          if neq null rightHandItem;
+            rightHandItem.getRuleItem weaponRuleset;
+            weaponRuleset.getTag rightHandItemTag Tag.HEAVY_WEAPON;
+          end;
+
+          #Check item in left hand and get tag HEAVY_WEAPON.
+          if neq null leftHandItem;
+            leftHandItem.getRuleItem weaponRuleset;
+            weaponRuleset.getTag leftHandItemTag Tag.HEAVY_WEAPON;
+          end;
+
+          #If got at least one item with HEAVY_WEAPON > 0, then set reaction fire chances to zero.
+          if or gt rightHandItemTag 0 gt leftHandItemTag 0;
+            set reaction_chance 0;
+            return reaction_chance;
+          end;
+
+          return reaction_chance;

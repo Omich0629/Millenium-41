@@ -1,0 +1,11 @@
+name: "OpenWH-40k"
+version: "0.01"
+author: "Omich0629, RamoZ-101"
+description: "An experimental mod based on resources from 40k mod. That's an attempt to make warhammer-themed mod in different way."
+id: openWH40k
+master: xcom1
+isMaster: true
+loadResources:
+  - UFO
+reservedSpace: 2
+requiredExtendedVersion: "6.3.4"

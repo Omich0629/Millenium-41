@@ -1,0 +1,464 @@
+items:
+#Ruleset for ammunition.
+
+## AUTOPISTOL MAGAZINE
+
+  - type: STR_AUTOPISTOL_MAGAZINE
+#RESOURCES
+    bigSprite: 300
+    floorSprite: 300
+    handSprite: 88 #(empty hand)
+
+    bulletSprite: 11 #(pistol bullet)
+    bulletSpeed: 25
+
+    hitAnimation: 26
+    explosionSpeed: 2
+
+    fireSound: 4
+    hitSound: 22
+#INFO
+    categories: [STR_CATEGORY_AMMO, STR_CATEGORY_STUB]
+    costBuy: 250
+    costSell: 200
+    listOrder: 1010
+#SPECIFICATION
+    battleType: 2
+    size: 0.1
+    weight: 3
+    invWidth: 1
+    invHeight: 1
+    armor: 30
+#SHOOTING
+    clipSize: 20
+    power: 35
+    damageType: 1
+    damageAlter:
+      RandomType: 2 #50-150%
+      ToArmor: 0.1
+      ToArmorPre: 0.05
+#SCRIPTING
+    tags:
+      AMMO_INDEX: 1
+
+## AUTOGUN MAGAZINE
+  - type: STR_AUTOGUN_MAGAZINE
+#RESOURCES
+    bigSprite: 301
+    floorSprite: 301
+    handSprite: 88 #(empty hand)
+
+    bulletSprite: 12 #(assault rifle bullet)
+    bulletSpeed: 25
+
+    hitAnimation: 26
+    explosionSpeed: 2
+
+    fireSound: 4
+    hitSound: 22
+#INFO
+    categories: [STR_CATEGORY_AMMO, STR_CATEGORY_STUB]
+    costBuy: 500
+    costSell: 400
+    listOrder: 1030
+#SPECIFICATION
+    battleType: 2
+    size: 0.1
+    weight: 3
+    armor: 30
+#SHOOTING
+    clipSize: 30
+    power: 40
+    damageType: 1
+    damageAlter:
+      RandomType: 2 #50-150%
+      ToArmor: 0.1
+      ToArmorPre: 0.07
+#SCRIPTING
+    tags:
+      AMMO_INDEX: 1
+
+## HEAVY STUBBER AMMO BELT
+  - type: STR_HEAVY_STUBBER_AMMO_BELT
+#RESOURCES
+    bigSprite: 302
+    floorSprite: 302
+    handSprite: 88 #(empty hand)
+
+    bulletSprite: 13 #(rifle bullet)
+    bulletSpeed: 25
+
+    hitAnimation: 26
+    explosionSpeed: 3
+
+    fireSound: 4
+    hitSound: 22
+#INFO
+    categories: [STR_CATEGORY_AMMO, STR_CATEGORY_STUB]
+    costBuy: 1000
+    costSell: 700
+    listOrder: 1050
+#SPECIFICATION
+    battleType: 2
+    size: 0.1
+    weight: 7
+    invWidth: 1
+    invHeight: 3
+    armor: 30
+#SHOOTING
+    clipSize: 90
+    power: 45
+    damageType: 1
+    damageAlter:
+      RandomType: 2 #50-150%
+      ToArmor: 0.1
+      ToArmorPre: 0.1
+#SCRIPTING
+    tags:
+      AMMO_INDEX: 1
+
+
+
+#SHOTGUN SHELLS (BUCKSHOT CARTRIDGES)
+  - type: STR_SHOTGUN_SHELLS
+#RESOURCES
+    bigSprite: 303
+    floorSprite: 303
+    handSprite: 88 #empty hand
+
+    bulletSprite: 11 #(pistol bullet)
+    bulletSpeed: 25
+
+    hitAnimation: 26
+
+    fireSound: 4
+    hitSound: 22
+#INFO
+    categories: [STR_CATEGORY_AMMO, STR_CATEGORY_STUB]
+    costBuy: 250
+    costSell: 200
+    listOrder: 1070
+#SPECIFICATION
+    battleType: 2
+    size: 0.1
+    invWidth: 1
+    invHeight: 1
+    weight: 2
+    armor: 30
+#SHOOTING
+    clipSize: 8
+    power: 20
+    damageType: 1
+    damageAlter:
+      RandomType: 2 #50-150%
+      ToArmor: 0.1
+      ToArmorPre: 0.05
+    shotgunBehavior: 1
+    shotgunSpread: 25
+    shotgunPellets: 6
+
+#SHOTGUN SLUGS (SLUG CARTRIDGES)
+  - type: STR_SHOTGUN_SLUGS
+#RESOURCES
+    bigSprite: 304
+    floorSprite: 304
+    handSprite: 88 #empty hand
+
+    bulletSprite: 11 #(pistol bullet)
+    bulletSpeed: 25
+
+    hitAnimation: 26
+
+    fireSound: 4
+    hitSound: 22
+#INFO
+    categories: [STR_CATEGORY_AMMO, STR_CATEGORY_STUB]
+    costBuy: 300
+    costSell: 250
+    listOrder: 1071
+#SPECIFICATION
+    battleType: 2
+    size: 0.1
+    invWidth: 1
+    invHeight: 1
+    weight: 2
+    armor: 30
+#SHOOTING
+    clipSize: 8
+    power: 50
+    damageType: 1
+    damageAlter:
+      RandomType: 2 #50-150%
+      ToArmor: 0.1
+      ToArmorPre: 0.1
+
+#SNIPER RIFLE MAGAZINE
+  - type: STR_SNIPER_RIFLE_MAGAZINE
+#RESOURCES
+    bigSprite: 305
+    floorSprite: 305
+    handSprite: 88 #empty hand
+
+    bulletSprite: 13 #(rifle bullet)
+    bulletSpeed: 25
+
+    hitAnimation: 26
+
+    fireSound: 4
+    hitSound: 22
+#INFO
+    categories: [STR_CATEGORY_AMMO, STR_CATEGORY_STUB]
+    costBuy: 500
+    costSell: 400
+    listOrder: 1090
+#SPECIFICATION
+    battleType: 2
+    size: 0.1
+    invWidth: 1
+    invHeight: 1
+    weight: 3
+    armor: 30
+#SHOOTING
+    clipSize: 10
+    power: 55
+    damageType: 1
+    damageAlter:
+      RandomType: 2 #50-150%
+      ToArmor: 0.1
+      ToArmorPre: 0.1
+#SCRIPTING
+    tags:
+      AMMO_INDEX: 1
+
+#BOLT PISTOL MAGAZINE (EXPLOSIVE)
+  - type: STR_BOLTPISTOL_MAGAZINE_EX
+#RESOURCES
+    bigSprite: 306
+    floorSprite: 306
+    handSprite: 88 #empty hand
+
+    bulletSprite: 15 #(.75 bolt)
+    bulletSpeed: 25
+
+    hitAnimation: 26
+    explosionSpeed: 5
+
+    fireSound: 4
+    hitSound: 22
+#INFO
+    categories: [STR_CATEGORY_AMMO, STR_CATEGORY_BOLT]
+    costBuy: 2500
+    costSell: 2000
+    listOrder: 1310
+#SPECIFICATIONS
+    battleType: 2
+    size: 0.1
+    invWidth: 1
+    invHeight: 1
+    weight: 3
+    armor: 30
+#SHOOTING
+    clipSize: 10
+    power: 60
+    damageType: 3 #EXPLOSIVE
+    damageAlter:
+      RandomType: 2 #50-150%
+      ToArmorPre: 0.15
+      ArmorEffectiveness: 0.9
+      ToArmor: 0.1
+      ToHealth: 1.0
+      FixRadius: 0
+#SCRIPTING
+    tags:
+      AMMO_INDEX: 1
+
+#BOLTGUN MAGAZINE (EXPLOSIVE)
+  - type: STR_BOLTGUN_MAGAZINE_EX
+#RESOURCES
+    bigSprite: 309
+    floorSprite: 309
+    handSprite: 88 #empty hand
+
+    bulletSprite: 15 #(.75 bolt)
+    bulletSpeed: 25
+
+    hitAnimation: 26
+    explosionSpeed: 5
+
+    fireSound: 4
+    hitSound: 22
+#INFO
+    categories: [STR_CATEGORY_AMMO, STR_CATEGORY_BOLT]
+    costBuy: 5000
+    costSell: 4000
+    listOrder: 1420
+#SPECIFICATIONS
+    battleType: 2
+    size: 0.1
+    invWidth: 1
+    invHeight: 2
+    weight: 7
+    armor: 30
+#SHOOTING
+    clipSize: 20
+    power: 60
+    damageType: 3 #EXPLOSIVE
+    damageAlter:
+      RandomType: 2 #50-150%
+      ToArmorPre: 0.15
+      ArmorEffectiveness: 0.9
+      ToArmor: 0.1
+      ToHealth: 1.0
+      FixRadius: 0
+#SCRIPTING
+    tags:
+      AMMO_INDEX: 1
+
+#FRAG GRENADE PACK
+  - type: STR_FRAG_GRENADE_PACK
+#RESOURCES
+    bigSprite: 312
+    floorSprite: 312
+    handSprite: 88 #empty hand
+
+    bulletSprite: 17 #(40mm grenade)
+
+    fireSound: 4
+
+#INFO
+    categories: [STR_CATEGORY_AMMO, STR_CATEGORY_LAUNCHER]
+    costBuy: 1400
+    costSell: 1100
+    listOrder: 1610
+#SPECIFICATION
+    battleType: 2
+    weight: 6
+    size: 0.2
+    invWidth: 2
+    invHeight: 1
+    armor: 30
+#SHOOTING
+    clipSize: 6
+    power: 50
+    damageType: 3
+    damageAlter:
+      RandomType: 2 #50-150%
+      FixRadius: 4
+
+#SMOKE GRENADE ROUND
+  - type: STR_SMOKE_GRENADE_ROUND
+#RESOURCES
+    bigSprite: 314
+    floorSprite: 314
+    handSprite: 88 #empty hand
+
+    bulletSprite: 17 #(40mm grenade)
+
+    fireSound: 4
+
+#INFO
+    categories: [STR_CATEGORY_AMMO, STR_CATEGORY_LAUNCHER]
+    costBuy: 250
+    costSell: 200
+    listOrder: 1612
+#SPECIFICATION
+    battleType: 2
+    weight: 1
+    size: 0.1
+    invWidth: 1
+    invHeight: 1
+    armor: 30
+#SHOOTING
+    clipSize: 1
+    power: 60
+    damageType: 9 #smoke
+    damageAlter:
+      RandomType: 3 #100%
+      ToArmor: 0.0
+      ToArmorPre: 0.0
+      FixRadius: 4
+
+#STUN GRENADE ROUND
+  - type: STR_STUN_GRENADE_ROUND
+#RESOURCES
+    bigSprite: 315
+    floorSprite: 315
+    handSprite: 88 #empty hand
+
+    bulletSprite: 17 #(40mm grenade)
+
+    fireSound: 4
+
+#INFO
+    categories: [STR_CATEGORY_AMMO, STR_CATEGORY_LAUNCHER]
+    costBuy: 250
+    costSell: 200
+    listOrder: 1612
+#SPECIFICATION
+    battleType: 2
+    weight: 1
+    size: 0.1
+    invWidth: 1
+    invHeight: 1
+    armor: 30
+#SHOOTING
+    clipSize: 1
+    power: 50
+    damageType: 6 #STUN
+    damageAlter:
+      RandomType: 2 #50-150%
+      ToArmor: 0.0
+      ToArmorPre: 0.0
+      FixRadius: 2
+
+#FLAMER FUEL
+  - type: STR_FLAMER_FUEL
+#RESOURCES
+    bigSprite: 316
+    floorSprite: 316
+    handSprite: 88 #empty hand
+#    hitSound: 12
+#    hitAnimation: 88 #FLAME
+
+    bulletSpeed: 10
+    explosionSpeed: 2
+
+#INFO
+    categories: [STR_CATEGORY_AMMO, STR_CATEGORY_FLAMER]
+    costBuy: 500
+    costSell: 400
+    listOrder: 2010
+#SPECIFICATION
+    battleType: 2
+    invWidth: 1
+    invHeight: 2
+    size: 0.2
+    weight: 5
+    armor: 30
+#SHOOTING
+    clipSize: 30
+    damageType: 2
+    power: 40
+    damageAlter:
+      RandomType: 2 #TFTD [50% - 150%]
+      ToHealth: 1.0
+      ToMorale: 0.5
+      IgnoreSelfDestruct: false
+    blastRadius: 1
+#SCRIPTING
+    tags:
+      AMMO_INDEX: 1
+
+
+
+
+
+
+
+
+
+
+
+
+
+

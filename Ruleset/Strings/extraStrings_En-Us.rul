@@ -1,0 +1,165 @@
+extraStrings:
+  - type: en-US
+    strings:
+
+### ITEM CATEGORIES ###
+#By type
+      STR_CATEGORY_PISTOL: "Pistol"
+      STR_CATEGORY_ASSAULT: "Assault Weapon"
+      STR_CATEGORY_RAPID: "Rapid Fire Weapon"
+      STR_CATEGORY_HEAVY: "Heavy Weapon"
+      STR_CATEGORY_GRENADE: "Hand Grenade"
+      STR_CATEGORY_MELEE: "Melee Weapon"
+      STR_CATEGORY_AMMO: "Ammo"
+      STR_CATEGORY_ARMOR: "Armor"
+      STR_CATEGORY_UTILITY: "Utility Item"
+
+#By technology
+      STR_CATEGORY_STUB: "Stub Weapon"
+      STR_CATEGORY_BOLT: "Bolt Weapon"
+      STR_CATEGORY_LAUNCHER: "Launcher Weapon"
+      STR_CATEGORY_FLAMER: "Flamer Weapon"
+      STR_CATEGORY_LASER: "Laser Weapon"
+      STR_CATEGORY_PLASMA: "Plasma Weapon"
+      STR_CATEGORY_MELTA: "Melta Weapon"
+      STR_CATEGORY_GRAVITON: "Graviton Weapon"
+      STR_CATEGORY_CHAIN: "Chain Weapon"
+      STR_CATEGORY_POWER: "Power Weapon"
+
+
+#INVENTORY SLOTS#
+      STR_RIGHT_HAND: "R. Hand"
+      STR_LEFT_HAND: "L. Hand "
+      STR_BEHIND_SHOLDER: " "
+      STR_BACK_PACK: "Back Pack"
+      STR_BELT: "Belt"
+      STR_RIGHT_LEG: "R. Leg"
+      STR_LEFT_LEG: "L. Leg"
+      STR_GROUND: "Ground"
+
+### DAMAGE TYPES ###
+      STR_DAMAGE_NONE: "NONE"
+      STR_DAMAGE_ARMOR_PIERCING: "ARMOR PIERCING"
+      STR_DAMAGE_INCENDIARY: "INCENDIARY"
+      STR_DAMAGE_HIGH_EXPLOSIVE: "HIGH EXPLOSIVE"
+      STR_DAMAGE_LASER_BEAM: "LASER"
+      STR_DAMAGE_PLASMA_BEAM: "PLASMA"
+      STR_DAMAGE_STUN: "STUN"
+      STR_DAMAGE_MELEE: "MELEE"
+      STR_DAMAGE_ACID: "POWER"
+      STR_DAMAGE_SMOKE: "SMOKE"
+      STR_DAMAGE_10: "IMPACT SHOCK"
+      STR_DAMAGE_11: "MELTA"
+      STR_DAMAGE_12: "GRAVITON"
+      STR_DAMAGE_13: "SUPPORT"
+
+#ARMORS
+      STR_ARBITES_ARMOR: "Arbites Carapace Armor"
+      STR_ARBITES_DEFENSIVE_EQUIPMENT: "Arbites Defensive Equipment"
+
+      STR_CULTIST_CLOTHES_MALE0: "Cultist Clothes"
+      STR_CULTIST_CLOTHES_FEMALE0: "Cultist Clothes"
+      STR_CULTIST_CLOTHES_MALE1: "Cultist Clothes"
+      STR_CULTIST_CLOTHES_FEMALE1: "Cultist Clothes"
+      STR_CULTIST_CLOTHES_MALE2: "Cultist Clothes"
+      STR_CULTIST_CLOTHES_FEMALE2: "Cultist Clothes"
+
+      STR_CULTIST_ARMOR_MALE0: "Cultist Armor"
+      STR_CULTIST_ARMOR_FEMALE0: "Cultist Armor"
+      STR_CULTIST_ARMOR_MALE1: "Cultist Armor"
+      STR_CULTIST_ARMOR_FEMALE1: "Cultist Armor"
+      STR_CULTIST_ARMOR_MALE2: "Cultist Armor"
+      STR_CULTIST_ARMOR_FEMALE2: "Cultist Armor"
+
+      STR_CULTIST_HEAVY_ARMOR_MALE0: "Cultist Heavy Armor"
+      STR_CULTIST_HEAVY_ARMOR_MALE1: "Cultist Heavy Armor"
+      STR_CULTIST_HEAVY_ARMOR_MALE2: "Cultist Heavy Armor"
+
+#SOLDIERS
+      STR_ARBITES: "Adeptus Arbites"
+
+#ITEMS
+      STR_AUTOPISTOL: "Autopistol"
+      STR_AUTOPISTOL_RENEGADE: "Autopistol (Renegade)"
+      STR_AUTOPISTOL_MAGAZINE: "Autopistol Magazine"
+
+      STR_AUTOGUN: "Autogun"
+      STR_AUTOGUN_RENEGADE: "Autogun (Renegade)"
+      STR_AUTOGUN_MAGAZINE: "Autogun Magazine"
+
+      STR_HEAVY_STUBBER: "Heavy Stubber"
+      STR_HEAVY_STUBBER_RENEGADE: "Heavy Stubber (Renegade)"
+      STR_HEAVY_STUBBER_AMMO_BELT: "Heavy Stubber Ammo Belt"
+
+      STR_SHOTGUN_ARBITES: "Shotgun (Arbites)"
+      STR_SHOTGUN_RENEGADE: "Shotgun (Renegade)"
+      STR_SHOTGUN_SHELLS: "Shotgun Shells"
+      STR_SHOTGUN_SLUGS: "Shotgun Slugs"
+
+      STR_SNIPER_RIFLE_ARBITES: "Sniper Rifle (Arbites)"
+      STR_SNIPER_RIFLE_MAGAZINE: "Sniper Rifle Magazine"
+
+      STR_BOLTPISTOL_ARBITES: "Bolt Pistol (Arbites)"
+      STR_BOLTPISTOL_RENEGADE: "Bolt Pistol (Renegade)"
+      STR_BOLTPISTOL_MAGAZINE_EX: "Bolt Pistol EX Magazine"
+
+      STR_BOLTGUN_ARBITES: "Boltgun (Arbites)"
+      STR_BOLTGUN_RENEGADE: "Boltgun (Renegade)"
+      STR_BOLTGUN_MAGAZINE_EX: "Boltgun EX Magazine"
+
+      STR_GRENADE_LAUNCHER_ARBITES: "Grenade Launcher (Arbites)"
+      STR_FRAG_GRENADE_PACK: "Frag Grenade Pack"
+      STR_SMOKE_GRENADE_ROUND: "Smoke Grenade Round"
+      STR_STUN_GRENADE_ROUND: "Stun Grenade Round"
+
+      STR_FLAMER_RENEGADE: "Flamer (Renegade)"
+      STR_FLAMER_FUEL: "Flamer Fuel"
+
+      STR_FRAG_GRENADE: "Frag Grenade"
+      STR_FRAG_GRENADE_RENEGADE: "Frag Grenade (Renegade)"
+      STR_SMOKE_GRENADE: "Smoke Grenade"
+      STR_STUN_GRENADE: "Stun Grenade"
+
+      STR_IMPROVISED_MACE: "Improvised Mace"
+      STR_IMPROVISED_SWORD: "Improvised Sword"
+      STR_SHOCK_MAUL_ARBITES: "Shock Maul (Arbites)"
+      STR_POWER_MAUL_ARBITES: "Power Maul (Arbites)"
+
+      STR_SUPPRESSION_SHIELD: "Suppression Shield"
+
+      STR_FIRST_AID_KIT: "First Aid Kit"
+      STR_AUSPEX: "Auspex"
+      STR_FIRE_EXTINGUISHER: "Fire Extinguisher"
+      STR_GLOW_STICK: "Glow Stick"
+      STR_ELECTRICAL_FLARE: "Electrical Flare"
+
+#CORPSES
+      STR_CORPSE_CULTIST: "Cultist Corpse"
+
+#CRAFTS
+      STR_VALKYRIE_ARBITES: "Valkyrie"
+
+#UFOS
+      STR_ARVUS_CHAOS: "Chaos Arvus Lighter"
+
+#ALIEN RACES
+      STR_CULTISTS: "Chaos Cultists"
+
+#ENEMY UNITS
+      STR_CULTIST_LIGHT_TROOPER_MALE0: "Cultist Light Trooper"
+      STR_CULTIST_LIGHT_TROOPER_FEMALE0: "Cultist Light Trooper"
+      STR_CULTIST_LIGHT_TROOPER_MALE1: "Cultist Light Trooper"
+      STR_CULTIST_LIGHT_TROOPER_FEMALE1: "Cultist Light Trooper"
+      STR_CULTIST_LIGHT_TROOPER_MALE2: "Cultist Light Trooper"
+      STR_CULTIST_LIGHT_TROOPER_FEMALE2: "Cultist Light Trooper"
+
+      STR_CULTIST_RIFLEMAN_MALE0: "Cultist Rifleman"
+      STR_CULTIST_RIFLEMAN_FEMALE0: "Cultist Rifleman"
+      STR_CULTIST_RIFLEMAN_MALE1: "Cultist Rifleman"
+      STR_CULTIST_RIFLEMAN_FEMALE1: "Cultist Rifleman"
+      STR_CULTIST_RIFLEMAN_MALE2: "Cultist Rifleman"
+      STR_CULTIST_RIFLEMAN_FEMALE2: "Cultist Rifleman"
+
+      STR_CULTIST_HEAVY_TROOPER_MALE0: "Cultist Heavy Trooper"
+      STR_CULTIST_HEAVY_TROOPER_MALE1: "Cultist Heavy Trooper"
+      STR_CULTIST_HEAVY_TROOPER_MALE2: "Cultist Heavy Trooper"

@@ -1,0 +1,134 @@
+armors:
+
+## ARBITES ARMOR ##
+
+  - type: STR_ARBITES_ARMOR
+    visibilityAtDay: 40
+    visibilityAtDark: 9
+    spriteSheet: ARBITES_ARMOR.PCK
+#    customArmorPreviewIndex: 101 
+    corpseBattle:
+      - STR_ARBITES_CORPSE
+    storeItem: STR_NONE
+    frontArmor: 50
+    sideArmor: 50
+    rearArmor: 50
+    underArmor: 50
+    drawingRoutine: 0
+    damageModifier:
+      - 1.0 #0 NONE
+      - 1.0 #1 AP
+      - 1.0 #2 FLAMES
+      - 1.0 #3 EXPLOSIVE
+      - 1.0 #4 LASER
+      - 1.0 #5 PLASMA
+      - 1.0 #6 STUN
+      - 1.0 #7 MELEE
+      - 1.0 #8 POWER
+      - 0.0 #9 SMOKE
+      - 1.0 #10 IMPACT
+      - 1.0 #11 MELTA
+      - 1.0 #12 GRAVITON
+      - 1.0 #13 SUPPORT
+    units:
+      - STR_ARBITES
+    loftempsSet: [ 3 ]
+    builtInWeapons:
+      - STR_NULL_ITEM_BACK_PACK
+
+  - type: STR_ARBITES_ARMOR
+    spriteFaceGroup: 6
+    spriteFaceColor: [96, 96, 96, 96, 160, 160, 163, 163, 96, 96, 96, 96, 96, 96, 96, 96, 160, 160, 163, 163] #M0 F0 M1 F1 M2 F2 M3 F3 M4 F4 M5 F5 M6 F6 M7 F7 M8 F8 M9 F9
+    spriteHairGroup: 9
+    spriteHairColor: [144, 144, 164, 164, 245, 245, 166, 166, 96, 164, 96, 96, 144, 144, 164, 164, 245, 245, 166, 166] #M0 F0 M1 F1 M2 F2 M3 F3 M4 F4 M5 F5 M6 F6 M7 F7 M8 F8 M9 F9
+    layersDefaultPrefix: 0
+    layersSpecificPrefix:
+      4: ARBITES_ARMOR
+    layersDefinition:
+      M0: ["", "HUMAN_FACE_MALE_0", "", "HUMAN_HAIR_MALE_0", "ARBITES_ARMOR_M"]
+      M1: ["", "HUMAN_FACE_MALE_1", "", "HUMAN_HAIR_MALE_1", "ARBITES_ARMOR_M"]
+      M2: ["", "HUMAN_FACE_MALE_2", "", "HUMAN_HAIR_MALE_2", "ARBITES_ARMOR_M"]
+      M3: ["", "HUMAN_FACE_MALE_3", "", "HUMAN_HAIR_MALE_3", "ARBITES_ARMOR_M"]
+      M4: ["", "HUMAN_FACE_MALE_4", "", "", "ARBITES_ARMOR_M"]
+      M5: ["", "HUMAN_FACE_MALE_5", "", "HUMAN_HAIR_MALE_5", "ARBITES_ARMOR_M"]
+      M6: ["", "HUMAN_FACE_MALE_6", "", "", "ARBITES_ARMOR_M"]
+      M7: ["", "HUMAN_FACE_MALE_7", "", "HUMAN_HAIR_MALE_7", "ARBITES_ARMOR_M"]
+      M8: ["", "HUMAN_FACE_MALE_8", "", "HUMAN_HAIR_MALE_8", "ARBITES_ARMOR_M"]
+      M9: ["", "HUMAN_FACE_MALE_9", "", "", "ARBITES_ARMOR_M"]
+      F0: ["", "HUMAN_FACE_FEMALE_0", "", "HUMAN_HAIR_FEMALE_0", "ARBITES_ARMOR_F"]
+      F1: ["", "HUMAN_FACE_FEMALE_1", "", "HUMAN_HAIR_FEMALE_1", "ARBITES_ARMOR_F"]
+      F2: ["", "HUMAN_FACE_FEMALE_2", "", "HUMAN_HAIR_FEMALE_2", "ARBITES_ARMOR_F"]
+      F3: ["", "HUMAN_FACE_FEMALE_3", "", "HUMAN_HAIR_FEMALE_3", "ARBITES_ARMOR_F"]
+      F4: ["", "HUMAN_FACE_FEMALE_4", "", "HUMAN_HAIR_FEMALE_4", "ARBITES_ARMOR_F"]
+      F5: ["", "HUMAN_FACE_FEMALE_5", "", "HUMAN_HAIR_FEMALE_5", "ARBITES_ARMOR_F"]
+      F6: ["", "HUMAN_FACE_FEMALE_6", "", "HUMAN_HAIR_FEMALE_6", "ARBITES_ARMOR_F"]
+      F7: ["", "HUMAN_FACE_FEMALE_7", "", "HUMAN_HAIR_FEMALE_7", "ARBITES_ARMOR_F"]
+      F8: ["", "HUMAN_FACE_FEMALE_8", "", "HUMAN_HAIR_FEMALE_8", "ARBITES_ARMOR_F"]
+      F9: ["", "HUMAN_FACE_FEMALE_9", "", "HUMAN_HAIR_FEMALE_9", "ARBITES_ARMOR_F"]
+
+## ARBITES DEFENSIVE EQUIPMENT ##
+
+  - type: STR_ARBITES_DEFENSIVE_EQUIPMENT
+    visibilityAtDay: 40
+    visibilityAtDark: 9
+    spriteSheet: ARBITES_DEFENSIVE_EQUIPMENT.PCK
+#    customArmorPreviewIndex: 101 
+    corpseBattle:
+      - STR_ARBITES_CORPSE
+    storeItem: STR_NONE
+    frontArmor: 80
+    sideArmor: 65
+    rearArmor: 50
+    underArmor: 50
+    drawingRoutine: 0
+    damageModifier:
+      - 1.0 #0 NONE
+      - 0.9 #1 AP
+      - 1.0 #2 FLAMES
+      - 0.9 #3 EXPLOSIVE
+      - 1.0 #4 LASER
+      - 1.0 #5 PLASMA
+      - 1.0 #6 STUN
+      - 1.0 #7 MELEE
+      - 1.0 #8 POWER
+      - 0.0 #9 SMOKE
+      - 1.0 #10 IMPACT
+      - 1.0 #11 MELTA
+      - 1.0 #12 GRAVITON
+      - 1.0 #13 SUPPORT
+    units:
+      - STR_ARBITES
+    loftempsSet: [ 3 ]
+    builtInWeapons:
+      - STR_NULL_ITEM_BACK_PACK
+      - STR_SUPPRESSION_SHIELD
+
+  - type: STR_ARBITES_DEFENSIVE_EQUIPMENT
+    spriteFaceGroup: 6
+    spriteFaceColor: [96, 96, 96, 96, 160, 160, 163, 163, 96, 96, 96, 96, 96, 96, 96, 96, 160, 160, 163, 163] #M0 F0 M1 F1 M2 F2 M3 F3 M4 F4 M5 F5 M6 F6 M7 F7 M8 F8 M9 F9
+    spriteHairGroup: 9
+    spriteHairColor: [144, 144, 164, 164, 245, 245, 166, 166, 96, 164, 96, 96, 144, 144, 164, 164, 245, 245, 166, 166] #M0 F0 M1 F1 M2 F2 M3 F3 M4 F4 M5 F5 M6 F6 M7 F7 M8 F8 M9 F9
+    layersDefaultPrefix: 0
+    layersSpecificPrefix:
+      4: ARBITES_ARMOR
+    layersDefinition:
+      M0: ["", "HUMAN_FACE_MALE_0", "", "HUMAN_HAIR_MALE_0", "ARBITES_ARMOR_M"]
+      M1: ["", "HUMAN_FACE_MALE_1", "", "HUMAN_HAIR_MALE_1", "ARBITES_ARMOR_M"]
+      M2: ["", "HUMAN_FACE_MALE_2", "", "HUMAN_HAIR_MALE_2", "ARBITES_ARMOR_M"]
+      M3: ["", "HUMAN_FACE_MALE_3", "", "HUMAN_HAIR_MALE_3", "ARBITES_ARMOR_M"]
+      M4: ["", "HUMAN_FACE_MALE_4", "", "", "ARBITES_ARMOR_M"]
+      M5: ["", "HUMAN_FACE_MALE_5", "", "HUMAN_HAIR_MALE_5", "ARBITES_ARMOR_M"]
+      M6: ["", "HUMAN_FACE_MALE_6", "", "", "ARBITES_ARMOR_M"]
+      M7: ["", "HUMAN_FACE_MALE_7", "", "HUMAN_HAIR_MALE_7", "ARBITES_ARMOR_M"]
+      M8: ["", "HUMAN_FACE_MALE_8", "", "HUMAN_HAIR_MALE_8", "ARBITES_ARMOR_M"]
+      M9: ["", "HUMAN_FACE_MALE_9", "", "", "ARBITES_ARMOR_M"]
+      F0: ["", "HUMAN_FACE_FEMALE_0", "", "HUMAN_HAIR_FEMALE_0", "ARBITES_ARMOR_F"]
+      F1: ["", "HUMAN_FACE_FEMALE_1", "", "HUMAN_HAIR_FEMALE_1", "ARBITES_ARMOR_F"]
+      F2: ["", "HUMAN_FACE_FEMALE_2", "", "HUMAN_HAIR_FEMALE_2", "ARBITES_ARMOR_F"]
+      F3: ["", "HUMAN_FACE_FEMALE_3", "", "HUMAN_HAIR_FEMALE_3", "ARBITES_ARMOR_F"]
+      F4: ["", "HUMAN_FACE_FEMALE_4", "", "HUMAN_HAIR_FEMALE_4", "ARBITES_ARMOR_F"]
+      F5: ["", "HUMAN_FACE_FEMALE_5", "", "HUMAN_HAIR_FEMALE_5", "ARBITES_ARMOR_F"]
+      F6: ["", "HUMAN_FACE_FEMALE_6", "", "HUMAN_HAIR_FEMALE_6", "ARBITES_ARMOR_F"]
+      F7: ["", "HUMAN_FACE_FEMALE_7", "", "HUMAN_HAIR_FEMALE_7", "ARBITES_ARMOR_F"]
+      F8: ["", "HUMAN_FACE_FEMALE_8", "", "HUMAN_HAIR_FEMALE_8", "ARBITES_ARMOR_F"]
+      F9: ["", "HUMAN_FACE_FEMALE_9", "", "HUMAN_HAIR_FEMALE_9", "ARBITES_ARMOR_F"]

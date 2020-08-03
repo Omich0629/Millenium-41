@@ -1,0 +1,5 @@
+cutscenes:
+  - delete: intro
+  - type: intro
+    useUfoAudioSequence: false
+    videos: []

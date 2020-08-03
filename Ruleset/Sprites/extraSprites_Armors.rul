@@ -1,0 +1,401 @@
+extraSprites:
+
+### CHARACTER SPRITES
+
+
+#MALE FACES (LAYER 1)
+  - typeSingle: 0__1__HUMAN_FACE_MALE_0
+    fileSingle: Resources/Characters/Human/Human_Face_Male_0.png
+  - typeSingle: 0__1__HUMAN_FACE_MALE_1
+    fileSingle: Resources/Characters/Human/Human_Face_Male_1.png
+  - typeSingle: 0__1__HUMAN_FACE_MALE_2
+    fileSingle: Resources/Characters/Human/Human_Face_Male_2.png
+  - typeSingle: 0__1__HUMAN_FACE_MALE_3
+    fileSingle: Resources/Characters/Human/Human_Face_Male_3.png
+  - typeSingle: 0__1__HUMAN_FACE_MALE_4
+    fileSingle: Resources/Characters/Human/Human_Face_Male_4.png
+  - typeSingle: 0__1__HUMAN_FACE_MALE_5
+    fileSingle: Resources/Characters/Human/Human_Face_Male_5.png
+  - typeSingle: 0__1__HUMAN_FACE_MALE_6
+    fileSingle: Resources/Characters/Human/Human_Face_Male_6.png
+  - typeSingle: 0__1__HUMAN_FACE_MALE_7
+    fileSingle: Resources/Characters/Human/Human_Face_Male_7.png
+  - typeSingle: 0__1__HUMAN_FACE_MALE_8
+    fileSingle: Resources/Characters/Human/Human_Face_Male_8.png
+  - typeSingle: 0__1__HUMAN_FACE_MALE_9
+    fileSingle: Resources/Characters/Human/Human_Face_Male_9.png
+
+#MALE HANDS (LAYER 2)
+  - typeSingle: 0__2__HUMAN_HANDS_MALE_0
+    fileSingle: Resources/Characters/Human/Human_Hands_Male_0.png
+  - typeSingle: 0__2__HUMAN_HANDS_MALE_1
+    fileSingle: Resources/Characters/Human/Human_Hands_Male_1.png
+  - typeSingle: 0__2__HUMAN_HANDS_MALE_2
+    fileSingle: Resources/Characters/Human/Human_Hands_Male_2.png
+
+
+#MALE HAIR (LAYER 3)
+  - typeSingle: 0__3__HUMAN_HAIR_MALE_0
+    fileSingle: Resources/Characters/Human/Human_Hair_Male_0.png
+  - typeSingle: 0__3__HUMAN_HAIR_MALE_1
+    fileSingle: Resources/Characters/Human/Human_Hair_Male_1.png
+  - typeSingle: 0__3__HUMAN_HAIR_MALE_2
+    fileSingle: Resources/Characters/Human/Human_Hair_Male_2.png
+  - typeSingle: 0__3__HUMAN_HAIR_MALE_3
+    fileSingle: Resources/Characters/Human/Human_Hair_Male_3.png
+#Skip variant 4
+  - typeSingle: 0__3__HUMAN_HAIR_MALE_5
+    fileSingle: Resources/Characters/Human/Human_Hair_Male_5.png
+#Skip variant 6
+  - typeSingle: 0__3__HUMAN_HAIR_MALE_7
+    fileSingle: Resources/Characters/Human/Human_Hair_Male_7.png
+  - typeSingle: 0__3__HUMAN_HAIR_MALE_8
+    fileSingle: Resources/Characters/Human/Human_Hair_Male_8.png
+
+
+
+#FEMALE FACES (LAYER 1)
+  - typeSingle: 0__1__HUMAN_FACE_FEMALE_0
+    fileSingle: Resources/Characters/Human/Human_Face_Female_0.png
+  - typeSingle: 0__1__HUMAN_FACE_FEMALE_1
+    fileSingle: Resources/Characters/Human/Human_Face_Female_1.png
+  - typeSingle: 0__1__HUMAN_FACE_FEMALE_2
+    fileSingle: Resources/Characters/Human/Human_Face_Female_2.png
+  - typeSingle: 0__1__HUMAN_FACE_FEMALE_3
+    fileSingle: Resources/Characters/Human/Human_Face_Female_3.png
+  - typeSingle: 0__1__HUMAN_FACE_FEMALE_4
+    fileSingle: Resources/Characters/Human/Human_Face_Female_4.png
+  - typeSingle: 0__1__HUMAN_FACE_FEMALE_5
+    fileSingle: Resources/Characters/Human/Human_Face_Female_5.png
+  - typeSingle: 0__1__HUMAN_FACE_FEMALE_6
+    fileSingle: Resources/Characters/Human/Human_Face_Female_6.png
+  - typeSingle: 0__1__HUMAN_FACE_FEMALE_7
+    fileSingle: Resources/Characters/Human/Human_Face_Female_7.png
+  - typeSingle: 0__1__HUMAN_FACE_FEMALE_8
+    fileSingle: Resources/Characters/Human/Human_Face_Female_8.png
+  - typeSingle: 0__1__HUMAN_FACE_FEMALE_9
+    fileSingle: Resources/Characters/Human/Human_Face_Female_9.png
+
+#FEMALE HANDS (LAYER 2)
+  - typeSingle: 0__2__HUMAN_HANDS_FEMALE_0
+    fileSingle: Resources/Characters/Human/Human_Hands_Female_0.png
+  - typeSingle: 0__2__HUMAN_HANDS_FEMALE_1
+    fileSingle: Resources/Characters/Human/Human_Hands_Female_1.png
+  - typeSingle: 0__2__HUMAN_HANDS_FEMALE_2
+    fileSingle: Resources/Characters/Human/Human_Hands_Female_2.png
+
+
+#FEMALE HAIR (LAYER 3)
+  - typeSingle: 0__3__HUMAN_HAIR_FEMALE_0
+    fileSingle: Resources/Characters/Human/Human_Hair_Female_0.png
+  - typeSingle: 0__3__HUMAN_HAIR_FEMALE_1
+    fileSingle: Resources/Characters/Human/Human_Hair_Female_1.png
+  - typeSingle: 0__3__HUMAN_HAIR_FEMALE_2
+    fileSingle: Resources/Characters/Human/Human_Hair_Female_2.png
+  - typeSingle: 0__3__HUMAN_HAIR_FEMALE_3
+    fileSingle: Resources/Characters/Human/Human_Hair_Female_3.png
+  - typeSingle: 0__3__HUMAN_HAIR_FEMALE_4
+    fileSingle: Resources/Characters/Human/Human_Hair_Female_4.png
+  - typeSingle: 0__3__HUMAN_HAIR_FEMALE_5
+    fileSingle: Resources/Characters/Human/Human_Hair_Female_5.png
+  - typeSingle: 0__3__HUMAN_HAIR_FEMALE_6
+    fileSingle: Resources/Characters/Human/Human_Hair_Female_6.png
+  - typeSingle: 0__3__HUMAN_HAIR_FEMALE_7
+    fileSingle: Resources/Characters/Human/Human_Hair_Female_7.png
+  - typeSingle: 0__3__HUMAN_HAIR_FEMALE_8
+    fileSingle: Resources/Characters/Human/Human_Hair_Female_8.png
+  - typeSingle: 0__3__HUMAN_HAIR_FEMALE_9
+    fileSingle: Resources/Characters/Human/Human_Hair_Female_9.png
+
+
+
+### ARMORS SPRITES
+
+## ARBITES CARAPACE ARMOR ##
+
+#inventory
+  - typeSingle: ARBITES_ARMOR__4__ARBITES_ARMOR_M
+    fileSingle: Resources/Armors/Arbites/Arbites_Armor/Arbites_Armor_Inv_Male.png
+
+  - typeSingle: ARBITES_ARMOR__4__ARBITES_ARMOR_F
+    fileSingle: Resources/Armors/Arbites/Arbites_Armor/Arbites_Armor_Inv_Female.png
+
+#battlescape
+  - type: ARBITES_ARMOR.PCK
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Armors/Arbites/Arbites_Armor/Arbites_Armor_Battlescape.png
+
+## ARBITES DEFENSIVE EQUIPMENT ##
+
+#battlescape
+  - type: ARBITES_DEFENSIVE_EQUIPMENT.PCK
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Armors/Arbites/Arbites_Defensive_Equipment/Arbites_Defensive_Equipment_Battlescape.png
+
+## CULTIST CLOTHES (MALE0) ##
+
+#inventory
+  - type: CULTIST_CLOTHES_MALE0.SPK
+    singleImage: true
+    files:
+      0: Resources/Armors/Cultists/Cultist_Clothes/Male0/Cultist_Clothes_Male0_Inv.png
+
+#battlescape
+  - type: CULTIST_CLOTHES_MALE0.PCK
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Armors/Cultists/Cultist_Clothes/Male0/Cultist_Clothes_Male0_Battlescape.png
+
+## CULTIST CLOTHES (FEMALE0) ##
+
+#inventory
+  - type: CULTIST_CLOTHES_FEMALE0.SPK
+    singleImage: true
+    files:
+      0: Resources/Armors/Cultists/Cultist_Clothes/Female0/Cultist_Clothes_Female0_Inv.png
+
+#battlescape
+  - type: CULTIST_CLOTHES_FEMALE0.PCK
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Armors/Cultists/Cultist_Clothes/Female0/Cultist_Clothes_Female0_Battlescape.png
+
+
+## CULTIST CLOTHES (MALE1) ##
+
+#inventory
+  - type: CULTIST_CLOTHES_MALE1.SPK
+    singleImage: true
+    files:
+      0: Resources/Armors/Cultists/Cultist_Clothes/Male1/Cultist_Clothes_Male1_Inv.png
+
+#battlescape
+  - type: CULTIST_CLOTHES_MALE1.PCK
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Armors/Cultists/Cultist_Clothes/Male1/Cultist_Clothes_Male1_Battlescape.png
+
+## CULTIST CLOTHES (FEMALE1) ##
+
+#inventory
+  - type: CULTIST_CLOTHES_FEMALE1.SPK
+    singleImage: true
+    files:
+      0: Resources/Armors/Cultists/Cultist_Clothes/Female1/Cultist_Clothes_Female1_Inv.png
+
+#battlescape
+  - type: CULTIST_CLOTHES_FEMALE1.PCK
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Armors/Cultists/Cultist_Clothes/Female1/Cultist_Clothes_Female1_Battlescape.png
+
+
+## CULTIST CLOTHES (MALE2) ##
+
+#inventory
+  - type: CULTIST_CLOTHES_MALE2.SPK
+    singleImage: true
+    files:
+      0: Resources/Armors/Cultists/Cultist_Clothes/Male2/Cultist_Clothes_Male2_Inv.png
+
+#battlescape
+  - type: CULTIST_CLOTHES_MALE2.PCK
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Armors/Cultists/Cultist_Clothes/Male2/Cultist_Clothes_Male2_Battlescape.png
+
+## CULTIST CLOTHES (FEMALE2) ##
+
+#inventory
+  - type: CULTIST_CLOTHES_FEMALE2.SPK
+    singleImage: true
+    files:
+      0: Resources/Armors/Cultists/Cultist_Clothes/Female2/Cultist_Clothes_Female2_Inv.png
+
+#battlescape
+  - type: CULTIST_CLOTHES_FEMALE2.PCK
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Armors/Cultists/Cultist_Clothes/Female2/Cultist_Clothes_Female2_Battlescape.png
+
+
+## CULTIST ARMOR (MALE0) ##
+
+#inventory
+  - type: CULTIST_ARMOR_MALE0.SPK
+    singleImage: true
+    files:
+      0: Resources/Armors/Cultists/Cultist_Armor/Male0/Cultist_Armor_Male0_Inv.png
+
+#battlescape
+  - type: CULTIST_ARMOR_MALE0.PCK
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Armors/Cultists/Cultist_Armor/Male0/Cultist_Armor_Male0_Battlescape.png
+
+## CULTIST ARMOR (FEMALE0) ##
+
+#inventory
+  - type: CULTIST_ARMOR_FEMALE0.SPK
+    singleImage: true
+    files:
+      0: Resources/Armors/Cultists/Cultist_Armor/Female0/Cultist_Armor_Female0_Inv.png
+
+#battlescape
+  - type: CULTIST_ARMOR_FEMALE0.PCK
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Armors/Cultists/Cultist_Armor/Female0/Cultist_Armor_Female0_Battlescape.png
+
+## CULTIST ARMOR (MALE1) ##
+
+#inventory
+  - type: CULTIST_ARMOR_MALE1.SPK
+    singleImage: true
+    files:
+      0: Resources/Armors/Cultists/Cultist_Armor/Male1/Cultist_Armor_Male1_Inv.png
+
+#battlescape
+  - type: CULTIST_ARMOR_MALE1.PCK
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Armors/Cultists/Cultist_Armor/Male1/Cultist_Armor_Male1_Battlescape.png
+
+## CULTIST ARMOR (FEMALE1) ##
+
+#inventory
+  - type: CULTIST_ARMOR_FEMALE1.SPK
+    singleImage: true
+    files:
+      0: Resources/Armors/Cultists/Cultist_Armor/Female1/Cultist_Armor_Female1_Inv.png
+
+#battlescape
+  - type: CULTIST_ARMOR_FEMALE1.PCK
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Armors/Cultists/Cultist_Armor/Female1/Cultist_Armor_Female1_Battlescape.png
+
+
+## CULTIST ARMOR (MALE2) ##
+
+#inventory
+  - type: CULTIST_ARMOR_MALE2.SPK
+    singleImage: true
+    files:
+      0: Resources/Armors/Cultists/Cultist_Armor/Male2/Cultist_Armor_Male2_Inv.png
+
+#battlescape
+  - type: CULTIST_ARMOR_MALE2.PCK
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Armors/Cultists/Cultist_Armor/Male2/Cultist_Armor_Male2_Battlescape.png
+
+## CULTIST ARMOR (FEMALE2) ##
+
+#inventory
+  - type: CULTIST_ARMOR_FEMALE2.SPK
+    singleImage: true
+    files:
+      0: Resources/Armors/Cultists/Cultist_Armor/Female2/Cultist_Armor_Female2_Inv.png
+
+#battlescape
+  - type: CULTIST_ARMOR_FEMALE2.PCK
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Armors/Cultists/Cultist_Armor/Female2/Cultist_Armor_Female2_Battlescape.png
+
+
+## CULTIST HEAVY ARMOR (MALE0) ##
+
+#inventory
+  - type: CULTIST_HEAVY_ARMOR_MALE0.SPK
+    singleImage: true
+    files:
+      0: Resources/Armors/Cultists/Cultist_Heavy_Armor/Male0/Cultist_Heavy_Armor_Male0_Inv.png
+
+#battlescape
+  - type: CULTIST_HEAVY_ARMOR_MALE0.PCK
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Armors/Cultists/Cultist_Heavy_Armor/Male0/Cultist_Heavy_Armor_Male0_Battlescape.png
+
+## CULTIST HEAVY ARMOR (MALE1) ##
+
+#inventory
+  - type: CULTIST_HEAVY_ARMOR_MALE1.SPK
+    singleImage: true
+    files:
+      0: Resources/Armors/Cultists/Cultist_Heavy_Armor/Male1/Cultist_Heavy_Armor_Male1_Inv.png
+
+#battlescape
+  - type: CULTIST_HEAVY_ARMOR_MALE1.PCK
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Armors/Cultists/Cultist_Heavy_Armor/Male1/Cultist_Heavy_Armor_Male1_Battlescape.png
+
+## CULTIST HEAVY ARMOR (MALE2) ##
+
+#inventory
+  - type: CULTIST_HEAVY_ARMOR_MALE2.SPK
+    singleImage: true
+    files:
+      0: Resources/Armors/Cultists/Cultist_Heavy_Armor/Male2/Cultist_Heavy_Armor_Male2_Inv.png
+
+#battlescape
+  - type: CULTIST_HEAVY_ARMOR_MALE2.PCK
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Armors/Cultists/Cultist_Heavy_Armor/Male2/Cultist_Heavy_Armor_Male2_Battlescape.png
