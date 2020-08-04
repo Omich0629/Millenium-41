@@ -1,1 +1,3 @@
 initialFunding: 0
+#1 squad leader per 10 regular soldiers
+soldiersPerSergeant: 10

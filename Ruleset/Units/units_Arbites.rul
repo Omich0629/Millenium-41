@@ -1,5 +1,6 @@
 soldiers:
 
+#Playable units
 #ADEPTUS ARBITES
 
   - type: STR_ARBITES
@@ -70,13 +71,15 @@ soldiers:
     avatarOffsetX: 66
     avatarOffsetY: 41
     soldierNames:
-      - SoldierName/
+      - delete
+      - Names/Human_Names/
+
     deathMale: [41, 42, 43]
     deathFemale: [44, 45, 46]
-    # rankStrings:
-      # - STR_GUARDSMAN_RANK_0
-      # - STR_GUARDSMAN_RANK_1
-      # - STR_GUARDSMAN_RANK_2
+    rankStrings:
+      - STR_ARBITES_RANK0
+      - STR_ARBITES_RANK1
+      - STR_ARBITES_RANK2
     value: 15
     # rankSprite: 802
     # rankBattleSprite: 302

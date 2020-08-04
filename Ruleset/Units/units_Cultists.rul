@@ -1,5 +1,8 @@
 units:
 
+#AI units
+#CHAOS CULT
+
 #Cultist Light Trooper (Male 0)
   - type: STR_CULTIST_LIGHT_TROOPER_MALE0
     race: STR_CULTISTS

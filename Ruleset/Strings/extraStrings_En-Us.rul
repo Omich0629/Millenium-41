@@ -78,6 +78,11 @@ extraStrings:
 #SOLDIERS
       STR_ARBITES: "Adeptus Arbites"
 
+#RANKS
+      STR_ARBITES_RANK0: "Arbitrator"
+      STR_ARBITES_RANK1: "Arbitrator"
+      STR_ARBITES_RANK2: "Proctor"
+
 #ITEMS
       STR_AUTOPISTOL: "Autopistol"
       STR_AUTOPISTOL_RENEGADE: "Autopistol (Renegade)"
