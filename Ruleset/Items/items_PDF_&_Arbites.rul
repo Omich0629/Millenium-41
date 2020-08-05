@@ -154,7 +154,7 @@ items:
 #SPECIFICATIONS
     battleType: 1
     size: 0.3
-    weight: 25
+    weight: 10
     invWidth: 2
     invHeight: 3
     armor: 50
@@ -168,8 +168,8 @@ items:
 #SHOOTING
     dropoff: 8
 
-    accuracyAimed: 65
-    tuAimed: 20
+    accuracyAimed: 60
+    tuAimed: 65
     aimRange: 10
 
     accuracySnap: 50
@@ -319,6 +319,8 @@ items:
     invHeight: 3
     armor: 60
     attraction: 1
+    twoHanded: true
+    oneHandedPenalty: 50
 #SHOOTING
     arcingShot: true
     dropoff: 5
