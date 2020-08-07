@@ -15,7 +15,7 @@ soldiers:
       bravery: 10
       reactions: 30
       firing: 45
-      throwing: 45
+      throwing: 25
       strength: 20
       melee: 25
       psiStrength: 0
@@ -28,7 +28,7 @@ soldiers:
       bravery: 60
       reactions: 60
       firing: 65
-      throwing: 65
+      throwing: 30
       strength: 30
       melee: 45
       psiStrength: 100
@@ -41,7 +41,7 @@ soldiers:
       bravery: 100
       reactions: 80
       firing: 90
-      throwing: 90
+      throwing: 45
       strength: 60
       melee: 90
       psiStrength: 100
@@ -52,7 +52,7 @@ soldiers:
       stamina: 70
       health: 45
       firing: 80
-      throwing: 80
+      throwing: 40
       strength: 60
       melee: 80
       psiStrength: 100
