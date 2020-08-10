@@ -9,6 +9,102 @@ items:
     fixedWeapon: true
     recover: false
 
+## GENERIC WEAPONS
+
+## FRAG HAND GRENADE (HUMAN-SIZED)
+  - type: STR_FRAG_GRENADE
+#RESOURCES
+    bigSprite: 520
+    floorSprite: 520
+    handSprite: 272
+#    hitAnimation: 184 #AOE Explosion
+#    explosionHitSound: [1045, 1046, 1047, 1048, 1049] #Grenade explosion
+#INFO
+    categories: [STR_CATEGORY_GRENADE]
+    costBuy: 500
+    costSell: 250
+    listOrder: 1700
+#SPECIFICATIONS
+    battleType: 4
+    size: 0.1
+    weight: 4
+    invWidth: 1
+    invHeight: 1
+#THROWING
+    power: 50
+    damageType: 3
+    damageAlter:
+      RandomType: 2 #50-150%
+      FixRadius: 4
+    tuThrow: 30
+    tuPrime: 30
+    flatRate: false
+
+
+## SMOKE HAND GRENADE (HUMAN-SIZED)
+  - type: STR_SMOKE_GRENADE 
+#RESOURCES
+    bigSprite: 522
+    floorSprite: 522
+    handSprite: 288
+    # explosionHitSound: 792 #792 Smoke
+    # hitAnimation: 104 #XSmoke
+#INFO
+    categories: [STR_CATEGORY_GRENADE]
+    costBuy: 400
+    costSell: 200
+    listOrder: 1720
+#SPECIFICATIONS
+    battleType: 4
+    size: 0.1
+    weight: 4
+    invWidth: 1
+    invHeight: 1
+#THROWING
+    power: 60
+    damageType: 9 #smoke
+    damageAlter:
+      RandomType: 3 #100%
+      FixRadius: 4
+    tuThrow: 30
+    tuPrime: 30
+    flatRate: false
+
+
+## STUN HAND GRENADE (HUMAN-SIZED)
+
+  - type: STR_STUN_GRENADE
+#RESOURCES
+    bigSprite: 523
+    floorSprite: 523
+    handSprite: 296
+    # hitAnimation: 104
+#INFO
+    categories: [STR_CATEGORY_GRENADE]
+    costBuy: 600
+    costSell: 300
+    listOrder: 1730
+#SPECIFICATIONS
+    battleType: 4
+    size: 0.1
+    weight: 4
+    invWidth: 1
+    invHeight: 1
+#THROWING
+    power: 50
+    damageType: 6 #STUN
+    damageAlter:
+      RandomType: 2 #50-150%
+      ToArmor: 0.0
+      ToArmorPre: 0.0
+      FixRadius: 2
+    tuThrow: 30
+    tuPrime: 30
+    flatRate: false
+
+
+
+## GENERIC UTILITY ITEMS
 
 ## FIRST AID KIT ##
   - type: STR_FIRST_AID_KIT

@@ -33,7 +33,7 @@ extraSprites:
 
 
 #200 - 299 Reserved for special needs
-      200: Resources/Items/Shared/Null_Item/Null_Item_Backpack.png
+      200: Resources/Items/Generic/Null_Item/Null_Item_Backpack.png
 
 #300 - 499 Ammo
       300: Resources/Items/Ammo/Autopistol_Ammo/Autopistol_Magazine_Inv.png
@@ -57,14 +57,14 @@ extraSprites:
 
 
 #500 + Weapons and other stuff
-      500: Resources/Items/PDF/Autopistol/Autopistol_Inv0.png
-      501: Resources/Items/PDF/Autopistol/Autopistol_Inv1.png
-      502: Resources/Items/PDF/Autogun/Autogun_Inv0.png
-      503: Resources/Items/PDF/Autogun/Autogun_Inv1.png
-      504: Resources/Items/PDF/Heavy_Stubber/Heavy_Stubber_Inv0.png
-      505: Resources/Items/PDF/Heavy_Stubber/Heavy_Stubber_Inv0_Deployed.png
-      506: Resources/Items/PDF/Heavy_Stubber/Heavy_Stubber_Inv1.png
-      507: Resources/Items/PDF/Heavy_Stubber/Heavy_Stubber_Inv1_Deployed.png
+      500: Resources/Items/Arbites/Autopistol_Arbites/Autopistol_Arbites_Inv0.png
+      501: Resources/Items/Arbites/Autopistol_Arbites/Autopistol_Arbites_Inv1.png
+      502: Resources/Items/Arbites/Autogun_Arbites/Autogun_Arbites_Inv0.png
+      503: Resources/Items/Arbites/Autogun_Arbites/Autogun_Arbites_Inv1.png
+      504: Resources/Items/Arbites/Heavy_Stubber_Arbites/Heavy_Stubber_Arbites_Inv0.png
+      505: Resources/Items/Arbites/Heavy_Stubber_Arbites/Heavy_Stubber_Arbites_Inv0_Deployed.png
+      506: Resources/Items/Arbites/Heavy_Stubber_Arbites/Heavy_Stubber_Arbites_Inv1.png
+      507: Resources/Items/Arbites/Heavy_Stubber_Arbites/Heavy_Stubber_Arbites_Inv1_Deployed.png
       508: Resources/Items/Arbites/Shotgun_Arbites/Shotgun_Arbites_Inv.png
       509: Resources/Items/Arbites/Sniper_Rifle_Arbites/Sniper_Rifle_Arbites_Inv0.png
       510: Resources/Items/Arbites/Sniper_Rifle_Arbites/Sniper_Rifle_Arbites_Inv1.png
@@ -77,18 +77,18 @@ extraSprites:
       517: Resources/Items/Arbites/Boltgun_Arbites/Boltgun_Arbites_Inv2.png
       518: Resources/Items/Arbites/Boltgun_Arbites/Boltgun_Arbites_Inv3.png
       519: Resources/Items/Arbites/Grenade_Launcher_Arbites/Grenade_Launcher_Arbites_Inv.png
-      520: Resources/Items/PDF/Frag_Grenade/Frag_Grenade_Inv.png
-      521: Resources/Items/PDF/Krak_Grenade/Krak_Grenade_Inv.png
-      522: Resources/Items/PDF/Smoke_Grenade/Smoke_Grenade_Inv.png
-      523: Resources/Items/PDF/Stun_Grenade/Stun_Granade_Inv.png
+      520: Resources/Items/Generic/Frag_Grenade/Frag_Grenade_Inv.png
+      521: Resources/Items/Generic/Krak_Grenade/Krak_Grenade_Inv.png
+      522: Resources/Items/Generic/Smoke_Grenade/Smoke_Grenade_Inv.png
+      523: Resources/Items/Generic/Stun_Grenade/Stun_Granade_Inv.png
       524: Resources/Items/Arbites/Shock_Maul_Arbites/Shock_Maul_Arbites_Inv.png
       525: Resources/Items/Arbites/Power_Maul_Arbites/Power_Maul_Arbites_Inv.png
       526: Resources/Items/Arbites/Suppression_Shield/Suppression_Shield_Inv.png
-      527: Resources/Items/Shared/First_Aid_Kit/First_Aid_Kit_Inv.png
-      528: Resources/Items/Shared/Auspex/Auspex_Inv.png
-      529: Resources/Items/Shared/Fire_Extinguisher/Fire_Extinguisger_Inv.png
-      530: Resources/Items/Shared/Glow_Stick/Glow_Stick_Inv.png      
-      531: Resources/Items/Shared/Electro_Flare/Electro_Flare_Inv.png
+      527: Resources/Items/Generic/First_Aid_Kit/First_Aid_Kit_Inv.png
+      528: Resources/Items/Generic/Auspex/Auspex_Inv.png
+      529: Resources/Items/Generic/Fire_Extinguisher/Fire_Extinguisger_Inv.png
+      530: Resources/Items/Generic/Glow_Stick/Glow_Stick_Inv.png      
+      531: Resources/Items/Generic/Electro_Flare/Electro_Flare_Inv.png
       532: Resources/Items/Renegades/Autopistol_Renegade/Autopistol_Renegade_Inv0.png
       533: Resources/Items/Renegades/Autopistol_Renegade/Autopistol_Renegade_Inv1.png
       534: Resources/Items/Renegades/Autogun_Renegade/Autogun_Renegade_Inv0.png
@@ -167,11 +167,11 @@ extraSprites:
 
 
 #500 + Weapons and other stuff
-      500: Resources/Items/PDF/Autopistol/Autopistol_Floor.png
+      500: Resources/Items/Arbites/Autopistol_Arbites/Autopistol_Arbites_Floor.png
 #      501: ...
-      502: Resources/Items/PDF/Autogun/Autogun_Floor.png
+      502: Resources/Items/Arbites/Autogun_Arbites/Autogun_Arbites_Floor.png
 #      503: ...
-      504: Resources/Items/PDF/Heavy_Stubber/Heavy_Stubber_Floor.png
+      504: Resources/Items/Arbites/Heavy_Stubber_Arbites/Heavy_Stubber_Arbites_Floor.png
 #      505: ...
 #      506: ...
 #      507: ...
@@ -187,20 +187,20 @@ extraSprites:
 #      517: ...
 #      518: ...
       519: Resources/Items/Arbites/Grenade_Launcher_Arbites/Grenade_Launcher_Arbites_Floor.png
-      520: Resources/Items/PDF/Frag_Grenade/Frag_Grenade_Floor.png
-      521: Resources/Items/PDF/Krak_Grenade/Krak_Grenade_Floor.png
-      522: Resources/Items/PDF/Smoke_Grenade/Smoke_Grenade_Floor.png
-      523: Resources/Items/PDF/Stun_Grenade/Stun_Granade_Floor.png
+      520: Resources/Items/Generic/Frag_Grenade/Frag_Grenade_Floor.png
+      521: Resources/Items/Generic/Krak_Grenade/Krak_Grenade_Floor.png
+      522: Resources/Items/Generic/Smoke_Grenade/Smoke_Grenade_Floor.png
+      523: Resources/Items/Generic/Stun_Grenade/Stun_Granade_Floor.png
       524: Resources/Items/Arbites/Shock_Maul_Arbites/Shock_Maul_Arbites_Floor.png
       525: Resources/Items/Arbites/Power_Maul_Arbites/Power_Maul_Arbites_Floor.png
       526: Resources/Items/Arbites/Suppression_Shield/Suppression_Shield_Floor.png
       
-      527: Resources/Items/Shared/First_Aid_Kit/First_Aid_Kit_Floor.png
-      528: Resources/Items/Shared/Auspex/Auspex_Floor.png
-      529: Resources/Items/Shared/Fire_Extinguisher/Fire_Extinguisger_Floor.png
+      527: Resources/Items/Generic/First_Aid_Kit/First_Aid_Kit_Floor.png
+      528: Resources/Items/Generic/Auspex/Auspex_Floor.png
+      529: Resources/Items/Generic/Fire_Extinguisher/Fire_Extinguisger_Floor.png
 
-      530: Resources/Items/Shared/Glow_Stick/Glow_Stick_Floor.png      
-      531: Resources/Items/Shared/Electro_Flare/Electro_Flare_Floor.png
+      530: Resources/Items/Generic/Glow_Stick/Glow_Stick_Floor.png      
+      531: Resources/Items/Generic/Electro_Flare/Electro_Flare_Floor.png
 
       532: Resources/Items/Renegades/Autopistol_Renegade/Autopistol_Renegade_Floor.png
 #      533: ...
@@ -237,29 +237,29 @@ extraSprites:
     subX: 32
     subY: 40
     files:
-      88: Resources/Items/Shared/Empty_Hand/Empty_Hand.png
+      88: Resources/Items/Generic/Empty_Hand/Empty_Hand.png
 #Reserved just in case
-      200: Resources/Items/PDF/Autopistol/Autopistol_Hand.png
-      208: Resources/Items/PDF/Autogun/Autogun_Hand.png
-      216: Resources/Items/PDF/Heavy_Stubber/Heavy_Stubber_Hand.png
-      224: Resources/Items/PDF/Heavy_Stubber/Heavy_Stubber_Hand_Deployed.png
+      200: Resources/Items/Arbites/Autopistol_Arbites/Autopistol_Arbites_Hand.png
+      208: Resources/Items/Arbites/Autogun_Arbites/Autogun_Arbites_Hand.png
+      216: Resources/Items/Arbites/Heavy_Stubber_Arbites/Heavy_Stubber_Arbites_Hand.png
+      224: Resources/Items/Arbites/Heavy_Stubber_Arbites/Heavy_Stubber_Arbites_Hand_Deployed.png
       232: Resources/Items/Arbites/Shotgun_Arbites/Shotgun_Arbites_Hand.png
       240: Resources/Items/Arbites/Sniper_Rifle_Arbites/Sniper_Rifle_Arbites_Hand.png
       248: Resources/Items/Arbites/Boltpistol_Arbites/Boltpistol_Arbites_Hand.png
       256: Resources/Items/Arbites/Boltgun_Arbites/Boltgun_Arbites_Hand.png
       264: Resources/Items/Arbites/Grenade_Launcher_Arbites/Grenade_Launcher_Arbites_Hand.png
-      272: Resources/Items/PDF/Frag_Grenade/Frag_Grenade_Hand.png
-      280: Resources/Items/PDF/Krak_Grenade/Krak_Grenade_Hand.png
-      288: Resources/Items/PDF/Smoke_Grenade/Smoke_Grenade_Hand.png
-      296: Resources/Items/PDF/Stun_Grenade/Stun_Granade_Hand.png
+      272: Resources/Items/Generic/Frag_Grenade/Frag_Grenade_Hand.png
+      280: Resources/Items/Generic/Krak_Grenade/Krak_Grenade_Hand.png
+      288: Resources/Items/Generic/Smoke_Grenade/Smoke_Grenade_Hand.png
+      296: Resources/Items/Generic/Stun_Grenade/Stun_Granade_Hand.png
       304: Resources/Items/Arbites/Shock_Maul_Arbites/Shock_Maul_Arbites_Hand.png
       312: Resources/Items/Arbites/Power_Maul_Arbites/Power_Maul_Arbites_Hand.png
       320: Resources/Items/Arbites/Suppression_Shield/Suppression_Shield_Hand.png
-      328: Resources/Items/Shared/First_Aid_Kit/First_Aid_Kit_Hand.png
-      336: Resources/Items/Shared/Auspex/Auspex_Hand.png
-      344: Resources/Items/Shared/Fire_Extinguisher/Fire_Extinguisger_Hand.png
-      352: Resources/Items/Shared/Glow_Stick/Glow_Stick_Hand.png
-      360: Resources/Items/Shared/Electro_Flare/Electro_Flare_Hand.png
+      328: Resources/Items/Generic/First_Aid_Kit/First_Aid_Kit_Hand.png
+      336: Resources/Items/Generic/Auspex/Auspex_Hand.png
+      344: Resources/Items/Generic/Fire_Extinguisher/Fire_Extinguisger_Hand.png
+      352: Resources/Items/Generic/Glow_Stick/Glow_Stick_Hand.png
+      360: Resources/Items/Generic/Electro_Flare/Electro_Flare_Hand.png
 
       368: Resources/Items/Renegades/Autopistol_Renegade/Autopistol_Renegade_Hand.png
       376: Resources/Items/Renegades/Autogun_Renegade/Autogun_Renegade_Hand.png

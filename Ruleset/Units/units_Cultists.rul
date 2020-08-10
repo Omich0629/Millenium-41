@@ -3,6 +3,385 @@ units:
 #AI units
 #CHAOS CULT
 
+## SLOT: SOLDIER
+
+#Cultist Rifleman (Male 0)
+  - type: STR_CULTIST_RIFLEMAN_MALE0
+    race: STR_CULTISTS
+    rank: STR_LIVE_SOLDIER
+    stats:
+      tu: 55
+      stamina: 60
+      health: 30
+      bravery: 60
+      reactions: 50
+      firing: 55
+      throwing: 30
+      strength: 25
+      psiStrength: 20
+      psiSkill: 0
+      melee: 45
+    armor: STR_CULTIST_ARMOR_MALE0
+    standHeight: 22
+    kneelHeight: 14
+    value: 10
+    deathSound: [41, 42, 43] #human male 
+    intelligence: 3
+    aggression: 2 #firefight oriented
+    capturable: false
+    moraleLossWhenKilled: 50
+    builtInWeaponSets:
+#ITEM SET 0
+      - - STR_AUTOGUN_RENEGADE
+        - STR_AUTOGUN_MAGAZINE
+        - STR_AUTOGUN_MAGAZINE
+#ITEM SET 1
+      - - STR_AUTOGUN_RENEGADE
+        - STR_AUTOGUN_MAGAZINE
+        - STR_AUTOGUN_MAGAZINE
+        - STR_FRAG_GRENADE_RENEGADE
+#ITEM SET 2
+      - - STR_AUTOGUN_RENEGADE
+        - STR_AUTOGUN_MAGAZINE
+        - STR_AUTOGUN_MAGAZINE
+        - STR_FRAG_GRENADE_RENEGADE
+        - STR_FRAG_GRENADE_RENEGADE
+
+#Cultist Rifleman (Female 0)
+  - type: STR_CULTIST_RIFLEMAN_FEMALE0
+    race: STR_CULTISTS
+    rank: STR_LIVE_SOLDIER
+    stats:
+      tu: 55
+      stamina: 60
+      health: 30
+      bravery: 60
+      reactions: 50
+      firing: 55
+      throwing: 30
+      strength: 25
+      psiStrength: 20
+      psiSkill: 0
+      melee: 45
+    armor: STR_CULTIST_ARMOR_FEMALE0
+    standHeight: 22
+    kneelHeight: 14
+    value: 10
+    deathSound: [44, 45, 46] #human female
+    intelligence: 3
+    aggression: 2 #firefight oriented
+    capturable: false
+    moraleLossWhenKilled: 50
+    builtInWeaponSets:
+#ITEM SET 0
+      - - STR_AUTOGUN_RENEGADE
+        - STR_AUTOGUN_MAGAZINE
+        - STR_AUTOGUN_MAGAZINE
+#ITEM SET 1
+      - - STR_AUTOGUN_RENEGADE
+        - STR_AUTOGUN_MAGAZINE
+        - STR_AUTOGUN_MAGAZINE
+        - STR_FRAG_GRENADE_RENEGADE
+#ITEM SET 2
+      - - STR_AUTOGUN_RENEGADE
+        - STR_AUTOGUN_MAGAZINE
+        - STR_AUTOGUN_MAGAZINE
+        - STR_FRAG_GRENADE_RENEGADE
+        - STR_FRAG_GRENADE_RENEGADE
+
+
+#Cultist Rifleman (Male 1)
+  - type: STR_CULTIST_RIFLEMAN_MALE1
+    race: STR_CULTISTS
+    rank: STR_LIVE_SOLDIER
+    stats:
+      tu: 55
+      stamina: 60
+      health: 30
+      bravery: 60
+      reactions: 50
+      firing: 55
+      throwing: 30
+      strength: 25
+      psiStrength: 20
+      psiSkill: 0
+      melee: 45
+    armor: STR_CULTIST_ARMOR_MALE1
+    standHeight: 22
+    kneelHeight: 14
+    value: 10
+    deathSound: [41, 42, 43] #human male 
+    intelligence: 3
+    aggression: 2 #firefight oriented
+    capturable: false
+    moraleLossWhenKilled: 50
+    builtInWeaponSets:
+#ITEM SET 0
+      - - STR_AUTOGUN_RENEGADE
+        - STR_AUTOGUN_MAGAZINE
+        - STR_AUTOGUN_MAGAZINE
+#ITEM SET 1
+      - - STR_AUTOGUN_RENEGADE
+        - STR_AUTOGUN_MAGAZINE
+        - STR_AUTOGUN_MAGAZINE
+        - STR_FRAG_GRENADE_RENEGADE
+#ITEM SET 2
+      - - STR_AUTOGUN_RENEGADE
+        - STR_AUTOGUN_MAGAZINE
+        - STR_AUTOGUN_MAGAZINE
+        - STR_FRAG_GRENADE_RENEGADE
+        - STR_FRAG_GRENADE_RENEGADE
+
+#Cultist Rifleman (Female 1)
+  - type: STR_CULTIST_RIFLEMAN_FEMALE1
+    race: STR_CULTISTS
+    rank: STR_LIVE_SOLDIER
+    stats:
+      tu: 55
+      stamina: 60
+      health: 30
+      bravery: 60
+      reactions: 50
+      firing: 55
+      throwing: 30
+      strength: 25
+      psiStrength: 20
+      psiSkill: 0
+      melee: 45
+    armor: STR_CULTIST_ARMOR_FEMALE1
+    standHeight: 22
+    kneelHeight: 14
+    value: 10
+    deathSound: [44, 45, 46] #human female
+    intelligence: 3
+    aggression: 2 #firefight oriented
+    capturable: false
+    moraleLossWhenKilled: 50
+    builtInWeaponSets:
+#ITEM SET 0
+      - - STR_AUTOGUN_RENEGADE
+        - STR_AUTOGUN_MAGAZINE
+        - STR_AUTOGUN_MAGAZINE
+#ITEM SET 1
+      - - STR_AUTOGUN_RENEGADE
+        - STR_AUTOGUN_MAGAZINE
+        - STR_AUTOGUN_MAGAZINE
+        - STR_FRAG_GRENADE_RENEGADE
+#ITEM SET 2
+      - - STR_AUTOGUN_RENEGADE
+        - STR_AUTOGUN_MAGAZINE
+        - STR_AUTOGUN_MAGAZINE
+        - STR_FRAG_GRENADE_RENEGADE
+        - STR_FRAG_GRENADE_RENEGADE
+
+#Cultist Rifleman (Male 2)
+  - type: STR_CULTIST_RIFLEMAN_MALE2
+    race: STR_CULTISTS
+    rank: STR_LIVE_SOLDIER
+    stats:
+      tu: 55
+      stamina: 60
+      health: 30
+      bravery: 60
+      reactions: 50
+      firing: 55
+      throwing: 30
+      strength: 25
+      psiStrength: 20
+      psiSkill: 0
+      melee: 45
+    armor: STR_CULTIST_ARMOR_MALE2
+    standHeight: 22
+    kneelHeight: 14
+    value: 10
+    deathSound: [41, 42, 43] #human male 
+    intelligence: 3
+    aggression: 2 #firefight oriented
+    capturable: false
+    moraleLossWhenKilled: 50
+    builtInWeaponSets:
+#ITEM SET 0
+      - - STR_AUTOGUN_RENEGADE
+        - STR_AUTOGUN_MAGAZINE
+        - STR_AUTOGUN_MAGAZINE
+#ITEM SET 1
+      - - STR_AUTOGUN_RENEGADE
+        - STR_AUTOGUN_MAGAZINE
+        - STR_AUTOGUN_MAGAZINE
+        - STR_FRAG_GRENADE_RENEGADE
+#ITEM SET 2
+      - - STR_AUTOGUN_RENEGADE
+        - STR_AUTOGUN_MAGAZINE
+        - STR_AUTOGUN_MAGAZINE
+        - STR_FRAG_GRENADE_RENEGADE
+        - STR_FRAG_GRENADE_RENEGADE
+
+#Cultist Rifleman (Female 2)
+  - type: STR_CULTIST_RIFLEMAN_FEMALE2
+    race: STR_CULTISTS
+    rank: STR_LIVE_SOLDIER
+    stats:
+      tu: 55
+      stamina: 60
+      health: 30
+      bravery: 60
+      reactions: 50
+      firing: 55
+      throwing: 30
+      strength: 25
+      psiStrength: 20
+      psiSkill: 0
+      melee: 45
+    armor: STR_CULTIST_ARMOR_FEMALE2
+    standHeight: 22
+    kneelHeight: 14
+    value: 10
+    deathSound: [44, 45, 46] #human female
+    intelligence: 3
+    aggression: 2 #firefight oriented
+    capturable: false
+    moraleLossWhenKilled: 50
+    builtInWeaponSets:
+#ITEM SET 0
+      - - STR_AUTOGUN_RENEGADE
+        - STR_AUTOGUN_MAGAZINE
+        - STR_AUTOGUN_MAGAZINE
+#ITEM SET 1
+      - - STR_AUTOGUN_RENEGADE
+        - STR_AUTOGUN_MAGAZINE
+        - STR_AUTOGUN_MAGAZINE
+        - STR_FRAG_GRENADE_RENEGADE
+#ITEM SET 2
+      - - STR_AUTOGUN_RENEGADE
+        - STR_AUTOGUN_MAGAZINE
+        - STR_AUTOGUN_MAGAZINE
+        - STR_FRAG_GRENADE_RENEGADE
+        - STR_FRAG_GRENADE_RENEGADE
+
+
+## SLOT: NAVIGATOR ,MEDIC, ENGINEER
+
+#Cultist Heavy Trooper (Male 0)
+  - type: STR_CULTIST_HEAVY_TROOPER_MALE0
+    race: STR_CULTISTS
+    rank: STR_LIVE_SOLDIER
+    stats:
+      tu: 50
+      stamina: 50
+      health: 45
+      bravery: 60
+      reactions: 40
+      firing: 65
+      throwing: 25
+      strength: 40
+      psiStrength: 20
+      psiSkill: 0
+      melee: 45
+    armor: STR_CULTIST_HEAVY_ARMOR_MALE0
+    standHeight: 22
+    kneelHeight: 14
+    value: 10
+    deathSound: [41, 42, 43] #human male 
+    intelligence: 3
+    aggression: 2 #firefight oriented
+    capturable: false
+    moraleLossWhenKilled: 50
+    builtInWeaponSets:
+#ITEM SET 0
+      - - STR_HEAVY_STUBBER_RENEGADE
+        - STR_HEAVY_STUBBER_AMMO_BELT
+        - STR_HEAVY_STUBBER_AMMO_BELT
+#ITEM SET 1
+      - - STR_HEAVY_STUBBER_RENEGADE
+        - STR_HEAVY_STUBBER_AMMO_BELT
+        - STR_HEAVY_STUBBER_AMMO_BELT
+#ITEM SET 2
+      - - STR_HEAVY_STUBBER_RENEGADE
+        - STR_HEAVY_STUBBER_AMMO_BELT
+        - STR_HEAVY_STUBBER_AMMO_BELT
+
+
+#Cultist Heavy Trooper (Male 1)
+  - type: STR_CULTIST_HEAVY_TROOPER_MALE1
+    race: STR_CULTISTS
+    rank: STR_LIVE_SOLDIER
+    stats:
+      tu: 50
+      stamina: 50
+      health: 45
+      bravery: 60
+      reactions: 40
+      firing: 65
+      throwing: 25
+      strength: 40
+      psiStrength: 20
+      psiSkill: 0
+      melee: 45
+    armor: STR_CULTIST_HEAVY_ARMOR_MALE1
+    standHeight: 22
+    kneelHeight: 14
+    value: 10
+    deathSound: [41, 42, 43] #human male 
+    intelligence: 3
+    aggression: 2 #firefight oriented
+    capturable: false
+    moraleLossWhenKilled: 50
+    builtInWeaponSets:
+#ITEM SET 0
+      - - STR_HEAVY_STUBBER_RENEGADE
+        - STR_HEAVY_STUBBER_AMMO_BELT
+        - STR_HEAVY_STUBBER_AMMO_BELT
+#ITEM SET 1
+      - - STR_HEAVY_STUBBER_RENEGADE
+        - STR_HEAVY_STUBBER_AMMO_BELT
+        - STR_HEAVY_STUBBER_AMMO_BELT
+#ITEM SET 2
+      - - STR_HEAVY_STUBBER_RENEGADE
+        - STR_HEAVY_STUBBER_AMMO_BELT
+        - STR_HEAVY_STUBBER_AMMO_BELT
+
+
+#Cultist Heavy Trooper (Male 2)
+  - type: STR_CULTIST_HEAVY_TROOPER_MALE2
+    race: STR_CULTISTS
+    rank: STR_LIVE_SOLDIER
+    stats:
+      tu: 50
+      stamina: 50
+      health: 45
+      bravery: 60
+      reactions: 40
+      firing: 65
+      throwing: 25
+      strength: 40
+      psiStrength: 20
+      psiSkill: 0
+      melee: 45
+    armor: STR_CULTIST_HEAVY_ARMOR_MALE2
+    standHeight: 22
+    kneelHeight: 14
+    value: 10
+    deathSound: [41, 42, 43] #human male 
+    intelligence: 3
+    aggression: 2 #firefight oriented
+    capturable: false
+    moraleLossWhenKilled: 50
+    builtInWeaponSets:
+#ITEM SET 0
+      - - STR_HEAVY_STUBBER_RENEGADE
+        - STR_HEAVY_STUBBER_AMMO_BELT
+        - STR_HEAVY_STUBBER_AMMO_BELT
+#ITEM SET 1
+      - - STR_HEAVY_STUBBER_RENEGADE
+        - STR_HEAVY_STUBBER_AMMO_BELT
+        - STR_HEAVY_STUBBER_AMMO_BELT
+#ITEM SET 2
+      - - STR_HEAVY_STUBBER_RENEGADE
+        - STR_HEAVY_STUBBER_AMMO_BELT
+        - STR_HEAVY_STUBBER_AMMO_BELT
+
+## SLOT: TERRORIST
+
 #Cultist Light Trooper (Male 0)
   - type: STR_CULTIST_LIGHT_TROOPER_MALE0
     race: STR_CULTISTS
@@ -14,7 +393,7 @@ units:
       bravery: 60
       reactions: 50
       firing: 55
-      throwing: 50
+      throwing: 25
       strength: 25
       psiStrength: 20
       psiSkill: 0
@@ -25,8 +404,9 @@ units:
     value: 10
     deathSound: [41, 42, 43] #human male 
     intelligence: 3
-    aggression: 3
+    aggression: 7 #melee oriented
     capturable: false
+    moraleLossWhenKilled: 20
     builtInWeaponSets:
 #ITEM SET 0
       - - STR_AUTOPISTOL_RENEGADE
@@ -54,7 +434,7 @@ units:
       bravery: 60
       reactions: 50
       firing: 55
-      throwing: 50
+      throwing: 25
       strength: 25
       psiStrength: 20
       psiSkill: 0
@@ -94,7 +474,7 @@ units:
       bravery: 60
       reactions: 50
       firing: 55
-      throwing: 50
+      throwing: 25
       strength: 25
       psiStrength: 20
       psiSkill: 0
@@ -105,8 +485,9 @@ units:
     value: 10
     deathSound: [41, 42, 43] #human male 
     intelligence: 3
-    aggression: 3
+    aggression: 7 #melee oriented
     capturable: false
+    moraleLossWhenKilled: 20
     builtInWeaponSets:
 #ITEM SET 0
       - - STR_AUTOPISTOL_RENEGADE
@@ -134,7 +515,7 @@ units:
       bravery: 60
       reactions: 50
       firing: 55
-      throwing: 50
+      throwing: 25
       strength: 25
       psiStrength: 20
       psiSkill: 0
@@ -174,7 +555,7 @@ units:
       bravery: 60
       reactions: 50
       firing: 55
-      throwing: 50
+      throwing: 25
       strength: 25
       psiStrength: 20
       psiSkill: 0
@@ -185,8 +566,9 @@ units:
     value: 10
     deathSound: [41, 42, 43] #human male 
     intelligence: 3
-    aggression: 3
+    aggression: 7 #melee oriented
     capturable: false
+    moraleLossWhenKilled: 20
     builtInWeaponSets:
 #ITEM SET 0
       - - STR_AUTOPISTOL_RENEGADE
@@ -214,7 +596,7 @@ units:
       bravery: 60
       reactions: 50
       firing: 55
-      throwing: 50
+      throwing: 25
       strength: 25
       psiStrength: 20
       psiSkill: 0
@@ -225,8 +607,9 @@ units:
     value: 10
     deathSound: [44, 45, 46] #human female
     intelligence: 3
-    aggression: 3
+    aggression: 7 #melee oriented
     capturable: false
+    moraleLossWhenKilled: 20
     builtInWeaponSets:
 #ITEM SET 0
       - - STR_AUTOPISTOL_RENEGADE
@@ -242,367 +625,3 @@ units:
         - STR_AUTOGUN_MAGAZINE
         - STR_AUTOGUN_MAGAZINE
         - STR_FRAG_GRENADE_RENEGADE
-
-#Cultist Marksman (Male 0)
-  - type: STR_CULTIST_RIFLEMAN_MALE0
-    race: STR_CULTISTS
-    rank: STR_LIVE_SOLDIER
-    stats:
-      tu: 55
-      stamina: 60
-      health: 30
-      bravery: 60
-      reactions: 50
-      firing: 55
-      throwing: 50
-      strength: 25
-      psiStrength: 20
-      psiSkill: 0
-      melee: 45
-    armor: STR_CULTIST_ARMOR_MALE0
-    standHeight: 22
-    kneelHeight: 14
-    value: 10
-    deathSound: [41, 42, 43] #human male 
-    intelligence: 3
-    aggression: 2
-    capturable: false
-    builtInWeaponSets:
-#ITEM SET 0
-      - - STR_AUTOGUN_RENEGADE
-        - STR_AUTOGUN_MAGAZINE
-        - STR_AUTOGUN_MAGAZINE
-#ITEM SET 1
-      - - STR_AUTOGUN_RENEGADE
-        - STR_AUTOGUN_MAGAZINE
-        - STR_AUTOGUN_MAGAZINE
-        - STR_FRAG_GRENADE_RENEGADE
-#ITEM SET 2
-      - - STR_AUTOGUN_RENEGADE
-        - STR_AUTOGUN_MAGAZINE
-        - STR_AUTOGUN_MAGAZINE
-        - STR_FRAG_GRENADE_RENEGADE
-        - STR_FRAG_GRENADE_RENEGADE
-
-#Cultist Marksman (Female 0)
-  - type: STR_CULTIST_RIFLEMAN_FEMALE0
-    race: STR_CULTISTS
-    rank: STR_LIVE_SOLDIER
-    stats:
-      tu: 55
-      stamina: 60
-      health: 30
-      bravery: 60
-      reactions: 50
-      firing: 55
-      throwing: 50
-      strength: 25
-      psiStrength: 20
-      psiSkill: 0
-      melee: 45
-    armor: STR_CULTIST_ARMOR_FEMALE0
-    standHeight: 22
-    kneelHeight: 14
-    value: 10
-    deathSound: [44, 45, 46] #human female
-    intelligence: 3
-    aggression: 2
-    capturable: false
-    builtInWeaponSets:
-#ITEM SET 0
-      - - STR_AUTOGUN_RENEGADE
-        - STR_AUTOGUN_MAGAZINE
-        - STR_AUTOGUN_MAGAZINE
-#ITEM SET 1
-      - - STR_AUTOGUN_RENEGADE
-        - STR_AUTOGUN_MAGAZINE
-        - STR_AUTOGUN_MAGAZINE
-        - STR_FRAG_GRENADE_RENEGADE
-#ITEM SET 2
-      - - STR_AUTOGUN_RENEGADE
-        - STR_AUTOGUN_MAGAZINE
-        - STR_AUTOGUN_MAGAZINE
-        - STR_FRAG_GRENADE_RENEGADE
-        - STR_FRAG_GRENADE_RENEGADE
-
-
-#Cultist Marksman (Male 1)
-  - type: STR_CULTIST_RIFLEMAN_MALE1
-    race: STR_CULTISTS
-    rank: STR_LIVE_SOLDIER
-    stats:
-      tu: 55
-      stamina: 60
-      health: 30
-      bravery: 60
-      reactions: 50
-      firing: 55
-      throwing: 50
-      strength: 25
-      psiStrength: 20
-      psiSkill: 0
-      melee: 45
-    armor: STR_CULTIST_ARMOR_MALE1
-    standHeight: 22
-    kneelHeight: 14
-    value: 10
-    deathSound: [41, 42, 43] #human male 
-    intelligence: 3
-    aggression: 2
-    capturable: false
-    builtInWeaponSets:
-#ITEM SET 0
-      - - STR_AUTOGUN_RENEGADE
-        - STR_AUTOGUN_MAGAZINE
-        - STR_AUTOGUN_MAGAZINE
-#ITEM SET 1
-      - - STR_AUTOGUN_RENEGADE
-        - STR_AUTOGUN_MAGAZINE
-        - STR_AUTOGUN_MAGAZINE
-        - STR_FRAG_GRENADE_RENEGADE
-#ITEM SET 2
-      - - STR_AUTOGUN_RENEGADE
-        - STR_AUTOGUN_MAGAZINE
-        - STR_AUTOGUN_MAGAZINE
-        - STR_FRAG_GRENADE_RENEGADE
-        - STR_FRAG_GRENADE_RENEGADE
-
-#Cultist Marksman (Female 1)
-  - type: STR_CULTIST_RIFLEMAN_FEMALE1
-    race: STR_CULTISTS
-    rank: STR_LIVE_SOLDIER
-    stats:
-      tu: 55
-      stamina: 60
-      health: 30
-      bravery: 60
-      reactions: 50
-      firing: 55
-      throwing: 50
-      strength: 25
-      psiStrength: 20
-      psiSkill: 0
-      melee: 45
-    armor: STR_CULTIST_ARMOR_FEMALE1
-    standHeight: 22
-    kneelHeight: 14
-    value: 10
-    deathSound: [44, 45, 46] #human female
-    intelligence: 3
-    aggression: 2
-    capturable: false
-    builtInWeaponSets:
-#ITEM SET 0
-      - - STR_AUTOGUN_RENEGADE
-        - STR_AUTOGUN_MAGAZINE
-        - STR_AUTOGUN_MAGAZINE
-#ITEM SET 1
-      - - STR_AUTOGUN_RENEGADE
-        - STR_AUTOGUN_MAGAZINE
-        - STR_AUTOGUN_MAGAZINE
-        - STR_FRAG_GRENADE_RENEGADE
-#ITEM SET 2
-      - - STR_AUTOGUN_RENEGADE
-        - STR_AUTOGUN_MAGAZINE
-        - STR_AUTOGUN_MAGAZINE
-        - STR_FRAG_GRENADE_RENEGADE
-        - STR_FRAG_GRENADE_RENEGADE
-
-#Cultist Marksman (Male 2)
-  - type: STR_CULTIST_RIFLEMAN_MALE2
-    race: STR_CULTISTS
-    rank: STR_LIVE_SOLDIER
-    stats:
-      tu: 55
-      stamina: 60
-      health: 30
-      bravery: 60
-      reactions: 50
-      firing: 55
-      throwing: 50
-      strength: 25
-      psiStrength: 20
-      psiSkill: 0
-      melee: 45
-    armor: STR_CULTIST_ARMOR_MALE2
-    standHeight: 22
-    kneelHeight: 14
-    value: 10
-    deathSound: [41, 42, 43] #human male 
-    intelligence: 3
-    aggression: 2
-    capturable: false
-    builtInWeaponSets:
-#ITEM SET 0
-      - - STR_AUTOGUN_RENEGADE
-        - STR_AUTOGUN_MAGAZINE
-        - STR_AUTOGUN_MAGAZINE
-#ITEM SET 1
-      - - STR_AUTOGUN_RENEGADE
-        - STR_AUTOGUN_MAGAZINE
-        - STR_AUTOGUN_MAGAZINE
-        - STR_FRAG_GRENADE_RENEGADE
-#ITEM SET 2
-      - - STR_AUTOGUN_RENEGADE
-        - STR_AUTOGUN_MAGAZINE
-        - STR_AUTOGUN_MAGAZINE
-        - STR_FRAG_GRENADE_RENEGADE
-        - STR_FRAG_GRENADE_RENEGADE
-
-#Cultist Marksman (Female 2)
-  - type: STR_CULTIST_RIFLEMAN_FEMALE2
-    race: STR_CULTISTS
-    rank: STR_LIVE_SOLDIER
-    stats:
-      tu: 55
-      stamina: 60
-      health: 30
-      bravery: 60
-      reactions: 50
-      firing: 55
-      throwing: 50
-      strength: 25
-      psiStrength: 20
-      psiSkill: 0
-      melee: 45
-    armor: STR_CULTIST_ARMOR_FEMALE2
-    standHeight: 22
-    kneelHeight: 14
-    value: 10
-    deathSound: [44, 45, 46] #human female
-    intelligence: 3
-    aggression: 2
-    capturable: false
-    builtInWeaponSets:
-#ITEM SET 0
-      - - STR_AUTOGUN_RENEGADE
-        - STR_AUTOGUN_MAGAZINE
-        - STR_AUTOGUN_MAGAZINE
-#ITEM SET 1
-      - - STR_AUTOGUN_RENEGADE
-        - STR_AUTOGUN_MAGAZINE
-        - STR_AUTOGUN_MAGAZINE
-        - STR_FRAG_GRENADE_RENEGADE
-#ITEM SET 2
-      - - STR_AUTOGUN_RENEGADE
-        - STR_AUTOGUN_MAGAZINE
-        - STR_AUTOGUN_MAGAZINE
-        - STR_FRAG_GRENADE_RENEGADE
-        - STR_FRAG_GRENADE_RENEGADE
-
-
-#Cultist Heavy Trooper (Male 0)
-  - type: STR_CULTIST_HEAVY_TROOPER_MALE0
-    race: STR_CULTISTS
-    rank: STR_LIVE_SOLDIER
-    stats:
-      tu: 50
-      stamina: 50
-      health: 45
-      bravery: 60
-      reactions: 40
-      firing: 65
-      throwing: 30
-      strength: 40
-      psiStrength: 20
-      psiSkill: 0
-      melee: 45
-    armor: STR_CULTIST_HEAVY_ARMOR_MALE0
-    standHeight: 22
-    kneelHeight: 14
-    value: 10
-    deathSound: [41, 42, 43] #human male 
-    intelligence: 4
-    aggression: 2
-    capturable: false
-    builtInWeaponSets:
-#ITEM SET 0
-      - - STR_HEAVY_STUBBER_RENEGADE
-        - STR_HEAVY_STUBBER_AMMO_BELT
-        - STR_HEAVY_STUBBER_AMMO_BELT
-#ITEM SET 1
-      - - STR_HEAVY_STUBBER_RENEGADE
-        - STR_HEAVY_STUBBER_AMMO_BELT
-        - STR_HEAVY_STUBBER_AMMO_BELT
-#ITEM SET 2
-      - - STR_HEAVY_STUBBER_RENEGADE
-        - STR_HEAVY_STUBBER_AMMO_BELT
-        - STR_HEAVY_STUBBER_AMMO_BELT
-
-
-#Cultist Heavy Trooper (Male 1)
-  - type: STR_CULTIST_HEAVY_TROOPER_MALE1
-    race: STR_CULTISTS
-    rank: STR_LIVE_SOLDIER
-    stats:
-      tu: 50
-      stamina: 50
-      health: 45
-      bravery: 60
-      reactions: 40
-      firing: 65
-      throwing: 30
-      strength: 40
-      psiStrength: 20
-      psiSkill: 0
-      melee: 45
-    armor: STR_CULTIST_HEAVY_ARMOR_MALE1
-    standHeight: 22
-    kneelHeight: 14
-    value: 10
-    deathSound: [41, 42, 43] #human male 
-    intelligence: 4
-    aggression: 2
-    capturable: false
-    builtInWeaponSets:
-#ITEM SET 0
-      - - STR_HEAVY_STUBBER_RENEGADE
-        - STR_HEAVY_STUBBER_AMMO_BELT
-        - STR_HEAVY_STUBBER_AMMO_BELT
-#ITEM SET 1
-      - - STR_HEAVY_STUBBER_RENEGADE
-        - STR_HEAVY_STUBBER_AMMO_BELT
-        - STR_HEAVY_STUBBER_AMMO_BELT
-#ITEM SET 2
-      - - STR_HEAVY_STUBBER_RENEGADE
-        - STR_HEAVY_STUBBER_AMMO_BELT
-        - STR_HEAVY_STUBBER_AMMO_BELT
-
-
-#Cultist Heavy Trooper (Male 2)
-  - type: STR_CULTIST_HEAVY_TROOPER_MALE2
-    race: STR_CULTISTS
-    rank: STR_LIVE_SOLDIER
-    stats:
-      tu: 50
-      stamina: 50
-      health: 45
-      bravery: 60
-      reactions: 40
-      firing: 65
-      throwing: 30
-      strength: 40
-      psiStrength: 20
-      psiSkill: 0
-      melee: 45
-    armor: STR_CULTIST_HEAVY_ARMOR_MALE2
-    standHeight: 22
-    kneelHeight: 14
-    value: 10
-    deathSound: [41, 42, 43] #human male 
-    intelligence: 4
-    aggression: 2
-    capturable: false
-    builtInWeaponSets:
-#ITEM SET 0
-      - - STR_HEAVY_STUBBER_RENEGADE
-        - STR_HEAVY_STUBBER_AMMO_BELT
-        - STR_HEAVY_STUBBER_AMMO_BELT
-#ITEM SET 1
-      - - STR_HEAVY_STUBBER_RENEGADE
-        - STR_HEAVY_STUBBER_AMMO_BELT
-        - STR_HEAVY_STUBBER_AMMO_BELT
-#ITEM SET 2
-      - - STR_HEAVY_STUBBER_RENEGADE
-        - STR_HEAVY_STUBBER_AMMO_BELT
-        - STR_HEAVY_STUBBER_AMMO_BELT
