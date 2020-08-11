@@ -250,7 +250,7 @@ items:
 ## FLAMER (RENEGADE)
   - type: STR_FLAMER_RENEGADE
 #RESOURCES
-    bigSprite: 11547
+    bigSprite: 1547
     floorSprite: 1547
     handSprite: 1416
 #INFO
