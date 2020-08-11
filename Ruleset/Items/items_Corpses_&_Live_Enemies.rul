@@ -18,7 +18,7 @@ items:
 
 ### ENEMY UNITS CORPSES AND LIVE ENEMIES 
 
-## Unified geospace item for cultist corpses
+## Unified item for cultist corpses
   - type: STR_CORPSE_CULTIST
     size: 0.4
     costSell: 5000

@@ -342,9 +342,9 @@ items:
   - type: STR_SHOCK_MAUL_ARBITES
 
 #RESOURCES
-    bigSprite: 524
-    floorSprite: 524
-    handSprite: 304
+    bigSprite: 520
+    floorSprite: 520
+    handSprite: 272
 #INFO
     categories: [STR_CATEGORY_MELEE]
     costBuy: 7000
@@ -383,9 +383,9 @@ items:
   - type: STR_POWER_MAUL_ARBITES
 
 #RESOURCES
-    bigSprite: 525
-    floorSprite: 525
-    handSprite: 312
+    bigSprite: 521
+    floorSprite: 521
+    handSprite: 280
 #INFO
     categories: [STR_CATEGORY_MELEE]
     costBuy: 10000
@@ -424,10 +424,10 @@ items:
 
   - type: STR_SUPPRESSION_SHIELD
 #RESOURCES
-    bigSprite: 526
-    floorSprite: 526
-    handSprite: 320
-#INGO
+    bigSprite: 522
+    floorSprite: 522
+    handSprite: 288
+#INFO
     categories: [STR_CATEGORY_MELEE]
 #SPECIFICATIONS
     battleType: 3
