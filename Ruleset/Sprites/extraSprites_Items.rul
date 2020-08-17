@@ -91,6 +91,15 @@ extraSprites:
       530: Resources/Items/Generic/Glow_Stick/Glow_Stick_Inv.png      
       531: Resources/Items/Generic/Electro_Flare/Electro_Flare_Inv.png
 
+      532: Resources/Items/Generic/Autopistol_Generic1/Autopistol_Generic1_Inv0.png
+      533: Resources/Items/Generic/Autopistol_Generic1/Autopistol_Generic1_Inv1.png
+
+      534: Resources/Items/Generic/Autopistol_Generic2/Autopistol_Generic2_Inv0.png
+      535: Resources/Items/Generic/Autopistol_Generic2/Autopistol_Generic2_Inv1.png
+
+      536: Resources/Items/Generic/Autopistol_Generic3/Autopistol_Generic3_Inv0.png
+      537: Resources/Items/Generic/Autopistol_Generic3/Autopistol_Generic3_Inv1.png
+
 # +1000 temporary
 
       1532: Resources/Items/Renegades/Autopistol_Renegade/Autopistol_Renegade_Inv0.png
@@ -202,6 +211,16 @@ extraSprites:
       530: Resources/Items/Generic/Glow_Stick/Glow_Stick_Floor.png      
       531: Resources/Items/Generic/Electro_Flare/Electro_Flare_Floor.png
 
+      532: Resources/Items/Generic/Autopistol_Generic1/Autopistol_Generic1_Floor.png
+#      533: ...
+
+      534: Resources/Items/Generic/Autopistol_Generic2/Autopistol_Generic2_Floor.png
+#      535: ...
+
+      536: Resources/Items/Generic/Autopistol_Generic3/Autopistol_Generic3_Floor.png
+#      537: ...
+
+
 # +1000 temporary
 
       1532: Resources/Items/Renegades/Autopistol_Renegade/Autopistol_Renegade_Floor.png
@@ -259,6 +278,11 @@ extraSprites:
       344: Resources/Items/Generic/Fire_Extinguisher/Fire_Extinguisger_Hand.png
       352: Resources/Items/Generic/Glow_Stick/Glow_Stick_Hand.png
       360: Resources/Items/Generic/Electro_Flare/Electro_Flare_Hand.png
+
+      368: Resources/Items/Generic/Autopistol_Generic1/Autopistol_Generic1_Hand.png
+      376: Resources/Items/Generic/Autopistol_Generic2/Autopistol_Generic2_Hand.png
+      384: Resources/Items/Generic/Autopistol_Generic3/Autopistol_Generic3_Hand.png
+
 
 
 # +1000 temporary

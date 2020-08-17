@@ -84,15 +84,18 @@ extraStrings:
       STR_ARBITES_RANK2: "Proctor"
 
 #ITEMS
-      STR_AUTOPISTOL: "Autopistol (Arbites)"
+      STR_AUTOPISTOL_GENERIC1: "Autopistol Sol Pattern"
+      STR_AUTOPISTOL_GENERIC2: "Autopistol Voss Pattern Mk1"
+      STR_AUTOPISTOL_GENERIC3: "Autopistol Corp Pattern"
+      STR_AUTOPISTOL_ARBITES: "Autopistol (Arbites)"
       STR_AUTOPISTOL_RENEGADE: "Autopistol (Renegade)"
       STR_AUTOPISTOL_MAGAZINE: "Autopistol Magazine"
 
-      STR_AUTOGUN: "Autogun (Arbites)"
+      STR_AUTOGUN_ARBITES: "Autogun (Arbites)"
       STR_AUTOGUN_RENEGADE: "Autogun (Renegade)"
       STR_AUTOGUN_MAGAZINE: "Autogun Magazine"
 
-      STR_HEAVY_STUBBER: "Heavy Stubber (Arbites)"
+      STR_HEAVY_STUBBER_ARBITES: "Heavy Stubber (Arbites)"
       STR_HEAVY_STUBBER_RENEGADE: "Heavy Stubber (Renegade)"
       STR_HEAVY_STUBBER_AMMO_BELT: "Heavy Stubber Ammo Belt"
 

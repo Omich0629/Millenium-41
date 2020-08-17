@@ -1,7 +1,7 @@
 items:
 
 ## AUTOPISTOL (ARBITES)
-  - type: STR_AUTOPISTOL
+  - type: STR_AUTOPISTOL_ARBITES
 #RESOURCES
     bigSprite: 500
     floorSprite: 500
@@ -10,7 +10,7 @@ items:
     categories: [STR_CATEGORY_PISTOL, STR_CATEGORY_STUB]
     costBuy: 2000
     costSell: 1500
-    listOrder: 1000
+    listOrder: 1005
 #SPECIFICATIONS
     battleType: 1
     size: 0.1
@@ -40,7 +40,7 @@ items:
 
 
 ## AUTOGUN (ARBITES)
-  - type: STR_AUTOGUN
+  - type: STR_AUTOGUN_ARBITES
 #RESOURCES
     bigSprite: 502
     floorSprite: 502
@@ -89,7 +89,7 @@ items:
 
 
 ## HEAVY STUBBER (ARBITES)
-  - type: STR_HEAVY_STUBBER
+  - type: STR_HEAVY_STUBBER_ARBITES
 #RESOURCES
     bigSprite: 504
     floorSprite: 504

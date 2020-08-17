@@ -9,7 +9,7 @@ items:
     fixedWeapon: true
     recover: false
 
-## GENERIC WEAPONS
+## GENERIC GRENADES
 
 ## FRAG HAND GRENADE (HUMAN-SIZED)
   - type: STR_FRAG_GRENADE
@@ -101,6 +101,137 @@ items:
     tuThrow: 30
     tuPrime: 30
     flatRate: false
+
+## GENERIC WEAPONS
+
+## AUTOPISTOL (GENERIC 1)
+#Temporal name: Sol Pattern
+# -1 weight compared to Arbites Autopistol.
+# -1 effective range
+
+  - type: STR_AUTOPISTOL_GENERIC1
+#RESOURCES
+    bigSprite: 532
+    floorSprite: 532
+    handSprite: 368
+#INFO
+    categories: [STR_CATEGORY_PISTOL, STR_CATEGORY_STUB]
+    costBuy: 1400
+    costSell: 1050
+    listOrder: 1000
+#SPECIFICATIONS
+    battleType: 1
+    size: 0.1
+    weight: 4
+    invWidth: 1
+    invHeight: 2
+    armor: 30
+    attraction: 1
+#AMMO
+    compatibleAmmo:
+      - STR_AUTOPISTOL_MAGAZINE
+#SHOOTING
+    dropoff: 5
+
+    accuracyAimed: 60
+    tuAimed: 15
+    aimRange: 9
+
+    confSnap:
+      shots: 2
+    accuracySnap: 45
+    tuSnap: 15
+    snapRange: 4
+#SCRIPTING
+    tags:
+      AMMO_CHANGES_ITEMS_BIGSPRITE: 1
+
+
+## AUTOPISTOL (GENERIC 2)
+#Temporal name: Voss Pattern Mk1
+# Functionally identical to Arbites Autopistol.
+
+  - type: STR_AUTOPISTOL_GENERIC2
+#RESOURCES
+    bigSprite: 534
+    floorSprite: 534
+    handSprite: 376
+#INFO
+    categories: [STR_CATEGORY_PISTOL, STR_CATEGORY_STUB]
+    costBuy: 1900
+    costSell: 1425
+    listOrder: 1001
+#SPECIFICATIONS
+    battleType: 1
+    size: 0.1
+    weight: 5
+    invWidth: 1
+    invHeight: 2
+    armor: 30
+    attraction: 1
+#AMMO
+    compatibleAmmo:
+      - STR_AUTOPISTOL_MAGAZINE
+#SHOOTING
+    dropoff: 5
+
+    accuracyAimed: 55
+    tuAimed: 15
+    aimRange: 10
+
+    confSnap:
+      shots: 2
+    accuracySnap: 40
+    tuSnap: 15
+    snapRange: 5
+#SCRIPTING
+    tags:
+      AMMO_CHANGES_ITEMS_BIGSPRITE: 1
+
+
+
+## AUTOPISTOL (GENERIC 3)
+#Temporal name: Corp Pattern
+# +1 weight compared to Arbites Autopistol.
+# +1 effective range
+# +5 accuracy
+
+  - type: STR_AUTOPISTOL_GENERIC3
+#RESOURCES
+    bigSprite: 536
+    floorSprite: 536
+    handSprite: 384
+#INFO
+    categories: [STR_CATEGORY_PISTOL, STR_CATEGORY_STUB]
+    costBuy: 2500
+    costSell: 1875
+    listOrder: 1002
+#SPECIFICATIONS
+    battleType: 1
+    size: 0.1
+    weight: 6
+    invWidth: 1
+    invHeight: 2
+    armor: 30
+    attraction: 1
+#AMMO
+    compatibleAmmo:
+      - STR_AUTOPISTOL_MAGAZINE
+#SHOOTING
+    dropoff: 5
+
+    accuracyAimed: 65
+    tuAimed: 15
+    aimRange: 11
+
+    confSnap:
+      shots: 2
+    accuracySnap: 50
+    tuSnap: 15
+    snapRange: 6
+#SCRIPTING
+    tags:
+      AMMO_CHANGES_ITEMS_BIGSPRITE: 1
 
 
 
