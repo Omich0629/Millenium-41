@@ -235,6 +235,167 @@ items:
 
 
 
+## AUTOGUN (GENERIC 1)
+#Temporal name: Sol Pattern
+# -1 weight compared to Arbites Autogun.
+# -5 to accuracy
+# -1 effective range
+
+  - type: STR_AUTOGUN_GENERIC1
+#RESOURCES
+    bigSprite: 538
+    floorSprite: 538
+    handSprite: 392
+#INFO
+    categories: [STR_CATEGORY_RAPID, STR_CATEGORY_STUB]
+    costBuy: 3200
+    costSell: 2400
+    listOrder: 1020
+#SPECIFICATIONS
+    battleType: 1
+    size: 0.2
+    weight: 8
+    invWidth: 2
+    invHeight: 3
+    armor: 30
+    attraction: 1
+    twoHanded: true
+    oneHandedPenalty: 50
+#AMMO
+    compatibleAmmo:
+      - STR_AUTOGUN_MAGAZINE
+#SHOOTING
+    dropoff: 5
+
+    confAimed:
+      shots: 1
+    accuracyAimed: 55
+    tuAimed: 45
+    aimRange: 19
+
+    confSnap:
+      shots: 2
+    accuracySnap: 45
+    tuSnap: 30
+    snapRange: 13
+
+    confAuto:
+      shots: 4
+    accuracyAuto: 35
+    tuAuto: 50
+    autoRange: 7
+#SCRIPTING
+    tags:
+      AMMO_CHANGES_ITEMS_BIGSPRITE: 1
+
+
+
+## AUTOGUN (GENERIC 2)
+#Temporal name: Sawn-Off Autogun
+# Onehanded weapon
+# -2 weight compared to Arbites Autogun.
+# -10 to accuracy
+# -2 effective range
+
+  - type: STR_AUTOGUN_GENERIC2
+#RESOURCES
+    bigSprite: 540
+    floorSprite: 540
+    handSprite: 400
+#INFO
+    categories: [STR_CATEGORY_RAPID, STR_CATEGORY_STUB]
+    costBuy: 3000
+    costSell: 2250
+    listOrder: 1021
+#SPECIFICATIONS
+    battleType: 1
+    size: 0.2
+    weight: 7
+    invWidth: 2
+    invHeight: 3
+    armor: 30
+    attraction: 1
+#AMMO
+    compatibleAmmo:
+      - STR_AUTOGUN_MAGAZINE
+#SHOOTING
+    dropoff: 5
+
+    confAimed:
+      shots: 1
+    accuracyAimed: 50
+    tuAimed: 45
+    aimRange: 18
+
+    confSnap:
+      shots: 2
+    accuracySnap: 40
+    tuSnap: 30
+    snapRange: 12
+
+    confAuto:
+      shots: 4
+    accuracyAuto: 30
+    tuAuto: 50
+    autoRange: 6
+#SCRIPTING
+    tags:
+      AMMO_CHANGES_ITEMS_BIGSPRITE: 1
+
+
+## AUTOGUN (GENERIC 3)
+#Temporal name: Agripinaa Pattern
+# -5 to accuracy compared to Arbites Autogun.
+
+  - type: STR_AUTOGUN_GENERIC3
+#RESOURCES
+    bigSprite: 542
+    floorSprite: 542
+    handSprite: 408
+#INFO
+    categories: [STR_CATEGORY_RAPID, STR_CATEGORY_STUB]
+    costBuy: 3600
+    costSell: 2700
+    listOrder: 1020
+#SPECIFICATIONS
+    battleType: 1
+    size: 0.2
+    weight: 8
+    invWidth: 2
+    invHeight: 3
+    armor: 30
+    attraction: 1
+    twoHanded: true
+    oneHandedPenalty: 50
+#AMMO
+    compatibleAmmo:
+      - STR_AUTOGUN_MAGAZINE
+#SHOOTING
+    dropoff: 5
+
+    confAimed:
+      shots: 1
+    accuracyAimed: 55
+    tuAimed: 45
+    aimRange: 19
+
+    confSnap:
+      shots: 2
+    accuracySnap: 45
+    tuSnap: 30
+    snapRange: 13
+
+    confAuto:
+      shots: 4
+    accuracyAuto: 35
+    tuAuto: 50
+    autoRange: 7
+#SCRIPTING
+    tags:
+      AMMO_CHANGES_ITEMS_BIGSPRITE: 1
+
+
+
 ## GENERIC UTILITY ITEMS
 
 ## FIRST AID KIT ##

@@ -93,12 +93,20 @@ extraSprites:
 
       532: Resources/Items/Generic/Autopistol_Generic1/Autopistol_Generic1_Inv0.png
       533: Resources/Items/Generic/Autopistol_Generic1/Autopistol_Generic1_Inv1.png
-
       534: Resources/Items/Generic/Autopistol_Generic2/Autopistol_Generic2_Inv0.png
       535: Resources/Items/Generic/Autopistol_Generic2/Autopistol_Generic2_Inv1.png
-
       536: Resources/Items/Generic/Autopistol_Generic3/Autopistol_Generic3_Inv0.png
       537: Resources/Items/Generic/Autopistol_Generic3/Autopistol_Generic3_Inv1.png
+
+      538: Resources/Items/Generic/Autogun_Generic1/Autogun_Generic1_Inv0.png
+      539: Resources/Items/Generic/Autogun_Generic1/Autogun_Generic1_Inv1.png
+
+      540: Resources/Items/Generic/Autogun_Generic2/Autogun_Generic2_Inv0.png
+      541: Resources/Items/Generic/Autogun_Generic2/Autogun_Generic2_Inv1.png
+
+      542: Resources/Items/Generic/Autogun_Generic3/Autogun_Generic3_Inv0.png
+      543: Resources/Items/Generic/Autogun_Generic3/Autogun_Generic3_Inv1.png
+
 
 # +1000 temporary
 
@@ -210,15 +218,21 @@ extraSprites:
       529: Resources/Items/Generic/Fire_Extinguisher/Fire_Extinguisger_Floor.png
       530: Resources/Items/Generic/Glow_Stick/Glow_Stick_Floor.png      
       531: Resources/Items/Generic/Electro_Flare/Electro_Flare_Floor.png
-
       532: Resources/Items/Generic/Autopistol_Generic1/Autopistol_Generic1_Floor.png
 #      533: ...
-
       534: Resources/Items/Generic/Autopistol_Generic2/Autopistol_Generic2_Floor.png
 #      535: ...
-
       536: Resources/Items/Generic/Autopistol_Generic3/Autopistol_Generic3_Floor.png
 #      537: ...
+
+      538: Resources/Items/Generic/Autogun_Generic1/Autogun_Generic1_Floor.png
+#      539: ...
+
+      540: Resources/Items/Generic/Autogun_Generic2/Autogun_Generic2_Floor.png
+#      541: ...
+
+      542: Resources/Items/Generic/Autogun_Generic3/Autogun_Generic3_Floor.png
+#      543: ...
 
 
 # +1000 temporary
@@ -283,7 +297,9 @@ extraSprites:
       376: Resources/Items/Generic/Autopistol_Generic2/Autopistol_Generic2_Hand.png
       384: Resources/Items/Generic/Autopistol_Generic3/Autopistol_Generic3_Hand.png
 
-
+      392: Resources/Items/Generic/Autogun_Generic1/Autogun_Generic1_Hand.png
+      400: Resources/Items/Generic/Autogun_Generic2/Autogun_Generic2_Hand.png
+      408: Resources/Items/Generic/Autogun_Generic3/Autogun_Generic3_Hand.png
 
 # +1000 temporary
       1368: Resources/Items/Renegades/Autopistol_Renegade/Autopistol_Renegade_Hand.png

@@ -91,6 +91,12 @@ extraStrings:
       STR_AUTOPISTOL_RENEGADE: "Autopistol (Renegade)"
       STR_AUTOPISTOL_MAGAZINE: "Autopistol Magazine"
 
+      STR_AUTOGUN_GENERIC1: "Autogun Sol Pattern"
+      STR_AUTOGUN_GENERIC2: "Sawn-Off Autogun"
+      STR_AUTOGUN_GENERIC3: "Autogun Agripinaa Pattern"
+      STR_AUTOGUN_GENERIC4: "Autogun Phobos Pattern"
+      STR_AUTOGUN_GENERIC5: "Autogun Corp Pattern"
+
       STR_AUTOGUN_ARBITES: "Autogun (Arbites)"
       STR_AUTOGUN_RENEGADE: "Autogun (Renegade)"
       STR_AUTOGUN_MAGAZINE: "Autogun Magazine"
