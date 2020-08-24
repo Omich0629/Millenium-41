@@ -105,7 +105,7 @@ items:
 ## GENERIC WEAPONS
 
 ## AUTOPISTOL (GENERIC 1)
-#Temporal name: Sol Pattern
+#Temporary name: Sol Pattern
 # -1 weight compared to Arbites Autopistol.
 # -1 effective range
 
@@ -148,7 +148,7 @@ items:
 
 
 ## AUTOPISTOL (GENERIC 2)
-#Temporal name: Voss Pattern Mk1
+#Temporary name: Voss Pattern Mk1
 # Functionally identical to Arbites Autopistol.
 
   - type: STR_AUTOPISTOL_GENERIC2
@@ -191,7 +191,7 @@ items:
 
 
 ## AUTOPISTOL (GENERIC 3)
-#Temporal name: Corp Pattern
+#Temporary name: Corp Pattern
 # +1 weight compared to Arbites Autopistol.
 # +1 effective range
 # +5 accuracy
@@ -236,7 +236,7 @@ items:
 
 
 ## AUTOGUN (GENERIC 1)
-#Temporal name: Sol Pattern
+#Temporary name: Sol Pattern
 # -1 weight compared to Arbites Autogun.
 # -5 to accuracy
 # -1 effective range
@@ -291,7 +291,7 @@ items:
 
 
 ## AUTOGUN (GENERIC 2)
-#Temporal name: Sawn-Off Autogun
+#Temporary name: Sawn-Off Autogun
 # Onehanded weapon
 # -2 weight compared to Arbites Autogun.
 # -10 to accuracy
@@ -344,7 +344,7 @@ items:
 
 
 ## AUTOGUN (GENERIC 3)
-#Temporal name: Agripinaa Pattern
+#Temporary name: Agripinaa Pattern
 # -5 to accuracy compared to Arbites Autogun.
 
   - type: STR_AUTOGUN_GENERIC3
@@ -356,7 +356,7 @@ items:
     categories: [STR_CATEGORY_RAPID, STR_CATEGORY_STUB]
     costBuy: 3600
     costSell: 2700
-    listOrder: 1020
+    listOrder: 1022
 #SPECIFICATIONS
     battleType: 1
     size: 0.2
@@ -377,22 +377,184 @@ items:
       shots: 1
     accuracyAimed: 55
     tuAimed: 45
-    aimRange: 19
+    aimRange: 20
 
     confSnap:
       shots: 2
     accuracySnap: 45
     tuSnap: 30
-    snapRange: 13
+    snapRange: 14
 
     confAuto:
       shots: 4
     accuracyAuto: 35
     tuAuto: 50
-    autoRange: 7
+    autoRange: 8
 #SCRIPTING
     tags:
       AMMO_CHANGES_ITEMS_BIGSPRITE: 1
+
+
+## AUTOGUN (GENERIC 4)
+#Temporary name: Phobos Pattern
+# +1 weight compared to Arbites Autogun.
+
+  - type: STR_AUTOGUN_GENERIC4
+#RESOURCES
+    bigSprite: 544
+    floorSprite: 544
+    handSprite: 416
+#INFO
+    categories: [STR_CATEGORY_RAPID, STR_CATEGORY_STUB]
+    costBuy: 4000
+    costSell: 3000
+    listOrder: 1023
+#SPECIFICATIONS
+    battleType: 1
+    size: 0.2
+    weight: 10
+    invWidth: 2
+    invHeight: 3
+    armor: 30
+    attraction: 1
+    twoHanded: true
+    oneHandedPenalty: 50
+#AMMO
+    compatibleAmmo:
+      - STR_AUTOGUN_MAGAZINE
+#SHOOTING
+    dropoff: 5
+
+    confAimed:
+      shots: 1
+    accuracyAimed: 60
+    tuAimed: 45
+    aimRange: 20
+
+    confSnap:
+      shots: 2
+    accuracySnap: 50
+    tuSnap: 30
+    snapRange: 14
+
+    confAuto:
+      shots: 4
+    accuracyAuto: 40
+    tuAuto: 50
+    autoRange: 8
+#SCRIPTING
+    tags:
+      AMMO_CHANGES_ITEMS_BIGSPRITE: 1
+
+
+
+## AUTOGUN (GENERIC 5)
+#Temporary name: Corp Pattern
+# +5 accuracy compared to Arbites Autogun.
+
+  - type: STR_AUTOGUN_GENERIC5
+#RESOURCES
+    bigSprite: 546
+    floorSprite: 546
+    handSprite: 424
+#INFO
+    categories: [STR_CATEGORY_RAPID, STR_CATEGORY_STUB]
+    costBuy: 5000
+    costSell: 4000
+    listOrder: 1024
+#SPECIFICATIONS
+    battleType: 1
+    size: 0.2
+    weight: 9
+    invWidth: 2
+    invHeight: 3
+    armor: 30
+    attraction: 1
+    twoHanded: true
+    oneHandedPenalty: 50
+#AMMO
+    compatibleAmmo:
+      - STR_AUTOGUN_MAGAZINE
+#SHOOTING
+    dropoff: 5
+
+    confAimed:
+      shots: 1
+    accuracyAimed: 65
+    tuAimed: 45
+    aimRange: 20
+
+    confSnap:
+      shots: 2
+    accuracySnap: 55
+    tuSnap: 30
+    snapRange: 14
+
+    confAuto:
+      shots: 4
+    accuracyAuto: 45
+    tuAuto: 50
+    autoRange: 8
+#SCRIPTING
+    tags:
+      AMMO_CHANGES_ITEMS_BIGSPRITE: 1
+
+
+## HEAVY STUBBER (GENERIC 1)
+# Temporary name: Vraks Pattern
+# -1 effective range compared to Arbites Heavy Stubber.
+
+
+  - type: STR_HEAVY_STUBBER_GENERIC1
+#RESOURCES
+    bigSprite: 548
+    floorSprite: 548
+    handSprite: 432
+#INFO
+    categories: [STR_CATEGORY_HEAVY, STR_CATEGORY_STUB]
+    costBuy: 8000
+    costSell: 6000
+    listOrder: 1040
+#SPECIFICATIONS
+    battleType: 1
+    size: 0.4
+    weight: 20
+    invWidth: 2
+    invHeight: 3
+    armor: 50
+    attraction: 1
+    twoHanded: true
+    blockBothHands: true
+#AMMO
+    compatibleAmmo:
+      - STR_HEAVY_STUBBER_AMMO_BELT
+#SHOOTING
+    kneelBonus: 150
+    dropoff: 5
+
+    accuracyAimed: 75
+    confAimed:
+      shots: 3
+    tuAimed: 70
+    aimRange: 24
+
+    accuracySnap: 55
+    confSnap:
+      shots: 3
+    tuSnap: 40
+    snapRange: 19
+
+    accuracyAuto: 40
+    confAuto:
+      shots: 9
+    tuAuto: 70
+    autoRange: 14
+#SCRIPTING
+    tags:
+      HEAVY_WEAPON: 1
+      AMMO_CHANGES_ITEMS_BIGSPRITE: 1
+      ITEM_HAS_BIPOD_BIGSPRITE: 1
+      ITEM_HAS_BIPOD_HANDSPRITE: 1
 
 
 

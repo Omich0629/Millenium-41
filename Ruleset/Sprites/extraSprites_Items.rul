@@ -100,12 +100,20 @@ extraSprites:
 
       538: Resources/Items/Generic/Autogun_Generic1/Autogun_Generic1_Inv0.png
       539: Resources/Items/Generic/Autogun_Generic1/Autogun_Generic1_Inv1.png
-
       540: Resources/Items/Generic/Autogun_Generic2/Autogun_Generic2_Inv0.png
       541: Resources/Items/Generic/Autogun_Generic2/Autogun_Generic2_Inv1.png
-
       542: Resources/Items/Generic/Autogun_Generic3/Autogun_Generic3_Inv0.png
       543: Resources/Items/Generic/Autogun_Generic3/Autogun_Generic3_Inv1.png
+      544: Resources/Items/Generic/Autogun_Generic4/Autogun_Generic4_Inv0.png
+      545: Resources/Items/Generic/Autogun_Generic4/Autogun_Generic4_Inv1.png
+      546: Resources/Items/Generic/Autogun_Generic5/Autogun_Generic5_Inv0.png
+      547: Resources/Items/Generic/Autogun_Generic5/Autogun_Generic5_Inv1.png
+
+      548: Resources/Items/Generic/Heavy_Stubber_Generic1/Heavy_Stubber_Generic1_Inv0.png
+      549: Resources/Items/Generic/Heavy_Stubber_Generic1/Heavy_Stubber_Generic1_Inv0_Deployed.png
+      550: Resources/Items/Generic/Heavy_Stubber_Generic1/Heavy_Stubber_Generic1_Inv1.png
+      551: Resources/Items/Generic/Heavy_Stubber_Generic1/Heavy_Stubber_Generic1_Inv1_Deployed.png
+
 
 
 # +1000 temporary
@@ -234,6 +242,18 @@ extraSprites:
       542: Resources/Items/Generic/Autogun_Generic3/Autogun_Generic3_Floor.png
 #      543: ...
 
+      544: Resources/Items/Generic/Autogun_Generic4/Autogun_Generic4_Floor.png
+#      545: ...
+
+      546: Resources/Items/Generic/Autogun_Generic5/Autogun_Generic5_Floor.png
+#      547: ...
+
+      548: Resources/Items/Generic/Heavy_Stubber_Generic1/Heavy_Stubber_Generic1_Floor.png
+#      549: ...
+#      550: ...
+#      551: ...
+
+
 
 # +1000 temporary
 
@@ -300,6 +320,12 @@ extraSprites:
       392: Resources/Items/Generic/Autogun_Generic1/Autogun_Generic1_Hand.png
       400: Resources/Items/Generic/Autogun_Generic2/Autogun_Generic2_Hand.png
       408: Resources/Items/Generic/Autogun_Generic3/Autogun_Generic3_Hand.png
+      416: Resources/Items/Generic/Autogun_Generic4/Autogun_Generic4_Hand.png
+      424: Resources/Items/Generic/Autogun_Generic5/Autogun_Generic5_Hand.png
+
+      432: Resources/Items/Generic/Heavy_Stubber_Generic1/Heavy_Stubber_Generic1_Hand.png
+      440: Resources/Items/Generic/Heavy_Stubber_Generic1/Heavy_Stubber_Generic1_Hand_Deployed.png
+
 
 # +1000 temporary
       1368: Resources/Items/Renegades/Autopistol_Renegade/Autopistol_Renegade_Hand.png

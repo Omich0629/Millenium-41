@@ -101,6 +101,7 @@ extraStrings:
       STR_AUTOGUN_RENEGADE: "Autogun (Renegade)"
       STR_AUTOGUN_MAGAZINE: "Autogun Magazine"
 
+      STR_HEAVY_STUBBER_GENERIC1: "Heavy Stubber Vraks Pattern"
       STR_HEAVY_STUBBER_ARBITES: "Heavy Stubber (Arbites)"
       STR_HEAVY_STUBBER_RENEGADE: "Heavy Stubber (Renegade)"
       STR_HEAVY_STUBBER_AMMO_BELT: "Heavy Stubber Ammo Belt"

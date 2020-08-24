@@ -98,7 +98,7 @@ items:
     categories: [STR_CATEGORY_HEAVY, STR_CATEGORY_STUB]
     costBuy: 9000
     costSell: 7000
-    listOrder: 1043
+    listOrder: 1045
 #SPECIFICATIONS
     battleType: 1
     size: 0.4
