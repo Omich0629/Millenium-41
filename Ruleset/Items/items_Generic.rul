@@ -557,6 +557,63 @@ items:
       ITEM_HAS_BIPOD_HANDSPRITE: 1
 
 
+## HEAVY STUBBER (GENERIC 2)
+# Temporary name: Corp Pattern
+# -1 weight and +5 accuracy compared to Arbites Heavy Stubber.
+
+
+  - type: STR_HEAVY_STUBBER_GENERIC2
+#RESOURCES
+    bigSprite: 552
+    floorSprite: 552
+    handSprite: 448
+#INFO
+    categories: [STR_CATEGORY_HEAVY, STR_CATEGORY_STUB]
+    costBuy: 11000
+    costSell: 8250
+    listOrder: 1041
+#SPECIFICATIONS
+    battleType: 1
+    size: 0.4
+    weight: 19
+    invWidth: 2
+    invHeight: 3
+    armor: 50
+    attraction: 1
+    twoHanded: true
+    blockBothHands: true
+#AMMO
+    compatibleAmmo:
+      - STR_HEAVY_STUBBER_AMMO_BELT
+#SHOOTING
+    kneelBonus: 150
+    dropoff: 5
+
+    accuracyAimed: 80
+    confAimed:
+      shots: 3
+    tuAimed: 70
+    aimRange: 25
+
+    accuracySnap: 60
+    confSnap:
+      shots: 3
+    tuSnap: 40
+    snapRange: 20
+
+    accuracyAuto: 45
+    confAuto:
+      shots: 9
+    tuAuto: 70
+    autoRange: 15
+#SCRIPTING
+    tags:
+      HEAVY_WEAPON: 1
+      AMMO_CHANGES_ITEMS_BIGSPRITE: 1
+      ITEM_HAS_BIPOD_BIGSPRITE: 1
+      ITEM_HAS_BIPOD_HANDSPRITE: 1
+
+
 
 ## GENERIC UTILITY ITEMS
 

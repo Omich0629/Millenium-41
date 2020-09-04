@@ -114,6 +114,11 @@ extraSprites:
       550: Resources/Items/Generic/Heavy_Stubber_Generic1/Heavy_Stubber_Generic1_Inv1.png
       551: Resources/Items/Generic/Heavy_Stubber_Generic1/Heavy_Stubber_Generic1_Inv1_Deployed.png
 
+      552: Resources/Items/Generic/Heavy_Stubber_Generic2/Heavy_Stubber_Generic2_Inv0.png
+      553: Resources/Items/Generic/Heavy_Stubber_Generic2/Heavy_Stubber_Generic2_Inv0_Deployed.png
+      554: Resources/Items/Generic/Heavy_Stubber_Generic2/Heavy_Stubber_Generic2_Inv1.png
+      555: Resources/Items/Generic/Heavy_Stubber_Generic2/Heavy_Stubber_Generic2_Inv1_Deployed.png
+
 
 
 # +1000 temporary
@@ -253,6 +258,12 @@ extraSprites:
 #      550: ...
 #      551: ...
 
+      552: Resources/Items/Generic/Heavy_Stubber_Generic2/Heavy_Stubber_Generic2_Floor.png
+#      553: ...
+#      554: ...
+#      555: ...
+
+
 
 
 # +1000 temporary
@@ -325,6 +336,10 @@ extraSprites:
 
       432: Resources/Items/Generic/Heavy_Stubber_Generic1/Heavy_Stubber_Generic1_Hand.png
       440: Resources/Items/Generic/Heavy_Stubber_Generic1/Heavy_Stubber_Generic1_Hand_Deployed.png
+
+      448: Resources/Items/Generic/Heavy_Stubber_Generic2/Heavy_Stubber_Generic2_Hand.png
+      456: Resources/Items/Generic/Heavy_Stubber_Generic2/Heavy_Stubber_Generic2_Hand_Deployed.png
+
 
 
 # +1000 temporary
