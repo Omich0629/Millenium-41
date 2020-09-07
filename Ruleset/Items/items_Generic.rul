@@ -561,7 +561,6 @@ items:
 # Temporary name: Corp Pattern
 # -1 weight and +5 accuracy compared to Arbites Heavy Stubber.
 
-
   - type: STR_HEAVY_STUBBER_GENERIC2
 #RESOURCES
     bigSprite: 552
@@ -612,6 +611,170 @@ items:
       AMMO_CHANGES_ITEMS_BIGSPRITE: 1
       ITEM_HAS_BIPOD_BIGSPRITE: 1
       ITEM_HAS_BIPOD_HANDSPRITE: 1
+
+
+## SHOTGUN (GENERIC 1)
+# Temporary name: Civilian Pattern
+# Pump Action Shotgun: +5 TU cost compared to Arbites Shotgun.
+# -2 weight, -5 accuracy, -1 range compared to Arbites Shotgun.
+
+  - type: STR_SHOTGUN_GENERIC1
+#RESOURCES
+    bigSprite: 556
+    floorSprite: 556
+    handSprite: 464
+#INFO
+    categories: [STR_CATEGORY_ASSAULT, STR_CATEGORY_STUB]
+    costBuy: 2000
+    costSell: 1500
+    listOrder: 1060
+#SPECIFICATIONS
+    battleType: 1
+    size: 0.3
+    weight: 8
+    invWidth: 2
+    invHeight: 3
+    armor: 50
+    attraction: 1
+    twoHanded: true
+    oneHandedPenalty: 50
+#AMMO
+    compatibleAmmo:
+      - STR_SHOTGUN_SHELLS
+      - STR_SHOTGUN_SLUGS
+#SHOOTING
+    dropoff: 8
+
+    accuracyAimed: 55
+    tuAimed: 70
+    aimRange: 9
+
+    accuracySnap: 45
+    tuSnap: 45
+    snapRange: 6
+
+## SHOTGUN (GENERIC 2)
+# Temporary name: Defender Pattern
+# Pump Action Shotgun: +5 TU cost compared to Arbites Shotgun.
+# -1 weight compared to Arbites Shotgun.
+
+  - type: STR_SHOTGUN_GENERIC2
+#RESOURCES
+    bigSprite: 557
+    floorSprite: 557
+    handSprite: 472
+#INFO
+    categories: [STR_CATEGORY_ASSAULT, STR_CATEGORY_STUB]
+    costBuy: 3000
+    costSell: 2250
+    listOrder: 1061
+#SPECIFICATIONS
+    battleType: 1
+    size: 0.3
+    weight: 9
+    invWidth: 2
+    invHeight: 3
+    armor: 50
+    attraction: 1
+    twoHanded: true
+    oneHandedPenalty: 50
+#AMMO
+    compatibleAmmo:
+      - STR_SHOTGUN_SHELLS
+      - STR_SHOTGUN_SLUGS
+#SHOOTING
+    dropoff: 8
+
+    accuracyAimed: 60
+    tuAimed: 70
+    aimRange: 10
+
+    accuracySnap: 50
+    tuSnap: 45
+    snapRange: 7
+
+## SHOTGUN (GENERIC 3)
+
+# Temporary name: Phobos Pattern Mk1
+# Semi-automatic Shotgun
+# +1 weight compared to Arbites Shotgun.
+# +5 accuracy compared to Arbites Shotgun.
+
+  - type: STR_SHOTGUN_GENERIC3
+#RESOURCES
+    bigSprite: 558
+    floorSprite: 558
+    handSprite: 480
+#INFO
+    categories: [STR_CATEGORY_ASSAULT, STR_CATEGORY_STUB]
+    costBuy: 5000
+    costSell: 3750
+    listOrder: 1062
+#SPECIFICATIONS
+    battleType: 1
+    size: 0.3
+    weight: 11
+    invWidth: 2
+    invHeight: 3
+    armor: 50
+    attraction: 1
+    twoHanded: true
+    oneHandedPenalty: 50
+#AMMO
+    compatibleAmmo:
+      - STR_SHOTGUN_SHELLS
+      - STR_SHOTGUN_SLUGS
+#SHOOTING
+    dropoff: 8
+
+    accuracyAimed: 65
+    tuAimed: 65
+    aimRange: 10
+
+    accuracySnap: 55
+    tuSnap: 40
+    snapRange: 7
+
+## SHOTGUN (GENERIC 4)
+
+# Temporary name: Shotgun Phobos Pattern Mk1-S
+# Onehanded Semi-automatic Shotgun
+# -1 weight, -1 range compared to Arbites Shotgun.
+
+  - type: STR_SHOTGUN_GENERIC4
+#RESOURCES
+    bigSprite: 559
+    floorSprite: 559
+    handSprite: 488
+#INFO
+    categories: [STR_CATEGORY_ASSAULT, STR_CATEGORY_STUB]
+    costBuy: 5000
+    costSell: 3750
+    listOrder: 1063
+#SPECIFICATIONS
+    battleType: 1
+    size: 0.3
+    weight: 9
+    invWidth: 2
+    invHeight: 3
+    armor: 50
+    attraction: 1
+    twoHanded: false
+#AMMO
+    compatibleAmmo:
+      - STR_SHOTGUN_SHELLS
+      - STR_SHOTGUN_SLUGS
+#SHOOTING
+    dropoff: 8
+
+    accuracyAimed: 60
+    tuAimed: 65
+    aimRange: 9
+
+    accuracySnap: 50
+    tuSnap: 40
+    snapRange: 6
+
 
 
 

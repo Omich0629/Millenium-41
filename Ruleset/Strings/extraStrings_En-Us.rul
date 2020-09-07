@@ -110,7 +110,7 @@ extraStrings:
       STR_SHOTGUN_GENERIC1: "Shotgun Civilian Pattern"
       STR_SHOTGUN_GENERIC2: "Shotgun Defender Pattern"
       STR_SHOTGUN_GENERIC3: "Shotgun Phobos Pattern Mk1"
-      STR_SHOTGUN_GENERIC4: "Shotgun Phobos Pattern Mk1-M"
+      STR_SHOTGUN_GENERIC4: "Shotgun Phobos Pattern Mk1-S"
 
       STR_SHOTGUN_ARBITES: "Shotgun (Arbites)"
       STR_SHOTGUN_RENEGADE: "Shotgun (Renegade)"

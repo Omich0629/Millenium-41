@@ -141,6 +141,8 @@ items:
       ITEM_HAS_BIPOD_HANDSPRITE: 1
 
 ## SHOTGUN (ARBITES)
+# Semi-automatic Shotgun
+
   - type: STR_SHOTGUN_ARBITES
 #RESOURCES
     bigSprite: 508
@@ -150,7 +152,7 @@ items:
     categories: [STR_CATEGORY_ASSAULT, STR_CATEGORY_STUB]
     costBuy: 4000
     costSell: 3000
-    listOrder: 1063
+    listOrder: 1065
 #SPECIFICATIONS
     battleType: 1
     size: 0.3

@@ -146,7 +146,7 @@ items:
     weight: 2
     armor: 30
 #SHOOTING
-    clipSize: 8
+    clipSize: 6
     power: 20
     damageType: 1
     damageAlter:
@@ -184,7 +184,7 @@ items:
     weight: 2
     armor: 30
 #SHOOTING
-    clipSize: 8
+    clipSize: 6
     power: 50
     damageType: 1
     damageAlter:

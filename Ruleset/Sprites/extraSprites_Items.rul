@@ -119,6 +119,11 @@ extraSprites:
       554: Resources/Items/Generic/Heavy_Stubber_Generic2/Heavy_Stubber_Generic2_Inv1.png
       555: Resources/Items/Generic/Heavy_Stubber_Generic2/Heavy_Stubber_Generic2_Inv1_Deployed.png
 
+      556: Resources/Items/Generic/Shotgun_Generic1/Shotgun_Generic1_Inv.png
+      557: Resources/Items/Generic/Shotgun_Generic2/Shotgun_Generic2_Inv.png
+      558: Resources/Items/Generic/Shotgun_Generic3/Shotgun_Generic3_Inv.png
+      559: Resources/Items/Generic/Shotgun_Generic4/Shotgun_Generic4_Inv.png
+
 
 
 # +1000 temporary
@@ -237,31 +242,29 @@ extraSprites:
 #      535: ...
       536: Resources/Items/Generic/Autopistol_Generic3/Autopistol_Generic3_Floor.png
 #      537: ...
-
       538: Resources/Items/Generic/Autogun_Generic1/Autogun_Generic1_Floor.png
 #      539: ...
-
       540: Resources/Items/Generic/Autogun_Generic2/Autogun_Generic2_Floor.png
 #      541: ...
-
       542: Resources/Items/Generic/Autogun_Generic3/Autogun_Generic3_Floor.png
 #      543: ...
-
       544: Resources/Items/Generic/Autogun_Generic4/Autogun_Generic4_Floor.png
 #      545: ...
-
       546: Resources/Items/Generic/Autogun_Generic5/Autogun_Generic5_Floor.png
 #      547: ...
-
       548: Resources/Items/Generic/Heavy_Stubber_Generic1/Heavy_Stubber_Generic1_Floor.png
 #      549: ...
 #      550: ...
 #      551: ...
-
       552: Resources/Items/Generic/Heavy_Stubber_Generic2/Heavy_Stubber_Generic2_Floor.png
 #      553: ...
 #      554: ...
 #      555: ...
+
+      556: Resources/Items/Generic/Shotgun_Generic1/Shotgun_Generic1_Floor.png
+      557: Resources/Items/Generic/Shotgun_Generic2/Shotgun_Generic2_Floor.png
+      558: Resources/Items/Generic/Shotgun_Generic3/Shotgun_Generic3_Floor.png
+      559: Resources/Items/Generic/Shotgun_Generic4/Shotgun_Generic4_Floor.png
 
 
 
@@ -340,6 +343,11 @@ extraSprites:
       448: Resources/Items/Generic/Heavy_Stubber_Generic2/Heavy_Stubber_Generic2_Hand.png
       456: Resources/Items/Generic/Heavy_Stubber_Generic2/Heavy_Stubber_Generic2_Hand_Deployed.png
 
+      464: Resources/Items/Generic/Shotgun_Generic1/Shotgun_Generic1_Hand.png
+      472: Resources/Items/Generic/Shotgun_Generic2/Shotgun_Generic2_Hand.png
+      480: Resources/Items/Generic/Shotgun_Generic3/Shotgun_Generic3_Hand.png
+      488: Resources/Items/Generic/Shotgun_Generic4/Shotgun_Generic4_Hand.png
+
 
 
 # +1000 temporary
@@ -352,13 +360,7 @@ extraSprites:
       1416: Resources/Items/Renegades/Flamer_Renegade/Flamer_Renegade_Hand.png
       1424: Resources/Items/Renegades/Improvised_Mace/Improvised_Mace_Hand.png
       1432: Resources/Items/Renegades/Improvised_Sword/Improvised_Sword_Hand.png
-#      440: Resources/Items/Arbites
-#      448: Resources/Items/Arbites
-#      456: Resources/Items/Arbites
-#      464: Resources/Items/Arbites
-#      472: Resources/Items/Arbites
-#      480: Resources/Items/Arbites
-#      488: Resources/Items/Arbites
+
 #      496: Resources/Items/Arbites
 #      504: Resources/Items/Arbites
 #      512: Resources/Items/Arbites
