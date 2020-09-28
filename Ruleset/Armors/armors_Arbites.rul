@@ -3,6 +3,7 @@ armors:
 ## ARBITES ARMOR ##
 
   - type: STR_ARBITES_ARMOR
+#GENERAL
     visibilityAtDay: 40
     visibilityAtDark: 9
     spriteSheet: ARBITES_ARMOR.PCK
@@ -35,58 +36,32 @@ armors:
     loftempsSet: [ 3 ]
     builtInWeapons:
       - STR_NULL_ITEM_BACK_PACK
-
-  - type: STR_ARBITES_ARMOR
+#LAYERS
     spriteFaceGroup: 6
-    spriteFaceColor: [96, 96, #MALE_0 FEMALE_0
-                      96, 96, #MALE_1 FEMALE_1
-                      160, 160, #MALE_2 FEMALE_2
-                      163, 163, #MALE_3 FEMALE_3
-                      96, 96, #MALE_4 FEMALE_4
-                      96, 96, #MALE_5 FEMALE_5
-                      96, 96, #MALE_6 FEMALE_6
-                      96, 96, #MALE_7 FEMALE_7
-                      160, 160, #MALE_8 FEMALE_8
-                      163, 163] #MALE_9 FEMALE_9
+    spriteFaceColor: [96, 96, #MALE_00, FEMALE_00 (Skin color: 0)
+                      160, 160, #MALE_01 FEMALE_01 (Skin color: 1)
+                      163, 163] #MALE_02 FEMALE_02 (Skin color: 2)
     spriteHairGroup: 9
-    spriteHairColor: [144, 144, #MALE_0 FEMALE_0
-                      164, 164, #MALE_1 FEMALE_1
-                      245, 245, #MALE_2 FEMALE_2
-                      166, 166, #MALE_3 FEMALE_3
-                      96, 164, #MALE_4 FEMALE_4
-                      96, 96, #MALE_5 FEMALE_5
-                      144, 144, #MALE_6 FEMALE_6
-                      164, 164, #MALE_7 FEMALE_7
-                      245, 245, #MALE_8 FEMALE_8
-                      166, 166] #MALE_9 FEMALE_9
+    spriteHairColor: [144, 144, #MALE_0 FEMALE_0 (Hair color: Yellow)
+                      245, 245, #MALE_2 FEMALE_2 (Hair color: Black)
+                      166, 166] #MALE_3 FEMALE_3 (Hair color: Dark Brown)
     layersDefaultPrefix: 0
     layersSpecificPrefix:
       4: ARBITES_ARMOR
     layersDefinition:
-      M0: ["", "HUMAN_FACE_MALE_0", "", "HUMAN_HAIR_MALE_0", "ARBITES_ARMOR_M"]
-      M1: ["", "HUMAN_FACE_MALE_1", "", "HUMAN_HAIR_MALE_1", "ARBITES_ARMOR_M"]
-      M2: ["", "HUMAN_FACE_MALE_2", "", "HUMAN_HAIR_MALE_2", "ARBITES_ARMOR_M"]
-      M3: ["", "HUMAN_FACE_MALE_3", "", "HUMAN_HAIR_MALE_3", "ARBITES_ARMOR_M"]
-      M4: ["", "HUMAN_FACE_MALE_4", "", "", "ARBITES_ARMOR_M"]
-      M5: ["", "HUMAN_FACE_MALE_5", "", "HUMAN_HAIR_MALE_5", "ARBITES_ARMOR_M"]
-      M6: ["", "HUMAN_FACE_MALE_6", "", "", "ARBITES_ARMOR_M"]
-      M7: ["", "HUMAN_FACE_MALE_7", "", "HUMAN_HAIR_MALE_7", "ARBITES_ARMOR_M"]
-      M8: ["", "HUMAN_FACE_MALE_8", "", "HUMAN_HAIR_MALE_8", "ARBITES_ARMOR_M"]
-      M9: ["", "HUMAN_FACE_MALE_9", "", "", "ARBITES_ARMOR_M"]
-      F0: ["", "HUMAN_FACE_FEMALE_0", "", "HUMAN_HAIR_FEMALE_0", "ARBITES_ARMOR_F"]
-      F1: ["", "HUMAN_FACE_FEMALE_1", "", "HUMAN_HAIR_FEMALE_1", "ARBITES_ARMOR_F"]
-      F2: ["", "HUMAN_FACE_FEMALE_2", "", "HUMAN_HAIR_FEMALE_2", "ARBITES_ARMOR_F"]
-      F3: ["", "HUMAN_FACE_FEMALE_3", "", "HUMAN_HAIR_FEMALE_3", "ARBITES_ARMOR_F"]
-      F4: ["", "HUMAN_FACE_FEMALE_4", "", "HUMAN_HAIR_FEMALE_4", "ARBITES_ARMOR_F"]
-      F5: ["", "HUMAN_FACE_FEMALE_5", "", "HUMAN_HAIR_FEMALE_5", "ARBITES_ARMOR_F"]
-      F6: ["", "HUMAN_FACE_FEMALE_6", "", "HUMAN_HAIR_FEMALE_6", "ARBITES_ARMOR_F"]
-      F7: ["", "HUMAN_FACE_FEMALE_7", "", "HUMAN_HAIR_FEMALE_7", "ARBITES_ARMOR_F"]
-      F8: ["", "HUMAN_FACE_FEMALE_8", "", "HUMAN_HAIR_FEMALE_8", "ARBITES_ARMOR_F"]
-      F9: ["", "HUMAN_FACE_FEMALE_9", "", "HUMAN_HAIR_FEMALE_9", "ARBITES_ARMOR_F"]
+#MALE
+      M0: ["", "HUMAN_FACE_MALE_00", "HUMAN_HAIR_MALE_00", "", "ARBITES_ARMOR_M"]
+      M1: ["", "HUMAN_FACE_MALE_01", "HUMAN_HAIR_MALE_01", "", "ARBITES_ARMOR_M"]
+      M2: ["", "HUMAN_FACE_MALE_02", "HUMAN_HAIR_MALE_02", "", "ARBITES_ARMOR_M"]
+#FEMALE
+      F0: ["", "HUMAN_FACE_FEMALE_00", "HUMAN_HAIR_FEMALE_00", "", "ARBITES_ARMOR_F"]
+      F1: ["", "HUMAN_FACE_FEMALE_01", "HUMAN_HAIR_FEMALE_01", "", "ARBITES_ARMOR_F"]
+      F2: ["", "HUMAN_FACE_FEMALE_02", "HUMAN_HAIR_FEMALE_02", "", "ARBITES_ARMOR_F"]
 
 ## ARBITES DEFENSIVE EQUIPMENT ##
 
   - type: STR_ARBITES_DEFENSIVE_EQUIPMENT
+#GENERAL
     visibilityAtDay: 40
     visibilityAtDark: 9
     spriteSheet: ARBITES_DEFENSIVE_EQUIPMENT.PCK
@@ -120,51 +95,24 @@ armors:
     builtInWeapons:
       - STR_NULL_ITEM_BACK_PACK
       - STR_SUPPRESSION_SHIELD
-
-  - type: STR_ARBITES_DEFENSIVE_EQUIPMENT
+#LAYERS
     spriteFaceGroup: 6
-    spriteFaceColor: [96, 96, #MALE_0 FEMALE_0
-                      96, 96, #MALE_1 FEMALE_1
-                      160, 160, #MALE_2 FEMALE_2
-                      163, 163, #MALE_3 FEMALE_3
-                      96, 96, #MALE_4 FEMALE_4
-                      96, 96, #MALE_5 FEMALE_5
-                      96, 96, #MALE_6 FEMALE_6
-                      96, 96, #MALE_7 FEMALE_7
-                      160, 160, #MALE_8 FEMALE_8
-                      163, 163] #MALE_9 FEMALE_9
+    spriteFaceColor: [96, 96, #MALE_00, FEMALE_00 (Skin color: 0)
+                      160, 160, #MALE_01 FEMALE_01 (Skin color: 1)
+                      163, 163] #MALE_02 FEMALE_02 (Skin color: 2)
     spriteHairGroup: 9
-    spriteHairColor: [144, 144, #MALE_0 FEMALE_0
-                      164, 164, #MALE_1 FEMALE_1
-                      245, 245, #MALE_2 FEMALE_2
-                      166, 166, #MALE_3 FEMALE_3
-                      96, 164, #MALE_4 FEMALE_4
-                      96, 96, #MALE_5 FEMALE_5
-                      144, 144, #MALE_6 FEMALE_6
-                      164, 164, #MALE_7 FEMALE_7
-                      245, 245, #MALE_8 FEMALE_8
-                      166, 166] #MALE_9 FEMALE_9
+    spriteHairColor: [144, 144, #MALE_0 FEMALE_0 (Hair color: Yellow)
+                      245, 245, #MALE_2 FEMALE_2 (Hair color: Black)
+                      166, 166] #MALE_3 FEMALE_3 (Hair color: Dark Brown)
     layersDefaultPrefix: 0
     layersSpecificPrefix:
       4: ARBITES_ARMOR
     layersDefinition:
-      M0: ["", "HUMAN_FACE_MALE_0", "", "HUMAN_HAIR_MALE_0", "ARBITES_ARMOR_M"]
-      M1: ["", "HUMAN_FACE_MALE_1", "", "HUMAN_HAIR_MALE_1", "ARBITES_ARMOR_M"]
-      M2: ["", "HUMAN_FACE_MALE_2", "", "HUMAN_HAIR_MALE_2", "ARBITES_ARMOR_M"]
-      M3: ["", "HUMAN_FACE_MALE_3", "", "HUMAN_HAIR_MALE_3", "ARBITES_ARMOR_M"]
-      M4: ["", "HUMAN_FACE_MALE_4", "", "", "ARBITES_ARMOR_M"]
-      M5: ["", "HUMAN_FACE_MALE_5", "", "HUMAN_HAIR_MALE_5", "ARBITES_ARMOR_M"]
-      M6: ["", "HUMAN_FACE_MALE_6", "", "", "ARBITES_ARMOR_M"]
-      M7: ["", "HUMAN_FACE_MALE_7", "", "HUMAN_HAIR_MALE_7", "ARBITES_ARMOR_M"]
-      M8: ["", "HUMAN_FACE_MALE_8", "", "HUMAN_HAIR_MALE_8", "ARBITES_ARMOR_M"]
-      M9: ["", "HUMAN_FACE_MALE_9", "", "", "ARBITES_ARMOR_M"]
-      F0: ["", "HUMAN_FACE_FEMALE_0", "", "HUMAN_HAIR_FEMALE_0", "ARBITES_ARMOR_F"]
-      F1: ["", "HUMAN_FACE_FEMALE_1", "", "HUMAN_HAIR_FEMALE_1", "ARBITES_ARMOR_F"]
-      F2: ["", "HUMAN_FACE_FEMALE_2", "", "HUMAN_HAIR_FEMALE_2", "ARBITES_ARMOR_F"]
-      F3: ["", "HUMAN_FACE_FEMALE_3", "", "HUMAN_HAIR_FEMALE_3", "ARBITES_ARMOR_F"]
-      F4: ["", "HUMAN_FACE_FEMALE_4", "", "HUMAN_HAIR_FEMALE_4", "ARBITES_ARMOR_F"]
-      F5: ["", "HUMAN_FACE_FEMALE_5", "", "HUMAN_HAIR_FEMALE_5", "ARBITES_ARMOR_F"]
-      F6: ["", "HUMAN_FACE_FEMALE_6", "", "HUMAN_HAIR_FEMALE_6", "ARBITES_ARMOR_F"]
-      F7: ["", "HUMAN_FACE_FEMALE_7", "", "HUMAN_HAIR_FEMALE_7", "ARBITES_ARMOR_F"]
-      F8: ["", "HUMAN_FACE_FEMALE_8", "", "HUMAN_HAIR_FEMALE_8", "ARBITES_ARMOR_F"]
-      F9: ["", "HUMAN_FACE_FEMALE_9", "", "HUMAN_HAIR_FEMALE_9", "ARBITES_ARMOR_F"]
+#MALE
+      M0: ["", "HUMAN_FACE_MALE_00", "HUMAN_HAIR_MALE_00", "", "ARBITES_ARMOR_M"]
+      M1: ["", "HUMAN_FACE_MALE_01", "HUMAN_HAIR_MALE_01", "", "ARBITES_ARMOR_M"]
+      M2: ["", "HUMAN_FACE_MALE_02", "HUMAN_HAIR_MALE_02", "", "ARBITES_ARMOR_M"]
+#FEMALE
+      F0: ["", "HUMAN_FACE_FEMALE_00", "HUMAN_HAIR_FEMALE_00", "", "ARBITES_ARMOR_F"]
+      F1: ["", "HUMAN_FACE_FEMALE_01", "HUMAN_HAIR_FEMALE_01", "", "ARBITES_ARMOR_F"]
+      F2: ["", "HUMAN_FACE_FEMALE_02", "HUMAN_HAIR_FEMALE_02", "", "ARBITES_ARMOR_F"]

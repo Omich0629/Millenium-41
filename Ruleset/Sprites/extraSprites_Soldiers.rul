@@ -1,0 +1,62 @@
+extraSprites:
+
+### SOLDIER SPRITES (FACES, HAIR, HANDS) ###
+
+## MALE SPRITES ##
+
+
+
+#MALE FACES SPRITES (LAYER 1) AND HAIR SPRITES (LAYER 2)
+
+#MALE_0
+  - typeSingle: 0__1__HUMAN_FACE_MALE_00
+    fileSingle: Resources/Soldiers/Human/Faces/Male_00/Human_Face_Male_00.png
+  - typeSingle: 0__2__HUMAN_HAIR_MALE_00
+    fileSingle: Resources/Soldiers/Human/Faces/Male_00/Human_Hair_Male_00.png
+#MALE_1
+  - typeSingle: 0__1__HUMAN_FACE_MALE_01
+    fileSingle: Resources/Soldiers/Human/Faces/Male_01/Human_Face_Male_01.png
+  - typeSingle: 0__2__HUMAN_HAIR_MALE_01
+    fileSingle: Resources/Soldiers/Human/Faces/Male_01/Human_Hair_Male_01.png
+#MALE_2
+  - typeSingle: 0__1__HUMAN_FACE_MALE_02
+    fileSingle: Resources/Soldiers/Human/Faces/Male_02/Human_Face_Male_02.png
+  - typeSingle: 0__2__HUMAN_HAIR_MALE_02
+    fileSingle: Resources/Soldiers/Human/Faces/Male_02/Human_Hair_Male_02.png
+
+
+#MALE HANDS (LAYER 3)
+  - typeSingle: 0__3__HUMAN_HANDS_MALE_00
+    fileSingle: Resources/Soldiers/Human/Hands/Human_Hands_Male_00.png
+  - typeSingle: 0__3__HUMAN_HANDS_MALE_01
+    fileSingle: Resources/Soldiers/Human/Hands/Human_Hands_Male_01.png
+  - typeSingle: 0__3__HUMAN_HANDS_MALE_02
+    fileSingle: Resources/Soldiers/Human/Hands/Human_Hands_Male_02.png
+
+## FEMALE SPRITES ##
+
+#FEMALE FACES SPRITES (LAYER 1) AND HAIR SPRITES (LAYER 2)
+
+#FEMALE_0
+  - typeSingle: 0__1__HUMAN_FACE_FEMALE_00
+    fileSingle: Resources/Soldiers/Human/Faces/Female_00/Human_Face_Female_00.png
+  - typeSingle: 0__2__HUMAN_HAIR_FEMALE_00
+    fileSingle: Resources/Soldiers/Human/Faces/Female_00/Human_Hair_Female_00.png
+#FEMALE_1
+  - typeSingle: 0__1__HUMAN_FACE_FEMALE_01
+    fileSingle: Resources/Soldiers/Human/Faces/Female_01/Human_Face_Female_01.png
+  - typeSingle: 0__2__HUMAN_HAIR_FEMALE_01
+    fileSingle: Resources/Soldiers/Human/Faces/Female_01/Human_Hair_Female_01.png
+#FEMALE_2
+  - typeSingle: 0__1__HUMAN_FACE_FEMALE_02
+    fileSingle: Resources/Soldiers/Human/Faces/Female_02/Human_Face_Female_02.png
+  - typeSingle: 0__2__HUMAN_HAIR_FEMALE_02
+    fileSingle: Resources/Soldiers/Human/Faces/Female_02/Human_Hair_Female_02.png
+
+#FEMALE HANDS (LAYER 3)
+  - typeSingle: 0__3__HUMAN_HANDS_FEMALE_00
+    fileSingle: Resources/Soldiers/Human/Hands/Human_Hands_Female_00.png
+  - typeSingle: 0__3__HUMAN_HANDS_FEMALE_01
+    fileSingle: Resources/Soldiers/Human/Hands/Human_Hands_Female_01.png
+  - typeSingle: 0__3__HUMAN_HANDS_FEMALE_02
+    fileSingle: Resources/Soldiers/Human/Hands/Human_Hands_Female_02.png
