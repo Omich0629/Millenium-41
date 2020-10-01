@@ -46,17 +46,29 @@ armors:
                       163, 163, #MALE_05 FEMALE_05 (Skin color: 2)
                       96, 96, #MALE_06 FEMALE_06 (Skin color: 0)
                       160, 160, #MALE_07 FEMALE_07 (Skin color: 1)
-                      163, 163] #MALE_08 FEMALE_08 (Skin color: 2)
+                      163, 163, #MALE_08 FEMALE_08 (Skin color: 2)
+                      96, 96, #MALE_09 FEMALE_09 (Skin color: 0)
+                      160, 160, #MALE_10 FEMALE_10 (Skin color: 1)
+                      163, 163, #MALE_11 FEMALE_11 (Skin color: 2)
+                      96, 96, #MALE_12 FEMALE_12 (Skin color: 0)
+                      160, 160, #MALE_13 FEMALE_13 (Skin color: 1)
+                      163, 163] #MALE_14 FEMALE_14 (Skin color: 2)
     spriteHairGroup: 9
-    spriteHairColor: [144, 144, #MALE_0 FEMALE_0 (Hair color: Yellow)
-                      245, 245, #MALE_1 FEMALE_1 (Hair color: Black)
-                      166, 166, #MALE_2 FEMALE_2 (Hair color: Dark Brown)
-                      144, 144, #MALE_3 FEMALE_3 (Hair color: Yellow)
-                      245, 245, #MALE_4 FEMALE_4 (Hair color: Black)
-                      166, 166, #MALE_5 FEMALE_5 (Hair color: Dark Brown)
-                      144, 144, #MALE_6 FEMALE_6 (Hair color: Yellow)
-                      245, 245, #MALE_7 FEMALE_7 (Hair color: Black)
-                      166, 166] #MALE_8 FEMALE_8 (Hair color: Dark Brown)
+    spriteHairColor: [144, 144, #MALE_00 FEMALE_00 (Hair color: Yellow)
+                      245, 245, #MALE_01 FEMALE_01 (Hair color: Black)
+                      166, 166, #MALE_02 FEMALE_02 (Hair color: Dark Brown)
+                      144, 144, #MALE_03 FEMALE_03 (Hair color: Yellow)
+                      245, 245, #MALE_04 FEMALE_04 (Hair color: Black)
+                      166, 166, #MALE_05 FEMALE_05 (Hair color: Dark Brown)
+                      144, 144, #MALE_06 FEMALE_06 (Hair color: Yellow)
+                      245, 245, #MALE_07 FEMALE_07 (Hair color: Black)
+                      166, 166, #MALE_08 FEMALE_08 (Hair color: Dark Brown)
+                      164, 164, #MALE_09 FEMALE_09 (Hair color: Brown)
+                      245, 245, #MALE_10 FEMALE_10 (Hair color: Black)
+                      166, 166, #MALE_11 FEMALE_11 (Hair color: Dark Brown)
+                      164, 164, #MALE_12 FEMALE_12 (Hair color: Brown)
+                      245, 245, #MALE_13 FEMALE_13 (Hair color: Black)
+                      166, 166] #MALE_14 FEMALE_14 (Hair color: Dark Brown)
     layersDefaultPrefix: 0
     layersSpecificPrefix:
       4: ARBITES_ARMOR
@@ -71,7 +83,12 @@ armors:
       M6: ["", "HUMAN_FACE_MALE_06", "HUMAN_HAIR_MALE_06", "", "ARBITES_ARMOR_M"]
       M7: ["", "HUMAN_FACE_MALE_07", "HUMAN_HAIR_MALE_07", "", "ARBITES_ARMOR_M"]
       M8: ["", "HUMAN_FACE_MALE_08", "HUMAN_HAIR_MALE_08", "", "ARBITES_ARMOR_M"]
-
+      M9: ["", "HUMAN_FACE_MALE_09", "HUMAN_HAIR_MALE_09", "", "ARBITES_ARMOR_M"]
+      M10: ["", "HUMAN_FACE_MALE_10", "HUMAN_HAIR_MALE_10", "", "ARBITES_ARMOR_M"]
+      M11: ["", "HUMAN_FACE_MALE_11", "HUMAN_HAIR_MALE_11", "", "ARBITES_ARMOR_M"]
+      M12: ["", "HUMAN_FACE_MALE_12", "HUMAN_HAIR_MALE_12", "", "ARBITES_ARMOR_M"]
+      M13: ["", "HUMAN_FACE_MALE_13", "HUMAN_HAIR_MALE_13", "", "ARBITES_ARMOR_M"]
+      M14: ["", "HUMAN_FACE_MALE_14", "HUMAN_HAIR_MALE_15", "", "ARBITES_ARMOR_M"]
 #FEMALE
       F0: ["", "HUMAN_FACE_FEMALE_00", "HUMAN_HAIR_FEMALE_00", "", "ARBITES_ARMOR_F"]
       F1: ["", "HUMAN_FACE_FEMALE_01", "HUMAN_HAIR_FEMALE_01", "", "ARBITES_ARMOR_F"]
@@ -82,6 +99,12 @@ armors:
       F6: ["", "HUMAN_FACE_FEMALE_06", "HUMAN_HAIR_FEMALE_06", "", "ARBITES_ARMOR_F"]
       F7: ["", "HUMAN_FACE_FEMALE_07", "HUMAN_HAIR_FEMALE_07", "", "ARBITES_ARMOR_F"]
       F8: ["", "HUMAN_FACE_FEMALE_08", "HUMAN_HAIR_FEMALE_08", "", "ARBITES_ARMOR_F"]
+      F9: ["", "HUMAN_FACE_FEMALE_09", "HUMAN_HAIR_FEMALE_09", "", "ARBITES_ARMOR_F"]
+      F10: ["", "HUMAN_FACE_FEMALE_10", "HUMAN_HAIR_FEMALE_10", "", "ARBITES_ARMOR_F"]
+      F11: ["", "HUMAN_FACE_FEMALE_11", "HUMAN_HAIR_FEMALE_11", "", "ARBITES_ARMOR_F"]
+      F12: ["", "HUMAN_FACE_FEMALE_12", "HUMAN_HAIR_FEMALE_12", "", "ARBITES_ARMOR_F"]
+      F13: ["", "HUMAN_FACE_FEMALE_13", "HUMAN_HAIR_FEMALE_13", "", "ARBITES_ARMOR_F"]
+      F14: ["", "HUMAN_FACE_FEMALE_14", "HUMAN_HAIR_FEMALE_14", "", "ARBITES_ARMOR_F"]
 
 
 ## ARBITES DEFENSIVE EQUIPMENT ##
@@ -131,17 +154,29 @@ armors:
                       163, 163, #MALE_05 FEMALE_05 (Skin color: 2)
                       96, 96, #MALE_06 FEMALE_06 (Skin color: 0)
                       160, 160, #MALE_07 FEMALE_07 (Skin color: 1)
-                      163, 163] #MALE_08 FEMALE_08 (Skin color: 2)
+                      163, 163, #MALE_08 FEMALE_08 (Skin color: 2)
+                      96, 96, #MALE_09 FEMALE_09 (Skin color: 0)
+                      160, 160, #MALE_10 FEMALE_10 (Skin color: 1)
+                      163, 163, #MALE_11 FEMALE_11 (Skin color: 2)
+                      96, 96, #MALE_12 FEMALE_12 (Skin color: 0)
+                      160, 160, #MALE_13 FEMALE_13 (Skin color: 1)
+                      163, 163] #MALE_14 FEMALE_14 (Skin color: 2)
     spriteHairGroup: 9
-    spriteHairColor: [144, 144, #MALE_0 FEMALE_0 (Hair color: Yellow)
-                      245, 245, #MALE_1 FEMALE_1 (Hair color: Black)
-                      166, 166, #MALE_2 FEMALE_2 (Hair color: Dark Brown)
-                      144, 144, #MALE_3 FEMALE_3 (Hair color: Yellow)
-                      245, 245, #MALE_4 FEMALE_4 (Hair color: Black)
-                      166, 166, #MALE_5 FEMALE_5 (Hair color: Dark Brown)
-                      144, 144, #MALE_6 FEMALE_6 (Hair color: Yellow)
-                      245, 245, #MALE_7 FEMALE_7 (Hair color: Black)
-                      166, 166] #MALE_8 FEMALE_8 (Hair color: Dark Brown)
+    spriteHairColor: [144, 144, #MALE_00 FEMALE_00 (Hair color: Yellow)
+                      245, 245, #MALE_01 FEMALE_01 (Hair color: Black)
+                      166, 166, #MALE_02 FEMALE_02 (Hair color: Dark Brown)
+                      144, 144, #MALE_03 FEMALE_03 (Hair color: Yellow)
+                      245, 245, #MALE_04 FEMALE_04 (Hair color: Black)
+                      166, 166, #MALE_05 FEMALE_05 (Hair color: Dark Brown)
+                      144, 144, #MALE_06 FEMALE_06 (Hair color: Yellow)
+                      245, 245, #MALE_07 FEMALE_07 (Hair color: Black)
+                      166, 166, #MALE_08 FEMALE_08 (Hair color: Dark Brown)
+                      164, 164, #MALE_09 FEMALE_09 (Hair color: Brown)
+                      245, 245, #MALE_10 FEMALE_10 (Hair color: Black)
+                      166, 166, #MALE_11 FEMALE_11 (Hair color: Dark Brown)
+                      164, 164, #MALE_12 FEMALE_12 (Hair color: Brown)
+                      245, 245, #MALE_13 FEMALE_13 (Hair color: Black)
+                      166, 166] #MALE_14 FEMALE_14 (Hair color: Dark Brown)
     layersDefaultPrefix: 0
     layersSpecificPrefix:
       4: ARBITES_ARMOR
@@ -156,7 +191,12 @@ armors:
       M6: ["", "HUMAN_FACE_MALE_06", "HUMAN_HAIR_MALE_06", "", "ARBITES_ARMOR_M"]
       M7: ["", "HUMAN_FACE_MALE_07", "HUMAN_HAIR_MALE_07", "", "ARBITES_ARMOR_M"]
       M8: ["", "HUMAN_FACE_MALE_08", "HUMAN_HAIR_MALE_08", "", "ARBITES_ARMOR_M"]
-
+      M9: ["", "HUMAN_FACE_MALE_09", "HUMAN_HAIR_MALE_09", "", "ARBITES_ARMOR_M"]
+      M10: ["", "HUMAN_FACE_MALE_10", "HUMAN_HAIR_MALE_10", "", "ARBITES_ARMOR_M"]
+      M11: ["", "HUMAN_FACE_MALE_11", "HUMAN_HAIR_MALE_11", "", "ARBITES_ARMOR_M"]
+      M12: ["", "HUMAN_FACE_MALE_12", "HUMAN_HAIR_MALE_12", "", "ARBITES_ARMOR_M"]
+      M13: ["", "HUMAN_FACE_MALE_13", "HUMAN_HAIR_MALE_13", "", "ARBITES_ARMOR_M"]
+      M14: ["", "HUMAN_FACE_MALE_14", "HUMAN_HAIR_MALE_15", "", "ARBITES_ARMOR_M"]
 #FEMALE
       F0: ["", "HUMAN_FACE_FEMALE_00", "HUMAN_HAIR_FEMALE_00", "", "ARBITES_ARMOR_F"]
       F1: ["", "HUMAN_FACE_FEMALE_01", "HUMAN_HAIR_FEMALE_01", "", "ARBITES_ARMOR_F"]
@@ -167,3 +207,9 @@ armors:
       F6: ["", "HUMAN_FACE_FEMALE_06", "HUMAN_HAIR_FEMALE_06", "", "ARBITES_ARMOR_F"]
       F7: ["", "HUMAN_FACE_FEMALE_07", "HUMAN_HAIR_FEMALE_07", "", "ARBITES_ARMOR_F"]
       F8: ["", "HUMAN_FACE_FEMALE_08", "HUMAN_HAIR_FEMALE_08", "", "ARBITES_ARMOR_F"]
+      F9: ["", "HUMAN_FACE_FEMALE_09", "HUMAN_HAIR_FEMALE_09", "", "ARBITES_ARMOR_F"]
+      F10: ["", "HUMAN_FACE_FEMALE_10", "HUMAN_HAIR_FEMALE_10", "", "ARBITES_ARMOR_F"]
+      F11: ["", "HUMAN_FACE_FEMALE_11", "HUMAN_HAIR_FEMALE_11", "", "ARBITES_ARMOR_F"]
+      F12: ["", "HUMAN_FACE_FEMALE_12", "HUMAN_HAIR_FEMALE_12", "", "ARBITES_ARMOR_F"]
+      F13: ["", "HUMAN_FACE_FEMALE_13", "HUMAN_HAIR_FEMALE_13", "", "ARBITES_ARMOR_F"]
+      F14: ["", "HUMAN_FACE_FEMALE_14", "HUMAN_HAIR_FEMALE_14", "", "ARBITES_ARMOR_F"]

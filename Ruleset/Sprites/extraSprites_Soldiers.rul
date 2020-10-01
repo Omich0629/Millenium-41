@@ -53,6 +53,36 @@ extraSprites:
     fileSingle: Resources/Soldiers/Human/Faces/Male_08/Human_Face_Male_08.png
   - typeSingle: 0__2__HUMAN_HAIR_MALE_08
     fileSingle: Resources/Soldiers/Human/Faces/Male_08/Human_Hair_Male_08.png
+#MALE_09
+  - typeSingle: 0__1__HUMAN_FACE_MALE_09
+    fileSingle: Resources/Soldiers/Human/Faces/Male_09/Human_Face_Male_09.png
+  - typeSingle: 0__2__HUMAN_HAIR_MALE_09
+    fileSingle: Resources/Soldiers/Human/Faces/Male_09/Human_Hair_Male_09.png
+#MALE_10
+  - typeSingle: 0__1__HUMAN_FACE_MALE_10
+    fileSingle: Resources/Soldiers/Human/Faces/Male_10/Human_Face_Male_10.png
+  - typeSingle: 0__2__HUMAN_HAIR_MALE_10
+    fileSingle: Resources/Soldiers/Human/Faces/Male_10/Human_Hair_Male_10.png
+#MALE_11
+  - typeSingle: 0__1__HUMAN_FACE_MALE_11
+    fileSingle: Resources/Soldiers/Human/Faces/Male_11/Human_Face_Male_11.png
+  - typeSingle: 0__2__HUMAN_HAIR_MALE_11
+    fileSingle: Resources/Soldiers/Human/Faces/Male_11/Human_Hair_Male_11.png
+#MALE_12
+  - typeSingle: 0__1__HUMAN_FACE_MALE_12
+    fileSingle: Resources/Soldiers/Human/Faces/Male_12/Human_Face_Male_12.png
+  - typeSingle: 0__2__HUMAN_HAIR_MALE_12
+    fileSingle: Resources/Soldiers/Human/Faces/Male_12/Human_Hair_Male_12.png
+#MALE_13
+  - typeSingle: 0__1__HUMAN_FACE_MALE_13
+    fileSingle: Resources/Soldiers/Human/Faces/Male_13/Human_Face_Male_13.png
+  - typeSingle: 0__2__HUMAN_HAIR_MALE_13
+    fileSingle: Resources/Soldiers/Human/Faces/Male_13/Human_Hair_Male_13.png
+#MALE_14
+  - typeSingle: 0__1__HUMAN_FACE_MALE_14
+    fileSingle: Resources/Soldiers/Human/Faces/Male_14/Human_Face_Male_14.png
+  - typeSingle: 0__2__HUMAN_HAIR_MALE_14
+    fileSingle: Resources/Soldiers/Human/Faces/Male_14/Human_Hair_Male_14.png
 
 
 
@@ -63,6 +93,8 @@ extraSprites:
     fileSingle: Resources/Soldiers/Human/Hands/Human_Hands_Male_01.png
   - typeSingle: 0__3__HUMAN_HANDS_MALE_02
     fileSingle: Resources/Soldiers/Human/Hands/Human_Hands_Male_02.png
+
+
 
 ## FEMALE SPRITES ##
 
@@ -113,6 +145,37 @@ extraSprites:
     fileSingle: Resources/Soldiers/Human/Faces/Female_08/Human_Face_Female_08.png
   - typeSingle: 0__2__HUMAN_HAIR_FEMALE_08
     fileSingle: Resources/Soldiers/Human/Faces/Female_08/Human_Hair_Female_08.png
+#FEMALE_09
+  - typeSingle: 0__1__HUMAN_FACE_FEMALE_09
+    fileSingle: Resources/Soldiers/Human/Faces/Female_09/Human_Face_Female_09.png
+  - typeSingle: 0__2__HUMAN_HAIR_FEMALE_09
+    fileSingle: Resources/Soldiers/Human/Faces/Female_09/Human_Hair_Female_09.png
+#FEMALE_10
+  - typeSingle: 0__1__HUMAN_FACE_FEMALE_10
+    fileSingle: Resources/Soldiers/Human/Faces/Female_10/Human_Face_Female_10.png
+  - typeSingle: 0__2__HUMAN_HAIR_FEMALE_10
+    fileSingle: Resources/Soldiers/Human/Faces/Female_10/Human_Hair_Female_10.png
+#FEMALE_11
+  - typeSingle: 0__1__HUMAN_FACE_FEMALE_11
+    fileSingle: Resources/Soldiers/Human/Faces/Female_11/Human_Face_Female_11.png
+  - typeSingle: 0__2__HUMAN_HAIR_FEMALE_11
+    fileSingle: Resources/Soldiers/Human/Faces/Female_11/Human_Hair_Female_11.png
+#FEMALE_12
+  - typeSingle: 0__1__HUMAN_FACE_FEMALE_12
+    fileSingle: Resources/Soldiers/Human/Faces/Female_12/Human_Face_Female_12.png
+  - typeSingle: 0__2__HUMAN_HAIR_FEMALE_12
+    fileSingle: Resources/Soldiers/Human/Faces/Female_12/Human_Hair_Female_12.png
+#FEMALE_13
+  - typeSingle: 0__1__HUMAN_FACE_FEMALE_13
+    fileSingle: Resources/Soldiers/Human/Faces/Female_13/Human_Face_Female_13.png
+  - typeSingle: 0__2__HUMAN_HAIR_FEMALE_13
+    fileSingle: Resources/Soldiers/Human/Faces/Female_13/Human_Hair_Female_13.png
+#FEMALE_14
+  - typeSingle: 0__1__HUMAN_FACE_FEMALE_14
+    fileSingle: Resources/Soldiers/Human/Faces/Female_14/Human_Face_Female_14.png
+  - typeSingle: 0__2__HUMAN_HAIR_FEMALE_14
+    fileSingle: Resources/Soldiers/Human/Faces/Female_14/Human_Hair_Female_14.png
+
 
 
 #FEMALE HANDS (LAYER 3)
