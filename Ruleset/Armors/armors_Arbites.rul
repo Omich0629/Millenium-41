@@ -135,7 +135,7 @@ armors:
                       166, 166, #MALE_44 FEMALE_44 (Hair color: Dark Brown)
                       144, 144, #MALE_45 FEMALE_45 (Hair color: Yellow)
                       245, 245, #MALE_46 FEMALE_46 (Hair color: Black)
-                      166, 166, #MALE_47 FEMALE_47 (Hair color: Dark Brown)
+                      166, 166] #MALE_47 FEMALE_47 (Hair color: Dark Brown)
 
     layersDefaultPrefix: 0
     layersSpecificPrefix:
@@ -376,7 +376,7 @@ armors:
                       166, 166, #MALE_44 FEMALE_44 (Hair color: Dark Brown)
                       144, 144, #MALE_45 FEMALE_45 (Hair color: Yellow)
                       245, 245, #MALE_46 FEMALE_46 (Hair color: Black)
-                      166, 166, #MALE_47 FEMALE_47 (Hair color: Dark Brown)
+                      166, 166] #MALE_47 FEMALE_47 (Hair color: Dark Brown)
 
     layersDefaultPrefix: 0
     layersSpecificPrefix:
