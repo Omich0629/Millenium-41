@@ -64,9 +64,9 @@ armors:
 
 # #COMMENTED FOR NOW
 countries:
-#  - delete: STR_USA
-#  - delete: STR_RUSSIA
-#  - delete: STR_UK
+  - delete: STR_USA
+  - delete: STR_RUSSIA
+  - delete: STR_UK
   - delete: STR_FRANCE
   - delete: STR_GERMANY
   - delete: STR_ITALY

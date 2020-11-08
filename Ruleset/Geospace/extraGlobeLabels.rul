@@ -1,0 +1,6 @@
+extraGlobeLabels:
+  - type: STR_EXTRA_LABEL_1
+    labelLon: 326.190451022072
+    labelLat: 9.033607150112
+    zoomLevel: 2
+    labelColor: 90

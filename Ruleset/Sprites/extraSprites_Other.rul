@@ -6,6 +6,12 @@ extraSprites:
     files:
       0: Resources/GUI/Avatar_Background.png
 
+### GLOBE GUI
+  - type: GEOBORD.SCR
+    singleImage: true
+    files:
+      0: Resources/GUI/Geospace_GUI.png
+
 ### GLOBE TEXTURES
   - delete: TEXTURE.DAT
   - type: TEXTURE.DAT

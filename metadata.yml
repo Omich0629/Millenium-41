@@ -1,8 +1,8 @@
-name: "OpenWH-40k"
+name: "Millenium-41"
 version: "0.01"
 author: "Omich0629, RamoZ-101"
 description: "An experimental mod based on resources from 40k mod. That's an attempt to make warhammer-themed mod in different way."
-id: openWH40k
+id: Millenium41
 master: xcom1
 isMaster: true
 loadResources:
