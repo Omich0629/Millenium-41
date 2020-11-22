@@ -91,9 +91,6 @@
 #
 ###################################################################
 
-#Here is an actual script. Good luck to figure out how it works.
-#I gave up, trying to explain that in comments.
-
 extended:
   tags:
     RuleItem:
