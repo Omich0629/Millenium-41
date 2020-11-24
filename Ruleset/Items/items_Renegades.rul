@@ -1,5 +1,13 @@
-items:
+extended:
+  tags:
+    RuleItem:
+      ITEM_HAS_BIPOD_BIGSPRITE: int
+      ITEM_HAS_BIPOD_HANDSPRITE: int
+      AMMO_CHANGES_ITEMS_BIGSPRITE: int
+      AMMO_INDEX: int
+      HEAVY_WEAPON: int
 
+items:
 ## AUTOPISTOL (RENEGADE)
   - type: STR_AUTOPISTOL_RENEGADE
 #RESOURCES
