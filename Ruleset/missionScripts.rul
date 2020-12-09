@@ -1,0 +1,8 @@
+missionScripts:
+  - type: gameStart
+    missionWeights:
+      0:
+        STR_TEST_MISSION: 100
+    lastMonth: 0
+    targetBaseOdds: 100
+    startDelay: 0

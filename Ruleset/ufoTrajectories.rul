@@ -1,5 +1,89 @@
+#Zone Types:
+#0 (FROM SPACE \ TO SPACE)
+#1 (UNCONTROLLED HARD-TO-REACH)
+#2 (AVERAGE UNCONTROLLED)
+#3 (PARTIALLY CONTROLLED)
+#4 (NEAR CITY CONTROLLED)
+#5 (URBAN SPRAWL)
+#6 (ADMECH TERRITORY)
+#7 (AIR TRAFFIC POINT A)
+#8 (AIR TRAFFIC POINT B)
+#9 (INLAND ZONES A)
+#10 (INLAND ZONES B)
+#11 (QUARANTINE ZONES)
+#12 (REFINERY FACILITIES)
+
+#Altitudes:
+# 0 - Landed (for aircrafts), Stationary (for ground vehicles)
+# 1 - Just above surface (for aircrafts),  Moving (for ground vehicles)
+# 2 - Low (aircrafts only)
+# 3 - High (aircrafts only)
+# 4 - Very High (aircrafts only)
+
 ufoTrajectories:
+
+#BASIC TRAJECTORIES (SUITABLE FOR ALL REGIONS)
+
+  - id: FROM_SPACE_1
+#Start Zone   : From Space (0)
+#Finish Zone  : To Space (0)
+#Transit Zone : Uncontrolled Zones (1, 2)
+#Landing      : None
+    groundTimer: 0
+    waypoints:
+      - [0, 4, 100] #zone 0 -> zone 2, altitude: 4, speed: 100%
+      - [2, 3, 75]  #zone 2 -> zone 2, altitude: 3, speed: 75%
+      - [1, 1, 50]  #zone 1 -> zone 1, altitude: 2, speed: 50%
+      - [2, 2, 50]  #zone 1 -> zone 2, altitude: 2, speed: 50%
+      - [1, 2, 50]  #zone 2 -> zone 1, altitude: 2, speed: 50%
+      - [2, 3, 75]  #zone 1 -> zone 2, altitude: 3, speed: 75%
+      - [0, 4, 100] #zone 2 -> zone 0, altitude: 4, speed: 100%
+
+  - id: FROM_SPACE_2
+#Start Zone   : From Space (0)
+#Finish Zone  : Uncontrolled Zone (1)
+#Transit Zone : Uncontrolled Zones (2)
+#Landing      : 1 Landing 
+    groundTimer: 5000
+    waypoints:
+      - [0, 4, 100] #zone 0 -> zone 2, altitude: 4, speed: 100%
+      - [2, 3, 75]  #zone 2 -> zone 2, altitude: 3, speed: 75%
+      - [1, 2, 50]  #zone 2 -> zone 1, altitude: 2, speed: 50%
+      - [1, 0, 75]  #zone 1 -> zone 1, altitude: 0, speed: 75%
+
+  - id: FROM_SPACE_3
+#Start Zone   : From Space (0)
+#Finish Zone  : To Space (0)
+#Transit Zone : Uncontrolled Zones (1, 2)
+#Landing      : 1 Landing 
+    groundTimer: 3000
+    waypoints:
+      - [0, 4, 100] #zone 0 -> zone 2, altitude: 4, speed: 100%
+      - [2, 3, 75]  #zone 2 -> zone 2, altitude: 3, speed: 75%
+      - [1, 2, 50]  #zone 2 -> zone 1, altitude: 2, speed: 50%
+      - [2, 0, 75]  #zone 1 -> zone 2, altitude: 0, speed: 75%
+      - [0, 4, 100] #zone 2 -> zone 0, altitude: 4, speed: 100%
+
+  - id: FROM_SPACE_4
+#Start Zone   : From Space (0)
+#Finish Zone  : To Space (0)
+#Transit Zone : Uncontrolled Zones (1, 2)
+#Landing      : 2 Landing 
+    groundTimer: 3000
+    waypoints:
+      - [0, 4, 100] #zone 0 -> zone 2, altitude: 4, speed: 100%
+      - [2, 3, 75]  #zone 2 -> zone 2, altitude: 3, speed: 75%
+      - [1, 2, 50]  #zone 2 -> zone 1, altitude: 2, speed: 50%
+      - [2, 0, 75]  #zone 1 -> zone 2, altitude: 0, speed: 75%
+      - [1, 2, 50]  #zone 2 -> zone 1, altitude: 2, speed: 50%
+      - [2, 0, 75]  #zone 1 -> zone 2, altitude: 0, speed: 75%
+      - [0, 4, 100] #zone 2 -> zone 0, altitude: 4, speed: 100%
+
+
+
+
   - id: P10
     groundTimer: 0
     waypoints:
       - [0, 0, 0]
+

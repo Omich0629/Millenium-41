@@ -12,3 +12,14 @@ alienMissions:
         trajectory: P10
         timer: 0
         objective: true
+
+  - type: STR_TEST_MISSION
+    points: 0
+    raceWeights:
+      0:
+        STR_CULTISTS: 100
+    waves:
+      - ufo: STR_ARVUS_CHAOS
+        count: 1
+        trajectory: FROM_SPACE_2
+        timer: 60

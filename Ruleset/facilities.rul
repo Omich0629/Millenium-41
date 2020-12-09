@@ -1,0 +1,5 @@
+facilities:
+#For testing purposes
+  - type: STR_SMALL_RADAR_SYSTEM
+    radarRange: 9500
+    radarChance: 100
