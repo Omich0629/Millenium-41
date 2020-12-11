@@ -68,7 +68,7 @@ ufoTrajectories:
 #Start Zone   : From Space (0)
 #Finish Zone  : To Space (0)
 #Transit Zone : Uncontrolled Zones (1, 2)
-#Landing      : 2 Landing 
+#Landing      : 2 Landings
     groundTimer: 3000
     waypoints:
       - [0, 4, 100] #zone 0 -> zone 2, altitude: 4, speed: 100%
@@ -79,10 +79,124 @@ ufoTrajectories:
       - [2, 0, 75]  #zone 1 -> zone 2, altitude: 0, speed: 75%
       - [0, 4, 100] #zone 2 -> zone 0, altitude: 4, speed: 100%
 
+  - id: FROM_SPACE_5
+#Start Zone   : From Space (0)
+#Finish Zone  : Uncontrolled Zone (1)
+#Transit Zone : Uncontrolled Zones (1, 2)
+#Landing      : 2 Landings
+    groundTimer: 3000
+    waypoints:
+      - [0, 4, 100] #zone 0 -> zone 2, altitude: 4, speed: 100%
+      - [2, 3, 75]  #zone 2 -> zone 2, altitude: 3, speed: 75%
+      - [1, 2, 50]  #zone 2 -> zone 1, altitude: 2, speed: 50%
+      - [2, 0, 75]  #zone 1 -> zone 2, altitude: 0, speed: 75%
+      - [1, 2, 50]  #zone 2 -> zone 1, altitude: 2, speed: 50%
+      - [1, 0, 75]  #zone 1 -> zone 1, altitude: 0, speed: 75%
 
 
 
-  - id: P10
+
+#AIR TRAFFIC TRAJECTORIES (FOR INHABITANT REGIONS ONLY)
+
+  - id: AIR_TRAFFIC_1
+#Start Zone   : Air Traffic Zone A (7)
+#Finish Zone  : Air Traffic Zone A (7)
+#Transit Zone : Air Traffic Zones (7,8)
+#Landing      : 2 Landings 
+    groundTimer: 2000
+    waypoints:
+      - [7, 3, 75] #zone 7 -> zone 8, altitude: 3, speed: 75%
+      - [8, 0, 75]  #zone 8 -> zone 8, altitude: 0, speed: 75%
+      - [7, 0, 75]  #zone 8 -> zone 7, altitude: 3, speed: 75%
+
+
+  - id: AIR_TRAFFIC_2
+#Start Zone   : Air Traffic Zone B (8)
+#Finish Zone  : Air Traffic Zone B (8)
+#Transit Zone : Air Traffic Zones (7,8)
+#Landing      : 2 Landings 
+    groundTimer: 1500
+    waypoints:
+      - [8, 3, 75] #zone 8 -> zone 7, altitude: 3, speed: 75%
+      - [7, 0, 75]  #zone 7 -> zone 7, altitude: 0, speed: 75%
+      - [8, 0, 75]  #zone 7 -> zone 8, altitude: 3, speed: 75%
+
+#GROUND-ONLY TRAJECTORIES
+
+  - id: GROUND_VEHICLE_1
+#Start Zone   : Inland Zone A (9)
+#Finish Zone  : Inland Zone B (10)
+#Transit Zone : Inland Zones (9,10)
+#Landing      : None
+    groundTimer: 0
+    waypoints:
+      - [9, 1, 100] #zone 9 -> zone 9, altitude: 1, speed: 100%
+      - [9, 1, 100] #zone 9 -> zone 9, altitude: 1, speed: 100%
+      - [10, 1, 100] #zone 9 -> zone 10, altitude: 1, speed: 100%
+      - [9, 1, 100] #zone 10 -> zone 9, altitude: 1, speed: 100%
+      - [10, 1, 100] #zone 9 -> zone 10, altitude: 1, speed: 100%
+      - [9, 1, 100] #zone 10 -> zone 9, altitude: 1, speed: 100%
+
+
+  - id: GROUND_VEHICLE_2
+#Start Zone   : Inland Zone B (10)
+#Finish Zone  : Inland Zone B (10)
+#Transit Zone : Inland Zones A (9)
+#Landing      : None
+    groundTimer: 0
+    waypoints:
+      - [10, 1, 100] #zone 10 -> zone 9, altitude: 1, speed: 100%
+      - [9, 1, 100] #zone 9 -> zone 9, altitude: 1, speed: 100%
+      - [9, 1, 100] #zone 9 -> zone 9, altitude: 1, speed: 100%
+      - [9, 1, 100] #zone 10 -> zone 9, altitude: 1, speed: 100%
+      - [10, 1, 100] #zone 9 -> zone 10, altitude: 1, speed: 100%
+
+
+
+#ORK-RELATED TRAJECTORIES
+
+  - id: ORK_ACTIVITY_1
+#Start Zone   : Quarantine Zone (11)
+#Finish Zone  : Quarantine Zone (11)
+#Transit Zone : Quarantine Zone (11)
+#Landing      : None
+    groundTimer: 0
+    waypoints:
+      - [11, 3, 100] #zone 11 -> zone 11, altitude: 3, speed: 100%
+      - [11, 2, 75]  #zone 11 -> zone 11, altitude: 2, speed: 75%
+      - [11, 2, 75]  #zone 11 -> zone 11, altitude: 2, speed: 75%
+      - [11, 1, 50]  #zone 11 -> zone 11, altitude: 1, speed: 50%
+      - [11, 2, 75]  #zone 11 -> zone 11, altitude: 2, speed: 75%
+      - [11, 3, 100]  #zone 11 -> zone 11, altitude: 3, speed: 100%
+
+  - id: ORK_ACTIVITY_2
+#Start Zone   : Quarantine Zone (11)
+#Finish Zone  : Quarantine Zone (11)
+#Transit Zone : Quarantine Zone (11)
+#Landing      : None
+    groundTimer: 3000
+    waypoints:
+      - [11, 3, 80] #zone 11 -> zone 11, altitude: 3, speed: 80%
+      - [11, 0, 75]  #zone 11 -> zone 11, altitude: 0, speed: 75%
+      - [11, 2, 80]  #zone 11 -> zone 11, altitude: 2, speed: 80%
+      - [11, 2, 80]  #zone 11 -> zone 11, altitude: 2, speed: 80%
+      - [11, 0, 75]  #zone 11 -> zone 11, altitude: 0, speed: 75%
+
+
+  - id: ORK_ACTIVITY_3
+#Start Zone   : Quarantine Zone (11)
+#Finish Zone  : Refinery Zone (12)
+#Transit Zone : Quarantine Zone (11)
+#Landing      : None
+    groundTimer: 1000
+    waypoints:
+      - [11, 3, 80] #zone 11 -> zone 11, altitude: 3, speed: 80%
+      - [11, 0, 75] #zone 11 -> zone 11, altitude: 3, speed: 75%
+      - [11, 2, 75] #zone 11 -> zone 11, altitude: 3, speed: 75%
+      - [11, 0, 100]  #zone 11 -> zone 11, altitude: 2, speed: 100%
+      - [12, 2, 100]  #zone 11 -> zone 12, altitude: 2, speed: 100%
+
+  - id: DIRECT_SPAWN
     groundTimer: 0
     waypoints:
       - [0, 0, 0]
