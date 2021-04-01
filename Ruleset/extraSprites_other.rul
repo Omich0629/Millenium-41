@@ -13,9 +13,7 @@ extraSprites:
     singleImage: true
     files:
       0: Resources/GUI/om41Links.png
-  - type: oxceLinksInv
-    width: 23
-    height: 22
-    singleImage: true
-    files:
-      0: Resources/GUI/om41LinksInv.png
+
+
+
+
