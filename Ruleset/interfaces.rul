@@ -1,0 +1,45 @@
+extraSprites:
+## Battlescape GUI ##
+
+#Main GUI sprite
+- type: ICONS.PCK
+  singleImage: true
+  width: 320
+  height: 200
+  files:
+    0: Resources/GUI/Battlescape_GUI.png
+
+#Kneeling Button sprite
+- type: KneelButton
+  width: 32
+  height: 32
+  subX: 32
+  subY: 16
+  files:
+    0: Resources/GUI/Battlescape_Kneel_Button.png
+
+#Reserve TU Buttons
+- type: TFTDReserve
+  width: 59
+  height: 24
+  singleImage: true
+  files:
+    0: Resources/GUI/Battlescape_Reserve_TU_Buttons.png
+
+interfaces:
+  - type: battlescape
+    palette: PAL_BATTLESCAPE
+    elements:
+      - id: buttonReserveNone
+        color: 133
+      - id: buttonReserveSnap
+        color: 133
+      - id: buttonReserveAimed
+        color: 133
+      - id: buttonReserveAuto
+        color: 133
+      - id: buttonReserveKneel
+        color: 133
+      - id: buttonZeroTUs
+        color: 133
+

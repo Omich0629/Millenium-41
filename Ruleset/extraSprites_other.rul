@@ -1,0 +1,21 @@
+extraSprites:
+#TOUCHBUTTONS
+  - type: Touch
+    width: 64
+    height: 120
+    subX: 32
+    subY: 24
+    files:
+      0: Resources/GUI/Touch_M41.png
+  - type: oxceLinks
+    width: 32
+    height: 16
+    singleImage: true
+    files:
+      0: Resources/GUI/om41Links.png
+  - type: oxceLinksInv
+    width: 23
+    height: 22
+    singleImage: true
+    files:
+      0: Resources/GUI/om41LinksInv.png
