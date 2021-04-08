@@ -1,3 +1,6 @@
 initialFunding: 0
 #1 squad leader per 10 regular soldiers
 soldiersPerSergeant: 10
+
+#Spawn junk item instead elerium. And recover zero of them in Debriefing.
+alienFuel: [STR_JUNK, 0]
