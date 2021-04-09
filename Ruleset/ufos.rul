@@ -1,4 +1,7 @@
 ufos:
+#TILTJET SHUTTLE 
+#Civilian VTOL aircraft.
+#Propulsion configuration: Tiltjet
 
   - type: STR_SHUTTLE_TILTJET
 #RESOURCES
@@ -17,12 +20,23 @@ ufos:
     breakOffTime: 800
 #TERRAIN
     battlescapeTerrainData:
-      name: SHUTTLE_TILTJET_1
+      name: STR_SHUTTLE_TILTJET
       mapDataSets:
         - BLANKS
-        - SHUTTLE_TILTJET_1
+        - Shuttle_TJ_v0
+        - Shuttle_TJ_v1
+        - Shuttle_TJ_v2
       mapBlocks:
-        - name: SHUTTLE_TILTJET_1
+#Color scheme 0. Mostly white-grey.
+        - name: Shuttle_TJ_v0
+          width: 20
+          length: 20
+#Color scheme 1. Red wing elements. Red side lines. Red tail elements.
+        - name: Shuttle_TJ_v1
+          width: 20
+          length: 20
+#Color scheme 2. Blue wing elements. Blue sides.
+        - name: Shuttle_TJ_v2
           width: 20
           length: 20
 
