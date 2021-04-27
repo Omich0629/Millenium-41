@@ -181,6 +181,7 @@ extraStrings:
 
 #UFOS
       STR_ARVUS_CHAOS: "Chaos Arvus Lighter"
+      STR_SHUTTLE_TILTJET: "Tiltjet Shuttle"
 
 #ALIEN RACES
       STR_CULTISTS: "Chaos Cultists"
