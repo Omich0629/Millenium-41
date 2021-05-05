@@ -23,22 +23,65 @@ ufos:
       name: STR_SHUTTLE_TILTJET
       mapDataSets:
         - BLANKS
-        - Shuttle_TJ_v0
-        - Shuttle_TJ_v1
-        - Shuttle_TJ_v2
+        - Shuttle_TJ_00
+        - Shuttle_TJ_01
+        - Shuttle_TJ_02
       mapBlocks:
 #Color scheme 0. Mostly white-grey.
-        - name: Shuttle_TJ_v0
+        - name: Shuttle_TJ_V0
           width: 20
           length: 20
 #Color scheme 1. Red wing elements. Red side lines. Red tail elements.
-        - name: Shuttle_TJ_v1
+        - name: Shuttle_TJ_V1
           width: 20
           length: 20
 #Color scheme 2. Blue wing elements. Blue sides.
-        - name: Shuttle_TJ_v2
+        - name: Shuttle_TJ_V2
           width: 20
           length: 20
+
+#TILTWING SHUTTLE 
+#Civilian VTOL aircraft.
+#Propulsion configuration: Tiltwing
+
+  - type: STR_SHUTTLE_TILTWING
+#RESOURCES
+    # marker: 122
+    # markerLand: 132
+    # markerCrash: 142
+    # modSprite: Light_Transport_Dogfight
+#STATS
+    size: STR_SMALL
+    damageMax: 600
+    speedMax: 1400 #3800
+    power: 45
+    reload: 40
+    range: 35
+    score: 75
+    breakOffTime: 800
+#TERRAIN
+    battlescapeTerrainData:
+      name: STR_SHUTTLE_TILTWING
+      mapDataSets:
+        - BLANKS
+        - Shuttle_TW_00
+        - Shuttle_TW_01
+        - Shuttle_TW_02
+        - Shuttle_TW_03
+      mapBlocks:
+#Color scheme 0. Mostly white-grey.
+        - name: SHUTTLE_TW_V0
+          width: 20
+          length: 20
+#Color scheme 1. Blue sides. Red wing elements. Red tail elements.
+        - name: SHUTTLE_TW_V1
+          width: 20
+          length: 20
+#Color scheme 2. Orange sides, wing elements and tail elements.
+        - name: SHUTTLE_TW_V2
+          width: 20
+          length: 20
+
 
 #Arvus Lighter (Chaos)
 #(STR_MEDIUM_SCOUT analogue)
