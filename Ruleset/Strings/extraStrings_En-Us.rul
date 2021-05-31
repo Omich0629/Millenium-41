@@ -183,6 +183,8 @@ extraStrings:
       STR_ARVUS_CHAOS: "Chaos Arvus Lighter"
       STR_SHUTTLE_TILTJET: "Tiltjet Shuttle"
       STR_SHUTTLE_TILTWING: "Tiltwing Shuttle"
+      STR_SHUTTLE_PARAMILITARY: "Paramilitary Shuttle"
+
 
 #ALIEN RACES
       STR_CULTISTS: "Chaos Cultists"

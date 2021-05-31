@@ -82,6 +82,38 @@ ufos:
           width: 20
           length: 20
 
+#PARAMILITARY SHUTTLE 
+#Paramilitary VTOL aircraft.
+#Propulsion configuration: Lifting Engines
+  - type: STR_SHUTTLE_PARAMILITARY
+#RESOURCES
+    # marker: 122
+    # markerLand: 132
+    # markerCrash: 142
+    # modSprite: Light_Transport_Dogfight
+#STATS
+    size: STR_SMALL
+    damageMax: 600
+    speedMax: 1400 #3800
+    power: 45
+    reload: 40
+    range: 35
+    score: 75
+    breakOffTime: 800
+#TERRAIN
+    battlescapeTerrainData:
+      name: STR_SHUTTLE_PARAMILITARY
+      mapDataSets:
+        - BLANKS
+        - Shuttle_PM_00
+        - Shuttle_PM_01
+      mapBlocks:
+#Color scheme 0. Mostly white-grey.
+        - name: Shuttle_PM_V0
+          width: 20
+          length: 20
+
+
 
 #Arvus Lighter (Chaos)
 #(STR_MEDIUM_SCOUT analogue)
