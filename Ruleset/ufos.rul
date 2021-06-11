@@ -114,8 +114,8 @@ ufos:
           length: 20
 
 
-#TECHNICAL CONVOY
-#Three pickup trucks. One is armed with anti-air machinegun.
+#LIGHT VEHICLE CONVOY
+#Three "technical" pickup trucks. One is armed with anti-air machinegun.
 #Propulsion configuration: Electrical engines.
   - type: STR_TECHNICAL_CONVOY
 #RESOURCES
