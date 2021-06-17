@@ -137,7 +137,8 @@ ufos:
       name: STR_TECHNICAL_CONVOY
       mapDataSets:
         - BLANKS
-        - CONVOY_TECHNICAL
+        - CONVOY_TECHNICAL_00
+        - CONVOY_TECHNICAL_01
       mapBlocks:
         - name: CONVOY_TECHNICAL_V0
           width: 10
