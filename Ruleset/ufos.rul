@@ -140,11 +140,30 @@ ufos:
         - CONVOY_TECHNICAL_00
         - CONVOY_TECHNICAL_01
       mapBlocks:
+#Variant 0
         - name: CONVOY_TECHNICAL_V0
           width: 10
           length: 20
-
-
+#Variant 1
+        - name: CONVOY_TECHNICAL_V1
+          width: 10
+          length: 20
+#Variant 2
+        - name: CONVOY_TECHNICAL_V2
+          width: 10
+          length: 20
+#Variant 3
+        - name: CONVOY_TECHNICAL_V3
+          width: 10
+          length: 20
+#Variant 4
+        - name: CONVOY_TECHNICAL_V4
+          width: 10
+          length: 20
+#Variant 5
+        - name: CONVOY_TECHNICAL_V5
+          width: 10
+          length: 20
 
 
 #Arvus Lighter (Chaos)
