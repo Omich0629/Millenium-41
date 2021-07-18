@@ -165,6 +165,36 @@ ufos:
           width: 10
           length: 20
 
+#HEAVY VEHICLE CONVOY
+#Two trucks. One is armed with twin-linked anti-air machinegun.
+#Propulsion configuration: Electrical engines.
+  - type: STR_GUNTRUCK_CONVOY
+#RESOURCES
+    # marker: 122
+    # markerLand: 132
+    # markerCrash: 142
+    # modSprite: Light_Transport_Dogfight
+#STATS
+    size: STR_SMALL
+    damageMax: 600
+    speedMax: 100 #3800
+    power: 45
+    reload: 40
+    range: 35
+    score: 75
+    breakOffTime: 800
+#TERRAIN
+    battlescapeTerrainData:
+      name: STR_GUNTRUCK_CONVOY
+      mapDataSets:
+        - BLANKS
+        - CONVOY_GUNTRUCK_00
+        - CONVOY_GUNTRUCK_01
+      mapBlocks:
+#Variant 0
+        - name: CONVOY_GUNTRUCK_V0
+          width: 10
+          length: 20
 
 #Arvus Lighter (Chaos)
 #(STR_MEDIUM_SCOUT analogue)

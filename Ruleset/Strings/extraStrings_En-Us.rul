@@ -185,6 +185,7 @@ extraStrings:
       STR_SHUTTLE_TILTWING: "Tiltwing Shuttle"
       STR_SHUTTLE_PARAMILITARY: "Paramilitary Shuttle"
       STR_TECHNICAL_CONVOY: "Light Vehicle Convoy"
+      STR_GUNTRUCK_CONVOY: "Heavy Vehicle Convoy"
 
 #ALIEN RACES
       STR_CULTISTS: "Chaos Cultists"
