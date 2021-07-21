@@ -195,6 +195,28 @@ ufos:
         - name: CONVOY_GUNTRUCK_V0
           width: 10
           length: 20
+#Variant 1
+        - name: CONVOY_GUNTRUCK_V1
+          width: 10
+          length: 20
+#Variant 2
+        - name: CONVOY_GUNTRUCK_V2
+          width: 10
+          length: 20
+#Variant 3
+        - name: CONVOY_GUNTRUCK_V3
+          width: 10
+          length: 20
+#Variant 4
+        - name: CONVOY_GUNTRUCK_V4
+          width: 10
+          length: 20
+#Variant 5
+        - name: CONVOY_GUNTRUCK_V5
+          width: 10
+          length: 20
+
+
 
 #Arvus Lighter (Chaos)
 #(STR_MEDIUM_SCOUT analogue)
