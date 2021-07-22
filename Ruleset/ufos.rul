@@ -1,4 +1,223 @@
 ufos:
+#TILTJET SHUTTLE 
+#Civilian VTOL aircraft.
+#Propulsion configuration: Tiltjet
+
+  - type: STR_SHUTTLE_TILTJET
+#RESOURCES
+    # marker: 122
+    # markerLand: 132
+    # markerCrash: 142
+    # modSprite: Light_Transport_Dogfight
+#STATS
+    size: STR_SMALL
+    damageMax: 600
+    speedMax: 1400 #3800
+    power: 45
+    reload: 40
+    range: 35
+    score: 75
+    breakOffTime: 800
+#TERRAIN
+    battlescapeTerrainData:
+      name: STR_SHUTTLE_TILTJET
+      mapDataSets:
+        - BLANKS
+        - Shuttle_TJ_00
+        - Shuttle_TJ_01
+        - Shuttle_TJ_02
+      mapBlocks:
+#Color scheme 0. Mostly white-grey.
+        - name: Shuttle_TJ_V0
+          width: 20
+          length: 20
+#Color scheme 1. Red wing elements. Red side lines. Red tail elements.
+        - name: Shuttle_TJ_V1
+          width: 20
+          length: 20
+#Color scheme 2. Blue wing elements. Blue sides.
+        - name: Shuttle_TJ_V2
+          width: 20
+          length: 20
+
+#TILTWING SHUTTLE 
+#Civilian VTOL aircraft.
+#Propulsion configuration: Tiltwing
+
+  - type: STR_SHUTTLE_TILTWING
+#RESOURCES
+    # marker: 122
+    # markerLand: 132
+    # markerCrash: 142
+    # modSprite: Light_Transport_Dogfight
+#STATS
+    size: STR_SMALL
+    damageMax: 600
+    speedMax: 1400 #3800
+    power: 45
+    reload: 40
+    range: 35
+    score: 75
+    breakOffTime: 800
+#TERRAIN
+    battlescapeTerrainData:
+      name: STR_SHUTTLE_TILTWING
+      mapDataSets:
+        - BLANKS
+        - Shuttle_TW_00
+        - Shuttle_TW_01
+        - Shuttle_TW_02
+        - Shuttle_TW_03
+      mapBlocks:
+#Color scheme 0. Mostly white-grey.
+        - name: SHUTTLE_TW_V0
+          width: 20
+          length: 20
+#Color scheme 1. Blue sides. Red wing elements. Red tail elements.
+        - name: SHUTTLE_TW_V1
+          width: 20
+          length: 20
+#Color scheme 2. Orange sides, wing elements and tail elements.
+        - name: SHUTTLE_TW_V2
+          width: 20
+          length: 20
+
+#PARAMILITARY SHUTTLE 
+#Paramilitary VTOL aircraft.
+#Propulsion configuration: Lifting Engines
+  - type: STR_SHUTTLE_PARAMILITARY
+#RESOURCES
+    # marker: 122
+    # markerLand: 132
+    # markerCrash: 142
+    # modSprite: Light_Transport_Dogfight
+#STATS
+    size: STR_SMALL
+    damageMax: 600
+    speedMax: 1400 #3800
+    power: 45
+    reload: 40
+    range: 35
+    score: 75
+    breakOffTime: 800
+#TERRAIN
+    battlescapeTerrainData:
+      name: STR_SHUTTLE_PARAMILITARY
+      mapDataSets:
+        - BLANKS
+        - Shuttle_PM_00
+        - Shuttle_PM_01
+      mapBlocks:
+#Color scheme 0. Mostly white-grey.
+        - name: Shuttle_PM_V0
+          width: 20
+          length: 20
+
+
+#LIGHT VEHICLE CONVOY
+#Three "technical" pickup trucks. One is armed with anti-air machinegun.
+#Propulsion configuration: Electrical engines.
+  - type: STR_TECHNICAL_CONVOY
+#RESOURCES
+    # marker: 122
+    # markerLand: 132
+    # markerCrash: 142
+    # modSprite: Light_Transport_Dogfight
+#STATS
+    size: STR_SMALL
+    damageMax: 600
+    speedMax: 100 #3800
+    power: 45
+    reload: 40
+    range: 35
+    score: 75
+    breakOffTime: 800
+#TERRAIN
+    battlescapeTerrainData:
+      name: STR_TECHNICAL_CONVOY
+      mapDataSets:
+        - BLANKS
+        - CONVOY_TECHNICAL_00
+        - CONVOY_TECHNICAL_01
+      mapBlocks:
+#Variant 0
+        - name: CONVOY_TECHNICAL_V0
+          width: 10
+          length: 20
+#Variant 1
+        - name: CONVOY_TECHNICAL_V1
+          width: 10
+          length: 20
+#Variant 2
+        - name: CONVOY_TECHNICAL_V2
+          width: 10
+          length: 20
+#Variant 3
+        - name: CONVOY_TECHNICAL_V3
+          width: 10
+          length: 20
+#Variant 4
+        - name: CONVOY_TECHNICAL_V4
+          width: 10
+          length: 20
+#Variant 5
+        - name: CONVOY_TECHNICAL_V5
+          width: 10
+          length: 20
+
+#HEAVY VEHICLE CONVOY
+#Two trucks. One is armed with twin-linked anti-air machinegun.
+#Propulsion configuration: Electrical engines.
+  - type: STR_GUNTRUCK_CONVOY
+#RESOURCES
+    # marker: 122
+    # markerLand: 132
+    # markerCrash: 142
+    # modSprite: Light_Transport_Dogfight
+#STATS
+    size: STR_SMALL
+    damageMax: 600
+    speedMax: 100 #3800
+    power: 45
+    reload: 40
+    range: 35
+    score: 75
+    breakOffTime: 800
+#TERRAIN
+    battlescapeTerrainData:
+      name: STR_GUNTRUCK_CONVOY
+      mapDataSets:
+        - BLANKS
+        - CONVOY_GUNTRUCK_00
+        - CONVOY_GUNTRUCK_01
+      mapBlocks:
+#Variant 0
+        - name: CONVOY_GUNTRUCK_V0
+          width: 10
+          length: 20
+#Variant 1
+        - name: CONVOY_GUNTRUCK_V1
+          width: 10
+          length: 20
+#Variant 2
+        - name: CONVOY_GUNTRUCK_V2
+          width: 10
+          length: 20
+#Variant 3
+        - name: CONVOY_GUNTRUCK_V3
+          width: 10
+          length: 20
+#Variant 4
+        - name: CONVOY_GUNTRUCK_V4
+          width: 10
+          length: 20
+#Variant 5
+        - name: CONVOY_GUNTRUCK_V5
+          width: 10
+          length: 20
+
+
+
 #Arvus Lighter (Chaos)
 #(STR_MEDIUM_SCOUT analogue)
   - type: STR_ARVUS_CHAOS

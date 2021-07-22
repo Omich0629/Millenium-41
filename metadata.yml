@@ -1,11 +1,11 @@
 name: "Millenium-41"
-version: "0.01"
+version: "0.02"
 author: "Omich0629, RamoZ-101"
-description: "An experimental mod based on resources from 40k mod. That's an attempt to make warhammer-themed mod in different way."
+description: "An experimental mod based on resources from 40k mod. That's an attempt to make the Warhammer-themed mod in a different way."
 id: Millenium41
 master: xcom1
 isMaster: true
 loadResources:
   - UFO
 reservedSpace: 2
-requiredExtendedVersion: "6.3.4"
+requiredExtendedVersion: "7.0"

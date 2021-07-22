@@ -295,8 +295,8 @@ items:
   - type: STR_FRAG_GRENADE_RENEGADE
 #RESOURCES
     bigSprite: 1549
-    floorSprite: 1520 #same as for normal frag grenade
-    handSprite: 1272 #same as for normal frag grenade
+    floorSprite: 523 #same as for normal frag grenade
+    handSprite: 296 #same as for normal frag grenade
 #    hitAnimation: 184 #AOE Explosion
 #    explosionHitSound: [1045, 1046, 1047, 1048, 1049] #Grenade explosion
 #INFO

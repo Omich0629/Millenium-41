@@ -1,13 +1,36 @@
 items:
-#ALIEN_ALLOYS replacement.
+#Replacement for ALIEN_ALLOYS
   - type: STR_CERAMITE
     size: 0.1
     costSell: 2500
     specialType: 10
     recoveryPoints: 1
     recoveryDividers:
-      STR_UFO: 10
-      STR_OTHER: 150
+      STR_UFO: 1
+      STR_OTHER: 1
 
 
-#
+#STR_UFO_POWER_SOURCE 
+
+
+#Replacement for STR_ELERIUM_115
+#We do not have any special fuel component in this mod, so there is no need in such item.
+#It's spawns under the power source tiles anyways. It's just a junk for now. Useless item, hidden on minimap, and not recoverable.
+
+  - type: STR_JUNK
+#RESOURCES
+    bigSprite: 201 #(invisible item)
+    floorSprite: 201 #(invisible item)
+    handSprite: 88 #(empty hand)
+#INFO
+    listOrder: 40000
+    size: 0.1
+    costSell: 0
+#SPECIFICATION
+    weight: 1
+    invWidth: 1
+    invHeight: 1
+    hiddenOnMinimap: true
+    recover: false
+
+
