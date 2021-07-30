@@ -177,6 +177,7 @@ extraStrings:
       STR_CORPSE_CULTIST: "Cultist Corpse"
 
 #CRAFTS
+      STR_SHUTTLE_ENFORCER: "Patrol Shuttle"
       STR_VALKYRIE_ARBITES: "Valkyrie"
 
 #UFOS
