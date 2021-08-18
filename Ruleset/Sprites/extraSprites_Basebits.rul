@@ -1,0 +1,13 @@
+extraSprites:
+  - type: BASEBITS.PCK
+#Overriding of the original UFO basebits
+    files:
+      0: Resources/Basebits/Basebits_Empty_Slot.png
+      1: Resources/Basebits/Basebits_Square_Room.png
+      2: Resources/Basebits/Basebits_Octagonal_Room.png
+      3: Resources/Basebits/Basebits_Cross_Room.png
+      4: Resources/Basebits/Basebits_Square_Frame.png
+      5: Resources/Basebits/Basebits_Octagonal_Frame.png
+      6: Resources/Basebits/Basebits_Cross_Frame.png
+      7: Resources/Basebits/Basebits_Horizontal_Connector.png
+      8: Resources/Basebits/Basebits_Vertical_Connector.png
