@@ -1,13 +1,35 @@
 extraSprites:
   - type: BASEBITS.PCK
-#Overriding of the original UFO basebits
+## Overriding of the original UFO basebits
     files:
-      0: Resources/Basebits/Basebits_Empty_Slot.png
-      1: Resources/Basebits/Basebits_Square_Room.png
-      2: Resources/Basebits/Basebits_Octagonal_Room.png
-      3: Resources/Basebits/Basebits_Cross_Room.png
-      4: Resources/Basebits/Basebits_Square_Frame.png
-      5: Resources/Basebits/Basebits_Octagonal_Frame.png
-      6: Resources/Basebits/Basebits_Cross_Frame.png
-      7: Resources/Basebits/Basebits_Horizontal_Connector.png
-      8: Resources/Basebits/Basebits_Vertical_Connector.png
+      0: Resources/Basebits/Original_Basebits/Basebits_Empty_Slot.png
+      1: Resources/Basebits/Original_Basebits/Basebits_Square_Room.png
+      2: Resources/Basebits/Original_Basebits/Basebits_Octagonal_Room.png
+      3: Resources/Basebits/Original_Basebits/Basebits_Cross_Room.png
+      4: Resources/Basebits/Original_Basebits/Basebits_Square_Frame.png
+      5: Resources/Basebits/Original_Basebits/Basebits_Octagonal_Frame.png
+      6: Resources/Basebits/Original_Basebits/Basebits_Cross_Frame.png
+      7: Resources/Basebits/Original_Basebits/Basebits_Horizontal_Connector.png
+      8: Resources/Basebits/Original_Basebits/Basebits_Vertical_Connector.png
+#skip 9-12 (hangar bits)
+      13: Resources/Basebits/Original_Basebits/Basebits_2x2_Frame1.png
+      14: Resources/Basebits/Original_Basebits/Basebits_2x2_Frame2.png
+      15: Resources/Basebits/Original_Basebits/Basebits_2x2_Frame3.png
+      16: Resources/Basebits/Original_Basebits/Basebits_2x2_Frame4.png
+#skip 17-40 (facilities, vehicles, unit miniatures)
+      41: Resources/Basebits/Original_Basebits/Basebits_Base_Layout.png
+#skip 42-55 (ranks, weapons)
+#skip 56-99 (just in case, no real reason)
+#100-299 Facilities (199 possible tiles)
+#300-499 Crafts (199 possible tiles)
+#500-799 Unit Miniatures (299 possible tiles)
+#800 - 999 Craft Weapons (199 possible tiles)
+
+
+
+
+
+
+
+
+
