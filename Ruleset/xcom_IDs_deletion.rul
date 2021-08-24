@@ -114,7 +114,7 @@ craftWeapons:
   # - delete: STR_MIND_SHIELD
   # - delete: STR_PSIONIC_LABORATORY
   # - delete: STR_HYPER_WAVE_DECODER
-  # - delete: STR_HANGAR
+  - delete: STR_HANGAR
 
 items:
   - delete: STR_STINGRAY_LAUNCHER

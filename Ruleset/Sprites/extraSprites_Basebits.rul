@@ -1,6 +1,6 @@
 extraSprites:
   - type: BASEBITS.PCK
-## Overriding of the original UFO basebits
+## OVERRIDING OF THE ORIGINAL UFO BASEBITS
     files:
       0: Resources/Basebits/Original_Basebits/Basebits_Empty_Slot.png
       1: Resources/Basebits/Original_Basebits/Basebits_Square_Room.png
@@ -20,10 +20,48 @@ extraSprites:
       41: Resources/Basebits/Original_Basebits/Basebits_Base_Layout.png
 #skip 42-55 (ranks, weapons)
 #skip 56-99 (just in case, no real reason)
-#100-299 Facilities (199 possible tiles)
-#300-499 Crafts (199 possible tiles)
-#500-799 Unit Miniatures (299 possible tiles)
-#800 - 999 Craft Weapons (199 possible tiles)
+
+## NEW BASEBITS
+
+#100-299 Facilities
+      100: Resources/Basebits/Facilities/Basebits_Hangar1.png
+      101: Resources/Basebits/Facilities/Basebits_Hangar2.png
+      102: Resources/Basebits/Facilities/Basebits_Hangar3.png
+      103: Resources/Basebits/Facilities/Basebits_Hangar4.png
+      104: Resources/Basebits/Facilities/Basebits_Hangar_Frame1.png
+      105: Resources/Basebits/Facilities/Basebits_Hangar_Frame2.png
+      106: Resources/Basebits/Facilities/Basebits_Hangar_Frame3.png
+      107: Resources/Basebits/Facilities/Basebits_Hangar_Frame4.png
+
+#333-499 Crafts
+#sprite index + 38
+      333: Resources/Basebits/Crafts/Basebits_Patrol_Shuttle.png #300 + 33
+
+#500-799 Unit Miniatures
+
+
+#848 - 999 Craft Weapons
+#sprite index + 48
+      848: Resources/Basebits/Craft_Weapons/Basebits_Autocannon.png #800 + 48
+      849: Resources/Basebits/Craft_Weapons/Basebits_Assault_Cannon.png #801 + 48
+      850: Resources/Basebits/Craft_Weapons/Basebits_Bolt_Cannon.png #802 + 48
+      851: Resources/Basebits/Craft_Weapons/Basebits_Light_Rocket.png #803 + 48
+      852: Resources/Basebits/Craft_Weapons/Basebits_Medium_Rocket.png #804 + 48
+      853: Resources/Basebits/Craft_Weapons/Basebits_Heavy_Rocket.png #805 + 48
+      854: Resources/Basebits/Craft_Weapons/Basebits_Multilaser.png #806 + 48
+      855: Resources/Basebits/Craft_Weapons/Basebits_Lascannon.png #807 + 48
+      856: Resources/Basebits/Craft_Weapons/Basebits_Turbolaser.png #808 + 48
+      857: Resources/Basebits/Craft_Weapons/Basebits_Plasma_Cannon.png #809 + 48
+      858: Resources/Basebits/Craft_Weapons/Basebits_Melta_Cannon.png #810 + 48
+      859: Resources/Basebits/Craft_Weapons/Basebits_Extra_Armor.png #811 + 48
+      860: Resources/Basebits/Craft_Weapons/Basebits_Shield_Generator.png #812 + 48
+      861: Resources/Basebits/Craft_Weapons/Basebits_Advanced_Radar.png #813 + 48
+      862: Resources/Basebits/Craft_Weapons/Basebits_Targeter.png #814 + 48
+      863: Resources/Basebits/Craft_Weapons/Basebits_Maneuver_Assistant.png #815 + 48
+      864: Resources/Basebits/Craft_Weapons/Basebits_Thrust_Controller.png #816 + 48
+
+
+
 
 
 

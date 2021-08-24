@@ -3,3 +3,16 @@ facilities:
   - type: STR_SMALL_RADAR_SYSTEM
     radarRange: 9500
     radarChance: 100
+
+
+  - type: STR_FACILITY_HANGAR
+    spriteFacility: 100
+    spriteShape: 100
+    size: 2
+    buildCost: 200000
+    buildTime: 25
+    monthlyCost: 25000
+    crafts: 1
+    storage: 5 #OXCE bonus because of change in handling craft storage
+    storageTiles: [[-1, -1, -1]]
+    mapName: XBASE_16

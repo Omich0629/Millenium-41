@@ -9,3 +9,6 @@ alienFuel: [STR_JUNK, 0]
 #Vanilla-style flat explosions
 fixedUserOptions:
   battleExplosionHeight: 0
+
+
+showDogfightDistanceInKm: true

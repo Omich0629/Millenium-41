@@ -3,13 +3,13 @@ startingBase:
     - type: STR_ACCESS_LIFT
       x: 2
       y: 2
-    - type: STR_HANGAR
+    - type: STR_FACILITY_HANGAR
       x: 2
       y: 0
-    - type: STR_HANGAR
+    - type: STR_FACILITY_HANGAR
       x: 0
       y: 4
-    - type: STR_HANGAR
+    - type: STR_FACILITY_HANGAR
       x: 4
       y: 4
     - type: STR_LIVING_QUARTERS
@@ -27,8 +27,17 @@ startingBase:
     - type: STR_SMALL_RADAR_SYSTEM
       x: 1
       y: 3
-  randomSoldiers: 8
+  randomSoldiers: 12
   crafts:
   items:
   scientists: 10
   engineers: 10
+  crafts:
+    - type: STR_SHUTTLE_ENFORCER
+      id: 1
+      fuel: 1250
+      damage: 0
+      status: STR_READY
+      weapons:
+        - type: STR_CRAFT_AUTOCANNON
+          ammo: 200
