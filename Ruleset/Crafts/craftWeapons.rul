@@ -1,0 +1,32 @@
+craftWeapons:
+
+  - type: STR_CRAFT_AUTOCANNON
+    sprite: 800 #800 Autocannon
+    sound: 4
+    damage: 10
+    range: 10
+    accuracy: 25
+    reloadCautious: 4
+    reloadStandard: 4
+    reloadAggressive: 4
+    ammoMax: 200
+    rearmRate: 100
+    launcher: STR_CRAFT_AUTOCANNON
+    clip: STR_CRAFT_AUTOCANNON_AMMO
+    projectileType: 2
+    projectileSpeed: 8
+
+  - type: STR_HUNTER_ROCKET_LAUNCHER
+    sprite: 0
+    sound: 5
+    damage: 70
+    range: 30
+    accuracy: 70
+    reloadCautious: 64
+    reloadStandard: 48
+    reloadAggressive: 32
+    ammoMax: 6
+    launcher: STR_HUNTER_ROCKET_LAUNCHER
+    clip: STR_HUNTER_ROCKETS
+    projectileType: 0
+    projectileSpeed: 8

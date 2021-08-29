@@ -21,6 +21,9 @@ extraStrings:
 
       STR_EXTRA_LABEL_1: "QUARANTINE\n(ORKOID INFESTATION)"
 
+### BASE FACILITIES ###
+      STR_FACILITY_HANGAR: "Hangar"
+
 ### ITEM CATEGORIES ###
 #By type
       STR_CATEGORY_PISTOL: "Pistol"
@@ -46,7 +49,7 @@ extraStrings:
       STR_CATEGORY_POWER: "Power Weapon"
 
 
-#INVENTORY SLOTS#
+### INVENTORY SLOTS ###
       STR_RIGHT_HAND: "R. Hand"
       STR_LEFT_HAND: "L. Hand "
       STR_BEHIND_SHOLDER: " "
@@ -72,7 +75,7 @@ extraStrings:
       STR_DAMAGE_12: "GRAVITON"
       STR_DAMAGE_13: "SUPPORT"
 
-#ARMORS
+### ARMORS ###
       STR_ARBITES_ARMOR: "Arbites Carapace Armor"
       STR_ARBITES_DEFENSIVE_EQUIPMENT: "Arbites Defensive Equipment"
 

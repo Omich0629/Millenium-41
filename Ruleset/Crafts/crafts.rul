@@ -1,11 +1,8 @@
 crafts:
   - type: STR_SHUTTLE_ENFORCER
 #RESOURCES
-    # marker: 111
-    # sprite: 1101
+    sprite: 300 #333 in Basebits
 #GENERAL
-    # requires:
-      # - STR_IMPERIAL_GUARD_OPERATIONS
     costBuy: 600000
     costSell: 300000
     costRent: 200000
@@ -24,6 +21,8 @@ crafts:
     radarChance: 80
     sightRange: 1000
 #WEAPONS
+    weapons: 1
+
     # weapons: 3
     # weaponTypes:
       # - 0
