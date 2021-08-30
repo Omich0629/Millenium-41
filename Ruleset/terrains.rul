@@ -1,5 +1,39 @@
 terrains:
 
+  - name: ICE_SHELF
+    mapDataSets:
+      - BLANKS
+      - ICE_SHELF_00
+      - ICE_SHELF_01
+    script: ICE_SHELF
+    mapBlocks:
+#Basic Empty Mapblock
+      - name: ICE_SHELF_00
+        width: 10
+        length: 10
+        groups: 0
+#East Coast Mapblock
+      - name: ICE_SHELF_01
+        width: 10
+        length: 10
+        groups: 1
+#North Coast Mapblock
+      - name: ICE_SHELF_02
+        width: 10
+        length: 10
+        groups: 2
+#West Coast Mapblock
+      - name: ICE_SHELF_03
+        width: 10
+        length: 10
+        groups: 3
+#South Coast Mapblock
+      - name: ICE_SHELF_04
+        width: 10
+        length: 10
+        groups: 4
+
+
   - name: URBAN_TERRAIN
     mapDataSets:
       - BLANKS

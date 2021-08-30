@@ -21,6 +21,10 @@ extraStrings:
 
       STR_EXTRA_LABEL_1: "QUARANTINE\n(ORKOID INFESTATION)"
 
+### GLOBE TERRAINS ###
+      MAP_ICE_SHELF: "Ice Shelf"
+
+
 ### BASE FACILITIES ###
       STR_FACILITY_HANGAR: "Hangar"
 

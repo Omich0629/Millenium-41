@@ -24883,3 +24883,11 @@ globe:
       - 6.2190536184239
       - 348.378187986155
       - 6.3621286800492
+
+#Globe textures
+  textures:
+    - id: 12
+      terrain:
+        - name: ICE_SHELF
+
+

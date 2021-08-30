@@ -3,7 +3,7 @@ craftWeapons:
   - type: STR_CRAFT_AUTOCANNON
     sprite: 800 #800 Autocannon
     sound: 4
-    damage: 10
+    damage: 20
     range: 10
     accuracy: 25
     reloadCautious: 4
