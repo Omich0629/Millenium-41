@@ -9,24 +9,24 @@ mapScripts:
 #(North coast)
 
 #(East coast)
-    - type: fillArea
-      label: 2
-      executionChances: 100
-      rects:
-       - [5,0,2,2]
-       - [5,1,2,2]
-       - [5,2,2,2]
-       - [5,3,2,2]
-       - [5,4,2,2]
-       - [5,5,2,2]
-      groups: 1
+#    - type: fillArea
+#      label: 2
+#      executionChances: 100
+#      rects:
+#       - [5,0,2,2]
+#       - [5,1,2,2]
+#       - [5,2,2,2]
+#       - [5,3,2,2]
+#       - [5,4,2,2]
+#       - [5,5,2,2]
+#      groups: 1
 #(South coast)
 
 #(West coast)
 
 #Add crafts
     - type: addCraft
-      conditionals: 2
+#      conditionals: 2
       rects:
        - [0,0,2,2]
        - [1,0,2,2]
@@ -40,7 +40,7 @@ mapScripts:
        - [4,1,2,2]
       groups: 0
     - type: addUFO
-      conditionals: 2
+#      conditionals: 2
       rects:
        - [0,3,2,2]
        - [1,3,2,2]
@@ -54,7 +54,9 @@ mapScripts:
        - [4,4,2,2]
       groups: 0
     - type: fillArea
-      groups: 0
+      blocks: [0, 1, 2, 3, 4, 5, 6, 7, 8, 
+               9] #blocks from group 0
+      maxUses: 4
 
 
 
