@@ -1,0 +1,309 @@
+terrains:
+  - name: ICE_SHELF
+    mapDataSets:
+      - BLANKS
+      - ICE_SHELF_00
+      - ICE_SHELF_01
+    script: ICE_SHELF
+    mapBlocks:
+#Group 0 (Flat surfaces without enemy spawners.)
+#Indexes: 0-9
+      - name: ICE_SHELF_0_00
+        width: 10
+        length: 10
+        groups: 0
+      - name: ICE_SHELF_0_01
+        width: 10
+        length: 10
+        groups: 0
+      - name: ICE_SHELF_0_02
+        width: 10
+        length: 10
+        groups: 0
+      - name: ICE_SHELF_0_03
+        width: 10
+        length: 10
+        groups: 0
+      - name: ICE_SHELF_0_04
+        width: 10
+        length: 10
+        groups: 0
+      - name: ICE_SHELF_0_05
+        width: 10
+        length: 10
+        groups: 0
+      - name: ICE_SHELF_0_06
+        width: 10
+        length: 10
+        groups: 0
+      - name: ICE_SHELF_0_07
+        width: 10
+        length: 10
+        groups: 0
+      - name: ICE_SHELF_0_08
+        width: 10
+        length: 10
+        groups: 0
+      - name: ICE_SHELF_0_09
+        width: 10
+        length: 10
+        groups: 0
+
+#Group 1 (Flat surfaces with enemy spawners.)
+#Indexes: 10-19
+      - name: ICE_SHELF_1_00
+        width: 10
+        length: 10
+        groups: 1
+      - name: ICE_SHELF_1_01
+        width: 10
+        length: 10
+        groups: 1
+      - name: ICE_SHELF_1_02
+        width: 10
+        length: 10
+        groups: 1
+      - name: ICE_SHELF_1_03
+        width: 10
+        length: 10
+        groups: 1
+      - name: ICE_SHELF_1_04
+        width: 10
+        length: 10
+        groups: 1
+      - name: ICE_SHELF_1_05
+        width: 10
+        length: 10
+        groups: 1
+      - name: ICE_SHELF_1_06
+        width: 10
+        length: 10
+        groups: 1
+      - name: ICE_SHELF_1_07
+        width: 10
+        length: 10
+        groups: 1
+      - name: ICE_SHELF_1_08
+        width: 10
+        length: 10
+        groups: 1
+      - name: ICE_SHELF_1_09
+        width: 10
+        length: 10
+        groups: 1
+
+#Group 2 (Uneven surfaces with enemy spawners.)
+#Indexes: 20-29
+      - name: ICE_SHELF_2_00
+        width: 10
+        length: 10
+        groups: 2
+      - name: ICE_SHELF_2_01
+        width: 10
+        length: 10
+        groups: 2
+      - name: ICE_SHELF_2_02
+        width: 10
+        length: 10
+        groups: 2
+      - name: ICE_SHELF_2_03
+        width: 10
+        length: 10
+        groups: 2
+      - name: ICE_SHELF_2_04
+        width: 10
+        length: 10
+        groups: 2
+      - name: ICE_SHELF_2_05
+        width: 10
+        length: 10
+        groups: 2
+      - name: ICE_SHELF_2_06
+        width: 10
+        length: 10
+        groups: 2
+      - name: ICE_SHELF_2_07
+        width: 10
+        length: 10
+        groups: 2
+      - name: ICE_SHELF_2_08
+        width: 10
+        length: 10
+        groups: 2
+      - name: ICE_SHELF_2_09
+        width: 10
+        length: 10
+        groups: 2
+
+#Group 3 (North Coast Mapblocks)
+#Indexes: 30-39
+      - name: ICE_SHELF_3_00
+        width: 10
+        length: 10
+        groups: 3
+      - name: ICE_SHELF_3_01
+        width: 10
+        length: 10
+        groups: 3
+      - name: ICE_SHELF_3_02
+        width: 10
+        length: 10
+        groups: 3
+      - name: ICE_SHELF_3_03
+        width: 10
+        length: 10
+        groups: 3
+      - name: ICE_SHELF_3_04
+        width: 10
+        length: 10
+        groups: 3
+      - name: ICE_SHELF_3_05
+        width: 10
+        length: 10
+        groups: 3
+      - name: ICE_SHELF_3_06
+        width: 10
+        length: 10
+        groups: 3
+      - name: ICE_SHELF_3_07
+        width: 10
+        length: 10
+        groups: 3
+      - name: ICE_SHELF_3_08
+        width: 10
+        length: 10
+        groups: 3
+      - name: ICE_SHELF_3_09
+        width: 10
+        length: 10
+        groups: 3
+
+#Group 4 (East Coast Mapblocks)
+#Indexes: 40-49
+      - name: ICE_SHELF_4_00
+        width: 10
+        length: 10
+        groups: 4
+      - name: ICE_SHELF_4_01
+        width: 10
+        length: 10
+        groups: 4
+      - name: ICE_SHELF_4_02
+        width: 10
+        length: 10
+        groups: 4
+      - name: ICE_SHELF_4_03
+        width: 10
+        length: 10
+        groups: 4
+      - name: ICE_SHELF_4_04
+        width: 10
+        length: 10
+        groups: 4
+      - name: ICE_SHELF_4_05
+        width: 10
+        length: 10
+        groups: 4
+      - name: ICE_SHELF_4_06
+        width: 10
+        length: 10
+        groups: 4
+      - name: ICE_SHELF_4_07
+        width: 10
+        length: 10
+        groups: 4
+      - name: ICE_SHELF_4_08
+        width: 10
+        length: 10
+        groups: 4
+      - name: ICE_SHELF_4_09
+        width: 10
+        length: 10
+        groups: 4
+
+#Group 5 (West Coast Mapblocks)
+#Indexes: 50-59
+      - name: ICE_SHELF_5_00
+        width: 10
+        length: 10
+        groups: 5
+      - name: ICE_SHELF_5_01
+        width: 10
+        length: 10
+        groups: 5
+      - name: ICE_SHELF_5_02
+        width: 10
+        length: 10
+        groups: 5
+      - name: ICE_SHELF_5_03
+        width: 10
+        length: 10
+        groups: 5
+      - name: ICE_SHELF_5_04
+        width: 10
+        length: 10
+        groups: 5
+      - name: ICE_SHELF_5_05
+        width: 10
+        length: 10
+        groups: 5
+      - name: ICE_SHELF_5_06
+        width: 10
+        length: 10
+        groups: 5
+      - name: ICE_SHELF_5_07
+        width: 10
+        length: 10
+        groups: 5
+      - name: ICE_SHELF_5_08
+        width: 10
+        length: 10
+        groups: 5
+      - name: ICE_SHELF_5_09
+        width: 10
+        length: 10
+        groups: 5
+
+#Group 6 (South Coast Mapblocks)
+#Indexes: 60-69
+      - name: ICE_SHELF_6_00
+        width: 10
+        length: 10
+        groups: 6
+      - name: ICE_SHELF_6_01
+        width: 10
+        length: 10
+        groups: 6
+      - name: ICE_SHELF_6_02
+        width: 10
+        length: 10
+        groups: 6
+      - name: ICE_SHELF_6_03
+        width: 10
+        length: 10
+        groups: 6
+      - name: ICE_SHELF_6_04
+        width: 10
+        length: 10
+        groups: 6
+      - name: ICE_SHELF_6_05
+        width: 10
+        length: 10
+        groups: 6
+      - name: ICE_SHELF_6_06
+        width: 10
+        length: 10
+        groups: 6
+      - name: ICE_SHELF_6_07
+        width: 10
+        length: 10
+        groups: 6
+      - name: ICE_SHELF_6_08
+        width: 10
+        length: 10
+        groups: 6
+      - name: ICE_SHELF_6_09
+        width: 10
+        length: 10
+        groups: 6
+
