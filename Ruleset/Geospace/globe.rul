@@ -24886,6 +24886,9 @@ globe:
 
 #Globe textures
   textures:
+    - id: 11
+      terrain:
+        - name: ICE_FIELD
     - id: 12
       terrain:
         - name: ICE_SHELF

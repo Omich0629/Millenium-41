@@ -1,0 +1,11 @@
+terrains:
+  - name: ICE_FIELD
+    mapDataSets:
+      - BLANKS
+      - ICE_FIELD_00
+    script: ICE_FIELD
+    mapBlocks:
+      - name: ICE_FIELD_0_00
+        width: 10
+        length: 10
+        groups: 0

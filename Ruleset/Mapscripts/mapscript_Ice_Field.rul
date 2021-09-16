@@ -1,0 +1,18 @@
+mapScripts:
+## Ice Field Script
+  - type: ICE_FIELD
+#Map size: 6x6
+#Possible coordinates:
+#x: 0-5
+#y: 0-5
+#First floor: 2
+    commands:
+#Add crafts
+    - type: addCraft
+      groups: 0
+    - type: addUFO
+      groups: 0
+
+#Fill the rest area
+    - type: fillArea
+      groups: 0
