@@ -7,11 +7,11 @@ mapScripts:
 #y: 0-5
 #First floor: 2
     commands:
-#Randomly choose one of four possible layouts
+#Randomly choose one of five possible layouts
 #(Layout 1: North coast)
     - type: fillArea
       label: 1
-      executionChances: 20
+      executionChances: 20 #5 possible results, so roll for 20%
       rects:
        - [0,0,1,1]
        - [1,0,1,1]
@@ -26,7 +26,7 @@ mapScripts:
     - type: fillArea
       conditionals: -1
       label: 2
-      executionChances: 25
+      executionChances: 25 #4 possible results, roll for 25%
       rects:
        - [5,0,1,1]
        - [5,1,1,1]
@@ -41,7 +41,7 @@ mapScripts:
     - type: fillArea
       conditionals: [-1, -2]
       label: 3
-      executionChances: 33
+      executionChances: 33 #3 possible results, roll for 33%
       rects:
        - [0,5,1,1]
        - [1,5,1,1]
@@ -56,7 +56,7 @@ mapScripts:
     - type: fillArea
       conditionals: [-1, -2, -3]
       label: 4
-      executionChances: 50
+      executionChances: 50 #2 possible results, roll for 50%
       rects:
        - [0,0,1,1]
        - [0,1,1,1]
@@ -67,6 +67,9 @@ mapScripts:
       blocks: [60, 61, 62, 63, 64, 65, 66, 67, 68, 69]
       maxUses: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
 
+#(Layout 5: Inland)
+#If all previous conditionals had failed, we'll just assume that there is no coast on that map.
+#No additional commands required.
 
 #Add crafts
     - type: addCraft
