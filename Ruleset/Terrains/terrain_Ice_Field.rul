@@ -4,6 +4,7 @@ terrains:
       - BLANKS
       - ICE_FIELD_00
       - ICE_FIELD_01
+      - ICE_FIELD_02
     script: ICE_FIELD
     mapBlocks:
 #Group 0 (Flat surfaces without enemy spawners.)
