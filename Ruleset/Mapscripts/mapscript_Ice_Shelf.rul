@@ -73,9 +73,11 @@ mapScripts:
 
 #Add crafts
     - type: addCraft
-      groups: 0
+      blocks: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9] #group 0
+      maxUses: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
     - type: addUFO
-      groups: 0
+      blocks: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9] #group 0
+      maxUses: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
 
 #Fill the rest area
     - type: fillArea

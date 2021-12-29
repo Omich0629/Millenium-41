@@ -9,9 +9,11 @@ mapScripts:
     commands:
 #Add crafts first
     - type: addCraft
-      groups: 0
+      blocks: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9] #group 0
+      maxUses: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
     - type: addUFO
-      groups: 0
+      blocks: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9] #group 0
+      maxUses: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
 
 #Randomly choose one of two possible layouts
 #(Layout 1: Hill-like landscape)
@@ -20,7 +22,7 @@ mapScripts:
       executionChances: 50 #2 possible results, so roll for 50%
       blocks: [20, 21, 22, 23, 24, 25, 26, 27, 28, 29]
       maxUses: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
-      executions: 3
+      executions: 4
 
 #(Layout 2: Mountain-like landscape)
     - type: addBlock
@@ -28,7 +30,7 @@ mapScripts:
       label: 2
       blocks: [30, 31, 32, 33, 34, 35, 36, 37, 38, 39]
       maxUses: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
-      executions: 3
+      executions: 4
 
 #Fill the rest area
     - type: fillArea

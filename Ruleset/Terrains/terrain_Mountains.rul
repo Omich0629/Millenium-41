@@ -1,0 +1,179 @@
+terrains:
+  - name: MOUNTAINS
+    mapDataSets:
+      - BLANKS
+      - MOUNTAINS_00
+      - MOUNTAINS_01
+      - MOUNTAINS_02
+      - MOUNTAINS_03
+    script: MOUNTAINS
+    mapBlocks:
+#Group 0 (Flat surfaces without enemy spawners.)
+#Indexes: 0-9
+      - name: MOUNTAINS_0_00
+        width: 10
+        length: 10
+        groups: 0
+      - name: MOUNTAINS_0_01
+        width: 10
+        length: 10
+        groups: 0
+      - name: MOUNTAINS_0_02
+        width: 10
+        length: 10
+        groups: 0
+      - name: MOUNTAINS_0_03
+        width: 10
+        length: 10
+        groups: 0
+      - name: MOUNTAINS_0_04
+        width: 10
+        length: 10
+        groups: 0
+      - name: MOUNTAINS_0_05
+        width: 10
+        length: 10
+        groups: 0
+      - name: MOUNTAINS_0_06
+        width: 10
+        length: 10
+        groups: 0
+      - name: MOUNTAINS_0_07
+        width: 10
+        length: 10
+        groups: 0
+      - name: MOUNTAINS_0_08
+        width: 10
+        length: 10
+        groups: 0
+      - name: MOUNTAINS_0_09
+        width: 10
+        length: 10
+        groups: 0
+#Group 1 (Flat surfaces with enemy spawners.)
+#Indexes: 10-19
+      - name: MOUNTAINS_1_00
+        width: 10
+        length: 10
+        groups: 1
+      - name: MOUNTAINS_1_01
+        width: 10
+        length: 10
+        groups: 1
+      - name: MOUNTAINS_1_02
+        width: 10
+        length: 10
+        groups: 1
+      - name: MOUNTAINS_1_03
+        width: 10
+        length: 10
+        groups: 1
+      - name: MOUNTAINS_1_04
+        width: 10
+        length: 10
+        groups: 1
+      - name: MOUNTAINS_1_05
+        width: 10
+        length: 10
+        groups: 1
+      - name: MOUNTAINS_1_06
+        width: 10
+        length: 10
+        groups: 1
+      - name: MOUNTAINS_1_07
+        width: 10
+        length: 10
+        groups: 1
+      - name: MOUNTAINS_1_08
+        width: 10
+        length: 10
+        groups: 1
+      - name: MOUNTAINS_1_09
+        width: 10
+        length: 10
+        groups: 1
+#Group 2 (Snowy hills with enemy spawners.)
+#Indexes: 20-29
+      - name: MOUNTAINS_2_00
+        width: 20
+        length: 20
+        groups: 2
+      - name: MOUNTAINS_2_01
+        width: 20
+        length: 20
+        groups: 2
+      - name: MOUNTAINS_2_02
+        width: 20
+        length: 20
+        groups: 2
+      - name: MOUNTAINS_2_03
+        width: 20
+        length: 20
+        groups: 2
+      - name: MOUNTAINS_2_04
+        width: 20
+        length: 20
+        groups: 2
+      - name: MOUNTAINS_2_05
+        width: 20
+        length: 20
+        groups: 2
+      - name: MOUNTAINS_2_06
+        width: 20
+        length: 20
+        groups: 2
+      - name: MOUNTAINS_2_07
+        width: 20
+        length: 20
+        groups: 2
+      - name: MOUNTAINS_2_08
+        width: 20
+        length: 20
+        groups: 2
+      - name: MOUNTAINS_2_09
+        width: 20
+        length: 20
+        groups: 2
+
+#Group 3 (Mountain-like mapblocks with enemy spawners.)
+#Indexes: 30-39
+      - name: MOUNTAINS_3_00
+        width: 20
+        length: 20
+        groups: 3
+      - name: MOUNTAINS_3_01
+        width: 20
+        length: 20
+        groups: 3
+      - name: MOUNTAINS_3_02
+        width: 20
+        length: 20
+        groups: 3
+      - name: MOUNTAINS_3_03
+        width: 20
+        length: 20
+        groups: 3
+      - name: MOUNTAINS_3_04
+        width: 20
+        length: 20
+        groups: 3
+      - name: MOUNTAINS_3_05
+        width: 20
+        length: 20
+        groups: 3
+      - name: MOUNTAINS_3_06
+        width: 20
+        length: 20
+        groups: 3
+      - name: MOUNTAINS_3_07
+        width: 20
+        length: 20
+        groups: 3
+      - name: MOUNTAINS_3_08
+        width: 20
+        length: 20
+        groups: 3
+      - name: MOUNTAINS_3_09
+        width: 20
+        length: 20
+        groups: 3
