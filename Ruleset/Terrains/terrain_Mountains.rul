@@ -5,7 +5,6 @@ terrains:
       - MOUNTAINS_00
       - MOUNTAINS_01
       - MOUNTAINS_02
-      - MOUNTAINS_03
     script: MOUNTAINS
     mapBlocks:
 #Group 0 (Flat surfaces without enemy spawners.)
