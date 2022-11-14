@@ -1,0 +1,222 @@
+terrains:
+  - name: SNOWY_MOUNTAINS
+    mapDataSets:
+      - BLANKS
+      - SNOWY_MOUNTAINS_00
+      - SNOWY_MOUNTAINS_01
+      - SNOWY_MOUNTAINS_02
+      - SNOWY_MOUNTAINS_03
+      - SNOWY_MOUNTAINS_04
+    script: SNOWY_MOUNTAINS
+    mapBlocks:
+#Group 0 (Flat surfaces without enemy spawners.)
+#Indexes: 0-9
+      - name: SNOWY_MOUNTAINS_0_00
+        width: 10
+        length: 10
+        groups: 0
+      - name: SNOWY_MOUNTAINS_0_01
+        width: 10
+        length: 10
+        groups: 0
+      - name: SNOWY_MOUNTAINS_0_02
+        width: 10
+        length: 10
+        groups: 0
+      - name: SNOWY_MOUNTAINS_0_03
+        width: 10
+        length: 10
+        groups: 0
+      - name: SNOWY_MOUNTAINS_0_04
+        width: 10
+        length: 10
+        groups: 0
+      - name: SNOWY_MOUNTAINS_0_05
+        width: 10
+        length: 10
+        groups: 0
+      - name: SNOWY_MOUNTAINS_0_06
+        width: 10
+        length: 10
+        groups: 0
+      - name: SNOWY_MOUNTAINS_0_07
+        width: 10
+        length: 10
+        groups: 0
+      - name: SNOWY_MOUNTAINS_0_08
+        width: 10
+        length: 10
+        groups: 0
+      - name: SNOWY_MOUNTAINS_0_09
+        width: 10
+        length: 10
+        groups: 0
+#Group 1 (Flat surfaces with enemy spawners.)
+#Indexes: 10-19
+      - name: SNOWY_MOUNTAINS_1_00
+        width: 10
+        length: 10
+        groups: 1
+      - name: SNOWY_MOUNTAINS_1_01
+        width: 10
+        length: 10
+        groups: 1
+      - name: SNOWY_MOUNTAINS_1_02
+        width: 10
+        length: 10
+        groups: 1
+      - name: SNOWY_MOUNTAINS_1_03
+        width: 10
+        length: 10
+        groups: 1
+      - name: SNOWY_MOUNTAINS_1_04
+        width: 10
+        length: 10
+        groups: 1
+      - name: SNOWY_MOUNTAINS_1_05
+        width: 10
+        length: 10
+        groups: 1
+      - name: SNOWY_MOUNTAINS_1_06
+        width: 10
+        length: 10
+        groups: 1
+      - name: SNOWY_MOUNTAINS_1_07
+        width: 10
+        length: 10
+        groups: 1
+      - name: SNOWY_MOUNTAINS_1_08
+        width: 10
+        length: 10
+        groups: 1
+      - name: SNOWY_MOUNTAINS_1_09
+        width: 10
+        length: 10
+        groups: 1
+#Group 2 (Mountain-like mapblocks with enemy spawners.)
+#Indexes: 20-29
+      - name: SNOWY_MOUNTAINS_2_00
+        width: 20
+        length: 20
+        groups: 2
+      - name: SNOWY_MOUNTAINS_2_01
+        width: 20
+        length: 20
+        groups: 2
+      - name: SNOWY_MOUNTAINS_2_02
+        width: 20
+        length: 20
+        groups: 2
+      - name: SNOWY_MOUNTAINS_2_03
+        width: 20
+        length: 20
+        groups: 2
+      - name: SNOWY_MOUNTAINS_2_04
+        width: 20
+        length: 20
+        groups: 2
+      - name: SNOWY_MOUNTAINS_2_05
+        width: 20
+        length: 20
+        groups: 2
+      - name: SNOWY_MOUNTAINS_2_06
+        width: 20
+        length: 20
+        groups: 2
+      - name: SNOWY_MOUNTAINS_2_07
+        width: 20
+        length: 20
+        groups: 2
+      - name: SNOWY_MOUNTAINS_2_08
+        width: 20
+        length: 20
+        groups: 2
+      - name: SNOWY_MOUNTAINS_2_09
+        width: 20
+        length: 20
+        groups: 2
+#Group 3 (Mountain foot, North direction.)
+#Indexes: 30-39
+      - name: SNOWY_MOUNTAINS_3_00
+        width: 20
+        length: 20
+        groups: 3
+      - name: SNOWY_MOUNTAINS_3_01
+        width: 20
+        length: 20
+        groups: 3
+      - name: SNOWY_MOUNTAINS_3_02
+        width: 20
+        length: 20
+        groups: 3
+      - name: SNOWY_MOUNTAINS_3_03
+        width: 20
+        length: 20
+        groups: 3
+      - name: SNOWY_MOUNTAINS_3_04
+        width: 20
+        length: 20
+        groups: 3
+      - name: SNOWY_MOUNTAINS_3_05
+        width: 20
+        length: 20
+        groups: 3
+      - name: SNOWY_MOUNTAINS_3_06
+        width: 20
+        length: 20
+        groups: 3
+      - name: SNOWY_MOUNTAINS_3_07
+        width: 20
+        length: 20
+        groups: 3
+      - name: SNOWY_MOUNTAINS_3_08
+        width: 20
+        length: 20
+        groups: 3
+      - name: SNOWY_MOUNTAINS_3_09
+        width: 20
+        length: 20
+        groups: 3
+
+#Group 4 (Mountain foot, West direction.)
+#Indexes: 40-49
+      - name: SNOWY_MOUNTAINS_4_00
+        width: 20
+        length: 20
+        groups: 4
+      - name: SNOWY_MOUNTAINS_4_01
+        width: 20
+        length: 20
+        groups: 4
+      - name: SNOWY_MOUNTAINS_4_02
+        width: 20
+        length: 20
+        groups: 4
+      - name: SNOWY_MOUNTAINS_4_03
+        width: 20
+        length: 20
+        groups: 4
+      - name: SNOWY_MOUNTAINS_4_04
+        width: 20
+        length: 20
+        groups: 4
+      - name: SNOWY_MOUNTAINS_4_05
+        width: 20
+        length: 20
+        groups: 4
+      - name: SNOWY_MOUNTAINS_4_06
+        width: 20
+        length: 20
+        groups: 4
+      - name: SNOWY_MOUNTAINS_4_07
+        width: 20
+        length: 20
+        groups: 4
+      - name: SNOWY_MOUNTAINS_4_08
+        width: 20
+        length: 20
+        groups: 4
+      - name: SNOWY_MOUNTAINS_4_09
+        width: 20
+        length: 20
+        groups: 4

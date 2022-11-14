@@ -13,6 +13,7 @@ items:
     invWidth: 2
     invHeight: 3
     armor: 35
+    battleType: 11
     recover: false
 
 

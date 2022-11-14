@@ -23,6 +23,7 @@ extraStrings:
 
 ### GLOBE TERRAINS ###
       MAP_MOUNTAINS: "Mountains"
+      MAP_SNOWY_MOUNTAINS: "Snowy Mountains"
       MAP_ICE_FIELD: "Ice Field"
       MAP_ICE_SHELF: "Ice Shelf"
 

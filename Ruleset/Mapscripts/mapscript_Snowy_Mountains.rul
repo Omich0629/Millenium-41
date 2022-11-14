@@ -1,0 +1,57 @@
+mapScripts:
+## Mountains Script
+  - type: SNOWY_MOUNTAINS
+#Map size: 6x6
+#Possible coordinates:
+#x: 0-5
+#y: 0-5
+#First floor: 1
+    commands:
+#Randomly choose one of three possible layouts
+
+#(Layout 1: Mountain foot, North direcrion)
+    - type: fillArea
+      label: 1
+      executionChances: 33 #3 possible results, roll for 33%
+      rects:
+       - [0,0,2,2]
+       - [2,0,2,2]
+       - [4,0,2,2]
+      blocks: [30, 31, 32, 33, 34, 35, 36, 37, 38, 39] #group 3
+      maxUses: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+
+
+#(Layout 2: Mountain foot, West direcrion)
+    - type: fillArea
+      label: 2
+      conditionals: [-1]
+      executionChances: 50 #2 possible results, roll for 50%
+      rects:
+       - [0,0,2,2]
+       - [0,2,2,2]
+       - [0,4,2,2]
+      blocks: [40, 41, 42, 43, 44, 45, 46, 47, 48, 49] #group 4
+      maxUses: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+
+#(Layout 3: Uneven landscape, nothing interesting)
+
+#Add crafts 
+    - type: addCraft
+      blocks: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9] #group 0
+      maxUses: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+    - type: addUFO
+      blocks: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9] #group 0
+      maxUses: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+
+#Add four 20x20 blocks
+    - type: addBlock
+      blocks: [20, 21, 22, 23, 24, 25, 26, 27, 28, 29]
+      maxUses: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+      executions: 4
+
+#Fill the rest area
+    - type: fillArea
+      blocks: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, #group 0
+              10, 11, 12, 13, 14, 15, 16, 17, 18, 19] #group 1
+      maxUses: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, #group 0
+                1, 1, 1, 1, 1, 1, 1, 1, 1, 1] #group 1

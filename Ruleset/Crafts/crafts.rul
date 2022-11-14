@@ -14,7 +14,7 @@ crafts:
     damageMax: 400
     accel: 6
     fuelMax: 1250
-    speedMax: 1250
+    speedMax: 2250 #1250
     repairRate: 10
     refuelRate: 350
     radarRange: 700

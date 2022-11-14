@@ -15,26 +15,20 @@ mapScripts:
       blocks: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9] #group 0
       maxUses: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
 
-#Randomly choose one of two possible layouts
-#(Layout 1: Hill-like landscape)
+#Add five 20x20 blocks (groups 2, 3)
     - type: addBlock
-      label: 1
-      executionChances: 50 #2 possible results, so roll for 50%
-      blocks: [20, 21, 22, 23, 24, 25, 26, 27, 28, 29]
-      maxUses: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
-      executions: 4
+      blocks: [20, 21, 22, 23, 24, 25, 26, 27, 28, 29, #group 2
+              30, 31, 32, 33, 34, 35, 36, 37, 38, 39] #group 3
+      maxUses: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, #group 2
+                1, 1, 1, 1, 1, 1, 1, 1, 1, 1] #group 3
+      executions: 5
 
-#(Layout 2: Mountain-like landscape)
-    - type: addBlock
-      conditionals: -1
-      label: 2
-      blocks: [30, 31, 32, 33, 34, 35, 36, 37, 38, 39]
-      maxUses: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
-      executions: 4
-
-#Fill the rest area
+#Fill area with group 1 blocks
     - type: fillArea
-      blocks: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, #group 0
-              10, 11, 12, 13, 14, 15, 16, 17, 18, 19] #group 1
-      maxUses: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, #group 0
-                2, 2, 2, 2, 2, 2, 2, 2, 2, 2] #group 1
+      blocks: [10, 11, 12, 13, 14, 15, 16, 17, 18, 19] #group 1
+      maxUses: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1] #group 1
+
+#Fill the rest area with group 0 blocks
+    - type: fillArea
+      blocks: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9] #group 0
+      maxUses: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1] #group 0

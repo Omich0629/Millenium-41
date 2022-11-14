@@ -5,6 +5,8 @@ terrains:
       - MOUNTAINS_00
       - MOUNTAINS_01
       - MOUNTAINS_02
+      - MOUNTAINS_03
+      - MOUNTAINS_04
     script: MOUNTAINS
     mapBlocks:
 #Group 0 (Flat surfaces without enemy spawners.)
@@ -91,7 +93,7 @@ terrains:
         width: 10
         length: 10
         groups: 1
-#Group 2 (Snowy hills with enemy spawners.)
+#Group 2 (Mountain-like mapblocks with enemy spawners.)
 #Indexes: 20-29
       - name: MOUNTAINS_2_00
         width: 20
@@ -133,8 +135,7 @@ terrains:
         width: 20
         length: 20
         groups: 2
-
-#Group 3 (Mountain-like mapblocks with enemy spawners.)
+#Group 3 (Mountain foot, North direction.)
 #Indexes: 30-39
       - name: MOUNTAINS_3_00
         width: 20
@@ -176,3 +177,46 @@ terrains:
         width: 20
         length: 20
         groups: 3
+
+#Group 4 (Mountain foot, West direction.)
+#Indexes: 40-49
+      - name: MOUNTAINS_4_00
+        width: 20
+        length: 20
+        groups: 4
+      - name: MOUNTAINS_4_01
+        width: 20
+        length: 20
+        groups: 4
+      - name: MOUNTAINS_4_02
+        width: 20
+        length: 20
+        groups: 4
+      - name: MOUNTAINS_4_03
+        width: 20
+        length: 20
+        groups: 4
+      - name: MOUNTAINS_4_04
+        width: 20
+        length: 20
+        groups: 4
+      - name: MOUNTAINS_4_05
+        width: 20
+        length: 20
+        groups: 4
+      - name: MOUNTAINS_4_06
+        width: 20
+        length: 20
+        groups: 4
+      - name: MOUNTAINS_4_07
+        width: 20
+        length: 20
+        groups: 4
+      - name: MOUNTAINS_4_08
+        width: 20
+        length: 20
+        groups: 4
+      - name: MOUNTAINS_4_09
+        width: 20
+        length: 20
+        groups: 4

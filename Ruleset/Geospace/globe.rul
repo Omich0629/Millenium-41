@@ -24884,14 +24884,30 @@ globe:
       - 348.378187986155
       - 6.3621286800492
 
-#Globe textures
+#Globe textures (area: ([lon1, lon2, lat1, lat2]))
   textures:
+#MOUNTAINS TEXTURE
     - id: 10
       terrain:
         - name: MOUNTAINS
+          area: [0, 360, -90, 0] #North Mountains (whole Northern Hemisphere)
+        - name: MOUNTAINS
+          area: [100, 133, 12, 32] #South Mountains
+        - name: MOUNTAINS
+          area: [322, 330, 2, -8] #Tropical mountains (TODO: change to correct terrain)
+
+#SNOW TEXTURE
     - id: 11
       terrain:
         - name: ICE_FIELD
+          area: [0, 360, -90, -60] #North Pole
+        - name: ICE_FIELD
+          area: [0, 360, 60, 90] #South Pole
+        - name: SNOWY_MOUNTAINS
+          area: [0, 75, -60, -35] #North Mountains
+        - name: SNOWY_MOUNTAINS
+          area: [106, 127, 15, 24] #South Mountains
+#BROKEN ICE TEXTURE  
     - id: 12
       terrain:
         - name: ICE_SHELF

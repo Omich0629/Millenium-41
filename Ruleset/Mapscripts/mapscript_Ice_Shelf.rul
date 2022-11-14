@@ -7,11 +7,11 @@ mapScripts:
 #y: 0-5
 #First floor: 2
     commands:
-#Randomly choose one of five possible layouts
+#Randomly choose one of four possible layouts
 #(Layout 1: North coast)
     - type: fillArea
       label: 1
-      executionChances: 20 #5 possible results, so roll for 20%
+      executionChances: 25 #4 possible results, so roll for 25%
       rects:
        - [0,0,1,1]
        - [1,0,1,1]
@@ -26,7 +26,7 @@ mapScripts:
     - type: fillArea
       conditionals: -1
       label: 2
-      executionChances: 25 #4 possible results, roll for 25%
+      executionChances: 33 #3 possible results, roll for 33%
       rects:
        - [5,0,1,1]
        - [5,1,1,1]
@@ -41,7 +41,7 @@ mapScripts:
     - type: fillArea
       conditionals: [-1, -2]
       label: 3
-      executionChances: 33 #3 possible results, roll for 33%
+      executionChances: 50 #2 possible results, roll for 50%
       rects:
        - [0,5,1,1]
        - [1,5,1,1]
@@ -56,7 +56,7 @@ mapScripts:
     - type: fillArea
       conditionals: [-1, -2, -3]
       label: 4
-      executionChances: 50 #2 possible results, roll for 50%
+      executionChances: 100 #1 possible results, roll for 100%
       rects:
        - [0,0,1,1]
        - [0,1,1,1]
@@ -67,9 +67,6 @@ mapScripts:
       blocks: [60, 61, 62, 63, 64, 65, 66, 67, 68, 69]
       maxUses: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
 
-#(Layout 5: Inland)
-#If all previous conditionals had failed, we'll just assume that there is no coast on that map.
-#No additional commands required.
 
 #Add crafts
     - type: addCraft
@@ -79,11 +76,19 @@ mapScripts:
       blocks: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9] #group 0
       maxUses: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
 
-#Fill the rest area
+#Add three 20x20 blocks
+    - type: addBlock
+      blocks: [20, 21, 22, 23, 24, 25, 26, 27, 28, 29] #group 2
+      maxUses: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+      executions: 3
+
+#Fill area with group 1 blocks
     - type: fillArea
-      blocks: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, #group 0
-              10, 11, 12, 13, 14, 15, 16, 17, 18, 19, #group 1
-              20, 21, 22, 23, 24, 25, 26, 27, 28, 29] #group 2
-      maxUses: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, #group 0
-                1, 1, 1, 1, 1, 1, 1, 1, 1, 1, #group 1
-                1, 1, 1, 1, 1, 1, 1, 1, 1, 1] #group 2
+      blocks: [10, 11, 12, 13, 14, 15, 16, 17, 18, 19] #group 1
+      maxUses: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1] #group 1
+
+#Fill the rest area with group 0 blocks
+    - type: fillArea
+      blocks: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9] #group 0
+      maxUses: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1] #group 0
+

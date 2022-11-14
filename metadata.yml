@@ -8,4 +8,4 @@ isMaster: true
 loadResources:
   - UFO
 reservedSpace: 2
-requiredExtendedVersion: "7.0"
+requiredExtendedVersion: "7.5.3"

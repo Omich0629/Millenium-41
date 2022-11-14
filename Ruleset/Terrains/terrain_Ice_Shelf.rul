@@ -4,6 +4,9 @@ terrains:
       - BLANKS
       - ICE_SHELF_00
       - ICE_SHELF_01
+      - ICE_SHELF_02
+      - ICE_SHELF_03
+      - ICE_SHELF_04
     script: ICE_SHELF
     mapBlocks:
 #Group 0 (Flat surfaces without enemy spawners.)
@@ -49,7 +52,7 @@ terrains:
         length: 10
         groups: 0
 
-#Group 1 (Flat surfaces with enemy spawners.)
+#Group 1 (10x10 Uneven surfaces with enemy spawners.)
 #Indexes: 10-19
       - name: ICE_SHELF_1_00
         width: 10
@@ -92,47 +95,47 @@ terrains:
         length: 10
         groups: 1
 
-#Group 2 (Uneven surfaces with enemy spawners.)
+#Group 2 (20x20 Uneven surfaces with enemy spawners.)
 #Indexes: 20-29
       - name: ICE_SHELF_2_00
-        width: 10
-        length: 10
+        width: 20
+        length: 20
         groups: 2
       - name: ICE_SHELF_2_01
-        width: 10
-        length: 10
+        width: 20
+        length: 20
         groups: 2
       - name: ICE_SHELF_2_02
-        width: 10
-        length: 10
+        width: 20
+        length: 20
         groups: 2
       - name: ICE_SHELF_2_03
-        width: 10
-        length: 10
+        width: 20
+        length: 20
         groups: 2
       - name: ICE_SHELF_2_04
-        width: 10
-        length: 10
+        width: 20
+        length: 20
         groups: 2
       - name: ICE_SHELF_2_05
-        width: 10
-        length: 10
+        width: 20
+        length: 20
         groups: 2
       - name: ICE_SHELF_2_06
-        width: 10
-        length: 10
+        width: 20
+        length: 20
         groups: 2
       - name: ICE_SHELF_2_07
-        width: 10
-        length: 10
+        width: 20
+        length: 20
         groups: 2
       - name: ICE_SHELF_2_08
-        width: 10
-        length: 10
+        width: 20
+        length: 20
         groups: 2
       - name: ICE_SHELF_2_09
-        width: 10
-        length: 10
+        width: 20
+        length: 20
         groups: 2
 
 #Group 3 (North Coast Mapblocks)
