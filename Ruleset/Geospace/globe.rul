@@ -24886,6 +24886,28 @@ globe:
 
 #Globe textures (area: ([lon1, lon2, lat1, lat2]))
   textures:
+
+#FIELDS TEXTURE
+#id: ???
+
+#BARRENS TEXTURE
+#id: 4
+
+#SAND DESERT TEXTURE
+#id: 5
+
+#TROPICAL FOREST TEXTURE
+#id: 6
+
+#FOREST TEXTURE
+#id: 7
+
+#BOREAL FOREST TEXTURE
+#id: 8
+
+#TUNDRA TEXTURE
+#id: 9
+
 #MOUNTAINS TEXTURE
     - id: 10
       terrain:
@@ -24893,8 +24915,8 @@ globe:
           area: [0, 360, -90, 0] #North Mountains (whole Northern Hemisphere)
         - name: MOUNTAINS
           area: [100, 133, 12, 32] #South Mountains
-        - name: MOUNTAINS
-          area: [322, 330, 2, -8] #Tropical mountains (TODO: change to correct terrain)
+        - name: TROPICAL_MOUNTAINS
+          area: [322, 330, 2, -8] #Tropical mountains
 
 #SNOW TEXTURE
     - id: 11

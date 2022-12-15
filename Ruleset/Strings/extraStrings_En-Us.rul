@@ -22,6 +22,7 @@ extraStrings:
       STR_EXTRA_LABEL_1: "QUARANTINE\n(ORKOID INFESTATION)"
 
 ### GLOBE TERRAINS ###
+      MAP_TROPICAL_MOUNTAINS: "Tropical Mountains"
       MAP_MOUNTAINS: "Mountains"
       MAP_SNOWY_MOUNTAINS: "Snowy Mountains"
       MAP_ICE_FIELD: "Ice Field"
