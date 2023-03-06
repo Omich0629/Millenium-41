@@ -1,0 +1,179 @@
+terrains:
+  - name: TROPICAL_FOREST
+    mapDataSets:
+      - BLANKS
+      - TROPICAL_FOREST_00
+      - TROPICAL_FOREST_01
+      - TROPICAL_FOREST_02
+      - TROPICAL_FOREST_03
+    script: TROPICAL_FOREST
+    mapBlocks:
+#Group 0 (10x10 flat mapblocks without enemy spawners)
+#Indexes: 0-9
+      - name: TROPICAL_FOREST_0_00
+        width: 10
+        length: 10
+        groups: 0
+      - name: TROPICAL_FOREST_0_01
+        width: 10
+        length: 10
+        groups: 0
+      - name: TROPICAL_FOREST_0_02
+        width: 10
+        length: 10
+        groups: 0
+      - name: TROPICAL_FOREST_0_03
+        width: 10
+        length: 10
+        groups: 0
+      - name: TROPICAL_FOREST_0_04
+        width: 10
+        length: 10
+        groups: 0
+      - name: TROPICAL_FOREST_0_05
+        width: 10
+        length: 10
+        groups: 0
+      - name: TROPICAL_FOREST_0_06
+        width: 10
+        length: 10
+        groups: 0
+      - name: TROPICAL_FOREST_0_07
+        width: 10
+        length: 10
+        groups: 0
+      - name: TROPICAL_FOREST_0_08
+        width: 10
+        length: 10
+        groups: 0
+      - name: TROPICAL_FOREST_0_09
+        width: 10
+        length: 10
+        groups: 0
+#Group 1 (10x10 forest mapblocks with enemy spawners)
+#Indexes: 10-19
+      - name: TROPICAL_FOREST_1_00
+        width: 10
+        length: 10
+        groups: 1
+      - name: TROPICAL_FOREST_1_01
+        width: 10
+        length: 10
+        groups: 1
+      - name: TROPICAL_FOREST_1_02
+        width: 10
+        length: 10
+        groups: 1
+      - name: TROPICAL_FOREST_1_03
+        width: 10
+        length: 10
+        groups: 1
+      - name: TROPICAL_FOREST_1_04
+        width: 10
+        length: 10
+        groups: 1
+      - name: TROPICAL_FOREST_1_05
+        width: 10
+        length: 10
+        groups: 1
+      - name: TROPICAL_FOREST_1_06
+        width: 10
+        length: 10
+        groups: 1
+      - name: TROPICAL_FOREST_1_07
+        width: 10
+        length: 10
+        groups: 1
+      - name: TROPICAL_FOREST_1_08
+        width: 10
+        length: 10
+        groups: 1
+      - name: TROPICAL_FOREST_1_09
+        width: 10
+        length: 10
+        groups: 1
+#Group 2 (20x20 forest mapblocks with enemy spawners)
+#Indexes: 20-29
+      - name: TROPICAL_FOREST_2_00
+        width: 20
+        length: 20
+        groups: 2
+      - name: TROPICAL_FOREST_2_01
+        width: 20
+        length: 20
+        groups: 2
+      - name: TROPICAL_FOREST_2_02
+        width: 20
+        length: 20
+        groups: 2
+      - name: TROPICAL_FOREST_2_03
+        width: 20
+        length: 20
+        groups: 2
+      - name: TROPICAL_FOREST_2_04
+        width: 20
+        length: 20
+        groups: 2
+      - name: TROPICAL_FOREST_2_05
+        width: 20
+        length: 20
+        groups: 2
+      - name: TROPICAL_FOREST_2_06
+        width: 20
+        length: 20
+        groups: 2
+      - name: TROPICAL_FOREST_2_07
+        width: 20
+        length: 20
+        groups: 2
+      - name: TROPICAL_FOREST_2_08
+        width: 20
+        length: 20
+        groups: 2
+      - name: TROPICAL_FOREST_2_09
+        width: 20
+        length: 20
+        groups: 2
+
+#Group 3 (20x20 hill-like mapblocks with enemy spawners)
+#Indexes: 30-39
+      - name: TROPICAL_FOREST_3_00
+        width: 20
+        length: 20
+        groups: 3
+      - name: TROPICAL_FOREST_3_01
+        width: 20
+        length: 20
+        groups: 3
+      - name: TROPICAL_FOREST_3_02
+        width: 20
+        length: 20
+        groups: 3
+      - name: TROPICAL_FOREST_3_03
+        width: 20
+        length: 20
+        groups: 3
+      - name: TROPICAL_FOREST_3_04
+        width: 20
+        length: 20
+        groups: 3
+      - name: TROPICAL_FOREST_3_05
+        width: 20
+        length: 20
+        groups: 3
+      - name: TROPICAL_FOREST_3_06
+        width: 20
+        length: 20
+        groups: 3
+      - name: TROPICAL_FOREST_3_07
+        width: 20
+        length: 20
+        groups: 3
+      - name: TROPICAL_FOREST_3_08
+        width: 20
+        length: 20
+        groups: 3
+      - name: TROPICAL_FOREST_3_09
+        width: 20
+        length: 20
+        groups: 3

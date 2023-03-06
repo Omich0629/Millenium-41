@@ -1,21 +1,29 @@
 mapScripts:
 ## Ice Field Script
   - type: ICE_FIELD
-#Map size: 6x6
+#Map size: 60x60
 #Possible coordinates:
 #x: 0-5
 #y: 0-5
 #First floor: 1
+
+#Groups:
+#0 - 10x10 flat mapblocks without enemy spawners
+#1 - 10x10 uneven mapblocks with enemy spawners
+#2 - 20x20 hill-like mapblocks with enemy spawners
+#3 - 20x20 mountain-like mapblocks with enemy spawners
+
     commands:
-#Add crafts first
+#Add player craft
     - type: addCraft
       blocks: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9] #group 0
       maxUses: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+#Add enemy craft
     - type: addUFO
       blocks: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9] #group 0
       maxUses: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
 
-#Add five 20x20 blocks (groups 2, 3)
+#Add 5 20x20 mapblocks (groups 2, 3)
     - type: addBlock
       blocks: [20, 21, 22, 23, 24, 25, 26, 27, 28, 29, #group 2
               30, 31, 32, 33, 34, 35, 36, 37, 38, 39] #group 3
@@ -23,12 +31,13 @@ mapScripts:
                 1, 1, 1, 1, 1, 1, 1, 1, 1, 1] #group 3
       executions: 5
 
-#Fill area with group 1 blocks
+#Fill area with group 1 mapblocks
     - type: fillArea
       blocks: [10, 11, 12, 13, 14, 15, 16, 17, 18, 19] #group 1
       maxUses: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1] #group 1
 
-#Fill the rest area with group 0 blocks
+#Fill the rest area with group 0 mapblocks
+#(failsafe in case if previous actions are not enough)
     - type: fillArea
       blocks: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9] #group 0
       maxUses: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1] #group 0

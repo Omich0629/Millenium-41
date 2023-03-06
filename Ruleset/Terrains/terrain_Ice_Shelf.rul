@@ -9,7 +9,7 @@ terrains:
       - ICE_SHELF_04
     script: ICE_SHELF
     mapBlocks:
-#Group 0 (Flat surfaces without enemy spawners.)
+#Group 0 (10x10 flat mapblocks without enemy spawners)
 #Indexes: 0-9
       - name: ICE_SHELF_0_00
         width: 10
@@ -52,7 +52,7 @@ terrains:
         length: 10
         groups: 0
 
-#Group 1 (10x10 Uneven surfaces with enemy spawners.)
+#Group 1 (10x10 uneven mapblocks with enemy spawners)
 #Indexes: 10-19
       - name: ICE_SHELF_1_00
         width: 10
@@ -95,7 +95,7 @@ terrains:
         length: 10
         groups: 1
 
-#Group 2 (20x20 Uneven surfaces with enemy spawners.)
+#Group 2 (20x20 hill-like mapblocks with enemy spawners)
 #Indexes: 20-29
       - name: ICE_SHELF_2_00
         width: 20
@@ -138,7 +138,7 @@ terrains:
         length: 20
         groups: 2
 
-#Group 3 (North Coast Mapblocks)
+#Group 3 (10x10 north coast mapblocks without enemy spawners)
 #Indexes: 30-39
       - name: ICE_SHELF_3_00
         width: 10
@@ -181,7 +181,7 @@ terrains:
         length: 10
         groups: 3
 
-#Group 4 (East Coast Mapblocks)
+#Group 4 (10x10 east coast mapblocks without enemy spawners)
 #Indexes: 40-49
       - name: ICE_SHELF_4_00
         width: 10
@@ -224,7 +224,7 @@ terrains:
         length: 10
         groups: 4
 
-#Group 5 (West Coast Mapblocks)
+#Group 5 (10x10 west coast mapblocks without enemy spawners)
 #Indexes: 50-59
       - name: ICE_SHELF_5_00
         width: 10
@@ -267,7 +267,7 @@ terrains:
         length: 10
         groups: 5
 
-#Group 6 (South Coast Mapblocks)
+#Group 6 (10x10 south coast mapblocks without enemy spawners)
 #Indexes: 60-69
       - name: ICE_SHELF_6_00
         width: 10

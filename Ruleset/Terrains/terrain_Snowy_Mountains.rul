@@ -9,7 +9,7 @@ terrains:
       - SNOWY_MOUNTAINS_04
     script: SNOWY_MOUNTAINS
     mapBlocks:
-#Group 0 (Flat surfaces without enemy spawners.)
+#Group 0 (10x10 flat mapblocks without enemy spawners)
 #Indexes: 0-9
       - name: SNOWY_MOUNTAINS_0_00
         width: 10
@@ -51,7 +51,7 @@ terrains:
         width: 10
         length: 10
         groups: 0
-#Group 1 (Flat surfaces with enemy spawners.)
+#Group 1 (10x10 uneven mapblocks with enemy spawners)
 #Indexes: 10-19
       - name: SNOWY_MOUNTAINS_1_00
         width: 10
@@ -93,7 +93,7 @@ terrains:
         width: 10
         length: 10
         groups: 1
-#Group 2 (Mountain-like mapblocks with enemy spawners.)
+#Group 2 (20x20 mountain-like mapblocks with enemy spawners)
 #Indexes: 20-29
       - name: SNOWY_MOUNTAINS_2_00
         width: 20
@@ -135,7 +135,7 @@ terrains:
         width: 20
         length: 20
         groups: 2
-#Group 3 (Mountain foot, North direction.)
+#Group 3 (20x20 north mountain foot mapblocks with enemy spawners)
 #Indexes: 30-39
       - name: SNOWY_MOUNTAINS_3_00
         width: 20
@@ -178,7 +178,7 @@ terrains:
         length: 20
         groups: 3
 
-#Group 4 (Mountain foot, West direction.)
+#Group 4 (20x20 west mountain foot mapblocks with enemy spawners)
 #Indexes: 40-49
       - name: SNOWY_MOUNTAINS_4_00
         width: 20

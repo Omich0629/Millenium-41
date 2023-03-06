@@ -24887,23 +24887,38 @@ globe:
 #Globe textures (area: ([lon1, lon2, lat1, lat2]))
   textures:
 
-#FIELDS TEXTURE
-#id: ???
+#URBAN SPRAWL TEXTURE
+#id: 0
+
+#AGRICULTURAL AREA TEXTURE 1
+#id: 1
+
+#AGRICULTURAL AREA TEXTURE 2
+#id: 2
+
+#STEPPES TEXTURE
+#id: 3
 
 #BARRENS TEXTURE
 #id: 4
 
-#SAND DESERT TEXTURE
+#DESERT TEXTURE
 #id: 5
 
 #TROPICAL FOREST TEXTURE
-#id: 6
+    - id: 6
+      terrain:
+        - name: TROPICAL_FOREST
 
 #FOREST TEXTURE
-#id: 7
+    - id: 7
+      terrain:
+        - name: TEMPERATE_FOREST
 
 #BOREAL FOREST TEXTURE
-#id: 8
+    - id: 8
+      terrain:
+        - name: BOREAL_FOREST
 
 #TUNDRA TEXTURE
 #id: 9

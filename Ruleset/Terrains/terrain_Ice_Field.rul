@@ -8,7 +8,7 @@ terrains:
       - ICE_FIELD_03
     script: ICE_FIELD
     mapBlocks:
-#Group 0 (Flat surfaces without enemy spawners.)
+#Group 0 (10x10 flat mapblocks without enemy spawners)
 #Indexes: 0-9
       - name: ICE_FIELD_0_00
         width: 10
@@ -50,7 +50,7 @@ terrains:
         width: 10
         length: 10
         groups: 0
-#Group 1 (10x10 surfaces with enemy spawners.)
+#Group 1 (10x10 uneven mapblocks with enemy spawners)
 #Indexes: 10-19
       - name: ICE_FIELD_1_00
         width: 10
@@ -92,7 +92,7 @@ terrains:
         width: 10
         length: 10
         groups: 1
-#Group 2 (20x20 Snowy hills with enemy spawners.)
+#Group 2 (20x20 hill-like mapblocks with enemy spawners)
 #Indexes: 20-29
       - name: ICE_FIELD_2_00
         width: 20
@@ -135,7 +135,7 @@ terrains:
         length: 20
         groups: 2
 
-#Group 3 (20-20 Mountain-like mapblocks with enemy spawners.)
+#Group 3 (20x20 mountain-like mapblocks with enemy spawners)
 #Indexes: 30-39
       - name: ICE_FIELD_3_00
         width: 20
