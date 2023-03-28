@@ -1,0 +1,179 @@
+terrains:
+  - name: SAVANNA
+    mapDataSets:
+      - BLANKS
+      - SAVANNA_00
+      - SAVANNA_01
+      - SAVANNA_02
+      - SAVANNA_03
+    script: SAVANNA
+    mapBlocks:
+#Group 0 (10x10 flat mapblocks without enemy spawners)
+#Indexes: 0-9
+      - name: SAVANNA_0_00
+        width: 10
+        length: 10
+        groups: 0
+      - name: SAVANNA_0_01
+        width: 10
+        length: 10
+        groups: 0
+      - name: SAVANNA_0_02
+        width: 10
+        length: 10
+        groups: 0
+      - name: SAVANNA_0_03
+        width: 10
+        length: 10
+        groups: 0
+      - name: SAVANNA_0_04
+        width: 10
+        length: 10
+        groups: 0
+      - name: SAVANNA_0_05
+        width: 10
+        length: 10
+        groups: 0
+      - name: SAVANNA_0_06
+        width: 10
+        length: 10
+        groups: 0
+      - name: SAVANNA_0_07
+        width: 10
+        length: 10
+        groups: 0
+      - name: SAVANNA_0_08
+        width: 10
+        length: 10
+        groups: 0
+      - name: SAVANNA_0_09
+        width: 10
+        length: 10
+        groups: 0
+#Group 1 (10x10 savanna mapblocks with enemy spawners)
+#Indexes: 10-19
+      - name: SAVANNA_1_00
+        width: 10
+        length: 10
+        groups: 1
+      - name: SAVANNA_1_01
+        width: 10
+        length: 10
+        groups: 1
+      - name: SAVANNA_1_02
+        width: 10
+        length: 10
+        groups: 1
+      - name: SAVANNA_1_03
+        width: 10
+        length: 10
+        groups: 1
+      - name: SAVANNA_1_04
+        width: 10
+        length: 10
+        groups: 1
+      - name: SAVANNA_1_05
+        width: 10
+        length: 10
+        groups: 1
+      - name: SAVANNA_1_06
+        width: 10
+        length: 10
+        groups: 1
+      - name: SAVANNA_1_07
+        width: 10
+        length: 10
+        groups: 1
+      - name: SAVANNA_1_08
+        width: 10
+        length: 10
+        groups: 1
+      - name: SAVANNA_1_09
+        width: 10
+        length: 10
+        groups: 1
+#Group 2 (20x20 savanna mapblocks with enemy spawners)
+#Indexes: 20-29
+      - name: SAVANNA_2_00
+        width: 20
+        length: 20
+        groups: 2
+      - name: SAVANNA_2_01
+        width: 20
+        length: 20
+        groups: 2
+      - name: SAVANNA_2_02
+        width: 20
+        length: 20
+        groups: 2
+      - name: SAVANNA_2_03
+        width: 20
+        length: 20
+        groups: 2
+      - name: SAVANNA_2_04
+        width: 20
+        length: 20
+        groups: 2
+      - name: SAVANNA_2_05
+        width: 20
+        length: 20
+        groups: 2
+      - name: SAVANNA_2_06
+        width: 20
+        length: 20
+        groups: 2
+      - name: SAVANNA_2_07
+        width: 20
+        length: 20
+        groups: 2
+      - name: SAVANNA_2_08
+        width: 20
+        length: 20
+        groups: 2
+      - name: SAVANNA_2_09
+        width: 20
+        length: 20
+        groups: 2
+
+#Group 3 (20x20 hill-like mapblocks with enemy spawners)
+#Indexes: 30-39
+      - name: SAVANNA_3_00
+        width: 20
+        length: 20
+        groups: 3
+      - name: SAVANNA_3_01
+        width: 20
+        length: 20
+        groups: 3
+      - name: SAVANNA_3_02
+        width: 20
+        length: 20
+        groups: 3
+      - name: SAVANNA_3_03
+        width: 20
+        length: 20
+        groups: 3
+      - name: SAVANNA_3_04
+        width: 20
+        length: 20
+        groups: 3
+      - name: SAVANNA_3_05
+        width: 20
+        length: 20
+        groups: 3
+      - name: SAVANNA_3_06
+        width: 20
+        length: 20
+        groups: 3
+      - name: SAVANNA_3_07
+        width: 20
+        length: 20
+        groups: 3
+      - name: SAVANNA_3_08
+        width: 20
+        length: 20
+        groups: 3
+      - name: SAVANNA_3_09
+        width: 20
+        length: 20
+        groups: 3

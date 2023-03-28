@@ -23,12 +23,16 @@ extraStrings:
 
 ### GLOBE TERRAINS ###
       MAP_TEMPERATE_FOREST: "Temperate Forest"
+      MAP_TUNDRA: "Tundra"
+      MAP_SAVANNA: "Savanna"
+      MAP_GRASSLANDS: "Grasslands"
       MAP_BOREAL_FOREST: "Boreal Forest"
+      MAP_TROPICAL_DESERT: "Tropical Desert"
       MAP_TROPICAL_FOREST: "Tropical Forest"
       MAP_TROPICAL_MOUNTAINS: "Tropical Mountains"
       MAP_MOUNTAINS: "Mountains"
       MAP_SNOWY_MOUNTAINS: "Snowy Mountains"
-      MAP_ICE_FIELD: "Ice Field"
+      MAP_POLAR_DESERT: "Polar Desert"
       MAP_ICE_SHELF: "Ice Shelf"
 
 

@@ -24896,14 +24896,20 @@ globe:
 #AGRICULTURAL AREA TEXTURE 2
 #id: 2
 
-#STEPPES TEXTURE
-#id: 3
+#GRASSLANDS TEXTURE
+    - id: 3
+      terrain:
+        - name: GRASSLANDS
 
-#BARRENS TEXTURE
-#id: 4
+#SAVANNA TEXTURE
+    - id: 4
+      terrain:
+        - name: SAVANNA
 
-#DESERT TEXTURE
-#id: 5
+#TROPICAL DESERT TEXTURE
+    - id: 5
+      terrain:
+        - name: TROPICAL_DESERT
 
 #TROPICAL FOREST TEXTURE
     - id: 6
@@ -24921,7 +24927,9 @@ globe:
         - name: BOREAL_FOREST
 
 #TUNDRA TEXTURE
-#id: 9
+    - id: 9
+      terrain:
+        - name: TUNDRA
 
 #MOUNTAINS TEXTURE
     - id: 10
@@ -24936,9 +24944,9 @@ globe:
 #SNOW TEXTURE
     - id: 11
       terrain:
-        - name: ICE_FIELD
+        - name: POLAR_DESERT
           area: [0, 360, -90, -60] #North Pole
-        - name: ICE_FIELD
+        - name: POLAR_DESERT
           area: [0, 360, 60, 90] #South Pole
         - name: SNOWY_MOUNTAINS
           area: [0, 75, -60, -35] #North Mountains
