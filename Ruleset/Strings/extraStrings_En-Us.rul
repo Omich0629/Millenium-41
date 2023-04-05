@@ -22,6 +22,11 @@ extraStrings:
       STR_EXTRA_LABEL_1: "QUARANTINE\n(ORKOID INFESTATION)"
 
 ### GLOBE TERRAINS ###
+
+
+      MAP_FIELDS_TYPE1: "Fields (Type 1)"
+      MAP_FIELDS_TYPE2: "Fields (Type 2)"
+      MAP_FIELDS_TYPE3: "Fields (Type 3)"
       MAP_TEMPERATE_FOREST: "Temperate Forest"
       MAP_TUNDRA: "Tundra"
       MAP_SAVANNA: "Savanna"

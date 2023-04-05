@@ -1,0 +1,262 @@
+terrains:
+#All three fields terrains are sharing the same set of sprites
+#This one is for corn field
+  - name: FIELDS_TYPE2
+    mapDataSets:
+      - BLANKS
+      - FIELDS_00
+      - FIELDS_01
+      - FIELDS_02
+    script: FIELDS_TYPE2
+    mapBlocks:
+#Group 0 (10x10 wheat field mapblocks without enemy spawners)
+#Indexes: 0-4
+      - name: FIELDS_0_00
+        width: 10
+        length: 10
+        groups: 0
+      - name: FIELDS_0_01
+        width: 10
+        length: 10
+        groups: 0
+      - name: FIELDS_0_02
+        width: 10
+        length: 10
+        groups: 0
+      - name: FIELDS_0_03
+        width: 10
+        length: 10
+        groups: 0
+      - name: FIELDS_0_04
+        width: 10
+        length: 10
+        groups: 0
+#Group 1 (10x10 wheat field mapblocks with enemy spawners)
+#Indexes: 5-9
+      - name: FIELDS_1_00
+        width: 10
+        length: 10
+        groups: 1
+      - name: FIELDS_1_01
+        width: 10
+        length: 10
+        groups: 1
+      - name: FIELDS_1_02
+        width: 10
+        length: 10
+        groups: 1
+      - name: FIELDS_1_03
+        width: 10
+        length: 10
+        groups: 1
+      - name: FIELDS_1_04
+        width: 10
+        length: 10
+        groups: 1
+
+#Group 2 (10x10 corn field mapblocks without enemy spawners)
+#Indexes: 10-14
+      - name: FIELDS_2_00
+        width: 10
+        length: 10
+        groups: 2
+      - name: FIELDS_2_01
+        width: 10
+        length: 10
+        groups: 2
+      - name: FIELDS_2_02
+        width: 10
+        length: 10
+        groups: 2
+      - name: FIELDS_2_03
+        width: 10
+        length: 10
+        groups: 2
+      - name: FIELDS_2_04
+        width: 10
+        length: 10
+        groups: 2
+
+
+#Group 3 (10x10 corn field mapblocks with enemy spawners)
+#Indexes: 15-19
+      - name: FIELDS_3_00
+        width: 10
+        length: 10
+        groups: 3
+      - name: FIELDS_3_01
+        width: 10
+        length: 10
+        groups: 3
+      - name: FIELDS_3_02
+        width: 10
+        length: 10
+        groups: 3
+      - name: FIELDS_3_03
+        width: 10
+        length: 10
+        groups: 3
+      - name: FIELDS_3_04
+        width: 10
+        length: 10
+        groups: 3
+
+#Group 4 (10x10 potato field mapblocks without enemy spawners)
+#Indexes: 20-24
+      - name: FIELDS_4_00
+        width: 10
+        length: 10
+        groups: 4
+      - name: FIELDS_4_01
+        width: 10
+        length: 10
+        groups: 4
+      - name: FIELDS_4_02
+        width: 10
+        length: 10
+        groups: 4
+      - name: FIELDS_4_03
+        width: 10
+        length: 10
+        groups: 4
+      - name: FIELDS_4_04
+        width: 10
+        length: 10
+        groups: 4
+
+#Group 5 (10x10 potato field mapblocks without enemy spawners)
+#Indexes: 25-29
+      - name: FIELDS_5_00
+        width: 10
+        length: 10
+        groups: 5
+      - name: FIELDS_5_01
+        width: 10
+        length: 10
+        groups: 5
+      - name: FIELDS_5_02
+        width: 10
+        length: 10
+        groups: 5
+      - name: FIELDS_5_03
+        width: 10
+        length: 10
+        groups: 5
+      - name: FIELDS_5_04
+        width: 10
+        length: 10
+        groups: 5
+
+#Group 6 (10x10 north direction windbreak maplocks with enemy spawners)
+#Indexes: 30-35
+      - name: FIELDS_6_00
+        width: 10
+        length: 10
+        groups: 6
+      - name: FIELDS_6_01
+        width: 10
+        length: 10
+        groups: 6
+      - name: FIELDS_6_02
+        width: 10
+        length: 10
+        groups: 6
+      - name: FIELDS_6_03
+        width: 10
+        length: 10
+        groups: 6
+      - name: FIELDS_6_04
+        width: 10
+        length: 10
+        groups: 6
+      - name: FIELDS_6_05
+        width: 10
+        length: 10
+        groups: 6
+
+#Group 7 (10x10 west direction windbreak maplocks with enemy spawners)
+#Indexes: 36-41
+      - name: FIELDS_7_00
+        width: 10
+        length: 10
+        groups: 7
+      - name: FIELDS_7_01
+        width: 10
+        length: 10
+        groups: 7
+      - name: FIELDS_7_02
+        width: 10
+        length: 10
+        groups: 7
+      - name: FIELDS_7_03
+        width: 10
+        length: 10
+        groups: 7
+      - name: FIELDS_7_04
+        width: 10
+        length: 10
+        groups: 7
+      - name: FIELDS_7_05
+        width: 10
+        length: 10
+        groups: 7
+
+#Group 8 (10x10 north direction road maplocks without enemy spawners)
+#Indexes: 42-47
+      - name: FIELDS_8_00
+        width: 10
+        length: 10
+        groups: 8
+      - name: FIELDS_8_01
+        width: 10
+        length: 10
+        groups: 8
+      - name: FIELDS_8_02
+        width: 10
+        length: 10
+        groups: 8
+      - name: FIELDS_8_03
+        width: 10
+        length: 10
+        groups: 8
+      - name: FIELDS_8_04
+        width: 10
+        length: 10
+        groups: 8
+      - name: FIELDS_8_05
+        width: 10
+        length: 10
+        groups: 8
+
+#Group 9 (10x10 west direction road maplocks without enemy spawners)
+#Indexes: 48-53
+      - name: FIELDS_9_00
+        width: 10
+        length: 10
+        groups: 8
+      - name: FIELDS_9_01
+        width: 10
+        length: 10
+        groups: 8
+      - name: FIELDS_9_02
+        width: 10
+        length: 10
+        groups: 8
+      - name: FIELDS_9_03
+        width: 10
+        length: 10
+        groups: 8
+      - name: FIELDS_9_04
+        width: 10
+        length: 10
+        groups: 8
+      - name: FIELDS_9_05
+        width: 10
+        length: 10
+        groups: 8
+
+
+
+
+
+

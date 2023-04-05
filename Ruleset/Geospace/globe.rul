@@ -24891,10 +24891,19 @@ globe:
 #id: 0
 
 #AGRICULTURAL AREA TEXTURE 1
-#id: 1
+#Wheat fields
+    - id: 1
+      terrain:
+        - name: FIELDS_TYPE1
 
 #AGRICULTURAL AREA TEXTURE 2
-#id: 2
+#Corn and potato fields
+    - id: 2
+      terrain:
+        - name: FIELDS_TYPE2
+          weight: 50
+        - name: FIELDS_TYPE3
+          weight: 50
 
 #GRASSLANDS TEXTURE
     - id: 3
