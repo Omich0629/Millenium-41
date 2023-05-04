@@ -24888,7 +24888,9 @@ globe:
   textures:
 
 #URBAN SPRAWL TEXTURE
-#id: 0
+    - id: 0
+      terrain:
+        - name: RESIDENTIAL_AREA
 
 #AGRICULTURAL AREA TEXTURE 1
 #Wheat fields

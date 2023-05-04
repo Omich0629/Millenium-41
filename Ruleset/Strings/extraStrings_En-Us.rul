@@ -23,7 +23,7 @@ extraStrings:
 
 ### GLOBE TERRAINS ###
 
-
+      MAP_RESIDENTIAL_AREA: "Residential Area"
       MAP_FIELDS_TYPE1: "Fields (Type 1)"
       MAP_FIELDS_TYPE2: "Fields (Type 2)"
       MAP_FIELDS_TYPE3: "Fields (Type 3)"

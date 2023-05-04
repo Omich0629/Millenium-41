@@ -1,0 +1,349 @@
+mapScripts:
+## Residential Area Script
+
+  - type: RESIDENTIAL_AREA
+#Map size: 60x60
+#Possible coordinates:
+#x: 0-5
+#y: 0-5
+#First floor: 1
+
+#Groups:
+#0 - (Indexes: 0-9) 10x10 flat mapblocks (no spawners)
+##             0 concrete
+##             1-9 ground
+#1 - (Indexes: 10-12) 10x10 road mapblocks (no spawners)
+##             10 vertical
+##             11 horizontal 
+##             12 intersection
+#2 - (Indexes: 13-21) 20x20 residential buildings (west direction, enemy spawners)
+#3 - (Indexes: 22-30) 20x20 residential buildings (north direction, enemy spawners)
+#4 - (Indexes: 31-35) 10x10 store buildings (west direction, enemy spawners)
+##             31 Bar
+##             32 General Store
+##             33 Laundromat
+##             34 Medical store
+##             35 Bionics shop
+#5 - (Indexes: 36-40) 10x10 store buildings (north direction, enemy spawners)
+##             36 Bar
+##             37 General Store
+##             38 Laundromat
+##             39 Medical store
+##             40 Bionics shop
+#6 - (Indexes: 41-44) Small warehouse mapblocks (north direction, enemy spawners)
+#7 - (Indexes: 45-48) Small warehouse mapblocks (east direction, enemy spawners)
+#8 - (Indexes: 49-52) Small warehouse mapblocks (south direction, enemy spawners)
+#9 - (Indexes: 53-56) Small warehouse mapblocks (west direction, enemy spawners)
+
+
+    commands:
+#Randomly choose one of 4 possible layouts
+
+
+#(Layout 1)
+#Add horizontal road
+    - type: fillArea
+      label: 1
+      executionChances: 25 #4 possible results, so roll for 25%
+      rects:
+       - [0,2,6,1]
+      blocks: [11]
+
+############################
+
+#(Layout 2)
+#Add vertical road
+    - type: fillArea
+      label: 2
+      conditionals: [-1]
+      executionChances: 33 #3 possible results, roll for 33%
+      rects:
+       - [3,0,1,6]
+      blocks: [10]
+
+############################
+
+#(Layout 3) Add road intersection mapblock
+    - type: addBlock
+      label: 3
+      conditionals: [-1, -2]
+      executionChances: 50 #2 possible results, roll for 50%
+      rects:
+       - [3,3,1,1]
+      blocks: [12]
+
+#(Layout 3) Add horizontal road
+    - type: fillArea
+      conditionals: [3]
+      rects:
+       - [0,3,6,1]
+      blocks: [11]
+
+#(Layout 3) Add vertical road
+    - type: fillArea
+      conditionals: [3]
+      rects:
+       - [3,0,1,6]
+      blocks: [10]
+
+############################
+
+#(Layout 4) Add road intersection mapblock
+    - type: addBlock
+      label: 4
+      conditionals: [-1, -2, -3]
+      executionChances: 100 #1 possible result, roll for 100%
+      rects:
+       - [2,2,1,1]
+      blocks: [12]
+
+#(Layout 4) Add horizontal road
+    - type: fillArea
+      conditionals: [4]
+      rects:
+       - [0,2,6,1]
+      blocks: [11]
+
+#(Layout 4) Add vertical road
+    - type: fillArea
+      conditionals: [4]
+      rects:
+       - [2,0,1,6]
+      blocks: [10]
+
+
+############################
+
+
+#Add enemy craft, fill with ground mapblocks
+#Execute for any layout
+    - type: addUFO
+      blocks: [1, 2, 3, 4, 5, 6, 7, 8, 9]
+      maxUses: [1, 1, 1, 1, 1, 1, 1, 1, 1]
+
+#Add player craft, fill with ground mapblocks
+#Execute for any layout
+    - type: addCraft
+      blocks: [1, 2, 3, 4, 5, 6, 7, 8, 9]
+      maxUses: [1, 1, 1, 1, 1, 1, 1, 1, 1]
+
+############################
+
+#(Layout 1) Try to add four residential buildings along the road
+    - type: addBlock
+      conditionals: [1]
+      rects:
+#north side
+       - [0,0,2,2]
+       - [2,0,2,2]
+       - [4,0,2,2]
+#south side
+       - [0,3,2,2]
+       - [2,3,2,2]
+       - [4,3,2,2]
+      blocks: [13, 14, 15, 16, 17, 18, 19, 20, 21]
+      maxUses: [1, 1, 1, 1, 1, 1, 1, 1, 1]
+      executions: 4
+
+#(Layout 1) #Try to add stores along the road
+#Bar and bionics shop on north side
+    - type: addBlock
+      conditionals: [1]
+      rects:
+       - [0,1,6,1]
+      blocks: [31, 35]
+      maxUses: [1, 1]
+      executions: 2
+#Two other shops on south side
+    - type: addBlock
+      conditionals: [1]
+      rects:
+       - [0,3,6,1]
+      blocks: [37, 38, 39]
+      maxUses: [1, 1, 1]
+      executions: 2
+
+#(Layout 1) Fill the rest area along the road with flat concrete mapblocks 
+    - type: fillArea
+      conditionals: [1]
+      rects:
+       - [0,1,6,1]
+       - [0,3,6,1]
+      blocks: [0]
+
+#(Layout 1)  Add four warehouse mapblocks (north direction)
+    - type: addBlock
+      conditionals: [1]
+      rects:
+       - [0,5,6,1]
+      blocks: [41, 42, 43, 44]
+      maxUses: [1, 1, 1, 1]
+      executions: 4
+
+############################
+
+#(Layout 2) Try to add four residential buildings along the road
+    - type: addBlock
+      conditionals: [2]
+      rects:
+#west side
+       - [1,0,2,2]
+       - [1,2,2,2]
+       - [1,4,2,2]
+#east side
+       - [4,0,2,2]
+       - [4,2,2,2]
+       - [4,4,2,2]
+      blocks: [22, 23, 24, 25, 26, 27, 28, 29, 30]
+      maxUses: [1, 1, 1, 1, 1, 1, 1, 1, 1]
+      executions: 4
+
+#(Layout 2) #Try to add stores along the road
+#Any three shops on west side
+    - type: addBlock
+      conditionals: [2]
+      rects:
+       - [2,0,1,6]
+      blocks: [31, 32, 33, 34, 35]
+      maxUses: [1, 1, 1, 1, 1]
+      executions: 3
+
+#(Layout 2) Fill the rest area along the road with flat concrete mapblocks 
+    - type: fillArea
+      conditionals: [2]
+      rects:
+       - [2,0,1,6]
+       - [4,0,1,6]
+      blocks: [0]
+
+#(Layout 2) Add four warehouse mapblocks (east direction)
+    - type: addBlock
+      conditionals: [2]
+      rects:
+       - [0,0,1,6]
+      blocks: [45, 46, 47, 48]
+      maxUses: [1, 1, 1, 1]
+      executions: 4
+
+############################
+
+#(Layout 3) Try to add four residential buildings along the roads
+    - type: addBlock
+      conditionals: [3]
+      rects:
+#north side
+       - [1,1,2,2]
+       - [4,1,2,2]
+#south side
+       - [1,4,2,2]
+       - [4,4,2,2]
+      blocks: [13, 14, 15, 16, 17, 18, 19, 20, 21]
+      maxUses: [1, 1, 1, 1, 1, 1, 1, 1, 1]
+      executions: 4
+
+#(Layout 3) Try to add store mapblocks along the roads
+    - type: addBlock
+      conditionals: [3]
+      rects:
+       - [0,2,6,1]
+       - [2,0,1,2]
+      blocks: [31, 33, 34] #bar, laundromat, medical store
+      maxUses: [1, 1, 1]
+      executions: 3
+
+    - type: addBlock
+      conditionals: [3]
+      rects:
+       - [0,4,6,1]
+       - [2,5,1,1]
+      blocks: [37, 40] #general store, bionics shop
+      maxUses: [1, 1]
+      executions: 2
+
+#(Layout 3) Fill the rest area along the road with flat concrete mapblocks 
+    - type: fillArea
+      conditionals: [3]
+      rects:
+       - [0,2,6,1]
+       - [0,4,6,1]
+       - [2,0,1,6]
+       - [4,0,1,6]
+      blocks: [0]
+
+#(Layout 3) Add three warehouse mapblocks (south direction)
+    - type: addBlock
+      conditionals: [3]
+      rects:
+       - [0,0,6,1]
+      blocks: [49, 50, 51, 52]
+      maxUses: [1, 1, 1, 1]
+      executions: 3
+
+
+############################
+
+#(Layout 4) Try to add four residential buildings along the roads
+    - type: addBlock
+      conditionals: [4]
+      rects:
+#north side
+       - [0,0,2,2]
+       - [3,0,2,2]
+#south side
+       - [0,3,2,2]
+       - [3,3,2,2]
+      blocks: [22, 23, 24, 25, 26, 27, 28, 29, 30]
+      maxUses: [1, 1, 1, 1, 1, 1, 1, 1, 1]
+      executions: 4
+
+#(Layout 4) Try to add store mapblocks along the roads
+    - type: addBlock
+      conditionals: [4]
+      rects:
+       - [0,1,6,1]
+       - [1,0,1,1]
+      blocks: [31, 35] #bar, bionics shop
+      maxUses: [1, 1]
+      executions: 2
+
+    - type: addBlock
+      conditionals: [4]
+      rects:
+       - [0,3,6,1]
+       - [1,4,1,2]
+      blocks: [37, 38, 39]
+      maxUses: [1, 1, 1]
+      executions: 3
+
+#(Layout 4) Fill the rest area along the road with flat concrete mapblocks 
+    - type: fillArea
+      conditionals: [4]
+      rects:
+       - [0,1,6,1]
+       - [0,3,6,1]
+       - [0,1,1,6]
+       - [3,0,1,6]
+      blocks: [0]
+
+#(Layout 4) Add four warehouse mapblocks (west direction)
+    - type: addBlock
+      conditionals: [4]
+      rects:
+       - [5,0,1,6]
+      blocks: [53, 54, 55, 56]
+      maxUses: [1, 1, 1, 1]
+      executions: 3
+
+
+
+############################
+
+#Fill the rest area with with flat ground mapblocks
+#Execute for any layout
+    - type: fillArea
+      blocks: [1, 2, 3, 4, 5, 6, 7, 8, 9]
+      maxUses: [1, 1, 1, 1, 1, 1, 1, 1, 1]
+
+
+
+

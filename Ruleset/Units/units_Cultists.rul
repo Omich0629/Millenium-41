@@ -264,7 +264,7 @@ units:
 #Cultist Heavy Trooper (Male 0)
   - type: STR_CULTIST_HEAVY_TROOPER_MALE0
     race: STR_CULTISTS
-    rank: STR_LIVE_SOLDIER
+    rank: STR_LIVE_MEDIC
     stats:
       tu: 50
       stamina: 50
@@ -304,7 +304,7 @@ units:
 #Cultist Heavy Trooper (Male 1)
   - type: STR_CULTIST_HEAVY_TROOPER_MALE1
     race: STR_CULTISTS
-    rank: STR_LIVE_SOLDIER
+    rank: STR_LIVE_MEDIC
     stats:
       tu: 50
       stamina: 50
@@ -344,7 +344,7 @@ units:
 #Cultist Heavy Trooper (Male 2)
   - type: STR_CULTIST_HEAVY_TROOPER_MALE2
     race: STR_CULTISTS
-    rank: STR_LIVE_SOLDIER
+    rank: STR_LIVE_MEDIC
     stats:
       tu: 50
       stamina: 50
