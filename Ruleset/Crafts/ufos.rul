@@ -22,7 +22,6 @@ ufos:
 
     score: 50
 
-
 #TERRAIN
     battlescapeTerrainData:
       name: STR_SHUTTLE_TILTJET
@@ -220,3 +219,49 @@ ufos:
         - name: CONVOY_GUNTRUCK_V5
           width: 10
           length: 20
+
+
+
+
+  - type: STR_CARGO_SHUTTLE
+#RESOURCES
+    # marker: 122
+    # markerLand: 132
+    # markerCrash: 142
+    # modSprite: Light_Transport_Dogfight
+#STATS
+    size: STR_SMALL
+    damageMax: 600
+    speedMax: 1400
+
+    breakOffTime: 800
+
+    power: 10
+    range: 10
+    reload: 40
+
+    score: 50
+
+#TERRAIN
+    battlescapeTerrainData:
+      name: STR_CARGO_SHUTTLE
+      mapDataSets:
+        - BLANKS
+        - CARGO_SHUTTLE_00
+      mapBlocks:
+        - name: CARGO_SHUTTLE
+          width: 20
+          length: 20
+
+
+
+
+
+
+
+
+
+
+
+
+

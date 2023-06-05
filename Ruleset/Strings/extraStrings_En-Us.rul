@@ -210,6 +210,7 @@ extraStrings:
       STR_SHUTTLE_PARAMILITARY: "Paramilitary Shuttle"
       STR_TECHNICAL_CONVOY: "Light Vehicle Convoy"
       STR_GUNTRUCK_CONVOY: "Heavy Vehicle Convoy"
+      STR_CARGO_SHUTTLE: "Cargo Shuttle"
 
 #ALIEN RACES
       STR_CULTISTS: "Chaos Cultists"

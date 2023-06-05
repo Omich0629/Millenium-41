@@ -30,6 +30,37 @@ alienDeployments:
     length: 60
     height: 9
 
+  - type: STR_CARGO_SHUTTLE
+    data:
+      - alienRank: 5
+        lowQty: 5
+        highQty: 5
+        dQty: 2
+        percentageOutsideUfo: 60
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []
+      - alienRank: 3
+        lowQty: 2
+        highQty: 2
+        dQty: 2
+        percentageOutsideUfo: 60
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []
+    width: 60
+    length: 60
+    height: 9
+
+
   - type: STR_SHUTTLE_TILTWING
     data:
       - alienRank: 5
