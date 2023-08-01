@@ -24,17 +24,50 @@ extraSprites:
 ## NEW BASEBITS
 
 #100-299 Facilities
-      100: Resources/Basebits/Facilities/Basebits_Hangar1.png
-      101: Resources/Basebits/Facilities/Basebits_Hangar2.png
-      102: Resources/Basebits/Facilities/Basebits_Hangar3.png
-      103: Resources/Basebits/Facilities/Basebits_Hangar4.png
-      104: Resources/Basebits/Facilities/Basebits_Hangar_Frame1.png
-      105: Resources/Basebits/Facilities/Basebits_Hangar_Frame2.png
-      106: Resources/Basebits/Facilities/Basebits_Hangar_Frame3.png
-      107: Resources/Basebits/Facilities/Basebits_Hangar_Frame4.png
+      100: Resources/Basebits/Facilities/Basebits_Access_Lift.png
+      101: Resources/Basebits/Facilities/Basebits_Corridor.png
+      102: Resources/Basebits/Facilities/Basebits_Barracks.png
+      103: Resources/Basebits/Facilities/Basebits_Storage_Facility.png
+      104: Resources/Basebits/Facilities/Basebits_Research_Facility.png
+      105: Resources/Basebits/Facilities/Basebits_Workshop.png
+      106: Resources/Basebits/Facilities/Basebits_Hospital.png
+      107: Resources/Basebits/Facilities/Basebits_Small_Radar.png
+      108: Resources/Basebits/Facilities/Basebits_Medium_Radar.png
+      109: Resources/Basebits/Facilities/Basebits_Large_Radar.png
+      110: Resources/Basebits/Facilities/Basebits_Education_Facility.png
+      111: Resources/Basebits/Facilities/Basebits_Prison.png
+      112: Resources/Basebits/Facilities/Basebits_Counter_Radar.png
+      113: Resources/Basebits/Facilities/Basebits_Targeting_System.png
+      114: Resources/Basebits/Facilities/Basebits_Missile_Defenses.png
+      115: Resources/Basebits/Facilities/Basebits_Laser_Defenses.png
+      116: Resources/Basebits/Facilities/Basebits_Plasma_Defenses.png
+      117: Resources/Basebits/Facilities/Basebits_Melta_Defenses.png
+      118: Resources/Basebits/Facilities/Basebits_Hangar1.png
+      119: Resources/Basebits/Facilities/Basebits_Hangar2.png
+      120: Resources/Basebits/Facilities/Basebits_Hangar3.png
+      121: Resources/Basebits/Facilities/Basebits_Hangar4.png
+      122: Resources/Basebits/Facilities/Basebits_Hangar_Frame1.png
+      123: Resources/Basebits/Facilities/Basebits_Hangar_Frame2.png
+      124: Resources/Basebits/Facilities/Basebits_Hangar_Frame3.png
+      125: Resources/Basebits/Facilities/Basebits_Hangar_Frame4.png
+      126: Resources/Basebits/Facilities/Basebits_Training_Facility1.png
+      127: Resources/Basebits/Facilities/Basebits_Training_Facility2.png
+      128: Resources/Basebits/Facilities/Basebits_Training_Facility3.png
+      129: Resources/Basebits/Facilities/Basebits_Training_Facility4.png
+      130: Resources/Basebits/Facilities/Basebits_Training_Facility_Frame1.png
+      131: Resources/Basebits/Facilities/Basebits_Training_Facility_Frame2.png
+      132: Resources/Basebits/Facilities/Basebits_Training_Facility_Frame3.png
+      133: Resources/Basebits/Facilities/Basebits_Training_Facility_Frame4.png
+
+
+
+
+
+
+
 
 #333-499 Crafts
-#sprite index + 38
+#sprite index + 33
       333: Resources/Basebits/Crafts/Basebits_Patrol_Shuttle.png #300 + 33
 
 #500-799 Unit Miniatures

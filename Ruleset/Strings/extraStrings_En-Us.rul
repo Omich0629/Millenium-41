@@ -42,7 +42,26 @@ extraStrings:
 
 
 ### BASE FACILITIES ###
+      STR_FACILITY_ACCESS_LIFT: "Access Lift"
+      STR_FACILITY_CORRIDOR: "Corridor"
+      STR_FACILITY_BARRACKS: "Barracks"
+      STR_FACILITY_STORAGE: "Storage Facility"
+      STR_FACILITY_RESEARCH: "Research Facility"
+      STR_FACILITY_WORKSHOP: "Workshop"
+      STR_FACILITY_HOSPITAL: "Hospital"
+      STR_FACILITY_SMALL_RADAR: "Radar Mk 1"
+      STR_FACILITY_MEDIUM_RADAR: "Radar Mk 2"
+      STR_FACILITY_LARGE_RADAR: "Radar Mk 3"
+      STR_FACILITY_EDUCATION: "Education Facility"
+      STR_FACILITY_PRISON: "Prison"
+      STR_FACILITY_COUNTER_RADAR: "Counter Radar System"
+      STR_FACILITY_TARGETING_SYSTEM: "Targeting System"
+      STR_FACILITY_MISSILE_DEFENSES: "Missile Defenses"
+      STR_FACILITY_LASER_DEFENSES: "Laser Defenses"
+      STR_FACILITY_PLASMA_DEFENSES: "Plasma Defenses"
+      STR_FACILITY_MELTA_DEFENSES: "Melta Defenses"
       STR_FACILITY_HANGAR: "Hangar"
+      STR_FACILITY_TRAINING: "Training Facility"
 
 ### ITEM CATEGORIES ###
 #By type
