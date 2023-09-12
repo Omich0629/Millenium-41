@@ -1,0 +1,270 @@
+interfaces:
+### MAIN MENU RELATED INTERFACES
+
+#MAIN MENU
+  - type: mainMenu
+    backgroundImage: MAINMENU_BACKGROUND.SCR
+    music: GMSTORY
+    elements:
+      #GAME MAIN MENU (Geoscape Palette)
+      - id: palette
+        color: 0     #default: 0 brown
+      - id: window
+        color: 165   # grey   239 bright green
+      - id: text
+        color: 90    # even brighter green
+      - id: button
+        color: 239   # bright green
+      #BATTLESCAPE MAIN MENU (Battlescape Palette)
+      - id: battlescapeTheme
+        color: -1 # -1
+        color2: -1 # -1
+        border: 3 #0
+
+### TESTS MENU (CTRL+T)
+  - type: tests
+    backgroundImage: TESTS_BACKGROUND.SCR
+    elements:
+      - id: palette
+        color: 0     # brown
+      - id: window
+        color: 165   # grey
+      - id: heading
+        color: 239   # bright green
+      - id: text
+        color: 138   # yellow
+      - id: frames
+        color: 239   # bright green
+      - id: button1
+        color: 239   # bright green
+      - id: button2
+        color: 239   # bright green
+
+#NEW BATTLE MENU
+  - type: newBattleMenu
+    backgroundImage: NEWBATTLE_BACKGROUND.SCR
+    elements:
+      - id: palette
+        color: 0     # brown
+      - id: window
+        color: 165   # grey   239 bright green
+      - id: heading
+        color: 138   # yellow
+      - id: text
+        color: 138   # yellow
+      - id: frames
+        color: 239   # bright green
+      - id: button1
+        color: 239   # bright green
+      - id: button2
+        color: 239   # bright green
+      - id: list
+        color: 239   # bright green
+        color2: 138   # yellow
+        border: 239   # bright green
+
+#NEW GAME MENU
+  - type: newGameMenu
+    backgroundImage: NEWGAME_BACKGROUND.SCR
+    elements:
+      - id: palette
+        color: 0     # brown
+      - id: window
+        color: 165   # grey   239 bright green
+      - id: text
+        color: 138   # yellow
+      - id: ironman
+        color: 138   # yellow
+      - id: button
+        color: 239   # bright green
+
+#OPTIONS MENU
+  - type: optionsMenu
+    backgroundImage: OPTIONS_BACKGROUND.SCR
+    elements:
+      - id: palette
+        color: 0     # brown
+      - id: window
+        color: 165   # grey   239 bright green
+      - id: tooltip
+        color: 138   # yellow
+      - id: button
+        color: 239   # bright green
+      - id: confirmDefaults
+        color: 138   # yellow
+      - id: confirmVideo
+        color: 239   # bright green
+
+#VIDEO OPTIONS SUBMENU
+  - type: videoMenu
+    elements:
+      - id: text
+        color: 138   # yellow
+      - id: resolution
+        color: 239   # bright green
+      - id: button
+        color: 239   # bright green
+
+#AUDIO OPTIONS SUBMENU
+  - type: audioMenu
+    elements:
+      - id: text
+        color: 138   # yellow
+      - id: button
+        color: 239   # bright green
+
+#CONTROLS OPTIONS SUBMENU
+  - type: controlsMenu
+    elements:
+      - id: optionLists
+        color: 138   # yellow
+        color2: 239   # bright green
+        border: 239   # bright green
+
+#GEOSCAPE OPTIONS SUBMENU
+  - type: geoscapeMenu
+    elements:
+      - id: text
+        color: 138   # yellow
+      - id: button
+        color: 239   # bright green
+
+#BATTLESCAPE OPTIONS SUBMENU
+  - type: battlescapeMenu
+    elements:
+      - id: text
+        color: 138   # yellow
+      - id: button
+        color: 239   # bright green
+
+#ADVANCED OPTIONS SUBMENU
+  - type: advancedMenu
+    elements:
+      - id: optionLists
+        color: 138   # yellow
+        color2: 239  # bright green
+        border: 239   # bright green
+      - id: disabledUserOption
+        color: 165   # grey
+
+#FOLDERS OPTIONS SUBMENU
+  - type: foldersMenu
+    elements:
+      - id: text1
+        color: 239   # bright green
+      - id: text2
+        color: 138   # yellow
+
+#MODS MENU
+  - type: modsMenu
+    backgroundImage: MODS_BACKGROUND.SCR
+    elements:
+      - id: palette
+        color: 0     # brown
+      - id: window
+        color: 165   # grey   239 bright green
+      - id: optionLists
+        color: 138   # yellow
+        border: 239   # bright green
+      - id: text
+        color: 138   # yellow
+      - id: tooltip
+        color: 138   # yellow
+      - id: button1
+        color: 239   # bright green
+      - id: button2
+        color: 239   # bright green
+
+#SAVE/LOAD MENU
+  - type: saveMenus
+    backgroundImage: SAVELOADMENU_BACKGROUND.SCR
+    elements:
+      - id: palette
+        color: 0     # brown
+      - id: window
+        color: 165 # grey   239 bright green
+      - id: text
+        color: 138  # yellow
+        color2: 138  # yellow
+      - id: list
+        color: 138   # yellow
+        color2: 239   # bright green
+        border: 239   # bright green
+      - id: button
+        color: 239   # bright green
+      - id: confirmLoad
+        color: 239   # bright green
+      - id: confirmDelete
+        color: 138   # yellow
+
+### NOTE MENU (Ctrl+N)
+  - type: noteMenu
+    backgroundImage: NOTEMENU_BACKGROUND.SCR
+    elements:
+      - id: palette
+        color: 0     # oxide
+      - id: window
+        color: 239   # bright green
+      - id: text
+        color: 239   # bright green
+        color2: 138  # yellow
+      - id: list
+        color: 138   # yellow
+        color2: 239   # bright green
+        border: 239   # bright green
+      - id: button
+        color: 239   # bright green
+
+### SELECT MUSIC TRACK MENU
+  - type: selectMusicTrack
+    backgroundImage: SELECTMUSICTRACK_BACKGROUND.SCR
+    elements:
+      - id: palette
+        color: 0     # brown
+      - id: window
+        color: 239   # bright green
+      - id: text
+        color: 138   # yellow
+      - id: list
+        color: 239   # bright green
+        color2: 239   # bright green
+        border: 239   # bright green
+      - id: button
+        color: 239   # bright green
+
+### OXCE LINKS MENU
+  - type: oxceLinks
+    backgroundImage: OXCELINKS_BACKGROUND.SCR
+    elements:
+      - id: palette
+        color: 0     # brown
+      - id: window
+        color: 239   # bright green
+      - id: text
+        color: 138   # yellow
+      - id: button
+        color: 239   # bright green
+
+### ERROR MESSAGES
+  - type: errorMessages
+    elements:
+      - id: geoscapePalette
+        color: 6   # oxide
+      - id: battlescapePalette
+        color: -1 # greyscale
+      - id: geoscapeColor
+        color: 138   # yellow
+      - id: battlescapeColor
+        color: 0    # white
+
+### SYSTEM MENU (?)
+  - type: systemMenu
+    elements:
+      - id: text
+        color: 138   # yellow
+      - id: button
+        color: 239   # bright green
+
+
+
+

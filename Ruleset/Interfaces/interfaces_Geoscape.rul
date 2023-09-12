@@ -1,0 +1,675 @@
+interfaces:
+### GEOSCAPE RELATED INTERFACES
+
+#GEOSCAPE MENU
+  - type: geoscape
+    backgroundImage: GEOSCAPEMENU_BACKGROUND.SCR
+    elements:
+      - id: palette
+        color: 0     # brown
+        color2: 0     # brown
+      - id: textLoad
+        color: 239   # bright green
+      - id: button
+        color: 246   # light blue (button and interface)
+        color2: 177  # slightly lighter blue (button text)
+      - id: text
+        color: 138   # even lighter blue (clock)
+      - id: slackingIndicator
+        color: 138   # even lighter blue (scentists and engineers indicator)
+        color2: 138  # minty green
+        custom: -12  # above Intercept button
+      - id: genericWindow
+        color: 239   # bright green
+      - id: genericText
+        color: 239   # bright green
+        color2: 138  # yellow
+        border: 239   # bright green
+      - id: genericButton1
+        color: 239   # bright green
+      - id: genericButton2
+        color: 239   # bright green
+      - id: errorPalette
+        color: 0     # brown
+      - id: errorMessage
+        color: 239   # bright green
+
+#PAUSE MENU
+  - type: pauseMenu
+    backgroundImage: PAUSEMENU_BACKGROUND.SCR
+    elements:
+      - id: palette
+        color: 0     # brown
+      - id: window
+        color: 239   # bright green
+      - id: text
+        color: 138   # yellow
+      - id: button
+        color: 239   # bright green
+
+#BASE NAMING WINDOW
+  - type: baseNaming
+    backgroundImage: BASENAMING_BACKGROUND.SCR
+    elements:
+      - id: palette
+        color: 0     # brown
+      - id: window
+        color: 239   # bright green
+      - id: text
+        color: 239   # bright green
+      - id: button
+        color: 239   # bright green
+
+### GRAPHS MENU
+  - type: graphs
+    palette: PAL_BASESCAPE #default: PAL_GRAPHS
+    elements:
+      - id: text
+        color: 246   # yellow (custom basescape palette)
+      - id: scale
+        color: 246   # yellow (custom basescape palette)
+      - id: graph
+        color: 160   # green 
+      - id: button
+        color: 241   # bright green (custom basescape palette)
+      - id: regionTotal
+        color: 50    # salmon (inverted button offset)
+        color2: 48  # also salmon (the line itself)
+      - id: countryTotal
+        color: 141    # magenta (inverted button offset)
+        color2: 144  # also magenta (the line itself)
+
+### GEOCRAFT MENU (CLICK ON FLYING CRAFT)
+  - type: geoCraft
+    backgroundImage: GEOCRAFT_BACKGROUND.SCR
+    elements:
+      - id: palette
+        color: 0     #
+        color2: 0    #
+      - id: window
+        color: 239   # bright green
+      - id: text1
+        color: 239   # bright green
+        color2: 138  # yellow
+        border: 239   # bright green
+      - id: text2
+        color: 138  # yellow
+        color2: 138  # yellow
+        border: 239   # bright green
+      - id: text3
+        color: 239   # bright green
+        color2: 138  # yellow
+        border: 239   # bright green
+      - id: button
+        color: 239   # bright green
+      - id: list
+        color: 239   # bright green
+        color2: 138  # yellow
+        border: 239   # bright green
+
+### INTERCEPT MENU
+  - type: intercept
+    backgroundImage: INTERCEPT_BACKGROUND.SCR
+    elements:
+      - id: palette
+        color: 0     #
+        color2: 0    #
+      - id: window
+        color: 239   # bright green
+      - id: text1
+        color: 239   # bright green
+        color2: 138  # yellow
+        border: 239   # bright green
+      - id: text2
+        color: 239   # bright green
+        color2: 138  # yellow
+        border: 239   # bright green
+      - id: button
+        color: 239   # bright green
+      - id: list
+        color: 239   # bright green
+        color2: 138  # yellow
+        border: 239   # bright green
+
+### UFO TRACKER MENU (?)
+  - type: ufoTracker
+    backgroundImage: UFOTRACKER_BACKGROUND.SCR
+    elements:
+      - id: palette
+        color: 0     #
+        color2: 0    #
+      - id: window
+        color: 239   # bright green
+      - id: text1
+        color: 239   # bright green
+        color2: 138  # yellow
+        border: 239   # bright green
+      - id: text2
+        border: 239   # bright green
+        color2: 138  # yellow
+        border: 239   # bright green
+      - id: button
+        border: 239   # bright green
+      - id: list
+        color: 239   # bright green
+        color2: 138  # yellow
+        border: 239   # bright green
+
+### CRAFT PATROL MENU
+  - type: craftPatrol
+    backgroundImage: CRAFTPATROL_BACKGROUND.SCR
+    elements:
+      - id: palette
+        color: 0     #
+        color2: 0    #
+      - id: window
+        color: 239   # bright green
+      - id: text1
+        color: 239   # bright green
+        color2: 138  # yellow
+        border: 239   # bright green
+      - id: button
+        color: 239   # bright green
+
+### CRAFT ERROR MENU
+  - type: craftError
+    backgroundImage: CRAFTERROR_BACKGROUND.SCR
+    elements:
+      - id: palette
+        color: 0     #
+        color2: 0    #
+      - id: window
+        color: 239   # bright green
+      - id: text1
+        color: 239   # bright green
+        color2: 138  # yellow
+        border: 239   # bright green
+      - id: button
+        color: 239   # bright green
+
+### CRAFT PILOT ERROR MENU
+  - type: craftPilotError
+    backgroundImage: CRAFTPILOTERROR_BACKGROUND.SCR
+    elements:
+      - id: palette
+        color: 0     #
+        color2: 0    #
+      - id: window
+        color: 239   # bright green
+      - id: text1
+        color: 239   # bright green
+        color2: 138  # yellow
+        border: 239   # bright green
+      - id: button
+        color: 239   # bright green
+
+### CONFIRM DESTINATION MENU
+  - type: confirmDestination
+    backgroundImage: CONFIRMDESTINATION_BACKGROUND.SCR
+    elements:
+      - id: palette
+        color: 0     # 
+        color2: 0    #
+      - id: window
+        color: 239   # bright green
+      - id: text
+        color: 239   # bright green
+        color2: 138  # yellow
+        border: 239   # bright green
+      - id: button
+        color: 239   # bright green
+
+### CONFIRM CYDONIA MENU
+  - type: confirmCydonia
+    backgroundImage: CONFIRMCYDONIA_BACKGROUND.SCR
+    elements:
+      - id: palette
+        color: 0    #
+      - id: window
+        color: 239   # bright green
+      - id: button
+        color: 239   # bright green
+      - id: text
+        color: 138   # yellow
+
+### LOW FUEL MENU
+  - type: lowFuel
+    backgroundImage: LOWFUEL_BACKGROUND.SCR
+    elements:
+      - id: palette
+        color: 0     #
+      - id: text
+        color: 138  # yellow
+      - id: window
+        color: 239   # bright green
+      - id: button
+        color: 239   # bright green
+
+### ALIEN BASE MENU
+  - type: alienBase
+    backgroundImage: ALIENBASE_BACKGROUND.SCR
+    elements:
+      - id: palette
+        color: 0     # 0
+      - id: window
+        color: 239   # bright green
+      - id: text
+        color: 138  # yellow
+      - id: button
+        color: 239   # bright green
+
+### ITEMS ARRIVING MENU
+  - type: itemsArriving
+    backgroundImage: ITEMSARRIVING_BACKGROUND.SCR
+    elements:
+      - id: palette
+        color: 0     # 0
+      - id: window
+        color: 239   # bright green
+      - id: text1
+        color: 239   # bright green
+      - id: text2
+        color: 138   # yellow
+        border: 239   # bright green
+      - id: button
+        color: 239   # bright green
+
+### GEOSCAPE NEW CRAFT MENU (?)
+  - type: geoNewCraft
+    backgroundImage: GEONEWCRAFT_BACKGROUND.SCR
+    elements:
+      - id: palette
+        color: 0     #
+      - id: window
+        color: 239   # bright green
+      - id: text1
+        color: 239   # bright green
+      - id: text2
+        color: 138   # yellow
+      - id: button
+        color: 239   # bright green
+
+### GEOSCAPE NEW FACILITY MENU (?)
+  - type: geoNewFacility
+    backgroundImage: GEONEWFACILITY_BACKGROUND.SCR
+    elements:
+      - id: palette
+        color: 0     #
+      - id: window
+        color: 239   # bright green
+      - id: text1
+        color: 239   # bright green
+      - id: text2
+        color: 138   # yellow
+      - id: button
+        color: 239   # bright green
+
+### GEOSCAPE NEW ITEM MENU
+  - type: geoNewItem
+    backgroundImage: GEONEWITEM_BACKGROUND.SCR
+    elements:
+      - id: palette
+        color: 0     #
+      - id: window
+        color: 239   # bright green
+      - id: text1
+        color: 239   # bright green
+      - id: text2
+        color: 138   # yellow
+      - id: button
+        color: 239   # bright green
+
+### MONTHLY REPORT MENU
+  - type: monthlyReport
+    backgroundImage: MONTHLYREPORT_BACKGROUND.SCR
+    elements:
+      - id: palette
+        color: 0
+      - id: window
+        color: 239   # bright green
+        color2: 138  # yellow
+      - id: text1
+        color: 239   # bright green
+        color2: 138  # yellow
+      - id: text2
+        color: 138   # yellow
+      - id: button
+        color: 239   # bright green
+
+### FUNDING WINDOW
+  - type: fundingWindow
+    backgroundImage: FUNDINGWINDOW_BACKGROUND.SCR
+    elements:
+      - id: palette
+        color: 0     # brown
+      - id: window
+        color: 239   # bright green
+      - id: text1
+        color: 239   # bright green
+      - id: text2
+        color: 138  # yellow
+      - id: list
+        color: 239   # bright green
+        color2: 138  # yellow
+      - id: button
+        color: 239   # bright green
+
+### CONFIRM LANDING MENU
+  - type: confirmLanding
+    backgroundImage: CONFIRMLANDING_BACKGROUND.SCR
+    elements:
+      - id: palette
+        color: 0    #
+      - id: window
+        color: 239   # bright green
+      - id: text
+        color: 239   # bright green
+        color2: 138  # yellow
+      - id: button
+        color: 239   # bright green
+
+### UFO INFO MENU
+  - type: UFOInfo
+    backgroundImage: UFOINFO_BACKGROUND.SCR
+    elements:
+      - id: palette
+        color: 0     #
+        color2: 0    #
+      - id: window
+        color: 239   # bright green
+      - id: text
+        color: 239   # bright green
+        color2: 138  # yellow
+      - id: button
+        color: 239   # bright green
+
+### UFO LOST MENU
+  - type: UFOLost
+    backgroundImage: UFOLOST_BACKGROUND.SCR
+    elements:
+      - id: palette
+        color: 0     #
+        color2: 0    #
+      - id: window
+        color: 239   # bright green
+      - id: text
+        color: 239   # bright green
+        color2: 138  # yellow
+      - id: button
+        color: 239   # bright green
+
+### MULTIPLE TARGETS MENU
+  - type: multipleTargets
+    backgroundImage: MULTIPLETARGETS_BACKGROUND.SCR
+    elements:
+      - id: palette
+        color: 0     #
+        color2: 0    #
+      - id: window
+        color: 239   # bright green
+      - id: text
+        color: 239   # bright green
+        color2: 138  # yellow
+      - id: button
+        color: 239   # bright green
+
+### GEOSCAPE RESEARCH MENU ("VIEW REPORTS" SUBMENU IN "RESEARCH COMPLETE" MENU) 
+  - type: geoResearch
+    backgroundImage: GEORESEARCH_BACKGROUND.SCR
+    elements:
+      - id: palette
+        color: 0     # brown
+      - id: window
+        color: 239   # bright green
+      - id: text1
+        color: 239   # bright green
+      - id: text2
+        color: 138   # yellow
+      - id: button
+        color: 239   # bright green
+
+### GEOSCAPE RESEARCH COMPLETE MENU
+  - type: geoResearchComplete
+    backgroundImage: GEORESEARCHCOMPLETE_BACKGROUND.SCR
+    elements:
+      - id: palette
+        color: 0     # brown
+      - id: window
+        color: 239   # bright green
+      - id: text1
+        color: 239   # bright green
+      - id: text2
+        color: 138   # yellow
+      - id: button
+        color: 239   # bright green
+
+### GEOSCAPE RESEARCH REQUIRED MENU
+  - type: geoResearchRequired
+    backgroundImage: GEORESEARCHREQUIRED_BACKGROUND.SCR
+    elements:
+      - id: palette
+        color: 0     # brown
+      - id: window
+        color: 239   # bright green
+      - id: text1
+        color: 239   # bright green
+      - id: text2
+        color: 138   # yellow
+      - id: button
+        color: 239   # bright green
+
+### GEOSCAPE MANUFACTURE MENU (?)
+  - type: geoManufacture
+    backgroundImage: GEOMANUFACTURE_BACKGROUND.SCR
+    elements:
+      - id: palette
+        color: 0     #
+      - id: window
+        color: 239   # bright green
+      - id: text1
+        color: 239   # bright green
+      - id: text2
+        color: 138   # yellow
+      - id: button
+        color: 239   # bright green
+
+### GEOSCAPE MANUFACTURE COMPLETE MENU
+  - type: geoManufactureComplete
+    backgroundImage: GEOMANUFACTURECOMPLETE_BACKGROUND.SCR
+    elements:
+      - id: palette
+        color: 0     #
+      - id: window
+        color: 239   # bright green
+      - id: text1
+        color: 138   # yellow
+      - id: text2
+        color: 138   # yellow
+      - id: button
+        color: 239   # bright green
+      - id: list
+        color: 138   # yellow
+        color2: 239  # bright green
+        border: 239   # bright green
+
+### BASE DESTROYED MENU
+  - type: baseDestroyed
+    backgroundImage: BASEDESTROYED_BACKGROUND.SCR
+    elements:
+      - id: palette
+        color: 0     #
+        color2: 0    #
+      - id: window
+        color: 239   # bright green
+      - id: text
+        color: 239   # bright green
+        color2: 138  # yellow
+      - id: button
+        color: 239   # bright green
+
+### DOGFIGHT EXPERIENCE MENU
+  - type: dogfightExperience
+    backgroundImage: DOGFIGHTEXPERIENCE_BACKGROUND.SCR
+    elements:
+      - id: palette
+        color: 0     # brown
+      - id: window
+        color: 239   # bright green
+      - id: text1
+        color: 239   # bright green
+        color2: 138  # yellow
+        color: 239   # bright green
+      - id: text2
+        color: 239   # bright green
+        color2: 138  # yellow
+        color: 239   # bright green
+      - id: button
+        color: 239   # bright green
+      - id: list
+        color: 239   # bright green
+        color2: 138  # yellow
+        color: 239   # bright green
+
+### TARGET INFO MENU
+  - type: targetInfo
+    backgroundImage: TARGETINFO_BACKGROUND.SCR
+    elements:
+      - id: palette
+        color: 0     # brown
+      - id: window
+        color: 239   # bright green
+      - id: text1
+        color: 239   # bright green
+      - id: text2
+        color: 138  # yellow
+      - id: button
+        color: 239   # bright green
+
+### "CANNOT REEQUIP" MENU
+  - type: cannotReequip
+    backgroundImage: CANNOTREEQUIP_BACKGROUND.SCR
+    elements:
+      - id: palette
+        color: 0     # brown
+      - id: window
+        color: 239   # bright green
+      - id: heading
+        color: 138   # yellow
+      - id: text
+        color: 239   # bright green
+      - id: list
+        color: 138   # yellow
+      - id: button
+        color: 239   # bright green
+
+### DOGFIGHT INFO MENU
+  - type: dogfightInfo
+    backgroundImage: DOGFIGHTINFO_BACKGROUND.SCR
+    elements:
+      - id: palette
+        color: 0     # brown
+      - id: window
+        color: 239   # bright green
+      - id: text
+        color: 138   # yellow
+      - id: button
+        color: 239   # bright green
+
+### GEOSCAPE TERROR SITE MESSAGE
+  - type: terrorSite
+    elements:
+      - id: palette
+        color: 3     # pink
+      - id: window
+        color: 133   # minty green
+      - id: text
+        color: 133   # minty green
+      - id: button
+        color: 133   # minty green
+
+### DOGFIGHT MENU
+  - type: dogfight
+    elements:
+      - id: minimizeButtonDummy
+        color: 80
+      - id: standoffButton
+        color: 81
+      - id: cautiousButton
+        color: 81
+      - id: standardButton
+        color: 81
+      - id: aggressiveButton
+        color: 81
+      - id: disengageButton
+        color: 81
+      - id: ufoButton
+        color: 81
+      - id: text
+        color: 89
+      - id: numbers
+        color: 89
+      - id: distance
+        color: 89
+      - id: minimizedNumber
+        color: 80
+      - id: radarDetail
+        color: 108
+        color2: 111
+      - id: craftRange
+        color: 160
+        color2: 176
+      - id: radarRange
+        color: 112
+        color2: 128
+      - id: damageRange
+        color: 13
+        color2: 14
+      - id: disabledWeapon
+        color: 24
+        color2: 7
+      - id: disabledAmmo
+        color: 24
+      - id: shieldRange
+        color: 80
+        color2: 85
+      - id: previewTop
+        pos: [0, 96]
+        size: [160, 15]
+      - id: previewBot
+        pos: [0, 111]
+        size: [160, 29]
+      - id: previewMid
+        pos: [0, 140]
+        size: [160, 52]
+
+### GEOSCAPE EVENT MENU
+  - type: geoscapeEvent
+    elements:
+      - id: palette
+        color: 0     # brown
+      - id: window
+        color: 239   # bright green
+      - id: text1
+        color: 138   # yellow
+        color2: 239  # bright green
+      - id: text2
+        color: 239   # bright green
+        color2: 133  # minty green
+      - id: button
+        color: 239   # bright green
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

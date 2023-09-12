@@ -1,26 +1,82 @@
 extraSprites:
 
-### AVATAR BACKGROUND
-  - type: AvatarBackground
+#ORIGINAL XCOM BACKGROUNDS OVERRIDE
+
+### BACK01.SCR OVERRIDE (Three X-COM soldiers)
+### Main menu background 
+  - type: BACK01.SCR
     singleImage: true
     files:
-      0: Resources/GUI/Avatar_Background.png
+      0: Resources/GUI/BACK01_Override.png
 
-### GLOBE GUI
-  - type: GEOBORD.SCR
+### BACK02.SCR OVERRIDE (Soldier aiming a pistol)
+### Background for soldier list in base menu 
+  - type: BACK02.SCR
     singleImage: true
     files:
-      0: Resources/GUI/Geospace_GUI.png
+      0: Resources/GUI/BACK02_Override.png
 
-### GLOBE TEXTURES
-  - delete: TEXTURE.DAT
-  - type: TEXTURE.DAT
-    width: 544
-    height: 96
-    subX: 32
-    subY: 32
+### BACK04.SCR OVERRIDE (Soldier firing a pistol)
+### Base Defence screen and equip craft menu 
+  - type: BACK04.SCR
+    singleImage: true
     files:
-      0: Resources/Globe/Globe_Textures.png
+      0: Resources/GUI/BACK04_Override.png
+
+### BACK05.SCR OVERRIDE (Scientists in the lab)
+### Research menu background 
+  - type: BACK05.SCR
+    singleImage: true
+    files:
+      0: Resources/GUI/BACK05_Override.png
+
+### BACK06.SCR OVERRIDE 
+### Soldier statistics in the Base menu
+  - type: BACK06.SCR
+    singleImage: true
+    files:
+      0: Resources/GUI/BACK06_Override.png
+
+### BACK12.SCR OVERRIDE (Flying aircraft)
+### Launch Interception screen background 
+  - type: BACK12.SCR
+    singleImage: true
+    files:
+      0: Resources/GUI/BACK12_Override.png
+
+### BACK13.SCR OVERRIDE (Man with a suitcase of money) 
+### Transfer, Buy/Sell, Funding and so on. 
+  - type: BACK13.SCR
+    singleImage: true
+    files:
+      0: Resources/GUI/BACK13_Override.png
+
+### BACK14.SCR OVERRIDE (Aircraft in the hangar)
+### Equip Craft screen background 
+  - type: BACK14.SCR
+    singleImage: true
+    files:
+      0: Resources/GUI/BACK14_Override.png
+
+### BACK15.SCR OVERRIDE (Landing UFO)
+### Landing at a crash/landing site background 
+
+  - type: BACK15.SCR
+    singleImage: true
+    files:
+      0: Resources/GUI/BACK15_Override.png
+
+### BACK16.SCR OVERRIDE (Crashed UFO and X-COM aircraft landed nearby)
+### Background screen for UFO crash and landing sites just before you enter the mission. 
+  - type: BACK16.SCR
+    singleImage: true
+    files:
+      0: Resources/GUI/BACK16_Override.png
+
+
+
+
+
 
 #PROJECTILES
   - type: Projectiles

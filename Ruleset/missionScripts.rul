@@ -3,6 +3,8 @@ missionScripts:
     missionWeights:
       0:
         STR_TEST_MISSION: 100
+#        STR_RETALIATION: 100
     lastMonth: 0
     targetBaseOdds: 100
+#    useTable: false
     startDelay: 0

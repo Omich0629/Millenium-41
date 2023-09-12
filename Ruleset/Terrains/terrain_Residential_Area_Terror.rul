@@ -1,0 +1,277 @@
+terrains:
+#Terror Mission in Residential area of urban sprawl
+#Identical to Residential Area Terrain
+
+  - name: RESIDENTIAL_AREA_TERROR
+    mapDataSets:
+      - BLANKS
+      - RESIDENTIAL_AREA_00
+      - RESIDENTIAL_AREA_01
+      - RESIDENTIAL_AREA_02
+      - RESIDENTIAL_AREA_03
+      - RESIDENTIAL_AREA_04
+      - RESIDENTIAL_AREA_05
+    script: RESIDENTIAL_AREA_TERROR
+    mapBlocks:
+#Group 0 - (Indexes: 0-9) 10x10 flat mapblocks (no spawners)
+      - name: RESIDENTIAL_AREA_0_00
+        width: 10
+        length: 10
+        groups: 0
+
+      - name: RESIDENTIAL_AREA_0_01
+        width: 10
+        length: 10
+        groups: 0
+
+      - name: RESIDENTIAL_AREA_0_02
+        width: 10
+        length: 10
+        groups: 0
+
+      - name: RESIDENTIAL_AREA_0_03
+        width: 10
+        length: 10
+        groups: 0
+
+      - name: RESIDENTIAL_AREA_0_04
+        width: 10
+        length: 10
+        groups: 0
+
+      - name: RESIDENTIAL_AREA_0_05
+        width: 10
+        length: 10
+        groups: 0
+
+      - name: RESIDENTIAL_AREA_0_06
+        width: 10
+        length: 10
+        groups: 0
+
+      - name: RESIDENTIAL_AREA_0_07
+        width: 10
+        length: 10
+        groups: 0
+
+      - name: RESIDENTIAL_AREA_0_08
+        width: 10
+        length: 10
+        groups: 0
+
+      - name: RESIDENTIAL_AREA_0_09
+        width: 10
+        length: 10
+        groups: 0
+
+
+#Group 1 - (Indexes: 10-12) 10x10 road mapblocks (no spawners)
+      - name: RESIDENTIAL_AREA_1_00
+        width: 10
+        length: 10
+        groups: 1
+
+      - name: RESIDENTIAL_AREA_1_01
+        width: 10
+        length: 10
+        groups: 1
+
+      - name: RESIDENTIAL_AREA_1_02
+        width: 10
+        length: 10
+        groups: 1
+
+#Group 2 - (Indexes: 13-21) 20x20 residential buildings (west direction, enemy spawners)
+      - name: RESIDENTIAL_AREA_2_00
+        width: 20
+        length: 20
+        groups: 2
+      - name: RESIDENTIAL_AREA_2_01
+        width: 20
+        length: 20
+        groups: 2
+      - name: RESIDENTIAL_AREA_2_02
+        width: 20
+        length: 20
+        groups: 2
+      - name: RESIDENTIAL_AREA_2_03
+        width: 20
+        length: 20
+        groups: 2
+      - name: RESIDENTIAL_AREA_2_04
+        width: 20
+        length: 20
+        groups: 2
+      - name: RESIDENTIAL_AREA_2_05
+        width: 20
+        length: 20
+        groups: 2
+      - name: RESIDENTIAL_AREA_2_06
+        width: 20
+        length: 20
+        groups: 2
+      - name: RESIDENTIAL_AREA_2_07
+        width: 20
+        length: 20
+        groups: 2
+      - name: RESIDENTIAL_AREA_2_08
+        width: 20
+        length: 20
+        groups: 2
+
+#Group 3 - (Indexes: 22-30) 20x20 residential buildings (north direction, enemy spawners)
+      - name: RESIDENTIAL_AREA_3_00
+        width: 20
+        length: 20
+        groups: 3
+      - name: RESIDENTIAL_AREA_3_01
+        width: 20
+        length: 20
+        groups: 3
+      - name: RESIDENTIAL_AREA_3_02
+        width: 20
+        length: 20
+        groups: 3
+      - name: RESIDENTIAL_AREA_3_03
+        width: 20
+        length: 20
+        groups: 3
+      - name: RESIDENTIAL_AREA_3_04
+        width: 20
+        length: 20
+        groups: 3
+      - name: RESIDENTIAL_AREA_3_05
+        width: 20
+        length: 20
+        groups: 3
+      - name: RESIDENTIAL_AREA_3_06
+        width: 20
+        length: 20
+        groups: 3
+      - name: RESIDENTIAL_AREA_3_07
+        width: 20
+        length: 20
+        groups: 3
+      - name: RESIDENTIAL_AREA_3_08
+        width: 20
+        length: 20
+        groups: 3
+
+#Group 4 - (Indexes: 31-35) 10x10 store buildings (west direction, enemy spawners)
+      - name: RESIDENTIAL_AREA_4_00
+        width: 10
+        length: 10
+        groups: 4
+      - name: RESIDENTIAL_AREA_4_01
+        width: 10
+        length: 10
+        groups: 4
+      - name: RESIDENTIAL_AREA_4_02
+        width: 10
+        length: 10
+        groups: 4
+      - name: RESIDENTIAL_AREA_4_03
+        width: 10
+        length: 10
+        groups: 4
+      - name: RESIDENTIAL_AREA_4_04
+        width: 10
+        length: 10
+        groups: 4
+
+#Group 5 - (Indexes: 36-40) 10x10 store buildings (north direction, enemy spawners)
+      - name: RESIDENTIAL_AREA_5_00
+        width: 10
+        length: 10
+        groups: 5
+      - name: RESIDENTIAL_AREA_5_01
+        width: 10
+        length: 10
+        groups: 5
+      - name: RESIDENTIAL_AREA_5_02
+        width: 10
+        length: 10
+        groups: 5
+      - name: RESIDENTIAL_AREA_5_03
+        width: 10
+        length: 10
+        groups: 5
+      - name: RESIDENTIAL_AREA_5_04
+        width: 10
+        length: 10
+        groups: 5
+
+#Group 6 - (Indexes: 41-44) Small warehouse mapblocks (north direction, enemy spawners)
+      - name: RESIDENTIAL_AREA_6_00
+        width: 10
+        length: 10
+        groups: 6
+      - name: RESIDENTIAL_AREA_6_01
+        width: 10
+        length: 10
+        groups: 6
+      - name: RESIDENTIAL_AREA_6_02
+        width: 10
+        length: 10
+        groups: 6
+      - name: RESIDENTIAL_AREA_6_03
+        width: 10
+        length: 10
+        groups: 6
+
+#Group 7 - (Indexes: 45-48) Small warehouse mapblocks (east direction, enemy spawners)
+      - name: RESIDENTIAL_AREA_7_00
+        width: 10
+        length: 10
+        groups: 7
+      - name: RESIDENTIAL_AREA_7_01
+        width: 10
+        length: 10
+        groups: 7
+      - name: RESIDENTIAL_AREA_7_02
+        width: 10
+        length: 10
+        groups: 7
+      - name: RESIDENTIAL_AREA_7_03
+        width: 10
+        length: 10
+        groups: 7
+
+#Group 8 - (Indexes: 49-52) Small warehouse mapblocks (south direction, enemy spawners)
+      - name: RESIDENTIAL_AREA_8_00
+        width: 10
+        length: 10
+        groups: 8
+      - name: RESIDENTIAL_AREA_8_01
+        width: 10
+        length: 10
+        groups: 8
+      - name: RESIDENTIAL_AREA_8_02
+        width: 10
+        length: 10
+        groups: 8
+      - name: RESIDENTIAL_AREA_8_03
+        width: 10
+        length: 10
+        groups: 8
+
+#Group 9 - (Indexes: 53-56) Small warehouse mapblocks (west direction, enemy spawners)
+      - name: RESIDENTIAL_AREA_9_00
+        width: 10
+        length: 10
+        groups: 9
+      - name: RESIDENTIAL_AREA_9_01
+        width: 10
+        length: 10
+        groups: 9
+      - name: RESIDENTIAL_AREA_9_02
+        width: 10
+        length: 10
+        groups: 9
+      - name: RESIDENTIAL_AREA_9_03
+        width: 10
+        length: 10
+        groups: 9
+
+
+

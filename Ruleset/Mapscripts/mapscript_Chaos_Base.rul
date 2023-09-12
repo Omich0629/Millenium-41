@@ -1,0 +1,297 @@
+mapScripts:
+## Player Base Script
+  - type: CHAOS_BASE
+#Map size: 60x60
+#Possible coordinates:
+#x: 0-5
+#y: 0-5
+#First floor: 2
+
+#There are no groups in this case
+
+#Indexes:
+#0  - Empty mapblock (10x10)
+#1  - Access Lift
+#2  - Corridor
+#3  - Barracks
+#4  - Storage Facility
+#5  - Research Facility
+#6  - Workshop
+#7  - Hospital
+#8  - Radar System
+#9  - Education Facility
+#10 - Prison
+#11 - Training Facility
+#12 - Hangar (with enemy spawners)
+#13 - Hangar (Player Entry Point)
+
+    commands:
+#Add Access Lift mapblock in the center of map
+    - type: addBlock
+      rects:
+       - [2,2,2,2]
+      blocks: [1]
+
+
+##(Layout 1) North side
+#Add player entry point
+    - type: addBlock
+      label: 1
+      rects:
+       - [0,0,2,2]
+       - [2,0,2,2]
+       - [4,0,2,2]
+      blocks: [13]
+      executionChances: 25
+
+#Add hangar with enemy spawners (50% chance)
+    - type: addBlock
+      conditionals: [1]
+      rects:
+       - [0,0,2,2]
+       - [2,0,2,2]
+       - [4,0,2,2]
+      blocks: [12]
+      executionChances: 50
+
+#Add hangar with enemy spawners (50% chance)
+    - type: addBlock
+      conditionals: [1]
+      rects:
+       - [0,0,2,2]
+       - [2,0,2,2]
+       - [4,0,2,2]
+      blocks: [12]
+      executionChances: 50
+
+#Add Training Facility (50% chance)
+    - type: addBlock
+      conditionals: [1]
+      rects:
+       - [0,4,2,2]
+       - [2,4,2,2]
+       - [4,4,2,2]
+      blocks: [11]
+      executionChances: 50
+
+#Add mapblocks in the middle of the map
+    - type: fillArea
+      conditionals: [1]
+      rects:
+       - [1,2,4,3]
+      blocks: [2, 3, 4, 5, 6, 7, 8, 9, 10]
+      maxUses: [2, 3, 3, 2, 2, 1, 1, 1, 1]
+
+#Add 5 more blocks
+    - type: addBlock
+      conditionals: [1]
+      rects:
+       - [0,2,1,3]
+       - [5,2,1,3]
+       - [1,5,4,1]
+      blocks: [2, 3, 4, 5, 6]
+      maxUses: [1, 1, 1, 1, 1]
+      executions: 5
+
+
+##(Layout 2) East side
+#Add player entry point
+    - type: addBlock
+      label: 2
+      conditionals: [-1]
+      rects:
+       - [4,0,2,2]
+       - [4,2,2,2]
+       - [4,4,2,2]
+      blocks: [13]
+      executionChances: 33
+
+#Add hangar with enemy spawners (50% chance)
+    - type: addBlock
+      conditionals: [2]
+      rects:
+       - [4,0,2,2]
+       - [4,2,2,2]
+       - [4,4,2,2]
+      blocks: [12]
+      executionChances: 50
+
+#Add hangar with enemy spawners (50% chance)
+    - type: addBlock
+      conditionals: [2]
+      rects:
+       - [4,0,2,2]
+       - [4,2,2,2]
+       - [4,4,2,2]
+      blocks: [12]
+      executionChances: 50
+
+#Add Training Facility (50% chance)
+    - type: addBlock
+      conditionals: [2]
+      rects:
+       - [0,0,2,2]
+       - [0,2,2,2]
+       - [0,4,2,2]
+      blocks: [11]
+      executionChances: 50
+
+#Add mapblocks in the middle of the map
+    - type: fillArea
+      conditionals: [2]
+      rects:
+       - [1,1,3,4]
+      blocks: [2, 3, 4, 5, 6, 7, 8, 9, 10]
+      maxUses: [2, 3, 3, 2, 2, 1, 1, 1, 1]
+
+#Add 5 more blocks
+    - type: addBlock
+      conditionals: [2]
+      rects:
+       - [1,0,3,1]
+       - [1,5,3,1]
+       - [0,1,1,4]
+      blocks: [2, 3, 4, 5, 6]
+      maxUses: [1, 1, 1, 1, 1]
+      executions: 5
+
+
+##(Layout 3) South side
+#Add player entry point
+    - type: addBlock
+      label: 3
+      conditionals: [-1, -2]
+      rects:
+       - [0,4,2,2]
+       - [2,4,2,2]
+       - [4,4,2,2]
+      blocks: [13]
+      executionChances: 50
+
+#Add hangar with enemy spawners (50% chance)
+    - type: addBlock
+      conditionals: [3]
+      rects:
+       - [0,4,2,2]
+       - [2,4,2,2]
+       - [4,4,2,2]
+      blocks: [12]
+      executionChances: 50
+
+#Add hangar with enemy spawners (50% chance)
+    - type: addBlock
+      conditionals: [3]
+      rects:
+       - [0,4,2,2]
+       - [2,4,2,2]
+       - [4,4,2,2]
+      blocks: [12]
+      executionChances: 50
+
+#Add Training Facility (50% chance)
+    - type: addBlock
+      conditionals: [3]
+      rects:
+       - [0,0,2,2]
+       - [2,0,2,2]
+       - [4,0,2,2]
+      blocks: [11]
+      executionChances: 50
+
+#Add mapblocks in the middle of the map
+    - type: fillArea
+      conditionals: [3]
+      rects:
+       - [1,1,4,3]
+      blocks: [2, 3, 4, 5, 6, 7, 8, 9, 10]
+      maxUses: [2, 3, 3, 2, 2, 1, 1, 1, 1]
+
+#Add 5 more blocks
+    - type: addBlock
+      conditionals: [3]
+      rects:
+       - [0,1,1,3]
+       - [5,1,1,3]
+       - [1,0,4,1]
+      blocks: [2, 3, 4, 5, 6]
+      maxUses: [1, 1, 1, 1, 1]
+      executions: 5
+
+##(Layout 4) West side
+#Add player entry point
+    - type: addBlock
+      label: 4
+      conditionals: [-1, -2, -3]
+      rects:
+       - [0,0,2,2]
+       - [0,2,2,2]
+       - [0,4,2,2]
+      blocks: [13]
+      executionChances: 100
+
+#Add hangar with enemy spawners (50% chance)
+    - type: addBlock
+      conditionals: [4]
+      rects:
+       - [0,0,2,2]
+       - [0,2,2,2]
+       - [0,4,2,2]
+      blocks: [12]
+      executionChances: 50
+
+#Add hangar with enemy spawners (50% chance)
+    - type: addBlock
+      conditionals: [4]
+      rects:
+       - [0,0,2,2]
+       - [0,2,2,2]
+       - [0,4,2,2]
+      blocks: [12]
+      executionChances: 50
+
+#Add Training Facility (50% chance)
+    - type: addBlock
+      conditionals: [4]
+      rects:
+       - [4,0,2,2]
+       - [4,2,2,2]
+       - [4,4,2,2]
+      blocks: [11]
+      executionChances: 50
+
+#Add mapblocks in the middle of the map
+    - type: fillArea
+      conditionals: [4]
+      rects:
+       - [2,1,3,4]
+      blocks: [2, 3, 4, 5, 6, 7, 8, 9, 10]
+      maxUses: [2, 3, 3, 2, 2, 1, 1, 1, 1]
+
+#Add 5 more blocks
+    - type: addBlock
+      conditionals: [4]
+      rects:
+       - [2,0,3,1]
+       - [2,5,3,1]
+       - [5,1,1,4]
+      blocks: [2, 3, 4, 5, 6]
+      maxUses: [1, 1, 1, 1, 1]
+      executions: 5
+
+#Execute for every layout:
+#Make tunnels between the mapblocks
+    - type: digTunnel
+      direction: both
+      tunnelData:
+        level: 2
+        MCDReplacements:
+          - type: westWall
+            set: 1
+            entry: 17
+          - type: northWall
+            set: 1
+            entry: 16
+
+#Fill the rest area with empty mapblocks
+    - type: fillArea
+      blocks: 0

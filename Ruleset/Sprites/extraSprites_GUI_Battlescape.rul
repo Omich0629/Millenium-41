@@ -1,0 +1,158 @@
+extraSprites:
+#BATTLESCAPE RELATED SPRITES
+
+### TAC00.SCR OVERRIDE (X-COM Soldier and alien behind him)
+### The background displayed during the "TURN" screen in Battlescape
+  - type: TAC00.SCR
+    singleImage: true
+    files:
+      0: Resources/GUI/Battlescape/Battlescape_Background.png
+
+### BATTLESCAPE INTERFACE OVERRIDE
+  - type: ICONS.PCK
+    singleImage: true
+    files:
+      0: Resources/GUI/Battlescape/Battlescape_Interface.png
+
+### KNEEL BUTTON (Battlescape interface)
+  - type: KneelButton
+    width: 32
+    height: 32
+    subX: 32
+    subY: 16
+    files:
+      0: Resources/GUI/Battlescape/Battlescape_KneelButton.png
+
+### TU RESERVE BUTTON (Battlescape interface)
+  - type: TFTDReserve
+    width: 59
+    height: 24
+    singleImage: true
+    files:
+      0: Resources/GUI/Battlescape/Battlescape_ReserveButton.png
+
+### BATTLESCAPE SOLDIER INVENTORY MENU
+  - type: TAC01.SCR
+    singleImage: true
+    files:
+      0: Resources/GUI/Battlescape/Battlescape_Inventory.png
+
+### BATTLESCAPE SOLDIER AVATAR BACKGROUND
+  - type: AvatarBackground
+    singleImage: true
+    files:
+      0: Resources/GUI/Battlescape/Avatar_Background.png
+
+### INVENTORY COPY BUTTON
+  - type: InvCopy
+    width: 32
+    height: 22
+    singleImage: true
+    files:
+      0: Resources/GUI/Battlescape/Battlescape_InvCopyButton.png
+
+### INVENTORY COPY ACTIVE BUTTON
+  - type: InvCopyActive
+    width: 32
+    height: 22
+    singleImage: true
+    files:
+      0: Resources/GUI/Battlescape/Battlescape_InvCopyActiveButton.png
+
+### INVENTORY PASTE BUTTON
+  - type: InvPaste
+    width: 32
+    height: 22
+    singleImage: true
+    files:
+      0: Resources/GUI/Battlescape/Battlescape_InvPasteButton.png
+
+### INVENTORY PASTE EMPTY BUTTON
+  - type: InvPasteEmpty
+    width: 32
+    height: 22
+    singleImage: true
+    files:
+      0: Resources/GUI/Battlescape/Battlescape_InvPasteEmptyButton.png
+
+### BATTLESCAPE TOUCH MENU
+  - type: Touch
+    width: 64
+    height: 120
+    subX: 32
+    subY: 24
+    files:
+      0: Resources/GUI/Battlescape/Battlescape_TouchMenu.png
+
+### OXCE ADVANCED OPTIONS BUTTON
+  - type: oxceLinks
+    width: 32
+    height: 16
+    singleImage: true
+    files:
+      0: Resources/GUI/Battlescape/Battlescape_OXCELinks.png
+
+### OXCE ADVANCED OPTIONS BUTTON (INVENTORY) 
+  - type: oxceLinksInv
+    width: 23
+    height: 22
+    singleImage: true
+    files:
+      0: Resources/GUI/Battlescape/Battlescape_OXCELinksInv.png
+
+### DEBRIEFING MENU BACKGROUND
+  - type: DEBRIEFING_BACKGROUND.SCR
+    singleImage: true
+    files:
+      0: Resources/GUI/Battlescape/DebriefingMenu_Background.png
+
+### MEDI-KIT INTERFACE OVERRIDE
+  - type: MEDIBORD.PCK
+    singleImage: true
+    files:
+      0: Resources/GUI/Battlescape/MediKit_Interface.png
+
+### MEDI-KIT INTERFACE BODY PARTS
+  - type: MEDIBITS.DAT
+    width: 312
+    height: 58
+    subX: 52
+    subY: 58
+    files:
+      0: Resources/GUI/Battlescape/Medikit_BodyParts.png
+
+### BATTLESCAPE MAP
+  - type: SCANBORD.PCK
+    singleImage: true
+    files:
+      0: Resources/GUI/Battlescape/Battlescape_Map.png
+
+### MOTION SCANNER FRAME
+  - type: DETBORD.PCK
+    singleImage: true
+    files:
+      0: Resources/GUI/Battlescape/MotionScanner_Frame.png
+
+### MOTION SCANNER DISPLAY
+  - type: DETBORD2.PCK
+    singleImage: true
+    files:
+      0: Resources/GUI/Battlescape/MotionScanner_Display.png
+
+### MOTION SCANNER "BLIPS" AND DIRECTIONAL ARROWS
+  - type: DETBLOB.DAT
+    width: 240
+    height: 16
+    subX: 16
+    subY: 16
+    files:
+      0: Resources/GUI/Battlescape/MotionScanner_Bits.png
+
+
+
+
+
+
+
+
+

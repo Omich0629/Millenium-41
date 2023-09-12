@@ -1,6 +1,10 @@
 extraStrings:
   - type: en-US
     strings:
+
+### MAIN MENU INTERFACE ###
+      STR_OPENXCOM: "M41"
+
 ### COUNTRIES (CORPORATIONS) ###
       STR_NORTH_COUNTRY_1: "NEOLOGISTICS CORP."
       STR_NORTH_COUNTRY_2: "TRUSTED MACHINERY"
@@ -39,6 +43,12 @@ extraStrings:
       MAP_SNOWY_MOUNTAINS: "Snowy Mountains"
       MAP_POLAR_DESERT: "Polar Desert"
       MAP_ICE_SHELF: "Ice Shelf"
+
+### ENEMY DEPLOYMENTS ###
+      STR_BASE_DEFENSE: "Base Defense"
+      STR_CHAOS_BASE_ASSAULT: "Chaos Base Assault"
+      STR_RESIDENTIAL_AREA_TERROR: "Residential Area Terror Site"
+
 
 
 ### BASE FACILITIES ###

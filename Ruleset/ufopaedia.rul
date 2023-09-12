@@ -1,0 +1,8 @@
+ufopaedia:
+  - id: STR_AUTOPISTOL_ARBITES
+    type_id: 14
+    section: STR_WEAPONS_AND_EQUIPMENT
+    text: STR_PISTOL_UFOPEDIA
+  - id: STR_AUTOPISTOL_MAGAZINE
+    type_id: 14
+    section: STR_WEAPONS_AND_EQUIPMENT

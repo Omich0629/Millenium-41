@@ -7,7 +7,7 @@ mapScripts:
 #y: 0-5
 #First floor: 2
 
-#There is no groups in this case
+#There are no groups in this case
 
     commands:
     - type: digTunnel

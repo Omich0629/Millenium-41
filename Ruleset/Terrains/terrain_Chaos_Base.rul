@@ -1,0 +1,84 @@
+terrains:
+#Chaos base terrain (Chaos Undivided or so)
+#For base enemy defense assault mission
+  - name: CHAOS_BASE
+    mapDataSets:
+      - BLANKS
+      - CHAOS_BASE_00
+      - CHAOS_BASE_01
+      - CHAOS_BASE_02
+      - CHAOS_BASE_03
+      - CHAOS_BASE_04
+    script: CHAOS_BASE
+    mapBlocks:
+#(There are no groups in this case)
+
+#Empty mapblock (10x10)
+      - name: CHAOS_BASE_00
+        width: 10
+        length: 10
+
+#Access Lift
+      - name: CHAOS_BASE_01
+        width: 10
+        length: 10
+
+#Corridor
+      - name: CHAOS_BASE_02
+        width: 10
+        length: 10
+
+#Barracks
+      - name: CHAOS_BASE_03
+        width: 10
+        length: 10
+
+#Storage Facility
+      - name: CHAOS_BASE_04
+        width: 10
+        length: 10
+
+#Research Facility
+      - name: CHAOS_BASE_05
+        width: 10
+        length: 10
+
+#Workshop
+      - name: CHAOS_BASE_06
+        width: 10
+        length: 10
+
+#Hospital
+      - name: CHAOS_BASE_07
+        width: 10
+        length: 10
+
+#Radar System
+      - name: CHAOS_BASE_08
+        width: 10
+        length: 10
+
+#Education Facility
+      - name: CHAOS_BASE_09
+        width: 10
+        length: 10
+
+#Prison
+      - name: CHAOS_BASE_10
+        width: 10
+        length: 10
+
+#Training Facility
+      - name: CHAOS_BASE_11
+        width: 20
+        length: 20
+
+#Hangar Facility 
+      - name: CHAOS_BASE_12
+        width: 20
+        length: 20
+
+#Hangar Facility (Player Entry Point)
+      - name: CHAOS_BASE_13
+        width: 20
+        length: 20

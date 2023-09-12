@@ -1,0 +1,20 @@
+extraSprites:
+#UFOPAEDIA RELATED SPRITES
+
+### UFOPAEDIA MENU BACKGROUND
+  - type: UFOPAEDIA_BACKGROUND.SCR
+    singleImage: true
+    files:
+      0: Resources/GUI/Ufopaedia/UfopaediaMenu_Background.png
+
+### UFOPAEDIA ITEM ARTICLE BACKGROUND (TFTD STYLE)
+  - type: ARTICLEITEMTFTD_BACKGROUND.SCR
+    singleImage: true
+    files:
+      0: Resources/GUI/Ufopaedia/ArticleItemTFTD_Background.png
+
+### STATS FOR NERDS MENU BACKGROUND
+  - type: STATSFORNERDS_BACKGROUND.SCR
+    singleImage: true
+    files:
+      0: Resources/GUI/Ufopaedia/StatsForNerds_Background.png
