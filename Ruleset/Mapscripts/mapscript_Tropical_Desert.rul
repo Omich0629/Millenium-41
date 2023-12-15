@@ -22,7 +22,7 @@ mapScripts:
       blocks: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9] #group 0
       maxUses: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
 
-#Add 5 20x20 mapblocks (groups 2, 3)
+#Add 5 20x20 mapblocks (groups 2)
     - type: addBlock
       blocks: [20, 21, 22, 23, 24, 25, 26, 27, 28, 29] #group 2
       maxUses: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1] #group 2

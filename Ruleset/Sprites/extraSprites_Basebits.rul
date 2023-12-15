@@ -68,7 +68,7 @@ extraSprites:
 
 #333-499 Crafts
 #sprite index + 33
-      333: Resources/Basebits/Crafts/Basebits_Patrol_Shuttle.png #300 + 33
+      333: Resources/Basebits/Crafts/Basebits_Valkyrie.png #300 + 33
 
 #500-799 Unit Miniatures
 

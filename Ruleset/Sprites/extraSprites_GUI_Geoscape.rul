@@ -11,6 +11,15 @@ extraSprites:
     files:
       0: Resources/Globe/Globe_Textures.png
 
+### DOGFIGHT MENU BACKGROUND
+  - delete: INTERWIN.DAT
+  - type: INTERWIN.DAT
+    singleImage: true
+    width: 160
+    height: 96
+    files:
+      0: Resources/GUI/Geoscape/Dogfight_Interface.png
+
 ### GEOSCAPE INTERFACE
   - type: GEOBORD.SCR
     singleImage: true
@@ -220,10 +229,6 @@ extraSprites:
     singleImage: true
     files:
       0: Resources/GUI/Geoscape/DogfightInfo_Background.png
-
-
-
-
 
 
 

@@ -229,17 +229,14 @@ extraStrings:
       STR_CORPSE_CULTIST: "Cultist Corpse"
 
 #CRAFTS
-      STR_SHUTTLE_ENFORCER: "Patrol Shuttle"
-      STR_VALKYRIE_ARBITES: "Valkyrie"
+      STR_VALKYRIE_PDF: "Valkyrie"
 
 #UFOS
-      STR_ARVUS_CHAOS: "Chaos Arvus Lighter"
-      STR_SHUTTLE_TILTJET: "Tiltjet Shuttle"
-      STR_SHUTTLE_TILTWING: "Tiltwing Shuttle"
-      STR_SHUTTLE_PARAMILITARY: "Paramilitary Shuttle"
-      STR_TECHNICAL_CONVOY: "Light Vehicle Convoy"
-      STR_GUNTRUCK_CONVOY: "Heavy Vehicle Convoy"
       STR_CARGO_SHUTTLE: "Cargo Shuttle"
+      STR_VALKYRIE_CHAOS: "Chaos Valkyrie"
+      STR_LIGHT_CONVOY: "Light Vehicle Convoy"
+      STR_HEAVY_CONVOY: "Heavy Vehicle Convoy"
+
 
 #ALIEN RACES
       STR_CULTISTS: "Chaos Cultists"

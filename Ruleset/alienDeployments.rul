@@ -1,35 +1,4 @@
 alienDeployments:
-
-  - type: STR_SHUTTLE_TILTJET
-    data:
-      - alienRank: 5
-        lowQty: 5
-        highQty: 5
-        dQty: 2
-        percentageOutsideUfo: 60
-        itemSets:
-          -
-            []
-          -
-            []
-          -
-            []
-      - alienRank: 3
-        lowQty: 2
-        highQty: 2
-        dQty: 2
-        percentageOutsideUfo: 60
-        itemSets:
-          -
-            []
-          -
-            []
-          -
-            []
-    width: 60
-    length: 60
-    height: 9
-
   - type: STR_CARGO_SHUTTLE
     data:
       - alienRank: 5
@@ -60,8 +29,7 @@ alienDeployments:
     length: 60
     height: 9
 
-
-  - type: STR_SHUTTLE_TILTWING
+  - type: STR_VALKYRIE_CHAOS
     data:
       - alienRank: 5
         lowQty: 5
@@ -91,37 +59,7 @@ alienDeployments:
     length: 60
     height: 9
 
-  - type: STR_SHUTTLE_PARAMILITARY
-    data:
-      - alienRank: 5
-        lowQty: 5
-        highQty: 5
-        dQty: 2
-        percentageOutsideUfo: 60
-        itemSets:
-          -
-            []
-          -
-            []
-          -
-            []
-      - alienRank: 3
-        lowQty: 2
-        highQty: 2
-        dQty: 2
-        percentageOutsideUfo: 60
-        itemSets:
-          -
-            []
-          -
-            []
-          -
-            []
-    width: 60
-    length: 60
-    height: 9
-
-  - type: STR_TECHNICAL_CONVOY
+  - type: STR_LIGHT_CONVOY
     data:
       - alienRank: 5
         lowQty: 5
@@ -152,7 +90,7 @@ alienDeployments:
     height: 9
 
 
-  - type: STR_GUNTRUCK_CONVOY
+  - type: STR_HEAVY_CONVOY
     data:
       - alienRank: 5
         lowQty: 5

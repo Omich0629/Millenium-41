@@ -34,7 +34,7 @@ startingBase:
   scientists: 10
   engineers: 10
   crafts:
-    - type: STR_SHUTTLE_ENFORCER
+    - type: STR_VALKYRIE_PDF
       id: 1
       fuel: 1250
       damage: 0

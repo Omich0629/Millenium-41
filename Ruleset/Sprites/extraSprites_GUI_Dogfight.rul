@@ -1,0 +1,34 @@
+extraSprites:
+#Enemy vehicles in dogfight menu
+
+### DOGFIGHT CARGO SHUTTLE SPRITE
+  - type: DOGFIGHT_CARGO_SHUTTLE
+    singleImage: true
+    width: 160
+    height: 52
+    files:
+      0: Resources/GUI/Dogfight/Dogfight_Cargo_Shuttle.png
+
+### DOGFIGHT CHAOS VALKYRIE SPRITE
+  - type: DOGFIGHT_VALKYRIE_CHAOS
+    singleImage: true
+    width: 160
+    height: 52
+    files:
+      0: Resources/GUI/Dogfight/Dogfight_Valkyrie.png
+
+### DOGFIGHT LIGHT VEHICLE CONVOY SPRITE
+  - type: DOGFIGHT_LIGHT_CONVOY
+    singleImage: true
+    width: 160
+    height: 52
+    files:
+      0: Resources/GUI/Dogfight/Dogfight_Light_Convoy.png
+
+### DOGFIGHT HEAVY VEHICLE CONVOY SPRITE
+  - type: DOGFIGHT_HEAVY_CONVOY
+    singleImage: true
+    width: 160
+    height: 52
+    files:
+      0: Resources/GUI/Dogfight/Dogfight_Heavy_Convoy.png
