@@ -63,6 +63,37 @@ ufos:
           width: 20
           length: 20
 
+#RAVEN MULTIPURPOSE AIRCRAFT
+  - type: STR_RAVEN_CHAOS
+#RESOURCES
+    # marker: 122
+    # markerLand: 132
+    modSprite: DOGFIGHT_RAVEN_CHAOS
+#STATS
+    size: STR_SMALL
+    damageMax: 600
+    speedMax: 1400
+
+    breakOffTime: 800
+
+    power: 10
+    range: 10
+    reload: 40
+
+    score: 50
+
+#TERRAIN
+    battlescapeTerrainData:
+      name: STR_RAVEN_CHAOS
+      mapDataSets:
+        - BLANKS
+        - RAVEN_CHAOS_00
+        - RAVEN_CHAOS_01
+        - RAVEN_CHAOS_02
+      mapBlocks:
+        - name: RAVEN_CHAOS
+          width: 20
+          length: 20
 
 #LIGHT VEHICLE CONVOY
 #Three "technical" pickup trucks. One is armed with anti-air gun.

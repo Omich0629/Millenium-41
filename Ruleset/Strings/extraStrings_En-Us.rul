@@ -234,6 +234,7 @@ extraStrings:
 #UFOS
       STR_CARGO_SHUTTLE: "Cargo Shuttle"
       STR_VALKYRIE_CHAOS: "Chaos Valkyrie"
+      STR_RAVEN_CHAOS: "Chaos Raven"
       STR_LIGHT_CONVOY: "Light Vehicle Convoy"
       STR_HEAVY_CONVOY: "Heavy Vehicle Convoy"
 
