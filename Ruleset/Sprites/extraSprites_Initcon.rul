@@ -3,11 +3,13 @@ extraSprites:
     files:
 #skip 0-16 (Original INTICON tiles)
 
-#Geospace minimased craft icons (sprite index + 0)
+#Geospace minimised craft icons (sprite index + 0)
       300: Resources/Initcon/Minimised_Craft/Initcon_Minimised_Valkyrie.png
+      301: Resources/Initcon/Minimised_Craft/Initcon_Minimised_Eagle.png
 
 #Craft dogfight icons (sprite index + 11)
       311: Resources/Initcon/Dogfight_Craft/Initcon_Dogfight_Valkyrie.png
+      312: Resources/Initcon/Dogfight_Craft/Initcon_Dogfight_Eagle.png
 
 #Craft Weapons dogfight icons (sprite index + 5)
       805: Resources/Initcon/Craft_Weapons/Initcon_Autocannon.png #800 + 5

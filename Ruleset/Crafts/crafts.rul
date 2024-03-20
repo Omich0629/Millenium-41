@@ -1,11 +1,13 @@
 crafts:
 
+#LIGHT TRANSPORT AIRCRAFT
+
   - type: STR_VALKYRIE_PDF
 #RESOURCES
     sprite: 300 #333 in Basebits
 #GENERAL
     # requires:
-      # - STR_IMPERIAL_GUARD_OPERATIONS
+      # - STR_TECH_NAME
     costBuy: 600000
     costSell: 300000
     costRent: 200000
@@ -49,3 +51,57 @@ crafts:
         - name: VALKYRIE_PDF
           width: 20
           length: 20
+
+#MEDIUM TRANSPORT AIRCRAFT
+
+  - type: STR_EAGLE_PDF
+#RESOURCES
+    sprite: 301 #334 in Basebits
+#GENERAL
+    # requires:
+      # - STR_TECH_NAME
+    costBuy: 600000
+    costSell: 300000
+    costRent: 200000
+    transferTime: 36
+    score: 250
+    spacecraft: false
+    listOrder: 180
+#DOGFIGHT
+    damageMax: 400
+    accel: 6
+    fuelMax: 1250
+    speedMax: 1250
+    repairRate: 10
+    refuelRate: 350
+    radarRange: 700
+    radarChance: 80
+    sightRange: 1000
+#WEAPONS
+    # weapons: 3
+    # weaponTypes:
+      # - 0
+      # - 1
+      # - 4
+    # weaponStrings:
+      # - STR_CRAFT_SLOT_ASSAULT
+      # - STR_CRAFT_SLOT_ROCKET
+      # - STR_CRAFT_SLOT_UPGRADE
+#CREW
+    soldiers: 20
+    vehicles: 0
+    pilots: 0
+    allowLanding: true
+#BATTLESCAPE
+    battlescapeTerrainData:
+      name: EAGLE_PDF
+      mapDataSets:
+        - BLANKS
+        - EAGLE_PDF_00
+        - EAGLE_PDF_01
+        - EAGLE_PDF_02
+      mapBlocks:
+        - name: EAGLE_PDF
+          width: 20
+          length: 20
+

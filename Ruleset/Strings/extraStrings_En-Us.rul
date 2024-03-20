@@ -230,11 +230,13 @@ extraStrings:
 
 #CRAFTS
       STR_VALKYRIE_PDF: "Valkyrie"
+      STR_EAGLE_PDF: "Eagle"
 
 #UFOS
       STR_CARGO_SHUTTLE: "Cargo Shuttle"
       STR_VALKYRIE_CHAOS: "Chaos Valkyrie"
       STR_RAVEN_CHAOS: "Chaos Raven"
+      STR_EAGLE_CHAOS: "Chaos Eagle"
       STR_LIGHT_CONVOY: "Light Vehicle Convoy"
       STR_HEAVY_CONVOY: "Heavy Vehicle Convoy"
 
