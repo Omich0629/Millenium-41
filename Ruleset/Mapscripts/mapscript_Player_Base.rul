@@ -17,9 +17,9 @@ mapScripts:
         MCDReplacements:
           - type: westWall
             set: 1
-            entry: 19
+            entry: 21
           - type: northWall
             set: 1
-            entry: 18
+            entry: 20
     - type: fillArea
       blocks: 0

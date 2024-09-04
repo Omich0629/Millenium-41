@@ -105,3 +105,57 @@ crafts:
           width: 20
           length: 20
 
+#HEAVY TRANSPORT AIRCRAFT
+
+  - type: STR_HAWK_PDF
+#RESOURCES
+    sprite: 302 #335 in Basebits
+#GENERAL
+    # requires:
+      # - STR_TECH_NAME
+    costBuy: 600000
+    costSell: 300000
+    costRent: 200000
+    transferTime: 36
+    score: 250
+    spacecraft: false
+    listOrder: 180
+#DOGFIGHT
+    damageMax: 400
+    accel: 6
+    fuelMax: 1250
+    speedMax: 1250
+    repairRate: 10
+    refuelRate: 350
+    radarRange: 700
+    radarChance: 80
+    sightRange: 1000
+#WEAPONS
+    # weapons: 3
+    # weaponTypes:
+      # - 0
+      # - 1
+      # - 4
+    # weaponStrings:
+      # - STR_CRAFT_SLOT_ASSAULT
+      # - STR_CRAFT_SLOT_ROCKET
+      # - STR_CRAFT_SLOT_UPGRADE
+#CREW
+    soldiers: 30
+    vehicles: 0
+    pilots: 0
+    allowLanding: true
+#BATTLESCAPE
+    battlescapeTerrainData:
+      name: HAWK_PDF
+      mapDataSets:
+        - BLANKS
+        - HAWK_PDF_00
+        - HAWK_PDF_01
+        - HAWK_PDF_02
+      mapBlocks:
+        - name: HAWK_PDF
+          width: 20
+          length: 20
+
+

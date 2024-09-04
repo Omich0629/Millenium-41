@@ -287,10 +287,10 @@ mapScripts:
         MCDReplacements:
           - type: westWall
             set: 1
-            entry: 17
+            entry: 21
           - type: northWall
             set: 1
-            entry: 16
+            entry: 20
 
 #Fill the rest area with empty mapblocks
     - type: fillArea

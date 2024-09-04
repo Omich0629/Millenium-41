@@ -120,6 +120,36 @@ alienDeployments:
     length: 60
     height: 9
 
+  - type: STR_HAWK_CHAOS
+    data:
+      - alienRank: 5
+        lowQty: 5
+        highQty: 5
+        dQty: 2
+        percentageOutsideUfo: 60
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []
+      - alienRank: 3
+        lowQty: 2
+        highQty: 2
+        dQty: 2
+        percentageOutsideUfo: 60
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []
+    width: 60
+    length: 60
+    height: 9
+
 
   - type: STR_LIGHT_CONVOY
     data:
@@ -256,22 +286,11 @@ alienDeployments:
             []
           -
             []
-      - alienRank: 7
-        lowQty: 1
-        highQty: 3
-        dQty: 2
-        percentageOutsideUfo: 50
-        itemSets:
-          -
-            []
-          -
-            []
-          -
-            []
     width: 60
     length: 60
     height: 8
     civilians: 0
+    civilianSpawnNodeRank: 8
     terrains:
       - RESIDENTIAL_AREA_TERROR
     alert: STR_ALIENS_TERRORISE

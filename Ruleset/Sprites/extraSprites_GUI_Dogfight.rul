@@ -33,6 +33,14 @@ extraSprites:
     files:
       0: Resources/GUI/Dogfight/Dogfight_Eagle.png
 
+### DOGFIGHT CHAOS HAWK SPRITE
+  - type: DOGFIGHT_HAWK_CHAOS
+    singleImage: true
+    width: 160
+    height: 52
+    files:
+      0: Resources/GUI/Dogfight/Dogfight_Hawk.png
+
 ### DOGFIGHT LIGHT VEHICLE CONVOY SPRITE
   - type: DOGFIGHT_LIGHT_CONVOY
     singleImage: true

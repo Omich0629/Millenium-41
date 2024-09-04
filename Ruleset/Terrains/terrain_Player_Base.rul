@@ -8,6 +8,7 @@ terrains:
       - PLAYER_BASE_01
       - PLAYER_BASE_02
       - PLAYER_BASE_03
+      - PLAYER_BASE_04
     script: PLAYER_BASE
     mapBlocks:
 #(There are no groups in this case)

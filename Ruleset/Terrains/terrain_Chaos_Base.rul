@@ -9,6 +9,7 @@ terrains:
       - CHAOS_BASE_02
       - CHAOS_BASE_03
       - CHAOS_BASE_04
+      - CHAOS_BASE_05
     script: CHAOS_BASE
     mapBlocks:
 #(There are no groups in this case)

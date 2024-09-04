@@ -127,6 +127,38 @@ ufos:
           width: 20
           length: 20
 
+#HAWK HEAVY ARMORED GUNSHIP 
+  - type: STR_HAWK_CHAOS
+#RESOURCES
+    # marker: 122
+    # markerLand: 132
+    modSprite: DOGFIGHT_HAWK_CHAOS
+#STATS
+    size: STR_SMALL
+    damageMax: 600
+    speedMax: 1400
+
+    breakOffTime: 800
+
+    power: 10
+    range: 10
+    reload: 40
+
+    score: 50
+
+#TERRAIN
+    battlescapeTerrainData:
+      name: STR_HAWK_CHAOS
+      mapDataSets:
+        - BLANKS
+        - HAWK_CHAOS_00
+        - HAWK_CHAOS_01
+        - HAWK_CHAOS_02
+      mapBlocks:
+        - name: HAWK_CHAOS
+          width: 20
+          length: 20
+
 #LIGHT VEHICLE CONVOY
 #Three "technical" pickup trucks. One is armed with anti-air gun.
   - type: STR_LIGHT_CONVOY

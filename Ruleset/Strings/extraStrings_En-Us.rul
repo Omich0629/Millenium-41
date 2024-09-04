@@ -23,7 +23,7 @@ extraStrings:
       STR_SOUTH_WEST_COUNTRY_1: "PHOBOS INC."
       STR_SOUTH_WEST_COUNTRY_2: "MECHANICUS"
 
-      STR_EXTRA_LABEL_1: "QUARANTINE\n(ORKOID INFESTATION)"
+      STR_EXTRA_LABEL_1: "QUARANTINE ZONE\n(XENOS INFESTATION)"
 
 ### GLOBE TERRAINS ###
 
@@ -231,12 +231,14 @@ extraStrings:
 #CRAFTS
       STR_VALKYRIE_PDF: "Valkyrie"
       STR_EAGLE_PDF: "Eagle"
+      STR_HAWK_PDF: "Hawk"
 
 #UFOS
       STR_CARGO_SHUTTLE: "Cargo Shuttle"
       STR_VALKYRIE_CHAOS: "Chaos Valkyrie"
       STR_RAVEN_CHAOS: "Chaos Raven"
       STR_EAGLE_CHAOS: "Chaos Eagle"
+      STR_HAWK_CHAOS: "Chaos Hawk"
       STR_LIGHT_CONVOY: "Light Vehicle Convoy"
       STR_HEAVY_CONVOY: "Heavy Vehicle Convoy"
 

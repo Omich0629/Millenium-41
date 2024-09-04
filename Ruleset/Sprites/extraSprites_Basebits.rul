@@ -70,6 +70,7 @@ extraSprites:
 #sprite index + 33
       333: Resources/Basebits/Crafts/Basebits_Valkyrie.png #300 + 33
       334: Resources/Basebits/Crafts/Basebits_Eagle.png #301 + 33
+      335: Resources/Basebits/Crafts/Basebits_Hawk.png #301 + 33
 
 #500-799 Unit Miniatures
 
