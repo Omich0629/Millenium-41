@@ -19,7 +19,32 @@ alienMissions:
       0:
         STR_CULTISTS: 100
     waves:
-      - ufo: STR_ARVUS_CHAOS
+      - ufo: STR_HAWK_CHAOS
         count: 1
         trajectory: FROM_SPACE_2
         timer: 60
+
+  - type: STR_RETALIATION
+    points: 0
+    objective: 4
+    spawnUfo: STR_SHUTTLE_TILTJET # Spawned for the final retaliation run
+    raceWeights: # In the case of a shootdown, race comes from the UFO that triggered the mission.
+      0:
+        STR_CULTISTS: 100
+    waves:
+      - ufo: STR_CARGO_SHUTTLE
+        count: 1
+        trajectory: P8
+        timer: 3000
+      - ufo: STR_CARGO_SHUTTLE
+        count: 2
+        trajectory: P8
+        timer: 3000
+      - ufo: STR_CARGO_SHUTTLE
+        count: 3
+        trajectory: P8
+        timer: 3000
+      - ufo: STR_CARGO_SHUTTLE
+        count: 2
+        trajectory: P8
+        timer: 3000

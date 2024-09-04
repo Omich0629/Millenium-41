@@ -24883,3 +24883,89 @@ globe:
       - 6.2190536184239
       - 348.378187986155
       - 6.3621286800492
+
+#Globe textures (area: ([lon1, lon2, lat1, lat2]))
+  textures:
+
+#URBAN SPRAWL TEXTURE
+    - id: 0
+      terrain:
+        - name: RESIDENTIAL_AREA
+
+#AGRICULTURAL AREA TEXTURE 1
+#Wheat fields
+    - id: 1
+      terrain:
+        - name: FIELDS_TYPE1
+
+#AGRICULTURAL AREA TEXTURE 2
+#Corn and potato fields
+    - id: 2
+      terrain:
+        - name: FIELDS_TYPE2
+          weight: 50
+        - name: FIELDS_TYPE3
+          weight: 50
+
+#GRASSLANDS TEXTURE
+    - id: 3
+      terrain:
+        - name: GRASSLANDS
+
+#SAVANNA TEXTURE
+    - id: 4
+      terrain:
+        - name: SAVANNA
+
+#TROPICAL DESERT TEXTURE
+    - id: 5
+      terrain:
+        - name: TROPICAL_DESERT
+
+#TROPICAL FOREST TEXTURE
+    - id: 6
+      terrain:
+        - name: TROPICAL_FOREST
+
+#FOREST TEXTURE
+    - id: 7
+      terrain:
+        - name: TEMPERATE_FOREST
+
+#BOREAL FOREST TEXTURE
+    - id: 8
+      terrain:
+        - name: BOREAL_FOREST
+
+#TUNDRA TEXTURE
+    - id: 9
+      terrain:
+        - name: TUNDRA
+
+#MOUNTAINS TEXTURE
+    - id: 10
+      terrain:
+        - name: MOUNTAINS
+          area: [0, 360, -90, 0] #North Mountains (whole Northern Hemisphere)
+        - name: MOUNTAINS
+          area: [100, 133, 12, 32] #South Mountains
+        - name: TROPICAL_MOUNTAINS
+          area: [322, 330, 2, -8] #Tropical mountains
+
+#SNOW TEXTURE
+    - id: 11
+      terrain:
+        - name: POLAR_DESERT
+          area: [0, 360, -90, -60] #North Pole
+        - name: POLAR_DESERT
+          area: [0, 360, 60, 90] #South Pole
+        - name: SNOWY_MOUNTAINS
+          area: [0, 75, -60, -35] #North Mountains
+        - name: SNOWY_MOUNTAINS
+          area: [106, 127, 15, 24] #South Mountains
+#BROKEN ICE TEXTURE  
+    - id: 12
+      terrain:
+        - name: ICE_SHELF
+
+

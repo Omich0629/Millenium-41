@@ -34,6 +34,9 @@ extraSprites:
 
 #200 - 299 Reserved for special needs
       200: Resources/Items/Generic/Null_Item/Null_Item_Backpack.png
+      201: Resources/Items/Generic/Null_Item/Invisible_Item_Inv.png
+
+      299: Resources/Items/Generic/Debug_Gun/Debug_Gun_Inv.png
 
 #300 - 499 Ammo
       300: Resources/Items/Ammo/Autopistol_Ammo/Autopistol_Magazine_Inv.png
@@ -179,7 +182,8 @@ extraSprites:
       119: Resources/Armors/Cultists/Cultist_Heavy_Armor/Male2/Cultist_Heavy_Armor_Male2_Corpse_Floor.png
 
 #200 - 299 Reserved for special needs
-
+      201: Resources/Items/Generic/Null_Item/Invisible_Item_Floor.png
+      299: Resources/Items/Generic/Debug_Gun/Debug_Gun_Floor.png
 
 #300 - 499 Ammo
       300: Resources/Items/Ammo/Autopistol_Ammo/Autopistol_Magazine_Floor.png
@@ -301,6 +305,9 @@ extraSprites:
     subY: 40
     files:
       88: Resources/Items/Generic/Empty_Hand/Empty_Hand.png
+
+      192: Resources/Items/Generic/Debug_Gun/Debug_Gun_Hand.png
+
 #Reserved just in case
       200: Resources/Items/Arbites/Autopistol_Arbites/Autopistol_Arbites_Hand.png
       208: Resources/Items/Arbites/Autogun_Arbites/Autogun_Arbites_Hand.png

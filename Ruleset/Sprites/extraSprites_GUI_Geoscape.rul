@@ -1,0 +1,242 @@
+extraSprites:
+#GEOSCAPE RELATED SPRITES
+
+### GLOBE TEXTURES
+  - delete: TEXTURE.DAT
+  - type: TEXTURE.DAT
+    width: 544
+    height: 96
+    subX: 32
+    subY: 32
+    files:
+      0: Resources/Globe/Globe_Textures.png
+
+### DOGFIGHT MENU BACKGROUND
+  - delete: INTERWIN.DAT
+  - type: INTERWIN.DAT
+    singleImage: true
+    width: 160
+    height: 96
+    files:
+      0: Resources/GUI/Geoscape/Dogfight_Interface.png
+
+### GEOSCAPE INTERFACE
+  - type: GEOBORD.SCR
+    singleImage: true
+    files:
+      0: Resources/GUI/Geoscape/Geoscape_Interface.png
+
+### GEOSCAPE MENU BACKGROUND
+  - type: GEOSCAPEMENU_BACKGROUND.SCR
+    singleImage: true
+    files:
+      0: Resources/GUI/Geoscape/GeoscapeMenu_Background.png
+
+### GEOSCAPE PAUSE MENU BACKGROUND
+  - type: PAUSEMENU_BACKGROUND.SCR
+    singleImage: true
+    files:
+      0: Resources/GUI/Geoscape/PauseMenu_Background.png
+
+### BASE NAMING WINDOW BACKGROUND
+  - type: BASENAMING_BACKGROUND.SCR
+    singleImage: true
+    files:
+      0: Resources/GUI/Geoscape/BaseNaming_Background.png
+
+### GRAPHS MENU BACKGROUND (GRAPHS BUTTON IN GEOSCAPE)
+  - type: GRAPHS.SPK
+    singleImage: true
+    files:
+      0: Resources/GUI/Geoscape/GraphsMenu_Background.png
+
+### GEOCRAFT MENU BACKGROUND (CLICK ON FLYING CRAFT)
+  - type: GEOCRAFT_BACKGROUND.SCR
+    singleImage: true
+    files:
+      0: Resources/GUI/Geoscape/GeoCraft_Background.png
+
+### INTERCEPT MENU BACKGROUND
+  - type: INTERCEPT_BACKGROUND.SCR
+    singleImage: true
+    files:
+      0: Resources/GUI/Geoscape/Intercept_Background.png
+
+### UFO TRACKER BACKGROUND
+  - type: UFOTRACKER_BACKGROUND.SCR
+    singleImage: true
+    files:
+      0: Resources/GUI/Geoscape/UfoTracker_Background.png
+
+### CRAFT PATROL MENU BACKGROUND
+  - type: CRAFTPATROL_BACKGROUND.SCR
+    singleImage: true
+    files:
+      0: Resources/GUI/Geoscape/CraftPatrol_Background.png
+
+### CRAFT ERROR MENU BACKGROUND
+  - type: CRAFTERROR_BACKGROUND.SCR
+    singleImage: true
+    files:
+      0: Resources/GUI/Geoscape/CraftError_Background.png
+
+### CRAFT PILOT ERROR MENU BACKGROUND
+  - type: CRAFTPILOTERROR_BACKGROUND.SCR
+    singleImage: true
+    files:
+      0: Resources/GUI/Geoscape/CraftPilotError_Background.png
+
+### CONFIRM DESTINATION MENU BACKGROUND
+  - type: CONFIRMDESTINATION_BACKGROUND.SCR
+    singleImage: true
+    files:
+      0: Resources/GUI/Geoscape/ConfirmDestination_Background.png
+
+### CONFIRM CYDONIA MENU BACKGROUND
+  - type: CONFIRMCYDONIA_BACKGROUND.SCR
+    singleImage: true
+    files:
+      0: Resources/GUI/Geoscape/ConfirmCydonia_Background.png
+
+### LOW FUEL MENU BACKGROUND
+  - type: LOWFUEL_BACKGROUND.SCR
+    singleImage: true
+    files:
+      0: Resources/GUI/Geoscape/LowFuel_Background.png
+
+### ALIEN BASE MENU BACKGROUND
+  - type: ALIENBASE_BACKGROUND.SCR
+    singleImage: true
+    files:
+      0: Resources/GUI/Geoscape/AlienBase_Background.png
+
+### ITEMS ARRIVING MENU BACKGROUND
+  - type: ITEMSARRIVING_BACKGROUND.SCR
+    singleImage: true
+    files:
+      0: Resources/GUI/Geoscape/ItemsArriving_Background.png
+
+### GEOSCAPE NEW CRAFT MENU BACKGROUND
+  - type: GEONEWCRAFT_BACKGROUND.SCR
+    singleImage: true
+    files:
+      0: Resources/GUI/Geoscape/GeoNewCraft_Background.png
+
+### GEOSCAPE NEW FACILITY MENU BACKGROUND
+  - type: GEONEWFACILITY_BACKGROUND.SCR
+    singleImage: true
+    files:
+      0: Resources/GUI/Geoscape/GeoNewFacility_Background.png
+
+### GEOSCAPE NEW ITEM MENU BACKGROUND
+  - type: GEONEWITEM_BACKGROUND.SCR
+    singleImage: true
+    files:
+      0: Resources/GUI/Geoscape/GeoNewItem_Background.png
+
+### MONTHLY REPORT MENU BACKGROUND
+  - type: MONTHLYREPORT_BACKGROUND.SCR
+    singleImage: true
+    files:
+      0: Resources/GUI/Geoscape/MonthlyReport_Background.png
+
+### FUNDING WINDOW BACKGROUND
+  - type: FUNDINGWINDOW_BACKGROUND.SCR
+    singleImage: true
+    files:
+      0: Resources/GUI/Geoscape/FundingWindow_Background.png
+
+### CONFIRM LANDING MENU BACKGROUND
+  - type: CONFIRMLANDING_BACKGROUND.SCR
+    singleImage: true
+    files:
+      0: Resources/GUI/Geoscape/ConfirmLanding_Background.png
+
+### UFO INFO MENU BACKGROUND
+  - type: UFOINFO_BACKGROUND.SCR
+    singleImage: true
+    files:
+      0: Resources/GUI/Geoscape/UfoInfo_Background.png
+
+### UFO LOST MENU BACKGROUND
+  - type: UFOLOST_BACKGROUND.SCR
+    singleImage: true
+    files:
+      0: Resources/GUI/Geoscape/UfoLost_Background.png
+
+### MULTIPLE TARGETS MENU BACKGROUND
+  - type: MULTIPLETARGETS_BACKGROUND.SCR
+    singleImage: true
+    files:
+      0: Resources/GUI/Geoscape/MultipleTargets_Background.png
+
+### GEOSCAPE RESEARCH MENU BACKGROUND("VIEW REPORTS" SUBMENU)
+  - type: GEORESEARCH_BACKGROUND.SCR
+    singleImage: true
+    files:
+      0: Resources/GUI/Geoscape/GeoResearch_Background.png
+
+### GEOSCAPE RESEARCH COMPLETE MENU BACKGROUND
+  - type: GEORESEARCHCOMPLETE_BACKGROUND.SCR
+    singleImage: true
+    files:
+      0: Resources/GUI/Geoscape/GeoResearchComplete_Background.png
+
+### GEOSCAPE RESEARCH REQUIRED MENU BACKGROUND
+  - type: GEORESEARCHREQUIRED_BACKGROUND.SCR
+    singleImage: true
+    files:
+      0: Resources/GUI/Geoscape/GeoResearchRequired_Background.png
+
+### GEOSCAPE MANUFACTURE MENU BACKGROUND (?)
+  - type: GEOMANUFACTURE_BACKGROUND.SCR
+    singleImage: true
+    files:
+      0: Resources/GUI/Geoscape/GeoManufacture_Background.png
+
+### GEOSCAPE MANUFACTURE COMPLETE MENU BACKGROUND
+  - type: GEOMANUFACTURECOMPLETE_BACKGROUND.SCR
+    singleImage: true
+    files:
+      0: Resources/GUI/Geoscape/GeoManufactureComplete_Background.png
+
+### BASE DESTROYED MENU BACKGROUND
+  - type: BASEDESTROYED_BACKGROUND.SCR
+    singleImage: true
+    files:
+      0: Resources/GUI/Geoscape/BaseDestroyed_Background.png
+
+### DOGFIGHT EXPERIENCE MENU BACKGROUND
+  - type: DOGFIGHTEXPERIENCE_BACKGROUND.SCR
+    singleImage: true
+    files:
+      0: Resources/GUI/Geoscape/DogfightExperience_Background.png
+
+### TARGET INFO MENU BACKGROUND
+  - type: TARGETINFO_BACKGROUND.SCR
+    singleImage: true
+    files:
+      0: Resources/GUI/Geoscape/TargetInfo_Background.png
+
+### "CANNOT REEQUIP" MENU BACKGROUND
+  - type: CANNOTREEQUIP_BACKGROUND.SCR
+    singleImage: true
+    files:
+      0: Resources/GUI/Geoscape/CannotReequip_Background.png
+
+### DOGFIGHT INFO MENU BACKGROUND
+  - type: DOGFIGHTINFO_BACKGROUND.SCR
+    singleImage: true
+    files:
+      0: Resources/GUI/Geoscape/DogfightInfo_Background.png
+
+
+
+
+
+
+
+
+
+
+

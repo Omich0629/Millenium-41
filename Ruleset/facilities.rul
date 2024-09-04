@@ -1,5 +1,312 @@
 facilities:
-#For testing purposes
-  - type: STR_SMALL_RADAR_SYSTEM
-    radarRange: 9500
+
+## ACCESS LIFT ##
+  - type: STR_FACILITY_ACCESS_LIFT
+#Resources
+    spriteShape: 1
+    spriteFacility: 100
+    mapName: PLAYER_BASE_01
+#Cost
+    buildCost: 300000
+    monthlyCost: 4000
+#Specification
+    buildTime: 1
+    lift: true
+
+
+## CORRIDOR (EMPTY 10X10 MODULE) ##
+  - type: STR_FACILITY_CORRIDOR
+#Resources
+    spriteShape: 1
+    spriteFacility: 101
+    mapName: PLAYER_BASE_02
+#Cost
+    buildCost: 50000
+    monthlyCost: 5000
+#Specification
+    buildTime: 6
+
+
+## BARRACKS (LIVING QUARTERS) ##
+  - type: STR_FACILITY_BARRACKS
+#Resources
+    spriteShape: 1
+    spriteFacility: 102
+    mapName: PLAYER_BASE_03
+#Cost
+    buildCost: 400000
+    monthlyCost: 10000
+#Specification
+    buildTime: 18
+    personnel: 40
+
+
+## STORAGE FACILITY ##
+  - type: STR_FACILITY_STORAGE
+#Resources
+    spriteShape: 1
+    spriteFacility: 103
+    mapName: PLAYER_BASE_04
+#Cost
+    buildCost: 150000
+    monthlyCost: 5000
+#Specification
+    buildTime: 10
+    storage: 50
+    storageTiles: [[0, 1, 2],
+                   [1, 1, 2],
+                   [6, 6, 2],
+                   [6, 7, 2]]
+
+
+## RESEARCH FACILITY (LABORATORY) ##
+  - type: STR_FACILITY_RESEARCH
+#Resources
+    spriteShape: 1
+    spriteFacility: 104
+    mapName: PLAYER_BASE_05
+#Cost
+    buildCost: 750000
+    monthlyCost: 30000
+#Specification
+    buildTime: 26
+    labs: 10
+
+
+## WORKSHOP ##
+  - type: STR_FACILITY_WORKSHOP
+#Resources
+    spriteShape: 1
+    spriteFacility: 105
+    mapName: PLAYER_BASE_06
+#Cost
+    buildCost: 800000
+    monthlyCost: 35000
+#Specification
+    buildTime: 32
+    workshops: 41
+
+
+## HOSPITAL ##
+  - type: STR_FACILITY_HOSPITAL
+#Resources
+    spriteShape: 1
+    spriteFacility: 106
+    mapName: PLAYER_BASE_07
+#Cost
+    buildCost: 750000
+    monthlyCost: 30000
+#Specification
+    buildTime: 26
+    sickBayAbsoluteBonus: 1.0 #regenerates an additional 1% of soldier's max hp per day 
+    maxAllowedPerBase: 1
+
+
+## SMALL RADAR SYSTEM ##
+  - type: STR_FACILITY_SMALL_RADAR
+#Resources
+    spriteShape: 1
+    spriteFacility: 107
+    mapName: PLAYER_BASE_08
+#Cost
+    buildCost: 500000
+    monthlyCost: 10000
+#Specification
+    buildTime: 12
+    radarRange: 1695
+    radarChance: 10
+
+
+## MEDIUM RADAR SYSTEM ##
+  - type: STR_FACILITY_MEDIUM_RADAR
+#Resources
+    spriteShape: 1
+    spriteFacility: 108
+    mapName: PLAYER_BASE_09
+#Cost
+    buildCost: 800000
+    monthlyCost: 15000
+#Specification
+    buildTime: 25
+    radarRange: 2577
+    radarChance: 20
+
+
+## LARGE RADAR SYSTEM (HYPER-WAVE DECODER) ##
+  - type: STR_FACILITY_LARGE_RADAR
+#Resources
+    spriteShape: 1
+    spriteFacility: 109
+    mapName: PLAYER_BASE_10
+#Cost
+    buildCost: 1400000
+    monthlyCost: 30000
+#Specification
+    buildTime: 26
+    radarRange: 2759
     radarChance: 100
+    hyper: true
+
+
+## EDUCATION FACILITY (PSI-LAB) ##
+  - type: STR_FACILITY_EDUCATION
+#Resources
+    spriteShape: 1
+    spriteFacility: 110
+    mapName: PLAYER_BASE_11
+#Cost
+    buildCost: 600000
+    monthlyCost: 16000
+#Specification
+    buildTime: 24
+    psiLabs: 20
+
+
+## PRISON (ALIEN CONTAINMENT) ##
+#Resources
+  - type: STR_FACILITY_PRISON
+    spriteShape: 1
+    spriteFacility: 111
+    mapName: PLAYER_BASE_12
+#Cost
+    buildCost: 400000
+    monthlyCost: 15000
+#Specification
+    buildTime: 18
+    aliens: 8
+
+
+## COUNTER RADAR SYSTEM (MIND SHIELD) ##
+  - type: STR_FACILITY_COUNTER_RADAR
+#Resources
+    spriteShape: 1
+    spriteFacility: 112
+    mapName: PLAYER_BASE_13
+#Cost
+    buildCost: 1300000
+    monthlyCost: 5000
+#Specification
+    buildTime: 33
+    mind: true
+    maxAllowedPerBase: 1
+
+
+## TARGETING SYSTEM (GRAV SHIELD) ##
+  - type: STR_FACILITY_TARGETING_SYSTEM
+#Resources
+    spriteShape: 1
+    spriteFacility: 113
+    mapName: PLAYER_BASE_14
+#Cost
+    buildCost: 1200000
+    monthlyCost: 15000
+#Specification
+    buildTime: 38
+    grav: true
+    maxAllowedPerBase: 1
+
+
+## MISSILE DEFENSES ##
+  - type: STR_FACILITY_MISSILE_DEFENSES
+#Resources
+    spriteShape: 1
+    spriteFacility: 114
+    mapName: PLAYER_BASE_15
+    fireSound: 5
+    hitSound: 10
+#Cost
+    buildCost: 200000
+    monthlyCost: 5000
+#Specification
+    buildTime: 16
+    defense: 500
+    hitRatio: 50
+
+
+## LASER DEFENSES ##
+  - type: STR_FACILITY_LASER_DEFENSES
+#Resources
+    spriteShape: 1
+    spriteFacility: 115
+    mapName: PLAYER_BASE_16
+    fireSound: 8
+    hitSound: 10
+#Cost
+    buildCost: 400000
+    monthlyCost: 10000
+#Specification
+    buildTime: 24
+    defense: 600
+    hitRatio: 60
+
+
+## PLASMA DEFENSES ##
+  - type: STR_FACILITY_PLASMA_DEFENSES
+#Resources
+    spriteShape: 1
+    spriteFacility: 116
+    mapName: PLAYER_BASE_17
+    fireSound: 9
+    hitSound: 10
+#Cost
+    buildCost: 600000
+    monthlyCost: 12000
+#Specification
+    buildTime: 34
+    defense: 900
+    hitRatio: 70
+
+
+## MELTA DEFENSES ##
+  - type: STR_FACILITY_MELTA_DEFENSES
+#Resources
+    spriteShape: 1
+    spriteFacility: 117
+    mapName: PLAYER_BASE_18
+    fireSound: 7
+    hitSound: 10
+#Cost
+    buildCost: 800000
+    monthlyCost: 14000
+#Specification
+    buildTime: 34
+    defense: 1200
+    hitRatio: 80
+
+
+## HANGAR FACILITY (20X20) ##
+  - type: STR_FACILITY_HANGAR
+#Resources
+    spriteFacility: 118
+    spriteShape: 118
+    mapName: PLAYER_BASE_19 #And three next mapblocks (20, 21, 22)
+#Cost
+    buildCost: 200000
+    monthlyCost: 25000
+#Specification
+    buildTime: 25
+    size: 2
+    crafts: 1
+    storage: 5 #OXCE bonus because of change in handling craft storage
+    storageTiles: [[-1, -1, -1]]
+
+
+## TRAINING FACILITY (20X20) ##
+  - type: STR_FACILITY_TRAINING
+#Resources
+    spriteFacility: 126
+    spriteShape: 126
+    mapName: PLAYER_BASE_23 #And three next mapblocks (24, 25, 26)
+#Cost
+    buildCost: 200000
+    monthlyCost: 25000
+#Specification
+    buildTime: 20
+    size: 2
+    trainingRooms: 40
+
+
+
+
+
+

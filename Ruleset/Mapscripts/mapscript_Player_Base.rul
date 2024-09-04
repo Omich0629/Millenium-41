@@ -1,0 +1,25 @@
+mapScripts:
+## Player Base Script
+  - type: PLAYER_BASE
+#Map size: 60x60
+#Possible coordinates:
+#x: 0-5
+#y: 0-5
+#First floor: 2
+
+#There are no groups in this case
+
+    commands:
+    - type: digTunnel
+      direction: both
+      tunnelData:
+        level: 2
+        MCDReplacements:
+          - type: westWall
+            set: 1
+            entry: 21
+          - type: northWall
+            set: 1
+            entry: 20
+    - type: fillArea
+      blocks: 0

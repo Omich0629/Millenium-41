@@ -1,0 +1,70 @@
+extraSprites:
+#MAIN MENU RELATED SPRITES
+
+### MAIN MENU BACKGROUND
+  - type: MAINMENU_BACKGROUND.SCR
+    singleImage: true
+    files:
+      0: Resources/GUI/MainMenu/MainMenu_Background.png
+
+### TESTS MENU BACKGROUND
+  - type: TESTS_BACKGROUND.SCR
+    singleImage: true
+    files:
+      0: Resources/GUI/MainMenu/Tests_Background.png
+
+### NEW BATTLE MENU BACKGROUND
+  - type: NEWBATTLE_BACKGROUND.SCR
+    singleImage: true
+    files:
+      0: Resources/GUI/MainMenu/NewBattle_Background.png
+
+### NEW BATTLE MENU BACKGROUND
+  - type: NEWGAME_BACKGROUND.SCR
+    singleImage: true
+    files:
+      0: Resources/GUI/MainMenu/NewGame_Background.png
+
+### OPTIONS MENU BACKGROUND
+  - type: OPTIONS_BACKGROUND.SCR
+    singleImage: true
+    files:
+      0: Resources/GUI/MainMenu/OptionsMenu_Background.png
+
+### MODS MENU BACKGROUND
+  - type: MODS_BACKGROUND.SCR
+    singleImage: true
+    files:
+      0: Resources/GUI/MainMenu/Mods_Background.png
+
+### SAVE/LOAD MENU BACKGROUND
+  - type: SAVELOADMENU_BACKGROUND.SCR
+    singleImage: true
+    files:
+      0: Resources/GUI/MainMenu/SaveLoadMenu_Background.png
+
+### NOTE MENU BACKGROUND
+  - type: NOTEMENU_BACKGROUND.SCR
+    singleImage: true
+    files:
+      0: Resources/GUI/MainMenu/NoteMenu_Background.png
+
+### SELECT MUSIC TRACK MENU BACKGROUND
+  - type: SELECTMUSICTRACK_BACKGROUND.SCR
+    singleImage: true
+    files:
+      0: Resources/GUI/MainMenu/SelectMusicTrack_Background.png
+
+### OXCE LINKS MENU BACKGROUND
+  - type: OXCELINKS_BACKGROUND.SCR
+    singleImage: true
+    files:
+      0: Resources/GUI/MainMenu/OXCELinks_Background.png
+
+
+
+
+
+
+
+

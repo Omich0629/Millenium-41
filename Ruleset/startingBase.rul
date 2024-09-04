@@ -1,34 +1,44 @@
 startingBase:
   facilities:
-    - type: STR_ACCESS_LIFT
+    - type: STR_FACILITY_ACCESS_LIFT
       x: 2
       y: 2
-    - type: STR_HANGAR
+    - type: STR_FACILITY_HANGAR
+      x: 0
+      y: 0
+    - type: STR_FACILITY_HANGAR
       x: 2
       y: 0
-    - type: STR_HANGAR
-      x: 0
-      y: 4
-    - type: STR_HANGAR
+    - type: STR_FACILITY_HANGAR
       x: 4
-      y: 4
-    - type: STR_LIVING_QUARTERS
-      x: 3
-      y: 2
-    - type: STR_GENERAL_STORES
-      x: 2
-      y: 3
-    - type: STR_LABORATORY
-      x: 3
-      y: 3
-    - type: STR_WORKSHOP
-      x: 4
-      y: 3
-    - type: STR_SMALL_RADAR_SYSTEM
+      y: 0
+    - type: STR_FACILITY_SMALL_RADAR
       x: 1
       y: 3
-  randomSoldiers: 8
+    - type: STR_FACILITY_STORAGE
+      x: 2
+      y: 3
+    - type: STR_FACILITY_RESEARCH
+      x: 3
+      y: 3
+    - type: STR_FACILITY_WORKSHOP
+      x: 4
+      y: 3
+    - type: STR_FACILITY_BARRACKS
+      x: 2
+      y: 4
+
+  randomSoldiers: 12
   crafts:
   items:
   scientists: 10
   engineers: 10
+  crafts:
+    - type: STR_VALKYRIE_PDF
+      id: 1
+      fuel: 1250
+      damage: 0
+      status: STR_READY
+      weapons:
+        - type: STR_CRAFT_AUTOCANNON
+          ammo: 200

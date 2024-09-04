@@ -1,0 +1,33 @@
+extraSprites:
+  - type: INTICON.PCK
+    files:
+#skip 0-16 (Original INTICON tiles)
+
+#Geospace minimised craft icons (sprite index + 0)
+      300: Resources/Initcon/Minimised_Craft/Initcon_Minimised_Valkyrie.png
+      301: Resources/Initcon/Minimised_Craft/Initcon_Minimised_Eagle.png
+      302: Resources/Initcon/Minimised_Craft/Initcon_Minimised_Hawk.png
+
+#Craft dogfight icons (sprite index + 11)
+      311: Resources/Initcon/Dogfight_Craft/Initcon_Dogfight_Valkyrie.png
+      312: Resources/Initcon/Dogfight_Craft/Initcon_Dogfight_Eagle.png
+      313: Resources/Initcon/Dogfight_Craft/Initcon_Dogfight_Hawk.png
+
+#Craft Weapons dogfight icons (sprite index + 5)
+      805: Resources/Initcon/Craft_Weapons/Initcon_Autocannon.png #800 + 5
+      806: Resources/Initcon/Craft_Weapons/Initcon_Assault_Cannon.png #801 + 5
+      807: Resources/Initcon/Craft_Weapons/Initcon_Bolt_Cannon.png #802 + 5
+      808: Resources/Initcon/Craft_Weapons/Initcon_Light_Rocket.png #803 + 5
+      809: Resources/Initcon/Craft_Weapons/Initcon_Medium_Rocket.png #804 + 5
+      810: Resources/Initcon/Craft_Weapons/Initcon_Heavy_Rocket.png #805 + 5
+      811: Resources/Initcon/Craft_Weapons/Initcon_Multilaser.png #806 + 5
+      812: Resources/Initcon/Craft_Weapons/Initcon_Lascannon.png #807 + 5
+      813: Resources/Initcon/Craft_Weapons/Initcon_Turbolaser.png #808 + 5
+      814: Resources/Initcon/Craft_Weapons/Initcon_Melta_Cannon.png #809 + 5
+      815: Resources/Initcon/Craft_Weapons/Initcon_Plasma_Cannon.png #810 + 5
+      816: Resources/Initcon/Craft_Weapons/Initcon_Extra_Armor.png #811 + 5
+      817: Resources/Initcon/Craft_Weapons/Initcon_Shield_Generator.png #812 + 5
+      818: Resources/Initcon/Craft_Weapons/Initcon_Advanced_Radar.png #813 + 5
+      819: Resources/Initcon/Craft_Weapons/Initcon_Targeter.png #814 + 5
+      820: Resources/Initcon/Craft_Weapons/Initcon_Maneuver_Assistant.png #815 + 5
+      821: Resources/Initcon/Craft_Weapons/Initcon_Thrust_Controller.png #816 + 5

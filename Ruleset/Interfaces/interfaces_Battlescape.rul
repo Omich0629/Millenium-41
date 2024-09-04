@@ -1,0 +1,286 @@
+interfaces:
+### BATTLESCAPE RELATED INTERFACES
+
+### BATTLESCAPE GUI
+  - type: battlescape
+    palette: PAL_BATTLESCAPE
+    elements:
+      - id: textLoad
+        color: 15 # (?)
+      - id: textName
+        color: 48 # Soldier Name
+      - id: numTUs
+        color: 64
+      - id: numEnergy
+        color: 16 
+      - id: numHealth
+        color: 32
+      - id: numMorale
+        color: 192
+      - id: barTUs
+        color: 64
+      - id: barEnergy
+        color: 16
+      - id: barHealth
+        color: 32
+        color2: 82
+      - id: barMorale
+        color: 192
+      - id: barMana
+        color: 208
+      - id: numAmmoLeft
+        color: 3
+      - id: numAmmoRight
+        color: 3
+      - id: textTooltip
+        color: 48
+      - id: buttonReserveNone
+        color: 56
+      - id: buttonReserveSnap
+        color: 40
+      - id: buttonReserveAimed
+        color: 40
+      - id: buttonReserveAuto
+        color: 40
+      - id: buttonReserveKneel
+        color: 40 
+      - id: buttonZeroTUs
+        color: 40
+      - id: infoBoxOK
+        color: 15
+        color2: 27
+        border: 20
+      - id: infoBoxOKButton
+        color: 15
+      - id: infoBox
+        color: -1
+        color2: 10
+        border: 2
+      - id: grenadeMenu
+        color: 47
+        color2: 59
+        border: 52
+      # The usage of the following is hard-coded, these ones MUST be defined
+      - id: visibleUnits
+        pos: [300, -16]
+        color: 16
+      - id: squadsightUnits
+        color: 54
+      - id: woundedUnits
+        color: 134
+      - id: passingOutUnits
+        color: 198
+      - id: icons
+        size: [320, 56]
+      - id: numLayers
+        color: 15
+      - id: warning
+        color: 16
+        color2: 32
+      #Window shown between the turns
+      - id: messageWindows
+        color: 62 #Text
+        color2: 14
+        border: 7
+      - id: optionLists
+        color: -1
+        color2: 62 #Headers of the lists in the options menu
+        border: -1
+      - id: disabledUserOption
+        color: 240
+      - id: messageWindowButtons
+        color: -1
+      - id: messageWindowBorder
+        color: -1
+      #Menu with item actions (snap shot, auto shot and so on)
+      - id: actionMenu
+        color: -1
+        color2: 14
+        border: 3
+      - id: grenadeBackground
+        color: 56
+        color2: 60
+        border: 62
+      - id: medikitRed
+        color: 2
+      - id: medikitGreen
+        color: 4
+      - id: medikitBlue
+        color: 13
+      - id: medikitOrange
+        color: 6
+      - id: twoHandedRed
+        color: 36
+      - id: twoHandedGreen
+        color: 52
+
+### BRIEFING MENU
+#Geoscape palette
+  - type: briefing
+    elements:
+      - id: window
+        color: 239
+      - id: button
+        color: 239
+        color2: 239
+      - id: text
+        color: 138
+
+### DEBRIEFING MENU
+  - type: debriefing
+    backgroundImage: DEBRIEFING_BACKGROUND.SCR
+    elements:
+      - id: palette
+        color: 0     # brown
+      - id: window
+        color: 239   # bright green
+      - id: heading
+        color: 138   # yellow
+      - id: text
+        color: 138   # yellow
+      - id: list
+        color: 239   # bright green
+        color2: 239   # bright green
+      - id: totals
+        color: 239   # bright green
+      - id: button
+        color: 239   # bright green
+      - id: errorPalette
+        color: 0     # brown
+      - id: errorMessage
+        color: 239   # bright green
+
+### INVENTORY MENU
+  - type: inventory
+    elements:
+      - id: textName
+        color: 48
+      - id: textTUs
+        color: 47
+        color2: 15
+      - id: textWeight
+        color: 47
+        color2: 15
+      - id: textStatLine1
+        custom: 1
+        color: 47
+        color2: 15
+      - id: textStatLine2
+        custom: 2
+        color: 47
+        color2: 15
+      - id: textStatLine3
+        custom: 3
+        color: 47
+        color2: 15
+      - id: textStatLine4
+        custom: 4
+        color: 47
+        color2: 15
+      - id: textItem
+        color: 47
+        color2: 15
+      - id: textAmmo
+        color: 47
+        color2: 15
+      # required
+      - id: textSlots
+        color: 47
+      - id: weight
+        color: 15     # gold (acceptable)
+        color2: 32    # red (overweight)
+      - id: grid
+        color: 8
+      - id: numStack
+        color: 50
+        color2: 32
+
+### BATTLESCAPE STATS MENU
+  - type: stats
+    elements:
+      - id: textName
+        color: 64
+      - id: barTUs
+        color: 64
+      - id: barEnergy
+        color: 144
+      - id: barHealth
+        color: 32
+        color2: 82
+      - id: barWounds
+        color: 32
+      - id: barBravery
+        color: 192
+      - id: barMorale
+        color: 192
+      - id: barReactions
+        color: 144
+      - id: barFiring
+        color: 128
+      - id: barThrowing
+        color: 96
+      - id: barMelee
+        color: 224
+      - id: barStrength
+        color: 48
+      - id: barMana
+        color: 128
+      - id: barPsiStrength
+        color: 192
+      - id: barPsiSkill
+        color: 128
+      - id: barFrontArmor
+        color: 80
+      - id: barLeftArmor
+        color: 80
+      - id: barRightArmor
+        color: 80
+      - id: barRearArmor
+        color: 80
+      - id: barUnderArmor
+        color: 80
+      - id: button
+        color: 50
+      # required
+      - id: text
+        color: 48
+        color2: 144
+
+### MINIMAP MENU
+  - type: minimap
+    elements:
+      # required
+      - id: textLevel
+        color: 48
+      - id: emptySpace
+        color: 260
+
+### MEDI-KIT MENU
+  - type: medikit
+    elements:
+      - id: textPK
+        color: 48
+      - id: numPK
+        color: 48
+      - id: textStim
+        color: 48
+      - id: numStim
+        color: 48
+      - id: textHeal
+        color: 48
+      - id: numHeal
+        color: 48
+      - id: textPart
+        color: 32
+      - id: numWounds
+        color: 32
+      - id: buttonEnd
+        pos: [220, 140]
+        size: [20, 20]
+
+
+
+
+
+
+

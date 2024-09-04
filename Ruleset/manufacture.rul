@@ -1,0 +1,8 @@
+manufacture:
+  - name: STR_AUSPEX
+    category: STR_EQUIPMENT
+#    requires:
+#      - STR_MOTION_SCANNER
+    space: 1
+    time: 10
+    cost: 34000

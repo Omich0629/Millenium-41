@@ -1,0 +1,362 @@
+extraSprites:
+#MAIN MENU RELATED SPRITES
+
+
+#FACILITY RELATED SPRITES
+
+### PLACE FACILITY MENU BACKGROUND
+  - type: PLACEFACILITY_BACKGROUND.SCR
+    singleImage: true
+    files:
+      0: Resources/GUI/Basescape/PlaceFacility_Background.png
+
+### SELECT FACILITY MENU BACKGROUND
+  - type: SELECTFACILITY_BACKGROUND.SCR
+    singleImage: true
+    files:
+      0: Resources/GUI/Basescape/SelectFacility_Background.png
+
+### DISMANTLE FACILITY MENU BACKGROUND
+  - type: DISMANTLEFACILITY_BACKGROUND.SCR
+    singleImage: true
+    files:
+      0: Resources/GUI/Basescape/DismantleFacility_Background.png
+
+### BASE DEFENSE MENU BACKGROUND (DEFENSE FACILITIES VS. UFO)
+  - type: BASEDEFENSE_BACKGROUND.SCR
+    singleImage: true
+    files:
+      0: Resources/GUI/Basescape/BaseDefense_Background.png
+
+### MANAGE ALIEN CONTAINMENT MENU BACKGROUND
+  - type: MANAGECONTAINMENT_BACKGROUND.SCR
+    singleImage: true
+    files:
+      0: Resources/GUI/Basescape/ManageContainment_Background.png
+
+
+#SOLDIER MENU RELATED SPRITES
+
+### SOLDIER LIST MENU BACKGROUND
+  - type: SOLDIERLIST_BACKGROUND.SCR
+    singleImage: true
+    files:
+      0: Resources/GUI/Basescape/SoldierList_Background.png
+
+### SOLDIER MEMORIAL MENU BACKGROUND
+  - type: SOLDIERMEMORIAL_BACKGROUND.SCR
+    singleImage: true
+    files:
+      0: Resources/GUI/Basescape/SoldierMemorial_Background.png
+
+### SOLDIER DIARY MENU BACKGROUND
+  - type: SOLDIERDIARY_BACKGROUND.SCR
+    singleImage: true
+    files:
+      0: Resources/GUI/Basescape/SoldierDiary_Background.png
+
+### SOLDIER DIARY MISSION MENU BACKGROUND (?)
+  - type: SOLDIERDIARYMISSION_BACKGROUND.SCR
+    singleImage: true
+    files:
+      0: Resources/GUI/Basescape/SoldierDiaryMission_Background.png
+
+### SOLDIER DIARY PERFORMANCE MENU BACKGROUND
+  - type: SOLDIERDIARYPERFORMANCE_BACKGROUND.SCR
+    singleImage: true
+    files:
+      0: Resources/GUI/Basescape/SoldierDiaryPerformance_Background.png
+
+### ENDGAME STATISTICS MENU BACKGROUND
+  - type: ENDGAMESTATISTICS_BACKGROUND.SCR
+    singleImage: true
+    files:
+      0: Resources/GUI/Basescape/EndGameStatistics_Background.png
+
+### PROMOTIONS MENU BACKGROUND
+  - type: PROMOTIONS_BACKGROUND.SCR
+    singleImage: true
+    files:
+      0: Resources/GUI/Basescape/Promotions_Background.png
+
+### SOLDIER TRANSFORMATION MENU BACKGROUND
+  - type: SOLDIERTRANSFORMATION_BACKGROUND.SCR
+    singleImage: true
+    files:
+      0: Resources/GUI/Basescape/SoldierTransformation_Background.png
+
+### TRANSFORMATION LIST MENU BACKGROUND
+  - type: TRANSFORMATIONLIST_BACKGROUND.SCR
+    singleImage: true
+    files:
+      0: Resources/GUI/Basescape/TransformationList_Background.png
+
+### SACK SOLDIER MENU BACKGROUND
+  - type: SACKSOLDIER_BACKGROUND.SCR
+    singleImage: true
+    files:
+      0: Resources/GUI/Basescape/SackSoldier_Background.png
+
+### SOLDIER ARMOR MENU BACKGROUND
+  - type: SOLDIERARMOR_BACKGROUND.SCR
+    singleImage: true
+    files:
+      0: Resources/GUI/Basescape/SoldierArmor_Background.png
+
+### SOLDIER AVATAR MENU BACKGROUND
+  - type: SOLDIERAVATAR_BACKGROUND.SCR
+    singleImage: true
+    files:
+      0: Resources/GUI/Basescape/SoldierAvatar_Background.png
+
+### SOLDIER BONUS MENU BACKGROUND
+  - type: SOLDIERBONUS_BACKGROUND.SCR
+    singleImage: true
+    files:
+      0: Resources/GUI/Basescape/SoldierBonus_Background.png
+
+### COMMENDATIONS MENU BACKGROUND
+  - type: COMMENDATIONS_BACKGROUND.SCR
+    singleImage: true
+    files:
+      0: Resources/GUI/Basescape/Commendations_Background.png
+
+### COMMENDATIONS LATE MENU BACKGROUND
+  - type: COMMENDATIONSLATE_BACKGROUND.SCR
+    singleImage: true
+    files:
+      0: Resources/GUI/Basescape/CommendationsLate_Background.png
+
+### TRAINING FINISHED MENU BACKGROUND
+  - type: TRAININGFINISHED_BACKGROUND.SCR
+    singleImage: true
+    files:
+      0: Resources/GUI/Basescape/TrainingFinished_Background.png
+
+### MARTIAL TRAINING MENU BACKGROUND
+  - type: MARTIALTRAINING_BACKGROUND.SCR
+    singleImage: true
+    files:
+      0: Resources/GUI/Basescape/MartialTraining_Background.png
+
+### ALLOCATE MARTIAL MENU BACKGROUND
+  - type: ALLOCATEMARTIAL_BACKGROUND.SCR
+    singleImage: true
+    files:
+      0: Resources/GUI/Basescape/AllocateMartial_Background.png
+
+### PSI TRAINING MENU BACKGROUND
+  - type: PSITRAINING_BACKGROUND.SCR
+    singleImage: true
+    files:
+      0: Resources/GUI/Basescape/PsiTraining_Background.png
+
+### ALLOCATE PSI MENU BACKGROUND
+  - type: ALLOCATEPSI_BACKGROUND.SCR
+    singleImage: true
+    files:
+      0: Resources/GUI/Basescape/AllocatePsi_Background.png
+
+
+#CRAFTS MENU RELATED SPRITES
+
+### CRAFT SOLDIERS MENU BACKGROUND
+  - type: CRAFTSOLDIERS_BACKGROUND.SCR
+    singleImage: true
+    files:
+      0: Resources/GUI/Basescape/CraftSoldiers_Background.png
+
+### CRAFT PILOTS MENU BACKGROUND
+  - type: CRAFTPILOTS_BACKGROUND.SCR
+    singleImage: true
+    files:
+      0: Resources/GUI/Basescape/CraftPilots_Background.png
+
+### CRAFT PILOTS SELECT MENU BACKGROUND
+  - type: CRAFTPILOTSSELECT_BACKGROUND.SCR
+    singleImage: true
+    files:
+      0: Resources/GUI/Basescape/CraftPilotsSelect_Background.png
+
+### CRAFT EQUIPMENT MENU BACKGROUND
+  - type: CRAFTEQUIPMENT_BACKGROUND.SCR
+    singleImage: true
+    files:
+      0: Resources/GUI/Basescape/CraftEquipment_Background.png
+
+### CRAFT EQUIPMENT SAVE MENU
+  - type: CRAFTEQUIPMENTSAVE_BACKGROUND.SCR
+    singleImage: true
+    files:
+      0: Resources/GUI/Basescape/CraftEquipmentSave_Background.png
+
+### CRAFT EQUIPMENT LOAD MENU
+  - type: CRAFTEQUIPMENTLOAD_BACKGROUND.SCR
+    singleImage: true
+    files:
+      0: Resources/GUI/Basescape/CraftEquipmentLoad_Background.png
+
+### CRAFT ARMOR MENU BACKGROUND
+  - type: CRAFTARMOR_BACKGROUND.SCR
+    singleImage: true
+    files:
+      0: Resources/GUI/Basescape/CraftArmor_Background.png
+
+### CRAFT INFO MENU
+  - type: CRAFTINFO_BACKGROUND.SCR
+    singleImage: true
+    files:
+      0: Resources/GUI/Basescape/CraftInfo_Background.png
+
+### CRAFT WEAPONS MENU BACKGROUND
+  - type: CRAFTWEAPONS_BACKGROUND.SCR
+    singleImage: true
+    files:
+      0: Resources/GUI/Basescape/CraftWeapons_Background.png
+
+### CRAFT SELECT MENU BACKGROUND
+  - type: SELECTCRAFT_BACKGROUND.SCR
+    singleImage: true
+    files:
+      0: Resources/GUI/Basescape/SelectCraft_Background.png
+
+
+#BUY/SELL RELATED SPRITES
+
+### SELL MENU BACKGROUND
+  - type: SELLMENU_BACKGROUND.SCR
+    singleImage: true
+    files:
+      0: Resources/GUI/Basescape/SellMenu_Background.png
+
+### DEPENDENCY TREE MENU BACKGROUND (Right click in sell menu)
+  - type: DEPENDENCYTREE_BACKGROUND.SCR
+    singleImage: true
+    files:
+      0: Resources/GUI/Basescape/DependencyTree_Background.png
+
+### BUY MENU BACKGROUND
+  - type: BUYMENU_BACKGROUND.SCR
+    singleImage: true
+    files:
+      0: Resources/GUI/Basescape/BuyMenu_Background.png
+
+
+#TRANSFER RELATED SPRITES
+
+### TRANSFER BASE SELECT MENU BACKGROUND
+  - type: TRANSFERBASESELECT_BACKGROUND.SCR
+    singleImage: true
+    files:
+      0: Resources/GUI/Basescape/TransferBaseSelect_Background.png
+
+### TRANSFER MENU BACKGROUND
+  - type: TRANSFERMENU_BACKGROUND.SCR
+    singleImage: true
+    files:
+      0: Resources/GUI/Basescape/TransferMenu_Background.png
+
+### TRANSFER CONFIRM MENU BACKGROUND
+  - type: TRANSFERCONFIRM_BACKGROUND.SCR
+    singleImage: true
+    files:
+      0: Resources/GUI/Basescape/TransferConfirm_Background.png
+
+### TRANSFER CONFIRM MENU BACKGROUND ("Transfer" button in base information menu)
+  - type: TRANSFERINFO_BACKGROUND.SCR
+    singleImage: true
+    files:
+      0: Resources/GUI/Basescape/TransferInfo_Background.png
+
+
+#BASE INFORMATION MENU SPRITES
+
+### STORES INFO MENU BACKGROUND ("Stores" button in base information menu)
+  - type: STORESINFO_BACKGROUND.SCR
+    singleImage: true
+    files:
+      0: Resources/GUI/Basescape/StoresInfo_Background.png
+
+### STORES INFO MENU BACKGROUND ("Montly Costs" button in base information menu)
+  - type: COSTSINFO_BACKGROUND.SCR
+    singleImage: true
+    files:
+      0: Resources/GUI/Basescape/CostsInfo_Background.png
+
+
+#RESEARCH RELATED SPRITES
+
+### RESEARCH MENU BACKGROUND
+  - type: RESEARCHMENU_BACKGROUND.SCR
+    singleImage: true
+    files:
+      0: Resources/GUI/Basescape/ResearchMenu_Background.png
+
+### GLOBAL RESEARCH MENU BACKGROUND
+  - type: GLOBALRESEARCHMENU_BACKGROUND.SCR
+    singleImage: true
+    files:
+      0: Resources/GUI/Basescape/GlobalResearchMenu_Background.png
+
+### SELECT NEW RESEARCH MENU BACKGROUND
+  - type: SELECTNEWRESEARCH_BACKGROUND.SCR
+    singleImage: true
+    files:
+      0: Resources/GUI/Basescape/SelectNewResearch_Background.png
+
+### ALLOCATE RESEARCH MENU BACKGROUND
+  - type: ALLOCATERESEARCH_BACKGROUND.SCR
+    singleImage: true
+    files:
+      0: Resources/GUI/Basescape/AllocateResearch_Background.png
+
+### TECHTREE VIEWER MENU BACKGROUND
+  - type: TECHTREEVIEWER_BACKGROUND.SCR
+    singleImage: true
+    files:
+      0: Resources/GUI/Basescape/TechTreeViewer_Background.png
+
+### TECHTREE SELECT MENU BACKGROUND
+  - type: TECHTREESELECT_BACKGROUND.SCR
+    singleImage: true
+    files:
+      0: Resources/GUI/Basescape/TechTreeSelect_Background.png
+
+
+#MANUFACTURE RELATED SPRITES
+
+### MANUFACTURE MENU BACKGROUND
+  - type: MANUFACTUREMENU_BACKGROUND.SCR
+    singleImage: true
+    files:
+      0: Resources/GUI/Basescape/ManufactureMenu_Background.png
+
+### GLOBAL MANUFACTURE MENU BACKGROUND
+  - type: GLOBALMANUFACTUREMENU_BACKGROUND.SCR
+    singleImage: true
+    files:
+      0: Resources/GUI/Basescape/GlobalManufactureMenu_Background.png
+
+### SELECT NEW MANUFACTURE MENU BACKGROUND
+  - type: SELECTNEWMANUFACTURE_BACKGROUND.SCR
+    singleImage: true
+    files:
+      0: Resources/GUI/Basescape/SelectNewManufacture_Background.png
+
+### ALLOCATE MANUFACTURE MENU BACKGROUND
+  - type: ALLOCATEMANUFACTURE_BACKGROUND.SCR
+    singleImage: true
+    files:
+      0: Resources/GUI/Basescape/AllocateManufacture_Background.png
+
+### MANUFACTURE INFO MENU
+  - type: MANUFACTUREINFO_BACKGROUND.SCR
+    singleImage: true
+    files:
+      0: Resources/GUI/Basescape/ManufactureInfo_Background.png
+
+
+
+
+
+

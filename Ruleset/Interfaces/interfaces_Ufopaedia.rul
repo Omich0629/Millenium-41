@@ -1,0 +1,61 @@
+interfaces:
+### UFOPAEDIA RELATED INTERFACES
+
+### UFOPAEDIA MENU
+  - type: ufopaedia
+    backgroundImage: UFOPAEDIA_BACKGROUND.SCR
+    elements:
+      - id: palette
+        color: 0     # brown
+      - id: window
+        color: 239   # bright green
+      - id: text
+        color: 138   # yellow
+      - id: list
+        color: 239   # bright green
+        color2: 138   # yellow
+        border: 239   # bright green
+      - id: button1
+        color:  239   # bright green
+      - id: button2
+        color: 239   # bright green
+
+### STATS FOR NERDS MENU
+  - type: statsForNerds
+    backgroundImage: STATSFORNERDS_BACKGROUND.SCR
+    palette: PAL_BASESCAPE
+    elements:
+      - id: palette
+        color: 0     #
+      - id: window
+        color: 241   # bright green (custom basescape palette)
+      - id: text
+        color: 246   # yellow (custom basescape palette)
+        color2: 241   # bright green (custom basescape palette)
+      - id: list
+        color: 241   # bright green (custom basescape palette)
+        color2: 246   # yellow (custom basescape palette)
+        border: 241   # bright green (custom basescape palette)
+      - id: listExtended
+        color: 241   # bright green (custom basescape palette)
+        color2: 246   # yellow (custom basescape palette)
+      - id: button
+        color: 241   # bright green (custom basescape palette)
+      - id: comboBox
+        color: 241   # bright green (custom basescape palette)
+
+### UFOPAEDIA ITEM ARTICLE (TFTD STYLE)
+  - type: articleItemTFTD
+    palette: PAL_BASESCAPE
+    backgroundImage: ARTICLEITEMTFTD_BACKGROUND.SCR
+    elements:
+      - id: button
+        color: 241   # bright green (custom basescape palette)
+      - id: text
+        color: 241   # bright green (custom basescape palette)
+        color2: 241   # bright green (custom basescape palette)
+      - id: list
+        color: 241   # bright green (custom basescape palette)
+        color2: 246   # yellow (custom basescape palette)
+      - id: ammoColor
+        color: 246   # yellow (custom basescape palette)

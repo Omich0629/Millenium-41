@@ -42,7 +42,7 @@ countries:
         - 337.778012142956
         - -25.058607371182
         - -21.533418543402
-    fundingBase: 10
+    fundingBase: 100
     fundingCap: 100
     labelLon: 312.566795745905
     labelLat: -35.229582470906
@@ -62,7 +62,7 @@ countries:
         - 4.410093879578596
         - -48.685574195686
         - -46.678172257115
-    fundingBase: 10
+    fundingBase: 100
     fundingCap: 100
     labelLon: 351.2989614971256
     labelLat: -56.503713142378
@@ -106,7 +106,7 @@ countries:
         - 32.71840821046601
         - -25.058607371182
         - -20.32105219049
-    fundingBase: 10
+    fundingBase: 100
     fundingCap: 100
     labelLon: 359.63183823695425
     labelLat: -32.509192995403
@@ -126,7 +126,7 @@ countries:
         - 20.200478984791005
         - 1.9376087451766
         - 13.577395120846
-    fundingBase: 10
+    fundingBase: 100
     fundingCap: 100
     labelLon: 2.9547357177344793
     labelLat: -6.2555714936652
@@ -159,7 +159,7 @@ countries:
         - 45.98246615007099
         - -32.465937673045
         - -30.102106605843
-    fundingBase: 10
+    fundingBase: 100
     fundingCap: 100
     labelLon: 37.76860810660298
     labelLat: -50.91601368757
@@ -199,7 +199,7 @@ countries:
         - 73.21950515993103
         - -34.517540087839
         - -31.37068797397
-    fundingBase: 10
+    fundingBase: 100
     fundingCap: 100
     labelLon: 70.102041243977
     labelLat: -49.486304059047
@@ -235,7 +235,7 @@ countries:
         - 72.90597090114301
         - -20.224250778454
         - -10.302952192721
-    fundingBase: 10
+    fundingBase: 100
     fundingCap: 100
     labelLon: 58.77434187952298
     labelLat: -19.462401860057
@@ -267,7 +267,7 @@ countries:
         - 111.03838146204998
         - -42.465827628476
         - -38.402107067783
-    fundingBase: 10
+    fundingBase: 100
     fundingCap: 100
     labelLon: 106.45556771228001
     labelLat: -49.8434150103
@@ -283,7 +283,7 @@ countries:
         - 117.92682118197001
         - -30.50822487946
         - -15.966352272388
-    fundingBase: 10
+    fundingBase: 100
     fundingCap: 100
     labelLon: 99.45660455725698
     labelLat: -26.636326654172
@@ -315,7 +315,7 @@ countries:
         - 300.696554001114
         - 8.4649674153008
         - 15.940776656261
-    fundingBase: 10
+    fundingBase: 100
     fundingCap: 100
     labelLon: 302.133154178407
     labelLat: -6.9730265019915
@@ -355,7 +355,7 @@ countries:
         - 359.6862281827816
         - 3.1666056472138
         - 6.3621286800492
-    fundingBase: 10
+    fundingBase: 100
     fundingCap: 100
     labelLon: 328.559839920582
     labelLat: -10.598574294883
@@ -387,7 +387,7 @@ countries:
         - 280.594403847891
         - 6.085829231114
         - 14.400791377857
-    fundingBase: 10
+    fundingBase: 100
     fundingCap: 100
     labelLon: 241.41693646142
     labelLat: -17.76858532179
@@ -415,7 +415,7 @@ countries:
         - 37.78651531659301
         - 59.792063761472
         - 65.13110220351
-    fundingBase: 10
+    fundingBase: 100
     fundingCap: 100
     labelLon: 2.521603779476095
     labelLat: 45.83369567971
@@ -451,7 +451,7 @@ countries:
         - 146.39059172524003
         - 50.12830533514
         - 58.360006176107
-    fundingBase: 10
+    fundingBase: 100
     fundingCap: 100
     labelLon: 127.22951104749
     labelLat: 24.057900052317
@@ -479,7 +479,7 @@ countries:
         - 283.827374421648
         - 54.959337862597
         - 65.20671556403
-    fundingBase: 10
+    fundingBase: 100
     fundingCap: 100
     labelLon: 209.44171154377
     labelLat: 59.094890118752
@@ -507,7 +507,7 @@ countries:
         - 261.189425146192
         - 50.223446025997
         - 54.959337862597
-    fundingBase: 10
+    fundingBase: 100
     fundingCap: 100
     labelLon: 260.37466068605
     labelLat: 43.72534637373

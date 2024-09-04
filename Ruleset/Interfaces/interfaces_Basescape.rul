@@ -1,0 +1,1174 @@
+interfaces:
+### BASESCAPE RELATED INTERFACES
+
+### BASESCAPE MENU
+  - type: basescape
+    palette: PAL_BASESCAPE
+    elements:
+      - id: button
+        color: 241   # bright green (custom basescape palette)
+        color2: 246   # yellow (custom basescape palette)
+      - id: text1
+        color: 213   # gold
+      - id: text2
+        color: 241   # bright green (custom basescape palette)
+      - id: text3
+        color: 246   # yellow (custom basescape palette)
+      - id: textTooltip
+        color: 241   # bright green (custom basescape palette)
+      - id: baseView
+        color: 213   # gold   (time remaining)
+        color2: 50   # green (selector color)
+      - id: errorPalette
+        color: 0     #
+      - id: errorMessage
+        color: 241   # bright green (custom basescape palette)
+      - id: miniBase
+        color: 48    # green
+        color2: 32   # red
+        border: 218  # blue
+
+#FACILITY RELATED INTERFACES
+
+###  PLACE FACILITY MENU
+  - type: placeFacility
+    backgroundImage: PLACEFACILITY_BACKGROUND.SCR
+    palette: PAL_BASESCAPE
+    elements:
+      - id: palette
+        color: 0     #
+      - id: window
+        color: 241   # bright green (custom basescape palette)
+      - id: button
+        color: 241   # bright green (custom basescape palette)
+      - id: text
+        color: 246   # yellow (custom basescape palette)
+      - id: numbers
+        color: 246   # yellow (custom basescape palette)
+      - id: errorPalette
+        color: 0     # brown
+      - id: errorMessage
+        color: 241   # bright green (custom basescape palette)
+
+### SELECT FACILITY MENU
+  - type: selectFacility
+    backgroundImage: SELECTFACILITY_BACKGROUND.SCR
+    palette: PAL_BASESCAPE
+    elements:
+      - id: palette
+        color: 0     #
+      - id: window
+        color: 241   # bright green (custom basescape palette)
+      - id: button
+        color: 241   # bright green (custom basescape palette)
+      - id: text
+        color: 246   # yellow (custom basescape palette)
+      - id: list
+        color: 241   # bright green (custom basescape palette)
+        color2: 246   # yellow (custom basescape palette)
+
+### DISMANTLE FACILITY MENU
+  - type: dismantleFacility
+    backgroundImage: DISMANTLEFACILITY_BACKGROUND.SCR
+    palette: PAL_BASESCAPE
+    elements:
+      - id: palette
+        color: 0     #
+      - id: window
+        color: 241   # bright green (custom basescape palette)
+      - id: button
+        color: 241   # bright green (custom basescape palette)
+      - id: text
+        color: 241   # bright green (custom basescape palette)
+        color2: 246   # yellow (custom basescape palette)
+
+### BASE DEFENSE MENU (DEFENSE FACILITIES VS. UFO)
+  - type: baseDefense
+    backgroundImage: BASEDEFENSE_BACKGROUND.SCR
+    palette: PAL_BASESCAPE
+    elements:
+      - id: palette
+        color: 0     #
+      - id: window
+        color: 241   # bright green (custom basescape palette)
+      - id: text
+        color: 246   # yellow (custom basescape palette)
+      - id: button
+        color: 241   # bright green (custom basescape palette)
+
+### MANAGE ALIEN CONTAINMENT MENU
+  - type: manageContainment
+    backgroundImage: MANAGECONTAINMENT_BACKGROUND.SCR
+    palette: PAL_BASESCAPE
+    elements:
+      - id: palette
+        color: 0     # brown
+      - id: window
+        color: 241   # bright green (custom basescape palette)
+      - id: text
+        color: 246   # yellow (custom basescape palette)
+        color2: 241   # bright green (custom basescape palette)
+      - id: list
+        color: 241   # bright green (custom basescape palette)
+        color2: 246   # yellow (custom basescape palette)
+        border: 241   # bright green (custom basescape palette)
+      - id: button
+        color: 241   # bright green (custom basescape palette)
+      - id: errorPalette
+        color: 0     # brown
+      - id: errorMessage
+        color: 241   # bright green (custom basescape palette)
+
+
+#SOLDIER MENU RELATED INTERFACES
+
+### BASESCAPE SOLDIERINFO MENU
+  - type: soldierInfo
+    palette: PAL_BASESCAPE
+    elements:
+      - id: text1
+        color: 246   # yellow (custom basescape palette)
+        color2: 241   # bright green (custom basescape palette)
+      - id: text2
+        color: 246   # yellow (custom basescape palette)
+      - id: numbers
+        color: 246   # yellow (custom basescape palette)
+      - id: button
+        color: 241   # bright green (custom basescape palette)
+      - id: barTUs
+        color: 52
+        color2: 56
+        border: 49
+      - id: barEnergy
+        color: 146
+        color2: 150
+        border: 144
+      - id: barHealth
+        color: 36
+        color2: 40
+        border: 32
+      - id: barBravery
+        color: 70
+        color2: 74
+        border: 66
+      - id: barReactions
+        color: 146
+        color2: 150
+        border: 144
+      - id: barFiring
+        color: 220
+        color2: 221
+        border: 219
+      - id: barThrowing
+        color: 20
+        color2: 24
+        border: 16
+      - id: barMelee
+        color: 3
+        color2: 7
+        border: 1
+      - id: barStrength
+        color: 50
+        color2: 54
+        border: 49
+      - id: barMana
+        color: 220
+        color2: 221
+        border: 219
+      - id: barPsiStrength
+        color: 70
+        color2: 74
+        border: 66
+      - id: barPsiSkill
+        color: 220
+        color2: 221
+        border: 219
+      - id: errorPalette
+        color: 0     # brown
+      - id: errorMessage
+        color: 241   # bright green (custom basescape palette)
+
+### SOLDIER LIST MENU
+  - type: soldierList
+    backgroundImage: SOLDIERLIST_BACKGROUND.SCR
+    palette: PAL_BASESCAPE
+    elements:
+      - id: palette
+        color: 0     #
+      - id: window
+        color: 5   # grey
+      - id: text1
+        color: 246   # yellow (custom basescape palette)
+      - id: text2
+        color: 246   # yellow (custom basescape palette)
+      - id: list
+        color: 241   # bright green (custom basescape palette)
+        color2: 246   # yellow (custom basescape palette)
+        border: 241   # bright green (custom basescape palette)
+      - id: button
+        color: 241   # bright green (custom basescape palette)
+
+### SOLDIER MEMORIAL MENU
+  - type: soldierMemorial
+    backgroundImage: SOLDIERMEMORIAL_BACKGROUND.SCR
+    music: GMLOSE
+    palette: PAL_BASESCAPE
+    elements:
+      - id: palette
+        color: 0     #
+      - id: window
+        color: 5   # grey
+      - id: text
+        color: 246   # yellow (custom basescape palette)
+        color2: 241   # bright green (custom basescape palette)
+      - id: list
+        color: 241   # bright green (custom basescape palette)
+        color2: 246   # yellow (custom basescape palette)
+        border: 241   # bright green (custom basescape palette)
+      - id: button
+        color: 241   # bright green (custom basescape palette)
+
+### SOLDIER DIARY MENU
+  - type: soldierDiary
+    backgroundImage: SOLDIERDIARY_BACKGROUND.SCR
+    palette: PAL_BASESCAPE
+    elements:
+      - id: palette
+        color: 0     #
+      - id: window
+        color: 5   # grey
+      - id: text1
+        color: 246   # yellow (custom basescape palette)
+      - id: text2
+        color: 246   # yellow (custom basescape palette)
+        color2: 241   # bright green (custom basescape palette)
+      - id: text3
+        color2: 241   # bright green (custom basescape palette)
+      - id: list
+        color: 241   # bright green (custom basescape palette)
+        color2: 246   # yellow (custom basescape palette)
+        border: 241   # bright green (custom basescape palette)
+      - id: button
+        color: 241   # bright green (custom basescape palette)
+
+### SOLDIER DIARY MISSION MENU (?)
+  - type: soldierDiaryMission
+    backgroundImage: SOLDIERDIARYMISSION_BACKGROUND.SCR
+    palette: PAL_BASESCAPE
+    elements:
+      - id: palette
+        color: 0     #
+      - id: window
+        color: 241   # bright green (custom basescape palette)
+      - id: text
+        color: 241   # bright green (custom basescape palette)
+        color2: 246   # yellow (custom basescape palette)
+      - id: list
+        color: 246   # yellow (custom basescape palette)
+        border: 241   # bright green (custom basescape palette)
+      - id: button
+        color: 241   # bright green (custom basescape palette)
+
+### SOLDIER DIARY PERFORMANCE MENU
+  - type: soldierDiaryPerformance
+    backgroundImage: SOLDIERDIARYPERFORMANCE_BACKGROUND.SCR
+    palette: PAL_BASESCAPE
+    elements:
+      - id: palette
+        color: 0     #
+      - id: window
+        color: 5   # grey
+      - id: text1
+        color: 246   # yellow (custom basescape palette)
+      - id: text2
+        color: 246   # yellow (custom basescape palette)
+        color2: 241   # bright green (custom basescape palette)
+      - id: list
+        color: 241   # bright green (custom basescape palette)
+        color2: 246   # yellow (custom basescape palette)
+        border: 241   # bright green (custom basescape palette)
+      - id: button
+        color: 241   # bright green (custom basescape palette)
+
+### ENDGAME STATISTICS MENU
+  - type: endGameStatistics
+    palette: PAL_BASESCAPE
+    backgroundImage: ENDGAMESTATISTICS_BACKGROUND.SCR
+    elements:
+      - id: palette
+        color: 0     # brown
+      - id: window
+        color: 5   # grey
+      - id: text
+        color: 246   # yellow (custom basescape palette)
+        color2: 246   # yellow (custom basescape palette)
+      - id: list
+        color: 241   # bright green (custom basescape palette)
+        color2: 241   # bright green (custom basescape palette)
+        border: 241   # bright green (custom basescape palette)
+      - id: button
+        color: 241   # bright green (custom basescape palette)
+
+### PROMOTIONS MENU
+  - type: promotions
+    backgroundImage: PROMOTIONS_BACKGROUND.SCR
+    elements:
+      - id: palette
+        color: 0     # brown
+      - id: window
+        color: 239   # bright green
+      - id: heading
+        color: 138   # yellow
+      - id: text
+        color: 239   # bright green
+      - id: list
+        color: 138   # yellow
+      - id: button
+        color: 239   # bright green
+
+### SOLDIER TRANSFORMATION MENU
+  - type: soldierTransformation
+    backgroundImage: SOLDIERTRANSFORMATION_BACKGROUND.SCR
+    palette: PAL_BASESCAPE
+    elements:
+      - id: palette
+        color: 0     #
+      - id: window
+        color: 241   # bright green (custom basescape palette)
+      - id: text
+        color: 246   # yellow (custom basescape palette)
+        color2: 241   # bright green (custom basescape palette)
+      - id: list1
+        color: 241   # bright green (custom basescape palette)
+        color2: 246   # yellow (custom basescape palette)
+        border: 241   # bright green (custom basescape palette)
+      - id: list2
+        color: 241   # bright green (custom basescape palette)
+        color2: 246   # yellow (custom basescape palette)
+        border: 241   # bright green (custom basescape palette)
+      - id: button
+        color: 241   # bright green (custom basescape palette)
+
+### TRANSFORMATION LIST MENU
+  - type: transformationList
+    backgroundImage: TRANSFORMATIONLIST_BACKGROUND.SCR
+    palette: PAL_BASESCAPE
+    elements:
+      - id: palette
+        color: 0     #
+      - id: window
+        color: 241   # bright green (custom basescape palette)
+      - id: text1
+        color2: 246   # yellow (custom basescape palette)
+      - id: text2
+        color: 241   # bright green (custom basescape palette)
+      - id: list
+        color2: 246   # yellow (custom basescape palette)
+        color: 241   # bright green (custom basescape palette)
+      - id: button
+        color: 241   # bright green (custom basescape palette)
+      - id: button2
+        color: 241   # bright green (custom basescape palette)
+
+### SACK SOLDIER MENU
+  - type: sackSoldier
+    backgroundImage: SACKSOLDIER_BACKGROUND.SCR
+    palette: PAL_BASESCAPE
+    elements:
+      - id: palette
+        color: 0     #
+      - id: window
+        color: 241   # bright green (custom basescape palette)
+      - id: text
+        color: 246   # yellow (custom basescape palette)
+      - id: button
+        color: 241   # bright green (custom basescape palette)
+
+### SOLDIER ARMOR MENU
+  - type: soldierArmor
+    backgroundImage: SOLDIERARMOR_BACKGROUND.SCR
+    palette: PAL_BASESCAPE
+    elements:
+      - id: palette
+        color: 0     #
+      - id: window
+        color: 241   # bright green (custom basescape palette)
+      - id: text
+        color: 241   # bright green (custom basescape palette)
+      - id: list
+        color: 246   # yellow (custom basescape palette)
+        border: 241   # bright green (custom basescape palette)
+      - id: button
+        color: 241   # bright green (custom basescape palette)
+
+### SOLDIER AVATAR MENU
+  - type: soldierAvatar
+    backgroundImage: SOLDIERAVATAR_BACKGROUND.SCR
+    palette: PAL_BASESCAPE
+    elements:
+      - id: palette
+        color: 0     #
+      - id: window
+        color: 241   # bright green (custom basescape palette)
+      - id: text
+        color: 241   # bright green (custom basescape palette)
+      - id: list
+        color: 246   # yellow (custom basescape palette)
+        border: 241   # bright green (custom basescape palette)
+      - id: button
+        color: 241   # bright green (custom basescape palette)
+
+### SOLDIER BONUS MENU
+  - type: soldierBonus
+    backgroundImage: SOLDIERBONUS_BACKGROUND.SCR
+    palette: PAL_BASESCAPE
+    elements:
+      - id: palette
+        color: 0     #
+      - id: window
+        color: 241   # bright green (custom basescape palette)
+      - id: text
+        color: 241   # bright green (custom basescape palette)
+      - id: list
+        color: 246   # yellow (custom basescape palette)
+        border: 241   # bright green (custom basescape palette)
+      - id: button
+        color: 241   # bright green (custom basescape palette)
+
+### COMMENDATIONS MENU
+  - type: commendations
+    backgroundImage: COMMENDATIONS_BACKGROUND.SCR
+    elements:
+      - id: palette
+        color: 0     # brown
+      - id: window
+        color: 239   # bright green
+      - id: heading
+        color: 138   # yellow
+      - id: list
+        color: 239   # bright green
+        color2: 138  # yellow
+      - id: button
+        color: 239   # bright green
+
+### COMMENDATIONS LATE MENU
+  - type: commendationsLate
+    backgroundImage: COMMENDATIONSLATE_BACKGROUND.SCR
+    music: GMLOSE
+    palette: PAL_BASESCAPE
+    elements:
+      - id: palette
+        color: 0     #
+      - id: window
+        color: 241   # bright green (custom basescape palette)
+      - id: text
+        color: 246   # yellow (custom basescape palette)
+        color2: 241   # bright green (custom basescape palette)
+      - id: list
+        color: 241   # bright green (custom basescape palette)
+        color2: 246   # yellow (custom basescape palette)
+        border: 241   # bright green (custom basescape palette)
+      - id: button
+        color: 241   # bright green (custom basescape palette)
+
+### TRAINING FINISHED MENU
+  - type: trainingFinished
+    backgroundImage: TRAININGFINISHED_BACKGROUND.SCR
+    elements:
+      - id: palette
+        color: 0     # brown
+      - id: window
+        color: 239   # bright green
+      - id: text1
+        color: 239   # bright green
+      - id: text2
+        color: 138   # yellow
+      - id: button
+        color: 239   # bright green
+
+### MARTIAL TRAINING MENU
+  - type: martialTraining
+    backgroundImage: MARTIALTRAINING_BACKGROUND.SCR
+    palette: PAL_BASESCAPE
+    elements:
+      - id: palette
+        color: 0     #
+      - id: window
+        color: 241   # bright green (custom basescape palette)
+      - id: text
+        color: 246   # yellow (custom basescape palette)
+      - id: button1
+        color: 241   # bright green (custom basescape palette)
+      - id: button2
+        color: 241   # bright green (custom basescape palette)
+
+### ALLOCATE MARTIAL MENU
+  - type: allocateMartial
+    backgroundImage: ALLOCATEMARTIAL_BACKGROUND.SCR
+    palette: PAL_BASESCAPE
+    elements:
+      - id: palette
+        color: 0     #
+      - id: window
+        color: 5   # grey
+      - id: text
+        color: 246   # yellow (custom basescape palette)
+        color2: 241   # bright green (custom basescape palette)
+      - id: list
+        color: 241   # bright green (custom basescape palette)
+        color2: 246   # yellow (custom basescape palette)
+        border: 241   # bright green (custom basescape palette)
+      - id: button
+        color: 241   # bright green (custom basescape palette)
+
+### PSI TRAINING MENU
+  - type: psiTraining
+    backgroundImage: PSITRAINING_BACKGROUND.SCR
+    palette: PAL_BASESCAPE
+    elements:
+      - id: palette
+        color: 0     #
+      - id: window
+        color: 241   # bright green (custom basescape palette)
+      - id: text
+        color: 246   # yellow (custom basescape palette)
+      - id: button1
+        color: 241   # bright green (custom basescape palette)
+      - id: button2
+        color: 241   # bright green (custom basescape palette)
+
+### ALLOCATE PSI MENU
+  - type: allocatePsi
+    backgroundImage: ALLOCATEPSI_BACKGROUND.SCR
+    palette: PAL_BASESCAPE
+    elements:
+      - id: palette
+        color: 0     #
+      - id: window
+        color: 5   # grey
+      - id: text
+        color: 246   # yellow (custom basescape palette)
+        color2: 241   # bright green (custom basescape palette)
+      - id: list
+        color: 241   # bright green (custom basescape palette)
+        color2: 246   # yellow (custom basescape palette)
+        border: 241   # bright green (custom basescape palette)
+      - id: button
+        color: 241   # bright green (custom basescape palette)
+
+
+#CRAFTS MENU RELATED INTERFACES
+
+### CRAFT SOLDIERS MENU
+  - type: craftSoldiers
+    backgroundImage: CRAFTSOLDIERS_BACKGROUND.SCR
+    palette: PAL_BASESCAPE
+    elements:
+      - id: palette
+        color: 0     #
+      - id: window
+        color: 5   # grey
+      - id: text
+        color: 246   # yellow (custom basescape palette)
+        color2: 241   # bright green (custom basescape palette)
+      - id: list
+        color: 241   # bright green (custom basescape palette)
+        color2: 246   # yellow (custom basescape palette)
+        border: 241   # bright green (custom basescape palette)
+      - id: button
+        color: 241   # bright green (custom basescape palette)
+      - id: otherCraft
+        color: 241   # bright green (custom basescape palette)
+
+### CRAFT PILOTS MENU
+  - type: craftPilots
+    backgroundImage: CRAFTPILOTS_BACKGROUND.SCR
+    palette: PAL_BASESCAPE
+    elements:
+      - id: palette
+        color: 0     #
+      - id: window
+        color: 241   # bright green (custom basescape palette)
+      - id: text1
+        color: 246   # yellow (custom basescape palette)
+        color2: 241   # bright green (custom basescape palette)
+      - id: text2
+        color: 241   # bright green (custom basescape palette)
+      - id: list
+        color: 246   # yellow (custom basescape palette)
+      - id: button
+        color: 241   # bright green (custom basescape palette)
+
+### CRAFT PILOTS SELECT MENU
+  - type: craftPilotsSelect
+    backgroundImage: CRAFTPILOTSSELECT_BACKGROUND.SCR
+    parent: craftPilots
+    elements:
+      - id: window
+        color: 241   # bright green (custom basescape palette)
+      - id: text1
+        color: 246   # yellow (custom basescape palette)
+        color2: 241   # bright green (custom basescape palette)
+      - id: text2
+        color: 241   # bright green (custom basescape palette)
+      - id: list
+        color: 246   # yellow (custom basescape palette)
+      - id: button
+        color: 241   # bright green (custom basescape palette)
+
+### CRAFT EQUIPMENT MENU
+  - type: craftEquipment
+    backgroundImage: CRAFTEQUIPMENT_BACKGROUND.SCR
+    palette: PAL_BASESCAPE
+    elements:
+      - id: palette
+        color: 0     #
+      - id: window
+        color: 5   # grey
+      - id: text
+        color: 246   # yellow (custom basescape palette)
+        color2: 241   # bright green (custom basescape palette)
+      - id: button
+        color: 241   # bright green (custom basescape palette)
+      - id: list
+        color: 241   # bright green (custom basescape palette)
+        color2: 246   # yellow (custom basescape palette)
+        border: 241   # bright green (custom basescape palette)
+      - id: ammoColor
+        color: 241   # bright green (custom basescape palette)
+      - id: errorPalette
+        color: 0     #
+      - id: errorMessage
+        color: 241   # bright green (custom basescape palette)
+
+### CRAFT EQUIPMENT SAVE MENU (F5 IN CRAFT EQUIPMENT MENU)
+  - type: craftEquipmentSave
+    backgroundImage: CRAFTEQUIPMENTSAVE_BACKGROUND.SCR
+    parent: craftEquipment
+    elements:
+      - id: window
+        color: 241   # bright green (custom basescape palette)
+      - id: text
+        color: 246   # yellow (custom basescape palette)
+        color2: 241   # bright green (custom basescape palette)
+      - id: button
+        color: 241   # bright green (custom basescape palette)
+      - id: list
+        color: 241   # bright green (custom basescape palette)
+        color2: 246   # yellow (custom basescape palette)
+        border: 241   # bright green (custom basescape palette)
+
+### CRAFT EQUIPMENT LOAD MENU (F9 IN CRAFT EQUIPMENT MENU)
+  - type: craftEquipmentLoad
+    backgroundImage: CRAFTEQUIPMENTLOAD_BACKGROUND.SCR
+    parent: craftEquipment
+    elements:
+      - id: window
+        color: 241   # bright green (custom basescape palette)
+      - id: text
+        color: 246   # yellow (custom basescape palette)
+        color2: 241   # bright green (custom basescape palette)
+      - id: button
+        color: 241   # bright green (custom basescape palette)
+      - id: list
+        color: 241   # bright green (custom basescape palette)
+        color2: 246   # yellow (custom basescape palette)
+        border: 241   # bright green (custom basescape palette)
+
+### CRAFT ARMOR
+  - type: craftArmor
+    backgroundImage: CRAFTARMOR_BACKGROUND.SCR
+    palette: PAL_BASESCAPE
+    elements:
+      - id: palette
+        color: 0     #
+      - id: window
+        color: 5   # grey
+      - id: text
+        color: 241   # bright green (custom basescape palette)
+      - id: button
+        color: 241   # bright green (custom basescape palette)
+      - id: list
+        color: 241   # bright green (custom basescape palette)
+        color2: 246   # yellow (custom basescape palette)
+      - id: otherCraft
+        color: 241   # bright green (custom basescape palette)
+
+### CRAFT INFO MENU
+  - type: craftInfo
+    backgroundImage: CRAFTINFO_BACKGROUND.SCR
+    palette: PAL_BASESCAPE
+    elements:
+      - id: palette
+        color: 0     #
+      - id: window
+        color: 5     # grey
+      - id: text1
+        color: 241   # bright green (custom basescape palette)
+        color2: 246   # yellow (custom basescape palette)
+      - id: text2
+        color: 246   # yellow (custom basescape palette)
+      - id: text3
+        color: 241   # bright green (custom basescape palette)
+        color2: 246   # yellow (custom basescape palette)
+      - id: button
+        color: 241   # bright green (custom basescape palette)
+
+### CRAFT WEAPONS MENU
+  - type: craftWeapons
+    backgroundImage: CRAFTWEAPONS_BACKGROUND.SCR
+    palette: PAL_BASESCAPE
+    elements:
+      - id: palette
+        color: 0     # aqua
+      - id: window
+        color: 241   # bright green (custom basescape palette)
+      - id: text
+        color: 241   # bright green (custom basescape palette)
+        color2: 246   # yellow (custom basescape palette)
+      - id: list
+        color: 246   # yellow (custom basescape palette)
+      - id: button
+        color: 241   # bright green (custom basescape palette)
+
+### CRAFT SELECT MENU
+  - type: craftSelect
+    backgroundImage: SELECTCRAFT_BACKGROUND.SCR
+    palette: PAL_BASESCAPE
+    elements:
+      - id: palette
+        color: 0     #
+      - id: window
+        color: 5     # grey
+      - id: text
+        color: 246   # yellow (custom basescape palette)
+      - id: list
+        color: 241   # bright green (custom basescape palette)
+        border: 241   # bright green (custom basescape palette)
+      - id: button
+        color: 241   # bright green (custom basescape palette)
+      - id: errorPalette
+        color: 0     # brown
+      - id: errorMessage
+        color: 241   # bright green (custom basescape palette)
+
+
+#BUY/SELL RELATED INTERFACES
+
+### SELL MENU
+  - type: sellMenu
+    backgroundImage: SELLMENU_BACKGROUND.SCR
+    palette: PAL_BASESCAPE
+    elements:
+      - id: palette
+        color: 0     # brown
+      - id: window
+        color: 5   #grey
+      - id: text
+        color: 241   # bright green (custom basescape palette)
+        color2: 246   # yellow (custom basescape palette)
+      - id: list
+        color: 241   # bright green (custom basescape palette)
+        color2: 246   # yellow (custom basescape palette)
+      - id: ammoColor
+        color: 241   # bright green (custom basescape palette)
+      - id: button
+        color: 241   # bright green (custom basescape palette)
+
+### DEPENDENCY TREE MENU (Right click in sell menu)
+  - type: dependencyTree
+    backgroundImage: DEPENDENCYTREE_BACKGROUND.SCR
+    palette: PAL_BASESCAPE
+    elements:
+      - id: palette
+        color: 0     # brown
+      - id: window
+        color: 241   # bright green (custom basescape palette)
+      - id: text
+        color: 241   # bright green (custom basescape palette)
+        color2: 246   # yellow (custom basescape palette)
+      - id: list
+        color: 241   # bright green (custom basescape palette)
+        color2: 246   # yellow (custom basescape palette)
+      - id: button
+        color: 241   # bright green (custom basescape palette)
+
+###BUY MENU
+  - type: buyMenu
+    backgroundImage: BUYMENU_BACKGROUND.SCR
+    palette: PAL_BASESCAPE
+    elements:
+      - id: palette
+        color: 0     # brown
+      - id: window
+        color: 5   #grey
+      - id: text
+        color: 241   # bright green (custom basescape palette)
+        color2: 246   # yellow (custom basescape palette)
+      - id: list
+        color: 241   # bright green (custom basescape palette)
+        color2: 246   # yellow (custom basescape palette)
+      - id: ammoColor
+        color: 241   # bright green (custom basescape palette)
+      - id: button
+        color: 241   # bright green (custom basescape palette)
+      - id: errorPalette
+        color: 0     # brown
+      - id: errorMessage
+        color: 241   # bright green (custom basescape palette)
+
+
+#TRANSFER RELATED INTERFACES
+
+### TRANSFER BASE SELECT MENU
+  - type: transferBaseSelect
+    backgroundImage: TRANSFERBASESELECT_BACKGROUND.SCR
+    palette: PAL_BASESCAPE
+    elements:
+      - id: palette
+        color: 0     #
+      - id: window
+        color: 241   # bright green (custom basescape palette)
+      - id: button
+        color: 241   # bright green (custom basescape palette)
+      - id: text
+        color: 241   # bright green (custom basescape palette)
+        color2: 246   # yellow (custom basescape palette)
+      - id: list
+        color: 241   # bright green (custom basescape palette)
+        color2: 246   # yellow (custom basescape palette)
+
+### TRANSFER MENU
+  - type: transferMenu
+    backgroundImage: TRANSFERMENU_BACKGROUND.SCR
+    palette: PAL_BASESCAPE
+    elements:
+      - id: palette
+        color: 0     # brown
+      - id: window
+        color: 241   # bright green (custom basescape palette)
+      - id: text
+        color: 241   # bright green (custom basescape palette)
+      - id: list
+        color: 241   # bright green (custom basescape palette)
+        color2: 246   # yellow (custom basescape palette)
+      - id: ammoColor
+        color: 241   # bright green (custom basescape palette)
+      - id: button
+        color: 241   # bright green (custom basescape palette)
+      - id: errorPalette
+        color: 0     # brown
+      - id: errorMessage
+        color: 241   # bright green (custom basescape palette)
+
+### TRANSFER CONFIRM MENU
+  - type: transferConfirm
+    backgroundImage: TRANSFERCONFIRM_BACKGROUND.SCR
+    palette: PAL_BASESCAPE
+    elements:
+      - id: palette
+        color: 0     #
+      - id: window
+        color: 241   # bright green (custom basescape palette)
+      - id: button
+        color: 241   # bright green (custom basescape palette)
+      - id: text
+        color: 241   # bright green (custom basescape palette)
+        color2: 246   # yellow (custom basescape palette)
+
+### TRANSFER INFO MENU ("Transfer" button in base information menu)
+  - type: transferInfo
+    backgroundImage: TRANSFERINFO_BACKGROUND.SCR
+    palette: PAL_BASESCAPE
+    elements:
+      - id: palette
+        color: 0     #
+      - id: window
+        color: 241   # bright green (custom basescape palette)
+      - id: button
+        color: 241   # bright green (custom basescape palette)
+      - id: text
+        color: 241   # bright green (custom basescape palette)
+      - id: list
+        color: 241   # bright green (custom basescape palette)
+        color2: 246   # yellow (custom basescape palette)
+
+#BASE INFORMATION MENU INTERFACES
+
+### BASE INFO MENU
+  - type: baseInfo
+    palette: PAL_BASEINFO # custom palette based on PAL_BASESCAPE
+    elements:
+      - id: text1
+        color: 241   # bright green (custom basescape palette)
+      - id: text2
+        color: 246   # yellow (custom basescape palette)
+      - id: numbers
+        color: 246   # yellow (custom basescape palette)
+      - id: button
+        color: 241   # bright green (custom basescape palette)
+      - id: personnelBars
+        color: 16    # orange
+      - id: facilityBars
+        color: 16    # orange
+      - id: defenceBar
+        color: 16    # orange
+      - id: detectionBars
+        color: 16    # orange
+
+### STORES INFO MENU ("Stores" button in base information menu)
+  - type: storesInfo
+    backgroundImage: STORESINFO_BACKGROUND.SCR
+    palette: PAL_BASESCAPE
+    elements:
+      - id: palette
+        color: 0     #
+      - id: window
+        color: 5   # grey
+      - id: text
+        color: 246   # yellow (custom basescape palette)
+      - id: list
+        color: 241   # bright green (custom basescape palette)
+      - id: button
+        color: 241   # bright green (custom basescape palette)
+
+### COSTS INFO MENU ("Montly Costs" button in base information menu)
+  - type: costsInfo
+    backgroundImage: COSTSINFO_BACKGROUND.SCR
+    palette: PAL_BASESCAPE
+    elements:
+      - id: palette
+        color: 0     #
+      - id: window
+        color: 5   # grey
+      - id: text1
+        color: 246   # yellow (custom basescape palette)
+        color2: 246   # yellow (custom basescape palette)
+      - id: text2
+        color: 246   # yellow (custom basescape palette)
+      - id: list
+        color: 241   # bright green (custom basescape palette)
+      - id: button
+        color: 241   # bright green (custom basescape palette)
+
+
+#RESEARCH RELATED INTERFACES
+
+### RESEARCH MENU
+  - type: researchMenu
+    backgroundImage: RESEARCHMENU_BACKGROUND.SCR
+    palette: PAL_BASESCAPE
+    elements:
+      - id: palette
+        color: 0     #
+      - id: window
+        color: 5   # grey
+      - id: text
+        color: 246   # yellow (custom basescape palette)
+        color2: 241   # bright green (custom basescape palette)
+      - id: list
+        color: 241   # bright green (custom basescape palette)
+        color2: 246   # yellow (custom basescape palette)
+      - id: button
+        color: 241   # bright green (custom basescape palette)
+
+### GLOBAL RESEARCH MENU
+  - type: globalResearchMenu
+    backgroundImage: GLOBALRESEARCHMENU_BACKGROUND.SCR
+    palette: PAL_BASESCAPE
+    elements:
+      - id: palette
+        color: 0     #
+      - id: window
+        color: 241   # bright green (custom basescape palette)
+      - id: text
+        color: 246   # yellow (custom basescape palette)
+        color2: 241   # bright green (custom basescape palette)
+      - id: list
+        color: 241   # bright green (custom basescape palette)
+        color2: 246   # yellow (custom basescape palette)
+        border: 241   # bright green (custom basescape palette)
+      - id: button
+        color: 241   # bright green (custom basescape palette)
+
+### SELECT NEW RESEARCH MENU
+  - type: selectNewResearch
+    backgroundImage: SELECTNEWRESEARCH_BACKGROUND.SCR
+    parent: researchMenu
+    elements:
+      - id: window
+        color: 241   # bright green (custom basescape palette)
+      - id: text
+        color: 246   # yellow (custom basescape palette)
+      - id: list
+        color: 241   # bright green (custom basescape palette)
+        color2: 246   # yellow (custom basescape palette)
+        border: 241   # bright green (custom basescape palette)
+      - id: button
+        color: 241   # bright green (custom basescape palette)
+
+### ALLOCATE RESEARCH MENU
+  - type: allocateResearch
+    backgroundImage: ALLOCATERESEARCH_BACKGROUND.SCR
+    parent: researchMenu
+    elements:
+      - id: window
+        color: 241   # bright green (custom basescape palette)
+      - id: text
+        color: 246   # yellow (custom basescape palette)
+        color2: 241   # bright green (custom basescape palette)
+      - id: button1
+        color: 241   # bright green (custom basescape palette)
+      - id: button2
+        color: 241   # bright green (custom basescape palette)
+
+### TECHTREE VIEWER MENU
+  - type: techTreeViewer
+    backgroundImage: TECHTREEVIEWER_BACKGROUND.SCR
+    palette: PAL_BASESCAPE
+    elements:
+      - id: palette
+        color: 0     #
+      - id: window
+        color: 241   # bright green (custom basescape palette)
+      - id: text
+        color: 246   # yellow (custom basescape palette)
+        color2: 241   # bright green (custom basescape palette)
+      - id: list
+        color: 241   # bright green (custom basescape palette)
+        color2: 246   # yellow (custom basescape palette)
+        border: 241   # bright green (custom basescape palette)
+      - id: listExtended
+        color: 241   # bright green (custom basescape palette)
+        color2: 246   # yellow (custom basescape palette)
+        border: 241   # bright green (custom basescape palette)
+      - id: button
+        color: 241   # bright green (custom basescape palette)
+
+### TECHTREE SELECT MENU
+  - type: techTreeSelect
+    backgroundImage: TECHTREESELECT_BACKGROUND.SCR
+    parent: techTreeViewer
+    elements:
+      - id: window
+        color: 241   # bright green (custom basescape palette)
+      - id: text
+        color: 246   # yellow (custom basescape palette)
+        color2: 241   # bright green (custom basescape palette)
+      - id: list
+        color: 241   # bright green (custom basescape palette)
+        color2: 246   # yellow (custom basescape palette)
+        border: 241   # bright green (custom basescape palette)
+      - id: button
+        color: 241   # bright green (custom basescape palette)
+
+
+#MANUFACTURE RELATED INTERFACES
+
+### MANUFACTURE MENU
+  - type: manufactureMenu
+    backgroundImage: MANUFACTUREMENU_BACKGROUND.SCR
+    palette: PAL_BASESCAPE
+    elements:
+      - id: palette
+        color: 0     #
+      - id: window
+        color: 5   # grey
+      - id: text1
+        color: 246   # yellow (custom basescape palette)
+        color2: 241   # bright green (custom basescape palette)
+      - id: text2
+        color: 241   # bright green (custom basescape palette)
+      - id: list
+        color: 246   # yellow (custom basescape palette)
+        border: 241   # bright green (custom basescape palette)
+      - id: button
+        color: 241   # bright green (custom basescape palette)
+
+### GLOBAL MANUFACTURE MENU
+  - type: globalManufactureMenu
+    backgroundImage: GLOBALMANUFACTUREMENU_BACKGROUND.SCR
+    palette: PAL_BASESCAPE
+    elements:
+      - id: palette
+        color: 0     #
+      - id: window
+        color: 241   # bright green (custom basescape palette)
+      - id: text1
+        color: 246   # yellow (custom basescape palette)
+        color2: 241   # bright green (custom basescape palette)
+      - id: text2
+        color: 241   # bright green (custom basescape palette)
+      - id: list
+        color: 246   # yellow (custom basescape palette)
+        color2: 241   # bright green (custom basescape palette)
+        border: 241   # bright green (custom basescape palette)
+      - id: button
+        color: 241   # bright green (custom basescape palette)
+
+### SELECT NEW MANUFACTURE MENU
+  - type: selectNewManufacture
+    backgroundImage: SELECTNEWMANUFACTURE_BACKGROUND.SCR
+    parent: manufactureMenu
+    elements:
+      - id: window
+        color: 241   # bright green (custom basescape palette)
+      - id: text
+        color: 241   # bright green (custom basescape palette)
+      - id: list
+        color: 246   # yellow (custom basescape palette)
+        color2: 241   # bright green (custom basescape palette)
+        border: 241   # bright green (custom basescape palette)
+      - id: listExtended
+        color: 246   # yellow (custom basescape palette)
+        color2: 241   # bright green (custom basescape palette)
+      - id: button
+        color: 241   # bright green (custom basescape palette)
+      - id: catBox
+        color: 241   # bright green (custom basescape palette)
+
+### ALLOCATE MANUFACTURE MENU
+  - type: allocateManufacture
+    backgroundImage: ALLOCATEMANUFACTURE_BACKGROUND.SCR
+    parent: manufactureMenu
+    elements:
+      - id: window
+        color: 241   # bright green (custom basescape palette)
+      - id: text
+        color: 241   # bright green (custom basescape palette)
+        color2: 246   # yellow (custom basescape palette)
+      - id: list
+        color: 246   # yellow (custom basescape palette)
+        color2: 241   # bright green (custom basescape palette)
+      - id: button
+        color: 241   # bright green (custom basescape palette)
+
+### MANUFACTURE INFO MENU
+  - type: manufactureInfo
+    backgroundImage: MANUFACTUREINFO_BACKGROUND.SCR
+    parent: manufactureMenu
+    elements:
+      - id: window
+        color: 241   # bright green (custom basescape palette)
+      - id: text
+        color: 241   # bright green (custom basescape palette)
+        color2: 246   # yellow (custom basescape palette)
+      - id: list
+        color: 246   # yellow (custom basescape palette)
+        color2: 241   # bright green (custom basescape palette)
+      - id: button1
+        color: 241   # bright green (custom basescape palette)
+      - id: button2
+        color: 241   # bright green (custom basescape palette)
+
+
+
+
+
+
+
+
+
+
+
+

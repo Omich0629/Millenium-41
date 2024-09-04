@@ -8,6 +8,61 @@ extended:
       HEAVY_WEAPON: int
 
 items:
+
+## DEBUG GUN FOR DEBUG PURPOSES ##
+  - type: STR_DEBUG_GUN
+#RESOURCES
+    bigSprite: 299
+    floorSprite: 299
+    handSprite: 192
+#INFO
+    categories: [STR_CATEGORY_PISTOL, STR_CATEGORY_STUB]
+    costBuy: 0
+    costSell: 0
+    listOrder: 1000
+#SPECIFICATIONS
+    battleType: 1
+    size: 0.1
+    weight: 6
+    invWidth: 1
+    invHeight: 2
+    armor: 30
+    attraction: 1
+#DAMAGE
+    clipSize: -1
+    power: 101
+    damageType: 1
+    damageAlter:
+      RandomType: 3 #FIXED
+      ToArmor: 0.1
+      ToArmorPre: 0.05
+      ToTile: 1.0
+      TileDamageMethod: 2
+
+    bulletSprite: 11 #(pistol bullet)
+    bulletSpeed: 25
+
+    hitAnimation: 26
+    explosionSpeed: 2
+
+    fireSound: 4
+    hitSound: 22
+
+#SHOOTING
+    dropoff: 5
+
+    accuracyAimed: 300
+    tuAimed: 15
+    aimRange: 11
+
+    confSnap:
+      shots: 2
+    accuracySnap: 200
+    tuSnap: 15
+    snapRange: 6
+
+
+
 ## NULL-ITEM FOR BACK PACK ##
   - type: STR_NULL_ITEM_BACK_PACK
     weight: 0
@@ -806,9 +861,9 @@ items:
     invWidth: 1
     invHeight: 2
 #USAGE
-    painKiller: 1
-    heal: 3
-    stimulant: 1
+    painKiller: 10
+    heal: 30
+    stimulant: 10
     woundRecovery: 1
     healthRecovery: 3
     stunRecovery: 4

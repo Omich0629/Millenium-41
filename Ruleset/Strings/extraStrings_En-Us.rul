@@ -1,6 +1,10 @@
 extraStrings:
   - type: en-US
     strings:
+
+### MAIN MENU INTERFACE ###
+      STR_OPENXCOM: "M41"
+
 ### COUNTRIES (CORPORATIONS) ###
       STR_NORTH_COUNTRY_1: "NEOLOGISTICS CORP."
       STR_NORTH_COUNTRY_2: "TRUSTED MACHINERY"
@@ -8,7 +12,7 @@ extraStrings:
       STR_NORTH_COUNTRY_4: "CYBEROPTICS CORP."
       STR_NORTH_COUNTRY_5: "REMEDIUM CORP."
       STR_NORTH_COUNTRY_6: "AMALGAMMA IND."
-      STR_NORTH_COUNTRY_7: "NAUTICAL PLEXUS"
+      STR_NORTH_COUNTRY_7: "NAUTICAL PLEXUS" #Zenith Inc.
       STR_NORTH_COUNTRY_8: "PHARMA-CARTEL"
       STR_NORTH_COUNTRY_9: "MULTICAST INC."
       STR_CENTRAL_COUNTRY_1: "FUEL SYNDICATE"
@@ -19,7 +23,55 @@ extraStrings:
       STR_SOUTH_WEST_COUNTRY_1: "PHOBOS INC."
       STR_SOUTH_WEST_COUNTRY_2: "MECHANICUS"
 
-      STR_EXTRA_LABEL_1: "QUARANTINE\n(ORKOID INFESTATION)"
+      STR_EXTRA_LABEL_1: "QUARANTINE ZONE\n(XENOS INFESTATION)"
+
+### GLOBE TERRAINS ###
+
+      MAP_RESIDENTIAL_AREA: "Residential Area"
+      MAP_FIELDS_TYPE1: "Fields (Type 1)"
+      MAP_FIELDS_TYPE2: "Fields (Type 2)"
+      MAP_FIELDS_TYPE3: "Fields (Type 3)"
+      MAP_TEMPERATE_FOREST: "Temperate Forest"
+      MAP_TUNDRA: "Tundra"
+      MAP_SAVANNA: "Savanna"
+      MAP_GRASSLANDS: "Grasslands"
+      MAP_BOREAL_FOREST: "Boreal Forest"
+      MAP_TROPICAL_DESERT: "Tropical Desert"
+      MAP_TROPICAL_FOREST: "Tropical Forest"
+      MAP_TROPICAL_MOUNTAINS: "Tropical Mountains"
+      MAP_MOUNTAINS: "Mountains"
+      MAP_SNOWY_MOUNTAINS: "Snowy Mountains"
+      MAP_POLAR_DESERT: "Polar Desert"
+      MAP_ICE_SHELF: "Ice Shelf"
+
+### ENEMY DEPLOYMENTS ###
+      STR_BASE_DEFENSE: "Base Defense"
+      STR_CHAOS_BASE_ASSAULT: "Chaos Base Assault"
+      STR_RESIDENTIAL_AREA_TERROR: "Residential Area Terror Site"
+
+
+
+### BASE FACILITIES ###
+      STR_FACILITY_ACCESS_LIFT: "Access Lift"
+      STR_FACILITY_CORRIDOR: "Corridor"
+      STR_FACILITY_BARRACKS: "Barracks"
+      STR_FACILITY_STORAGE: "Storage Facility"
+      STR_FACILITY_RESEARCH: "Research Facility"
+      STR_FACILITY_WORKSHOP: "Workshop"
+      STR_FACILITY_HOSPITAL: "Hospital"
+      STR_FACILITY_SMALL_RADAR: "Radar Mk 1"
+      STR_FACILITY_MEDIUM_RADAR: "Radar Mk 2"
+      STR_FACILITY_LARGE_RADAR: "Radar Mk 3"
+      STR_FACILITY_EDUCATION: "Education Facility"
+      STR_FACILITY_PRISON: "Prison"
+      STR_FACILITY_COUNTER_RADAR: "Counter Radar System"
+      STR_FACILITY_TARGETING_SYSTEM: "Targeting System"
+      STR_FACILITY_MISSILE_DEFENSES: "Missile Defenses"
+      STR_FACILITY_LASER_DEFENSES: "Laser Defenses"
+      STR_FACILITY_PLASMA_DEFENSES: "Plasma Defenses"
+      STR_FACILITY_MELTA_DEFENSES: "Melta Defenses"
+      STR_FACILITY_HANGAR: "Hangar"
+      STR_FACILITY_TRAINING: "Training Facility"
 
 ### ITEM CATEGORIES ###
 #By type
@@ -46,7 +98,7 @@ extraStrings:
       STR_CATEGORY_POWER: "Power Weapon"
 
 
-#INVENTORY SLOTS#
+### INVENTORY SLOTS ###
       STR_RIGHT_HAND: "R. Hand"
       STR_LEFT_HAND: "L. Hand "
       STR_BEHIND_SHOLDER: " "
@@ -72,7 +124,7 @@ extraStrings:
       STR_DAMAGE_12: "GRAVITON"
       STR_DAMAGE_13: "SUPPORT"
 
-#ARMORS
+### ARMORS ###
       STR_ARBITES_ARMOR: "Arbites Carapace Armor"
       STR_ARBITES_DEFENSIVE_EQUIPMENT: "Arbites Defensive Equipment"
 
@@ -177,10 +229,19 @@ extraStrings:
       STR_CORPSE_CULTIST: "Cultist Corpse"
 
 #CRAFTS
-      STR_VALKYRIE_ARBITES: "Valkyrie"
+      STR_VALKYRIE_PDF: "Valkyrie"
+      STR_EAGLE_PDF: "Eagle"
+      STR_HAWK_PDF: "Hawk"
 
 #UFOS
-      STR_ARVUS_CHAOS: "Chaos Arvus Lighter"
+      STR_CARGO_SHUTTLE: "Cargo Shuttle"
+      STR_VALKYRIE_CHAOS: "Chaos Valkyrie"
+      STR_RAVEN_CHAOS: "Chaos Raven"
+      STR_EAGLE_CHAOS: "Chaos Eagle"
+      STR_HAWK_CHAOS: "Chaos Hawk"
+      STR_LIGHT_CONVOY: "Light Vehicle Convoy"
+      STR_HEAVY_CONVOY: "Heavy Vehicle Convoy"
+
 
 #ALIEN RACES
       STR_CULTISTS: "Chaos Cultists"

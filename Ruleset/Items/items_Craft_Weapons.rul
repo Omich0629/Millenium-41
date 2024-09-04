@@ -1,0 +1,26 @@
+items:
+
+  - type: STR_CRAFT_AUTOCANNON
+    size: 1.5
+    costBuy: 30000
+    costSell: 22500
+    transferTime: 48
+  - type: STR_CRAFT_AUTOCANNON_AMMO
+    size: 0.1
+    costBuy: 1240
+    costSell: 1012
+    transferTime: 96
+    clipSize: 50
+
+
+  - type: STR_HUNTER_ROCKET_LAUNCHER
+    size: 0.8
+    costBuy: 16000
+    costSell: 12000
+    transferTime: 48
+  - type: STR_HUNTER_ROCKETS
+    size: 0.4
+    costBuy: 3000
+    costSell: 2400
+    transferTime: 48
+    clipSize: 1

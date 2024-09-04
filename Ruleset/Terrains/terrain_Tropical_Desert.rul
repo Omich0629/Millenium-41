@@ -1,0 +1,135 @@
+terrains:
+  - name: TROPICAL_DESERT
+    mapDataSets:
+      - BLANKS
+      - TROPICAL_DESERT_00
+      - TROPICAL_DESERT_01
+      - TROPICAL_DESERT_02
+    script: TROPICAL_DESERT
+    mapBlocks:
+#Group 0 (10x10 flat mapblocks without enemy spawners)
+#Indexes: 0-9
+      - name: TROPICAL_DESERT_0_00
+        width: 10
+        length: 10
+        groups: 0
+      - name: TROPICAL_DESERT_0_01
+        width: 10
+        length: 10
+        groups: 0
+      - name: TROPICAL_DESERT_0_02
+        width: 10
+        length: 10
+        groups: 0
+      - name: TROPICAL_DESERT_0_03
+        width: 10
+        length: 10
+        groups: 0
+      - name: TROPICAL_DESERT_0_04
+        width: 10
+        length: 10
+        groups: 0
+      - name: TROPICAL_DESERT_0_05
+        width: 10
+        length: 10
+        groups: 0
+      - name: TROPICAL_DESERT_0_06
+        width: 10
+        length: 10
+        groups: 0
+      - name: TROPICAL_DESERT_0_07
+        width: 10
+        length: 10
+        groups: 0
+      - name: TROPICAL_DESERT_0_08
+        width: 10
+        length: 10
+        groups: 0
+      - name: TROPICAL_DESERT_0_09
+        width: 10
+        length: 10
+        groups: 0
+#Group 1 (10x10 uneven mapblocks with enemy spawners)
+#Indexes: 10-19
+      - name: TROPICAL_DESERT_1_00
+        width: 10
+        length: 10
+        groups: 1
+      - name: TROPICAL_DESERT_1_01
+        width: 10
+        length: 10
+        groups: 1
+      - name: TROPICAL_DESERT_1_02
+        width: 10
+        length: 10
+        groups: 1
+      - name: TROPICAL_DESERT_1_03
+        width: 10
+        length: 10
+        groups: 1
+      - name: TROPICAL_DESERT_1_04
+        width: 10
+        length: 10
+        groups: 1
+      - name: TROPICAL_DESERT_1_05
+        width: 10
+        length: 10
+        groups: 1
+      - name: TROPICAL_DESERT_1_06
+        width: 10
+        length: 10
+        groups: 1
+      - name: TROPICAL_DESERT_1_07
+        width: 10
+        length: 10
+        groups: 1
+      - name: TROPICAL_DESERT_1_08
+        width: 10
+        length: 10
+        groups: 1
+      - name: TROPICAL_DESERT_1_09
+        width: 10
+        length: 10
+        groups: 1
+#Group 2 (20x20 hill-like mapblocks with enemy spawners)
+#Indexes: 20-29
+      - name: TROPICAL_DESERT_2_00
+        width: 20
+        length: 20
+        groups: 2
+      - name: TROPICAL_DESERT_2_01
+        width: 20
+        length: 20
+        groups: 2
+      - name: TROPICAL_DESERT_2_02
+        width: 20
+        length: 20
+        groups: 2
+      - name: TROPICAL_DESERT_2_03
+        width: 20
+        length: 20
+        groups: 2
+      - name: TROPICAL_DESERT_2_04
+        width: 20
+        length: 20
+        groups: 2
+      - name: TROPICAL_DESERT_2_05
+        width: 20
+        length: 20
+        groups: 2
+      - name: TROPICAL_DESERT_2_06
+        width: 20
+        length: 20
+        groups: 2
+      - name: TROPICAL_DESERT_2_07
+        width: 20
+        length: 20
+        groups: 2
+      - name: TROPICAL_DESERT_2_08
+        width: 20
+        length: 20
+        groups: 2
+      - name: TROPICAL_DESERT_2_09
+        width: 20
+        length: 20
+        groups: 2
