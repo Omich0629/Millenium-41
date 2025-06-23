@@ -17,6 +17,8 @@ extraSprites:
       15: Resources/Basebits/Original_Basebits/Basebits_2x2_Frame3.png
       16: Resources/Basebits/Original_Basebits/Basebits_2x2_Frame4.png
 #skip 17-40 (facilities, vehicles, unit miniatures)
+      38: Resources/Basebits/Original_Basebits/Basebits_Soldier_Miniature.png
+      39: Resources/Basebits/Original_Basebits/Basebits_Item_Miniature.png
       41: Resources/Basebits/Original_Basebits/Basebits_Base_Layout.png
 #skip 42-55 (ranks, weapons)
 #skip 56-99 (just in case, no real reason)
@@ -60,19 +62,32 @@ extraSprites:
       133: Resources/Basebits/Facilities/Basebits_Training_Facility_Frame4.png
 
 
-
-
-
-
-
-
 #333-499 Crafts
 #sprite index + 33
       333: Resources/Basebits/Crafts/Basebits_Valkyrie.png #300 + 33
       334: Resources/Basebits/Crafts/Basebits_Eagle.png #301 + 33
       335: Resources/Basebits/Crafts/Basebits_Hawk.png #301 + 33
 
-#500-799 Unit Miniatures
+#500-799 Ranks (Basescape)
+#soldier ranks
+      500: Resources/Basebits/Ranks/SoldierRanks/Basebits_Soldier_Rank0.png
+      501: Resources/Basebits/Ranks/SoldierRanks/Basebits_Soldier_Rank1.png
+      502: Resources/Basebits/Ranks/SoldierRanks/Basebits_Soldier_Rank2.png
+#sergeant ranks
+      503: Resources/Basebits/Ranks/SergeantRanks/Basebits_Sergeant_Rank0.png
+      504: Resources/Basebits/Ranks/SergeantRanks/Basebits_Sergeant_Rank1.png
+      505: Resources/Basebits/Ranks/SergeantRanks/Basebits_Sergeant_Rank2.png
+      506: Resources/Basebits/Ranks/SergeantRanks/Basebits_Sergeant_Rank3.png
+#officer ranks
+      507: Resources/Basebits/Ranks/OfficerRanks/Basebits_Officer_Rank0.png
+      508: Resources/Basebits/Ranks/OfficerRanks/Basebits_Officer_Rank1.png
+      509: Resources/Basebits/Ranks/OfficerRanks/Basebits_Officer_Rank2.png
+      510: Resources/Basebits/Ranks/OfficerRanks/Basebits_Officer_Rank3.png
+      511: Resources/Basebits/Ranks/OfficerRanks/Basebits_Officer_Rank4.png
+      512: Resources/Basebits/Ranks/OfficerRanks/Basebits_Officer_Rank5.png
+#psyker ranks
+      513: Resources/Basebits/Ranks/PsykerRanks/Basebits_Psyker_Rank0.png
+
 
 
 #848 - 999 Craft Weapons

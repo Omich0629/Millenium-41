@@ -1,5 +1,5 @@
 manufacture:
-  - name: STR_AUSPEX
+  - name: STR_MOTION_SCANNER
     category: STR_EQUIPMENT
 #    requires:
 #      - STR_MOTION_SCANNER

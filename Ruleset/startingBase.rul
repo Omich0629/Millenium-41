@@ -28,9 +28,12 @@ startingBase:
       x: 2
       y: 4
 
-  randomSoldiers: 12
-  crafts:
+
+  randomSoldiers:
+    STR_PDF_SOLDIER: 12
   items:
+    STR_AUTOPISTOL_PDF: 12
+    STR_AUTOPISTOL_MAGAZINE: 12
   scientists: 10
   engineers: 10
   crafts:

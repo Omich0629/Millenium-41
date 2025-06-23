@@ -1,0 +1,291 @@
+extended:
+  tags:
+    RuleItem:
+      AMMO_INDEX: int
+
+items:
+#Ruleset for throwing weapons
+
+## FRAG GRENADE
+  - type: STR_FRAG_GRENADE
+#RESOURCES
+    bigSprite: 1000
+    floorSprite: 1000
+    handSprite: 4000
+    hitAnimation: 8 #small frag explosion
+#    explosionHitSound: 
+#INFO
+    categories: [STR_CATEGORY_GRENADE]
+    costBuy: 300
+    costSell: 240
+    listOrder: 3000
+#SPECIFICATIONS
+    battleType: 4
+    size: 0.1
+    weight: 1
+    armor: 30
+    invWidth: 1
+    invHeight: 1
+#THROWING
+    power: 50
+    powerForAnimation: 25
+    damageType: 1 #kinetic
+    damageAlter:
+      RandomType: 7 #50-200%
+      FixRadius: 5
+      ToTile: 0.8
+    tuPrime: 50
+    tuThrow: 25
+    fuseType: 0 #explodes at the end of the turn
+    flatRate: false
+    throwRange: 20
+
+## KRAK GRENADE
+  - type: STR_KRAK_GRENADE
+#RESOURCES
+    bigSprite: 1001
+    floorSprite: 1001
+    handSprite: 4008
+    hitAnimation: 24 #small krak explosion
+#    explosionHitSound: 
+#INFO
+    categories: [STR_CATEGORY_GRENADE]
+    costBuy: 500
+    costSell: 400
+    listOrder: 3010
+#SPECIFICATIONS
+    battleType: 4
+    size: 0.1
+    weight: 1
+    armor: 30
+    invWidth: 1
+    invHeight: 1
+#THROWING
+    power: 70
+    powerForAnimation: 25
+    damageType: 3 #High Explosive
+    damageAlter:
+      RandomType: 2 #50-150%
+      FixRadius: 1
+      ToArmor: 0.2
+      ToArmorPre: 0.5
+      ToTile: 0.8
+    tuPrime: 50
+    tuThrow: 25
+    fuseType: 0 #explodes at the end of the turn
+    flatRate: false
+    throwRange: 20
+
+
+#PROXIMITY GRENADE
+  - type: STR_PROXIMITY_GRENADE
+#RESOURCES
+    bigSprite: 1002
+    floorSprite: 1002
+    handSprite: 4016
+    hitAnimation: 24 #small krak explosion
+#INFO
+    categories: [STR_CATEGORY_GRENADE]
+    costBuy: 600
+    costSell: 480
+    listOrder: 3020
+#SPECIFICATIONS
+    battleType: 5 #proximity grenade
+    size: 0.1
+    weight: 1
+    armor: 30
+    invWidth: 1
+    invHeight: 1
+#THROWING
+    power: 70
+    powerForAnimation: 25
+    damageType: 3 #High Explosive
+    damageAlter:
+      RandomType: 2 #50-150%
+      FixRadius: 1
+      ToArmor: 0.2
+      ToArmorPre: 0.5
+      ToTile: 0.8
+    tuPrime: 50
+    tuThrow: 25
+    flatRate: false
+    throwRange: 20
+
+
+## INCENDIARY GRENADE 
+  - type: STR_INCENDIARY_GRENADE 
+#RESOURCES
+    bigSprite: 1003
+    floorSprite: 1003
+    handSprite: 4024
+    hitAnimation: 40 #small incendiary explosion
+    # explosionHitSound: 
+#INFO
+    categories: [STR_CATEGORY_GRENADE]
+    costBuy: 350
+    costSell: 280
+    listOrder: 3030
+#SPECIFICATIONS
+    battleType: 4
+    size: 0.1
+    weight: 1
+    armor: 30
+    invWidth: 1
+    invHeight: 1
+#THROWING
+    power: 60
+    powerForAnimation: 25
+    damageType: 2 #incendiary
+    damageAlter:
+      RandomType: 2 #50-150%
+      ToHealth: 1.0
+      ToMorale: 0.5
+      ToTile: 0.5
+      FixRadius: 2
+    tuPrime: 50
+    tuThrow: 25
+    fuseType: 0 #explodes at the end of the turn
+    flatRate: false
+    throwRange: 20
+
+
+## SMOKE GRENADE
+  - type: STR_SMOKE_GRENADE 
+#RESOURCES
+    bigSprite: 1004
+    floorSprite: 1004
+    handSprite: 4032
+
+    hitAnimation: 56 #smoke explosion
+    # explosionHitSound: 
+#INFO
+    categories: [STR_CATEGORY_GRENADE]
+    costBuy: 150
+    costSell: 120
+    listOrder: 3040
+#SPECIFICATIONS
+    battleType: 4
+    size: 0.1
+    weight: 1
+    armor: 30
+    invWidth: 1
+    invHeight: 1
+#THROWING
+    power: 60
+    powerForAnimation: 80
+    damageType: 9 #smoke
+    damageAlter:
+      RandomType: 3 #100%
+      FixRadius: 4
+    tuPrime: 50
+    tuThrow: 25
+    fuseType: 0 #explodes at the end of the turn
+    flatRate: false
+    throwRange: 20
+
+
+## STUN GRENADE
+  - type: STR_STUN_GRENADE 
+#RESOURCES
+    bigSprite: 1005
+    floorSprite: 1005
+    handSprite: 4040
+    # explosionHitSound: 
+    hitAnimation: 72 #stun explosion
+#INFO
+    categories: [STR_CATEGORY_GRENADE]
+    costBuy: 300
+    costSell: 240
+    listOrder: 3050
+#SPECIFICATIONS
+    battleType: 4
+    size: 0.1
+    weight: 1
+    armor: 30
+    invWidth: 1
+    invHeight: 1
+#THROWING
+    power: 60
+    powerForAnimation: 40
+    damageType: 6 #stun
+    damageAlter:
+      RandomType: 7 #50-200%
+      FixRadius: 3
+    tuPrime: 50
+    tuThrow: 25
+    fuseType: 0 #explodes at the end of the turn
+    flatRate: false
+    throwRange: 20
+
+
+## DEMOLITION CHARGE
+  - type: STR_DEMOLITION_CHARGE
+#RESOURCES
+    bigSprite: 1006
+    floorSprite: 1006
+    handSprite: 4048
+    hitAnimation: 32 #Large krak explosion
+#INFO
+    categories: [STR_CATEGORY_GRENADE]
+    costBuy: 1500
+    costSell: 1200
+    listOrder: 3060
+#SPECIFICATIONS
+    battleType: 4
+    size: 0.2
+    weight: 5
+    armor: 30
+    invWidth: 2
+    invHeight: 1
+#THROWING
+    power: 90
+    damageType: 3 #High Explosive
+    damageAlter:
+      RandomType: 2 #50-150%
+      FixRadius: 5
+      ToTile: 0.8
+    tuPrime: 50
+    tuThrow: 25
+    flatRate: false
+    primeActionName: STR_SET_TIMER
+    primeActionMessage: STR_TIMER_IS_SET
+    throwRange: 10
+
+
+## MELTA BOMB
+  - type: STR_MELTA_BOMB
+#RESOURCES
+    bigSprite: 1007
+    floorSprite: 1007
+    handSprite: 4056
+
+    hitAnimation: 88 #Melta explosion
+
+#INFO
+    categories: [STR_CATEGORY_GRENADE]
+    costSell: 14850
+    listOrder: 3070
+#SPECIFICATIONS
+    battleType: 4
+    size: 0.2
+    weight: 5
+    armor: 30
+    invWidth: 1
+    invHeight: 2
+#THROWING
+    power: 110
+    damageType: 10 #Melta
+    damageAlter:
+      RandomType: 2 #50-150%
+      ToArmor: 0.3
+      ToArmorPre: 0.3
+      FixRadius: 5
+      ToTile: 0.8
+    tuPrime: 50
+    tuThrow: 25
+    flatRate: false
+    primeActionName: STR_SET_TIMER
+    primeActionMessage: STR_TIMER_IS_SET
+    throwRange: 10
+
+

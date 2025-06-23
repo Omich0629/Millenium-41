@@ -1,5 +1,5 @@
 ufopaedia:
-  - id: STR_AUTOPISTOL_ARBITES
+  - id: STR_AUTOPISTOL_PDF
     type_id: 14
     section: STR_WEAPONS_AND_EQUIPMENT
     text: STR_PISTOL_UFOPEDIA

@@ -1,0 +1,142 @@
+extended:
+  tags:
+    RuleItem:
+      AMMO_INDEX: int
+
+items:
+#Ruleset for utility items
+
+## MOTION SCANNER ##
+  - type: STR_MOTION_SCANNER
+#RESOURCES
+    bigSprite: 1010
+    floorSprite: 1010
+    handSprite: 4072
+#INFO
+    categories: [STR_CATEGORY_UTILITY]
+    costSell: 45600
+    listOrder: 3200
+#SPECIFICATIONS
+    battleType: 7
+    size: 0.1
+    weight: 3
+    invWidth: 1
+    invHeight: 2
+#USAGE
+    tuUse: 10
+
+
+## TACTICAL ANALYZER (Mind Probe) ##
+  - type: STR_ANALYZER
+#RESOURCES
+    bigSprite: 1011
+    floorSprite: 1011
+    handSprite: 4080
+    hitSound: 37
+#INFO
+    categories: [STR_CATEGORY_UTILITY]
+    costSell: 45600
+    listOrder: 3210
+#SPECIFICATIONS
+    battleType: 8
+    size: 0.1
+    weight: 3
+    armor: 30
+    invWidth: 1
+    invHeight: 1
+#USAGE
+    tuUse: 25
+    psiAttackName: STR_ANALYZE_TARGET
+
+
+## MEDI-KIT ##
+  - type: STR_MEDI_KIT
+#RESOURCES
+    bigSprite: 1012
+    floorSprite: 1012
+    handSprite: 4088
+#INFO
+    categories: [STR_CATEGORY_UTILITY]
+    costSell: 46500
+    listOrder: 3220
+#SPECIFICATIONS
+    battleType: 6
+    size: 0.1
+    weight: 5
+    armor: 30
+    invWidth: 1
+    invHeight: 2
+#USAGE
+    painKiller: 10
+    heal: 10
+    stimulant: 10
+    woundRecovery: 1
+    healthRecovery: 3
+    stunRecovery: 4
+    energyRecovery: 10
+    tuUse: 10
+    flatRate: true
+    medikitTargetSelf: true
+
+
+## GLOW STICK ##
+  - type: STR_GLOW_STICK
+#RESOURCES
+    bigSprite: 1013
+    floorSprite: 1013
+    handSprite: 4096
+#INFO
+    categories: [STR_CATEGORY_UTILITY]
+    costBuy: 60
+    costSell: 40
+    listOrder: 3230
+#SPECIFICATIONS
+    battleType: 10
+    size: 0.1
+    weight: 1
+    armor: 30
+#THROWING
+    power: 15
+    tuThrow: 25
+
+
+## FIRE EXTINGUISHER ##
+  - type: STR_FIRE_EXTINGUISHER
+#RESOURCES
+    bigSprite: 1014
+    floorSprite: 1014
+    handSprite: 4104
+
+    hitAnimation: 64 #fire extinguisher "explosion"
+
+#INFO
+    categories: [STR_CATEGORY_UTILITY]
+    costBuy: 200
+    costSell: 150
+    listOrder: 3240
+#SPECIFICATIONS
+    battleType: 1
+    size: 0.1
+    weight: 6
+    armor: 30
+    invWidth: 1
+    invHeight: 2
+    attraction: 1
+    twoHanded: true
+#USAGE
+    clipSize: -1
+    damageType: 9
+    isFireExtinguisher: true
+    power: 20
+    powerForAnimation: 20
+    damageAlter:
+      IgnoreSelfDestruct: true
+      RandomType: 3
+      ToStun: 0.0
+      FixRadius: 1
+    tuAimed: 25
+    accuracyAimed: 100
+    confAimed:
+        name: STR_EXTINGUISH_FIRE
+    maxRange: 1
+    experienceTrainingMode: 32 #train nothing

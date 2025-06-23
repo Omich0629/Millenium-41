@@ -1,0 +1,1704 @@
+extended:
+  tags:
+    RuleItem:
+      ITEM_HAS_BIPOD_BIGSPRITE: int
+      ITEM_HAS_BIPOD_HANDSPRITE: int
+      AMMO_CHANGES_ITEMS_BIGSPRITE: int
+      AMMO_INDEX: int
+      HEAVY_WEAPON: int
+
+items:
+#Ruleset for Tzeentch Cult weapons and store items
+
+## TZEENTCH AUTOPISTOL
+  - type: STR_AUTOPISTOL_TZEENTCH
+#RESOURCES
+    bigSprite: 309
+    floorSprite: 305
+    handSprite: 232
+#INFO
+    categories: [STR_CATEGORY_ONEHANDED, STR_CATEGORY_FIREARM]
+    costSell: 300
+    listOrder: 7000
+#SPECIFICATIONS
+    battleType: 1
+    size: 0.1
+    weight: 3
+    invWidth: 1
+    invHeight: 2
+    armor: 30
+    attraction: 5
+#AMMO
+    compatibleAmmo:
+      - STR_AUTOPISTOL_MAGAZINE
+#SHOOTING
+    accuracyAuto: 40
+    tuAuto: 25
+
+    accuracySnap: 60
+    tuSnap: 15
+
+    accuracyAimed: 80
+    tuAimed: 30
+    aimRange: 20
+
+#RECOVERY
+    recoveryTransformations:
+      STR_AUTOPISTOL_CHAOS_STORE: [1] #Transform into store item
+    recoveryPoints: 1
+#SCRIPTING
+    tags:
+      AMMO_CHANGES_ITEMS_BIGSPRITE: 1
+
+#MISC
+    ignoreInCraftEquip: true #Temporary
+
+
+
+## TZEENTCH AUTOGUN
+  - type: STR_AUTOGUN_TZEENTCH
+#RESOURCES
+    bigSprite: 322
+    floorSprite: 312
+    handSprite: 280
+#INFO
+    categories: [STR_CATEGORY_TWOHANDED, STR_CATEGORY_FIREARM]
+    costSell: 1125
+    listOrder: 7010
+#SPECIFICATIONS
+    battleType: 1
+    size: 0.2
+    weight: 8
+    invWidth: 2
+    invHeight: 3
+    armor: 35
+    attraction: 1
+    twoHanded: true
+    oneHandedPenalty: 50
+#AMMO
+    compatibleAmmo:
+      - STR_AUTOGUN_MAGAZINE
+#SHOOTING
+    accuracyAuto: 35
+    tuAuto: 35
+
+    accuracySnap: 60
+    tuSnap: 25
+
+    accuracyAimed: 100
+    tuAimed: 75
+    aimRange: 30
+
+#RECOVERY
+    recoveryTransformations:
+      STR_AUTOGUN_CHAOS_STORE: [1] #Transform into store item
+    recoveryPoints: 1
+#SCRIPTING
+    tags:
+      AMMO_CHANGES_ITEMS_BIGSPRITE: 1
+
+#MISC
+    ignoreInCraftEquip: true #Temporary
+
+
+
+## TZEENTCH MARKSMAN AUTOGUN
+  - type: STR_MARKSMAN_AUTOGUN_TZEENTCH
+#RESOURCES
+    bigSprite: 342
+    floorSprite: 318
+    handSprite: 360
+#INFO
+    categories: [STR_CATEGORY_TWOHANDED, STR_CATEGORY_FIREARM]
+    costSell: 1500
+    listOrder: 7020
+#SPECIFICATIONS
+    battleType: 1
+    size: 0.2
+    weight: 10
+    invWidth: 2
+    invHeight: 3
+    armor: 35
+    attraction: 1
+    twoHanded: true
+    oneHandedPenalty: 50
+#AMMO
+    compatibleAmmo:
+      - STR_AUTOGUN_MAGAZINE
+#SHOOTING
+    kneelBonus: 125
+
+    accuracySnap: 60
+    tuSnap: 30
+
+    accuracyAimed: 110
+    tuAimed: 80
+#RECOVERY
+    recoveryTransformations:
+      STR_MARKSMAN_AUTOGUN_CHAOS_STORE: [1] #Transform into store item
+    recoveryPoints: 1
+#SCRIPTING
+    tags:
+      AMMO_CHANGES_ITEMS_BIGSPRITE: 1
+      ITEM_HAS_BIPOD_BIGSPRITE: 1
+      ITEM_HAS_BIPOD_HANDSPRITE: 1
+
+#MISC
+    ignoreInCraftEquip: true #Temporary
+
+
+
+## TZEENTCH HEAVY STUBBER
+  - type: STR_HEAVY_STUBBER_TZEENTCH
+#RESOURCES
+    bigSprite: 367
+    floorSprite: 325
+    handSprite: 464
+#INFO
+    categories: [STR_CATEGORY_HEAVY, STR_CATEGORY_FIREARM]
+    costSell: 1388
+    listOrder: 7030
+#SPECIFICATIONS
+    battleType: 1
+    size: 0.3
+    weight: 12
+    invWidth: 2
+    invHeight: 3
+    armor: 35
+    attraction: 1
+    twoHanded: true
+    blockBothHands: true
+#AMMO
+    compatibleAmmo:
+      - STR_HEAVY_STUBBER_AMMO_BELT
+#SHOOTING
+    kneelBonus: 125
+
+    accuracyAuto: 32
+    confAuto:
+      shots: 6
+    tuAuto: 40
+    autoRange: 10
+
+    accuracySnap: 56
+    confSnap:
+      shots: 3
+    tuSnap: 33
+
+    accuracyAimed: 82
+    tuAimed: 80
+    aimRange: 30
+
+#RECOVERY
+    recoveryTransformations:
+      STR_HEAVY_STUBBER_CHAOS_STORE: [1] #Transform into store item
+    recoveryPoints: 1
+#SCRIPTING
+    tags:
+      HEAVY_WEAPON: 1
+      AMMO_CHANGES_ITEMS_BIGSPRITE: 1
+      ITEM_HAS_BIPOD_BIGSPRITE: 1
+      ITEM_HAS_BIPOD_HANDSPRITE: 1
+
+#MISC
+    ignoreInCraftEquip: true #Temporary
+
+
+
+## TZEENTCH GRENADE LAUNCHER
+  - type: STR_GRENADE_LAUNCHER_TZEENTCH
+#RESOURCES
+    bigSprite: 395
+    floorSprite: 332
+    handSprite: 536
+#INFO
+    categories: [STR_CATEGORY_HEAVY, STR_CATEGORY_LAUNCHER]
+    costSell: 1600
+    listOrder: 7040
+#SPECIFICATIONS
+    battleType: 1
+    size: 0.3
+    weight: 10
+    invWidth: 2
+    invHeight: 3
+    armor: 35
+    attraction: 1
+    twoHanded: true
+#AMMO
+    compatibleAmmo:
+      - STR_FRAG_GRENADE_MAGAZINE
+      - STR_KRAK_GRENADE_MAGAZINE
+      - STR_INCENDIARY_GRENADE_MAGAZINE
+#SHOOTING
+    arcingShot: true
+
+    accuracySnap: 60
+    tuSnap: 33
+
+    accuracyAimed: 90
+    tuAimed: 75
+    aimRange: 30
+
+#RECOVERY
+    recoveryTransformations:
+      STR_GRENADE_LAUNCHER_CHAOS_STORE: [1] #Transform into store item
+    recoveryPoints: 1
+#SCRIPTING
+    tags:
+      HEAVY_WEAPON: 1
+      AMMO_CHANGES_ITEMS_BIGSPRITE: 1
+
+#MISC
+    ignoreInCraftEquip: true #Temporary
+
+
+
+## TZEENTCH MISSILE LAUNCHER
+  - type: STR_MISSILE_LAUNCHER_TZEENTCH
+#RESOURCES
+    bigSprite: 411
+    floorSprite: 339
+    handSprite: 592
+#INFO
+    categories: [STR_CATEGORY_HEAVY, STR_CATEGORY_LAUNCHER]
+    costSell: 1600
+    listOrder: 7050
+#SPECIFICATIONS
+    battleType: 1
+    size: 0.4
+    weight: 12
+    invWidth: 2
+    invHeight: 3
+    armor: 35
+    attraction: 1
+    twoHanded: true
+    blockBothHands: true
+#AMMO
+    compatibleAmmo:
+      - STR_FRAG_MISSILE
+      - STR_KRAK_MISSILE
+      - STR_INCENDIARY_MISSILE
+#SHOOTING
+    accuracySnap: 55
+    tuSnap: 45
+
+    accuracyAimed: 115
+    tuAimed: 80
+    aimRange: 40
+
+#RECOVERY
+    recoveryTransformations:
+      STR_MISSILE_LAUNCHER_CHAOS_STORE: [1] #Transform into store item
+    recoveryPoints: 1
+#SCRIPTING
+    tags:
+      HEAVY_WEAPON: 1
+
+#MISC
+    ignoreInCraftEquip: true #Temporary
+
+
+
+#TZEENTCH FLAMER
+  - type: STR_FLAMER_TZEENTCH
+#RESOURCES
+    bigSprite: 416
+    floorSprite: 343
+    handSprite: 624
+#INFO
+    categories: [STR_CATEGORY_HEAVY, STR_CATEGORY_LAUNCHER]
+    costSell: 1400
+    listOrder: 7060
+#SPECIFICATIONS
+    battleType: 1
+    size: 0.3
+    weight: 10
+    invWidth: 2
+    invHeight: 3
+    armor: 30
+    attraction: 1
+    twoHanded: true
+#AMMO
+    compatibleAmmo:
+      - STR_FLAMER_FUEL
+#SHOOTING
+    powerRangeThreshold: 8
+    powerRangeReduction: 75
+    maxRange: 8
+
+    accuracySnap: 60
+    tuSnap: 30
+
+#RECOVERY
+    recoveryTransformations:
+      STR_FLAMER_CHAOS_STORE: [1] #Transform into store item
+    recoveryPoints: 1
+#SCRIPTING
+    tags:
+      HEAVY_WEAPON: 1
+      AMMO_CHANGES_ITEMS_BIGSPRITE: 1
+
+#MISC
+    ignoreInCraftEquip: true #Temporary
+
+
+
+## TZEENTCH LASPISTOL
+  - type: STR_LASPISTOL_TZEENTCH
+#RESOURCES
+    bigSprite: 429
+    floorSprite: 364
+    handSprite: 696
+
+    bulletSprite: 17 #Laser beam projectile
+    bulletSpeed: 25
+
+    fireSound: 11
+    hitSound: 19
+    hitAnimation: 220 #Laser hit
+
+#INFO
+    categories: [STR_CATEGORY_ONEHANDED, STR_CATEGORY_LASER]
+    costSell: 1800
+    listOrder: 7070
+#SPECIFICATION
+    battleType: 1
+    size: 0.1
+    invWidth: 1
+    invHeight: 2
+    weight: 3
+    armor: 30
+#SHOOTING
+    power: 30
+    clipSize: -1
+    damageType: 4 #laser
+    damageAlter:
+      RandomType: 7 #50-200%
+      ToArmor: 0.1
+      ToArmorPre: 0.1
+
+    accuracySnap: 75
+    tuSnap: 20
+
+    accuracyAimed: 95
+    tuAimed: 35
+    aimRange: 20
+#RECOVERY
+    recoveryTransformations:
+      STR_LASPISTOL_CHAOS_STORE: [1] #Transform into store item
+    recoveryPoints: 1
+
+#MISC
+    ignoreInCraftEquip: true #Temporary
+
+
+
+## TZEENTCH LASGUN
+  - type: STR_LASGUN_TZEENTCH
+#RESOURCES
+    bigSprite: 435
+    floorSprite: 370
+    handSprite: 744
+
+    bulletSprite: 17 #Laser beam projectile
+    bulletSpeed: 25
+
+    fireSound: 11
+    hitSound: 19
+    hitAnimation: 220 #Laser hit
+#INFO
+    categories: [STR_CATEGORY_TWOHANDED, STR_CATEGORY_LASER]
+    costSell: 6750
+    listOrder: 7080
+#SPECIFICATIONS
+    battleType: 1
+    size: 0.2
+    weight: 9
+    invWidth: 2
+    invHeight: 3
+    armor: 35
+    attraction: 1
+    twoHanded: true
+    oneHandedPenalty: 50
+#SHOOTING
+    power: 30
+    clipSize: -1
+    damageType: 4 #laser
+    damageAlter:
+      RandomType: 7 #50-200%
+      ToArmor: 0.1
+      ToArmorPre: 0.1
+
+    accuracyAuto: 50
+    tuAuto: 40
+
+    accuracySnap: 75
+    tuSnap: 30
+
+    accuracyAimed: 115
+    tuAimed: 80
+    aimRange: 30
+#RECOVERY
+    recoveryTransformations:
+      STR_LASGUN_CHAOS_STORE: [1] #Transform into store item
+    recoveryPoints: 1
+
+#MISC
+    ignoreInCraftEquip: true #Temporary
+
+
+
+## TZEENTCH MARKSMAN LASGUN
+  - type: STR_MARKSMAN_LASGUN_TZEENTCH
+#RESOURCES
+    bigSprite: 445
+    floorSprite: 376
+    handSprite: 824
+
+    bulletSprite: 17 #Laser beam projectile
+    bulletSpeed: 25
+
+    fireSound: 11
+    hitSound: 19
+    hitAnimation: 220 #Laser hit
+#INFO
+    categories: [STR_CATEGORY_TWOHANDED, STR_CATEGORY_LASER]
+    costSell: 9000
+    listOrder: 7090
+#SPECIFICATIONS
+    battleType: 1
+    size: 0.2
+    weight: 10
+    invWidth: 2
+    invHeight: 3
+    armor: 35
+    attraction: 1
+    twoHanded: true
+    oneHandedPenalty: 50
+#SHOOTING
+    power: 30
+    clipSize: -1
+    damageType: 4 #laser
+    damageAlter:
+      RandomType: 7 #50-200%
+      ToArmor: 0.1
+      ToArmorPre: 0.1
+
+    kneelBonus: 125
+
+    accuracySnap: 75
+    tuSnap: 35
+
+    accuracyAimed: 125
+    tuAimed: 80
+#RECOVERY
+    recoveryTransformations:
+      STR_MARKSMAN_LASGUN_CHAOS_STORE: [1] #Transform into store item
+    recoveryPoints: 1
+#SCRIPTING
+    tags:
+      ITEM_HAS_BIPOD_BIGSPRITE: 1
+      ITEM_HAS_BIPOD_HANDSPRITE: 1
+
+#MISC
+    ignoreInCraftEquip: true #Temporary
+
+
+
+## TZEENTCH TWIN LASGUN
+  - type: STR_TWIN_LASGUN_TZEENTCH
+#RESOURCES
+    bigSprite: 457
+    floorSprite: 382
+    handSprite: 920
+#INFO
+    categories: [STR_CATEGORY_HEAVY, STR_CATEGORY_LASER]
+    costSell: 8325
+    listOrder: 7100
+
+    bulletSprite: 17 #Laser beam projectile
+    bulletSpeed: 25
+
+    fireSound: 11
+    hitSound: 19
+    hitAnimation: 220 #Laser hit
+
+#SPECIFICATIONS
+    battleType: 1
+    size: 0.3
+    weight: 14
+    invWidth: 2
+    invHeight: 3
+    armor: 35
+    attraction: 1
+    twoHanded: true
+    blockBothHands: true
+#SHOOTING
+    power: 30
+    clipSize: -1
+    damageType: 4 #laser
+    damageAlter:
+      RandomType: 7 #50-200%
+      ToArmor: 0.1
+      ToArmorPre: 0.1
+
+    kneelBonus: 125
+
+    accuracyAuto: 47
+    confAuto:
+      shots: 6
+    tuAuto: 45
+    autoRange: 10
+
+    accuracySnap: 70
+    confSnap:
+      shots: 3
+    tuSnap: 38
+
+    accuracyAimed: 95
+    tuAimed: 80
+    aimRange: 30
+#RECOVERY
+    recoveryTransformations:
+      STR_TWIN_LASGUN_CHAOS_STORE: [1] #Transform into store item
+    recoveryPoints: 1
+#SCRIPTING
+    tags:
+      HEAVY_WEAPON: 1
+      ITEM_HAS_BIPOD_BIGSPRITE: 1
+      ITEM_HAS_BIPOD_HANDSPRITE: 1
+
+#MISC
+    ignoreInCraftEquip: true #Temporary
+
+
+
+## TZEENTCH HELLPISTOL
+  - type: STR_HELLPISTOL_TZEENTCH
+#RESOURCES
+    bigSprite: 465
+    floorSprite: 388
+    handSprite: 984
+
+    bulletSprite: 18 #Hotshot laser beam projectile
+    bulletSpeed: 25
+
+    fireSound: 11
+    hitSound: 19
+    hitAnimation: 230 #Hotshot laser hit
+
+#INFO
+    categories: [STR_CATEGORY_ONEHANDED, STR_CATEGORY_LASER]
+    costSell: 10125
+    listOrder: 7110
+#SPECIFICATION
+    battleType: 1
+    size: 0.1
+    invWidth: 1
+    invHeight: 2
+    weight: 4
+    armor: 30
+#SHOOTING
+    power: 40
+    clipSize: -1
+    damageType: 4 #laser
+    damageAlter:
+      RandomType: 7 #50-200%
+      ToArmor: 0.2
+      ToArmorPre: 0.2
+      ToTile: 1.0
+
+    accuracySnap: 75
+    tuSnap: 15
+
+    accuracyAimed: 95
+    tuAimed: 30
+    aimRange: 20
+#RECOVERY
+    recoveryTransformations:
+      STR_HELLPISTOL_CHAOS_STORE: [1] #Transform into store item
+    recoveryPoints: 2
+
+#MISC
+    ignoreInCraftEquip: true #Temporary
+
+
+
+## TZEENTCH HELLGUN
+  - type: STR_HELLGUN_TZEENTCH
+#RESOURCES
+    bigSprite: 471
+    floorSprite: 394
+    handSprite: 1032
+
+    bulletSprite: 18 #Hotshot laser beam projectile
+    bulletSpeed: 25
+
+    fireSound: 11
+    hitSound: 19
+    hitAnimation: 230 #Hotshot laser hit
+#INFO
+    categories: [STR_CATEGORY_TWOHANDED, STR_CATEGORY_LASER]
+    costSell: 18000
+    listOrder: 7120
+#SPECIFICATIONS
+    battleType: 1
+    size: 0.2
+    weight: 11
+    invWidth: 2
+    invHeight: 3
+    armor: 35
+    attraction: 1
+    twoHanded: true
+    oneHandedPenalty: 50
+#SHOOTING
+    power: 40
+    clipSize: -1
+    damageType: 4 #laser
+    damageAlter:
+      RandomType: 7 #50-200%
+      ToArmor: 0.2
+      ToArmorPre: 0.2
+      ToTile: 1.0
+
+    accuracyAuto: 50
+    tuAuto: 35
+
+    accuracySnap: 75
+    tuSnap: 25
+
+    accuracyAimed: 115
+    tuAimed: 75
+    aimRange: 30
+#RECOVERY
+    recoveryTransformations:
+      STR_HELLGUN_CHAOS_STORE: [1] #Transform into store item
+    recoveryPoints: 2
+
+#MISC
+    ignoreInCraftEquip: true #Temporary
+
+
+
+## TZEENTCH MARKSMAN HELLGUN
+  - type: STR_MARKSMAN_HELLGUN_TZEENTCH
+#RESOURCES
+    bigSprite: 481
+    floorSprite: 400
+    handSprite: 1112
+
+    bulletSprite: 18 #Hotshot laser beam projectile
+    bulletSpeed: 25
+
+    fireSound: 11
+    hitSound: 19
+    hitAnimation: 230 #Hotshot laser hit
+#INFO
+    categories: [STR_CATEGORY_TWOHANDED, STR_CATEGORY_LASER]
+    costSell: 23400
+    listOrder: 7130
+#SPECIFICATIONS
+    battleType: 1
+    size: 0.2
+    weight: 13
+    invWidth: 2
+    invHeight: 3
+    armor: 35
+    attraction: 1
+    twoHanded: true
+    oneHandedPenalty: 50
+#SHOOTING
+    power: 40
+    clipSize: -1
+    damageType: 4 #laser
+    damageAlter:
+      RandomType: 7 #50-200%
+      ToArmor: 0.2
+      ToArmorPre: 0.2
+      ToTile: 1.0
+
+    kneelBonus: 125
+
+    accuracySnap: 75
+    tuSnap: 30
+
+    accuracyAimed: 125
+    tuAimed: 80
+#RECOVERY
+    recoveryTransformations:
+      STR_MARKSMAN_HELLGUN_CHAOS_STORE: [1] #Transform into store item
+    recoveryPoints: 2
+#SCRIPTING
+    tags:
+      ITEM_HAS_BIPOD_BIGSPRITE: 1
+      ITEM_HAS_BIPOD_HANDSPRITE: 1
+
+#MISC
+    ignoreInCraftEquip: true #Temporary
+
+
+
+## TZEENTCH TWIN HELLGUN
+  - type: STR_TWIN_HELLGUN_TZEENTCH
+#RESOURCES
+    bigSprite: 493
+    floorSprite: 406
+    handSprite: 1208
+#INFO
+    categories: [STR_CATEGORY_HEAVY, STR_CATEGORY_LASER]
+    costSell: 22500
+    listOrder: 7140
+
+    bulletSprite: 18 #Hotshot laser beam projectile
+    bulletSpeed: 25
+
+    fireSound: 11
+    hitSound: 19
+    hitAnimation: 230 #Hotshot laser hit
+
+#SPECIFICATIONS
+    battleType: 1
+    size: 0.3
+    weight: 18
+    invWidth: 2
+    invHeight: 3
+    armor: 35
+    attraction: 1
+    twoHanded: true
+    blockBothHands: true
+#SHOOTING
+    power: 40
+    clipSize: -1
+    damageType: 4 #laser
+    damageAlter:
+      RandomType: 7 #50-200%
+      ToArmor: 0.2
+      ToArmorPre: 0.2
+      ToTile: 1.0
+
+    kneelBonus: 125
+
+    accuracyAuto: 47
+    confAuto:
+      shots: 6
+    tuAuto: 40
+    autoRange: 10
+
+    accuracySnap: 70
+    confSnap:
+      shots: 3
+    tuSnap: 33
+
+    accuracyAimed: 95
+    tuAimed: 80
+    aimRange: 30
+#RECOVERY
+    recoveryTransformations:
+      STR_TWIN_HELLGUN_CHAOS_STORE: [1] #Transform into store item
+    recoveryPoints: 2
+#SCRIPTING
+    tags:
+      HEAVY_WEAPON: 1
+      ITEM_HAS_BIPOD_BIGSPRITE: 1
+      ITEM_HAS_BIPOD_HANDSPRITE: 1
+
+#MISC
+    ignoreInCraftEquip: true #Temporary
+
+
+
+## TZEENTCH BOLT PISTOL
+  - type: STR_BOLT_PISTOL_TZEENTCH
+#RESOURCES
+    bigSprite: 506
+    floorSprite: 413
+    handSprite: 1272
+#INFO
+    categories: [STR_CATEGORY_ONEHANDED, STR_CATEGORY_BOLT]
+    costSell: 20250
+    listOrder: 7150
+#SPECIFICATION
+    battleType: 1
+    size: 0.2
+    invWidth: 2
+    invHeight: 2
+    weight: 5
+    armor: 35
+    attraction: 1
+#AMMO
+    compatibleAmmo:
+      - STR_BOLT_PISTOL_MAGAZINE
+#SHOOTING
+    accuracySnap: 65
+    tuSnap: 25
+
+    accuracyAimed: 85
+    tuAimed: 40
+    aimRange: 20
+#RECOVERY
+    recoveryTransformations:
+      STR_BOLT_PISTOL_CHAOS_STORE: [1] #Transform into store item
+    recoveryPoints: 3
+#SCRIPTING
+    tags:
+      AMMO_CHANGES_ITEMS_BIGSPRITE: 1
+
+#MISC
+    ignoreInCraftEquip: true #Temporary
+
+
+
+## TZEENTCH BOLTGUN
+  - type: STR_BOLTGUN_TZEENTCH
+#RESOURCES
+    bigSprite: 519
+    floorSprite: 420
+    handSprite: 1320
+#INFO
+    categories: [STR_CATEGORY_TWOHANDED, STR_CATEGORY_BOLT]
+    costSell: 33750
+    listOrder: 7160
+#SPECIFICATIONS
+    battleType: 1
+    size: 0.3
+    weight: 10
+    invWidth: 2
+    invHeight: 3
+    armor: 35
+    attraction: 1
+    twoHanded: true
+    oneHandedPenalty: 50
+#AMMO
+    compatibleAmmo:
+      - STR_BOLTGUN_MAGAZINE
+#SHOOTING
+    accuracyAuto: 40
+    tuAuto: 40
+
+    accuracySnap: 65
+    tuSnap: 30
+
+    accuracyAimed: 100
+    tuAimed: 75
+    aimRange: 30
+#RECOVERY
+    recoveryTransformations:
+      STR_BOLTGUN_CHAOS_STORE: [1] #Transform into store item
+    recoveryPoints: 3
+#SCRIPTING
+    tags:
+      AMMO_CHANGES_ITEMS_BIGSPRITE: 1
+
+#MISC
+    ignoreInCraftEquip: true #Temporary
+
+
+
+## TZEENTCH MARKSMAN BOLTGUN
+  - type: STR_MARKSMAN_BOLTGUN_TZEENTCH
+#RESOURCES
+    bigSprite: 531
+    floorSprite: 426
+    handSprite: 1368
+#INFO
+    categories: [STR_CATEGORY_TWOHANDED, STR_CATEGORY_BOLT]
+    costSell: 40500
+    listOrder: 7170
+#SPECIFICATIONS
+    battleType: 1
+    size: 0.3
+    weight: 12
+    invWidth: 2
+    invHeight: 3
+    armor: 35
+    attraction: 1
+    twoHanded: true
+    oneHandedPenalty: 50
+#AMMO
+    compatibleAmmo:
+      - STR_BOLTGUN_MAGAZINE
+#SHOOTING
+
+    accuracySnap: 65
+    tuSnap: 30
+
+    accuracyAimed: 120
+    tuAimed: 75
+#RECOVERY
+    recoveryTransformations:
+      STR_MARKSMAN_BOLTGUN_CHAOS_STORE: [1] #Transform into store item
+    recoveryPoints: 3
+#SCRIPTING
+    tags:
+      AMMO_CHANGES_ITEMS_BIGSPRITE: 1
+
+#MISC
+    ignoreInCraftEquip: true #Temporary
+
+
+
+## TZEENTCH HEAVY BOLTER
+  - type: STR_HEAVY_BOLTER_TZEENTCH
+#RESOURCES
+    bigSprite: 553
+    floorSprite: 434
+    handSprite: 1456
+#INFO
+    categories: [STR_CATEGORY_HEAVY, STR_CATEGORY_BOLT]
+    costSell: 43875
+    listOrder: 7180
+#SPECIFICATIONS
+    battleType: 1
+    size: 0.4
+    weight: 16
+    invWidth: 2
+    invHeight: 3
+    armor: 35
+    attraction: 1
+    twoHanded: true
+    blockBothHands: true
+#AMMO
+    compatibleAmmo:
+      - STR_HEAVY_BOLTER_AMMO_BELT
+#SHOOTING
+    kneelBonus: 125
+
+    accuracyAuto: 35
+    confAuto:
+      shots: 4
+    tuAuto: 40
+    autoRange: 10
+
+    accuracySnap: 60
+    confSnap:
+      shots: 2
+    tuSnap: 33
+
+    accuracyAimed: 85
+    tuAimed: 80
+    aimRange: 30
+#RECOVERY
+    recoveryTransformations:
+      STR_HEAVY_BOLTER_CHAOS_STORE: [1] #Transform into store item
+    recoveryPoints: 3
+#SCRIPTING
+    tags:
+      HEAVY_WEAPON: 1
+      AMMO_CHANGES_ITEMS_BIGSPRITE: 1
+      ITEM_HAS_BIPOD_BIGSPRITE: 1
+      ITEM_HAS_BIPOD_HANDSPRITE: 1
+
+#MISC
+    ignoreInCraftEquip: true #Temporary
+
+
+
+## TZEENTCH BOLT PISTOL (ASTARTES-SIZED)
+  - type: STR_SM_BOLT_PISTOL_TZEENTCH
+#RESOURCES
+    bigSprite: 567
+    floorSprite: 439
+    handSprite: 1512
+#INFO
+    categories: [STR_CATEGORY_ONEHANDED, STR_CATEGORY_BOLT]
+    costSell: 20250
+    listOrder: 7180
+#SPECIFICATION
+    battleType: 1
+    size: 0.2
+    invWidth: 2
+    invHeight: 2
+    weight: 6
+    armor: 35
+    attraction: 1
+#AMMO
+    compatibleAmmo:
+      - STR_BOLT_PISTOL_MAGAZINE
+#SHOOTING
+    accuracySnap: 65
+    tuSnap: 20
+
+    accuracyAimed: 85
+    tuAimed: 35
+    aimRange: 20
+#RECOVERY
+    recoveryTransformations:
+      STR_BOLT_PISTOL_CHAOS_STORE: [1] #Transform into store item
+    recoveryPoints: 3
+#SCRIPTING
+    tags:
+      AMMO_CHANGES_ITEMS_BIGSPRITE: 1
+
+#MISC
+    ignoreInCraftEquip: true #Temporary
+
+
+
+## TZEENTCH BOLTGUN (ASTARTES-SIZED)
+  - type: STR_SM_BOLTGUN_TZEENTCH
+#RESOURCES
+    bigSprite: 577
+    floorSprite: 444
+    handSprite: 1592
+#INFO
+    categories: [STR_CATEGORY_TWOHANDED, STR_CATEGORY_BOLT]
+    costSell: 33750
+    listOrder: 7200
+#SPECIFICATIONS
+    battleType: 1
+    size: 0.3
+    weight: 12
+    invWidth: 2
+    invHeight: 3
+    armor: 35
+    attraction: 1
+    twoHanded: true
+    oneHandedPenalty: 50
+#AMMO
+    compatibleAmmo:
+      - STR_BOLTGUN_MAGAZINE
+#SHOOTING
+    accuracyAuto: 40
+    tuAuto: 35
+
+    accuracySnap: 65
+    tuSnap: 25
+
+    accuracyAimed: 100
+    tuAimed: 75
+    aimRange: 30
+#RECOVERY
+    recoveryTransformations:
+      STR_BOLTGUN_CHAOS_STORE: [1] #Transform into store item
+    recoveryPoints: 3
+#SCRIPTING
+    tags:
+      AMMO_CHANGES_ITEMS_BIGSPRITE: 1
+
+#MISC
+    ignoreInCraftEquip: true #Temporary
+
+
+
+## TZEENTCH STORM BOLTER (ASTARTES-SIZED)
+  - type: STR_SM_STORM_BOLTER_TZEENTCH
+#RESOURCES
+    bigSprite: 588
+    floorSprite: 450
+    handSprite: 1592
+#INFO
+    categories: [STR_CATEGORY_ONEHANDED, STR_CATEGORY_BOLT]
+    costSell: 40500
+    listOrder: 7210
+#SPECIFICATION
+    battleType: 1
+    size: 0.3
+    invWidth: 2
+    invHeight: 3
+    weight: 16
+    armor: 35
+    attraction: 1
+#AMMO
+    compatibleAmmo:
+      - STR_STORM_BOLTER_MAGAZINE
+#SHOOTING
+    accuracyAuto: 40
+    tuAuto: 40
+    confAuto:
+      shots: 4
+
+    accuracySnap: 65
+    tuSnap: 30
+    confSnap:
+      shots: 2
+
+    accuracyAimed: 100
+    tuAimed: 75
+    aimRange: 25
+    confAimed:
+      shots: 2
+#RECOVERY
+    recoveryTransformations:
+      STR_STORM_BOLTER_CHAOS_STORE: [1] #Transform into store item
+    recoveryPoints: 3
+#SCRIPTING
+    tags:
+      AMMO_CHANGES_ITEMS_BIGSPRITE: 1
+
+#MISC
+    ignoreInCraftEquip: true #Temporary
+
+
+
+## TZEENTCH HEAVY BOLTER (ASTARTES-SIZED)
+  - type: STR_SM_HEAVY_BOLTER_TZEENTCH
+#RESOURCES
+    bigSprite: 598
+    floorSprite: 455
+    handSprite: 1632
+#INFO
+    categories: [STR_CATEGORY_HEAVY, STR_CATEGORY_BOLT]
+    costSell: 43875
+    listOrder: 7220
+#SPECIFICATIONS
+    battleType: 1
+    size: 0.4
+    weight: 18
+    invWidth: 2
+    invHeight: 3
+    armor: 35
+    attraction: 1
+    twoHanded: true
+    blockBothHands: true
+#AMMO
+    compatibleAmmo:
+      - STR_HEAVY_BOLTER_AMMO_BELT
+#SHOOTING
+
+    accuracyAuto: 40
+    confAuto:
+      shots: 4
+    tuAuto: 40
+    autoRange: 12
+
+    accuracySnap: 65
+    confSnap:
+      shots: 2
+    tuSnap: 30
+
+    accuracyAimed: 85
+    tuAimed: 80
+    aimRange: 30
+#RECOVERY
+    recoveryTransformations:
+      STR_HEAVY_BOLTER_CHAOS_STORE: [1] #Transform into store item
+    recoveryPoints: 3
+#SCRIPTING
+    tags:
+      HEAVY_WEAPON: 1
+      AMMO_CHANGES_ITEMS_BIGSPRITE: 1
+
+#MISC
+    ignoreInCraftEquip: true #Temporary
+
+
+
+## TZEENTCH PLASMA PISTOL (HUMAN-SIZED)
+  - type: STR_PLASMA_PISTOL_TZEENTCH
+#RESOURCES
+    bigSprite: 611
+    floorSprite: 462
+    handSprite: 1680
+#INFO
+    categories: [STR_CATEGORY_ONEHANDED, STR_CATEGORY_PLASMA]
+    costSell: 42000
+    listOrder: 7230
+#SPECIFICATION
+    battleType: 1
+    size: 0.1
+    invWidth: 1
+    invHeight: 2
+    weight: 4
+    armor: 35
+    attraction: 1
+#AMMO
+    compatibleAmmo:
+      - STR_HYDROGEN_FUEL_CELL
+#SHOOTING
+    accuracySnap: 65
+    tuSnap: 35
+
+    accuracyAimed: 95
+    tuAimed: 70
+    aimRange: 20
+#RECOVERY
+    recoveryTransformations:
+      STR_PLASMA_PISTOL_CHAOS_STORE: [1] #Transform into store item
+    recoveryPoints: 3
+#SCRIPTING
+    tags:
+      AMMO_CHANGES_ITEMS_BIGSPRITE: 1
+
+#MISC
+    ignoreInCraftEquip: true #Temporary
+
+
+
+## TZEENTCH PLASMA GUN (HUMAN-SIZED)
+  - type: STR_PLASMA_GUN_TZEENTCH
+#RESOURCES
+    bigSprite: 623
+    floorSprite: 468
+    handSprite: 1728
+#INFO
+    categories: [STR_CATEGORY_TWOHANDED, STR_CATEGORY_PLASMA]
+    costSell: 66000
+    listOrder: 7240
+#SPECIFICATION
+    battleType: 1
+    size: 0.2
+    invWidth: 2
+    invHeight: 3
+    weight: 10
+    armor: 35
+    attraction: 1
+    twoHanded: true
+#AMMO
+    compatibleAmmo:
+      - STR_HYDROGEN_FUEL_CELL
+#SHOOTING
+    accuracySnap: 75
+    tuSnap: 30
+
+    accuracyAimed: 105
+    tuAimed: 65
+    aimRange: 30
+#RECOVERY
+    recoveryTransformations:
+      STR_PLASMA_GUN_CHAOS_STORE: [1] #Transform into store item
+    recoveryPoints: 3
+#SCRIPTING
+    tags:
+      AMMO_CHANGES_ITEMS_BIGSPRITE: 1
+
+#MISC
+    ignoreInCraftEquip: true #Temporary
+
+
+
+## TZEENTCH PLASMA PISTOL (ASTARTES-SIZED)
+  - type: STR_SM_PLASMA_PISTOL_TZEENTCH
+#RESOURCES
+    bigSprite: 633
+    floorSprite: 473
+    handSprite: 1768
+#INFO
+    categories: [STR_CATEGORY_ONEHANDED, STR_CATEGORY_PLASMA]
+    costSell: 42000
+    listOrder: 7250
+#SPECIFICATION
+    battleType: 1
+    size: 0.1
+    invWidth: 1
+    invHeight: 2
+    weight: 4
+    armor: 35
+    attraction: 1
+#AMMO
+    compatibleAmmo:
+      - STR_HYDROGEN_FUEL_CELL
+#SHOOTING
+    accuracySnap: 65
+    tuSnap: 35
+
+    accuracyAimed: 95
+    tuAimed: 70
+    aimRange: 20
+#RECOVERY
+    recoveryTransformations:
+      STR_PLASMA_PISTOL_CHAOS_STORE: [1] #Transform into store item
+    recoveryPoints: 3
+#SCRIPTING
+    tags:
+      AMMO_CHANGES_ITEMS_BIGSPRITE: 1
+
+#MISC
+    ignoreInCraftEquip: true #Temporary
+
+
+
+## TZEENTCH PLASMA GUN (ASTARTES-SIZED)
+  - type: STR_SM_PLASMA_GUN_TZEENTCH
+#RESOURCES
+    bigSprite: 643
+    floorSprite: 478
+    handSprite: 1808
+#INFO
+    categories: [STR_CATEGORY_TWOHANDED, STR_CATEGORY_PLASMA]
+    costSell: 66000
+    listOrder: 7260
+#SPECIFICATION
+    battleType: 1
+    size: 0.2
+    invWidth: 2
+    invHeight: 3
+    weight: 10
+    armor: 35
+    attraction: 1
+    twoHanded: true
+#AMMO
+    compatibleAmmo:
+      - STR_HYDROGEN_FUEL_CELL
+#SHOOTING
+    accuracySnap: 75
+    tuSnap: 30
+
+    accuracyAimed: 105
+    tuAimed: 65
+    aimRange: 30
+#RECOVERY
+    recoveryTransformations:
+      STR_PLASMA_GUN_CHAOS_STORE: [1] #Transform into store item
+    recoveryPoints: 3
+#SCRIPTING
+    tags:
+      AMMO_CHANGES_ITEMS_BIGSPRITE: 1
+
+#MISC
+    ignoreInCraftEquip: true #Temporary
+
+
+
+## TZEENTCH MELTAGUN (HUMAN-SIZED)
+  - type: STR_MELTAGUN_TZEENTCH
+#RESOURCES
+    bigSprite: 658
+    floorSprite: 485
+    handSprite: 1856
+#INFO
+    categories: [STR_CATEGORY_TWOHANDED, STR_CATEGORY_MELTA]
+    costSell: 71250
+    listOrder: 7270
+#SPECIFICATION
+    battleType: 1
+    size: 0.2
+    invWidth: 2
+    invHeight: 3
+    weight: 10
+    armor: 35
+    attraction: 1
+    twoHanded: true
+#AMMO
+    compatibleAmmo:
+      - STR_MELTAGUN_FUEL
+#SHOOTING
+    powerRangeThreshold: 8
+    powerRangeReduction: 110
+    maxRange: 8
+
+    accuracySnap: 60
+    tuSnap: 40
+
+    accuracyAimed: 120
+    tuAimed: 80
+#RECOVERY
+    recoveryTransformations:
+      STR_MELTAGUN_CHAOS_STORE: [1] #Transform into store item
+    recoveryPoints: 3
+#SCRIPTING
+    tags:
+      AMMO_CHANGES_ITEMS_BIGSPRITE: 1
+
+#MISC
+    ignoreInCraftEquip: true #Temporary
+
+
+
+## TZEENTCH MELTAGUN (ASTARTES-SIZED)
+  - type: STR_MELTAGUN_TZEENTCH
+#RESOURCES
+    bigSprite: 668
+    floorSprite: 490
+    handSprite: 1896
+#INFO
+    categories: [STR_CATEGORY_TWOHANDED, STR_CATEGORY_MELTA]
+    costSell: 71250
+    listOrder: 7280
+#SPECIFICATION
+    battleType: 1
+    size: 0.2
+    invWidth: 2
+    invHeight: 3
+    weight: 10
+    armor: 35
+    attraction: 1
+    twoHanded: true
+#AMMO
+    compatibleAmmo:
+      - STR_MELTAGUN_FUEL
+#SHOOTING
+    powerRangeThreshold: 8
+    powerRangeReduction: 110
+    maxRange: 8
+
+    accuracySnap: 60
+    tuSnap: 40
+
+    accuracyAimed: 120
+    tuAimed: 80
+#RECOVERY
+    recoveryTransformations:
+      STR_MELTAGUN_CHAOS_STORE: [1] #Transform into store item
+    recoveryPoints: 3
+#SCRIPTING
+    tags:
+      AMMO_CHANGES_ITEMS_BIGSPRITE: 1
+
+#MISC
+    ignoreInCraftEquip: true #Temporary
+
+
+
+## TZEENTCH COMBAT KNIFE
+  - type: STR_COMBAT_KNIFE_TZEENTCH
+#RESOURCES
+    bigSprite: 677
+    floorSprite: 497
+    handSprite: 1952
+
+    meleeAnimation: 12 #white melee hit
+    meleeMissAnimation: 16 #white melee miss
+
+    meleeSound: 39
+    meleeHitSound: 54
+#INFO
+    categories: [STR_CATEGORY_MELEE]
+    costSell: 55
+    listOrder: 7290
+#SPECIFICATION
+    battleType: 3
+    size: 0.1
+    weight: 2
+    invWidth: 1
+    invHeight: 2
+    armor: 30
+#MELEE
+    clipSize: -1
+    power: 30
+    damageType: 7 #Melee
+    damageAlter:
+      RandomType: 7 #50-200%
+    accuracyMelee: 120
+    tuMelee: 25
+#RECOVERY
+    recoveryTransformations:
+      STR_COMBAT_KNIFE_CHAOS_STORE: [1] #Transform into store item
+    recoveryPoints: 0
+
+#MISC
+    ignoreInCraftEquip: true #Temporary
+
+
+
+## TZEENTCH SWORD
+  - type: STR_SWORD_TZEENTCH
+#RESOURCES
+    bigSprite: 688
+    floorSprite: 508
+    handSprite: 2040
+
+    meleeAnimation: 12 #white melee hit
+    meleeMissAnimation: 16 #white melee miss
+
+    meleeSound: 39
+    meleeHitSound: 54
+#INFO
+    categories: [STR_CATEGORY_MELEE]
+    costSell: 150
+    listOrder: 7310
+#SPECIFICATION
+    battleType: 3
+    size: 0.2
+    weight: 6
+    invWidth: 1
+    invHeight: 3
+    armor: 30
+#MELEE
+    clipSize: -1
+    power: 40
+    damageType: 7 #Melee
+    damageAlter:
+      RandomType: 7 #50-200%
+      ToArmor: 0.1
+      ToArmorPre: 0.07
+    accuracyMelee: 100
+    tuMelee: 30
+#RECOVERY
+    recoveryTransformations:
+      STR_SWORD_CHAOS_STORE: [1] #Transform into store item
+    recoveryPoints: 0
+
+#MISC
+    ignoreInCraftEquip: true #Temporary
+
+
+
+
+## TZEENTCH CHAINSWORD
+  - type: STR_CHAINSWORD_TZEENTCH
+#RESOURCES
+    bigSprite: 701
+    floorSprite: 521
+    handSprite: 2144
+
+    meleeAnimation: 20 #red melee hit
+    meleeMissAnimation: 24 #red melee miss
+
+    meleeSound: 39
+    meleeHitSound: 54
+#INFO
+    categories: [STR_CATEGORY_MELEE, STR_CATEGORY_CHAIN]
+    costSell: 12500
+    listOrder: 7330
+#SPECIFICATION
+    battleType: 3
+    size: 0.2
+    weight: 7
+    invWidth: 1
+    invHeight: 3
+    armor: 35
+#MELEE
+    clipSize: -1
+    power: 60
+    damageType: 7 #Melee
+    damageAlter:
+      RandomType: 2 #50-150%
+      ToArmor: 0.25
+      ToArmorPre: 0.25
+    accuracyMelee: 100
+    tuMelee: 30
+#RECOVERY
+    recoveryTransformations:
+      STR_CHAINSWORD_CHAOS_STORE: [1] #Transform into store item
+    recoveryPoints: 1
+
+#MISC
+    ignoreInCraftEquip: true #Temporary
+
+
+
+## TZEENTCH ASTARTES CHAINSWORD
+  - type: STR_SM_CHAINSWORD_TZEENTCH
+#RESOURCES
+    bigSprite: 706
+    floorSprite: 526
+    handSprite: 2184
+
+    meleeAnimation: 20 #red melee hit
+    meleeMissAnimation: 24 #red melee miss
+
+    meleeSound: 39
+    meleeHitSound: 54
+#INFO
+    categories: [STR_CATEGORY_MELEE, STR_CATEGORY_CHAIN]
+    costSell: 12500
+    listOrder: 7340
+#SPECIFICATION
+    battleType: 3
+    size: 0.2
+    weight: 8
+    invWidth: 1
+    invHeight: 3
+    armor: 35
+#MELEE
+    clipSize: -1
+    power: 65
+    damageType: 7 #Melee
+    damageAlter:
+      RandomType: 2 #50-150%
+      ToArmor: 0.25
+      ToArmorPre: 0.25
+    accuracyMelee: 100
+    tuMelee: 30
+#RECOVERY
+    recoveryTransformations:
+      STR_CHAINSWORD_CHAOS_STORE: [1] #Transform into store item
+    recoveryPoints: 1
+
+#MISC
+    ignoreInCraftEquip: true #Temporary
+
+
+
+
+## TZEENTCH POWER SWORD
+  - type: STR_POWER_SWORD_TZEENTCH
+#RESOURCES
+    bigSprite: 720
+    floorSprite: 540
+    handSprite: 2296
+
+    meleeAnimation: 28 #blue melee hit
+    meleeMissAnimation: 32 #blue melee miss
+
+    meleeSound: 39
+    meleeHitSound: 54
+#INFO
+    categories: [STR_CATEGORY_MELEE, STR_CATEGORY_POWER]
+    costSell: 30000
+    listOrder: 7360
+#SPECIFICATION
+    battleType: 3
+    size: 0.2
+    weight: 7
+    invWidth: 1
+    invHeight: 3
+    armor: 35
+#MELEE
+    clipSize: -1
+    power: 90
+    damageType: 7 #Melee
+    damageAlter:
+      RandomType: 2 #50-150%
+      ToArmor: 0.3
+      ToArmorPre: 0.3
+    accuracyMelee: 100
+    tuMelee: 30
+#RECOVERY
+    recoveryTransformations:
+      STR_POWER_SWORD_CHAOS_STORE: [1] #Transform into store item
+    recoveryPoints: 2
+
+#MISC
+    ignoreInCraftEquip: true #Temporary
+
+
+
+## TZEENTCH ASTARTES POWER SWORD
+  - type: STR_SM_POWER_SWORD_TZEENTCH
+#RESOURCES
+    bigSprite: 725
+    floorSprite: 545
+    handSprite: 2336
+
+    meleeAnimation: 28 #blue melee hit
+    meleeMissAnimation: 32 #blue melee miss
+
+    meleeSound: 39
+    meleeHitSound: 54
+#INFO
+    categories: [STR_CATEGORY_MELEE, STR_CATEGORY_POWER]
+    costSell: 30000
+    listOrder: 7370
+#SPECIFICATION
+    battleType: 3
+    size: 0.2
+    weight: 8
+    invWidth: 1
+    invHeight: 3
+    armor: 35
+#MELEE
+    clipSize: -1
+    power: 95
+    damageType: 7 #Melee
+    damageAlter:
+      RandomType: 2 #50-150%
+      ToArmor: 0.3
+      ToArmorPre: 0.3
+    accuracyMelee: 100
+    tuMelee: 30
+#RECOVERY
+    recoveryTransformations:
+      STR_POWER_SWORD_CHAOS_STORE: [1] #Transform into store item
+    recoveryPoints: 2
+
+#MISC
+    ignoreInCraftEquip: true #Temporary
+
+
+
+
+
+
+
+

@@ -1,0 +1,224 @@
+items:
+
+#STORE ITEM FOR PDF FLAK ARMOR
+  - type: STR_FLAK_ARMOR_STORE_ITEM
+    size: 0.4
+    costBuy: 12500
+    costSell: 10000
+
+#STORE ITEM FOR PDF ASSAULT FLAK ARMOR
+  - type: STR_ASSAULT_FLAK_ARMOR_STORE_ITEM
+    size: 0.4
+    costSell: 30000
+
+#STORE ITEM FOR PDF CARAPACE ARMOR
+  - type: STR_CARAPACE_STORE_ITEM
+    size: 0.4
+    costSell: 30000
+
+#STORE ITEM FOR PDF ASSAULT CARAPACE ARMOR
+  - type: STR_ASSAULT_CARAPACE_STORE_ITEM
+    size: 0.4
+    costSell: 50000
+
+#STORE ITEM FOR PDF CARAPACE ARMOR
+  - type: STR_HEAVY_CARAPACE_STORE_ITEM
+    size: 0.4
+    costSell: 50000
+
+
+
+
+
+
+
+#STORE ITEM FOR CHAOS AUTOPISTOLS
+  - type: STR_AUTOPISTOL_CHAOS_STORE
+    size: 0.2
+    costSell: 300
+    listOrder: 15000
+
+#STORE ITEM FOR CHAOS AUTOGUNS
+  - type: STR_AUTOGUN_CHAOS_STORE
+    size: 0.2
+    costSell: 1125
+    listOrder: 15010
+
+#STORE ITEM FOR CHAOS MARKSMAN AUTOGUNS
+  - type: STR_MARKSMAN_AUTOGUN_CHAOS_STORE
+    size: 0.2
+    costSell: 1500
+    listOrder: 15020
+
+#STORE ITEM FOR CHAOS HEAVY STUBBERS
+  - type: STR_HEAVY_STUBBER_CHAOS_STORE
+    size: 0.3
+    costSell: 1388
+    listOrder: 15030
+
+#STORE ITEM FOR CHAOS GRENADE LAUNCHERS
+  - type: STR_GRENADE_LAUNCHER_CHAOS_STORE
+    size: 0.3
+    costSell: 1600
+    listOrder: 15040
+
+#STORE ITEM FOR CHAOS MISSILE LAUNCHERS
+  - type: STR_MISSILE_LAUNCHER_CHAOS_STORE
+    size: 0.4
+    costSell: 1600
+    listOrder: 15050
+
+#STORE ITEM FOR CHAOS MISSILE LAUNCHERS
+  - type: STR_FLAMER_CHAOS_STORE
+    size: 0.3
+    costSell: 1400
+    listOrder: 15060
+
+#STORE ITEM FOR CHAOS LASPISTOLS
+  - type: STR_LASPISTOL_CHAOS_STORE
+    size: 0.1
+    costSell: 1800
+    listOrder: 15070
+
+#STORE ITEM FOR CHAOS LASGUNS
+  - type: STR_LASGUN_CHAOS_STORE
+    size: 0.2
+    costSell: 6750
+    listOrder: 15080
+
+#STORE ITEM FOR CHAOS MARKSMAN LASGUNS
+  - type: STR_MARKSMAN_LASGUN_CHAOS_STORE
+    size: 0.2
+    costSell: 9000
+    listOrder: 15090
+
+#STORE ITEM FOR CHAOS TWIN LASGUNS
+  - type: STR_TWIN_LASGUN_CHAOS_STORE
+    size: 0.3
+    costSell: 8325
+    listOrder: 15100
+
+#STORE ITEM FOR CHAOS HELLPISTOLS
+  - type: STR_HELLPISTOL_CHAOS_STORE
+    size: 0.1
+    costSell: 10125
+    listOrder: 15110
+
+#STORE ITEM FOR CHAOS HELLGUNS
+  - type: STR_HELLGUN_CHAOS_STORE
+    size: 0.2
+    costSell: 18000
+    listOrder: 15120
+
+#STORE ITEM FOR CHAOS MARKSMAN HELLGUNS
+  - type: STR_MARKSMAN_HELLGUN_CHAOS_STORE
+    size: 0.2
+    costSell: 23400
+    listOrder: 15130
+
+#STORE ITEM FOR CHAOS TWIN HELLGUNS
+  - type: STR_TWIN_HELLGUN_CHAOS_STORE
+    size: 0.3
+    costSell: 22500
+    listOrder: 15140
+
+#STORE ITEM FOR CHAOS BOLT PISTOLS
+  - type: STR_BOLT_PISTOL_CHAOS_STORE
+    size: 0.2
+    costSell: 20250
+    listOrder: 15150
+
+#STORE ITEM FOR CHAOS BOLTGUNS
+  - type: STR_BOLTGUN_CHAOS_STORE
+    size: 0.3
+    costSell: 33750
+    listOrder: 15160
+
+#STORE ITEM FOR CHAOS MARKSMAN BOLTGUNS
+  - type: STR_MARKSMAN_BOLTGUN_CHAOS_STORE
+    size: 0.3
+    costSell: 40500
+    listOrder: 15170
+
+#STORE ITEM FOR CHAOS STORM BOLTERS
+  - type: STR_STORM_BOLTER_CHAOS_STORE
+    size: 0.3
+    costSell: 40500
+    listOrder: 15180
+
+#STORE ITEM FOR CHAOS HEAVY BOLTERS
+  - type: STR_HEAVY_BOLTER_CHAOS_STORE
+    size: 0.4
+    costSell: 43875
+    listOrder: 15190
+
+#STORE ITEM FOR CHAOS PLASMA PISTOLS
+  - type: STR_PLASMA_PISTOL_CHAOS_STORE
+    size: 0.1
+    costSell: 42000
+    listOrder: 15200
+
+#STORE ITEM FOR CHAOS PLASMA GUNS
+  - type: STR_PLASMA_GUN_CHAOS_STORE
+    size: 0.2
+    costSell: 66000
+    listOrder: 15210
+
+#STORE ITEM FOR CHAOS MELTAGUNS
+  - type: STR_MELTAGUN_CHAOS_STORE
+    size: 0.2
+    costSell: 71250
+    listOrder: 15220
+
+#STORE ITEM FOR CHAOS COMBAT KNIVES
+  - type: STR_COMBAT_KNIFE_CHAOS_STORE
+    size: 0.1
+    costSell: 55
+    listOrder: 15230
+
+#STORE ITEM FOR CHAOS SWORDS
+  - type: STR_SWORD_CHAOS_STORE
+    size: 0.2
+    costSell: 150
+    listOrder: 15240
+
+#STORE ITEM FOR CHAOS COMBAT AXES
+  - type: STR_COMBAT_AXE_CHAOS_STORE
+    size: 0.2
+    costSell: 150
+    listOrder: 15250
+
+#STORE ITEM FOR CHAOS CHAINSWORDS
+  - type: STR_CHAINSWORD_CHAOS_STORE
+    size: 0.2
+    costSell: 12500
+    listOrder: 15270
+
+#STORE ITEM FOR CHAOS CHAINAXES
+  - type: STR_CHAINAXE_CHAOS_STORE
+    size: 0.2
+    costSell: 12500
+    listOrder: 15280
+
+#STORE ITEM FOR CHAOS POWER SWORDS
+  - type: STR_POWER_SWORD_CHAOS_STORE
+    size: 0.2
+    costSell: 30000
+    listOrder: 15300
+
+#STORE ITEM FOR CHAOS POWER AXES
+  - type: STR_POWER_AXE_CHAOS_STORE
+    size: 0.2
+    costSell: 30000
+    listOrder: 15310
+
+
+
+
+
+
+
+
+
+
+

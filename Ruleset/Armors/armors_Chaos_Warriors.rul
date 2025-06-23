@@ -1,0 +1,287 @@
+armors:
+
+#CHAOS WARRIOR ARMOR (MALE)
+  - type: STR_CHAOS_WARRIOR_ARMOR_MALE
+#GENERAL
+    drawingRoutine: 0 #x-com soldier
+    spriteSheet: CHAOS_WARRIOR_ARMOR.PCK
+    spriteInv: CHAOS_WARRIOR_ARMOR_MALE
+    corpseBattle:
+      - STR_CORPSE_CHAOS_WARRIOR
+    loftempsSet: [ 3 ]
+    allowsKneeling: true
+    weight: 20
+
+#PROTECTION
+    frontArmor: 60
+    sideArmor: 50
+    rearArmor: 40
+    underArmor: 40
+    damageModifier:
+      - 1.0 #None
+      - 1.0 #Armor Piercing
+      - 1.0 #Incendiary
+      - 1.0 #High Explosive
+      - 1.0 #Laser
+      - 1.0 #Plasma
+      - 1.0 #Stun
+      - 1.0 #Melee
+      - 1.0 #Acid
+      - 0.0 #Smoke
+      - 1.0 #Melta
+
+
+#CHAOS WARRIOR ARMOR (FEMALE)
+  - type: STR_CHAOS_WARRIOR_ARMOR_FEMALE
+#GENERAL
+    drawingRoutine: 0 #x-com soldier
+    spriteSheet: CHAOS_WARRIOR_ARMOR.PCK
+    spriteInv: CHAOS_WARRIOR_ARMOR_FEMALE
+    corpseBattle:
+      - STR_CORPSE_CHAOS_WARRIOR
+    loftempsSet: [ 3 ]
+    allowsKneeling: true
+    weight: 20
+
+#PROTECTION
+    frontArmor: 60
+    sideArmor: 50
+    rearArmor: 40
+    underArmor: 40
+    damageModifier:
+      - 1.0 #None
+      - 1.0 #Armor Piercing
+      - 1.0 #Incendiary
+      - 1.0 #High Explosive
+      - 1.0 #Laser
+      - 1.0 #Plasma
+      - 1.0 #Stun
+      - 1.0 #Melee
+      - 1.0 #Acid
+      - 0.0 #Smoke
+      - 1.0 #Melta
+
+
+
+
+
+#CHAOS WARRIOR SHOCK TROOPER ARMOR (MALE)
+  - type: STR_CHAOS_WARRIOR_SHOCK_TROOPER_ARMOR_MALE
+#GENERAL
+    drawingRoutine: 0 #x-com soldier
+    spriteSheet: CHAOS_WARRIOR_SHOCK_TROOPER_ARMOR.PCK
+    spriteInv: CHAOS_WARRIOR_SHOCK_TROOPER_ARMOR_MALE
+    corpseBattle:
+      - STR_CORPSE_CHAOS_WARRIOR_SHOCK_TROOPER
+    loftempsSet: [ 3 ]
+    allowsKneeling: true
+    weight: 30
+    movementType: 1 #Unit can fly
+
+    builtInWeapons:
+      - STR_BACKPACK_SLOT
+
+#PROTECTION
+    frontArmor: 60
+    sideArmor: 50
+    rearArmor: 40
+    underArmor: 40
+    damageModifier:
+      - 1.0 #None
+      - 1.0 #Armor Piercing
+      - 1.0 #Incendiary
+      - 1.0 #High Explosive
+      - 1.0 #Laser
+      - 1.0 #Plasma
+      - 1.0 #Stun
+      - 1.0 #Melee
+      - 1.0 #Acid
+      - 0.0 #Smoke
+      - 1.0 #Melta
+
+
+
+#CHAOS WARRIOR SHOCK TROOPER ARMOR (FEMALE)
+  - type: STR_CHAOS_WARRIOR_SHOCK_TROOPER_ARMOR_FEMALE
+#GENERAL
+    drawingRoutine: 0 #x-com soldier
+    spriteSheet: CHAOS_WARRIOR_SHOCK_TROOPER_ARMOR.PCK
+    spriteInv: CHAOS_WARRIOR_SHOCK_TROOPER_ARMOR_FEMALE
+    corpseBattle:
+      - STR_CORPSE_CHAOS_WARRIOR_SHOCK_TROOPER
+    loftempsSet: [ 3 ]
+    allowsKneeling: true
+    weight: 30
+    movementType: 1 #Unit can fly
+
+    builtInWeapons:
+      - STR_BACKPACK_SLOT
+
+#PROTECTION
+    frontArmor: 60
+    sideArmor: 50
+    rearArmor: 40
+    underArmor: 40
+    damageModifier:
+      - 1.0 #None
+      - 1.0 #Armor Piercing
+      - 1.0 #Incendiary
+      - 1.0 #High Explosive
+      - 1.0 #Laser
+      - 1.0 #Plasma
+      - 1.0 #Stun
+      - 1.0 #Melee
+      - 1.0 #Acid
+      - 0.0 #Smoke
+      - 1.0 #Melta
+
+
+
+
+
+#CHAOS WARRIOR SQUAD LEADER ARMOR (MALE)
+  - type: STR_CHAOS_WARRIOR_SQUAD_LEADER_ARMOR_MALE
+#GENERAL
+    drawingRoutine: 0 #x-com soldier
+    spriteSheet: CHAOS_WARRIOR_SQUAD_LEADER_ARMOR.PCK
+    spriteInv: CHAOS_WARRIOR_SQUAD_LEADER_ARMOR_MALE
+    corpseBattle:
+      - STR_CORPSE_CHAOS_WARRIOR_SQUAD_LEADER
+    loftempsSet: [ 3 ]
+    allowsKneeling: true
+    weight: 20
+
+#PROTECTION
+    frontArmor: 60
+    sideArmor: 50
+    rearArmor: 40
+    underArmor: 40
+    damageModifier:
+      - 1.0 #None
+      - 1.0 #Armor Piercing
+      - 1.0 #Incendiary
+      - 1.0 #High Explosive
+      - 1.0 #Laser
+      - 1.0 #Plasma
+      - 1.0 #Stun
+      - 1.0 #Melee
+      - 1.0 #Acid
+      - 0.0 #Smoke
+      - 1.0 #Melta
+
+
+#CHAOS WARRIOR SQUAD LEADER ARMOR (FEMALE)
+  - type: STR_CHAOS_WARRIOR_SQUAD_LEADER_ARMOR_FEMALE
+#GENERAL
+    drawingRoutine: 0 #x-com soldier
+    spriteSheet: CHAOS_WARRIOR_SQUAD_LEADER_ARMOR.PCK
+    spriteInv: CHAOS_WARRIOR_SQUAD_LEADER_ARMOR_FEMALE
+    corpseBattle:
+      - STR_CORPSE_CHAOS_WARRIOR_SQUAD_LEADER
+    loftempsSet: [ 3 ]
+    allowsKneeling: true
+    weight: 20
+
+#PROTECTION
+    frontArmor: 60
+    sideArmor: 50
+    rearArmor: 40
+    underArmor: 40
+    damageModifier:
+      - 1.0 #None
+      - 1.0 #Armor Piercing
+      - 1.0 #Incendiary
+      - 1.0 #High Explosive
+      - 1.0 #Laser
+      - 1.0 #Plasma
+      - 1.0 #Stun
+      - 1.0 #Melee
+      - 1.0 #Acid
+      - 0.0 #Smoke
+      - 1.0 #Melta
+
+
+#CHAOS WARRIOR PSYKER ARMOR (MALE)
+  - type: STR_CHAOS_WARRIOR_PSYKER_ARMOR_MALE
+#GENERAL
+    drawingRoutine: 0 #x-com soldier
+    spriteSheet: CHAOS_WARRIOR_PSYKER_ARMOR.PCK
+    spriteInv: CHAOS_WARRIOR_PSYKER_ARMOR_MALE
+    corpseBattle:
+      - STR_CORPSE_CHAOS_WARRIOR_PSYKER
+    loftempsSet: [ 3 ]
+    allowsKneeling: true
+    weight: 7
+
+    movementType: 1 #Unit can fly
+
+    builtInWeapons:
+      - STR_FORCE_STAFF_CHAOS
+      - STR_BACKPACK_SLOT
+
+    specialWeapon: STR_CHAOS_PSYKER_SKILL
+
+#PROTECTION
+    frontArmor: 25
+    sideArmor: 20
+    rearArmor: 20
+    underArmor: 20
+    damageModifier:
+      - 1.0 #None
+      - 1.0 #Armor Piercing
+      - 1.0 #Incendiary
+      - 1.0 #High Explosive
+      - 1.0 #Laser
+      - 1.0 #Plasma
+      - 1.0 #Stun
+      - 1.0 #Melee
+      - 1.0 #Acid
+      - 0.0 #Smoke
+      - 1.0 #Melta
+
+
+#CHAOS WARRIOR PSYKER ARMOR (FEMALE)
+  - type: STR_CHAOS_WARRIOR_PSYKER_ARMOR_FEMALE
+#GENERAL
+    drawingRoutine: 0 #x-com soldier
+    spriteSheet: CHAOS_WARRIOR_PSYKER_ARMOR.PCK
+    spriteInv: CHAOS_WARRIOR_PSYKER_ARMOR_FEMALE
+    corpseBattle:
+      - STR_CORPSE_CHAOS_WARRIOR_PSYKER
+    loftempsSet: [ 3 ]
+    allowsKneeling: true
+    weight: 7
+
+    movementType: 1 #Unit can fly
+
+    builtInWeapons:
+      - STR_FORCE_STAFF_CHAOS
+      - STR_BACKPACK_SLOT
+
+    specialWeapon: STR_CHAOS_PSYKER_SKILL
+
+#PROTECTION
+    frontArmor: 25
+    sideArmor: 20
+    rearArmor: 20
+    underArmor: 20
+    damageModifier:
+      - 1.0 #None
+      - 1.0 #Armor Piercing
+      - 1.0 #Incendiary
+      - 1.0 #High Explosive
+      - 1.0 #Laser
+      - 1.0 #Plasma
+      - 1.0 #Stun
+      - 1.0 #Melee
+      - 1.0 #Acid
+      - 0.0 #Smoke
+      - 1.0 #Melta
+
+
+
+
+
+
+
+

@@ -1,0 +1,2588 @@
+armors:
+
+#PDF SOLDIER UNIFORM
+  - type: STR_PDF_SOLDIER_UNIFORM
+
+#GENERAL
+    drawingRoutine: 0 #x-com soldier
+    spriteSheet: PDF_SOLDIER_UNIFORM.PCK
+    units:
+      - STR_PDF_SOLDIER
+    corpseBattle:
+      - STR_CORPSE_PDF_SOLDIER_UNIFORM
+    storeItem: STR_NONE
+    loftempsSet: [ 3 ]
+    weight: 0
+
+#PROTECTION
+    frontArmor: 12
+    sideArmor: 8
+    rearArmor: 5
+    underArmor: 2
+    damageModifier:
+      - 1.0 #None
+      - 1.0 #Armor Piercing
+      - 1.0 #Incendiary
+      - 1.0 #High Explosive
+      - 1.0 #Laser
+      - 1.0 #Plasma
+      - 1.0 #Stun
+      - 1.0 #Melee
+      - 1.0 #Acid
+      - 1.0 #Smoke
+      - 1.0 #Melta
+
+#LAYERS
+    spriteFaceGroup: 6
+    spriteFaceColor: [96, 96, #MALE_00, FEMALE_00 (Skin color: 0)
+                      96, 96, #MALE_01 FEMALE_01 (Skin color: 0)
+                      160, 160, #MALE_02 FEMALE_02 (Skin color: 1)
+                      163, 163] #MALE_03 FEMALE_03 (Skin color: 2)
+
+    spriteHairGroup: 9
+    spriteHairColor: [144, 144, #MALE_00 FEMALE_00 (Hair color: Yellow)
+                      164, 164, #MALE_01 FEMALE_01 (Hair color: Brown)
+                      245, 245, #MALE_02 FEMALE_02 (Hair color: Black)
+                      165, 165] #MALE_03 FEMALE_03 (Hair color: Dark Brown)
+
+    layersDefaultPrefix: 0
+    layersSpecificPrefix:
+      4: PDF_SOLDIER_UNIFORM
+    layersDefinition:
+#MALE LAYERS
+      M0: ["", "MALE_00_FACE", "MALE_00_HAIR", "MALE_HANDS_0", "PDF_SOLDIER_UNIFORM_M"]
+      M1: ["", "MALE_01_FACE", "MALE_01_HAIR", "MALE_HANDS_0", "PDF_SOLDIER_UNIFORM_M"]
+      M2: ["", "MALE_02_FACE", "MALE_02_HAIR", "MALE_HANDS_1", "PDF_SOLDIER_UNIFORM_M"]
+      M3: ["", "MALE_03_FACE", "MALE_03_HAIR", "MALE_HANDS_2", "PDF_SOLDIER_UNIFORM_M"]
+      M4: ["", "MALE_04_FACE", "MALE_04_HAIR", "MALE_HANDS_0", "PDF_SOLDIER_UNIFORM_M"]
+      M5: ["", "MALE_05_FACE", "MALE_05_HAIR", "MALE_HANDS_0", "PDF_SOLDIER_UNIFORM_M"]
+      M6: ["", "MALE_06_FACE", "MALE_06_HAIR", "MALE_HANDS_1", "PDF_SOLDIER_UNIFORM_M"]
+      M7: ["", "MALE_07_FACE", "MALE_07_HAIR", "MALE_HANDS_2", "PDF_SOLDIER_UNIFORM_M"]
+      M8: ["", "MALE_08_FACE", "MALE_08_HAIR", "MALE_HANDS_0", "PDF_SOLDIER_UNIFORM_M"]
+      M9: ["", "MALE_09_FACE", "MALE_09_HAIR", "MALE_HANDS_0", "PDF_SOLDIER_UNIFORM_M"]
+      M10: ["", "MALE_10_FACE", "MALE_10_HAIR", "MALE_HANDS_1", "PDF_SOLDIER_UNIFORM_M"]
+      M11: ["", "MALE_11_FACE", "MALE_11_HAIR", "MALE_HANDS_2", "PDF_SOLDIER_UNIFORM_M"]
+      M12: ["", "MALE_12_FACE", "MALE_12_HAIR", "MALE_HANDS_0", "PDF_SOLDIER_UNIFORM_M"]
+      M13: ["", "MALE_13_FACE", "MALE_13_HAIR", "MALE_HANDS_0", "PDF_SOLDIER_UNIFORM_M"]
+      M14: ["", "MALE_14_FACE", "MALE_14_HAIR", "MALE_HANDS_1", "PDF_SOLDIER_UNIFORM_M"]
+      M15: ["", "MALE_15_FACE", "MALE_15_HAIR", "MALE_HANDS_2", "PDF_SOLDIER_UNIFORM_M"]
+      M16: ["", "MALE_16_FACE", "MALE_16_HAIR", "MALE_HANDS_0", "PDF_SOLDIER_UNIFORM_M"]
+      M17: ["", "MALE_17_FACE", "MALE_17_HAIR", "MALE_HANDS_0", "PDF_SOLDIER_UNIFORM_M"]
+      M18: ["", "MALE_18_FACE", "MALE_18_HAIR", "MALE_HANDS_1", "PDF_SOLDIER_UNIFORM_M"]
+      M19: ["", "MALE_19_FACE", "MALE_19_HAIR", "MALE_HANDS_2", "PDF_SOLDIER_UNIFORM_M"]
+      M20: ["", "MALE_20_FACE", "MALE_20_HAIR", "MALE_HANDS_0", "PDF_SOLDIER_UNIFORM_M"]
+      M21: ["", "MALE_21_FACE", "MALE_21_HAIR", "MALE_HANDS_0", "PDF_SOLDIER_UNIFORM_M"]
+      M22: ["", "MALE_22_FACE", "MALE_22_HAIR", "MALE_HANDS_1", "PDF_SOLDIER_UNIFORM_M"]
+      M23: ["", "MALE_23_FACE", "MALE_23_HAIR", "MALE_HANDS_2", "PDF_SOLDIER_UNIFORM_M"]
+      M24: ["", "MALE_24_FACE", "MALE_24_HAIR", "MALE_HANDS_0", "PDF_SOLDIER_UNIFORM_M"]
+      M25: ["", "MALE_25_FACE", "MALE_25_HAIR", "MALE_HANDS_0", "PDF_SOLDIER_UNIFORM_M"]
+      M26: ["", "MALE_26_FACE", "MALE_26_HAIR", "MALE_HANDS_1", "PDF_SOLDIER_UNIFORM_M"]
+      M27: ["", "MALE_27_FACE", "MALE_27_HAIR", "MALE_HANDS_2", "PDF_SOLDIER_UNIFORM_M"]
+      M28: ["", "MALE_28_FACE", "MALE_28_HAIR", "MALE_HANDS_0", "PDF_SOLDIER_UNIFORM_M"]
+      M29: ["", "MALE_29_FACE", "MALE_29_HAIR", "MALE_HANDS_0", "PDF_SOLDIER_UNIFORM_M"]
+      M30: ["", "MALE_30_FACE", "MALE_30_HAIR", "MALE_HANDS_1", "PDF_SOLDIER_UNIFORM_M"]
+      M31: ["", "MALE_31_FACE", "MALE_31_HAIR", "MALE_HANDS_2", "PDF_SOLDIER_UNIFORM_M"]
+
+#FEMALE LAYERS
+      F0: ["", "FEMALE_00_FACE", "FEMALE_00_HAIR", "FEMALE_HANDS_0", "PDF_SOLDIER_UNIFORM_F"]
+      F1: ["", "FEMALE_01_FACE", "FEMALE_01_HAIR", "FEMALE_HANDS_0", "PDF_SOLDIER_UNIFORM_F"]
+      F2: ["", "FEMALE_02_FACE", "FEMALE_02_HAIR", "FEMALE_HANDS_1", "PDF_SOLDIER_UNIFORM_F"]
+      F3: ["", "FEMALE_03_FACE", "FEMALE_03_HAIR", "FEMALE_HANDS_2", "PDF_SOLDIER_UNIFORM_F"]
+      F4: ["", "FEMALE_04_FACE", "FEMALE_04_HAIR", "FEMALE_HANDS_0", "PDF_SOLDIER_UNIFORM_F"]
+      F5: ["", "FEMALE_05_FACE", "FEMALE_05_HAIR", "FEMALE_HANDS_0", "PDF_SOLDIER_UNIFORM_F"]
+      F6: ["", "FEMALE_06_FACE", "FEMALE_06_HAIR", "FEMALE_HANDS_1", "PDF_SOLDIER_UNIFORM_F"]
+      F7: ["", "FEMALE_07_FACE", "FEMALE_07_HAIR", "FEMALE_HANDS_2", "PDF_SOLDIER_UNIFORM_F"]
+      F8: ["", "FEMALE_08_FACE", "FEMALE_08_HAIR", "FEMALE_HANDS_0", "PDF_SOLDIER_UNIFORM_F"]
+      F9: ["", "FEMALE_09_FACE", "FEMALE_09_HAIR", "FEMALE_HANDS_0", "PDF_SOLDIER_UNIFORM_F"]
+      F10: ["", "FEMALE_10_FACE", "FEMALE_10_HAIR", "FEMALE_HANDS_1", "PDF_SOLDIER_UNIFORM_F"]
+      F11: ["", "FEMALE_11_FACE", "FEMALE_11_HAIR", "FEMALE_HANDS_2", "PDF_SOLDIER_UNIFORM_F"]
+      F12: ["", "FEMALE_12_FACE", "FEMALE_12_HAIR", "FEMALE_HANDS_0", "PDF_SOLDIER_UNIFORM_F"]
+      F13: ["", "FEMALE_13_FACE", "FEMALE_13_HAIR", "FEMALE_HANDS_0", "PDF_SOLDIER_UNIFORM_F"]
+      F14: ["", "FEMALE_14_FACE", "FEMALE_14_HAIR", "FEMALE_HANDS_1", "PDF_SOLDIER_UNIFORM_F"]
+      F15: ["", "FEMALE_15_FACE", "FEMALE_15_HAIR", "FEMALE_HANDS_2", "PDF_SOLDIER_UNIFORM_F"]
+      F16: ["", "FEMALE_16_FACE", "FEMALE_16_HAIR", "FEMALE_HANDS_0", "PDF_SOLDIER_UNIFORM_F"]
+      F17: ["", "FEMALE_17_FACE", "FEMALE_17_HAIR", "FEMALE_HANDS_0", "PDF_SOLDIER_UNIFORM_F"]
+      F18: ["", "FEMALE_18_FACE", "FEMALE_18_HAIR", "FEMALE_HANDS_1", "PDF_SOLDIER_UNIFORM_F"]
+      F19: ["", "FEMALE_19_FACE", "FEMALE_19_HAIR", "FEMALE_HANDS_2", "PDF_SOLDIER_UNIFORM_F"]
+      F20: ["", "FEMALE_20_FACE", "FEMALE_20_HAIR", "FEMALE_HANDS_0", "PDF_SOLDIER_UNIFORM_F"]
+      F21: ["", "FEMALE_21_FACE", "FEMALE_21_HAIR", "FEMALE_HANDS_0", "PDF_SOLDIER_UNIFORM_F"]
+      F22: ["", "FEMALE_22_FACE", "FEMALE_22_HAIR", "FEMALE_HANDS_1", "PDF_SOLDIER_UNIFORM_F"]
+      F23: ["", "FEMALE_23_FACE", "FEMALE_23_HAIR", "FEMALE_HANDS_2", "PDF_SOLDIER_UNIFORM_F"]
+      F24: ["", "FEMALE_24_FACE", "FEMALE_24_HAIR", "FEMALE_HANDS_0", "PDF_SOLDIER_UNIFORM_F"]
+      F25: ["", "FEMALE_25_FACE", "FEMALE_25_HAIR", "FEMALE_HANDS_0", "PDF_SOLDIER_UNIFORM_F"]
+      F26: ["", "FEMALE_26_FACE", "FEMALE_26_HAIR", "FEMALE_HANDS_1", "PDF_SOLDIER_UNIFORM_F"]
+      F27: ["", "FEMALE_27_FACE", "FEMALE_27_HAIR", "FEMALE_HANDS_2", "PDF_SOLDIER_UNIFORM_F"]
+      F28: ["", "FEMALE_28_FACE", "FEMALE_28_HAIR", "FEMALE_HANDS_0", "PDF_SOLDIER_UNIFORM_F"]
+      F29: ["", "FEMALE_29_FACE", "FEMALE_29_HAIR", "FEMALE_HANDS_0", "PDF_SOLDIER_UNIFORM_F"]
+      F30: ["", "FEMALE_30_FACE", "FEMALE_30_HAIR", "FEMALE_HANDS_1", "PDF_SOLDIER_UNIFORM_F"]
+      F31: ["", "FEMALE_31_FACE", "FEMALE_31_HAIR", "FEMALE_HANDS_2", "PDF_SOLDIER_UNIFORM_F"]
+
+
+
+#PDF SOLDIER FLAK ARMOR
+  - type: STR_PDF_SOLDIER_FLAK_ARMOR
+
+#GENERAL
+    drawingRoutine: 0 #x-com soldier
+    spriteSheet: PDF_SOLDIER_FLAK_ARMOR.PCK
+    units:
+      - STR_PDF_SOLDIER
+    corpseBattle:
+      - STR_CORPSE_PDF_SOLDIER_FLAK_ARMOR
+    storeItem: STR_FLAK_ARMOR_STORE_ITEM
+    loftempsSet: [ 3 ]
+    weight: 10
+
+#PROTECTION
+    frontArmor: 30
+    sideArmor: 25
+    rearArmor: 20
+    underArmor: 20
+    damageModifier:
+      - 1.0 #None
+      - 1.0 #Armor Piercing
+      - 1.0 #Incendiary
+      - 1.0 #High Explosive
+      - 1.0 #Laser
+      - 1.0 #Plasma
+      - 1.0 #Stun
+      - 1.0 #Melee
+      - 1.0 #Acid
+      - 1.0 #Smoke
+      - 1.0 #Melta
+
+#LAYERS
+    spriteFaceGroup: 6
+    spriteFaceColor: [96, 96, #MALE_00, FEMALE_00 (Skin color: 0)
+                      96, 96, #MALE_01 FEMALE_01 (Skin color: 0)
+                      160, 160, #MALE_02 FEMALE_02 (Skin color: 1)
+                      163, 163] #MALE_03 FEMALE_03 (Skin color: 2)
+
+    spriteHairGroup: 9
+    spriteHairColor: [144, 144, #MALE_00 FEMALE_00 (Hair color: Yellow)
+                      164, 164, #MALE_01 FEMALE_01 (Hair color: Brown)
+                      245, 245, #MALE_02 FEMALE_02 (Hair color: Black)
+                      165, 165] #MALE_03 FEMALE_03 (Hair color: Dark Brown)
+
+    layersDefaultPrefix: 0
+    layersSpecificPrefix:
+      4: PDF_SOLDIER_FLAK_ARMOR
+    layersDefinition:
+#MALE LAYERS
+      M0: ["", "MALE_00_FACE", "", "MALE_HANDS_0", "PDF_SOLDIER_FLAK_ARMOR_M"]
+      M1: ["", "MALE_01_FACE", "", "MALE_HANDS_0", "PDF_SOLDIER_FLAK_ARMOR_M"]
+      M2: ["", "MALE_02_FACE", "", "MALE_HANDS_1", "PDF_SOLDIER_FLAK_ARMOR_M"]
+      M3: ["", "MALE_03_FACE", "", "MALE_HANDS_2", "PDF_SOLDIER_FLAK_ARMOR_M"]
+      M4: ["", "MALE_04_FACE", "", "MALE_HANDS_0", "PDF_SOLDIER_FLAK_ARMOR_M"]
+      M5: ["", "MALE_05_FACE", "", "MALE_HANDS_0", "PDF_SOLDIER_FLAK_ARMOR_M"]
+      M6: ["", "MALE_06_FACE", "", "MALE_HANDS_1", "PDF_SOLDIER_FLAK_ARMOR_M"]
+      M7: ["", "MALE_07_FACE", "", "MALE_HANDS_2", "PDF_SOLDIER_FLAK_ARMOR_M"]
+      M8: ["", "MALE_08_FACE", "", "MALE_HANDS_0", "PDF_SOLDIER_FLAK_ARMOR_M"]
+      M9: ["", "MALE_09_FACE", "", "MALE_HANDS_0", "PDF_SOLDIER_FLAK_ARMOR_M"]
+      M10: ["", "MALE_10_FACE", "", "MALE_HANDS_1", "PDF_SOLDIER_FLAK_ARMOR_M"]
+      M11: ["", "MALE_11_FACE", "", "MALE_HANDS_2", "PDF_SOLDIER_FLAK_ARMOR_M"]
+      M12: ["", "MALE_12_FACE", "", "MALE_HANDS_0", "PDF_SOLDIER_FLAK_ARMOR_M"]
+      M13: ["", "MALE_13_FACE", "", "MALE_HANDS_0", "PDF_SOLDIER_FLAK_ARMOR_M"]
+      M14: ["", "MALE_14_FACE", "", "MALE_HANDS_1", "PDF_SOLDIER_FLAK_ARMOR_M"]
+      M15: ["", "MALE_15_FACE", "", "MALE_HANDS_2", "PDF_SOLDIER_FLAK_ARMOR_M"]
+      M16: ["", "MALE_16_FACE", "", "MALE_HANDS_0", "PDF_SOLDIER_FLAK_ARMOR_M"]
+      M17: ["", "MALE_17_FACE", "", "MALE_HANDS_0", "PDF_SOLDIER_FLAK_ARMOR_M"]
+      M18: ["", "MALE_18_FACE", "", "MALE_HANDS_1", "PDF_SOLDIER_FLAK_ARMOR_M"]
+      M19: ["", "MALE_19_FACE", "", "MALE_HANDS_2", "PDF_SOLDIER_FLAK_ARMOR_M"]
+      M20: ["", "MALE_20_FACE", "", "MALE_HANDS_0", "PDF_SOLDIER_FLAK_ARMOR_M"]
+      M21: ["", "MALE_21_FACE", "", "MALE_HANDS_0", "PDF_SOLDIER_FLAK_ARMOR_M"]
+      M22: ["", "MALE_22_FACE", "", "MALE_HANDS_1", "PDF_SOLDIER_FLAK_ARMOR_M"]
+      M23: ["", "MALE_23_FACE", "", "MALE_HANDS_2", "PDF_SOLDIER_FLAK_ARMOR_M"]
+      M24: ["", "MALE_24_FACE", "", "MALE_HANDS_0", "PDF_SOLDIER_FLAK_ARMOR_M"]
+      M25: ["", "MALE_25_FACE", "", "MALE_HANDS_0", "PDF_SOLDIER_FLAK_ARMOR_M"]
+      M26: ["", "MALE_26_FACE", "", "MALE_HANDS_1", "PDF_SOLDIER_FLAK_ARMOR_M"]
+      M27: ["", "MALE_27_FACE", "", "MALE_HANDS_2", "PDF_SOLDIER_FLAK_ARMOR_M"]
+      M28: ["", "MALE_28_FACE", "", "MALE_HANDS_0", "PDF_SOLDIER_FLAK_ARMOR_M"]
+      M29: ["", "MALE_29_FACE", "", "MALE_HANDS_0", "PDF_SOLDIER_FLAK_ARMOR_M"]
+      M30: ["", "MALE_30_FACE", "", "MALE_HANDS_1", "PDF_SOLDIER_FLAK_ARMOR_M"]
+      M31: ["", "MALE_31_FACE", "", "MALE_HANDS_2", "PDF_SOLDIER_FLAK_ARMOR_M"]
+
+#FEMALE LAYERS
+      F0: ["", "FEMALE_00_FACE", "", "FEMALE_HANDS_0", "PDF_SOLDIER_FLAK_ARMOR_F"]
+      F1: ["", "FEMALE_01_FACE", "", "FEMALE_HANDS_0", "PDF_SOLDIER_FLAK_ARMOR_F"]
+      F2: ["", "FEMALE_02_FACE", "", "FEMALE_HANDS_1", "PDF_SOLDIER_FLAK_ARMOR_F"]
+      F3: ["", "FEMALE_03_FACE", "", "FEMALE_HANDS_2", "PDF_SOLDIER_FLAK_ARMOR_F"]
+      F4: ["", "FEMALE_04_FACE", "", "FEMALE_HANDS_0", "PDF_SOLDIER_FLAK_ARMOR_F"]
+      F5: ["", "FEMALE_05_FACE", "", "FEMALE_HANDS_0", "PDF_SOLDIER_FLAK_ARMOR_F"]
+      F6: ["", "FEMALE_06_FACE", "", "FEMALE_HANDS_1", "PDF_SOLDIER_FLAK_ARMOR_F"]
+      F7: ["", "FEMALE_07_FACE", "", "FEMALE_HANDS_2", "PDF_SOLDIER_FLAK_ARMOR_F"]
+      F8: ["", "FEMALE_08_FACE", "", "FEMALE_HANDS_0", "PDF_SOLDIER_FLAK_ARMOR_F"]
+      F9: ["", "FEMALE_09_FACE", "", "FEMALE_HANDS_0", "PDF_SOLDIER_FLAK_ARMOR_F"]
+      F10: ["", "FEMALE_10_FACE", "", "FEMALE_HANDS_1", "PDF_SOLDIER_FLAK_ARMOR_F"]
+      F11: ["", "FEMALE_11_FACE", "", "FEMALE_HANDS_2", "PDF_SOLDIER_FLAK_ARMOR_F"]
+      F12: ["", "FEMALE_12_FACE", "", "FEMALE_HANDS_0", "PDF_SOLDIER_FLAK_ARMOR_F"]
+      F13: ["", "FEMALE_13_FACE", "", "FEMALE_HANDS_0", "PDF_SOLDIER_FLAK_ARMOR_F"]
+      F14: ["", "FEMALE_14_FACE", "", "FEMALE_HANDS_1", "PDF_SOLDIER_FLAK_ARMOR_F"]
+      F15: ["", "FEMALE_15_FACE", "", "FEMALE_HANDS_2", "PDF_SOLDIER_FLAK_ARMOR_F"]
+      F16: ["", "FEMALE_16_FACE", "", "FEMALE_HANDS_0", "PDF_SOLDIER_FLAK_ARMOR_F"]
+      F17: ["", "FEMALE_17_FACE", "", "FEMALE_HANDS_0", "PDF_SOLDIER_FLAK_ARMOR_F"]
+      F18: ["", "FEMALE_18_FACE", "", "FEMALE_HANDS_1", "PDF_SOLDIER_FLAK_ARMOR_F"]
+      F19: ["", "FEMALE_19_FACE", "", "FEMALE_HANDS_2", "PDF_SOLDIER_FLAK_ARMOR_F"]
+      F20: ["", "FEMALE_20_FACE", "", "FEMALE_HANDS_0", "PDF_SOLDIER_FLAK_ARMOR_F"]
+      F21: ["", "FEMALE_21_FACE", "", "FEMALE_HANDS_0", "PDF_SOLDIER_FLAK_ARMOR_F"]
+      F22: ["", "FEMALE_22_FACE", "", "FEMALE_HANDS_1", "PDF_SOLDIER_FLAK_ARMOR_F"]
+      F23: ["", "FEMALE_23_FACE", "", "FEMALE_HANDS_2", "PDF_SOLDIER_FLAK_ARMOR_F"]
+      F24: ["", "FEMALE_24_FACE", "", "FEMALE_HANDS_0", "PDF_SOLDIER_FLAK_ARMOR_F"]
+      F25: ["", "FEMALE_25_FACE", "", "FEMALE_HANDS_0", "PDF_SOLDIER_FLAK_ARMOR_F"]
+      F26: ["", "FEMALE_26_FACE", "", "FEMALE_HANDS_1", "PDF_SOLDIER_FLAK_ARMOR_F"]
+      F27: ["", "FEMALE_27_FACE", "", "FEMALE_HANDS_2", "PDF_SOLDIER_FLAK_ARMOR_F"]
+      F28: ["", "FEMALE_28_FACE", "", "FEMALE_HANDS_0", "PDF_SOLDIER_FLAK_ARMOR_F"]
+      F29: ["", "FEMALE_29_FACE", "", "FEMALE_HANDS_0", "PDF_SOLDIER_FLAK_ARMOR_F"]
+      F30: ["", "FEMALE_30_FACE", "", "FEMALE_HANDS_1", "PDF_SOLDIER_FLAK_ARMOR_F"]
+      F31: ["", "FEMALE_31_FACE", "", "FEMALE_HANDS_2", "PDF_SOLDIER_FLAK_ARMOR_F"]
+
+
+#PDF SOLDIER ASSAULT FLAK ARMOR
+  - type: STR_PDF_SOLDIER_ASSAULT_FLAK_ARMOR
+
+#GENERAL
+    drawingRoutine: 0 #x-com soldier
+    spriteSheet: PDF_SOLDIER_ASSAULT_FLAK_ARMOR.PCK
+    units:
+      - STR_PDF_SOLDIER
+    corpseBattle:
+      - STR_CORPSE_PDF_SOLDIER_ASSAULT_FLAK_ARMOR
+    storeItem: STR_ASSAULT_FLAK_ARMOR_STORE_ITEM
+    loftempsSet: [ 3 ]
+    weight: 20
+    movementType: 1 #Unit can fly
+
+    builtInWeapons:
+      - STR_BACKPACK_SLOT
+
+#PROTECTION
+    frontArmor: 30
+    sideArmor: 25
+    rearArmor: 20
+    underArmor: 20
+    damageModifier:
+      - 1.0 #None
+      - 1.0 #Armor Piercing
+      - 1.0 #Incendiary
+      - 1.0 #High Explosive
+      - 1.0 #Laser
+      - 1.0 #Plasma
+      - 1.0 #Stun
+      - 1.0 #Melee
+      - 1.0 #Acid
+      - 1.0 #Smoke
+      - 1.0 #Melta
+
+#LAYERS
+    spriteFaceGroup: 6
+    spriteFaceColor: [96, 96, #MALE_00, FEMALE_00 (Skin color: 0)
+                      96, 96, #MALE_01 FEMALE_01 (Skin color: 0)
+                      160, 160, #MALE_02 FEMALE_02 (Skin color: 1)
+                      163, 163] #MALE_03 FEMALE_03 (Skin color: 2)
+
+    spriteHairGroup: 9
+    spriteHairColor: [144, 144, #MALE_00 FEMALE_00 (Hair color: Yellow)
+                      164, 164, #MALE_01 FEMALE_01 (Hair color: Brown)
+                      245, 245, #MALE_02 FEMALE_02 (Hair color: Black)
+                      165, 165] #MALE_03 FEMALE_03 (Hair color: Dark Brown)
+
+    layersDefaultPrefix: 0
+    layersSpecificPrefix:
+      4: PDF_SOLDIER_ASSAULT_FLAK_ARMOR
+    layersDefinition:
+#MALE LAYERS
+      M0: ["", "MALE_00_FACE", "", "MALE_HANDS_0", "PDF_SOLDIER_ASSAULT_FLAK_ARMOR_M"]
+      M1: ["", "MALE_01_FACE", "", "MALE_HANDS_0", "PDF_SOLDIER_ASSAULT_FLAK_ARMOR_M"]
+      M2: ["", "MALE_02_FACE", "", "MALE_HANDS_1", "PDF_SOLDIER_ASSAULT_FLAK_ARMOR_M"]
+      M3: ["", "MALE_03_FACE", "", "MALE_HANDS_2", "PDF_SOLDIER_ASSAULT_FLAK_ARMOR_M"]
+      M4: ["", "MALE_04_FACE", "", "MALE_HANDS_0", "PDF_SOLDIER_ASSAULT_FLAK_ARMOR_M"]
+      M5: ["", "MALE_05_FACE", "", "MALE_HANDS_0", "PDF_SOLDIER_ASSAULT_FLAK_ARMOR_M"]
+      M6: ["", "MALE_06_FACE", "", "MALE_HANDS_1", "PDF_SOLDIER_ASSAULT_FLAK_ARMOR_M"]
+      M7: ["", "MALE_07_FACE", "", "MALE_HANDS_2", "PDF_SOLDIER_ASSAULT_FLAK_ARMOR_M"]
+      M8: ["", "MALE_08_FACE", "", "MALE_HANDS_0", "PDF_SOLDIER_ASSAULT_FLAK_ARMOR_M"]
+      M9: ["", "MALE_09_FACE", "", "MALE_HANDS_0", "PDF_SOLDIER_ASSAULT_FLAK_ARMOR_M"]
+      M10: ["", "MALE_10_FACE", "", "MALE_HANDS_1", "PDF_SOLDIER_ASSAULT_FLAK_ARMOR_M"]
+      M11: ["", "MALE_11_FACE", "", "MALE_HANDS_2", "PDF_SOLDIER_ASSAULT_FLAK_ARMOR_M"]
+      M12: ["", "MALE_12_FACE", "", "MALE_HANDS_0", "PDF_SOLDIER_ASSAULT_FLAK_ARMOR_M"]
+      M13: ["", "MALE_13_FACE", "", "MALE_HANDS_0", "PDF_SOLDIER_ASSAULT_FLAK_ARMOR_M"]
+      M14: ["", "MALE_14_FACE", "", "MALE_HANDS_1", "PDF_SOLDIER_ASSAULT_FLAK_ARMOR_M"]
+      M15: ["", "MALE_15_FACE", "", "MALE_HANDS_2", "PDF_SOLDIER_ASSAULT_FLAK_ARMOR_M"]
+      M16: ["", "MALE_16_FACE", "", "MALE_HANDS_0", "PDF_SOLDIER_ASSAULT_FLAK_ARMOR_M"]
+      M17: ["", "MALE_17_FACE", "", "MALE_HANDS_0", "PDF_SOLDIER_ASSAULT_FLAK_ARMOR_M"]
+      M18: ["", "MALE_18_FACE", "", "MALE_HANDS_1", "PDF_SOLDIER_ASSAULT_FLAK_ARMOR_M"]
+      M19: ["", "MALE_19_FACE", "", "MALE_HANDS_2", "PDF_SOLDIER_ASSAULT_FLAK_ARMOR_M"]
+      M20: ["", "MALE_20_FACE", "", "MALE_HANDS_0", "PDF_SOLDIER_ASSAULT_FLAK_ARMOR_M"]
+      M21: ["", "MALE_21_FACE", "", "MALE_HANDS_0", "PDF_SOLDIER_ASSAULT_FLAK_ARMOR_M"]
+      M22: ["", "MALE_22_FACE", "", "MALE_HANDS_1", "PDF_SOLDIER_ASSAULT_FLAK_ARMOR_M"]
+      M23: ["", "MALE_23_FACE", "", "MALE_HANDS_2", "PDF_SOLDIER_ASSAULT_FLAK_ARMOR_M"]
+      M24: ["", "MALE_24_FACE", "", "MALE_HANDS_0", "PDF_SOLDIER_ASSAULT_FLAK_ARMOR_M"]
+      M25: ["", "MALE_25_FACE", "", "MALE_HANDS_0", "PDF_SOLDIER_ASSAULT_FLAK_ARMOR_M"]
+      M26: ["", "MALE_26_FACE", "", "MALE_HANDS_1", "PDF_SOLDIER_ASSAULT_FLAK_ARMOR_M"]
+      M27: ["", "MALE_27_FACE", "", "MALE_HANDS_2", "PDF_SOLDIER_ASSAULT_FLAK_ARMOR_M"]
+      M28: ["", "MALE_28_FACE", "", "MALE_HANDS_0", "PDF_SOLDIER_ASSAULT_FLAK_ARMOR_M"]
+      M29: ["", "MALE_29_FACE", "", "MALE_HANDS_0", "PDF_SOLDIER_ASSAULT_FLAK_ARMOR_M"]
+      M30: ["", "MALE_30_FACE", "", "MALE_HANDS_1", "PDF_SOLDIER_ASSAULT_FLAK_ARMOR_M"]
+      M31: ["", "MALE_31_FACE", "", "MALE_HANDS_2", "PDF_SOLDIER_ASSAULT_FLAK_ARMOR_M"]
+
+#FEMALE LAYERS
+      F0: ["", "FEMALE_00_FACE", "", "FEMALE_HANDS_0", "PDF_SOLDIER_ASSAULT_FLAK_ARMOR_F"]
+      F1: ["", "FEMALE_01_FACE", "", "FEMALE_HANDS_0", "PDF_SOLDIER_ASSAULT_FLAK_ARMOR_F"]
+      F2: ["", "FEMALE_02_FACE", "", "FEMALE_HANDS_1", "PDF_SOLDIER_ASSAULT_FLAK_ARMOR_F"]
+      F3: ["", "FEMALE_03_FACE", "", "FEMALE_HANDS_2", "PDF_SOLDIER_ASSAULT_FLAK_ARMOR_F"]
+      F4: ["", "FEMALE_04_FACE", "", "FEMALE_HANDS_0", "PDF_SOLDIER_ASSAULT_FLAK_ARMOR_F"]
+      F5: ["", "FEMALE_05_FACE", "", "FEMALE_HANDS_0", "PDF_SOLDIER_ASSAULT_FLAK_ARMOR_F"]
+      F6: ["", "FEMALE_06_FACE", "", "FEMALE_HANDS_1", "PDF_SOLDIER_ASSAULT_FLAK_ARMOR_F"]
+      F7: ["", "FEMALE_07_FACE", "", "FEMALE_HANDS_2", "PDF_SOLDIER_ASSAULT_FLAK_ARMOR_F"]
+      F8: ["", "FEMALE_08_FACE", "", "FEMALE_HANDS_0", "PDF_SOLDIER_ASSAULT_FLAK_ARMOR_F"]
+      F9: ["", "FEMALE_09_FACE", "", "FEMALE_HANDS_0", "PDF_SOLDIER_ASSAULT_FLAK_ARMOR_F"]
+      F10: ["", "FEMALE_10_FACE", "", "FEMALE_HANDS_1", "PDF_SOLDIER_ASSAULT_FLAK_ARMOR_F"]
+      F11: ["", "FEMALE_11_FACE", "", "FEMALE_HANDS_2", "PDF_SOLDIER_ASSAULT_FLAK_ARMOR_F"]
+      F12: ["", "FEMALE_12_FACE", "", "FEMALE_HANDS_0", "PDF_SOLDIER_ASSAULT_FLAK_ARMOR_F"]
+      F13: ["", "FEMALE_13_FACE", "", "FEMALE_HANDS_0", "PDF_SOLDIER_ASSAULT_FLAK_ARMOR_F"]
+      F14: ["", "FEMALE_14_FACE", "", "FEMALE_HANDS_1", "PDF_SOLDIER_ASSAULT_FLAK_ARMOR_F"]
+      F15: ["", "FEMALE_15_FACE", "", "FEMALE_HANDS_2", "PDF_SOLDIER_ASSAULT_FLAK_ARMOR_F"]
+      F16: ["", "FEMALE_16_FACE", "", "FEMALE_HANDS_0", "PDF_SOLDIER_ASSAULT_FLAK_ARMOR_F"]
+      F17: ["", "FEMALE_17_FACE", "", "FEMALE_HANDS_0", "PDF_SOLDIER_ASSAULT_FLAK_ARMOR_F"]
+      F18: ["", "FEMALE_18_FACE", "", "FEMALE_HANDS_1", "PDF_SOLDIER_ASSAULT_FLAK_ARMOR_F"]
+      F19: ["", "FEMALE_19_FACE", "", "FEMALE_HANDS_2", "PDF_SOLDIER_ASSAULT_FLAK_ARMOR_F"]
+      F20: ["", "FEMALE_20_FACE", "", "FEMALE_HANDS_0", "PDF_SOLDIER_ASSAULT_FLAK_ARMOR_F"]
+      F21: ["", "FEMALE_21_FACE", "", "FEMALE_HANDS_0", "PDF_SOLDIER_ASSAULT_FLAK_ARMOR_F"]
+      F22: ["", "FEMALE_22_FACE", "", "FEMALE_HANDS_1", "PDF_SOLDIER_ASSAULT_FLAK_ARMOR_F"]
+      F23: ["", "FEMALE_23_FACE", "", "FEMALE_HANDS_2", "PDF_SOLDIER_ASSAULT_FLAK_ARMOR_F"]
+      F24: ["", "FEMALE_24_FACE", "", "FEMALE_HANDS_0", "PDF_SOLDIER_ASSAULT_FLAK_ARMOR_F"]
+      F25: ["", "FEMALE_25_FACE", "", "FEMALE_HANDS_0", "PDF_SOLDIER_ASSAULT_FLAK_ARMOR_F"]
+      F26: ["", "FEMALE_26_FACE", "", "FEMALE_HANDS_1", "PDF_SOLDIER_ASSAULT_FLAK_ARMOR_F"]
+      F27: ["", "FEMALE_27_FACE", "", "FEMALE_HANDS_2", "PDF_SOLDIER_ASSAULT_FLAK_ARMOR_F"]
+      F28: ["", "FEMALE_28_FACE", "", "FEMALE_HANDS_0", "PDF_SOLDIER_ASSAULT_FLAK_ARMOR_F"]
+      F29: ["", "FEMALE_29_FACE", "", "FEMALE_HANDS_0", "PDF_SOLDIER_ASSAULT_FLAK_ARMOR_F"]
+      F30: ["", "FEMALE_30_FACE", "", "FEMALE_HANDS_1", "PDF_SOLDIER_ASSAULT_FLAK_ARMOR_F"]
+      F31: ["", "FEMALE_31_FACE", "", "FEMALE_HANDS_2", "PDF_SOLDIER_ASSAULT_FLAK_ARMOR_F"]
+
+
+
+
+#PDF SOLDIER CARAPACE ARMOR
+  - type: STR_PDF_SOLDIER_CARAPACE
+
+#GENERAL
+    drawingRoutine: 0 #x-com soldier
+    spriteSheet: PDF_SOLDIER_CARAPACE.PCK
+    units:
+      - STR_PDF_SOLDIER
+    corpseBattle:
+      - STR_CORPSE_PDF_SOLDIER_CARAPACE
+    storeItem: STR_CARAPACE_STORE_ITEM
+    loftempsSet: [ 3 ]
+    weight: 20
+
+#PROTECTION
+    frontArmor: 60
+    sideArmor: 50
+    rearArmor: 40
+    underArmor: 40
+    damageModifier:
+      - 1.0 #None
+      - 1.0 #Armor Piercing
+      - 1.0 #Incendiary
+      - 1.0 #High Explosive
+      - 1.0 #Laser
+      - 1.0 #Plasma
+      - 1.0 #Stun
+      - 1.0 #Melee
+      - 1.0 #Acid
+      - 0.0 #Smoke
+      - 1.0 #Melta
+
+#LAYERS
+    spriteFaceGroup: 6
+    spriteFaceColor: [96, 96, #MALE_00, FEMALE_00 (Skin color: 0)
+                      96, 96, #MALE_01 FEMALE_01 (Skin color: 0)
+                      160, 160, #MALE_02 FEMALE_02 (Skin color: 1)
+                      163, 163] #MALE_03 FEMALE_03 (Skin color: 2)
+
+    spriteHairGroup: 9
+    spriteHairColor: [144, 144, #MALE_00 FEMALE_00 (Hair color: Yellow)
+                      164, 164, #MALE_01 FEMALE_01 (Hair color: Brown)
+                      245, 245, #MALE_02 FEMALE_02 (Hair color: Black)
+                      165, 165] #MALE_03 FEMALE_03 (Hair color: Dark Brown)
+
+    layersDefaultPrefix: 0
+    layersSpecificPrefix:
+      4: PDF_SOLDIER_CARAPACE
+    layersDefinition:
+#MALE LAYERS
+      M0: ["", "MALE_00_FACE", "", "MALE_HANDS_0", "PDF_SOLDIER_CARAPACE_M"]
+      M1: ["", "MALE_01_FACE", "", "MALE_HANDS_0", "PDF_SOLDIER_CARAPACE_M"]
+      M2: ["", "MALE_02_FACE", "", "MALE_HANDS_1", "PDF_SOLDIER_CARAPACE_M"]
+      M3: ["", "MALE_03_FACE", "", "MALE_HANDS_2", "PDF_SOLDIER_CARAPACE_M"]
+      M4: ["", "MALE_04_FACE", "", "MALE_HANDS_0", "PDF_SOLDIER_CARAPACE_M"]
+      M5: ["", "MALE_05_FACE", "", "MALE_HANDS_0", "PDF_SOLDIER_CARAPACE_M"]
+      M6: ["", "MALE_06_FACE", "", "MALE_HANDS_1", "PDF_SOLDIER_CARAPACE_M"]
+      M7: ["", "MALE_07_FACE", "", "MALE_HANDS_2", "PDF_SOLDIER_CARAPACE_M"]
+      M8: ["", "MALE_08_FACE", "", "MALE_HANDS_0", "PDF_SOLDIER_CARAPACE_M"]
+      M9: ["", "MALE_09_FACE", "", "MALE_HANDS_0", "PDF_SOLDIER_CARAPACE_M"]
+      M10: ["", "MALE_10_FACE", "", "MALE_HANDS_1", "PDF_SOLDIER_CARAPACE_M"]
+      M11: ["", "MALE_11_FACE", "", "MALE_HANDS_2", "PDF_SOLDIER_CARAPACE_M"]
+      M12: ["", "MALE_12_FACE", "", "MALE_HANDS_0", "PDF_SOLDIER_CARAPACE_M"]
+      M13: ["", "MALE_13_FACE", "", "MALE_HANDS_0", "PDF_SOLDIER_CARAPACE_M"]
+      M14: ["", "MALE_14_FACE", "", "MALE_HANDS_1", "PDF_SOLDIER_CARAPACE_M"]
+      M15: ["", "MALE_15_FACE", "", "MALE_HANDS_2", "PDF_SOLDIER_CARAPACE_M"]
+      M16: ["", "MALE_16_FACE", "", "MALE_HANDS_0", "PDF_SOLDIER_CARAPACE_M"]
+      M17: ["", "MALE_17_FACE", "", "MALE_HANDS_0", "PDF_SOLDIER_CARAPACE_M"]
+      M18: ["", "MALE_18_FACE", "", "MALE_HANDS_1", "PDF_SOLDIER_CARAPACE_M"]
+      M19: ["", "MALE_19_FACE", "", "MALE_HANDS_2", "PDF_SOLDIER_CARAPACE_M"]
+      M20: ["", "MALE_20_FACE", "", "MALE_HANDS_0", "PDF_SOLDIER_CARAPACE_M"]
+      M21: ["", "MALE_21_FACE", "", "MALE_HANDS_0", "PDF_SOLDIER_CARAPACE_M"]
+      M22: ["", "MALE_22_FACE", "", "MALE_HANDS_1", "PDF_SOLDIER_CARAPACE_M"]
+      M23: ["", "MALE_23_FACE", "", "MALE_HANDS_2", "PDF_SOLDIER_CARAPACE_M"]
+      M24: ["", "MALE_24_FACE", "", "MALE_HANDS_0", "PDF_SOLDIER_CARAPACE_M"]
+      M25: ["", "MALE_25_FACE", "", "MALE_HANDS_0", "PDF_SOLDIER_CARAPACE_M"]
+      M26: ["", "MALE_26_FACE", "", "MALE_HANDS_1", "PDF_SOLDIER_CARAPACE_M"]
+      M27: ["", "MALE_27_FACE", "", "MALE_HANDS_2", "PDF_SOLDIER_CARAPACE_M"]
+      M28: ["", "MALE_28_FACE", "", "MALE_HANDS_0", "PDF_SOLDIER_CARAPACE_M"]
+      M29: ["", "MALE_29_FACE", "", "MALE_HANDS_0", "PDF_SOLDIER_CARAPACE_M"]
+      M30: ["", "MALE_30_FACE", "", "MALE_HANDS_1", "PDF_SOLDIER_CARAPACE_M"]
+      M31: ["", "MALE_31_FACE", "", "MALE_HANDS_2", "PDF_SOLDIER_CARAPACE_M"]
+
+#FEMALE LAYERS
+      F0: ["", "FEMALE_00_FACE", "", "FEMALE_HANDS_0", "PDF_SOLDIER_CARAPACE_F"]
+      F1: ["", "FEMALE_01_FACE", "", "FEMALE_HANDS_0", "PDF_SOLDIER_CARAPACE_F"]
+      F2: ["", "FEMALE_02_FACE", "", "FEMALE_HANDS_1", "PDF_SOLDIER_CARAPACE_F"]
+      F3: ["", "FEMALE_03_FACE", "", "FEMALE_HANDS_2", "PDF_SOLDIER_CARAPACE_F"]
+      F4: ["", "FEMALE_04_FACE", "", "FEMALE_HANDS_0", "PDF_SOLDIER_CARAPACE_F"]
+      F5: ["", "FEMALE_05_FACE", "", "FEMALE_HANDS_0", "PDF_SOLDIER_CARAPACE_F"]
+      F6: ["", "FEMALE_06_FACE", "", "FEMALE_HANDS_1", "PDF_SOLDIER_CARAPACE_F"]
+      F7: ["", "FEMALE_07_FACE", "", "FEMALE_HANDS_2", "PDF_SOLDIER_CARAPACE_F"]
+      F8: ["", "FEMALE_08_FACE", "", "FEMALE_HANDS_0", "PDF_SOLDIER_CARAPACE_F"]
+      F9: ["", "FEMALE_09_FACE", "", "FEMALE_HANDS_0", "PDF_SOLDIER_CARAPACE_F"]
+      F10: ["", "FEMALE_10_FACE", "", "FEMALE_HANDS_1", "PDF_SOLDIER_CARAPACE_F"]
+      F11: ["", "FEMALE_11_FACE", "", "FEMALE_HANDS_2", "PDF_SOLDIER_CARAPACE_F"]
+      F12: ["", "FEMALE_12_FACE", "", "FEMALE_HANDS_0", "PDF_SOLDIER_CARAPACE_F"]
+      F13: ["", "FEMALE_13_FACE", "", "FEMALE_HANDS_0", "PDF_SOLDIER_CARAPACE_F"]
+      F14: ["", "FEMALE_14_FACE", "", "FEMALE_HANDS_1", "PDF_SOLDIER_CARAPACE_F"]
+      F15: ["", "FEMALE_15_FACE", "", "FEMALE_HANDS_2", "PDF_SOLDIER_CARAPACE_F"]
+      F16: ["", "FEMALE_16_FACE", "", "FEMALE_HANDS_0", "PDF_SOLDIER_CARAPACE_F"]
+      F17: ["", "FEMALE_17_FACE", "", "FEMALE_HANDS_0", "PDF_SOLDIER_CARAPACE_F"]
+      F18: ["", "FEMALE_18_FACE", "", "FEMALE_HANDS_1", "PDF_SOLDIER_CARAPACE_F"]
+      F19: ["", "FEMALE_19_FACE", "", "FEMALE_HANDS_2", "PDF_SOLDIER_CARAPACE_F"]
+      F20: ["", "FEMALE_20_FACE", "", "FEMALE_HANDS_0", "PDF_SOLDIER_CARAPACE_F"]
+      F21: ["", "FEMALE_21_FACE", "", "FEMALE_HANDS_0", "PDF_SOLDIER_CARAPACE_F"]
+      F22: ["", "FEMALE_22_FACE", "", "FEMALE_HANDS_1", "PDF_SOLDIER_CARAPACE_F"]
+      F23: ["", "FEMALE_23_FACE", "", "FEMALE_HANDS_2", "PDF_SOLDIER_CARAPACE_F"]
+      F24: ["", "FEMALE_24_FACE", "", "FEMALE_HANDS_0", "PDF_SOLDIER_CARAPACE_F"]
+      F25: ["", "FEMALE_25_FACE", "", "FEMALE_HANDS_0", "PDF_SOLDIER_CARAPACE_F"]
+      F26: ["", "FEMALE_26_FACE", "", "FEMALE_HANDS_1", "PDF_SOLDIER_CARAPACE_F"]
+      F27: ["", "FEMALE_27_FACE", "", "FEMALE_HANDS_2", "PDF_SOLDIER_CARAPACE_F"]
+      F28: ["", "FEMALE_28_FACE", "", "FEMALE_HANDS_0", "PDF_SOLDIER_CARAPACE_F"]
+      F29: ["", "FEMALE_29_FACE", "", "FEMALE_HANDS_0", "PDF_SOLDIER_CARAPACE_F"]
+      F30: ["", "FEMALE_30_FACE", "", "FEMALE_HANDS_1", "PDF_SOLDIER_CARAPACE_F"]
+      F31: ["", "FEMALE_31_FACE", "", "FEMALE_HANDS_2", "PDF_SOLDIER_CARAPACE_F"]
+
+
+
+#PDF SOLDIER ASSAULT CARAPACE ARMOR
+  - type: STR_PDF_SOLDIER_ASSAULT_CARAPACE
+
+#GENERAL
+    drawingRoutine: 0 #x-com soldier
+    spriteSheet: PDF_SOLDIER_ASSAULT_CARAPACE.PCK
+    units:
+      - STR_PDF_SOLDIER
+    corpseBattle:
+      - STR_CORPSE_PDF_SOLDIER_ASSAULT_CARAPACE
+    storeItem: STR_ASSAULT_CARAPACE_STORE_ITEM
+    loftempsSet: [ 3 ]
+    weight: 30
+    movementType: 1 #Unit can fly
+
+    builtInWeapons:
+      - STR_BACKPACK_SLOT
+
+#PROTECTION
+    frontArmor: 60
+    sideArmor: 50
+    rearArmor: 40
+    underArmor: 40
+    damageModifier:
+      - 1.0 #None
+      - 1.0 #Armor Piercing
+      - 1.0 #Incendiary
+      - 1.0 #High Explosive
+      - 1.0 #Laser
+      - 1.0 #Plasma
+      - 1.0 #Stun
+      - 1.0 #Melee
+      - 1.0 #Acid
+      - 1.0 #Smoke
+      - 1.0 #Melta
+
+#LAYERS
+    spriteFaceGroup: 6
+    spriteFaceColor: [96, 96, #MALE_00, FEMALE_00 (Skin color: 0)
+                      96, 96, #MALE_01 FEMALE_01 (Skin color: 0)
+                      160, 160, #MALE_02 FEMALE_02 (Skin color: 1)
+                      163, 163] #MALE_03 FEMALE_03 (Skin color: 2)
+
+    spriteHairGroup: 9
+    spriteHairColor: [144, 144, #MALE_00 FEMALE_00 (Hair color: Yellow)
+                      164, 164, #MALE_01 FEMALE_01 (Hair color: Brown)
+                      245, 245, #MALE_02 FEMALE_02 (Hair color: Black)
+                      165, 165] #MALE_03 FEMALE_03 (Hair color: Dark Brown)
+
+    layersDefaultPrefix: 0
+    layersSpecificPrefix:
+      4: PDF_SOLDIER_ASSAULT_CARAPACE
+    layersDefinition:
+#MALE LAYERS
+      M0: ["", "MALE_00_FACE", "", "MALE_HANDS_0", "PDF_SOLDIER_ASSAULT_CARAPACE_M"]
+      M1: ["", "MALE_01_FACE", "", "MALE_HANDS_0", "PDF_SOLDIER_ASSAULT_CARAPACE_M"]
+      M2: ["", "MALE_02_FACE", "", "MALE_HANDS_1", "PDF_SOLDIER_ASSAULT_CARAPACE_M"]
+      M3: ["", "MALE_03_FACE", "", "MALE_HANDS_2", "PDF_SOLDIER_ASSAULT_CARAPACE_M"]
+      M4: ["", "MALE_04_FACE", "", "MALE_HANDS_0", "PDF_SOLDIER_ASSAULT_CARAPACE_M"]
+      M5: ["", "MALE_05_FACE", "", "MALE_HANDS_0", "PDF_SOLDIER_ASSAULT_CARAPACE_M"]
+      M6: ["", "MALE_06_FACE", "", "MALE_HANDS_1", "PDF_SOLDIER_ASSAULT_CARAPACE_M"]
+      M7: ["", "MALE_07_FACE", "", "MALE_HANDS_2", "PDF_SOLDIER_ASSAULT_CARAPACE_M"]
+      M8: ["", "MALE_08_FACE", "", "MALE_HANDS_0", "PDF_SOLDIER_ASSAULT_CARAPACE_M"]
+      M9: ["", "MALE_09_FACE", "", "MALE_HANDS_0", "PDF_SOLDIER_ASSAULT_CARAPACE_M"]
+      M10: ["", "MALE_10_FACE", "", "MALE_HANDS_1", "PDF_SOLDIER_ASSAULT_CARAPACE_M"]
+      M11: ["", "MALE_11_FACE", "", "MALE_HANDS_2", "PDF_SOLDIER_ASSAULT_CARAPACE_M"]
+      M12: ["", "MALE_12_FACE", "", "MALE_HANDS_0", "PDF_SOLDIER_ASSAULT_CARAPACE_M"]
+      M13: ["", "MALE_13_FACE", "", "MALE_HANDS_0", "PDF_SOLDIER_ASSAULT_CARAPACE_M"]
+      M14: ["", "MALE_14_FACE", "", "MALE_HANDS_1", "PDF_SOLDIER_ASSAULT_CARAPACE_M"]
+      M15: ["", "MALE_15_FACE", "", "MALE_HANDS_2", "PDF_SOLDIER_ASSAULT_CARAPACE_M"]
+      M16: ["", "MALE_16_FACE", "", "MALE_HANDS_0", "PDF_SOLDIER_ASSAULT_CARAPACE_M"]
+      M17: ["", "MALE_17_FACE", "", "MALE_HANDS_0", "PDF_SOLDIER_ASSAULT_CARAPACE_M"]
+      M18: ["", "MALE_18_FACE", "", "MALE_HANDS_1", "PDF_SOLDIER_ASSAULT_CARAPACE_M"]
+      M19: ["", "MALE_19_FACE", "", "MALE_HANDS_2", "PDF_SOLDIER_ASSAULT_CARAPACE_M"]
+      M20: ["", "MALE_20_FACE", "", "MALE_HANDS_0", "PDF_SOLDIER_ASSAULT_CARAPACE_M"]
+      M21: ["", "MALE_21_FACE", "", "MALE_HANDS_0", "PDF_SOLDIER_ASSAULT_CARAPACE_M"]
+      M22: ["", "MALE_22_FACE", "", "MALE_HANDS_1", "PDF_SOLDIER_ASSAULT_CARAPACE_M"]
+      M23: ["", "MALE_23_FACE", "", "MALE_HANDS_2", "PDF_SOLDIER_ASSAULT_CARAPACE_M"]
+      M24: ["", "MALE_24_FACE", "", "MALE_HANDS_0", "PDF_SOLDIER_ASSAULT_CARAPACE_M"]
+      M25: ["", "MALE_25_FACE", "", "MALE_HANDS_0", "PDF_SOLDIER_ASSAULT_CARAPACE_M"]
+      M26: ["", "MALE_26_FACE", "", "MALE_HANDS_1", "PDF_SOLDIER_ASSAULT_CARAPACE_M"]
+      M27: ["", "MALE_27_FACE", "", "MALE_HANDS_2", "PDF_SOLDIER_ASSAULT_CARAPACE_M"]
+      M28: ["", "MALE_28_FACE", "", "MALE_HANDS_0", "PDF_SOLDIER_ASSAULT_CARAPACE_M"]
+      M29: ["", "MALE_29_FACE", "", "MALE_HANDS_0", "PDF_SOLDIER_ASSAULT_CARAPACE_M"]
+      M30: ["", "MALE_30_FACE", "", "MALE_HANDS_1", "PDF_SOLDIER_ASSAULT_CARAPACE_M"]
+      M31: ["", "MALE_31_FACE", "", "MALE_HANDS_2", "PDF_SOLDIER_ASSAULT_CARAPACE_M"]
+
+#FEMALE LAYERS
+      F0: ["", "FEMALE_00_FACE", "", "FEMALE_HANDS_0", "PDF_SOLDIER_ASSAULT_CARAPACE_F"]
+      F1: ["", "FEMALE_01_FACE", "", "FEMALE_HANDS_0", "PDF_SOLDIER_ASSAULT_CARAPACE_F"]
+      F2: ["", "FEMALE_02_FACE", "", "FEMALE_HANDS_1", "PDF_SOLDIER_ASSAULT_CARAPACE_F"]
+      F3: ["", "FEMALE_03_FACE", "", "FEMALE_HANDS_2", "PDF_SOLDIER_ASSAULT_CARAPACE_F"]
+      F4: ["", "FEMALE_04_FACE", "", "FEMALE_HANDS_0", "PDF_SOLDIER_ASSAULT_CARAPACE_F"]
+      F5: ["", "FEMALE_05_FACE", "", "FEMALE_HANDS_0", "PDF_SOLDIER_ASSAULT_CARAPACE_F"]
+      F6: ["", "FEMALE_06_FACE", "", "FEMALE_HANDS_1", "PDF_SOLDIER_ASSAULT_CARAPACE_F"]
+      F7: ["", "FEMALE_07_FACE", "", "FEMALE_HANDS_2", "PDF_SOLDIER_ASSAULT_CARAPACE_F"]
+      F8: ["", "FEMALE_08_FACE", "", "FEMALE_HANDS_0", "PDF_SOLDIER_ASSAULT_CARAPACE_F"]
+      F9: ["", "FEMALE_09_FACE", "", "FEMALE_HANDS_0", "PDF_SOLDIER_ASSAULT_CARAPACE_F"]
+      F10: ["", "FEMALE_10_FACE", "", "FEMALE_HANDS_1", "PDF_SOLDIER_ASSAULT_CARAPACE_F"]
+      F11: ["", "FEMALE_11_FACE", "", "FEMALE_HANDS_2", "PDF_SOLDIER_ASSAULT_CARAPACE_F"]
+      F12: ["", "FEMALE_12_FACE", "", "FEMALE_HANDS_0", "PDF_SOLDIER_ASSAULT_CARAPACE_F"]
+      F13: ["", "FEMALE_13_FACE", "", "FEMALE_HANDS_0", "PDF_SOLDIER_ASSAULT_CARAPACE_F"]
+      F14: ["", "FEMALE_14_FACE", "", "FEMALE_HANDS_1", "PDF_SOLDIER_ASSAULT_CARAPACE_F"]
+      F15: ["", "FEMALE_15_FACE", "", "FEMALE_HANDS_2", "PDF_SOLDIER_ASSAULT_CARAPACE_F"]
+      F16: ["", "FEMALE_16_FACE", "", "FEMALE_HANDS_0", "PDF_SOLDIER_ASSAULT_CARAPACE_F"]
+      F17: ["", "FEMALE_17_FACE", "", "FEMALE_HANDS_0", "PDF_SOLDIER_ASSAULT_CARAPACE_F"]
+      F18: ["", "FEMALE_18_FACE", "", "FEMALE_HANDS_1", "PDF_SOLDIER_ASSAULT_CARAPACE_F"]
+      F19: ["", "FEMALE_19_FACE", "", "FEMALE_HANDS_2", "PDF_SOLDIER_ASSAULT_CARAPACE_F"]
+      F20: ["", "FEMALE_20_FACE", "", "FEMALE_HANDS_0", "PDF_SOLDIER_ASSAULT_CARAPACE_F"]
+      F21: ["", "FEMALE_21_FACE", "", "FEMALE_HANDS_0", "PDF_SOLDIER_ASSAULT_CARAPACE_F"]
+      F22: ["", "FEMALE_22_FACE", "", "FEMALE_HANDS_1", "PDF_SOLDIER_ASSAULT_CARAPACE_F"]
+      F23: ["", "FEMALE_23_FACE", "", "FEMALE_HANDS_2", "PDF_SOLDIER_ASSAULT_CARAPACE_F"]
+      F24: ["", "FEMALE_24_FACE", "", "FEMALE_HANDS_0", "PDF_SOLDIER_ASSAULT_CARAPACE_F"]
+      F25: ["", "FEMALE_25_FACE", "", "FEMALE_HANDS_0", "PDF_SOLDIER_ASSAULT_CARAPACE_F"]
+      F26: ["", "FEMALE_26_FACE", "", "FEMALE_HANDS_1", "PDF_SOLDIER_ASSAULT_CARAPACE_F"]
+      F27: ["", "FEMALE_27_FACE", "", "FEMALE_HANDS_2", "PDF_SOLDIER_ASSAULT_CARAPACE_F"]
+      F28: ["", "FEMALE_28_FACE", "", "FEMALE_HANDS_0", "PDF_SOLDIER_ASSAULT_CARAPACE_F"]
+      F29: ["", "FEMALE_29_FACE", "", "FEMALE_HANDS_0", "PDF_SOLDIER_ASSAULT_CARAPACE_F"]
+      F30: ["", "FEMALE_30_FACE", "", "FEMALE_HANDS_1", "PDF_SOLDIER_ASSAULT_CARAPACE_F"]
+      F31: ["", "FEMALE_31_FACE", "", "FEMALE_HANDS_2", "PDF_SOLDIER_ASSAULT_CARAPACE_F"]
+
+
+#PDF SOLDIER HEAVY CARAPACE ARMOR
+  - type: STR_PDF_SOLDIER_HEAVY_CARAPACE
+
+#GENERAL
+    drawingRoutine: 0 #x-com soldier
+    spriteSheet: PDF_SOLDIER_HEAVY_CARAPACE.PCK
+    units:
+      - STR_PDF_SOLDIER
+    corpseBattle:
+      - STR_CORPSE_PDF_SOLDIER_HEAVY_CARAPACE
+    storeItem: STR_HEAVY_CARAPACE_STORE_ITEM
+    loftempsSet: [ 3 ]
+    weight: 30
+
+    builtInWeapons:
+      - STR_LEFT_LEG_SLOT
+      - STR_RIGHT_LEG_SLOT
+
+#PROTECTION
+    frontArmor: 90
+    sideArmor: 75
+    rearArmor: 60
+    underArmor: 60
+    damageModifier:
+      - 1.0 #None
+      - 1.0 #Armor Piercing
+      - 1.0 #Incendiary
+      - 1.0 #High Explosive
+      - 1.0 #Laser
+      - 1.0 #Plasma
+      - 1.0 #Stun
+      - 1.0 #Melee
+      - 1.0 #Acid
+      - 0.0 #Smoke
+      - 1.0 #Melta
+
+#LAYERS
+    spriteFaceGroup: 6
+    spriteFaceColor: [96, 96, #MALE_00, FEMALE_00 (Skin color: 0)
+                      96, 96, #MALE_01 FEMALE_01 (Skin color: 0)
+                      160, 160, #MALE_02 FEMALE_02 (Skin color: 1)
+                      163, 163] #MALE_03 FEMALE_03 (Skin color: 2)
+
+    spriteHairGroup: 9
+    spriteHairColor: [144, 144, #MALE_00 FEMALE_00 (Hair color: Yellow)
+                      164, 164, #MALE_01 FEMALE_01 (Hair color: Brown)
+                      245, 245, #MALE_02 FEMALE_02 (Hair color: Black)
+                      165, 165] #MALE_03 FEMALE_03 (Hair color: Dark Brown)
+
+    layersDefaultPrefix: 0
+    layersSpecificPrefix:
+      4: PDF_SOLDIER_HEAVY_CARAPACE
+    layersDefinition:
+#MALE LAYERS
+      M0: ["", "MALE_00_FACE", "", "", "PDF_SOLDIER_HEAVY_CARAPACE_M"]
+      M1: ["", "MALE_01_FACE", "", "", "PDF_SOLDIER_HEAVY_CARAPACE_M"]
+      M2: ["", "MALE_02_FACE", "", "", "PDF_SOLDIER_HEAVY_CARAPACE_M"]
+      M3: ["", "MALE_03_FACE", "", "", "PDF_SOLDIER_HEAVY_CARAPACE_M"]
+      M4: ["", "MALE_04_FACE", "", "", "PDF_SOLDIER_HEAVY_CARAPACE_M"]
+      M5: ["", "MALE_05_FACE", "", "", "PDF_SOLDIER_HEAVY_CARAPACE_M"]
+      M6: ["", "MALE_06_FACE", "", "", "PDF_SOLDIER_HEAVY_CARAPACE_M"]
+      M7: ["", "MALE_07_FACE", "", "", "PDF_SOLDIER_HEAVY_CARAPACE_M"]
+      M8: ["", "MALE_08_FACE", "", "", "PDF_SOLDIER_HEAVY_CARAPACE_M"]
+      M9: ["", "MALE_09_FACE", "", "", "PDF_SOLDIER_HEAVY_CARAPACE_M"]
+      M10: ["", "MALE_10_FACE", "", "", "PDF_SOLDIER_HEAVY_CARAPACE_M"]
+      M11: ["", "MALE_11_FACE", "", "", "PDF_SOLDIER_HEAVY_CARAPACE_M"]
+      M12: ["", "MALE_12_FACE", "", "", "PDF_SOLDIER_HEAVY_CARAPACE_M"]
+      M13: ["", "MALE_13_FACE", "", "", "PDF_SOLDIER_HEAVY_CARAPACE_M"]
+      M14: ["", "MALE_14_FACE", "", "", "PDF_SOLDIER_HEAVY_CARAPACE_M"]
+      M15: ["", "MALE_15_FACE", "", "", "PDF_SOLDIER_HEAVY_CARAPACE_M"]
+      M16: ["", "MALE_16_FACE", "", "", "PDF_SOLDIER_HEAVY_CARAPACE_M"]
+      M17: ["", "MALE_17_FACE", "", "", "PDF_SOLDIER_HEAVY_CARAPACE_M"]
+      M18: ["", "MALE_18_FACE", "", "", "PDF_SOLDIER_HEAVY_CARAPACE_M"]
+      M19: ["", "MALE_19_FACE", "", "", "PDF_SOLDIER_HEAVY_CARAPACE_M"]
+      M20: ["", "MALE_20_FACE", "", "", "PDF_SOLDIER_HEAVY_CARAPACE_M"]
+      M21: ["", "MALE_21_FACE", "", "", "PDF_SOLDIER_HEAVY_CARAPACE_M"]
+      M22: ["", "MALE_22_FACE", "", "", "PDF_SOLDIER_HEAVY_CARAPACE_M"]
+      M23: ["", "MALE_23_FACE", "", "", "PDF_SOLDIER_HEAVY_CARAPACE_M"]
+      M24: ["", "MALE_24_FACE", "", "", "PDF_SOLDIER_HEAVY_CARAPACE_M"]
+      M25: ["", "MALE_25_FACE", "", "", "PDF_SOLDIER_HEAVY_CARAPACE_M"]
+      M26: ["", "MALE_26_FACE", "", "", "PDF_SOLDIER_HEAVY_CARAPACE_M"]
+      M27: ["", "MALE_27_FACE", "", "", "PDF_SOLDIER_HEAVY_CARAPACE_M"]
+      M28: ["", "MALE_28_FACE", "", "", "PDF_SOLDIER_HEAVY_CARAPACE_M"]
+      M29: ["", "MALE_29_FACE", "", "", "PDF_SOLDIER_HEAVY_CARAPACE_M"]
+      M30: ["", "MALE_30_FACE", "", "", "PDF_SOLDIER_HEAVY_CARAPACE_M"]
+      M31: ["", "MALE_31_FACE", "", "", "PDF_SOLDIER_HEAVY_CARAPACE_M"]
+
+#FEMALE LAYERS
+      F0: ["", "FEMALE_00_FACE", "", "", "PDF_SOLDIER_HEAVY_CARAPACE_F"]
+      F1: ["", "FEMALE_01_FACE", "", "", "PDF_SOLDIER_HEAVY_CARAPACE_F"]
+      F2: ["", "FEMALE_02_FACE", "", "", "PDF_SOLDIER_HEAVY_CARAPACE_F"]
+      F3: ["", "FEMALE_03_FACE", "", "", "PDF_SOLDIER_HEAVY_CARAPACE_F"]
+      F4: ["", "FEMALE_04_FACE", "", "", "PDF_SOLDIER_HEAVY_CARAPACE_F"]
+      F5: ["", "FEMALE_05_FACE", "", "", "PDF_SOLDIER_HEAVY_CARAPACE_F"]
+      F6: ["", "FEMALE_06_FACE", "", "", "PDF_SOLDIER_HEAVY_CARAPACE_F"]
+      F7: ["", "FEMALE_07_FACE", "", "", "PDF_SOLDIER_HEAVY_CARAPACE_F"]
+      F8: ["", "FEMALE_08_FACE", "", "", "PDF_SOLDIER_HEAVY_CARAPACE_F"]
+      F9: ["", "FEMALE_09_FACE", "", "", "PDF_SOLDIER_HEAVY_CARAPACE_F"]
+      F10: ["", "FEMALE_10_FACE", "", "", "PDF_SOLDIER_HEAVY_CARAPACE_F"]
+      F11: ["", "FEMALE_11_FACE", "", "", "PDF_SOLDIER_HEAVY_CARAPACE_F"]
+      F12: ["", "FEMALE_12_FACE", "", "", "PDF_SOLDIER_HEAVY_CARAPACE_F"]
+      F13: ["", "FEMALE_13_FACE", "", "", "PDF_SOLDIER_HEAVY_CARAPACE_F"]
+      F14: ["", "FEMALE_14_FACE", "", "", "PDF_SOLDIER_HEAVY_CARAPACE_F"]
+      F15: ["", "FEMALE_15_FACE", "", "", "PDF_SOLDIER_HEAVY_CARAPACE_F"]
+      F16: ["", "FEMALE_16_FACE", "", "", "PDF_SOLDIER_HEAVY_CARAPACE_F"]
+      F17: ["", "FEMALE_17_FACE", "", "", "PDF_SOLDIER_HEAVY_CARAPACE_F"]
+      F18: ["", "FEMALE_18_FACE", "", "", "PDF_SOLDIER_HEAVY_CARAPACE_F"]
+      F19: ["", "FEMALE_19_FACE", "", "", "PDF_SOLDIER_HEAVY_CARAPACE_F"]
+      F20: ["", "FEMALE_20_FACE", "", "", "PDF_SOLDIER_HEAVY_CARAPACE_F"]
+      F21: ["", "FEMALE_21_FACE", "", "", "PDF_SOLDIER_HEAVY_CARAPACE_F"]
+      F22: ["", "FEMALE_22_FACE", "", "", "PDF_SOLDIER_HEAVY_CARAPACE_F"]
+      F23: ["", "FEMALE_23_FACE", "", "", "PDF_SOLDIER_HEAVY_CARAPACE_F"]
+      F24: ["", "FEMALE_24_FACE", "", "", "PDF_SOLDIER_HEAVY_CARAPACE_F"]
+      F25: ["", "FEMALE_25_FACE", "", "", "PDF_SOLDIER_HEAVY_CARAPACE_F"]
+      F26: ["", "FEMALE_26_FACE", "", "", "PDF_SOLDIER_HEAVY_CARAPACE_F"]
+      F27: ["", "FEMALE_27_FACE", "", "", "PDF_SOLDIER_HEAVY_CARAPACE_F"]
+      F28: ["", "FEMALE_28_FACE", "", "", "PDF_SOLDIER_HEAVY_CARAPACE_F"]
+      F29: ["", "FEMALE_29_FACE", "", "", "PDF_SOLDIER_HEAVY_CARAPACE_F"]
+      F30: ["", "FEMALE_30_FACE", "", "", "PDF_SOLDIER_HEAVY_CARAPACE_F"]
+      F31: ["", "FEMALE_31_FACE", "", "", "PDF_SOLDIER_HEAVY_CARAPACE_F"]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#PDF SERGEANT UNIFORM
+  - type: STR_PDF_SERGEANT_UNIFORM
+
+#GENERAL
+    drawingRoutine: 0 #x-com soldier
+    spriteSheet: PDF_SERGEANT_UNIFORM.PCK
+    units:
+      - STR_PDF_SERGEANT
+    corpseBattle:
+      - STR_CORPSE_PDF_SERGEANT_UNIFORM
+    storeItem: STR_NONE
+    loftempsSet: [ 3 ]
+    weight: 0
+
+#PROTECTION
+    frontArmor: 12
+    sideArmor: 8
+    rearArmor: 5
+    underArmor: 2
+    damageModifier:
+      - 1.0 #None
+      - 1.0 #Armor Piercing
+      - 1.0 #Incendiary
+      - 1.0 #High Explosive
+      - 1.0 #Laser
+      - 1.0 #Plasma
+      - 1.0 #Stun
+      - 1.0 #Melee
+      - 1.0 #Acid
+      - 1.0 #Smoke
+      - 1.0 #Melta
+
+#LAYERS
+    spriteFaceGroup: 6
+    spriteFaceColor: [96, 96, #MALE_00, FEMALE_00 (Skin color: 0)
+                      96, 96, #MALE_01 FEMALE_01 (Skin color: 0)
+                      160, 160, #MALE_02 FEMALE_02 (Skin color: 1)
+                      163, 163] #MALE_03 FEMALE_03 (Skin color: 2)
+
+    spriteHairGroup: 9
+    spriteHairColor: [144, 144, #MALE_00 FEMALE_00 (Hair color: Yellow)
+                      164, 164, #MALE_01 FEMALE_01 (Hair color: Brown)
+                      245, 245, #MALE_02 FEMALE_02 (Hair color: Black)
+                      165, 165] #MALE_03 FEMALE_03 (Hair color: Dark Brown)
+
+    layersDefaultPrefix: 0
+    layersSpecificPrefix:
+      4: PDF_SERGEANT_UNIFORM
+    layersDefinition:
+#MALE LAYERS
+      M0: ["", "MALE_00_FACE", "MALE_00_HAIR", "MALE_HANDS_0", "PDF_SERGEANT_UNIFORM_M"]
+      M1: ["", "MALE_01_FACE", "MALE_01_HAIR", "MALE_HANDS_0", "PDF_SERGEANT_UNIFORM_M"]
+      M2: ["", "MALE_02_FACE", "MALE_02_HAIR", "MALE_HANDS_1", "PDF_SERGEANT_UNIFORM_M"]
+      M3: ["", "MALE_03_FACE", "MALE_03_HAIR", "MALE_HANDS_2", "PDF_SERGEANT_UNIFORM_M"]
+      M4: ["", "MALE_04_FACE", "MALE_04_HAIR", "MALE_HANDS_0", "PDF_SERGEANT_UNIFORM_M"]
+      M5: ["", "MALE_05_FACE", "MALE_05_HAIR", "MALE_HANDS_0", "PDF_SERGEANT_UNIFORM_M"]
+      M6: ["", "MALE_06_FACE", "MALE_06_HAIR", "MALE_HANDS_1", "PDF_SERGEANT_UNIFORM_M"]
+      M7: ["", "MALE_07_FACE", "MALE_07_HAIR", "MALE_HANDS_2", "PDF_SERGEANT_UNIFORM_M"]
+      M8: ["", "MALE_08_FACE", "MALE_08_HAIR", "MALE_HANDS_0", "PDF_SERGEANT_UNIFORM_M"]
+      M9: ["", "MALE_09_FACE", "MALE_09_HAIR", "MALE_HANDS_0", "PDF_SERGEANT_UNIFORM_M"]
+      M10: ["", "MALE_10_FACE", "MALE_10_HAIR", "MALE_HANDS_1", "PDF_SERGEANT_UNIFORM_M"]
+      M11: ["", "MALE_11_FACE", "MALE_11_HAIR", "MALE_HANDS_2", "PDF_SERGEANT_UNIFORM_M"]
+      M12: ["", "MALE_12_FACE", "MALE_12_HAIR", "MALE_HANDS_0", "PDF_SERGEANT_UNIFORM_M"]
+      M13: ["", "MALE_13_FACE", "MALE_13_HAIR", "MALE_HANDS_0", "PDF_SERGEANT_UNIFORM_M"]
+      M14: ["", "MALE_14_FACE", "MALE_14_HAIR", "MALE_HANDS_1", "PDF_SERGEANT_UNIFORM_M"]
+      M15: ["", "MALE_15_FACE", "MALE_15_HAIR", "MALE_HANDS_2", "PDF_SERGEANT_UNIFORM_M"]
+      M16: ["", "MALE_16_FACE", "MALE_16_HAIR", "MALE_HANDS_0", "PDF_SERGEANT_UNIFORM_M"]
+      M17: ["", "MALE_17_FACE", "MALE_17_HAIR", "MALE_HANDS_0", "PDF_SERGEANT_UNIFORM_M"]
+      M18: ["", "MALE_18_FACE", "MALE_18_HAIR", "MALE_HANDS_1", "PDF_SERGEANT_UNIFORM_M"]
+      M19: ["", "MALE_19_FACE", "MALE_19_HAIR", "MALE_HANDS_2", "PDF_SERGEANT_UNIFORM_M"]
+      M20: ["", "MALE_20_FACE", "MALE_20_HAIR", "MALE_HANDS_0", "PDF_SERGEANT_UNIFORM_M"]
+      M21: ["", "MALE_21_FACE", "MALE_21_HAIR", "MALE_HANDS_0", "PDF_SERGEANT_UNIFORM_M"]
+      M22: ["", "MALE_22_FACE", "MALE_22_HAIR", "MALE_HANDS_1", "PDF_SERGEANT_UNIFORM_M"]
+      M23: ["", "MALE_23_FACE", "MALE_23_HAIR", "MALE_HANDS_2", "PDF_SERGEANT_UNIFORM_M"]
+      M24: ["", "MALE_24_FACE", "MALE_24_HAIR", "MALE_HANDS_0", "PDF_SERGEANT_UNIFORM_M"]
+      M25: ["", "MALE_25_FACE", "MALE_25_HAIR", "MALE_HANDS_0", "PDF_SERGEANT_UNIFORM_M"]
+      M26: ["", "MALE_26_FACE", "MALE_26_HAIR", "MALE_HANDS_1", "PDF_SERGEANT_UNIFORM_M"]
+      M27: ["", "MALE_27_FACE", "MALE_27_HAIR", "MALE_HANDS_2", "PDF_SERGEANT_UNIFORM_M"]
+      M28: ["", "MALE_28_FACE", "MALE_28_HAIR", "MALE_HANDS_0", "PDF_SERGEANT_UNIFORM_M"]
+      M29: ["", "MALE_29_FACE", "MALE_29_HAIR", "MALE_HANDS_0", "PDF_SERGEANT_UNIFORM_M"]
+      M30: ["", "MALE_30_FACE", "MALE_30_HAIR", "MALE_HANDS_1", "PDF_SERGEANT_UNIFORM_M"]
+      M31: ["", "MALE_31_FACE", "MALE_31_HAIR", "MALE_HANDS_2", "PDF_SERGEANT_UNIFORM_M"]
+
+#FEMALE LAYERS
+      F0: ["", "FEMALE_00_FACE", "FEMALE_00_HAIR", "FEMALE_HANDS_0", "PDF_SERGEANT_UNIFORM_F"]
+      F1: ["", "FEMALE_01_FACE", "FEMALE_01_HAIR", "FEMALE_HANDS_0", "PDF_SERGEANT_UNIFORM_F"]
+      F2: ["", "FEMALE_02_FACE", "FEMALE_02_HAIR", "FEMALE_HANDS_1", "PDF_SERGEANT_UNIFORM_F"]
+      F3: ["", "FEMALE_03_FACE", "FEMALE_03_HAIR", "FEMALE_HANDS_2", "PDF_SERGEANT_UNIFORM_F"]
+      F4: ["", "FEMALE_04_FACE", "FEMALE_04_HAIR", "FEMALE_HANDS_0", "PDF_SERGEANT_UNIFORM_F"]
+      F5: ["", "FEMALE_05_FACE", "FEMALE_05_HAIR", "FEMALE_HANDS_0", "PDF_SERGEANT_UNIFORM_F"]
+      F6: ["", "FEMALE_06_FACE", "FEMALE_06_HAIR", "FEMALE_HANDS_1", "PDF_SERGEANT_UNIFORM_F"]
+      F7: ["", "FEMALE_07_FACE", "FEMALE_07_HAIR", "FEMALE_HANDS_2", "PDF_SERGEANT_UNIFORM_F"]
+      F8: ["", "FEMALE_08_FACE", "FEMALE_08_HAIR", "FEMALE_HANDS_0", "PDF_SERGEANT_UNIFORM_F"]
+      F9: ["", "FEMALE_09_FACE", "FEMALE_09_HAIR", "FEMALE_HANDS_0", "PDF_SERGEANT_UNIFORM_F"]
+      F10: ["", "FEMALE_10_FACE", "FEMALE_10_HAIR", "FEMALE_HANDS_1", "PDF_SERGEANT_UNIFORM_F"]
+      F11: ["", "FEMALE_11_FACE", "FEMALE_11_HAIR", "FEMALE_HANDS_2", "PDF_SERGEANT_UNIFORM_F"]
+      F12: ["", "FEMALE_12_FACE", "FEMALE_12_HAIR", "FEMALE_HANDS_0", "PDF_SERGEANT_UNIFORM_F"]
+      F13: ["", "FEMALE_13_FACE", "FEMALE_13_HAIR", "FEMALE_HANDS_0", "PDF_SERGEANT_UNIFORM_F"]
+      F14: ["", "FEMALE_14_FACE", "FEMALE_14_HAIR", "FEMALE_HANDS_1", "PDF_SERGEANT_UNIFORM_F"]
+      F15: ["", "FEMALE_15_FACE", "FEMALE_15_HAIR", "FEMALE_HANDS_2", "PDF_SERGEANT_UNIFORM_F"]
+      F16: ["", "FEMALE_16_FACE", "FEMALE_16_HAIR", "FEMALE_HANDS_0", "PDF_SERGEANT_UNIFORM_F"]
+      F17: ["", "FEMALE_17_FACE", "FEMALE_17_HAIR", "FEMALE_HANDS_0", "PDF_SERGEANT_UNIFORM_F"]
+      F18: ["", "FEMALE_18_FACE", "FEMALE_18_HAIR", "FEMALE_HANDS_1", "PDF_SERGEANT_UNIFORM_F"]
+      F19: ["", "FEMALE_19_FACE", "FEMALE_19_HAIR", "FEMALE_HANDS_2", "PDF_SERGEANT_UNIFORM_F"]
+      F20: ["", "FEMALE_20_FACE", "FEMALE_20_HAIR", "FEMALE_HANDS_0", "PDF_SERGEANT_UNIFORM_F"]
+      F21: ["", "FEMALE_21_FACE", "FEMALE_21_HAIR", "FEMALE_HANDS_0", "PDF_SERGEANT_UNIFORM_F"]
+      F22: ["", "FEMALE_22_FACE", "FEMALE_22_HAIR", "FEMALE_HANDS_1", "PDF_SERGEANT_UNIFORM_F"]
+      F23: ["", "FEMALE_23_FACE", "FEMALE_23_HAIR", "FEMALE_HANDS_2", "PDF_SERGEANT_UNIFORM_F"]
+      F24: ["", "FEMALE_24_FACE", "FEMALE_24_HAIR", "FEMALE_HANDS_0", "PDF_SERGEANT_UNIFORM_F"]
+      F25: ["", "FEMALE_25_FACE", "FEMALE_25_HAIR", "FEMALE_HANDS_0", "PDF_SERGEANT_UNIFORM_F"]
+      F26: ["", "FEMALE_26_FACE", "FEMALE_26_HAIR", "FEMALE_HANDS_1", "PDF_SERGEANT_UNIFORM_F"]
+      F27: ["", "FEMALE_27_FACE", "FEMALE_27_HAIR", "FEMALE_HANDS_2", "PDF_SERGEANT_UNIFORM_F"]
+      F28: ["", "FEMALE_28_FACE", "FEMALE_28_HAIR", "FEMALE_HANDS_0", "PDF_SERGEANT_UNIFORM_F"]
+      F29: ["", "FEMALE_29_FACE", "FEMALE_29_HAIR", "FEMALE_HANDS_0", "PDF_SERGEANT_UNIFORM_F"]
+      F30: ["", "FEMALE_30_FACE", "FEMALE_30_HAIR", "FEMALE_HANDS_1", "PDF_SERGEANT_UNIFORM_F"]
+      F31: ["", "FEMALE_31_FACE", "FEMALE_31_HAIR", "FEMALE_HANDS_2", "PDF_SERGEANT_UNIFORM_F"]
+
+
+
+#PDF SERGEANT FLAK ARMOR
+  - type: STR_PDF_SERGEANT_FLAK_ARMOR
+
+#GENERAL
+    drawingRoutine: 0 #x-com soldier
+    spriteSheet: PDF_SERGEANT_FLAK_ARMOR.PCK
+    units:
+      - STR_PDF_SERGEANT
+    corpseBattle:
+      - STR_CORPSE_PDF_SERGEANT_FLAK_ARMOR
+    storeItem: STR_FLAK_ARMOR_STORE_ITEM
+    loftempsSet: [ 3 ]
+    weight: 10
+
+#PROTECTION
+    frontArmor: 30
+    sideArmor: 25
+    rearArmor: 20
+    underArmor: 20
+    damageModifier:
+      - 1.0 #None
+      - 1.0 #Armor Piercing
+      - 1.0 #Incendiary
+      - 1.0 #High Explosive
+      - 1.0 #Laser
+      - 1.0 #Plasma
+      - 1.0 #Stun
+      - 1.0 #Melee
+      - 1.0 #Acid
+      - 1.0 #Smoke
+      - 1.0 #Melta
+
+#LAYERS
+    spriteFaceGroup: 6
+    spriteFaceColor: [96, 96, #MALE_00, FEMALE_00 (Skin color: 0)
+                      96, 96, #MALE_01 FEMALE_01 (Skin color: 0)
+                      160, 160, #MALE_02 FEMALE_02 (Skin color: 1)
+                      163, 163] #MALE_03 FEMALE_03 (Skin color: 2)
+
+    spriteHairGroup: 9
+    spriteHairColor: [144, 144, #MALE_00 FEMALE_00 (Hair color: Yellow)
+                      164, 164, #MALE_01 FEMALE_01 (Hair color: Brown)
+                      245, 245, #MALE_02 FEMALE_02 (Hair color: Black)
+                      165, 165] #MALE_03 FEMALE_03 (Hair color: Dark Brown)
+
+    layersDefaultPrefix: 0
+    layersSpecificPrefix:
+      4: PDF_SERGEANT_FLAK_ARMOR
+    layersDefinition:
+#MALE LAYERS
+      M0: ["", "MALE_00_FACE", "", "MALE_HANDS_0", "PDF_SERGEANT_FLAK_ARMOR_M"]
+      M1: ["", "MALE_01_FACE", "", "MALE_HANDS_0", "PDF_SERGEANT_FLAK_ARMOR_M"]
+      M2: ["", "MALE_02_FACE", "", "MALE_HANDS_1", "PDF_SERGEANT_FLAK_ARMOR_M"]
+      M3: ["", "MALE_03_FACE", "", "MALE_HANDS_2", "PDF_SERGEANT_FLAK_ARMOR_M"]
+      M4: ["", "MALE_04_FACE", "", "MALE_HANDS_0", "PDF_SERGEANT_FLAK_ARMOR_M"]
+      M5: ["", "MALE_05_FACE", "", "MALE_HANDS_0", "PDF_SERGEANT_FLAK_ARMOR_M"]
+      M6: ["", "MALE_06_FACE", "", "MALE_HANDS_1", "PDF_SERGEANT_FLAK_ARMOR_M"]
+      M7: ["", "MALE_07_FACE", "", "MALE_HANDS_2", "PDF_SERGEANT_FLAK_ARMOR_M"]
+      M8: ["", "MALE_08_FACE", "", "MALE_HANDS_0", "PDF_SERGEANT_FLAK_ARMOR_M"]
+      M9: ["", "MALE_09_FACE", "", "MALE_HANDS_0", "PDF_SERGEANT_FLAK_ARMOR_M"]
+      M10: ["", "MALE_10_FACE", "", "MALE_HANDS_1", "PDF_SERGEANT_FLAK_ARMOR_M"]
+      M11: ["", "MALE_11_FACE", "", "MALE_HANDS_2", "PDF_SERGEANT_FLAK_ARMOR_M"]
+      M12: ["", "MALE_12_FACE", "", "MALE_HANDS_0", "PDF_SERGEANT_FLAK_ARMOR_M"]
+      M13: ["", "MALE_13_FACE", "", "MALE_HANDS_0", "PDF_SERGEANT_FLAK_ARMOR_M"]
+      M14: ["", "MALE_14_FACE", "", "MALE_HANDS_1", "PDF_SERGEANT_FLAK_ARMOR_M"]
+      M15: ["", "MALE_15_FACE", "", "MALE_HANDS_2", "PDF_SERGEANT_FLAK_ARMOR_M"]
+      M16: ["", "MALE_16_FACE", "", "MALE_HANDS_0", "PDF_SERGEANT_FLAK_ARMOR_M"]
+      M17: ["", "MALE_17_FACE", "", "MALE_HANDS_0", "PDF_SERGEANT_FLAK_ARMOR_M"]
+      M18: ["", "MALE_18_FACE", "", "MALE_HANDS_1", "PDF_SERGEANT_FLAK_ARMOR_M"]
+      M19: ["", "MALE_19_FACE", "", "MALE_HANDS_2", "PDF_SERGEANT_FLAK_ARMOR_M"]
+      M20: ["", "MALE_20_FACE", "", "MALE_HANDS_0", "PDF_SERGEANT_FLAK_ARMOR_M"]
+      M21: ["", "MALE_21_FACE", "", "MALE_HANDS_0", "PDF_SERGEANT_FLAK_ARMOR_M"]
+      M22: ["", "MALE_22_FACE", "", "MALE_HANDS_1", "PDF_SERGEANT_FLAK_ARMOR_M"]
+      M23: ["", "MALE_23_FACE", "", "MALE_HANDS_2", "PDF_SERGEANT_FLAK_ARMOR_M"]
+      M24: ["", "MALE_24_FACE", "", "MALE_HANDS_0", "PDF_SERGEANT_FLAK_ARMOR_M"]
+      M25: ["", "MALE_25_FACE", "", "MALE_HANDS_0", "PDF_SERGEANT_FLAK_ARMOR_M"]
+      M26: ["", "MALE_26_FACE", "", "MALE_HANDS_1", "PDF_SERGEANT_FLAK_ARMOR_M"]
+      M27: ["", "MALE_27_FACE", "", "MALE_HANDS_2", "PDF_SERGEANT_FLAK_ARMOR_M"]
+      M28: ["", "MALE_28_FACE", "", "MALE_HANDS_0", "PDF_SERGEANT_FLAK_ARMOR_M"]
+      M29: ["", "MALE_29_FACE", "", "MALE_HANDS_0", "PDF_SERGEANT_FLAK_ARMOR_M"]
+      M30: ["", "MALE_30_FACE", "", "MALE_HANDS_1", "PDF_SERGEANT_FLAK_ARMOR_M"]
+      M31: ["", "MALE_31_FACE", "", "MALE_HANDS_2", "PDF_SERGEANT_FLAK_ARMOR_M"]
+
+#FEMALE LAYERS
+      F0: ["", "FEMALE_00_FACE", "", "FEMALE_HANDS_0", "PDF_SERGEANT_FLAK_ARMOR_F"]
+      F1: ["", "FEMALE_01_FACE", "", "FEMALE_HANDS_0", "PDF_SERGEANT_FLAK_ARMOR_F"]
+      F2: ["", "FEMALE_02_FACE", "", "FEMALE_HANDS_1", "PDF_SERGEANT_FLAK_ARMOR_F"]
+      F3: ["", "FEMALE_03_FACE", "", "FEMALE_HANDS_2", "PDF_SERGEANT_FLAK_ARMOR_F"]
+      F4: ["", "FEMALE_04_FACE", "", "FEMALE_HANDS_0", "PDF_SERGEANT_FLAK_ARMOR_F"]
+      F5: ["", "FEMALE_05_FACE", "", "FEMALE_HANDS_0", "PDF_SERGEANT_FLAK_ARMOR_F"]
+      F6: ["", "FEMALE_06_FACE", "", "FEMALE_HANDS_1", "PDF_SERGEANT_FLAK_ARMOR_F"]
+      F7: ["", "FEMALE_07_FACE", "", "FEMALE_HANDS_2", "PDF_SERGEANT_FLAK_ARMOR_F"]
+      F8: ["", "FEMALE_08_FACE", "", "FEMALE_HANDS_0", "PDF_SERGEANT_FLAK_ARMOR_F"]
+      F9: ["", "FEMALE_09_FACE", "", "FEMALE_HANDS_0", "PDF_SERGEANT_FLAK_ARMOR_F"]
+      F10: ["", "FEMALE_10_FACE", "", "FEMALE_HANDS_1", "PDF_SERGEANT_FLAK_ARMOR_F"]
+      F11: ["", "FEMALE_11_FACE", "", "FEMALE_HANDS_2", "PDF_SERGEANT_FLAK_ARMOR_F"]
+      F12: ["", "FEMALE_12_FACE", "", "FEMALE_HANDS_0", "PDF_SERGEANT_FLAK_ARMOR_F"]
+      F13: ["", "FEMALE_13_FACE", "", "FEMALE_HANDS_0", "PDF_SERGEANT_FLAK_ARMOR_F"]
+      F14: ["", "FEMALE_14_FACE", "", "FEMALE_HANDS_1", "PDF_SERGEANT_FLAK_ARMOR_F"]
+      F15: ["", "FEMALE_15_FACE", "", "FEMALE_HANDS_2", "PDF_SERGEANT_FLAK_ARMOR_F"]
+      F16: ["", "FEMALE_16_FACE", "", "FEMALE_HANDS_0", "PDF_SERGEANT_FLAK_ARMOR_F"]
+      F17: ["", "FEMALE_17_FACE", "", "FEMALE_HANDS_0", "PDF_SERGEANT_FLAK_ARMOR_F"]
+      F18: ["", "FEMALE_18_FACE", "", "FEMALE_HANDS_1", "PDF_SERGEANT_FLAK_ARMOR_F"]
+      F19: ["", "FEMALE_19_FACE", "", "FEMALE_HANDS_2", "PDF_SERGEANT_FLAK_ARMOR_F"]
+      F20: ["", "FEMALE_20_FACE", "", "FEMALE_HANDS_0", "PDF_SERGEANT_FLAK_ARMOR_F"]
+      F21: ["", "FEMALE_21_FACE", "", "FEMALE_HANDS_0", "PDF_SERGEANT_FLAK_ARMOR_F"]
+      F22: ["", "FEMALE_22_FACE", "", "FEMALE_HANDS_1", "PDF_SERGEANT_FLAK_ARMOR_F"]
+      F23: ["", "FEMALE_23_FACE", "", "FEMALE_HANDS_2", "PDF_SERGEANT_FLAK_ARMOR_F"]
+      F24: ["", "FEMALE_24_FACE", "", "FEMALE_HANDS_0", "PDF_SERGEANT_FLAK_ARMOR_F"]
+      F25: ["", "FEMALE_25_FACE", "", "FEMALE_HANDS_0", "PDF_SERGEANT_FLAK_ARMOR_F"]
+      F26: ["", "FEMALE_26_FACE", "", "FEMALE_HANDS_1", "PDF_SERGEANT_FLAK_ARMOR_F"]
+      F27: ["", "FEMALE_27_FACE", "", "FEMALE_HANDS_2", "PDF_SERGEANT_FLAK_ARMOR_F"]
+      F28: ["", "FEMALE_28_FACE", "", "FEMALE_HANDS_0", "PDF_SERGEANT_FLAK_ARMOR_F"]
+      F29: ["", "FEMALE_29_FACE", "", "FEMALE_HANDS_0", "PDF_SERGEANT_FLAK_ARMOR_F"]
+      F30: ["", "FEMALE_30_FACE", "", "FEMALE_HANDS_1", "PDF_SERGEANT_FLAK_ARMOR_F"]
+      F31: ["", "FEMALE_31_FACE", "", "FEMALE_HANDS_2", "PDF_SERGEANT_FLAK_ARMOR_F"]
+
+
+#PDF SERGEANT ASSAULT FLAK ARMOR
+  - type: STR_PDF_SERGEANT_ASSAULT_FLAK_ARMOR
+
+#GENERAL
+    drawingRoutine: 0 #x-com soldier
+    spriteSheet: PDF_SERGEANT_ASSAULT_FLAK_ARMOR.PCK
+    units:
+      - STR_PDF_SERGEANT
+    corpseBattle:
+      - STR_CORPSE_PDF_SERGEANT_ASSAULT_FLAK_ARMOR
+    storeItem: STR_ASSAULT_FLAK_ARMOR_STORE_ITEM
+    loftempsSet: [ 3 ]
+    weight: 20
+    movementType: 1 #Unit can fly
+
+    builtInWeapons:
+      - STR_BACKPACK_SLOT
+
+#PROTECTION
+    frontArmor: 30
+    sideArmor: 25
+    rearArmor: 20
+    underArmor: 20
+    damageModifier:
+      - 1.0 #None
+      - 1.0 #Armor Piercing
+      - 1.0 #Incendiary
+      - 1.0 #High Explosive
+      - 1.0 #Laser
+      - 1.0 #Plasma
+      - 1.0 #Stun
+      - 1.0 #Melee
+      - 1.0 #Acid
+      - 1.0 #Smoke
+      - 1.0 #Melta
+
+#LAYERS
+    spriteFaceGroup: 6
+    spriteFaceColor: [96, 96, #MALE_00, FEMALE_00 (Skin color: 0)
+                      96, 96, #MALE_01 FEMALE_01 (Skin color: 0)
+                      160, 160, #MALE_02 FEMALE_02 (Skin color: 1)
+                      163, 163] #MALE_03 FEMALE_03 (Skin color: 2)
+
+    spriteHairGroup: 9
+    spriteHairColor: [144, 144, #MALE_00 FEMALE_00 (Hair color: Yellow)
+                      164, 164, #MALE_01 FEMALE_01 (Hair color: Brown)
+                      245, 245, #MALE_02 FEMALE_02 (Hair color: Black)
+                      165, 165] #MALE_03 FEMALE_03 (Hair color: Dark Brown)
+
+    layersDefaultPrefix: 0
+    layersSpecificPrefix:
+      4: PDF_SERGEANT_ASSAULT_FLAK_ARMOR
+    layersDefinition:
+#MALE LAYERS
+      M0: ["", "MALE_00_FACE", "", "MALE_HANDS_0", "PDF_SERGEANT_ASSAULT_FLAK_ARMOR_M"]
+      M1: ["", "MALE_01_FACE", "", "MALE_HANDS_0", "PDF_SERGEANT_ASSAULT_FLAK_ARMOR_M"]
+      M2: ["", "MALE_02_FACE", "", "MALE_HANDS_1", "PDF_SERGEANT_ASSAULT_FLAK_ARMOR_M"]
+      M3: ["", "MALE_03_FACE", "", "MALE_HANDS_2", "PDF_SERGEANT_ASSAULT_FLAK_ARMOR_M"]
+      M4: ["", "MALE_04_FACE", "", "MALE_HANDS_0", "PDF_SERGEANT_ASSAULT_FLAK_ARMOR_M"]
+      M5: ["", "MALE_05_FACE", "", "MALE_HANDS_0", "PDF_SERGEANT_ASSAULT_FLAK_ARMOR_M"]
+      M6: ["", "MALE_06_FACE", "", "MALE_HANDS_1", "PDF_SERGEANT_ASSAULT_FLAK_ARMOR_M"]
+      M7: ["", "MALE_07_FACE", "", "MALE_HANDS_2", "PDF_SERGEANT_ASSAULT_FLAK_ARMOR_M"]
+      M8: ["", "MALE_08_FACE", "", "MALE_HANDS_0", "PDF_SERGEANT_ASSAULT_FLAK_ARMOR_M"]
+      M9: ["", "MALE_09_FACE", "", "MALE_HANDS_0", "PDF_SERGEANT_ASSAULT_FLAK_ARMOR_M"]
+      M10: ["", "MALE_10_FACE", "", "MALE_HANDS_1", "PDF_SERGEANT_ASSAULT_FLAK_ARMOR_M"]
+      M11: ["", "MALE_11_FACE", "", "MALE_HANDS_2", "PDF_SERGEANT_ASSAULT_FLAK_ARMOR_M"]
+      M12: ["", "MALE_12_FACE", "", "MALE_HANDS_0", "PDF_SERGEANT_ASSAULT_FLAK_ARMOR_M"]
+      M13: ["", "MALE_13_FACE", "", "MALE_HANDS_0", "PDF_SERGEANT_ASSAULT_FLAK_ARMOR_M"]
+      M14: ["", "MALE_14_FACE", "", "MALE_HANDS_1", "PDF_SERGEANT_ASSAULT_FLAK_ARMOR_M"]
+      M15: ["", "MALE_15_FACE", "", "MALE_HANDS_2", "PDF_SERGEANT_ASSAULT_FLAK_ARMOR_M"]
+      M16: ["", "MALE_16_FACE", "", "MALE_HANDS_0", "PDF_SERGEANT_ASSAULT_FLAK_ARMOR_M"]
+      M17: ["", "MALE_17_FACE", "", "MALE_HANDS_0", "PDF_SERGEANT_ASSAULT_FLAK_ARMOR_M"]
+      M18: ["", "MALE_18_FACE", "", "MALE_HANDS_1", "PDF_SERGEANT_ASSAULT_FLAK_ARMOR_M"]
+      M19: ["", "MALE_19_FACE", "", "MALE_HANDS_2", "PDF_SERGEANT_ASSAULT_FLAK_ARMOR_M"]
+      M20: ["", "MALE_20_FACE", "", "MALE_HANDS_0", "PDF_SERGEANT_ASSAULT_FLAK_ARMOR_M"]
+      M21: ["", "MALE_21_FACE", "", "MALE_HANDS_0", "PDF_SERGEANT_ASSAULT_FLAK_ARMOR_M"]
+      M22: ["", "MALE_22_FACE", "", "MALE_HANDS_1", "PDF_SERGEANT_ASSAULT_FLAK_ARMOR_M"]
+      M23: ["", "MALE_23_FACE", "", "MALE_HANDS_2", "PDF_SERGEANT_ASSAULT_FLAK_ARMOR_M"]
+      M24: ["", "MALE_24_FACE", "", "MALE_HANDS_0", "PDF_SERGEANT_ASSAULT_FLAK_ARMOR_M"]
+      M25: ["", "MALE_25_FACE", "", "MALE_HANDS_0", "PDF_SERGEANT_ASSAULT_FLAK_ARMOR_M"]
+      M26: ["", "MALE_26_FACE", "", "MALE_HANDS_1", "PDF_SERGEANT_ASSAULT_FLAK_ARMOR_M"]
+      M27: ["", "MALE_27_FACE", "", "MALE_HANDS_2", "PDF_SERGEANT_ASSAULT_FLAK_ARMOR_M"]
+      M28: ["", "MALE_28_FACE", "", "MALE_HANDS_0", "PDF_SERGEANT_ASSAULT_FLAK_ARMOR_M"]
+      M29: ["", "MALE_29_FACE", "", "MALE_HANDS_0", "PDF_SERGEANT_ASSAULT_FLAK_ARMOR_M"]
+      M30: ["", "MALE_30_FACE", "", "MALE_HANDS_1", "PDF_SERGEANT_ASSAULT_FLAK_ARMOR_M"]
+      M31: ["", "MALE_31_FACE", "", "MALE_HANDS_2", "PDF_SERGEANT_ASSAULT_FLAK_ARMOR_M"]
+
+#FEMALE LAYERS
+      F0: ["", "FEMALE_00_FACE", "", "FEMALE_HANDS_0", "PDF_SERGEANT_ASSAULT_FLAK_ARMOR_F"]
+      F1: ["", "FEMALE_01_FACE", "", "FEMALE_HANDS_0", "PDF_SERGEANT_ASSAULT_FLAK_ARMOR_F"]
+      F2: ["", "FEMALE_02_FACE", "", "FEMALE_HANDS_1", "PDF_SERGEANT_ASSAULT_FLAK_ARMOR_F"]
+      F3: ["", "FEMALE_03_FACE", "", "FEMALE_HANDS_2", "PDF_SERGEANT_ASSAULT_FLAK_ARMOR_F"]
+      F4: ["", "FEMALE_04_FACE", "", "FEMALE_HANDS_0", "PDF_SERGEANT_ASSAULT_FLAK_ARMOR_F"]
+      F5: ["", "FEMALE_05_FACE", "", "FEMALE_HANDS_0", "PDF_SERGEANT_ASSAULT_FLAK_ARMOR_F"]
+      F6: ["", "FEMALE_06_FACE", "", "FEMALE_HANDS_1", "PDF_SERGEANT_ASSAULT_FLAK_ARMOR_F"]
+      F7: ["", "FEMALE_07_FACE", "", "FEMALE_HANDS_2", "PDF_SERGEANT_ASSAULT_FLAK_ARMOR_F"]
+      F8: ["", "FEMALE_08_FACE", "", "FEMALE_HANDS_0", "PDF_SERGEANT_ASSAULT_FLAK_ARMOR_F"]
+      F9: ["", "FEMALE_09_FACE", "", "FEMALE_HANDS_0", "PDF_SERGEANT_ASSAULT_FLAK_ARMOR_F"]
+      F10: ["", "FEMALE_10_FACE", "", "FEMALE_HANDS_1", "PDF_SERGEANT_ASSAULT_FLAK_ARMOR_F"]
+      F11: ["", "FEMALE_11_FACE", "", "FEMALE_HANDS_2", "PDF_SERGEANT_ASSAULT_FLAK_ARMOR_F"]
+      F12: ["", "FEMALE_12_FACE", "", "FEMALE_HANDS_0", "PDF_SERGEANT_ASSAULT_FLAK_ARMOR_F"]
+      F13: ["", "FEMALE_13_FACE", "", "FEMALE_HANDS_0", "PDF_SERGEANT_ASSAULT_FLAK_ARMOR_F"]
+      F14: ["", "FEMALE_14_FACE", "", "FEMALE_HANDS_1", "PDF_SERGEANT_ASSAULT_FLAK_ARMOR_F"]
+      F15: ["", "FEMALE_15_FACE", "", "FEMALE_HANDS_2", "PDF_SERGEANT_ASSAULT_FLAK_ARMOR_F"]
+      F16: ["", "FEMALE_16_FACE", "", "FEMALE_HANDS_0", "PDF_SERGEANT_ASSAULT_FLAK_ARMOR_F"]
+      F17: ["", "FEMALE_17_FACE", "", "FEMALE_HANDS_0", "PDF_SERGEANT_ASSAULT_FLAK_ARMOR_F"]
+      F18: ["", "FEMALE_18_FACE", "", "FEMALE_HANDS_1", "PDF_SERGEANT_ASSAULT_FLAK_ARMOR_F"]
+      F19: ["", "FEMALE_19_FACE", "", "FEMALE_HANDS_2", "PDF_SERGEANT_ASSAULT_FLAK_ARMOR_F"]
+      F20: ["", "FEMALE_20_FACE", "", "FEMALE_HANDS_0", "PDF_SERGEANT_ASSAULT_FLAK_ARMOR_F"]
+      F21: ["", "FEMALE_21_FACE", "", "FEMALE_HANDS_0", "PDF_SERGEANT_ASSAULT_FLAK_ARMOR_F"]
+      F22: ["", "FEMALE_22_FACE", "", "FEMALE_HANDS_1", "PDF_SERGEANT_ASSAULT_FLAK_ARMOR_F"]
+      F23: ["", "FEMALE_23_FACE", "", "FEMALE_HANDS_2", "PDF_SERGEANT_ASSAULT_FLAK_ARMOR_F"]
+      F24: ["", "FEMALE_24_FACE", "", "FEMALE_HANDS_0", "PDF_SERGEANT_ASSAULT_FLAK_ARMOR_F"]
+      F25: ["", "FEMALE_25_FACE", "", "FEMALE_HANDS_0", "PDF_SERGEANT_ASSAULT_FLAK_ARMOR_F"]
+      F26: ["", "FEMALE_26_FACE", "", "FEMALE_HANDS_1", "PDF_SERGEANT_ASSAULT_FLAK_ARMOR_F"]
+      F27: ["", "FEMALE_27_FACE", "", "FEMALE_HANDS_2", "PDF_SERGEANT_ASSAULT_FLAK_ARMOR_F"]
+      F28: ["", "FEMALE_28_FACE", "", "FEMALE_HANDS_0", "PDF_SERGEANT_ASSAULT_FLAK_ARMOR_F"]
+      F29: ["", "FEMALE_29_FACE", "", "FEMALE_HANDS_0", "PDF_SERGEANT_ASSAULT_FLAK_ARMOR_F"]
+      F30: ["", "FEMALE_30_FACE", "", "FEMALE_HANDS_1", "PDF_SERGEANT_ASSAULT_FLAK_ARMOR_F"]
+      F31: ["", "FEMALE_31_FACE", "", "FEMALE_HANDS_2", "PDF_SERGEANT_ASSAULT_FLAK_ARMOR_F"]
+
+
+#PDF SERGEANT CARAPACE ARMOR
+  - type: STR_PDF_SERGEANT_CARAPACE
+
+#GENERAL
+    drawingRoutine: 0 #x-com soldier
+    spriteSheet: PDF_SERGEANT_CARAPACE.PCK
+    units:
+      - STR_PDF_SERGEANT
+    corpseBattle:
+      - STR_CORPSE_PDF_SERGEANT_CARAPACE
+    storeItem: STR_CARAPACE_STORE_ITEM
+    loftempsSet: [ 3 ]
+    weight: 20
+
+#PROTECTION
+    frontArmor: 60
+    sideArmor: 50
+    rearArmor: 40
+    underArmor: 40
+    damageModifier:
+      - 1.0 #None
+      - 1.0 #Armor Piercing
+      - 1.0 #Incendiary
+      - 1.0 #High Explosive
+      - 1.0 #Laser
+      - 1.0 #Plasma
+      - 1.0 #Stun
+      - 1.0 #Melee
+      - 1.0 #Acid
+      - 0.0 #Smoke
+      - 1.0 #Melta
+
+#LAYERS
+    spriteFaceGroup: 6
+    spriteFaceColor: [96, 96, #MALE_00, FEMALE_00 (Skin color: 0)
+                      96, 96, #MALE_01 FEMALE_01 (Skin color: 0)
+                      160, 160, #MALE_02 FEMALE_02 (Skin color: 1)
+                      163, 163] #MALE_03 FEMALE_03 (Skin color: 2)
+
+    spriteHairGroup: 9
+    spriteHairColor: [144, 144, #MALE_00 FEMALE_00 (Hair color: Yellow)
+                      164, 164, #MALE_01 FEMALE_01 (Hair color: Brown)
+                      245, 245, #MALE_02 FEMALE_02 (Hair color: Black)
+                      165, 165] #MALE_03 FEMALE_03 (Hair color: Dark Brown)
+
+    layersDefaultPrefix: 0
+    layersSpecificPrefix:
+      4: PDF_SERGEANT_CARAPACE
+    layersDefinition:
+#MALE LAYERS
+      M0: ["", "MALE_00_FACE", "", "MALE_HANDS_0", "PDF_SERGEANT_CARAPACE_M"]
+      M1: ["", "MALE_01_FACE", "", "MALE_HANDS_0", "PDF_SERGEANT_CARAPACE_M"]
+      M2: ["", "MALE_02_FACE", "", "MALE_HANDS_1", "PDF_SERGEANT_CARAPACE_M"]
+      M3: ["", "MALE_03_FACE", "", "MALE_HANDS_2", "PDF_SERGEANT_CARAPACE_M"]
+      M4: ["", "MALE_04_FACE", "", "MALE_HANDS_0", "PDF_SERGEANT_CARAPACE_M"]
+      M5: ["", "MALE_05_FACE", "", "MALE_HANDS_0", "PDF_SERGEANT_CARAPACE_M"]
+      M6: ["", "MALE_06_FACE", "", "MALE_HANDS_1", "PDF_SERGEANT_CARAPACE_M"]
+      M7: ["", "MALE_07_FACE", "", "MALE_HANDS_2", "PDF_SERGEANT_CARAPACE_M"]
+      M8: ["", "MALE_08_FACE", "", "MALE_HANDS_0", "PDF_SERGEANT_CARAPACE_M"]
+      M9: ["", "MALE_09_FACE", "", "MALE_HANDS_0", "PDF_SERGEANT_CARAPACE_M"]
+      M10: ["", "MALE_10_FACE", "", "MALE_HANDS_1", "PDF_SERGEANT_CARAPACE_M"]
+      M11: ["", "MALE_11_FACE", "", "MALE_HANDS_2", "PDF_SERGEANT_CARAPACE_M"]
+      M12: ["", "MALE_12_FACE", "", "MALE_HANDS_0", "PDF_SERGEANT_CARAPACE_M"]
+      M13: ["", "MALE_13_FACE", "", "MALE_HANDS_0", "PDF_SERGEANT_CARAPACE_M"]
+      M14: ["", "MALE_14_FACE", "", "MALE_HANDS_1", "PDF_SERGEANT_CARAPACE_M"]
+      M15: ["", "MALE_15_FACE", "", "MALE_HANDS_2", "PDF_SERGEANT_CARAPACE_M"]
+      M16: ["", "MALE_16_FACE", "", "MALE_HANDS_0", "PDF_SERGEANT_CARAPACE_M"]
+      M17: ["", "MALE_17_FACE", "", "MALE_HANDS_0", "PDF_SERGEANT_CARAPACE_M"]
+      M18: ["", "MALE_18_FACE", "", "MALE_HANDS_1", "PDF_SERGEANT_CARAPACE_M"]
+      M19: ["", "MALE_19_FACE", "", "MALE_HANDS_2", "PDF_SERGEANT_CARAPACE_M"]
+      M20: ["", "MALE_20_FACE", "", "MALE_HANDS_0", "PDF_SERGEANT_CARAPACE_M"]
+      M21: ["", "MALE_21_FACE", "", "MALE_HANDS_0", "PDF_SERGEANT_CARAPACE_M"]
+      M22: ["", "MALE_22_FACE", "", "MALE_HANDS_1", "PDF_SERGEANT_CARAPACE_M"]
+      M23: ["", "MALE_23_FACE", "", "MALE_HANDS_2", "PDF_SERGEANT_CARAPACE_M"]
+      M24: ["", "MALE_24_FACE", "", "MALE_HANDS_0", "PDF_SERGEANT_CARAPACE_M"]
+      M25: ["", "MALE_25_FACE", "", "MALE_HANDS_0", "PDF_SERGEANT_CARAPACE_M"]
+      M26: ["", "MALE_26_FACE", "", "MALE_HANDS_1", "PDF_SERGEANT_CARAPACE_M"]
+      M27: ["", "MALE_27_FACE", "", "MALE_HANDS_2", "PDF_SERGEANT_CARAPACE_M"]
+      M28: ["", "MALE_28_FACE", "", "MALE_HANDS_0", "PDF_SERGEANT_CARAPACE_M"]
+      M29: ["", "MALE_29_FACE", "", "MALE_HANDS_0", "PDF_SERGEANT_CARAPACE_M"]
+      M30: ["", "MALE_30_FACE", "", "MALE_HANDS_1", "PDF_SERGEANT_CARAPACE_M"]
+      M31: ["", "MALE_31_FACE", "", "MALE_HANDS_2", "PDF_SERGEANT_CARAPACE_M"]
+
+#FEMALE LAYERS
+      F0: ["", "FEMALE_00_FACE", "", "FEMALE_HANDS_0", "PDF_SERGEANT_CARAPACE_F"]
+      F1: ["", "FEMALE_01_FACE", "", "FEMALE_HANDS_0", "PDF_SERGEANT_CARAPACE_F"]
+      F2: ["", "FEMALE_02_FACE", "", "FEMALE_HANDS_1", "PDF_SERGEANT_CARAPACE_F"]
+      F3: ["", "FEMALE_03_FACE", "", "FEMALE_HANDS_2", "PDF_SERGEANT_CARAPACE_F"]
+      F4: ["", "FEMALE_04_FACE", "", "FEMALE_HANDS_0", "PDF_SERGEANT_CARAPACE_F"]
+      F5: ["", "FEMALE_05_FACE", "", "FEMALE_HANDS_0", "PDF_SERGEANT_CARAPACE_F"]
+      F6: ["", "FEMALE_06_FACE", "", "FEMALE_HANDS_1", "PDF_SERGEANT_CARAPACE_F"]
+      F7: ["", "FEMALE_07_FACE", "", "FEMALE_HANDS_2", "PDF_SERGEANT_CARAPACE_F"]
+      F8: ["", "FEMALE_08_FACE", "", "FEMALE_HANDS_0", "PDF_SERGEANT_CARAPACE_F"]
+      F9: ["", "FEMALE_09_FACE", "", "FEMALE_HANDS_0", "PDF_SERGEANT_CARAPACE_F"]
+      F10: ["", "FEMALE_10_FACE", "", "FEMALE_HANDS_1", "PDF_SERGEANT_CARAPACE_F"]
+      F11: ["", "FEMALE_11_FACE", "", "FEMALE_HANDS_2", "PDF_SERGEANT_CARAPACE_F"]
+      F12: ["", "FEMALE_12_FACE", "", "FEMALE_HANDS_0", "PDF_SERGEANT_CARAPACE_F"]
+      F13: ["", "FEMALE_13_FACE", "", "FEMALE_HANDS_0", "PDF_SERGEANT_CARAPACE_F"]
+      F14: ["", "FEMALE_14_FACE", "", "FEMALE_HANDS_1", "PDF_SERGEANT_CARAPACE_F"]
+      F15: ["", "FEMALE_15_FACE", "", "FEMALE_HANDS_2", "PDF_SERGEANT_CARAPACE_F"]
+      F16: ["", "FEMALE_16_FACE", "", "FEMALE_HANDS_0", "PDF_SERGEANT_CARAPACE_F"]
+      F17: ["", "FEMALE_17_FACE", "", "FEMALE_HANDS_0", "PDF_SERGEANT_CARAPACE_F"]
+      F18: ["", "FEMALE_18_FACE", "", "FEMALE_HANDS_1", "PDF_SERGEANT_CARAPACE_F"]
+      F19: ["", "FEMALE_19_FACE", "", "FEMALE_HANDS_2", "PDF_SERGEANT_CARAPACE_F"]
+      F20: ["", "FEMALE_20_FACE", "", "FEMALE_HANDS_0", "PDF_SERGEANT_CARAPACE_F"]
+      F21: ["", "FEMALE_21_FACE", "", "FEMALE_HANDS_0", "PDF_SERGEANT_CARAPACE_F"]
+      F22: ["", "FEMALE_22_FACE", "", "FEMALE_HANDS_1", "PDF_SERGEANT_CARAPACE_F"]
+      F23: ["", "FEMALE_23_FACE", "", "FEMALE_HANDS_2", "PDF_SERGEANT_CARAPACE_F"]
+      F24: ["", "FEMALE_24_FACE", "", "FEMALE_HANDS_0", "PDF_SERGEANT_CARAPACE_F"]
+      F25: ["", "FEMALE_25_FACE", "", "FEMALE_HANDS_0", "PDF_SERGEANT_CARAPACE_F"]
+      F26: ["", "FEMALE_26_FACE", "", "FEMALE_HANDS_1", "PDF_SERGEANT_CARAPACE_F"]
+      F27: ["", "FEMALE_27_FACE", "", "FEMALE_HANDS_2", "PDF_SERGEANT_CARAPACE_F"]
+      F28: ["", "FEMALE_28_FACE", "", "FEMALE_HANDS_0", "PDF_SERGEANT_CARAPACE_F"]
+      F29: ["", "FEMALE_29_FACE", "", "FEMALE_HANDS_0", "PDF_SERGEANT_CARAPACE_F"]
+      F30: ["", "FEMALE_30_FACE", "", "FEMALE_HANDS_1", "PDF_SERGEANT_CARAPACE_F"]
+      F31: ["", "FEMALE_31_FACE", "", "FEMALE_HANDS_2", "PDF_SERGEANT_CARAPACE_F"]
+
+
+#PDF SERGEANT ASSAULT CARAPACE ARMOR
+  - type: STR_PDF_SERGEANT_ASSAULT_CARAPACE
+
+#GENERAL
+    drawingRoutine: 0 #x-com soldier
+    spriteSheet: PDF_SERGEANT_ASSAULT_CARAPACE.PCK
+    units:
+      - STR_PDF_SERGEANT
+    corpseBattle:
+      - STR_CORPSE_PDF_SERGEANT_ASSAULT_CARAPACE
+    storeItem: STR_ASSAULT_CARAPACE_STORE_ITEM
+    loftempsSet: [ 3 ]
+    weight: 30
+    movementType: 1 #Unit can fly
+
+    builtInWeapons:
+      - STR_BACKPACK_SLOT
+
+#PROTECTION
+    frontArmor: 60
+    sideArmor: 50
+    rearArmor: 40
+    underArmor: 40
+    damageModifier:
+      - 1.0 #None
+      - 1.0 #Armor Piercing
+      - 1.0 #Incendiary
+      - 1.0 #High Explosive
+      - 1.0 #Laser
+      - 1.0 #Plasma
+      - 1.0 #Stun
+      - 1.0 #Melee
+      - 1.0 #Acid
+      - 1.0 #Smoke
+      - 1.0 #Melta
+
+#LAYERS
+    spriteFaceGroup: 6
+    spriteFaceColor: [96, 96, #MALE_00, FEMALE_00 (Skin color: 0)
+                      96, 96, #MALE_01 FEMALE_01 (Skin color: 0)
+                      160, 160, #MALE_02 FEMALE_02 (Skin color: 1)
+                      163, 163] #MALE_03 FEMALE_03 (Skin color: 2)
+
+    spriteHairGroup: 9
+    spriteHairColor: [144, 144, #MALE_00 FEMALE_00 (Hair color: Yellow)
+                      164, 164, #MALE_01 FEMALE_01 (Hair color: Brown)
+                      245, 245, #MALE_02 FEMALE_02 (Hair color: Black)
+                      165, 165] #MALE_03 FEMALE_03 (Hair color: Dark Brown)
+
+    layersDefaultPrefix: 0
+    layersSpecificPrefix:
+      4: PDF_SERGEANT_ASSAULT_CARAPACE
+    layersDefinition:
+#MALE LAYERS
+      M0: ["", "MALE_00_FACE", "", "MALE_HANDS_0", "PDF_SERGEANT_ASSAULT_CARAPACE_M"]
+      M1: ["", "MALE_01_FACE", "", "MALE_HANDS_0", "PDF_SERGEANT_ASSAULT_CARAPACE_M"]
+      M2: ["", "MALE_02_FACE", "", "MALE_HANDS_1", "PDF_SERGEANT_ASSAULT_CARAPACE_M"]
+      M3: ["", "MALE_03_FACE", "", "MALE_HANDS_2", "PDF_SERGEANT_ASSAULT_CARAPACE_M"]
+      M4: ["", "MALE_04_FACE", "", "MALE_HANDS_0", "PDF_SERGEANT_ASSAULT_CARAPACE_M"]
+      M5: ["", "MALE_05_FACE", "", "MALE_HANDS_0", "PDF_SERGEANT_ASSAULT_CARAPACE_M"]
+      M6: ["", "MALE_06_FACE", "", "MALE_HANDS_1", "PDF_SERGEANT_ASSAULT_CARAPACE_M"]
+      M7: ["", "MALE_07_FACE", "", "MALE_HANDS_2", "PDF_SERGEANT_ASSAULT_CARAPACE_M"]
+      M8: ["", "MALE_08_FACE", "", "MALE_HANDS_0", "PDF_SERGEANT_ASSAULT_CARAPACE_M"]
+      M9: ["", "MALE_09_FACE", "", "MALE_HANDS_0", "PDF_SERGEANT_ASSAULT_CARAPACE_M"]
+      M10: ["", "MALE_10_FACE", "", "MALE_HANDS_1", "PDF_SERGEANT_ASSAULT_CARAPACE_M"]
+      M11: ["", "MALE_11_FACE", "", "MALE_HANDS_2", "PDF_SERGEANT_ASSAULT_CARAPACE_M"]
+      M12: ["", "MALE_12_FACE", "", "MALE_HANDS_0", "PDF_SERGEANT_ASSAULT_CARAPACE_M"]
+      M13: ["", "MALE_13_FACE", "", "MALE_HANDS_0", "PDF_SERGEANT_ASSAULT_CARAPACE_M"]
+      M14: ["", "MALE_14_FACE", "", "MALE_HANDS_1", "PDF_SERGEANT_ASSAULT_CARAPACE_M"]
+      M15: ["", "MALE_15_FACE", "", "MALE_HANDS_2", "PDF_SERGEANT_ASSAULT_CARAPACE_M"]
+      M16: ["", "MALE_16_FACE", "", "MALE_HANDS_0", "PDF_SERGEANT_ASSAULT_CARAPACE_M"]
+      M17: ["", "MALE_17_FACE", "", "MALE_HANDS_0", "PDF_SERGEANT_ASSAULT_CARAPACE_M"]
+      M18: ["", "MALE_18_FACE", "", "MALE_HANDS_1", "PDF_SERGEANT_ASSAULT_CARAPACE_M"]
+      M19: ["", "MALE_19_FACE", "", "MALE_HANDS_2", "PDF_SERGEANT_ASSAULT_CARAPACE_M"]
+      M20: ["", "MALE_20_FACE", "", "MALE_HANDS_0", "PDF_SERGEANT_ASSAULT_CARAPACE_M"]
+      M21: ["", "MALE_21_FACE", "", "MALE_HANDS_0", "PDF_SERGEANT_ASSAULT_CARAPACE_M"]
+      M22: ["", "MALE_22_FACE", "", "MALE_HANDS_1", "PDF_SERGEANT_ASSAULT_CARAPACE_M"]
+      M23: ["", "MALE_23_FACE", "", "MALE_HANDS_2", "PDF_SERGEANT_ASSAULT_CARAPACE_M"]
+      M24: ["", "MALE_24_FACE", "", "MALE_HANDS_0", "PDF_SERGEANT_ASSAULT_CARAPACE_M"]
+      M25: ["", "MALE_25_FACE", "", "MALE_HANDS_0", "PDF_SERGEANT_ASSAULT_CARAPACE_M"]
+      M26: ["", "MALE_26_FACE", "", "MALE_HANDS_1", "PDF_SERGEANT_ASSAULT_CARAPACE_M"]
+      M27: ["", "MALE_27_FACE", "", "MALE_HANDS_2", "PDF_SERGEANT_ASSAULT_CARAPACE_M"]
+      M28: ["", "MALE_28_FACE", "", "MALE_HANDS_0", "PDF_SERGEANT_ASSAULT_CARAPACE_M"]
+      M29: ["", "MALE_29_FACE", "", "MALE_HANDS_0", "PDF_SERGEANT_ASSAULT_CARAPACE_M"]
+      M30: ["", "MALE_30_FACE", "", "MALE_HANDS_1", "PDF_SERGEANT_ASSAULT_CARAPACE_M"]
+      M31: ["", "MALE_31_FACE", "", "MALE_HANDS_2", "PDF_SERGEANT_ASSAULT_CARAPACE_M"]
+
+#FEMALE LAYERS
+      F0: ["", "FEMALE_00_FACE", "", "FEMALE_HANDS_0", "PDF_SERGEANT_ASSAULT_CARAPACE_F"]
+      F1: ["", "FEMALE_01_FACE", "", "FEMALE_HANDS_0", "PDF_SERGEANT_ASSAULT_CARAPACE_F"]
+      F2: ["", "FEMALE_02_FACE", "", "FEMALE_HANDS_1", "PDF_SERGEANT_ASSAULT_CARAPACE_F"]
+      F3: ["", "FEMALE_03_FACE", "", "FEMALE_HANDS_2", "PDF_SERGEANT_ASSAULT_CARAPACE_F"]
+      F4: ["", "FEMALE_04_FACE", "", "FEMALE_HANDS_0", "PDF_SERGEANT_ASSAULT_CARAPACE_F"]
+      F5: ["", "FEMALE_05_FACE", "", "FEMALE_HANDS_0", "PDF_SERGEANT_ASSAULT_CARAPACE_F"]
+      F6: ["", "FEMALE_06_FACE", "", "FEMALE_HANDS_1", "PDF_SERGEANT_ASSAULT_CARAPACE_F"]
+      F7: ["", "FEMALE_07_FACE", "", "FEMALE_HANDS_2", "PDF_SERGEANT_ASSAULT_CARAPACE_F"]
+      F8: ["", "FEMALE_08_FACE", "", "FEMALE_HANDS_0", "PDF_SERGEANT_ASSAULT_CARAPACE_F"]
+      F9: ["", "FEMALE_09_FACE", "", "FEMALE_HANDS_0", "PDF_SERGEANT_ASSAULT_CARAPACE_F"]
+      F10: ["", "FEMALE_10_FACE", "", "FEMALE_HANDS_1", "PDF_SERGEANT_ASSAULT_CARAPACE_F"]
+      F11: ["", "FEMALE_11_FACE", "", "FEMALE_HANDS_2", "PDF_SERGEANT_ASSAULT_CARAPACE_F"]
+      F12: ["", "FEMALE_12_FACE", "", "FEMALE_HANDS_0", "PDF_SERGEANT_ASSAULT_CARAPACE_F"]
+      F13: ["", "FEMALE_13_FACE", "", "FEMALE_HANDS_0", "PDF_SERGEANT_ASSAULT_CARAPACE_F"]
+      F14: ["", "FEMALE_14_FACE", "", "FEMALE_HANDS_1", "PDF_SERGEANT_ASSAULT_CARAPACE_F"]
+      F15: ["", "FEMALE_15_FACE", "", "FEMALE_HANDS_2", "PDF_SERGEANT_ASSAULT_CARAPACE_F"]
+      F16: ["", "FEMALE_16_FACE", "", "FEMALE_HANDS_0", "PDF_SERGEANT_ASSAULT_CARAPACE_F"]
+      F17: ["", "FEMALE_17_FACE", "", "FEMALE_HANDS_0", "PDF_SERGEANT_ASSAULT_CARAPACE_F"]
+      F18: ["", "FEMALE_18_FACE", "", "FEMALE_HANDS_1", "PDF_SERGEANT_ASSAULT_CARAPACE_F"]
+      F19: ["", "FEMALE_19_FACE", "", "FEMALE_HANDS_2", "PDF_SERGEANT_ASSAULT_CARAPACE_F"]
+      F20: ["", "FEMALE_20_FACE", "", "FEMALE_HANDS_0", "PDF_SERGEANT_ASSAULT_CARAPACE_F"]
+      F21: ["", "FEMALE_21_FACE", "", "FEMALE_HANDS_0", "PDF_SERGEANT_ASSAULT_CARAPACE_F"]
+      F22: ["", "FEMALE_22_FACE", "", "FEMALE_HANDS_1", "PDF_SERGEANT_ASSAULT_CARAPACE_F"]
+      F23: ["", "FEMALE_23_FACE", "", "FEMALE_HANDS_2", "PDF_SERGEANT_ASSAULT_CARAPACE_F"]
+      F24: ["", "FEMALE_24_FACE", "", "FEMALE_HANDS_0", "PDF_SERGEANT_ASSAULT_CARAPACE_F"]
+      F25: ["", "FEMALE_25_FACE", "", "FEMALE_HANDS_0", "PDF_SERGEANT_ASSAULT_CARAPACE_F"]
+      F26: ["", "FEMALE_26_FACE", "", "FEMALE_HANDS_1", "PDF_SERGEANT_ASSAULT_CARAPACE_F"]
+      F27: ["", "FEMALE_27_FACE", "", "FEMALE_HANDS_2", "PDF_SERGEANT_ASSAULT_CARAPACE_F"]
+      F28: ["", "FEMALE_28_FACE", "", "FEMALE_HANDS_0", "PDF_SERGEANT_ASSAULT_CARAPACE_F"]
+      F29: ["", "FEMALE_29_FACE", "", "FEMALE_HANDS_0", "PDF_SERGEANT_ASSAULT_CARAPACE_F"]
+      F30: ["", "FEMALE_30_FACE", "", "FEMALE_HANDS_1", "PDF_SERGEANT_ASSAULT_CARAPACE_F"]
+      F31: ["", "FEMALE_31_FACE", "", "FEMALE_HANDS_2", "PDF_SERGEANT_ASSAULT_CARAPACE_F"]
+
+
+
+#PDF SERGEANT HEAVY CARAPACE ARMOR
+  - type: STR_PDF_SERGEANT_HEAVY_CARAPACE
+
+#GENERAL
+    drawingRoutine: 0 #x-com soldier
+    spriteSheet: PDF_SERGEANT_HEAVY_CARAPACE.PCK
+    units:
+      - STR_PDF_SERGEANT
+    corpseBattle:
+      - STR_CORPSE_PDF_SERGEANT_HEAVY_CARAPACE
+    storeItem: STR_HEAVY_CARAPACE_STORE_ITEM
+    loftempsSet: [ 3 ]
+    weight: 30
+
+    builtInWeapons:
+      - STR_LEFT_LEG_SLOT
+      - STR_RIGHT_LEG_SLOT
+
+#PROTECTION
+    frontArmor: 90
+    sideArmor: 75
+    rearArmor: 60
+    underArmor: 60
+    damageModifier:
+      - 1.0 #None
+      - 1.0 #Armor Piercing
+      - 1.0 #Incendiary
+      - 1.0 #High Explosive
+      - 1.0 #Laser
+      - 1.0 #Plasma
+      - 1.0 #Stun
+      - 1.0 #Melee
+      - 1.0 #Acid
+      - 0.0 #Smoke
+      - 1.0 #Melta
+
+#LAYERS
+    spriteFaceGroup: 6
+    spriteFaceColor: [96, 96, #MALE_00, FEMALE_00 (Skin color: 0)
+                      96, 96, #MALE_01 FEMALE_01 (Skin color: 0)
+                      160, 160, #MALE_02 FEMALE_02 (Skin color: 1)
+                      163, 163] #MALE_03 FEMALE_03 (Skin color: 2)
+
+    spriteHairGroup: 9
+    spriteHairColor: [144, 144, #MALE_00 FEMALE_00 (Hair color: Yellow)
+                      164, 164, #MALE_01 FEMALE_01 (Hair color: Brown)
+                      245, 245, #MALE_02 FEMALE_02 (Hair color: Black)
+                      165, 165] #MALE_03 FEMALE_03 (Hair color: Dark Brown)
+
+    layersDefaultPrefix: 0
+    layersSpecificPrefix:
+      4: PDF_SERGEANT_HEAVY_CARAPACE
+    layersDefinition:
+#MALE LAYERS
+      M0: ["", "MALE_00_FACE", "", "", "PDF_SERGEANT_HEAVY_CARAPACE_M"]
+      M1: ["", "MALE_01_FACE", "", "", "PDF_SERGEANT_HEAVY_CARAPACE_M"]
+      M2: ["", "MALE_02_FACE", "", "", "PDF_SERGEANT_HEAVY_CARAPACE_M"]
+      M3: ["", "MALE_03_FACE", "", "", "PDF_SERGEANT_HEAVY_CARAPACE_M"]
+      M4: ["", "MALE_04_FACE", "", "", "PDF_SERGEANT_HEAVY_CARAPACE_M"]
+      M5: ["", "MALE_05_FACE", "", "", "PDF_SERGEANT_HEAVY_CARAPACE_M"]
+      M6: ["", "MALE_06_FACE", "", "", "PDF_SERGEANT_HEAVY_CARAPACE_M"]
+      M7: ["", "MALE_07_FACE", "", "", "PDF_SERGEANT_HEAVY_CARAPACE_M"]
+      M8: ["", "MALE_08_FACE", "", "", "PDF_SERGEANT_HEAVY_CARAPACE_M"]
+      M9: ["", "MALE_09_FACE", "", "", "PDF_SERGEANT_HEAVY_CARAPACE_M"]
+      M10: ["", "MALE_10_FACE", "", "", "PDF_SERGEANT_HEAVY_CARAPACE_M"]
+      M11: ["", "MALE_11_FACE", "", "", "PDF_SERGEANT_HEAVY_CARAPACE_M"]
+      M12: ["", "MALE_12_FACE", "", "", "PDF_SERGEANT_HEAVY_CARAPACE_M"]
+      M13: ["", "MALE_13_FACE", "", "", "PDF_SERGEANT_HEAVY_CARAPACE_M"]
+      M14: ["", "MALE_14_FACE", "", "", "PDF_SERGEANT_HEAVY_CARAPACE_M"]
+      M15: ["", "MALE_15_FACE", "", "", "PDF_SERGEANT_HEAVY_CARAPACE_M"]
+      M16: ["", "MALE_16_FACE", "", "", "PDF_SERGEANT_HEAVY_CARAPACE_M"]
+      M17: ["", "MALE_17_FACE", "", "", "PDF_SERGEANT_HEAVY_CARAPACE_M"]
+      M18: ["", "MALE_18_FACE", "", "", "PDF_SERGEANT_HEAVY_CARAPACE_M"]
+      M19: ["", "MALE_19_FACE", "", "", "PDF_SERGEANT_HEAVY_CARAPACE_M"]
+      M20: ["", "MALE_20_FACE", "", "", "PDF_SERGEANT_HEAVY_CARAPACE_M"]
+      M21: ["", "MALE_21_FACE", "", "", "PDF_SERGEANT_HEAVY_CARAPACE_M"]
+      M22: ["", "MALE_22_FACE", "", "", "PDF_SERGEANT_HEAVY_CARAPACE_M"]
+      M23: ["", "MALE_23_FACE", "", "", "PDF_SERGEANT_HEAVY_CARAPACE_M"]
+      M24: ["", "MALE_24_FACE", "", "", "PDF_SERGEANT_HEAVY_CARAPACE_M"]
+      M25: ["", "MALE_25_FACE", "", "", "PDF_SERGEANT_HEAVY_CARAPACE_M"]
+      M26: ["", "MALE_26_FACE", "", "", "PDF_SERGEANT_HEAVY_CARAPACE_M"]
+      M27: ["", "MALE_27_FACE", "", "", "PDF_SERGEANT_HEAVY_CARAPACE_M"]
+      M28: ["", "MALE_28_FACE", "", "", "PDF_SERGEANT_HEAVY_CARAPACE_M"]
+      M29: ["", "MALE_29_FACE", "", "", "PDF_SERGEANT_HEAVY_CARAPACE_M"]
+      M30: ["", "MALE_30_FACE", "", "", "PDF_SERGEANT_HEAVY_CARAPACE_M"]
+      M31: ["", "MALE_31_FACE", "", "", "PDF_SERGEANT_HEAVY_CARAPACE_M"]
+
+#FEMALE LAYERS
+      F0: ["", "FEMALE_00_FACE", "", "", "PDF_SERGEANT_HEAVY_CARAPACE_F"]
+      F1: ["", "FEMALE_01_FACE", "", "", "PDF_SERGEANT_HEAVY_CARAPACE_F"]
+      F2: ["", "FEMALE_02_FACE", "", "", "PDF_SERGEANT_HEAVY_CARAPACE_F"]
+      F3: ["", "FEMALE_03_FACE", "", "", "PDF_SERGEANT_HEAVY_CARAPACE_F"]
+      F4: ["", "FEMALE_04_FACE", "", "", "PDF_SERGEANT_HEAVY_CARAPACE_F"]
+      F5: ["", "FEMALE_05_FACE", "", "", "PDF_SERGEANT_HEAVY_CARAPACE_F"]
+      F6: ["", "FEMALE_06_FACE", "", "", "PDF_SERGEANT_HEAVY_CARAPACE_F"]
+      F7: ["", "FEMALE_07_FACE", "", "", "PDF_SERGEANT_HEAVY_CARAPACE_F"]
+      F8: ["", "FEMALE_08_FACE", "", "", "PDF_SERGEANT_HEAVY_CARAPACE_F"]
+      F9: ["", "FEMALE_09_FACE", "", "", "PDF_SERGEANT_HEAVY_CARAPACE_F"]
+      F10: ["", "FEMALE_10_FACE", "", "", "PDF_SERGEANT_HEAVY_CARAPACE_F"]
+      F11: ["", "FEMALE_11_FACE", "", "", "PDF_SERGEANT_HEAVY_CARAPACE_F"]
+      F12: ["", "FEMALE_12_FACE", "", "", "PDF_SERGEANT_HEAVY_CARAPACE_F"]
+      F13: ["", "FEMALE_13_FACE", "", "", "PDF_SERGEANT_HEAVY_CARAPACE_F"]
+      F14: ["", "FEMALE_14_FACE", "", "", "PDF_SERGEANT_HEAVY_CARAPACE_F"]
+      F15: ["", "FEMALE_15_FACE", "", "", "PDF_SERGEANT_HEAVY_CARAPACE_F"]
+      F16: ["", "FEMALE_16_FACE", "", "", "PDF_SERGEANT_HEAVY_CARAPACE_F"]
+      F17: ["", "FEMALE_17_FACE", "", "", "PDF_SERGEANT_HEAVY_CARAPACE_F"]
+      F18: ["", "FEMALE_18_FACE", "", "", "PDF_SERGEANT_HEAVY_CARAPACE_F"]
+      F19: ["", "FEMALE_19_FACE", "", "", "PDF_SERGEANT_HEAVY_CARAPACE_F"]
+      F20: ["", "FEMALE_20_FACE", "", "", "PDF_SERGEANT_HEAVY_CARAPACE_F"]
+      F21: ["", "FEMALE_21_FACE", "", "", "PDF_SERGEANT_HEAVY_CARAPACE_F"]
+      F22: ["", "FEMALE_22_FACE", "", "", "PDF_SERGEANT_HEAVY_CARAPACE_F"]
+      F23: ["", "FEMALE_23_FACE", "", "", "PDF_SERGEANT_HEAVY_CARAPACE_F"]
+      F24: ["", "FEMALE_24_FACE", "", "", "PDF_SERGEANT_HEAVY_CARAPACE_F"]
+      F25: ["", "FEMALE_25_FACE", "", "", "PDF_SERGEANT_HEAVY_CARAPACE_F"]
+      F26: ["", "FEMALE_26_FACE", "", "", "PDF_SERGEANT_HEAVY_CARAPACE_F"]
+      F27: ["", "FEMALE_27_FACE", "", "", "PDF_SERGEANT_HEAVY_CARAPACE_F"]
+      F28: ["", "FEMALE_28_FACE", "", "", "PDF_SERGEANT_HEAVY_CARAPACE_F"]
+      F29: ["", "FEMALE_29_FACE", "", "", "PDF_SERGEANT_HEAVY_CARAPACE_F"]
+      F30: ["", "FEMALE_30_FACE", "", "", "PDF_SERGEANT_HEAVY_CARAPACE_F"]
+      F31: ["", "FEMALE_31_FACE", "", "", "PDF_SERGEANT_HEAVY_CARAPACE_F"]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#PDF OFFICER UNIFORM
+  - type: STR_PDF_OFFICER_UNIFORM
+
+#GENERAL
+    drawingRoutine: 0 #x-com soldier
+    spriteSheet: PDF_OFFICER_UNIFORM.PCK
+    units:
+      - STR_PDF_OFFICER
+    corpseBattle:
+      - STR_CORPSE_PDF_OFFICER_UNIFORM
+    storeItem: STR_NONE
+    loftempsSet: [ 3 ]
+    weight: 0
+
+#PROTECTION
+    frontArmor: 12
+    sideArmor: 8
+    rearArmor: 5
+    underArmor: 2
+    damageModifier:
+      - 1.0 #None
+      - 1.0 #Armor Piercing
+      - 1.0 #Incendiary
+      - 1.0 #High Explosive
+      - 1.0 #Laser
+      - 1.0 #Plasma
+      - 1.0 #Stun
+      - 1.0 #Melee
+      - 1.0 #Acid
+      - 1.0 #Smoke
+      - 1.0 #Melta
+
+#LAYERS
+    spriteFaceGroup: 6
+    spriteFaceColor: [96, 96, #MALE_00, FEMALE_00 (Skin color: 0)
+                      96, 96, #MALE_01 FEMALE_01 (Skin color: 0)
+                      160, 160, #MALE_02 FEMALE_02 (Skin color: 1)
+                      163, 163] #MALE_03 FEMALE_03 (Skin color: 2)
+
+    spriteHairGroup: 9
+    spriteHairColor: [144, 144, #MALE_00 FEMALE_00 (Hair color: Yellow)
+                      164, 164, #MALE_01 FEMALE_01 (Hair color: Brown)
+                      245, 245, #MALE_02 FEMALE_02 (Hair color: Black)
+                      165, 165] #MALE_03 FEMALE_03 (Hair color: Dark Brown)
+
+    layersDefaultPrefix: 0
+    layersSpecificPrefix:
+      4: PDF_OFFICER_UNIFORM
+    layersDefinition:
+#MALE LAYERS
+      M0: ["", "MALE_00_FACE", "MALE_00_HAIR", "MALE_HANDS_0", "PDF_OFFICER_UNIFORM_M"]
+      M1: ["", "MALE_01_FACE", "MALE_01_HAIR", "MALE_HANDS_0", "PDF_OFFICER_UNIFORM_M"]
+      M2: ["", "MALE_02_FACE", "MALE_02_HAIR", "MALE_HANDS_1", "PDF_OFFICER_UNIFORM_M"]
+      M3: ["", "MALE_03_FACE", "MALE_03_HAIR", "MALE_HANDS_2", "PDF_OFFICER_UNIFORM_M"]
+      M4: ["", "MALE_04_FACE", "MALE_04_HAIR", "MALE_HANDS_0", "PDF_OFFICER_UNIFORM_M"]
+      M5: ["", "MALE_05_FACE", "MALE_05_HAIR", "MALE_HANDS_0", "PDF_OFFICER_UNIFORM_M"]
+      M6: ["", "MALE_06_FACE", "MALE_06_HAIR", "MALE_HANDS_1", "PDF_OFFICER_UNIFORM_M"]
+      M7: ["", "MALE_07_FACE", "MALE_07_HAIR", "MALE_HANDS_2", "PDF_OFFICER_UNIFORM_M"]
+      M8: ["", "MALE_08_FACE", "MALE_08_HAIR", "MALE_HANDS_0", "PDF_OFFICER_UNIFORM_M"]
+      M9: ["", "MALE_09_FACE", "MALE_09_HAIR", "MALE_HANDS_0", "PDF_OFFICER_UNIFORM_M"]
+      M10: ["", "MALE_10_FACE", "MALE_10_HAIR", "MALE_HANDS_1", "PDF_OFFICER_UNIFORM_M"]
+      M11: ["", "MALE_11_FACE", "MALE_11_HAIR", "MALE_HANDS_2", "PDF_OFFICER_UNIFORM_M"]
+      M12: ["", "MALE_12_FACE", "MALE_12_HAIR", "MALE_HANDS_0", "PDF_OFFICER_UNIFORM_M"]
+      M13: ["", "MALE_13_FACE", "MALE_13_HAIR", "MALE_HANDS_0", "PDF_OFFICER_UNIFORM_M"]
+      M14: ["", "MALE_14_FACE", "MALE_14_HAIR", "MALE_HANDS_1", "PDF_OFFICER_UNIFORM_M"]
+      M15: ["", "MALE_15_FACE", "MALE_15_HAIR", "MALE_HANDS_2", "PDF_OFFICER_UNIFORM_M"]
+      M16: ["", "MALE_16_FACE", "MALE_16_HAIR", "MALE_HANDS_0", "PDF_OFFICER_UNIFORM_M"]
+      M17: ["", "MALE_17_FACE", "MALE_17_HAIR", "MALE_HANDS_0", "PDF_OFFICER_UNIFORM_M"]
+      M18: ["", "MALE_18_FACE", "MALE_18_HAIR", "MALE_HANDS_1", "PDF_OFFICER_UNIFORM_M"]
+      M19: ["", "MALE_19_FACE", "MALE_19_HAIR", "MALE_HANDS_2", "PDF_OFFICER_UNIFORM_M"]
+      M20: ["", "MALE_20_FACE", "MALE_20_HAIR", "MALE_HANDS_0", "PDF_OFFICER_UNIFORM_M"]
+      M21: ["", "MALE_21_FACE", "MALE_21_HAIR", "MALE_HANDS_0", "PDF_OFFICER_UNIFORM_M"]
+      M22: ["", "MALE_22_FACE", "MALE_22_HAIR", "MALE_HANDS_1", "PDF_OFFICER_UNIFORM_M"]
+      M23: ["", "MALE_23_FACE", "MALE_23_HAIR", "MALE_HANDS_2", "PDF_OFFICER_UNIFORM_M"]
+      M24: ["", "MALE_24_FACE", "MALE_24_HAIR", "MALE_HANDS_0", "PDF_OFFICER_UNIFORM_M"]
+      M25: ["", "MALE_25_FACE", "MALE_25_HAIR", "MALE_HANDS_0", "PDF_OFFICER_UNIFORM_M"]
+      M26: ["", "MALE_26_FACE", "MALE_26_HAIR", "MALE_HANDS_1", "PDF_OFFICER_UNIFORM_M"]
+      M27: ["", "MALE_27_FACE", "MALE_27_HAIR", "MALE_HANDS_2", "PDF_OFFICER_UNIFORM_M"]
+      M28: ["", "MALE_28_FACE", "MALE_28_HAIR", "MALE_HANDS_0", "PDF_OFFICER_UNIFORM_M"]
+      M29: ["", "MALE_29_FACE", "MALE_29_HAIR", "MALE_HANDS_0", "PDF_OFFICER_UNIFORM_M"]
+      M30: ["", "MALE_30_FACE", "MALE_30_HAIR", "MALE_HANDS_1", "PDF_OFFICER_UNIFORM_M"]
+      M31: ["", "MALE_31_FACE", "MALE_31_HAIR", "MALE_HANDS_2", "PDF_OFFICER_UNIFORM_M"]
+
+#FEMALE LAYERS
+      F0: ["", "FEMALE_00_FACE", "FEMALE_00_HAIR", "FEMALE_HANDS_0", "PDF_OFFICER_UNIFORM_F"]
+      F1: ["", "FEMALE_01_FACE", "FEMALE_01_HAIR", "FEMALE_HANDS_0", "PDF_OFFICER_UNIFORM_F"]
+      F2: ["", "FEMALE_02_FACE", "FEMALE_02_HAIR", "FEMALE_HANDS_1", "PDF_OFFICER_UNIFORM_F"]
+      F3: ["", "FEMALE_03_FACE", "FEMALE_03_HAIR", "FEMALE_HANDS_2", "PDF_OFFICER_UNIFORM_F"]
+      F4: ["", "FEMALE_04_FACE", "FEMALE_04_HAIR", "FEMALE_HANDS_0", "PDF_OFFICER_UNIFORM_F"]
+      F5: ["", "FEMALE_05_FACE", "FEMALE_05_HAIR", "FEMALE_HANDS_0", "PDF_OFFICER_UNIFORM_F"]
+      F6: ["", "FEMALE_06_FACE", "FEMALE_06_HAIR", "FEMALE_HANDS_1", "PDF_OFFICER_UNIFORM_F"]
+      F7: ["", "FEMALE_07_FACE", "FEMALE_07_HAIR", "FEMALE_HANDS_2", "PDF_OFFICER_UNIFORM_F"]
+      F8: ["", "FEMALE_08_FACE", "FEMALE_08_HAIR", "FEMALE_HANDS_0", "PDF_OFFICER_UNIFORM_F"]
+      F9: ["", "FEMALE_09_FACE", "FEMALE_09_HAIR", "FEMALE_HANDS_0", "PDF_OFFICER_UNIFORM_F"]
+      F10: ["", "FEMALE_10_FACE", "FEMALE_10_HAIR", "FEMALE_HANDS_1", "PDF_OFFICER_UNIFORM_F"]
+      F11: ["", "FEMALE_11_FACE", "FEMALE_11_HAIR", "FEMALE_HANDS_2", "PDF_OFFICER_UNIFORM_F"]
+      F12: ["", "FEMALE_12_FACE", "FEMALE_12_HAIR", "FEMALE_HANDS_0", "PDF_OFFICER_UNIFORM_F"]
+      F13: ["", "FEMALE_13_FACE", "FEMALE_13_HAIR", "FEMALE_HANDS_0", "PDF_OFFICER_UNIFORM_F"]
+      F14: ["", "FEMALE_14_FACE", "FEMALE_14_HAIR", "FEMALE_HANDS_1", "PDF_OFFICER_UNIFORM_F"]
+      F15: ["", "FEMALE_15_FACE", "FEMALE_15_HAIR", "FEMALE_HANDS_2", "PDF_OFFICER_UNIFORM_F"]
+      F16: ["", "FEMALE_16_FACE", "FEMALE_16_HAIR", "FEMALE_HANDS_0", "PDF_OFFICER_UNIFORM_F"]
+      F17: ["", "FEMALE_17_FACE", "FEMALE_17_HAIR", "FEMALE_HANDS_0", "PDF_OFFICER_UNIFORM_F"]
+      F18: ["", "FEMALE_18_FACE", "FEMALE_18_HAIR", "FEMALE_HANDS_1", "PDF_OFFICER_UNIFORM_F"]
+      F19: ["", "FEMALE_19_FACE", "FEMALE_19_HAIR", "FEMALE_HANDS_2", "PDF_OFFICER_UNIFORM_F"]
+      F20: ["", "FEMALE_20_FACE", "FEMALE_20_HAIR", "FEMALE_HANDS_0", "PDF_OFFICER_UNIFORM_F"]
+      F21: ["", "FEMALE_21_FACE", "FEMALE_21_HAIR", "FEMALE_HANDS_0", "PDF_OFFICER_UNIFORM_F"]
+      F22: ["", "FEMALE_22_FACE", "FEMALE_22_HAIR", "FEMALE_HANDS_1", "PDF_OFFICER_UNIFORM_F"]
+      F23: ["", "FEMALE_23_FACE", "FEMALE_23_HAIR", "FEMALE_HANDS_2", "PDF_OFFICER_UNIFORM_F"]
+      F24: ["", "FEMALE_24_FACE", "FEMALE_24_HAIR", "FEMALE_HANDS_0", "PDF_OFFICER_UNIFORM_F"]
+      F25: ["", "FEMALE_25_FACE", "FEMALE_25_HAIR", "FEMALE_HANDS_0", "PDF_OFFICER_UNIFORM_F"]
+      F26: ["", "FEMALE_26_FACE", "FEMALE_26_HAIR", "FEMALE_HANDS_1", "PDF_OFFICER_UNIFORM_F"]
+      F27: ["", "FEMALE_27_FACE", "FEMALE_27_HAIR", "FEMALE_HANDS_2", "PDF_OFFICER_UNIFORM_F"]
+      F28: ["", "FEMALE_28_FACE", "FEMALE_28_HAIR", "FEMALE_HANDS_0", "PDF_OFFICER_UNIFORM_F"]
+      F29: ["", "FEMALE_29_FACE", "FEMALE_29_HAIR", "FEMALE_HANDS_0", "PDF_OFFICER_UNIFORM_F"]
+      F30: ["", "FEMALE_30_FACE", "FEMALE_30_HAIR", "FEMALE_HANDS_1", "PDF_OFFICER_UNIFORM_F"]
+      F31: ["", "FEMALE_31_FACE", "FEMALE_31_HAIR", "FEMALE_HANDS_2", "PDF_OFFICER_UNIFORM_F"]
+
+
+
+#PDF OFFICER FLAK ARMOR
+  - type: STR_PDF_OFFICER_FLAK_ARMOR
+
+#GENERAL
+    drawingRoutine: 0 #x-com soldier
+    spriteSheet: PDF_OFFICER_FLAK_ARMOR.PCK
+    units:
+      - STR_PDF_OFFICER
+    corpseBattle:
+      - STR_CORPSE_PDF_OFFICER_FLAK_ARMOR
+    storeItem: STR_FLAK_ARMOR_STORE_ITEM
+    loftempsSet: [ 3 ]
+    weight: 10
+
+#PROTECTION
+    frontArmor: 30
+    sideArmor: 25
+    rearArmor: 20
+    underArmor: 20
+    damageModifier:
+      - 1.0 #None
+      - 1.0 #Armor Piercing
+      - 1.0 #Incendiary
+      - 1.0 #High Explosive
+      - 1.0 #Laser
+      - 1.0 #Plasma
+      - 1.0 #Stun
+      - 1.0 #Melee
+      - 1.0 #Acid
+      - 1.0 #Smoke
+      - 1.0 #Melta
+
+#LAYERS
+    spriteFaceGroup: 6
+    spriteFaceColor: [96, 96, #MALE_00, FEMALE_00 (Skin color: 0)
+                      96, 96, #MALE_01 FEMALE_01 (Skin color: 0)
+                      160, 160, #MALE_02 FEMALE_02 (Skin color: 1)
+                      163, 163] #MALE_03 FEMALE_03 (Skin color: 2)
+
+    spriteHairGroup: 9
+    spriteHairColor: [144, 144, #MALE_00 FEMALE_00 (Hair color: Yellow)
+                      164, 164, #MALE_01 FEMALE_01 (Hair color: Brown)
+                      245, 245, #MALE_02 FEMALE_02 (Hair color: Black)
+                      165, 165] #MALE_03 FEMALE_03 (Hair color: Dark Brown)
+
+    layersDefaultPrefix: 0
+    layersSpecificPrefix:
+      4: PDF_OFFICER_FLAK_ARMOR
+    layersDefinition:
+#MALE LAYERS
+      M0: ["", "MALE_00_FACE", "", "MALE_HANDS_0", "PDF_OFFICER_FLAK_ARMOR_M"]
+      M1: ["", "MALE_01_FACE", "", "MALE_HANDS_0", "PDF_OFFICER_FLAK_ARMOR_M"]
+      M2: ["", "MALE_02_FACE", "", "MALE_HANDS_1", "PDF_OFFICER_FLAK_ARMOR_M"]
+      M3: ["", "MALE_03_FACE", "", "MALE_HANDS_2", "PDF_OFFICER_FLAK_ARMOR_M"]
+      M4: ["", "MALE_04_FACE", "", "MALE_HANDS_0", "PDF_OFFICER_FLAK_ARMOR_M"]
+      M5: ["", "MALE_05_FACE", "", "MALE_HANDS_0", "PDF_OFFICER_FLAK_ARMOR_M"]
+      M6: ["", "MALE_06_FACE", "", "MALE_HANDS_1", "PDF_OFFICER_FLAK_ARMOR_M"]
+      M7: ["", "MALE_07_FACE", "", "MALE_HANDS_2", "PDF_OFFICER_FLAK_ARMOR_M"]
+      M8: ["", "MALE_08_FACE", "", "MALE_HANDS_0", "PDF_OFFICER_FLAK_ARMOR_M"]
+      M9: ["", "MALE_09_FACE", "", "MALE_HANDS_0", "PDF_OFFICER_FLAK_ARMOR_M"]
+      M10: ["", "MALE_10_FACE", "", "MALE_HANDS_1", "PDF_OFFICER_FLAK_ARMOR_M"]
+      M11: ["", "MALE_11_FACE", "", "MALE_HANDS_2", "PDF_OFFICER_FLAK_ARMOR_M"]
+      M12: ["", "MALE_12_FACE", "", "MALE_HANDS_0", "PDF_OFFICER_FLAK_ARMOR_M"]
+      M13: ["", "MALE_13_FACE", "", "MALE_HANDS_0", "PDF_OFFICER_FLAK_ARMOR_M"]
+      M14: ["", "MALE_14_FACE", "", "MALE_HANDS_1", "PDF_OFFICER_FLAK_ARMOR_M"]
+      M15: ["", "MALE_15_FACE", "", "MALE_HANDS_2", "PDF_OFFICER_FLAK_ARMOR_M"]
+      M16: ["", "MALE_16_FACE", "", "MALE_HANDS_0", "PDF_OFFICER_FLAK_ARMOR_M"]
+      M17: ["", "MALE_17_FACE", "", "MALE_HANDS_0", "PDF_OFFICER_FLAK_ARMOR_M"]
+      M18: ["", "MALE_18_FACE", "", "MALE_HANDS_1", "PDF_OFFICER_FLAK_ARMOR_M"]
+      M19: ["", "MALE_19_FACE", "", "MALE_HANDS_2", "PDF_OFFICER_FLAK_ARMOR_M"]
+      M20: ["", "MALE_20_FACE", "", "MALE_HANDS_0", "PDF_OFFICER_FLAK_ARMOR_M"]
+      M21: ["", "MALE_21_FACE", "", "MALE_HANDS_0", "PDF_OFFICER_FLAK_ARMOR_M"]
+      M22: ["", "MALE_22_FACE", "", "MALE_HANDS_1", "PDF_OFFICER_FLAK_ARMOR_M"]
+      M23: ["", "MALE_23_FACE", "", "MALE_HANDS_2", "PDF_OFFICER_FLAK_ARMOR_M"]
+      M24: ["", "MALE_24_FACE", "", "MALE_HANDS_0", "PDF_OFFICER_FLAK_ARMOR_M"]
+      M25: ["", "MALE_25_FACE", "", "MALE_HANDS_0", "PDF_OFFICER_FLAK_ARMOR_M"]
+      M26: ["", "MALE_26_FACE", "", "MALE_HANDS_1", "PDF_OFFICER_FLAK_ARMOR_M"]
+      M27: ["", "MALE_27_FACE", "", "MALE_HANDS_2", "PDF_OFFICER_FLAK_ARMOR_M"]
+      M28: ["", "MALE_28_FACE", "", "MALE_HANDS_0", "PDF_OFFICER_FLAK_ARMOR_M"]
+      M29: ["", "MALE_29_FACE", "", "MALE_HANDS_0", "PDF_OFFICER_FLAK_ARMOR_M"]
+      M30: ["", "MALE_30_FACE", "", "MALE_HANDS_1", "PDF_OFFICER_FLAK_ARMOR_M"]
+      M31: ["", "MALE_31_FACE", "", "MALE_HANDS_2", "PDF_OFFICER_FLAK_ARMOR_M"]
+
+#FEMALE LAYERS
+      F0: ["", "FEMALE_00_FACE", "", "FEMALE_HANDS_0", "PDF_OFFICER_FLAK_ARMOR_F"]
+      F1: ["", "FEMALE_01_FACE", "", "FEMALE_HANDS_0", "PDF_OFFICER_FLAK_ARMOR_F"]
+      F2: ["", "FEMALE_02_FACE", "", "FEMALE_HANDS_1", "PDF_OFFICER_FLAK_ARMOR_F"]
+      F3: ["", "FEMALE_03_FACE", "", "FEMALE_HANDS_2", "PDF_OFFICER_FLAK_ARMOR_F"]
+      F4: ["", "FEMALE_04_FACE", "", "FEMALE_HANDS_0", "PDF_OFFICER_FLAK_ARMOR_F"]
+      F5: ["", "FEMALE_05_FACE", "", "FEMALE_HANDS_0", "PDF_OFFICER_FLAK_ARMOR_F"]
+      F6: ["", "FEMALE_06_FACE", "", "FEMALE_HANDS_1", "PDF_OFFICER_FLAK_ARMOR_F"]
+      F7: ["", "FEMALE_07_FACE", "", "FEMALE_HANDS_2", "PDF_OFFICER_FLAK_ARMOR_F"]
+      F8: ["", "FEMALE_08_FACE", "", "FEMALE_HANDS_0", "PDF_OFFICER_FLAK_ARMOR_F"]
+      F9: ["", "FEMALE_09_FACE", "", "FEMALE_HANDS_0", "PDF_OFFICER_FLAK_ARMOR_F"]
+      F10: ["", "FEMALE_10_FACE", "", "FEMALE_HANDS_1", "PDF_OFFICER_FLAK_ARMOR_F"]
+      F11: ["", "FEMALE_11_FACE", "", "FEMALE_HANDS_2", "PDF_OFFICER_FLAK_ARMOR_F"]
+      F12: ["", "FEMALE_12_FACE", "", "FEMALE_HANDS_0", "PDF_OFFICER_FLAK_ARMOR_F"]
+      F13: ["", "FEMALE_13_FACE", "", "FEMALE_HANDS_0", "PDF_OFFICER_FLAK_ARMOR_F"]
+      F14: ["", "FEMALE_14_FACE", "", "FEMALE_HANDS_1", "PDF_OFFICER_FLAK_ARMOR_F"]
+      F15: ["", "FEMALE_15_FACE", "", "FEMALE_HANDS_2", "PDF_OFFICER_FLAK_ARMOR_F"]
+      F16: ["", "FEMALE_16_FACE", "", "FEMALE_HANDS_0", "PDF_OFFICER_FLAK_ARMOR_F"]
+      F17: ["", "FEMALE_17_FACE", "", "FEMALE_HANDS_0", "PDF_OFFICER_FLAK_ARMOR_F"]
+      F18: ["", "FEMALE_18_FACE", "", "FEMALE_HANDS_1", "PDF_OFFICER_FLAK_ARMOR_F"]
+      F19: ["", "FEMALE_19_FACE", "", "FEMALE_HANDS_2", "PDF_OFFICER_FLAK_ARMOR_F"]
+      F20: ["", "FEMALE_20_FACE", "", "FEMALE_HANDS_0", "PDF_OFFICER_FLAK_ARMOR_F"]
+      F21: ["", "FEMALE_21_FACE", "", "FEMALE_HANDS_0", "PDF_OFFICER_FLAK_ARMOR_F"]
+      F22: ["", "FEMALE_22_FACE", "", "FEMALE_HANDS_1", "PDF_OFFICER_FLAK_ARMOR_F"]
+      F23: ["", "FEMALE_23_FACE", "", "FEMALE_HANDS_2", "PDF_OFFICER_FLAK_ARMOR_F"]
+      F24: ["", "FEMALE_24_FACE", "", "FEMALE_HANDS_0", "PDF_OFFICER_FLAK_ARMOR_F"]
+      F25: ["", "FEMALE_25_FACE", "", "FEMALE_HANDS_0", "PDF_OFFICER_FLAK_ARMOR_F"]
+      F26: ["", "FEMALE_26_FACE", "", "FEMALE_HANDS_1", "PDF_OFFICER_FLAK_ARMOR_F"]
+      F27: ["", "FEMALE_27_FACE", "", "FEMALE_HANDS_2", "PDF_OFFICER_FLAK_ARMOR_F"]
+      F28: ["", "FEMALE_28_FACE", "", "FEMALE_HANDS_0", "PDF_OFFICER_FLAK_ARMOR_F"]
+      F29: ["", "FEMALE_29_FACE", "", "FEMALE_HANDS_0", "PDF_OFFICER_FLAK_ARMOR_F"]
+      F30: ["", "FEMALE_30_FACE", "", "FEMALE_HANDS_1", "PDF_OFFICER_FLAK_ARMOR_F"]
+      F31: ["", "FEMALE_31_FACE", "", "FEMALE_HANDS_2", "PDF_OFFICER_FLAK_ARMOR_F"]
+
+
+#PDF OFFICER ASSAULT FLAK ARMOR
+  - type: STR_PDF_OFFICER_ASSAULT_FLAK_ARMOR
+
+#GENERAL
+    drawingRoutine: 0 #x-com soldier
+    spriteSheet: PDF_OFFICER_ASSAULT_FLAK_ARMOR.PCK
+    units:
+      - STR_PDF_OFFICER
+    corpseBattle:
+      - STR_CORPSE_PDF_OFFICER_ASSAULT_FLAK_ARMOR
+    storeItem: STR_ASSAULT_FLAK_ARMOR_STORE_ITEM
+    loftempsSet: [ 3 ]
+    weight: 20
+    movementType: 1 #Unit can fly
+
+    builtInWeapons:
+      - STR_BACKPACK_SLOT
+
+#PROTECTION
+    frontArmor: 30
+    sideArmor: 25
+    rearArmor: 20
+    underArmor: 20
+    damageModifier:
+      - 1.0 #None
+      - 1.0 #Armor Piercing
+      - 1.0 #Incendiary
+      - 1.0 #High Explosive
+      - 1.0 #Laser
+      - 1.0 #Plasma
+      - 1.0 #Stun
+      - 1.0 #Melee
+      - 1.0 #Acid
+      - 1.0 #Smoke
+      - 1.0 #Melta
+
+#LAYERS
+    spriteFaceGroup: 6
+    spriteFaceColor: [96, 96, #MALE_00, FEMALE_00 (Skin color: 0)
+                      96, 96, #MALE_01 FEMALE_01 (Skin color: 0)
+                      160, 160, #MALE_02 FEMALE_02 (Skin color: 1)
+                      163, 163] #MALE_03 FEMALE_03 (Skin color: 2)
+
+    spriteHairGroup: 9
+    spriteHairColor: [144, 144, #MALE_00 FEMALE_00 (Hair color: Yellow)
+                      164, 164, #MALE_01 FEMALE_01 (Hair color: Brown)
+                      245, 245, #MALE_02 FEMALE_02 (Hair color: Black)
+                      165, 165] #MALE_03 FEMALE_03 (Hair color: Dark Brown)
+
+    layersDefaultPrefix: 0
+    layersSpecificPrefix:
+      4: PDF_OFFICER_ASSAULT_FLAK_ARMOR
+    layersDefinition:
+#MALE LAYERS
+      M0: ["", "MALE_00_FACE", "", "MALE_HANDS_0", "PDF_OFFICER_ASSAULT_FLAK_ARMOR_M"]
+      M1: ["", "MALE_01_FACE", "", "MALE_HANDS_0", "PDF_OFFICER_ASSAULT_FLAK_ARMOR_M"]
+      M2: ["", "MALE_02_FACE", "", "MALE_HANDS_1", "PDF_OFFICER_ASSAULT_FLAK_ARMOR_M"]
+      M3: ["", "MALE_03_FACE", "", "MALE_HANDS_2", "PDF_OFFICER_ASSAULT_FLAK_ARMOR_M"]
+      M4: ["", "MALE_04_FACE", "", "MALE_HANDS_0", "PDF_OFFICER_ASSAULT_FLAK_ARMOR_M"]
+      M5: ["", "MALE_05_FACE", "", "MALE_HANDS_0", "PDF_OFFICER_ASSAULT_FLAK_ARMOR_M"]
+      M6: ["", "MALE_06_FACE", "", "MALE_HANDS_1", "PDF_OFFICER_ASSAULT_FLAK_ARMOR_M"]
+      M7: ["", "MALE_07_FACE", "", "MALE_HANDS_2", "PDF_OFFICER_ASSAULT_FLAK_ARMOR_M"]
+      M8: ["", "MALE_08_FACE", "", "MALE_HANDS_0", "PDF_OFFICER_ASSAULT_FLAK_ARMOR_M"]
+      M9: ["", "MALE_09_FACE", "", "MALE_HANDS_0", "PDF_OFFICER_ASSAULT_FLAK_ARMOR_M"]
+      M10: ["", "MALE_10_FACE", "", "MALE_HANDS_1", "PDF_OFFICER_ASSAULT_FLAK_ARMOR_M"]
+      M11: ["", "MALE_11_FACE", "", "MALE_HANDS_2", "PDF_OFFICER_ASSAULT_FLAK_ARMOR_M"]
+      M12: ["", "MALE_12_FACE", "", "MALE_HANDS_0", "PDF_OFFICER_ASSAULT_FLAK_ARMOR_M"]
+      M13: ["", "MALE_13_FACE", "", "MALE_HANDS_0", "PDF_OFFICER_ASSAULT_FLAK_ARMOR_M"]
+      M14: ["", "MALE_14_FACE", "", "MALE_HANDS_1", "PDF_OFFICER_ASSAULT_FLAK_ARMOR_M"]
+      M15: ["", "MALE_15_FACE", "", "MALE_HANDS_2", "PDF_OFFICER_ASSAULT_FLAK_ARMOR_M"]
+      M16: ["", "MALE_16_FACE", "", "MALE_HANDS_0", "PDF_OFFICER_ASSAULT_FLAK_ARMOR_M"]
+      M17: ["", "MALE_17_FACE", "", "MALE_HANDS_0", "PDF_OFFICER_ASSAULT_FLAK_ARMOR_M"]
+      M18: ["", "MALE_18_FACE", "", "MALE_HANDS_1", "PDF_OFFICER_ASSAULT_FLAK_ARMOR_M"]
+      M19: ["", "MALE_19_FACE", "", "MALE_HANDS_2", "PDF_OFFICER_ASSAULT_FLAK_ARMOR_M"]
+      M20: ["", "MALE_20_FACE", "", "MALE_HANDS_0", "PDF_OFFICER_ASSAULT_FLAK_ARMOR_M"]
+      M21: ["", "MALE_21_FACE", "", "MALE_HANDS_0", "PDF_OFFICER_ASSAULT_FLAK_ARMOR_M"]
+      M22: ["", "MALE_22_FACE", "", "MALE_HANDS_1", "PDF_OFFICER_ASSAULT_FLAK_ARMOR_M"]
+      M23: ["", "MALE_23_FACE", "", "MALE_HANDS_2", "PDF_OFFICER_ASSAULT_FLAK_ARMOR_M"]
+      M24: ["", "MALE_24_FACE", "", "MALE_HANDS_0", "PDF_OFFICER_ASSAULT_FLAK_ARMOR_M"]
+      M25: ["", "MALE_25_FACE", "", "MALE_HANDS_0", "PDF_OFFICER_ASSAULT_FLAK_ARMOR_M"]
+      M26: ["", "MALE_26_FACE", "", "MALE_HANDS_1", "PDF_OFFICER_ASSAULT_FLAK_ARMOR_M"]
+      M27: ["", "MALE_27_FACE", "", "MALE_HANDS_2", "PDF_OFFICER_ASSAULT_FLAK_ARMOR_M"]
+      M28: ["", "MALE_28_FACE", "", "MALE_HANDS_0", "PDF_OFFICER_ASSAULT_FLAK_ARMOR_M"]
+      M29: ["", "MALE_29_FACE", "", "MALE_HANDS_0", "PDF_OFFICER_ASSAULT_FLAK_ARMOR_M"]
+      M30: ["", "MALE_30_FACE", "", "MALE_HANDS_1", "PDF_OFFICER_ASSAULT_FLAK_ARMOR_M"]
+      M31: ["", "MALE_31_FACE", "", "MALE_HANDS_2", "PDF_OFFICER_ASSAULT_FLAK_ARMOR_M"]
+
+#FEMALE LAYERS
+      F0: ["", "FEMALE_00_FACE", "", "FEMALE_HANDS_0", "PDF_OFFICER_ASSAULT_FLAK_ARMOR_F"]
+      F1: ["", "FEMALE_01_FACE", "", "FEMALE_HANDS_0", "PDF_OFFICER_ASSAULT_FLAK_ARMOR_F"]
+      F2: ["", "FEMALE_02_FACE", "", "FEMALE_HANDS_1", "PDF_OFFICER_ASSAULT_FLAK_ARMOR_F"]
+      F3: ["", "FEMALE_03_FACE", "", "FEMALE_HANDS_2", "PDF_OFFICER_ASSAULT_FLAK_ARMOR_F"]
+      F4: ["", "FEMALE_04_FACE", "", "FEMALE_HANDS_0", "PDF_OFFICER_ASSAULT_FLAK_ARMOR_F"]
+      F5: ["", "FEMALE_05_FACE", "", "FEMALE_HANDS_0", "PDF_OFFICER_ASSAULT_FLAK_ARMOR_F"]
+      F6: ["", "FEMALE_06_FACE", "", "FEMALE_HANDS_1", "PDF_OFFICER_ASSAULT_FLAK_ARMOR_F"]
+      F7: ["", "FEMALE_07_FACE", "", "FEMALE_HANDS_2", "PDF_OFFICER_ASSAULT_FLAK_ARMOR_F"]
+      F8: ["", "FEMALE_08_FACE", "", "FEMALE_HANDS_0", "PDF_OFFICER_ASSAULT_FLAK_ARMOR_F"]
+      F9: ["", "FEMALE_09_FACE", "", "FEMALE_HANDS_0", "PDF_OFFICER_ASSAULT_FLAK_ARMOR_F"]
+      F10: ["", "FEMALE_10_FACE", "", "FEMALE_HANDS_1", "PDF_OFFICER_ASSAULT_FLAK_ARMOR_F"]
+      F11: ["", "FEMALE_11_FACE", "", "FEMALE_HANDS_2", "PDF_OFFICER_ASSAULT_FLAK_ARMOR_F"]
+      F12: ["", "FEMALE_12_FACE", "", "FEMALE_HANDS_0", "PDF_OFFICER_ASSAULT_FLAK_ARMOR_F"]
+      F13: ["", "FEMALE_13_FACE", "", "FEMALE_HANDS_0", "PDF_OFFICER_ASSAULT_FLAK_ARMOR_F"]
+      F14: ["", "FEMALE_14_FACE", "", "FEMALE_HANDS_1", "PDF_OFFICER_ASSAULT_FLAK_ARMOR_F"]
+      F15: ["", "FEMALE_15_FACE", "", "FEMALE_HANDS_2", "PDF_OFFICER_ASSAULT_FLAK_ARMOR_F"]
+      F16: ["", "FEMALE_16_FACE", "", "FEMALE_HANDS_0", "PDF_OFFICER_ASSAULT_FLAK_ARMOR_F"]
+      F17: ["", "FEMALE_17_FACE", "", "FEMALE_HANDS_0", "PDF_OFFICER_ASSAULT_FLAK_ARMOR_F"]
+      F18: ["", "FEMALE_18_FACE", "", "FEMALE_HANDS_1", "PDF_OFFICER_ASSAULT_FLAK_ARMOR_F"]
+      F19: ["", "FEMALE_19_FACE", "", "FEMALE_HANDS_2", "PDF_OFFICER_ASSAULT_FLAK_ARMOR_F"]
+      F20: ["", "FEMALE_20_FACE", "", "FEMALE_HANDS_0", "PDF_OFFICER_ASSAULT_FLAK_ARMOR_F"]
+      F21: ["", "FEMALE_21_FACE", "", "FEMALE_HANDS_0", "PDF_OFFICER_ASSAULT_FLAK_ARMOR_F"]
+      F22: ["", "FEMALE_22_FACE", "", "FEMALE_HANDS_1", "PDF_OFFICER_ASSAULT_FLAK_ARMOR_F"]
+      F23: ["", "FEMALE_23_FACE", "", "FEMALE_HANDS_2", "PDF_OFFICER_ASSAULT_FLAK_ARMOR_F"]
+      F24: ["", "FEMALE_24_FACE", "", "FEMALE_HANDS_0", "PDF_OFFICER_ASSAULT_FLAK_ARMOR_F"]
+      F25: ["", "FEMALE_25_FACE", "", "FEMALE_HANDS_0", "PDF_OFFICER_ASSAULT_FLAK_ARMOR_F"]
+      F26: ["", "FEMALE_26_FACE", "", "FEMALE_HANDS_1", "PDF_OFFICER_ASSAULT_FLAK_ARMOR_F"]
+      F27: ["", "FEMALE_27_FACE", "", "FEMALE_HANDS_2", "PDF_OFFICER_ASSAULT_FLAK_ARMOR_F"]
+      F28: ["", "FEMALE_28_FACE", "", "FEMALE_HANDS_0", "PDF_OFFICER_ASSAULT_FLAK_ARMOR_F"]
+      F29: ["", "FEMALE_29_FACE", "", "FEMALE_HANDS_0", "PDF_OFFICER_ASSAULT_FLAK_ARMOR_F"]
+      F30: ["", "FEMALE_30_FACE", "", "FEMALE_HANDS_1", "PDF_OFFICER_ASSAULT_FLAK_ARMOR_F"]
+      F31: ["", "FEMALE_31_FACE", "", "FEMALE_HANDS_2", "PDF_OFFICER_ASSAULT_FLAK_ARMOR_F"]
+
+
+
+#PDF OFFICER CARAPACE ARMOR
+  - type: STR_PDF_OFFICER_CARAPACE
+
+#GENERAL
+    drawingRoutine: 0 #x-com soldier
+    spriteSheet: PDF_OFFICER_CARAPACE.PCK
+    units:
+      - STR_PDF_OFFICER
+    corpseBattle:
+      - STR_CORPSE_PDF_OFFICER_CARAPACE
+    storeItem: STR_CARAPACE_STORE_ITEM
+    loftempsSet: [ 3 ]
+    weight: 20
+
+#PROTECTION
+    frontArmor: 60
+    sideArmor: 50
+    rearArmor: 40
+    underArmor: 40
+    damageModifier:
+      - 1.0 #None
+      - 1.0 #Armor Piercing
+      - 1.0 #Incendiary
+      - 1.0 #High Explosive
+      - 1.0 #Laser
+      - 1.0 #Plasma
+      - 1.0 #Stun
+      - 1.0 #Melee
+      - 1.0 #Acid
+      - 0.0 #Smoke
+      - 1.0 #Melta
+
+#LAYERS
+    spriteFaceGroup: 6
+    spriteFaceColor: [96, 96, #MALE_00, FEMALE_00 (Skin color: 0)
+                      96, 96, #MALE_01 FEMALE_01 (Skin color: 0)
+                      160, 160, #MALE_02 FEMALE_02 (Skin color: 1)
+                      163, 163] #MALE_03 FEMALE_03 (Skin color: 2)
+
+    spriteHairGroup: 9
+    spriteHairColor: [144, 144, #MALE_00 FEMALE_00 (Hair color: Yellow)
+                      164, 164, #MALE_01 FEMALE_01 (Hair color: Brown)
+                      245, 245, #MALE_02 FEMALE_02 (Hair color: Black)
+                      165, 165] #MALE_03 FEMALE_03 (Hair color: Dark Brown)
+
+    layersDefaultPrefix: 0
+    layersSpecificPrefix:
+      4: PDF_OFFICER_CARAPACE
+    layersDefinition:
+#MALE LAYERS
+      M0: ["", "MALE_00_FACE", "", "MALE_HANDS_0", "PDF_OFFICER_CARAPACE_M"]
+      M1: ["", "MALE_01_FACE", "", "MALE_HANDS_0", "PDF_OFFICER_CARAPACE_M"]
+      M2: ["", "MALE_02_FACE", "", "MALE_HANDS_1", "PDF_OFFICER_CARAPACE_M"]
+      M3: ["", "MALE_03_FACE", "", "MALE_HANDS_2", "PDF_OFFICER_CARAPACE_M"]
+      M4: ["", "MALE_04_FACE", "", "MALE_HANDS_0", "PDF_OFFICER_CARAPACE_M"]
+      M5: ["", "MALE_05_FACE", "", "MALE_HANDS_0", "PDF_OFFICER_CARAPACE_M"]
+      M6: ["", "MALE_06_FACE", "", "MALE_HANDS_1", "PDF_OFFICER_CARAPACE_M"]
+      M7: ["", "MALE_07_FACE", "", "MALE_HANDS_2", "PDF_OFFICER_CARAPACE_M"]
+      M8: ["", "MALE_08_FACE", "", "MALE_HANDS_0", "PDF_OFFICER_CARAPACE_M"]
+      M9: ["", "MALE_09_FACE", "", "MALE_HANDS_0", "PDF_OFFICER_CARAPACE_M"]
+      M10: ["", "MALE_10_FACE", "", "MALE_HANDS_1", "PDF_OFFICER_CARAPACE_M"]
+      M11: ["", "MALE_11_FACE", "", "MALE_HANDS_2", "PDF_OFFICER_CARAPACE_M"]
+      M12: ["", "MALE_12_FACE", "", "MALE_HANDS_0", "PDF_OFFICER_CARAPACE_M"]
+      M13: ["", "MALE_13_FACE", "", "MALE_HANDS_0", "PDF_OFFICER_CARAPACE_M"]
+      M14: ["", "MALE_14_FACE", "", "MALE_HANDS_1", "PDF_OFFICER_CARAPACE_M"]
+      M15: ["", "MALE_15_FACE", "", "MALE_HANDS_2", "PDF_OFFICER_CARAPACE_M"]
+      M16: ["", "MALE_16_FACE", "", "MALE_HANDS_0", "PDF_OFFICER_CARAPACE_M"]
+      M17: ["", "MALE_17_FACE", "", "MALE_HANDS_0", "PDF_OFFICER_CARAPACE_M"]
+      M18: ["", "MALE_18_FACE", "", "MALE_HANDS_1", "PDF_OFFICER_CARAPACE_M"]
+      M19: ["", "MALE_19_FACE", "", "MALE_HANDS_2", "PDF_OFFICER_CARAPACE_M"]
+      M20: ["", "MALE_20_FACE", "", "MALE_HANDS_0", "PDF_OFFICER_CARAPACE_M"]
+      M21: ["", "MALE_21_FACE", "", "MALE_HANDS_0", "PDF_OFFICER_CARAPACE_M"]
+      M22: ["", "MALE_22_FACE", "", "MALE_HANDS_1", "PDF_OFFICER_CARAPACE_M"]
+      M23: ["", "MALE_23_FACE", "", "MALE_HANDS_2", "PDF_OFFICER_CARAPACE_M"]
+      M24: ["", "MALE_24_FACE", "", "MALE_HANDS_0", "PDF_OFFICER_CARAPACE_M"]
+      M25: ["", "MALE_25_FACE", "", "MALE_HANDS_0", "PDF_OFFICER_CARAPACE_M"]
+      M26: ["", "MALE_26_FACE", "", "MALE_HANDS_1", "PDF_OFFICER_CARAPACE_M"]
+      M27: ["", "MALE_27_FACE", "", "MALE_HANDS_2", "PDF_OFFICER_CARAPACE_M"]
+      M28: ["", "MALE_28_FACE", "", "MALE_HANDS_0", "PDF_OFFICER_CARAPACE_M"]
+      M29: ["", "MALE_29_FACE", "", "MALE_HANDS_0", "PDF_OFFICER_CARAPACE_M"]
+      M30: ["", "MALE_30_FACE", "", "MALE_HANDS_1", "PDF_OFFICER_CARAPACE_M"]
+      M31: ["", "MALE_31_FACE", "", "MALE_HANDS_2", "PDF_OFFICER_CARAPACE_M"]
+
+#FEMALE LAYERS
+      F0: ["", "FEMALE_00_FACE", "", "FEMALE_HANDS_0", "PDF_OFFICER_CARAPACE_F"]
+      F1: ["", "FEMALE_01_FACE", "", "FEMALE_HANDS_0", "PDF_OFFICER_CARAPACE_F"]
+      F2: ["", "FEMALE_02_FACE", "", "FEMALE_HANDS_1", "PDF_OFFICER_CARAPACE_F"]
+      F3: ["", "FEMALE_03_FACE", "", "FEMALE_HANDS_2", "PDF_OFFICER_CARAPACE_F"]
+      F4: ["", "FEMALE_04_FACE", "", "FEMALE_HANDS_0", "PDF_OFFICER_CARAPACE_F"]
+      F5: ["", "FEMALE_05_FACE", "", "FEMALE_HANDS_0", "PDF_OFFICER_CARAPACE_F"]
+      F6: ["", "FEMALE_06_FACE", "", "FEMALE_HANDS_1", "PDF_OFFICER_CARAPACE_F"]
+      F7: ["", "FEMALE_07_FACE", "", "FEMALE_HANDS_2", "PDF_OFFICER_CARAPACE_F"]
+      F8: ["", "FEMALE_08_FACE", "", "FEMALE_HANDS_0", "PDF_OFFICER_CARAPACE_F"]
+      F9: ["", "FEMALE_09_FACE", "", "FEMALE_HANDS_0", "PDF_OFFICER_CARAPACE_F"]
+      F10: ["", "FEMALE_10_FACE", "", "FEMALE_HANDS_1", "PDF_OFFICER_CARAPACE_F"]
+      F11: ["", "FEMALE_11_FACE", "", "FEMALE_HANDS_2", "PDF_OFFICER_CARAPACE_F"]
+      F12: ["", "FEMALE_12_FACE", "", "FEMALE_HANDS_0", "PDF_OFFICER_CARAPACE_F"]
+      F13: ["", "FEMALE_13_FACE", "", "FEMALE_HANDS_0", "PDF_OFFICER_CARAPACE_F"]
+      F14: ["", "FEMALE_14_FACE", "", "FEMALE_HANDS_1", "PDF_OFFICER_CARAPACE_F"]
+      F15: ["", "FEMALE_15_FACE", "", "FEMALE_HANDS_2", "PDF_OFFICER_CARAPACE_F"]
+      F16: ["", "FEMALE_16_FACE", "", "FEMALE_HANDS_0", "PDF_OFFICER_CARAPACE_F"]
+      F17: ["", "FEMALE_17_FACE", "", "FEMALE_HANDS_0", "PDF_OFFICER_CARAPACE_F"]
+      F18: ["", "FEMALE_18_FACE", "", "FEMALE_HANDS_1", "PDF_OFFICER_CARAPACE_F"]
+      F19: ["", "FEMALE_19_FACE", "", "FEMALE_HANDS_2", "PDF_OFFICER_CARAPACE_F"]
+      F20: ["", "FEMALE_20_FACE", "", "FEMALE_HANDS_0", "PDF_OFFICER_CARAPACE_F"]
+      F21: ["", "FEMALE_21_FACE", "", "FEMALE_HANDS_0", "PDF_OFFICER_CARAPACE_F"]
+      F22: ["", "FEMALE_22_FACE", "", "FEMALE_HANDS_1", "PDF_OFFICER_CARAPACE_F"]
+      F23: ["", "FEMALE_23_FACE", "", "FEMALE_HANDS_2", "PDF_OFFICER_CARAPACE_F"]
+      F24: ["", "FEMALE_24_FACE", "", "FEMALE_HANDS_0", "PDF_OFFICER_CARAPACE_F"]
+      F25: ["", "FEMALE_25_FACE", "", "FEMALE_HANDS_0", "PDF_OFFICER_CARAPACE_F"]
+      F26: ["", "FEMALE_26_FACE", "", "FEMALE_HANDS_1", "PDF_OFFICER_CARAPACE_F"]
+      F27: ["", "FEMALE_27_FACE", "", "FEMALE_HANDS_2", "PDF_OFFICER_CARAPACE_F"]
+      F28: ["", "FEMALE_28_FACE", "", "FEMALE_HANDS_0", "PDF_OFFICER_CARAPACE_F"]
+      F29: ["", "FEMALE_29_FACE", "", "FEMALE_HANDS_0", "PDF_OFFICER_CARAPACE_F"]
+      F30: ["", "FEMALE_30_FACE", "", "FEMALE_HANDS_1", "PDF_OFFICER_CARAPACE_F"]
+      F31: ["", "FEMALE_31_FACE", "", "FEMALE_HANDS_2", "PDF_OFFICER_CARAPACE_F"]
+
+
+#PDF OFFICER ASSAULT CARAPACE ARMOR
+  - type: STR_PDF_OFFICER_ASSAULT_CARAPACE
+
+#GENERAL
+    drawingRoutine: 0 #x-com soldier
+    spriteSheet: PDF_OFFICER_ASSAULT_CARAPACE.PCK
+    units:
+      - STR_PDF_OFFICER
+    corpseBattle:
+      - STR_CORPSE_PDF_OFFICER_ASSAULT_CARAPACE
+    storeItem: STR_ASSAULT_CARAPACE_STORE_ITEM
+    loftempsSet: [ 3 ]
+    weight: 30
+    movementType: 1 #Unit can fly
+
+    builtInWeapons:
+      - STR_BACKPACK_SLOT
+
+#PROTECTION
+    frontArmor: 60
+    sideArmor: 50
+    rearArmor: 40
+    underArmor: 40
+    damageModifier:
+      - 1.0 #None
+      - 1.0 #Armor Piercing
+      - 1.0 #Incendiary
+      - 1.0 #High Explosive
+      - 1.0 #Laser
+      - 1.0 #Plasma
+      - 1.0 #Stun
+      - 1.0 #Melee
+      - 1.0 #Acid
+      - 1.0 #Smoke
+      - 1.0 #Melta
+
+#LAYERS
+    spriteFaceGroup: 6
+    spriteFaceColor: [96, 96, #MALE_00, FEMALE_00 (Skin color: 0)
+                      96, 96, #MALE_01 FEMALE_01 (Skin color: 0)
+                      160, 160, #MALE_02 FEMALE_02 (Skin color: 1)
+                      163, 163] #MALE_03 FEMALE_03 (Skin color: 2)
+
+    spriteHairGroup: 9
+    spriteHairColor: [144, 144, #MALE_00 FEMALE_00 (Hair color: Yellow)
+                      164, 164, #MALE_01 FEMALE_01 (Hair color: Brown)
+                      245, 245, #MALE_02 FEMALE_02 (Hair color: Black)
+                      165, 165] #MALE_03 FEMALE_03 (Hair color: Dark Brown)
+
+    layersDefaultPrefix: 0
+    layersSpecificPrefix:
+      4: PDF_OFFICER_ASSAULT_CARAPACE
+    layersDefinition:
+#MALE LAYERS
+      M0: ["", "MALE_00_FACE", "", "MALE_HANDS_0", "PDF_OFFICER_ASSAULT_CARAPACE_M"]
+      M1: ["", "MALE_01_FACE", "", "MALE_HANDS_0", "PDF_OFFICER_ASSAULT_CARAPACE_M"]
+      M2: ["", "MALE_02_FACE", "", "MALE_HANDS_1", "PDF_OFFICER_ASSAULT_CARAPACE_M"]
+      M3: ["", "MALE_03_FACE", "", "MALE_HANDS_2", "PDF_OFFICER_ASSAULT_CARAPACE_M"]
+      M4: ["", "MALE_04_FACE", "", "MALE_HANDS_0", "PDF_OFFICER_ASSAULT_CARAPACE_M"]
+      M5: ["", "MALE_05_FACE", "", "MALE_HANDS_0", "PDF_OFFICER_ASSAULT_CARAPACE_M"]
+      M6: ["", "MALE_06_FACE", "", "MALE_HANDS_1", "PDF_OFFICER_ASSAULT_CARAPACE_M"]
+      M7: ["", "MALE_07_FACE", "", "MALE_HANDS_2", "PDF_OFFICER_ASSAULT_CARAPACE_M"]
+      M8: ["", "MALE_08_FACE", "", "MALE_HANDS_0", "PDF_OFFICER_ASSAULT_CARAPACE_M"]
+      M9: ["", "MALE_09_FACE", "", "MALE_HANDS_0", "PDF_OFFICER_ASSAULT_CARAPACE_M"]
+      M10: ["", "MALE_10_FACE", "", "MALE_HANDS_1", "PDF_OFFICER_ASSAULT_CARAPACE_M"]
+      M11: ["", "MALE_11_FACE", "", "MALE_HANDS_2", "PDF_OFFICER_ASSAULT_CARAPACE_M"]
+      M12: ["", "MALE_12_FACE", "", "MALE_HANDS_0", "PDF_OFFICER_ASSAULT_CARAPACE_M"]
+      M13: ["", "MALE_13_FACE", "", "MALE_HANDS_0", "PDF_OFFICER_ASSAULT_CARAPACE_M"]
+      M14: ["", "MALE_14_FACE", "", "MALE_HANDS_1", "PDF_OFFICER_ASSAULT_CARAPACE_M"]
+      M15: ["", "MALE_15_FACE", "", "MALE_HANDS_2", "PDF_OFFICER_ASSAULT_CARAPACE_M"]
+      M16: ["", "MALE_16_FACE", "", "MALE_HANDS_0", "PDF_OFFICER_ASSAULT_CARAPACE_M"]
+      M17: ["", "MALE_17_FACE", "", "MALE_HANDS_0", "PDF_OFFICER_ASSAULT_CARAPACE_M"]
+      M18: ["", "MALE_18_FACE", "", "MALE_HANDS_1", "PDF_OFFICER_ASSAULT_CARAPACE_M"]
+      M19: ["", "MALE_19_FACE", "", "MALE_HANDS_2", "PDF_OFFICER_ASSAULT_CARAPACE_M"]
+      M20: ["", "MALE_20_FACE", "", "MALE_HANDS_0", "PDF_OFFICER_ASSAULT_CARAPACE_M"]
+      M21: ["", "MALE_21_FACE", "", "MALE_HANDS_0", "PDF_OFFICER_ASSAULT_CARAPACE_M"]
+      M22: ["", "MALE_22_FACE", "", "MALE_HANDS_1", "PDF_OFFICER_ASSAULT_CARAPACE_M"]
+      M23: ["", "MALE_23_FACE", "", "MALE_HANDS_2", "PDF_OFFICER_ASSAULT_CARAPACE_M"]
+      M24: ["", "MALE_24_FACE", "", "MALE_HANDS_0", "PDF_OFFICER_ASSAULT_CARAPACE_M"]
+      M25: ["", "MALE_25_FACE", "", "MALE_HANDS_0", "PDF_OFFICER_ASSAULT_CARAPACE_M"]
+      M26: ["", "MALE_26_FACE", "", "MALE_HANDS_1", "PDF_OFFICER_ASSAULT_CARAPACE_M"]
+      M27: ["", "MALE_27_FACE", "", "MALE_HANDS_2", "PDF_OFFICER_ASSAULT_CARAPACE_M"]
+      M28: ["", "MALE_28_FACE", "", "MALE_HANDS_0", "PDF_OFFICER_ASSAULT_CARAPACE_M"]
+      M29: ["", "MALE_29_FACE", "", "MALE_HANDS_0", "PDF_OFFICER_ASSAULT_CARAPACE_M"]
+      M30: ["", "MALE_30_FACE", "", "MALE_HANDS_1", "PDF_OFFICER_ASSAULT_CARAPACE_M"]
+      M31: ["", "MALE_31_FACE", "", "MALE_HANDS_2", "PDF_OFFICER_ASSAULT_CARAPACE_M"]
+
+#FEMALE LAYERS
+      F0: ["", "FEMALE_00_FACE", "", "FEMALE_HANDS_0", "PDF_OFFICER_ASSAULT_CARAPACE_F"]
+      F1: ["", "FEMALE_01_FACE", "", "FEMALE_HANDS_0", "PDF_OFFICER_ASSAULT_CARAPACE_F"]
+      F2: ["", "FEMALE_02_FACE", "", "FEMALE_HANDS_1", "PDF_OFFICER_ASSAULT_CARAPACE_F"]
+      F3: ["", "FEMALE_03_FACE", "", "FEMALE_HANDS_2", "PDF_OFFICER_ASSAULT_CARAPACE_F"]
+      F4: ["", "FEMALE_04_FACE", "", "FEMALE_HANDS_0", "PDF_OFFICER_ASSAULT_CARAPACE_F"]
+      F5: ["", "FEMALE_05_FACE", "", "FEMALE_HANDS_0", "PDF_OFFICER_ASSAULT_CARAPACE_F"]
+      F6: ["", "FEMALE_06_FACE", "", "FEMALE_HANDS_1", "PDF_OFFICER_ASSAULT_CARAPACE_F"]
+      F7: ["", "FEMALE_07_FACE", "", "FEMALE_HANDS_2", "PDF_OFFICER_ASSAULT_CARAPACE_F"]
+      F8: ["", "FEMALE_08_FACE", "", "FEMALE_HANDS_0", "PDF_OFFICER_ASSAULT_CARAPACE_F"]
+      F9: ["", "FEMALE_09_FACE", "", "FEMALE_HANDS_0", "PDF_OFFICER_ASSAULT_CARAPACE_F"]
+      F10: ["", "FEMALE_10_FACE", "", "FEMALE_HANDS_1", "PDF_OFFICER_ASSAULT_CARAPACE_F"]
+      F11: ["", "FEMALE_11_FACE", "", "FEMALE_HANDS_2", "PDF_OFFICER_ASSAULT_CARAPACE_F"]
+      F12: ["", "FEMALE_12_FACE", "", "FEMALE_HANDS_0", "PDF_OFFICER_ASSAULT_CARAPACE_F"]
+      F13: ["", "FEMALE_13_FACE", "", "FEMALE_HANDS_0", "PDF_OFFICER_ASSAULT_CARAPACE_F"]
+      F14: ["", "FEMALE_14_FACE", "", "FEMALE_HANDS_1", "PDF_OFFICER_ASSAULT_CARAPACE_F"]
+      F15: ["", "FEMALE_15_FACE", "", "FEMALE_HANDS_2", "PDF_OFFICER_ASSAULT_CARAPACE_F"]
+      F16: ["", "FEMALE_16_FACE", "", "FEMALE_HANDS_0", "PDF_OFFICER_ASSAULT_CARAPACE_F"]
+      F17: ["", "FEMALE_17_FACE", "", "FEMALE_HANDS_0", "PDF_OFFICER_ASSAULT_CARAPACE_F"]
+      F18: ["", "FEMALE_18_FACE", "", "FEMALE_HANDS_1", "PDF_OFFICER_ASSAULT_CARAPACE_F"]
+      F19: ["", "FEMALE_19_FACE", "", "FEMALE_HANDS_2", "PDF_OFFICER_ASSAULT_CARAPACE_F"]
+      F20: ["", "FEMALE_20_FACE", "", "FEMALE_HANDS_0", "PDF_OFFICER_ASSAULT_CARAPACE_F"]
+      F21: ["", "FEMALE_21_FACE", "", "FEMALE_HANDS_0", "PDF_OFFICER_ASSAULT_CARAPACE_F"]
+      F22: ["", "FEMALE_22_FACE", "", "FEMALE_HANDS_1", "PDF_OFFICER_ASSAULT_CARAPACE_F"]
+      F23: ["", "FEMALE_23_FACE", "", "FEMALE_HANDS_2", "PDF_OFFICER_ASSAULT_CARAPACE_F"]
+      F24: ["", "FEMALE_24_FACE", "", "FEMALE_HANDS_0", "PDF_OFFICER_ASSAULT_CARAPACE_F"]
+      F25: ["", "FEMALE_25_FACE", "", "FEMALE_HANDS_0", "PDF_OFFICER_ASSAULT_CARAPACE_F"]
+      F26: ["", "FEMALE_26_FACE", "", "FEMALE_HANDS_1", "PDF_OFFICER_ASSAULT_CARAPACE_F"]
+      F27: ["", "FEMALE_27_FACE", "", "FEMALE_HANDS_2", "PDF_OFFICER_ASSAULT_CARAPACE_F"]
+      F28: ["", "FEMALE_28_FACE", "", "FEMALE_HANDS_0", "PDF_OFFICER_ASSAULT_CARAPACE_F"]
+      F29: ["", "FEMALE_29_FACE", "", "FEMALE_HANDS_0", "PDF_OFFICER_ASSAULT_CARAPACE_F"]
+      F30: ["", "FEMALE_30_FACE", "", "FEMALE_HANDS_1", "PDF_OFFICER_ASSAULT_CARAPACE_F"]
+      F31: ["", "FEMALE_31_FACE", "", "FEMALE_HANDS_2", "PDF_OFFICER_ASSAULT_CARAPACE_F"]
+
+
+#PDF OFFICER HEAVY CARAPACE ARMOR
+  - type: STR_PDF_OFFICER_HEAVY_CARAPACE
+
+#GENERAL
+    drawingRoutine: 0 #x-com soldier
+    spriteSheet: PDF_OFFICER_HEAVY_CARAPACE.PCK
+    units:
+      - STR_PDF_OFFICER
+    corpseBattle:
+      - STR_CORPSE_PDF_OFFICER_HEAVY_CARAPACE
+    storeItem: STR_HEAVY_CARAPACE_STORE_ITEM
+    loftempsSet: [ 3 ]
+    weight: 30
+
+    builtInWeapons:
+      - STR_LEFT_LEG_SLOT
+      - STR_RIGHT_LEG_SLOT
+
+#PROTECTION
+    frontArmor: 90
+    sideArmor: 75
+    rearArmor: 60
+    underArmor: 60
+    damageModifier:
+      - 1.0 #None
+      - 1.0 #Armor Piercing
+      - 1.0 #Incendiary
+      - 1.0 #High Explosive
+      - 1.0 #Laser
+      - 1.0 #Plasma
+      - 1.0 #Stun
+      - 1.0 #Melee
+      - 1.0 #Acid
+      - 0.0 #Smoke
+      - 1.0 #Melta
+
+#LAYERS
+    spriteFaceGroup: 6
+    spriteFaceColor: [96, 96, #MALE_00, FEMALE_00 (Skin color: 0)
+                      96, 96, #MALE_01 FEMALE_01 (Skin color: 0)
+                      160, 160, #MALE_02 FEMALE_02 (Skin color: 1)
+                      163, 163] #MALE_03 FEMALE_03 (Skin color: 2)
+
+    spriteHairGroup: 9
+    spriteHairColor: [144, 144, #MALE_00 FEMALE_00 (Hair color: Yellow)
+                      164, 164, #MALE_01 FEMALE_01 (Hair color: Brown)
+                      245, 245, #MALE_02 FEMALE_02 (Hair color: Black)
+                      165, 165] #MALE_03 FEMALE_03 (Hair color: Dark Brown)
+
+    layersDefaultPrefix: 0
+    layersSpecificPrefix:
+      4: PDF_OFFICER_HEAVY_CARAPACE
+    layersDefinition:
+#MALE LAYERS
+      M0: ["", "MALE_00_FACE", "", "", "PDF_OFFICER_HEAVY_CARAPACE_M"]
+      M1: ["", "MALE_01_FACE", "", "", "PDF_OFFICER_HEAVY_CARAPACE_M"]
+      M2: ["", "MALE_02_FACE", "", "", "PDF_OFFICER_HEAVY_CARAPACE_M"]
+      M3: ["", "MALE_03_FACE", "", "", "PDF_OFFICER_HEAVY_CARAPACE_M"]
+      M4: ["", "MALE_04_FACE", "", "", "PDF_OFFICER_HEAVY_CARAPACE_M"]
+      M5: ["", "MALE_05_FACE", "", "", "PDF_OFFICER_HEAVY_CARAPACE_M"]
+      M6: ["", "MALE_06_FACE", "", "", "PDF_OFFICER_HEAVY_CARAPACE_M"]
+      M7: ["", "MALE_07_FACE", "", "", "PDF_OFFICER_HEAVY_CARAPACE_M"]
+      M8: ["", "MALE_08_FACE", "", "", "PDF_OFFICER_HEAVY_CARAPACE_M"]
+      M9: ["", "MALE_09_FACE", "", "", "PDF_OFFICER_HEAVY_CARAPACE_M"]
+      M10: ["", "MALE_10_FACE", "", "", "PDF_OFFICER_HEAVY_CARAPACE_M"]
+      M11: ["", "MALE_11_FACE", "", "", "PDF_OFFICER_HEAVY_CARAPACE_M"]
+      M12: ["", "MALE_12_FACE", "", "", "PDF_OFFICER_HEAVY_CARAPACE_M"]
+      M13: ["", "MALE_13_FACE", "", "", "PDF_OFFICER_HEAVY_CARAPACE_M"]
+      M14: ["", "MALE_14_FACE", "", "", "PDF_OFFICER_HEAVY_CARAPACE_M"]
+      M15: ["", "MALE_15_FACE", "", "", "PDF_OFFICER_HEAVY_CARAPACE_M"]
+      M16: ["", "MALE_16_FACE", "", "", "PDF_OFFICER_HEAVY_CARAPACE_M"]
+      M17: ["", "MALE_17_FACE", "", "", "PDF_OFFICER_HEAVY_CARAPACE_M"]
+      M18: ["", "MALE_18_FACE", "", "", "PDF_OFFICER_HEAVY_CARAPACE_M"]
+      M19: ["", "MALE_19_FACE", "", "", "PDF_OFFICER_HEAVY_CARAPACE_M"]
+      M20: ["", "MALE_20_FACE", "", "", "PDF_OFFICER_HEAVY_CARAPACE_M"]
+      M21: ["", "MALE_21_FACE", "", "", "PDF_OFFICER_HEAVY_CARAPACE_M"]
+      M22: ["", "MALE_22_FACE", "", "", "PDF_OFFICER_HEAVY_CARAPACE_M"]
+      M23: ["", "MALE_23_FACE", "", "", "PDF_OFFICER_HEAVY_CARAPACE_M"]
+      M24: ["", "MALE_24_FACE", "", "", "PDF_OFFICER_HEAVY_CARAPACE_M"]
+      M25: ["", "MALE_25_FACE", "", "", "PDF_OFFICER_HEAVY_CARAPACE_M"]
+      M26: ["", "MALE_26_FACE", "", "", "PDF_OFFICER_HEAVY_CARAPACE_M"]
+      M27: ["", "MALE_27_FACE", "", "", "PDF_OFFICER_HEAVY_CARAPACE_M"]
+      M28: ["", "MALE_28_FACE", "", "", "PDF_OFFICER_HEAVY_CARAPACE_M"]
+      M29: ["", "MALE_29_FACE", "", "", "PDF_OFFICER_HEAVY_CARAPACE_M"]
+      M30: ["", "MALE_30_FACE", "", "", "PDF_OFFICER_HEAVY_CARAPACE_M"]
+      M31: ["", "MALE_31_FACE", "", "", "PDF_OFFICER_HEAVY_CARAPACE_M"]
+
+#FEMALE LAYERS
+      F0: ["", "FEMALE_00_FACE", "", "", "PDF_OFFICER_HEAVY_CARAPACE_F"]
+      F1: ["", "FEMALE_01_FACE", "", "", "PDF_OFFICER_HEAVY_CARAPACE_F"]
+      F2: ["", "FEMALE_02_FACE", "", "", "PDF_OFFICER_HEAVY_CARAPACE_F"]
+      F3: ["", "FEMALE_03_FACE", "", "", "PDF_OFFICER_HEAVY_CARAPACE_F"]
+      F4: ["", "FEMALE_04_FACE", "", "", "PDF_OFFICER_HEAVY_CARAPACE_F"]
+      F5: ["", "FEMALE_05_FACE", "", "", "PDF_OFFICER_HEAVY_CARAPACE_F"]
+      F6: ["", "FEMALE_06_FACE", "", "", "PDF_OFFICER_HEAVY_CARAPACE_F"]
+      F7: ["", "FEMALE_07_FACE", "", "", "PDF_OFFICER_HEAVY_CARAPACE_F"]
+      F8: ["", "FEMALE_08_FACE", "", "", "PDF_OFFICER_HEAVY_CARAPACE_F"]
+      F9: ["", "FEMALE_09_FACE", "", "", "PDF_OFFICER_HEAVY_CARAPACE_F"]
+      F10: ["", "FEMALE_10_FACE", "", "", "PDF_OFFICER_HEAVY_CARAPACE_F"]
+      F11: ["", "FEMALE_11_FACE", "", "", "PDF_OFFICER_HEAVY_CARAPACE_F"]
+      F12: ["", "FEMALE_12_FACE", "", "", "PDF_OFFICER_HEAVY_CARAPACE_F"]
+      F13: ["", "FEMALE_13_FACE", "", "", "PDF_OFFICER_HEAVY_CARAPACE_F"]
+      F14: ["", "FEMALE_14_FACE", "", "", "PDF_OFFICER_HEAVY_CARAPACE_F"]
+      F15: ["", "FEMALE_15_FACE", "", "", "PDF_OFFICER_HEAVY_CARAPACE_F"]
+      F16: ["", "FEMALE_16_FACE", "", "", "PDF_OFFICER_HEAVY_CARAPACE_F"]
+      F17: ["", "FEMALE_17_FACE", "", "", "PDF_OFFICER_HEAVY_CARAPACE_F"]
+      F18: ["", "FEMALE_18_FACE", "", "", "PDF_OFFICER_HEAVY_CARAPACE_F"]
+      F19: ["", "FEMALE_19_FACE", "", "", "PDF_OFFICER_HEAVY_CARAPACE_F"]
+      F20: ["", "FEMALE_20_FACE", "", "", "PDF_OFFICER_HEAVY_CARAPACE_F"]
+      F21: ["", "FEMALE_21_FACE", "", "", "PDF_OFFICER_HEAVY_CARAPACE_F"]
+      F22: ["", "FEMALE_22_FACE", "", "", "PDF_OFFICER_HEAVY_CARAPACE_F"]
+      F23: ["", "FEMALE_23_FACE", "", "", "PDF_OFFICER_HEAVY_CARAPACE_F"]
+      F24: ["", "FEMALE_24_FACE", "", "", "PDF_OFFICER_HEAVY_CARAPACE_F"]
+      F25: ["", "FEMALE_25_FACE", "", "", "PDF_OFFICER_HEAVY_CARAPACE_F"]
+      F26: ["", "FEMALE_26_FACE", "", "", "PDF_OFFICER_HEAVY_CARAPACE_F"]
+      F27: ["", "FEMALE_27_FACE", "", "", "PDF_OFFICER_HEAVY_CARAPACE_F"]
+      F28: ["", "FEMALE_28_FACE", "", "", "PDF_OFFICER_HEAVY_CARAPACE_F"]
+      F29: ["", "FEMALE_29_FACE", "", "", "PDF_OFFICER_HEAVY_CARAPACE_F"]
+      F30: ["", "FEMALE_30_FACE", "", "", "PDF_OFFICER_HEAVY_CARAPACE_F"]
+      F31: ["", "FEMALE_31_FACE", "", "", "PDF_OFFICER_HEAVY_CARAPACE_F"]
+
+
+
+
+
+
+
+
+#PDF PSYKER UNIFORM
+  - type: STR_PDF_PSYKER_UNIFORM
+
+#GENERAL
+    drawingRoutine: 0 #x-com soldier
+    spriteSheet: PDF_PSYKER_UNIFORM.PCK
+    units:
+      - STR_PDF_PSYKER
+    corpseBattle:
+      - STR_CORPSE_PDF_PSYKER_UNIFORM
+    storeItem: STR_NONE
+    loftempsSet: [ 3 ]
+    weight: 0
+    movementType: 1 #Unit can fly
+
+    builtInWeapons:
+      - STR_FORCE_STAFF_PDF
+      - STR_BACKPACK_SLOT
+
+
+#PROTECTION
+    frontArmor: 12
+    sideArmor: 8
+    rearArmor: 5
+    underArmor: 2
+    damageModifier:
+      - 1.0 #None
+      - 1.0 #Armor Piercing
+      - 1.0 #Incendiary
+      - 1.0 #High Explosive
+      - 1.0 #Laser
+      - 1.0 #Plasma
+      - 1.0 #Stun
+      - 1.0 #Melee
+      - 1.0 #Acid
+      - 1.0 #Smoke
+      - 1.0 #Melta
+
+#LAYERS
+    spriteFaceGroup: 6
+    spriteFaceColor: [96, 96, #MALE_00, FEMALE_00 (Skin color: 0)
+                      96, 96, #MALE_01 FEMALE_01 (Skin color: 0)
+                      160, 160, #MALE_02 FEMALE_02 (Skin color: 1)
+                      163, 163] #MALE_03 FEMALE_03 (Skin color: 2)
+
+    spriteHairGroup: 9
+    spriteHairColor: [144, 144, #MALE_00 FEMALE_00 (Hair color: Yellow)
+                      164, 164, #MALE_01 FEMALE_01 (Hair color: Brown)
+                      245, 245, #MALE_02 FEMALE_02 (Hair color: Black)
+                      165, 165] #MALE_03 FEMALE_03 (Hair color: Dark Brown)
+
+    layersDefaultPrefix: 0
+    layersSpecificPrefix:
+      4: PDF_PSYKER_UNIFORM
+    layersDefinition:
+#MALE LAYERS
+      M0: ["", "MALE_00_FACE", "MALE_00_PSYKER_HAIR", "", "PDF_PSYKER_UNIFORM_M"]
+      M1: ["", "MALE_01_FACE", "MALE_01_PSYKER_HAIR", "", "PDF_PSYKER_UNIFORM_M"]
+      M2: ["", "MALE_02_FACE", "MALE_02_PSYKER_HAIR", "", "PDF_PSYKER_UNIFORM_M"]
+      M3: ["", "MALE_03_FACE", "MALE_03_PSYKER_HAIR", "", "PDF_PSYKER_UNIFORM_M"]
+      M4: ["", "MALE_04_FACE", "MALE_04_PSYKER_HAIR", "", "PDF_PSYKER_UNIFORM_M"]
+      M5: ["", "MALE_05_FACE", "MALE_05_PSYKER_HAIR", "", "PDF_PSYKER_UNIFORM_M"]
+      M6: ["", "MALE_06_FACE", "MALE_06_PSYKER_HAIR", "", "PDF_PSYKER_UNIFORM_M"]
+      M7: ["", "MALE_07_FACE", "MALE_07_PSYKER_HAIR", "", "PDF_PSYKER_UNIFORM_M"]
+      M8: ["", "MALE_08_FACE", "MALE_08_PSYKER_HAIR", "", "PDF_PSYKER_UNIFORM_M"]
+      M9: ["", "MALE_09_FACE", "MALE_09_PSYKER_HAIR", "", "PDF_PSYKER_UNIFORM_M"]
+      M10: ["", "MALE_10_FACE", "MALE_10_PSYKER_HAIR", "", "PDF_PSYKER_UNIFORM_M"]
+      M11: ["", "MALE_11_FACE", "MALE_11_PSYKER_HAIR", "", "PDF_PSYKER_UNIFORM_M"]
+      M12: ["", "MALE_12_FACE", "MALE_12_PSYKER_HAIR", "", "PDF_PSYKER_UNIFORM_M"]
+      M13: ["", "MALE_13_FACE", "MALE_13_PSYKER_HAIR", "", "PDF_PSYKER_UNIFORM_M"]
+      M14: ["", "MALE_14_FACE", "MALE_14_PSYKER_HAIR", "", "PDF_PSYKER_UNIFORM_M"]
+      M15: ["", "MALE_15_FACE", "MALE_15_PSYKER_HAIR", "", "PDF_PSYKER_UNIFORM_M"]
+      M16: ["", "MALE_16_FACE", "MALE_16_PSYKER_HAIR", "", "PDF_PSYKER_UNIFORM_M"]
+      M17: ["", "MALE_17_FACE", "MALE_17_PSYKER_HAIR", "", "PDF_PSYKER_UNIFORM_M"]
+      M18: ["", "MALE_18_FACE", "MALE_18_PSYKER_HAIR", "", "PDF_PSYKER_UNIFORM_M"]
+      M19: ["", "MALE_19_FACE", "MALE_19_PSYKER_HAIR", "", "PDF_PSYKER_UNIFORM_M"]
+      M20: ["", "MALE_20_FACE", "MALE_20_PSYKER_HAIR", "", "PDF_PSYKER_UNIFORM_M"]
+      M21: ["", "MALE_21_FACE", "MALE_21_PSYKER_HAIR", "", "PDF_PSYKER_UNIFORM_M"]
+      M22: ["", "MALE_22_FACE", "MALE_22_PSYKER_HAIR", "", "PDF_PSYKER_UNIFORM_M"]
+      M23: ["", "MALE_23_FACE", "MALE_23_PSYKER_HAIR", "", "PDF_PSYKER_UNIFORM_M"]
+      M24: ["", "MALE_24_FACE", "MALE_24_PSYKER_HAIR", "", "PDF_PSYKER_UNIFORM_M"]
+      M25: ["", "MALE_25_FACE", "MALE_25_PSYKER_HAIR", "", "PDF_PSYKER_UNIFORM_M"]
+      M26: ["", "MALE_26_FACE", "MALE_26_PSYKER_HAIR", "", "PDF_PSYKER_UNIFORM_M"]
+      M27: ["", "MALE_27_FACE", "MALE_27_PSYKER_HAIR", "", "PDF_PSYKER_UNIFORM_M"]
+      M28: ["", "MALE_28_FACE", "MALE_28_PSYKER_HAIR", "", "PDF_PSYKER_UNIFORM_M"]
+      M29: ["", "MALE_29_FACE", "MALE_29_PSYKER_HAIR", "", "PDF_PSYKER_UNIFORM_M"]
+      M30: ["", "MALE_30_FACE", "MALE_30_PSYKER_HAIR", "", "PDF_PSYKER_UNIFORM_M"]
+      M31: ["", "MALE_31_FACE", "MALE_31_PSYKER_HAIR", "", "PDF_PSYKER_UNIFORM_M"]
+
+#FEMALE LAYERS
+      F0: ["", "FEMALE_00_FACE", "FEMALE_00_PSYKER_HAIR", "", "PDF_PSYKER_UNIFORM_F"]
+      F1: ["", "FEMALE_01_FACE", "FEMALE_01_PSYKER_HAIR", "", "PDF_PSYKER_UNIFORM_F"]
+      F2: ["", "FEMALE_02_FACE", "FEMALE_02_PSYKER_HAIR", "", "PDF_PSYKER_UNIFORM_F"]
+      F3: ["", "FEMALE_03_FACE", "FEMALE_03_PSYKER_HAIR", "", "PDF_PSYKER_UNIFORM_F"]
+      F4: ["", "FEMALE_04_FACE", "FEMALE_04_PSYKER_HAIR", "", "PDF_PSYKER_UNIFORM_F"]
+      F5: ["", "FEMALE_05_FACE", "FEMALE_05_PSYKER_HAIR", "", "PDF_PSYKER_UNIFORM_F"]
+      F6: ["", "FEMALE_06_FACE", "FEMALE_06_PSYKER_HAIR", "", "PDF_PSYKER_UNIFORM_F"]
+      F7: ["", "FEMALE_07_FACE", "FEMALE_07_PSYKER_HAIR", "", "PDF_PSYKER_UNIFORM_F"]
+      F8: ["", "FEMALE_08_FACE", "FEMALE_08_PSYKER_HAIR", "", "PDF_PSYKER_UNIFORM_F"]
+      F9: ["", "FEMALE_09_FACE", "FEMALE_09_PSYKER_HAIR", "", "PDF_PSYKER_UNIFORM_F"]
+      F10: ["", "FEMALE_10_FACE", "FEMALE_10_PSYKER_HAIR", "", "PDF_PSYKER_UNIFORM_F"]
+      F11: ["", "FEMALE_11_FACE", "FEMALE_11_PSYKER_HAIR", "", "PDF_PSYKER_UNIFORM_F"]
+      F12: ["", "FEMALE_12_FACE", "FEMALE_12_PSYKER_HAIR", "", "PDF_PSYKER_UNIFORM_F"]
+      F13: ["", "FEMALE_13_FACE", "FEMALE_13_PSYKER_HAIR", "", "PDF_PSYKER_UNIFORM_F"]
+      F14: ["", "FEMALE_14_FACE", "FEMALE_14_PSYKER_HAIR", "", "PDF_PSYKER_UNIFORM_F"]
+      F15: ["", "FEMALE_15_FACE", "FEMALE_15_PSYKER_HAIR", "", "PDF_PSYKER_UNIFORM_F"]
+      F16: ["", "FEMALE_16_FACE", "FEMALE_16_PSYKER_HAIR", "", "PDF_PSYKER_UNIFORM_F"]
+      F17: ["", "FEMALE_17_FACE", "FEMALE_17_PSYKER_HAIR", "", "PDF_PSYKER_UNIFORM_F"]
+      F18: ["", "FEMALE_18_FACE", "FEMALE_18_PSYKER_HAIR", "", "PDF_PSYKER_UNIFORM_F"]
+      F19: ["", "FEMALE_19_FACE", "FEMALE_19_PSYKER_HAIR", "", "PDF_PSYKER_UNIFORM_F"]
+      F20: ["", "FEMALE_20_FACE", "FEMALE_20_PSYKER_HAIR", "", "PDF_PSYKER_UNIFORM_F"]
+      F21: ["", "FEMALE_21_FACE", "FEMALE_21_PSYKER_HAIR", "", "PDF_PSYKER_UNIFORM_F"]
+      F22: ["", "FEMALE_22_FACE", "FEMALE_22_PSYKER_HAIR", "", "PDF_PSYKER_UNIFORM_F"]
+      F23: ["", "FEMALE_23_FACE", "FEMALE_23_PSYKER_HAIR", "", "PDF_PSYKER_UNIFORM_F"]
+      F24: ["", "FEMALE_24_FACE", "FEMALE_24_PSYKER_HAIR", "", "PDF_PSYKER_UNIFORM_F"]
+      F25: ["", "FEMALE_25_FACE", "FEMALE_25_PSYKER_HAIR", "", "PDF_PSYKER_UNIFORM_F"]
+      F26: ["", "FEMALE_26_FACE", "FEMALE_26_PSYKER_HAIR", "", "PDF_PSYKER_UNIFORM_F"]
+      F27: ["", "FEMALE_27_FACE", "FEMALE_27_PSYKER_HAIR", "", "PDF_PSYKER_UNIFORM_F"]
+      F28: ["", "FEMALE_28_FACE", "FEMALE_28_PSYKER_HAIR", "", "PDF_PSYKER_UNIFORM_F"]
+      F29: ["", "FEMALE_29_FACE", "FEMALE_29_PSYKER_HAIR", "", "PDF_PSYKER_UNIFORM_F"]
+      F30: ["", "FEMALE_30_FACE", "FEMALE_30_PSYKER_HAIR", "", "PDF_PSYKER_UNIFORM_F"]
+      F31: ["", "FEMALE_31_FACE", "FEMALE_31_PSYKER_HAIR", "", "PDF_PSYKER_UNIFORM_F"]
+
+
+
+#PDF PSYKER FLAK ARMOR
+  - type: STR_PDF_PSYKER_FLAK_ARMOR
+
+#GENERAL
+    drawingRoutine: 0 #x-com soldier
+    spriteSheet: PDF_PSYKER_FLAK_ARMOR.PCK
+    units:
+      - STR_PDF_PSYKER
+    corpseBattle:
+      - STR_CORPSE_PDF_PSYKER_FLAK_ARMOR
+    storeItem: STR_FLAK_ARMOR_STORE_ITEM
+    loftempsSet: [ 3 ]
+    weight: 7
+    movementType: 1 #Unit can fly
+
+    builtInWeapons:
+      - STR_FORCE_STAFF_PDF
+      - STR_BACKPACK_SLOT
+
+#PROTECTION
+    frontArmor: 25
+    sideArmor: 20
+    rearArmor: 20
+    underArmor: 20
+    damageModifier:
+      - 1.0 #None
+      - 1.0 #Armor Piercing
+      - 1.0 #Incendiary
+      - 1.0 #High Explosive
+      - 1.0 #Laser
+      - 1.0 #Plasma
+      - 1.0 #Stun
+      - 1.0 #Melee
+      - 1.0 #Acid
+      - 1.0 #Smoke
+      - 1.0 #Melta
+
+#LAYERS
+    spriteFaceGroup: 6
+    spriteFaceColor: [96, 96, #MALE_00, FEMALE_00 (Skin color: 0)
+                      96, 96, #MALE_01 FEMALE_01 (Skin color: 0)
+                      160, 160, #MALE_02 FEMALE_02 (Skin color: 1)
+                      163, 163] #MALE_03 FEMALE_03 (Skin color: 2)
+
+    spriteHairGroup: 9
+    spriteHairColor: [144, 144, #MALE_00 FEMALE_00 (Hair color: Yellow)
+                      164, 164, #MALE_01 FEMALE_01 (Hair color: Brown)
+                      245, 245, #MALE_02 FEMALE_02 (Hair color: Black)
+                      165, 165] #MALE_03 FEMALE_03 (Hair color: Dark Brown)
+
+    layersDefaultPrefix: 0
+    layersSpecificPrefix:
+      4: PDF_PSYKER_FLAK_ARMOR
+    layersDefinition:
+#MALE LAYERS
+      M0: ["", "MALE_00_FACE", "MALE_00_PSYKER_HAIR", "", "PDF_PSYKER_FLAK_ARMOR_M"]
+      M1: ["", "MALE_01_FACE", "MALE_01_PSYKER_HAIR", "", "PDF_PSYKER_FLAK_ARMOR_M"]
+      M2: ["", "MALE_02_FACE", "MALE_02_PSYKER_HAIR", "", "PDF_PSYKER_FLAK_ARMOR_M"]
+      M3: ["", "MALE_03_FACE", "MALE_03_PSYKER_HAIR", "", "PDF_PSYKER_FLAK_ARMOR_M"]
+      M4: ["", "MALE_04_FACE", "MALE_04_PSYKER_HAIR", "", "PDF_PSYKER_FLAK_ARMOR_M"]
+      M5: ["", "MALE_05_FACE", "MALE_05_PSYKER_HAIR", "", "PDF_PSYKER_FLAK_ARMOR_M"]
+      M6: ["", "MALE_06_FACE", "MALE_06_PSYKER_HAIR", "", "PDF_PSYKER_FLAK_ARMOR_M"]
+      M7: ["", "MALE_07_FACE", "MALE_07_PSYKER_HAIR", "", "PDF_PSYKER_FLAK_ARMOR_M"]
+      M8: ["", "MALE_08_FACE", "MALE_08_PSYKER_HAIR", "", "PDF_PSYKER_FLAK_ARMOR_M"]
+      M9: ["", "MALE_09_FACE", "MALE_09_PSYKER_HAIR", "", "PDF_PSYKER_FLAK_ARMOR_M"]
+      M10: ["", "MALE_10_FACE", "MALE_10_PSYKER_HAIR", "", "PDF_PSYKER_FLAK_ARMOR_M"]
+      M11: ["", "MALE_11_FACE", "MALE_11_PSYKER_HAIR", "", "PDF_PSYKER_FLAK_ARMOR_M"]
+      M12: ["", "MALE_12_FACE", "MALE_12_PSYKER_HAIR", "", "PDF_PSYKER_FLAK_ARMOR_M"]
+      M13: ["", "MALE_13_FACE", "MALE_13_PSYKER_HAIR", "", "PDF_PSYKER_FLAK_ARMOR_M"]
+      M14: ["", "MALE_14_FACE", "MALE_14_PSYKER_HAIR", "", "PDF_PSYKER_FLAK_ARMOR_M"]
+      M15: ["", "MALE_15_FACE", "MALE_15_PSYKER_HAIR", "", "PDF_PSYKER_FLAK_ARMOR_M"]
+      M16: ["", "MALE_16_FACE", "MALE_16_PSYKER_HAIR", "", "PDF_PSYKER_FLAK_ARMOR_M"]
+      M17: ["", "MALE_17_FACE", "MALE_17_PSYKER_HAIR", "", "PDF_PSYKER_FLAK_ARMOR_M"]
+      M18: ["", "MALE_18_FACE", "MALE_18_PSYKER_HAIR", "", "PDF_PSYKER_FLAK_ARMOR_M"]
+      M19: ["", "MALE_19_FACE", "MALE_19_PSYKER_HAIR", "", "PDF_PSYKER_FLAK_ARMOR_M"]
+      M20: ["", "MALE_20_FACE", "MALE_20_PSYKER_HAIR", "", "PDF_PSYKER_FLAK_ARMOR_M"]
+      M21: ["", "MALE_21_FACE", "MALE_21_PSYKER_HAIR", "", "PDF_PSYKER_FLAK_ARMOR_M"]
+      M22: ["", "MALE_22_FACE", "MALE_22_PSYKER_HAIR", "", "PDF_PSYKER_FLAK_ARMOR_M"]
+      M23: ["", "MALE_23_FACE", "MALE_23_PSYKER_HAIR", "", "PDF_PSYKER_FLAK_ARMOR_M"]
+      M24: ["", "MALE_24_FACE", "MALE_24_PSYKER_HAIR", "", "PDF_PSYKER_FLAK_ARMOR_M"]
+      M25: ["", "MALE_25_FACE", "MALE_25_PSYKER_HAIR", "", "PDF_PSYKER_FLAK_ARMOR_M"]
+      M26: ["", "MALE_26_FACE", "MALE_26_PSYKER_HAIR", "", "PDF_PSYKER_FLAK_ARMOR_M"]
+      M27: ["", "MALE_27_FACE", "MALE_27_PSYKER_HAIR", "", "PDF_PSYKER_FLAK_ARMOR_M"]
+      M28: ["", "MALE_28_FACE", "MALE_28_PSYKER_HAIR", "", "PDF_PSYKER_FLAK_ARMOR_M"]
+      M29: ["", "MALE_29_FACE", "MALE_29_PSYKER_HAIR", "", "PDF_PSYKER_FLAK_ARMOR_M"]
+      M30: ["", "MALE_30_FACE", "MALE_30_PSYKER_HAIR", "", "PDF_PSYKER_FLAK_ARMOR_M"]
+      M31: ["", "MALE_31_FACE", "MALE_31_PSYKER_HAIR", "", "PDF_PSYKER_FLAK_ARMOR_M"]
+
+#FEMALE LAYERS
+      F0: ["", "FEMALE_00_FACE", "FEMALE_00_PSYKER_HAIR", "", "PDF_PSYKER_FLAK_ARMOR_F"]
+      F1: ["", "FEMALE_01_FACE", "FEMALE_01_PSYKER_HAIR", "", "PDF_PSYKER_FLAK_ARMOR_F"]
+      F2: ["", "FEMALE_02_FACE", "FEMALE_02_PSYKER_HAIR", "", "PDF_PSYKER_FLAK_ARMOR_F"]
+      F3: ["", "FEMALE_03_FACE", "FEMALE_03_PSYKER_HAIR", "", "PDF_PSYKER_FLAK_ARMOR_F"]
+      F4: ["", "FEMALE_04_FACE", "FEMALE_04_PSYKER_HAIR", "", "PDF_PSYKER_FLAK_ARMOR_F"]
+      F5: ["", "FEMALE_05_FACE", "FEMALE_05_PSYKER_HAIR", "", "PDF_PSYKER_FLAK_ARMOR_F"]
+      F6: ["", "FEMALE_06_FACE", "FEMALE_06_PSYKER_HAIR", "", "PDF_PSYKER_FLAK_ARMOR_F"]
+      F7: ["", "FEMALE_07_FACE", "FEMALE_07_PSYKER_HAIR", "", "PDF_PSYKER_FLAK_ARMOR_F"]
+      F8: ["", "FEMALE_08_FACE", "FEMALE_08_PSYKER_HAIR", "", "PDF_PSYKER_FLAK_ARMOR_F"]
+      F9: ["", "FEMALE_09_FACE", "FEMALE_09_PSYKER_HAIR", "", "PDF_PSYKER_FLAK_ARMOR_F"]
+      F10: ["", "FEMALE_10_FACE", "FEMALE_10_PSYKER_HAIR", "", "PDF_PSYKER_FLAK_ARMOR_F"]
+      F11: ["", "FEMALE_11_FACE", "FEMALE_11_PSYKER_HAIR", "", "PDF_PSYKER_FLAK_ARMOR_F"]
+      F12: ["", "FEMALE_12_FACE", "FEMALE_12_PSYKER_HAIR", "", "PDF_PSYKER_FLAK_ARMOR_F"]
+      F13: ["", "FEMALE_13_FACE", "FEMALE_13_PSYKER_HAIR", "", "PDF_PSYKER_FLAK_ARMOR_F"]
+      F14: ["", "FEMALE_14_FACE", "FEMALE_14_PSYKER_HAIR", "", "PDF_PSYKER_FLAK_ARMOR_F"]
+      F15: ["", "FEMALE_15_FACE", "FEMALE_15_PSYKER_HAIR", "", "PDF_PSYKER_FLAK_ARMOR_F"]
+      F16: ["", "FEMALE_16_FACE", "FEMALE_16_PSYKER_HAIR", "", "PDF_PSYKER_FLAK_ARMOR_F"]
+      F17: ["", "FEMALE_17_FACE", "FEMALE_17_PSYKER_HAIR", "", "PDF_PSYKER_FLAK_ARMOR_F"]
+      F18: ["", "FEMALE_18_FACE", "FEMALE_18_PSYKER_HAIR", "", "PDF_PSYKER_FLAK_ARMOR_F"]
+      F19: ["", "FEMALE_19_FACE", "FEMALE_19_PSYKER_HAIR", "", "PDF_PSYKER_FLAK_ARMOR_F"]
+      F20: ["", "FEMALE_20_FACE", "FEMALE_20_PSYKER_HAIR", "", "PDF_PSYKER_FLAK_ARMOR_F"]
+      F21: ["", "FEMALE_21_FACE", "FEMALE_21_PSYKER_HAIR", "", "PDF_PSYKER_FLAK_ARMOR_F"]
+      F22: ["", "FEMALE_22_FACE", "FEMALE_22_PSYKER_HAIR", "", "PDF_PSYKER_FLAK_ARMOR_F"]
+      F23: ["", "FEMALE_23_FACE", "FEMALE_23_PSYKER_HAIR", "", "PDF_PSYKER_FLAK_ARMOR_F"]
+      F24: ["", "FEMALE_24_FACE", "FEMALE_24_PSYKER_HAIR", "", "PDF_PSYKER_FLAK_ARMOR_F"]
+      F25: ["", "FEMALE_25_FACE", "FEMALE_25_PSYKER_HAIR", "", "PDF_PSYKER_FLAK_ARMOR_F"]
+      F26: ["", "FEMALE_26_FACE", "FEMALE_26_PSYKER_HAIR", "", "PDF_PSYKER_FLAK_ARMOR_F"]
+      F27: ["", "FEMALE_27_FACE", "FEMALE_27_PSYKER_HAIR", "", "PDF_PSYKER_FLAK_ARMOR_F"]
+      F28: ["", "FEMALE_28_FACE", "FEMALE_28_PSYKER_HAIR", "", "PDF_PSYKER_FLAK_ARMOR_F"]
+      F29: ["", "FEMALE_29_FACE", "FEMALE_29_PSYKER_HAIR", "", "PDF_PSYKER_FLAK_ARMOR_F"]
+      F30: ["", "FEMALE_30_FACE", "FEMALE_30_PSYKER_HAIR", "", "PDF_PSYKER_FLAK_ARMOR_F"]
+      F31: ["", "FEMALE_31_FACE", "FEMALE_31_PSYKER_HAIR", "", "PDF_PSYKER_FLAK_ARMOR_F"]
+
+
+
+#PDF PSYKER CARAPACE ARMOR
+  - type: STR_PDF_PSYKER_CARAPACE
+
+#GENERAL
+    drawingRoutine: 0 #x-com soldier
+    spriteSheet: PDF_PSYKER_CARAPACE.PCK
+    units:
+      - STR_PDF_PSYKER
+    corpseBattle:
+      - STR_CORPSE_PDF_PSYKER_CARAPACE
+    storeItem: STR_CARAPACE_STORE_ITEM
+    loftempsSet: [ 3 ]
+    weight: 14
+    movementType: 1 #Unit can fly
+
+    builtInWeapons:
+      - STR_FORCE_STAFF_PDF
+      - STR_BACKPACK_SLOT
+
+#PROTECTION
+    frontArmor: 50
+    sideArmor: 40
+    rearArmor: 40
+    underArmor: 40
+    damageModifier:
+      - 1.0 #None
+      - 1.0 #Armor Piercing
+      - 1.0 #Incendiary
+      - 1.0 #High Explosive
+      - 1.0 #Laser
+      - 1.0 #Plasma
+      - 1.0 #Stun
+      - 1.0 #Melee
+      - 1.0 #Acid
+      - 1.0 #Smoke
+      - 1.0 #Melta
+
+#LAYERS
+    spriteFaceGroup: 6
+    spriteFaceColor: [96, 96, #MALE_00, FEMALE_00 (Skin color: 0)
+                      96, 96, #MALE_01 FEMALE_01 (Skin color: 0)
+                      160, 160, #MALE_02 FEMALE_02 (Skin color: 1)
+                      163, 163] #MALE_03 FEMALE_03 (Skin color: 2)
+
+    spriteHairGroup: 9
+    spriteHairColor: [144, 144, #MALE_00 FEMALE_00 (Hair color: Yellow)
+                      164, 164, #MALE_01 FEMALE_01 (Hair color: Brown)
+                      245, 245, #MALE_02 FEMALE_02 (Hair color: Black)
+                      165, 165] #MALE_03 FEMALE_03 (Hair color: Dark Brown)
+
+    layersDefaultPrefix: 0
+    layersSpecificPrefix:
+      4: PDF_PSYKER_CARAPACE
+    layersDefinition:
+#MALE LAYERS
+      M0: ["", "MALE_00_FACE", "MALE_00_PSYKER_HAIR", "", "PDF_PSYKER_CARAPACE_M"]
+      M1: ["", "MALE_01_FACE", "MALE_01_PSYKER_HAIR", "", "PDF_PSYKER_CARAPACE_M"]
+      M2: ["", "MALE_02_FACE", "MALE_02_PSYKER_HAIR", "", "PDF_PSYKER_CARAPACE_M"]
+      M3: ["", "MALE_03_FACE", "MALE_03_PSYKER_HAIR", "", "PDF_PSYKER_CARAPACE_M"]
+      M4: ["", "MALE_04_FACE", "MALE_04_PSYKER_HAIR", "", "PDF_PSYKER_CARAPACE_M"]
+      M5: ["", "MALE_05_FACE", "MALE_05_PSYKER_HAIR", "", "PDF_PSYKER_CARAPACE_M"]
+      M6: ["", "MALE_06_FACE", "MALE_06_PSYKER_HAIR", "", "PDF_PSYKER_CARAPACE_M"]
+      M7: ["", "MALE_07_FACE", "MALE_07_PSYKER_HAIR", "", "PDF_PSYKER_CARAPACE_M"]
+      M8: ["", "MALE_08_FACE", "MALE_08_PSYKER_HAIR", "", "PDF_PSYKER_CARAPACE_M"]
+      M9: ["", "MALE_09_FACE", "MALE_09_PSYKER_HAIR", "", "PDF_PSYKER_CARAPACE_M"]
+      M10: ["", "MALE_10_FACE", "MALE_10_PSYKER_HAIR", "", "PDF_PSYKER_CARAPACE_M"]
+      M11: ["", "MALE_11_FACE", "MALE_11_PSYKER_HAIR", "", "PDF_PSYKER_CARAPACE_M"]
+      M12: ["", "MALE_12_FACE", "MALE_12_PSYKER_HAIR", "", "PDF_PSYKER_CARAPACE_M"]
+      M13: ["", "MALE_13_FACE", "MALE_13_PSYKER_HAIR", "", "PDF_PSYKER_CARAPACE_M"]
+      M14: ["", "MALE_14_FACE", "MALE_14_PSYKER_HAIR", "", "PDF_PSYKER_CARAPACE_M"]
+      M15: ["", "MALE_15_FACE", "MALE_15_PSYKER_HAIR", "", "PDF_PSYKER_CARAPACE_M"]
+      M16: ["", "MALE_16_FACE", "MALE_16_PSYKER_HAIR", "", "PDF_PSYKER_CARAPACE_M"]
+      M17: ["", "MALE_17_FACE", "MALE_17_PSYKER_HAIR", "", "PDF_PSYKER_CARAPACE_M"]
+      M18: ["", "MALE_18_FACE", "MALE_18_PSYKER_HAIR", "", "PDF_PSYKER_CARAPACE_M"]
+      M19: ["", "MALE_19_FACE", "MALE_19_PSYKER_HAIR", "", "PDF_PSYKER_CARAPACE_M"]
+      M20: ["", "MALE_20_FACE", "MALE_20_PSYKER_HAIR", "", "PDF_PSYKER_CARAPACE_M"]
+      M21: ["", "MALE_21_FACE", "MALE_21_PSYKER_HAIR", "", "PDF_PSYKER_CARAPACE_M"]
+      M22: ["", "MALE_22_FACE", "MALE_22_PSYKER_HAIR", "", "PDF_PSYKER_CARAPACE_M"]
+      M23: ["", "MALE_23_FACE", "MALE_23_PSYKER_HAIR", "", "PDF_PSYKER_CARAPACE_M"]
+      M24: ["", "MALE_24_FACE", "MALE_24_PSYKER_HAIR", "", "PDF_PSYKER_CARAPACE_M"]
+      M25: ["", "MALE_25_FACE", "MALE_25_PSYKER_HAIR", "", "PDF_PSYKER_CARAPACE_M"]
+      M26: ["", "MALE_26_FACE", "MALE_26_PSYKER_HAIR", "", "PDF_PSYKER_CARAPACE_M"]
+      M27: ["", "MALE_27_FACE", "MALE_27_PSYKER_HAIR", "", "PDF_PSYKER_CARAPACE_M"]
+      M28: ["", "MALE_28_FACE", "MALE_28_PSYKER_HAIR", "", "PDF_PSYKER_CARAPACE_M"]
+      M29: ["", "MALE_29_FACE", "MALE_29_PSYKER_HAIR", "", "PDF_PSYKER_CARAPACE_M"]
+      M30: ["", "MALE_30_FACE", "MALE_30_PSYKER_HAIR", "", "PDF_PSYKER_CARAPACE_M"]
+      M31: ["", "MALE_31_FACE", "MALE_31_PSYKER_HAIR", "", "PDF_PSYKER_CARAPACE_M"]
+
+#FEMALE LAYERS
+      F0: ["", "FEMALE_00_FACE", "FEMALE_00_PSYKER_HAIR", "", "PDF_PSYKER_CARAPACE_F"]
+      F1: ["", "FEMALE_01_FACE", "FEMALE_01_PSYKER_HAIR", "", "PDF_PSYKER_CARAPACE_F"]
+      F2: ["", "FEMALE_02_FACE", "FEMALE_02_PSYKER_HAIR", "", "PDF_PSYKER_CARAPACE_F"]
+      F3: ["", "FEMALE_03_FACE", "FEMALE_03_PSYKER_HAIR", "", "PDF_PSYKER_CARAPACE_F"]
+      F4: ["", "FEMALE_04_FACE", "FEMALE_04_PSYKER_HAIR", "", "PDF_PSYKER_CARAPACE_F"]
+      F5: ["", "FEMALE_05_FACE", "FEMALE_05_PSYKER_HAIR", "", "PDF_PSYKER_CARAPACE_F"]
+      F6: ["", "FEMALE_06_FACE", "FEMALE_06_PSYKER_HAIR", "", "PDF_PSYKER_CARAPACE_F"]
+      F7: ["", "FEMALE_07_FACE", "FEMALE_07_PSYKER_HAIR", "", "PDF_PSYKER_CARAPACE_F"]
+      F8: ["", "FEMALE_08_FACE", "FEMALE_08_PSYKER_HAIR", "", "PDF_PSYKER_CARAPACE_F"]
+      F9: ["", "FEMALE_09_FACE", "FEMALE_09_PSYKER_HAIR", "", "PDF_PSYKER_CARAPACE_F"]
+      F10: ["", "FEMALE_10_FACE", "FEMALE_10_PSYKER_HAIR", "", "PDF_PSYKER_CARAPACE_F"]
+      F11: ["", "FEMALE_11_FACE", "FEMALE_11_PSYKER_HAIR", "", "PDF_PSYKER_CARAPACE_F"]
+      F12: ["", "FEMALE_12_FACE", "FEMALE_12_PSYKER_HAIR", "", "PDF_PSYKER_CARAPACE_F"]
+      F13: ["", "FEMALE_13_FACE", "FEMALE_13_PSYKER_HAIR", "", "PDF_PSYKER_CARAPACE_F"]
+      F14: ["", "FEMALE_14_FACE", "FEMALE_14_PSYKER_HAIR", "", "PDF_PSYKER_CARAPACE_F"]
+      F15: ["", "FEMALE_15_FACE", "FEMALE_15_PSYKER_HAIR", "", "PDF_PSYKER_CARAPACE_F"]
+      F16: ["", "FEMALE_16_FACE", "FEMALE_16_PSYKER_HAIR", "", "PDF_PSYKER_CARAPACE_F"]
+      F17: ["", "FEMALE_17_FACE", "FEMALE_17_PSYKER_HAIR", "", "PDF_PSYKER_CARAPACE_F"]
+      F18: ["", "FEMALE_18_FACE", "FEMALE_18_PSYKER_HAIR", "", "PDF_PSYKER_CARAPACE_F"]
+      F19: ["", "FEMALE_19_FACE", "FEMALE_19_PSYKER_HAIR", "", "PDF_PSYKER_CARAPACE_F"]
+      F20: ["", "FEMALE_20_FACE", "FEMALE_20_PSYKER_HAIR", "", "PDF_PSYKER_CARAPACE_F"]
+      F21: ["", "FEMALE_21_FACE", "FEMALE_21_PSYKER_HAIR", "", "PDF_PSYKER_CARAPACE_F"]
+      F22: ["", "FEMALE_22_FACE", "FEMALE_22_PSYKER_HAIR", "", "PDF_PSYKER_CARAPACE_F"]
+      F23: ["", "FEMALE_23_FACE", "FEMALE_23_PSYKER_HAIR", "", "PDF_PSYKER_CARAPACE_F"]
+      F24: ["", "FEMALE_24_FACE", "FEMALE_24_PSYKER_HAIR", "", "PDF_PSYKER_CARAPACE_F"]
+      F25: ["", "FEMALE_25_FACE", "FEMALE_25_PSYKER_HAIR", "", "PDF_PSYKER_CARAPACE_F"]
+      F26: ["", "FEMALE_26_FACE", "FEMALE_26_PSYKER_HAIR", "", "PDF_PSYKER_CARAPACE_F"]
+      F27: ["", "FEMALE_27_FACE", "FEMALE_27_PSYKER_HAIR", "", "PDF_PSYKER_CARAPACE_F"]
+      F28: ["", "FEMALE_28_FACE", "FEMALE_28_PSYKER_HAIR", "", "PDF_PSYKER_CARAPACE_F"]
+      F29: ["", "FEMALE_29_FACE", "FEMALE_29_PSYKER_HAIR", "", "PDF_PSYKER_CARAPACE_F"]
+      F30: ["", "FEMALE_30_FACE", "FEMALE_30_PSYKER_HAIR", "", "PDF_PSYKER_CARAPACE_F"]
+      F31: ["", "FEMALE_31_FACE", "FEMALE_31_PSYKER_HAIR", "", "PDF_PSYKER_CARAPACE_F"]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

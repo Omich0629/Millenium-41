@@ -5,297 +5,1218 @@ extraSprites:
 ## BIG SPRITES (INVENTORY SPRITES)
   - type: BIGOBS.PCK
     files:
-#100 - 199 - corpses
-      100: Resources/Armors/Arbites/Arbites_Armor/Arbites_Armor_Corpse_Inv.png
-#      101: ...
-#      102: ...
-#      103: ...
-#      104: ...
-      105: Resources/Armors/Cultists/Cultist_Clothes/Male0/Cultist_Clothes_Male0_Corpse_Inv.png
-      106: Resources/Armors/Cultists/Cultist_Clothes/Female0/Cultist_Clothes_Female0_Corpse_Inv.png
-      107: Resources/Armors/Cultists/Cultist_Clothes/Male1/Cultist_Clothes_Male1_Corpse_Inv.png
-      108: Resources/Armors/Cultists/Cultist_Clothes/Female1/Cultist_Clothes_Female1_Corpse_Inv.png
-      109: Resources/Armors/Cultists/Cultist_Clothes/Male2/Cultist_Clothes_Male2_Corpse_Inv.png
-      110: Resources/Armors/Cultists/Cultist_Clothes/Female2/Cultist_Clothes_Female2_Corpse_Inv.png
+#100 - 
+#      100: Resources/Armors/
 
-      111: Resources/Armors/Cultists/Cultist_Armor/Male0/Cultist_Armor_Male0_Corpse_Inv.png
-      112: Resources/Armors/Cultists/Cultist_Armor/Female0/Cultist_Armor_Female0_Corpse_Inv.png
 
-      113: Resources/Armors/Cultists/Cultist_Armor/Male1/Cultist_Armor_Male1_Corpse_Inv.png
-      114: Resources/Armors/Cultists/Cultist_Armor/Female1/Cultist_Armor_Female1_Corpse_Inv.png
 
-      115: Resources/Armors/Cultists/Cultist_Armor/Male2/Cultist_Armor_Male2_Corpse_Inv.png
-      116: Resources/Armors/Cultists/Cultist_Armor/Female2/Cultist_Armor_Female2_Corpse_Inv.png
 
-      117: Resources/Armors/Cultists/Cultist_Heavy_Armor/Male0/Cultist_Heavy_Armor_Male0_Corpse_Inv.png
-      118: Resources/Armors/Cultists/Cultist_Heavy_Armor/Male1/Cultist_Heavy_Armor_Male1_Corpse_Inv.png
-      119: Resources/Armors/Cultists/Cultist_Heavy_Armor/Male2/Cultist_Heavy_Armor_Male2_Corpse_Inv.png
+
+
+
+
+
+
 
 
 #200 - 299 Reserved for special needs
-      200: Resources/Items/Generic/Null_Item/Null_Item_Backpack.png
-      201: Resources/Items/Generic/Null_Item/Invisible_Item_Inv.png
 
-      299: Resources/Items/Generic/Debug_Gun/Debug_Gun_Inv.png
-
-#300 - 499 Ammo
-      300: Resources/Items/Ammo/Autopistol_Ammo/Autopistol_Magazine_Inv.png
-      301: Resources/Items/Ammo/Autogun_Ammo/Autogun_Magazine_Inv.png
-      302: Resources/Items/Ammo/Heavy_Stubber_Ammo/Heavy_Stubber_Belt_Inv.png
-      303: Resources/Items/Ammo/Shotgun_Ammo/Shotgun_Shells_Inv.png
-      304: Resources/Items/Ammo/Shotgun_Ammo/Shotgun_Slugs_Inv.png
-      305: Resources/Items/Ammo/Sniper_Rifle_Ammo/Sniper_Rifle_Magazine_Inv.png
-      306: Resources/Items/Ammo/Boltpistol_Ammo/Boltpistol_Magazine_EX_Inv.png
-      307: Resources/Items/Ammo/Boltpistol_Ammo/Boltpistol_Magazine_AP_Inv.png
-      308: Resources/Items/Ammo/Boltpistol_Ammo/Boltpistol_Magazine_I_Inv.png
-      309: Resources/Items/Ammo/Boltgun_Ammo/Boltgun_Magazine_EX_Inv.png
-      310: Resources/Items/Ammo/Boltgun_Ammo/Boltgun_Magazine_AP_Inv.png
-      311: Resources/Items/Ammo/Boltgun_Ammo/Boltgun_Magazine_I_Inv.png
-      312: Resources/Items/Ammo/Grenade_Launcher_Ammo/Frag_Grenade_Pack_Inv.png
-      313: Resources/Items/Ammo/Grenade_Launcher_Ammo/Krak_Grenade_Pack_Inv.png
-      314: Resources/Items/Ammo/Grenade_Launcher_Ammo/Smoke_Grenade_Round_Inv.png
-      315: Resources/Items/Ammo/Grenade_Launcher_Ammo/Stun_Grenade_Round_Inv.png
-      316: Resources/Items/Ammo/Flamer_Ammo/Flamer_Fuel_Inv.png
+      200: Resources/Items/Special_Items/Invisible_Item_Inv.png
+      201: Resources/Items/Special_Items/Backpack_Slot_Item_Inv.png
+      202: Resources/Items/Special_Items/Left_Leg_Slot_Item_Inv.png
+      203: Resources/Items/Special_Items/Right_Leg_Slot_Item_Inv.png
 
 
+#      299: Resources/Items/...
 
-#500 + Weapons and other stuff
-      500: Resources/Items/Arbites/Autopistol_Arbites/Autopistol_Arbites_Inv0.png
-      501: Resources/Items/Arbites/Autopistol_Arbites/Autopistol_Arbites_Inv1.png
-      502: Resources/Items/Arbites/Autogun_Arbites/Autogun_Arbites_Inv0.png
-      503: Resources/Items/Arbites/Autogun_Arbites/Autogun_Arbites_Inv1.png
-      504: Resources/Items/Arbites/Heavy_Stubber_Arbites/Heavy_Stubber_Arbites_Inv0.png
-      505: Resources/Items/Arbites/Heavy_Stubber_Arbites/Heavy_Stubber_Arbites_Inv0_Deployed.png
-      506: Resources/Items/Arbites/Heavy_Stubber_Arbites/Heavy_Stubber_Arbites_Inv1.png
-      507: Resources/Items/Arbites/Heavy_Stubber_Arbites/Heavy_Stubber_Arbites_Inv1_Deployed.png
-      508: Resources/Items/Arbites/Shotgun_Arbites/Shotgun_Arbites_Inv.png
-      509: Resources/Items/Arbites/Sniper_Rifle_Arbites/Sniper_Rifle_Arbites_Inv0.png
-      510: Resources/Items/Arbites/Sniper_Rifle_Arbites/Sniper_Rifle_Arbites_Inv1.png
-      511: Resources/Items/Arbites/Boltpistol_Arbites/Boltpistol_Arbites_Inv0.png
-      512: Resources/Items/Arbites/Boltpistol_Arbites/Boltpistol_Arbites_Inv1.png
-      513: Resources/Items/Arbites/Boltpistol_Arbites/Boltpistol_Arbites_Inv2.png
-      514: Resources/Items/Arbites/Boltpistol_Arbites/Boltpistol_Arbites_Inv3.png
-      515: Resources/Items/Arbites/Boltgun_Arbites/Boltgun_Arbites_Inv0.png
-      516: Resources/Items/Arbites/Boltgun_Arbites/Boltgun_Arbites_Inv1.png
-      517: Resources/Items/Arbites/Boltgun_Arbites/Boltgun_Arbites_Inv2.png
-      518: Resources/Items/Arbites/Boltgun_Arbites/Boltgun_Arbites_Inv3.png
-      519: Resources/Items/Arbites/Grenade_Launcher_Arbites/Grenade_Launcher_Arbites_Inv.png
-      520: Resources/Items/Arbites/Shock_Maul_Arbites/Shock_Maul_Arbites_Inv.png
-      521: Resources/Items/Arbites/Power_Maul_Arbites/Power_Maul_Arbites_Inv.png
-      522: Resources/Items/Arbites/Suppression_Shield/Suppression_Shield_Inv.png
+#300 - 499 Weapons, ammo and other stuff
+#Autopistols
+      300: Resources/Items/Autopistol/Autopistol_Ammo_Inv.png
 
-      523: Resources/Items/Generic/Frag_Grenade/Frag_Grenade_Inv.png
-      524: Resources/Items/Generic/Krak_Grenade/Krak_Grenade_Inv.png
-      525: Resources/Items/Generic/Smoke_Grenade/Smoke_Grenade_Inv.png
-      526: Resources/Items/Generic/Stun_Grenade/Stun_Grenade_Inv.png
-      527: Resources/Items/Generic/First_Aid_Kit/First_Aid_Kit_Inv.png
-      528: Resources/Items/Generic/Auspex/Auspex_Inv.png
-      529: Resources/Items/Generic/Fire_Extinguisher/Fire_Extinguisger_Inv.png
-      530: Resources/Items/Generic/Glow_Stick/Glow_Stick_Inv.png      
-      531: Resources/Items/Generic/Electro_Flare/Electro_Flare_Inv.png
+      301: Resources/Items/Autopistol/Autopistol_PDF_Inv0.png
+      302: Resources/Items/Autopistol/Autopistol_PDF_Inv1.png
 
-      532: Resources/Items/Generic/Autopistol_Generic1/Autopistol_Generic1_Inv0.png
-      533: Resources/Items/Generic/Autopistol_Generic1/Autopistol_Generic1_Inv1.png
-      534: Resources/Items/Generic/Autopistol_Generic2/Autopistol_Generic2_Inv0.png
-      535: Resources/Items/Generic/Autopistol_Generic2/Autopistol_Generic2_Inv1.png
-      536: Resources/Items/Generic/Autopistol_Generic3/Autopistol_Generic3_Inv0.png
-      537: Resources/Items/Generic/Autopistol_Generic3/Autopistol_Generic3_Inv1.png
+      303: Resources/Items/Autopistol/Autopistol_Chaos_Inv0.png
+      304: Resources/Items/Autopistol/Autopistol_Chaos_Inv1.png
 
-      538: Resources/Items/Generic/Autogun_Generic1/Autogun_Generic1_Inv0.png
-      539: Resources/Items/Generic/Autogun_Generic1/Autogun_Generic1_Inv1.png
-      540: Resources/Items/Generic/Autogun_Generic2/Autogun_Generic2_Inv0.png
-      541: Resources/Items/Generic/Autogun_Generic2/Autogun_Generic2_Inv1.png
-      542: Resources/Items/Generic/Autogun_Generic3/Autogun_Generic3_Inv0.png
-      543: Resources/Items/Generic/Autogun_Generic3/Autogun_Generic3_Inv1.png
-      544: Resources/Items/Generic/Autogun_Generic4/Autogun_Generic4_Inv0.png
-      545: Resources/Items/Generic/Autogun_Generic4/Autogun_Generic4_Inv1.png
-      546: Resources/Items/Generic/Autogun_Generic5/Autogun_Generic5_Inv0.png
-      547: Resources/Items/Generic/Autogun_Generic5/Autogun_Generic5_Inv1.png
+      305: Resources/Items/Autopistol/Autopistol_Khorne_Inv0.png
+      306: Resources/Items/Autopistol/Autopistol_Khorne_Inv1.png
 
-      548: Resources/Items/Generic/Heavy_Stubber_Generic1/Heavy_Stubber_Generic1_Inv0.png
-      549: Resources/Items/Generic/Heavy_Stubber_Generic1/Heavy_Stubber_Generic1_Inv0_Deployed.png
-      550: Resources/Items/Generic/Heavy_Stubber_Generic1/Heavy_Stubber_Generic1_Inv1.png
-      551: Resources/Items/Generic/Heavy_Stubber_Generic1/Heavy_Stubber_Generic1_Inv1_Deployed.png
+      307: Resources/Items/Autopistol/Autopistol_Nurgle_Inv0.png
+      308: Resources/Items/Autopistol/Autopistol_Nurgle_Inv1.png
 
-      552: Resources/Items/Generic/Heavy_Stubber_Generic2/Heavy_Stubber_Generic2_Inv0.png
-      553: Resources/Items/Generic/Heavy_Stubber_Generic2/Heavy_Stubber_Generic2_Inv0_Deployed.png
-      554: Resources/Items/Generic/Heavy_Stubber_Generic2/Heavy_Stubber_Generic2_Inv1.png
-      555: Resources/Items/Generic/Heavy_Stubber_Generic2/Heavy_Stubber_Generic2_Inv1_Deployed.png
+      309: Resources/Items/Autopistol/Autopistol_Tzeentch_Inv0.png
+      310: Resources/Items/Autopistol/Autopistol_Tzeentch_Inv1.png
 
-      556: Resources/Items/Generic/Shotgun_Generic1/Shotgun_Generic1_Inv.png
-      557: Resources/Items/Generic/Shotgun_Generic2/Shotgun_Generic2_Inv.png
-      558: Resources/Items/Generic/Shotgun_Generic3/Shotgun_Generic3_Inv.png
-      559: Resources/Items/Generic/Shotgun_Generic4/Shotgun_Generic4_Inv.png
+      311: Resources/Items/Autopistol/Autopistol_Slaanesh_Inv0.png
+      312: Resources/Items/Autopistol/Autopistol_Slaanesh_Inv1.png
 
 
+#Autoguns
+      313: Resources/Items/Autogun/Autogun_Ammo_Inv.png
 
-# +1000 temporary
+      314: Resources/Items/Autogun/Autogun_PDF_Inv0.png
+      315: Resources/Items/Autogun/Autogun_PDF_Inv1.png
 
-      1532: Resources/Items/Renegades/Autopistol_Renegade/Autopistol_Renegade_Inv0.png
-      1533: Resources/Items/Renegades/Autopistol_Renegade/Autopistol_Renegade_Inv1.png
-      1534: Resources/Items/Renegades/Autogun_Renegade/Autogun_Renegade_Inv0.png
-      1535: Resources/Items/Renegades/Autogun_Renegade/Autogun_Renegade_Inv1.png
-      1536: Resources/Items/Renegades/Heavy_Stubber_Renegade/Heavy_Stubber_Renegade_Inv0.png
-      1537: Resources/Items/Renegades/Heavy_Stubber_Renegade/Heavy_Stubber_Renegade_Inv1.png
-      1538: Resources/Items/Renegades/Shotgun_Renagade/Shotgun_Renagade_Inv.png
-      1539: Resources/Items/Renegades/Boltpistol_Renegade/Boltpistol_Renegade_Inv0.png
-      1540: Resources/Items/Renegades/Boltpistol_Renegade/Boltpistol_Renegade_Inv1.png
-      1541: Resources/Items/Renegades/Boltpistol_Renegade/Boltpistol_Renegade_Inv2.png
-      1542: Resources/Items/Renegades/Boltpistol_Renegade/Boltpistol_Renegade_Inv3.png
-      1543: Resources/Items/Renegades/Boltgun_Renegade/Boltgun_Renegade_Inv0.png
-      1544: Resources/Items/Renegades/Boltgun_Renegade/Boltgun_Renegade_Inv1.png
-      1545: Resources/Items/Renegades/Boltgun_Renegade/Boltgun_Renegade_Inv2.png
-      1546: Resources/Items/Renegades/Boltgun_Renegade/Boltgun_Renegade_Inv3.png
-      1547: Resources/Items/Renegades/Flamer_Renegade/Flamer_Renegade_Inv0.png
-      1548: Resources/Items/Renegades/Flamer_Renegade/Flamer_Renegade_Inv1.png
-      1549: Resources/Items/Renegades/Frag_Grenade_Renegade/Frag_Grenade_Renegade_Inv.png
-      1550: Resources/Items/Renegades/Krak_Grenade_Renegade/Krak_Grenade_Renegade_Inv.png
-      1551: Resources/Items/Renegades/Improvised_Mace/Improvised_Mace_Inv.png
-      1552: Resources/Items/Renegades/Improvised_Sword/Improvised_Sword_Inv.png
+      316: Resources/Items/Autogun/Autogun_Chaos_Inv0.png
+      317: Resources/Items/Autogun/Autogun_Chaos_Inv1.png
+
+      318: Resources/Items/Autogun/Autogun_Khorne_Inv0.png
+      319: Resources/Items/Autogun/Autogun_Khorne_Inv1.png
+
+      320: Resources/Items/Autogun/Autogun_Nurgle_Inv0.png
+      321: Resources/Items/Autogun/Autogun_Nurgle_Inv1.png
+
+      322: Resources/Items/Autogun/Autogun_Tzeentch_Inv0.png
+      323: Resources/Items/Autogun/Autogun_Tzeentch_Inv1.png
+
+      324: Resources/Items/Autogun/Autogun_Slaanesh_Inv0.png
+      325: Resources/Items/Autogun/Autogun_Slaanesh_Inv1.png
+
+
+#Marksman Autoguns
+      326: Resources/Items/Marksman_Autogun/Marksman_Autogun_PDF_Inv0.png
+      327: Resources/Items/Marksman_Autogun/Marksman_Autogun_PDF_Inv0_Bipod.png
+      328: Resources/Items/Marksman_Autogun/Marksman_Autogun_PDF_Inv1.png
+      329: Resources/Items/Marksman_Autogun/Marksman_Autogun_PDF_Inv1_Bipod.png
+
+      330: Resources/Items/Marksman_Autogun/Marksman_Autogun_Chaos_Inv0.png
+      331: Resources/Items/Marksman_Autogun/Marksman_Autogun_Chaos_Inv0_Bipod.png
+      332: Resources/Items/Marksman_Autogun/Marksman_Autogun_Chaos_Inv1.png
+      333: Resources/Items/Marksman_Autogun/Marksman_Autogun_Chaos_Inv1_Bipod.png
+
+      334: Resources/Items/Marksman_Autogun/Marksman_Autogun_Khorne_Inv0.png
+      335: Resources/Items/Marksman_Autogun/Marksman_Autogun_Khorne_Inv0_Bipod.png
+      336: Resources/Items/Marksman_Autogun/Marksman_Autogun_Khorne_Inv1.png
+      337: Resources/Items/Marksman_Autogun/Marksman_Autogun_Khorne_Inv1_Bipod.png
+
+      338: Resources/Items/Marksman_Autogun/Marksman_Autogun_Nurgle_Inv0.png
+      339: Resources/Items/Marksman_Autogun/Marksman_Autogun_Nurgle_Inv0_Bipod.png
+      340: Resources/Items/Marksman_Autogun/Marksman_Autogun_Nurgle_Inv1.png
+      341: Resources/Items/Marksman_Autogun/Marksman_Autogun_Nurgle_Inv1_Bipod.png
+
+      342: Resources/Items/Marksman_Autogun/Marksman_Autogun_Tzeentch_Inv0.png
+      343: Resources/Items/Marksman_Autogun/Marksman_Autogun_Tzeentch_Inv0_Bipod.png
+      344: Resources/Items/Marksman_Autogun/Marksman_Autogun_Tzeentch_Inv1.png
+      345: Resources/Items/Marksman_Autogun/Marksman_Autogun_Tzeentch_Inv1_Bipod.png
+
+      346: Resources/Items/Marksman_Autogun/Marksman_Autogun_Slaanesh_Inv0.png
+      347: Resources/Items/Marksman_Autogun/Marksman_Autogun_Slaanesh_Inv0_Bipod.png
+      348: Resources/Items/Marksman_Autogun/Marksman_Autogun_Slaanesh_Inv1.png
+      349: Resources/Items/Marksman_Autogun/Marksman_Autogun_Slaanesh_Inv1_Bipod.png
+
+#Heavy Stubbers
+      350: Resources/Items/Heavy_Stubber/Heavy_Stubber_Ammo_Inv.png
+
+      351: Resources/Items/Heavy_Stubber/Heavy_Stubber_PDF_Inv0.png
+      352: Resources/Items/Heavy_Stubber/Heavy_Stubber_PDF_Inv0_Bipod.png
+      353: Resources/Items/Heavy_Stubber/Heavy_Stubber_PDF_Inv1.png
+      354: Resources/Items/Heavy_Stubber/Heavy_Stubber_PDF_Inv1_Bipod.png
+
+      355: Resources/Items/Heavy_Stubber/Heavy_Stubber_Chaos_Inv0.png
+      356: Resources/Items/Heavy_Stubber/Heavy_Stubber_Chaos_Inv0_Bipod.png
+      357: Resources/Items/Heavy_Stubber/Heavy_Stubber_Chaos_Inv1.png
+      358: Resources/Items/Heavy_Stubber/Heavy_Stubber_Chaos_Inv1_Bipod.png
+
+      359: Resources/Items/Heavy_Stubber/Heavy_Stubber_Khorne_Inv0.png
+      360: Resources/Items/Heavy_Stubber/Heavy_Stubber_Khorne_Inv0_Bipod.png
+      361: Resources/Items/Heavy_Stubber/Heavy_Stubber_Khorne_Inv1.png
+      362: Resources/Items/Heavy_Stubber/Heavy_Stubber_Khorne_Inv1_Bipod.png
+
+      363: Resources/Items/Heavy_Stubber/Heavy_Stubber_Nurgle_Inv0.png
+      364: Resources/Items/Heavy_Stubber/Heavy_Stubber_Nurgle_Inv0_Bipod.png
+      365: Resources/Items/Heavy_Stubber/Heavy_Stubber_Nurgle_Inv1.png
+      366: Resources/Items/Heavy_Stubber/Heavy_Stubber_Nurgle_Inv1_Bipod.png
+
+      367: Resources/Items/Heavy_Stubber/Heavy_Stubber_Tzeentch_Inv0.png
+      368: Resources/Items/Heavy_Stubber/Heavy_Stubber_Tzeentch_Inv0_Bipod.png
+      369: Resources/Items/Heavy_Stubber/Heavy_Stubber_Tzeentch_Inv1.png
+      370: Resources/Items/Heavy_Stubber/Heavy_Stubber_Tzeentch_Inv1_Bipod.png
+
+      371: Resources/Items/Heavy_Stubber/Heavy_Stubber_Slaanesh_Inv0.png
+      372: Resources/Items/Heavy_Stubber/Heavy_Stubber_Slaanesh_Inv0_Bipod.png
+      373: Resources/Items/Heavy_Stubber/Heavy_Stubber_Slaanesh_Inv1.png
+      374: Resources/Items/Heavy_Stubber/Heavy_Stubber_Slaanesh_Inv1_Bipod.png
+
+#Grenade Launchers
+
+      375: Resources/Items/Grenade_Launcher/Grenade_Launcher_Ammo_Inv1.png
+      376: Resources/Items/Grenade_Launcher/Grenade_Launcher_Ammo_Inv2.png
+      377: Resources/Items/Grenade_Launcher/Grenade_Launcher_Ammo_Inv3.png
+      378: Resources/Items/Grenade_Launcher/Grenade_Launcher_Ammo_Inv4.png
+
+      379: Resources/Items/Grenade_Launcher/Grenade_Launcher_PDF_Inv0.png
+      380: Resources/Items/Grenade_Launcher/Grenade_Launcher_PDF_Inv1.png
+      381: Resources/Items/Grenade_Launcher/Grenade_Launcher_PDF_Inv2.png
+      382: Resources/Items/Grenade_Launcher/Grenade_Launcher_PDF_Inv3.png
+
+      383: Resources/Items/Grenade_Launcher/Grenade_Launcher_Chaos_Inv0.png
+      384: Resources/Items/Grenade_Launcher/Grenade_Launcher_Chaos_Inv1.png
+      385: Resources/Items/Grenade_Launcher/Grenade_Launcher_Chaos_Inv2.png
+      386: Resources/Items/Grenade_Launcher/Grenade_Launcher_Chaos_Inv3.png
+
+      387: Resources/Items/Grenade_Launcher/Grenade_Launcher_Khorne_Inv0.png
+      388: Resources/Items/Grenade_Launcher/Grenade_Launcher_Khorne_Inv1.png
+      389: Resources/Items/Grenade_Launcher/Grenade_Launcher_Khorne_Inv2.png
+      390: Resources/Items/Grenade_Launcher/Grenade_Launcher_Khorne_Inv3.png
+
+      391: Resources/Items/Grenade_Launcher/Grenade_Launcher_Nurgle_Inv0.png
+      392: Resources/Items/Grenade_Launcher/Grenade_Launcher_Nurgle_Inv1.png
+      393: Resources/Items/Grenade_Launcher/Grenade_Launcher_Nurgle_Inv2.png
+      394: Resources/Items/Grenade_Launcher/Grenade_Launcher_Nurgle_Inv3.png
+
+      395: Resources/Items/Grenade_Launcher/Grenade_Launcher_Tzeentch_Inv0.png
+      396: Resources/Items/Grenade_Launcher/Grenade_Launcher_Tzeentch_Inv1.png
+      397: Resources/Items/Grenade_Launcher/Grenade_Launcher_Tzeentch_Inv2.png
+      398: Resources/Items/Grenade_Launcher/Grenade_Launcher_Tzeentch_Inv3.png
+
+      399: Resources/Items/Grenade_Launcher/Grenade_Launcher_Slaanesh_Inv0.png
+      400: Resources/Items/Grenade_Launcher/Grenade_Launcher_Slaanesh_Inv1.png
+      401: Resources/Items/Grenade_Launcher/Grenade_Launcher_Slaanesh_Inv2.png
+      402: Resources/Items/Grenade_Launcher/Grenade_Launcher_Slaanesh_Inv3.png
+
+#Missile Launchers
+
+      403: Resources/Items/Missile_Launcher/Missile_Launcher_Ammo_Inv1.png
+      404: Resources/Items/Missile_Launcher/Missile_Launcher_Ammo_Inv2.png
+      405: Resources/Items/Missile_Launcher/Missile_Launcher_Ammo_Inv3.png
+      406: Resources/Items/Missile_Launcher/Missile_Launcher_Ammo_Inv4.png
+
+      407: Resources/Items/Missile_Launcher/Missile_Launcher_PDF_Inv.png
+      408: Resources/Items/Missile_Launcher/Missile_Launcher_Chaos_Inv.png
+      409: Resources/Items/Missile_Launcher/Missile_Launcher_Khorne_Inv.png
+      410: Resources/Items/Missile_Launcher/Missile_Launcher_Nurgle_Inv.png
+      411: Resources/Items/Missile_Launcher/Missile_Launcher_Tzeentch_Inv.png
+      412: Resources/Items/Missile_Launcher/Missile_Launcher_Slaanesh_Inv.png
+
+#Flamers
+
+      413: Resources/Items/Flamer/Flamer_Ammo_Inv.png
+
+      414: Resources/Items/Flamer/Flamer_PDF_Inv0.png
+      415: Resources/Items/Flamer/Flamer_PDF_Inv1.png
+      416: Resources/Items/Flamer/Flamer_Tzeentch_Inv0.png
+      417: Resources/Items/Flamer/Flamer_Tzeentch_Inv1.png
+#      418: Resources/Items/
+#      419: Resources/Items/
+
+
+
+      420: Resources/Items/Webber/Webber_Ammo_Inv.png
+
+      421: Resources/Items/Webber/Webber_PDF_Inv0.png
+      422: Resources/Items/Webber/Webber_PDF_Inv1.png
+#      423: Resources/Items/Webber/Webber_Slaanesh_Inv0.png
+#      424: Resources/Items/Webber/Webber_Slaanesh_Inv1.png
+
+#Laspistols
+
+      425: Resources/Items/Laspistol/Laspistol_PDF_Inv.png
+      426: Resources/Items/Laspistol/Laspistol_Chaos_Inv.png
+      427: Resources/Items/Laspistol/Laspistol_Khorne_Inv.png
+      428: Resources/Items/Laspistol/Laspistol_Nurgle_Inv.png
+      429: Resources/Items/Laspistol/Laspistol_Tzeentch_Inv.png
+      430: Resources/Items/Laspistol/Laspistol_Slaanesh_Inv.png
+
+#Lasguns
+
+      431: Resources/Items/Lasgun/Lasgun_PDF_Inv.png
+      432: Resources/Items/Lasgun/Lasgun_Chaos_Inv.png
+      433: Resources/Items/Lasgun/Lasgun_Khorne_Inv.png
+      434: Resources/Items/Lasgun/Lasgun_Nurgle_Inv.png
+      435: Resources/Items/Lasgun/Lasgun_Tzeentch_Inv.png
+      436: Resources/Items/Lasgun/Lasgun_Slaanesh_Inv.png
+
+#Marksman Lasguns
+
+      437: Resources/Items/Marksman_Lasgun/Marksman_Lasgun_PDF_Inv.png
+      438: Resources/Items/Marksman_Lasgun/Marksman_Lasgun_PDF_Inv_Bipod.png
+      439: Resources/Items/Marksman_Lasgun/Marksman_Lasgun_Chaos_Inv.png
+      440: Resources/Items/Marksman_Lasgun/Marksman_Lasgun_Chaos_Inv_Bipod.png
+      441: Resources/Items/Marksman_Lasgun/Marksman_Lasgun_Khorne_Inv.png
+      442: Resources/Items/Marksman_Lasgun/Marksman_Lasgun_Khorne_Inv_Bipod.png
+      443: Resources/Items/Marksman_Lasgun/Marksman_Lasgun_Nurgle_Inv.png
+      444: Resources/Items/Marksman_Lasgun/Marksman_Lasgun_Nurgle_Inv_Bipod.png
+      445: Resources/Items/Marksman_Lasgun/Marksman_Lasgun_Tzeentch_Inv.png
+      446: Resources/Items/Marksman_Lasgun/Marksman_Lasgun_Tzeentch_Inv_Bipod.png
+      447: Resources/Items/Marksman_Lasgun/Marksman_Lasgun_Slaanesh_Inv.png
+      448: Resources/Items/Marksman_Lasgun/Marksman_Lasgun_Slaanesh_Inv_Bipod.png
+
+#Twin Lasguns
+
+      449: Resources/Items/Twin_Lasgun/Twin_Lasgun_PDF_Inv.png
+      450: Resources/Items/Twin_Lasgun/Twin_Lasgun_PDF_Inv_Bipod.png
+      451: Resources/Items/Twin_Lasgun/Twin_Lasgun_Chaos_Inv.png
+      452: Resources/Items/Twin_Lasgun/Twin_Lasgun_Chaos_Inv_Bipod.png
+      453: Resources/Items/Twin_Lasgun/Twin_Lasgun_Khorne_Inv.png
+      454: Resources/Items/Twin_Lasgun/Twin_Lasgun_Khorne_Inv_Bipod.png
+      455: Resources/Items/Twin_Lasgun/Twin_Lasgun_Nurgle_Inv.png
+      456: Resources/Items/Twin_Lasgun/Twin_Lasgun_Nurgle_Inv_Bipod.png
+      457: Resources/Items/Twin_Lasgun/Twin_Lasgun_Tzeentch_Inv.png
+      458: Resources/Items/Twin_Lasgun/Twin_Lasgun_Tzeentch_Inv_Bipod.png
+      459: Resources/Items/Twin_Lasgun/Twin_Lasgun_Slaanesh_Inv.png
+      460: Resources/Items/Twin_Lasgun/Twin_Lasgun_Slaanesh_Inv_Bipod.png
+
+#Hellpistols
+
+      461: Resources/Items/Hellpistol/Hellpistol_PDF_Inv.png
+      462: Resources/Items/Hellpistol/Hellpistol_Chaos_Inv.png
+      463: Resources/Items/Hellpistol/Hellpistol_Khorne_Inv.png
+      464: Resources/Items/Hellpistol/Hellpistol_Nurgle_Inv.png
+      465: Resources/Items/Hellpistol/Hellpistol_Tzeentch_Inv.png
+      466: Resources/Items/Hellpistol/Hellpistol_Slaanesh_Inv.png
+
+#Hellguns
+
+      467: Resources/Items/Hellgun/Hellgun_PDF_Inv.png
+      468: Resources/Items/Hellgun/Hellgun_Chaos_Inv.png
+      469: Resources/Items/Hellgun/Hellgun_Khorne_Inv.png
+      470: Resources/Items/Hellgun/Hellgun_Nurgle_Inv.png
+      471: Resources/Items/Hellgun/Hellgun_Tzeentch_Inv.png
+      472: Resources/Items/Hellgun/Hellgun_Slaanesh_Inv.png
+
+#Marksman Hellguns
+
+      473: Resources/Items/Marksman_Hellgun/Marksman_Hellgun_PDF_Inv.png
+      474: Resources/Items/Marksman_Hellgun/Marksman_Hellgun_PDF_Inv_Bipod.png
+      475: Resources/Items/Marksman_Hellgun/Marksman_Hellgun_Chaos_Inv.png
+      476: Resources/Items/Marksman_Hellgun/Marksman_Hellgun_Chaos_Inv_Bipod.png
+      477: Resources/Items/Marksman_Hellgun/Marksman_Hellgun_Khorne_Inv.png
+      478: Resources/Items/Marksman_Hellgun/Marksman_Hellgun_Khorne_Inv_Bipod.png
+      479: Resources/Items/Marksman_Hellgun/Marksman_Hellgun_Nurgle_Inv.png
+      480: Resources/Items/Marksman_Hellgun/Marksman_Hellgun_Nurgle_Inv_Bipod.png
+      481: Resources/Items/Marksman_Hellgun/Marksman_Hellgun_Tzeentch_Inv.png
+      482: Resources/Items/Marksman_Hellgun/Marksman_Hellgun_Tzeentch_Inv_Bipod.png
+      483: Resources/Items/Marksman_Hellgun/Marksman_Hellgun_Slaanesh_Inv.png
+      484: Resources/Items/Marksman_Hellgun/Marksman_Hellgun_Slaanesh_Inv_Bipod.png
+
+#Twin Hellguns
+
+      485: Resources/Items/Twin_Hellgun/Twin_Hellgun_PDF_Inv.png
+      486: Resources/Items/Twin_Hellgun/Twin_Hellgun_PDF_Inv_Bipod.png
+      487: Resources/Items/Twin_Hellgun/Twin_Hellgun_Chaos_Inv.png
+      488: Resources/Items/Twin_Hellgun/Twin_Hellgun_Chaos_Inv_Bipod.png
+      489: Resources/Items/Twin_Hellgun/Twin_Hellgun_Khorne_Inv.png
+      490: Resources/Items/Twin_Hellgun/Twin_Hellgun_Khorne_Inv_Bipod.png
+      491: Resources/Items/Twin_Hellgun/Twin_Hellgun_Nurgle_Inv.png
+      492: Resources/Items/Twin_Hellgun/Twin_Hellgun_Nurgle_Inv_Bipod.png
+      493: Resources/Items/Twin_Hellgun/Twin_Hellgun_Tzeentch_Inv.png
+      494: Resources/Items/Twin_Hellgun/Twin_Hellgun_Tzeentch_Inv_Bipod.png
+      495: Resources/Items/Twin_Hellgun/Twin_Hellgun_Slaanesh_Inv.png
+      496: Resources/Items/Twin_Hellgun/Twin_Hellgun_Slaanesh_Inv_Bipod.png
+
+#Bolt Pistols (Human-sized)
+
+      497: Resources/Items/Bolt_Pistol/Bolt_Pistol_Ammo_Inv.png
+      498: Resources/Items/Bolt_Pistol/Bolt_Pistol_PDF_Inv0.png
+      499: Resources/Items/Bolt_Pistol/Bolt_Pistol_PDF_Inv1.png
+      500: Resources/Items/Bolt_Pistol/Bolt_Pistol_Chaos_Inv0.png
+      501: Resources/Items/Bolt_Pistol/Bolt_Pistol_Chaos_Inv1.png
+      502: Resources/Items/Bolt_Pistol/Bolt_Pistol_Khorne_Inv0.png
+      503: Resources/Items/Bolt_Pistol/Bolt_Pistol_Khorne_Inv1.png
+      504: Resources/Items/Bolt_Pistol/Bolt_Pistol_Nurgle_Inv0.png
+      505: Resources/Items/Bolt_Pistol/Bolt_Pistol_Nurgle_Inv1.png
+      506: Resources/Items/Bolt_Pistol/Bolt_Pistol_Tzeentch_Inv0.png
+      507: Resources/Items/Bolt_Pistol/Bolt_Pistol_Tzeentch_Inv1.png
+      508: Resources/Items/Bolt_Pistol/Bolt_Pistol_Slaanesh_Inv0.png
+      509: Resources/Items/Bolt_Pistol/Bolt_Pistol_Slaanesh_Inv1.png
+
+#Boltguns (Human-sized)
+
+      510: Resources/Items/Boltgun/Boltgun_Ammo_Inv.png
+      511: Resources/Items/Boltgun/Boltgun_PDF_Inv0.png
+      512: Resources/Items/Boltgun/Boltgun_PDF_Inv1.png
+      513: Resources/Items/Boltgun/Boltgun_Chaos_Inv0.png
+      514: Resources/Items/Boltgun/Boltgun_Chaos_Inv1.png
+      515: Resources/Items/Boltgun/Boltgun_Khorne_Inv0.png
+      516: Resources/Items/Boltgun/Boltgun_Khorne_Inv1.png
+      517: Resources/Items/Boltgun/Boltgun_Nurgle_Inv0.png
+      518: Resources/Items/Boltgun/Boltgun_Nurgle_Inv1.png
+      519: Resources/Items/Boltgun/Boltgun_Tzeentch_Inv0.png
+      520: Resources/Items/Boltgun/Boltgun_Tzeentch_Inv1.png
+      521: Resources/Items/Boltgun/Boltgun_Slaanesh_Inv0.png
+      522: Resources/Items/Boltgun/Boltgun_Slaanesh_Inv1.png
+
+#Marksman Boltguns (Human-sized)
+
+      523: Resources/Items/Marksman_Boltgun/Marksman_Boltgun_PDF_Inv0.png
+      524: Resources/Items/Marksman_Boltgun/Marksman_Boltgun_PDF_Inv1.png
+      525: Resources/Items/Marksman_Boltgun/Marksman_Boltgun_Chaos_Inv0.png
+      526: Resources/Items/Marksman_Boltgun/Marksman_Boltgun_Chaos_Inv1.png
+      527: Resources/Items/Marksman_Boltgun/Marksman_Boltgun_Khorne_Inv0.png
+      528: Resources/Items/Marksman_Boltgun/Marksman_Boltgun_Khorne_Inv1.png
+      529: Resources/Items/Marksman_Boltgun/Marksman_Boltgun_Nurgle_Inv0.png
+      530: Resources/Items/Marksman_Boltgun/Marksman_Boltgun_Nurgle_Inv1.png
+      531: Resources/Items/Marksman_Boltgun/Marksman_Boltgun_Tzeentch_Inv0.png
+      532: Resources/Items/Marksman_Boltgun/Marksman_Boltgun_Tzeentch_Inv1.png
+      533: Resources/Items/Marksman_Boltgun/Marksman_Boltgun_Slaanesh_Inv0.png
+      534: Resources/Items/Marksman_Boltgun/Marksman_Boltgun_Slaanesh_Inv1.png
+#      535: Resources/Items/
+
+#Heavy Bolters (Human-sized)
+
+      536: Resources/Items/Heavy_Bolter/Heavy_Bolter_Ammo_Inv.png
+
+      537: Resources/Items/Heavy_Bolter/Heavy_Bolter_PDF_Inv0.png
+      538: Resources/Items/Heavy_Bolter/Heavy_Bolter_PDF_Inv0_Bipod.png
+      539: Resources/Items/Heavy_Bolter/Heavy_Bolter_PDF_Inv1.png
+      540: Resources/Items/Heavy_Bolter/Heavy_Bolter_PDF_Inv1_Bipod.png
+
+      541: Resources/Items/Heavy_Bolter/Heavy_Bolter_Chaos_Inv0.png
+      542: Resources/Items/Heavy_Bolter/Heavy_Bolter_Chaos_Inv0_Bipod.png
+      543: Resources/Items/Heavy_Bolter/Heavy_Bolter_Chaos_Inv1.png
+      544: Resources/Items/Heavy_Bolter/Heavy_Bolter_Chaos_Inv1_Bipod.png
+
+      545: Resources/Items/Heavy_Bolter/Heavy_Bolter_Khorne_Inv0.png
+      546: Resources/Items/Heavy_Bolter/Heavy_Bolter_Khorne_Inv0_Bipod.png
+      547: Resources/Items/Heavy_Bolter/Heavy_Bolter_Khorne_Inv1.png
+      548: Resources/Items/Heavy_Bolter/Heavy_Bolter_Khorne_Inv1_Bipod.png
+
+      549: Resources/Items/Heavy_Bolter/Heavy_Bolter_Nurgle_Inv0.png
+      550: Resources/Items/Heavy_Bolter/Heavy_Bolter_Nurgle_Inv0_Bipod.png
+      551: Resources/Items/Heavy_Bolter/Heavy_Bolter_Nurgle_Inv1.png
+      552: Resources/Items/Heavy_Bolter/Heavy_Bolter_Nurgle_Inv1_Bipod.png
+
+      553: Resources/Items/Heavy_Bolter/Heavy_Bolter_Tzeentch_Inv0.png
+      554: Resources/Items/Heavy_Bolter/Heavy_Bolter_Tzeentch_Inv0_Bipod.png
+      555: Resources/Items/Heavy_Bolter/Heavy_Bolter_Tzeentch_Inv1.png
+      556: Resources/Items/Heavy_Bolter/Heavy_Bolter_Tzeentch_Inv1_Bipod.png
+
+      557: Resources/Items/Heavy_Bolter/Heavy_Bolter_Slaanesh_Inv0.png
+      558: Resources/Items/Heavy_Bolter/Heavy_Bolter_Slaanesh_Inv0_Bipod.png
+      559: Resources/Items/Heavy_Bolter/Heavy_Bolter_Slaanesh_Inv1.png
+      560: Resources/Items/Heavy_Bolter/Heavy_Bolter_Slaanesh_Inv1_Bipod.png
+
+#Bolt Pistols (Astartes-sized)
+
+      561: Resources/Items/Bolt_Pistol/SM_Bolt_Pistol_Chaos_Inv0.png
+      562: Resources/Items/Bolt_Pistol/SM_Bolt_Pistol_Chaos_Inv1.png
+
+      563: Resources/Items/Bolt_Pistol/SM_Bolt_Pistol_Khorne_Inv0.png
+      564: Resources/Items/Bolt_Pistol/SM_Bolt_Pistol_Khorne_Inv1.png
+
+      565: Resources/Items/Bolt_Pistol/SM_Bolt_Pistol_Nurgle_Inv0.png
+      566: Resources/Items/Bolt_Pistol/SM_Bolt_Pistol_Nurgle_Inv1.png
+
+      567: Resources/Items/Bolt_Pistol/SM_Bolt_Pistol_Tzeentch_Inv0.png
+      568: Resources/Items/Bolt_Pistol/SM_Bolt_Pistol_Tzeentch_Inv1.png
+
+      569: Resources/Items/Bolt_Pistol/SM_Bolt_Pistol_Slaanesh_Inv0.png
+      570: Resources/Items/Bolt_Pistol/SM_Bolt_Pistol_Slaanesh_Inv1.png
+
+#Boltguns (Astartes-sized)
+
+      571: Resources/Items/Boltgun/SM_Boltgun_Chaos_Inv0.png
+      572: Resources/Items/Boltgun/SM_Boltgun_Chaos_Inv1.png
+
+      573: Resources/Items/Boltgun/SM_Boltgun_Khorne_Inv0.png
+      574: Resources/Items/Boltgun/SM_Boltgun_Khorne_Inv1.png
+
+      575: Resources/Items/Boltgun/SM_Boltgun_Nurgle_Inv0.png
+      576: Resources/Items/Boltgun/SM_Boltgun_Nurgle_Inv1.png
+
+      577: Resources/Items/Boltgun/SM_Boltgun_Tzeentch_Inv0.png
+      578: Resources/Items/Boltgun/SM_Boltgun_Tzeentch_Inv1.png
+
+      579: Resources/Items/Boltgun/SM_Boltgun_Slaanesh_Inv0.png
+      580: Resources/Items/Boltgun/SM_Boltgun_Slaanesh_Inv1.png
+
+#Storm Bolters (Astartes-sized)
+
+      581: Resources/Items/Storm_Bolter/Storm_Bolter_Ammo_Inv.png
+
+      582: Resources/Items/Storm_Bolter/SM_Storm_Bolter_Chaos_Inv0.png
+      583: Resources/Items/Storm_Bolter/SM_Storm_Bolter_Chaos_Inv1.png
+
+      584: Resources/Items/Storm_Bolter/SM_Storm_Bolter_Khorne_Inv0.png
+      585: Resources/Items/Storm_Bolter/SM_Storm_Bolter_Khorne_Inv1.png
+
+      586: Resources/Items/Storm_Bolter/SM_Storm_Bolter_Nurgle_Inv0.png
+      587: Resources/Items/Storm_Bolter/SM_Storm_Bolter_Nurgle_Inv1.png
+
+      588: Resources/Items/Storm_Bolter/SM_Storm_Bolter_Tzeentch_Inv0.png
+      589: Resources/Items/Storm_Bolter/SM_Storm_Bolter_Tzeentch_Inv1.png
+
+      590: Resources/Items/Storm_Bolter/SM_Storm_Bolter_Slaanesh_Inv0.png
+      591: Resources/Items/Storm_Bolter/SM_Storm_Bolter_Slaanesh_Inv1.png
+
+#Heavy Bolters (Astartes-sized)
+
+      592: Resources/Items/Heavy_Bolter/SM_Heavy_Bolter_Chaos_Inv0.png
+      593: Resources/Items/Heavy_Bolter/SM_Heavy_Bolter_Chaos_Inv1.png
+
+      594: Resources/Items/Heavy_Bolter/SM_Heavy_Bolter_Khorne_Inv0.png
+      595: Resources/Items/Heavy_Bolter/SM_Heavy_Bolter_Khorne_Inv1.png
+
+      596: Resources/Items/Heavy_Bolter/SM_Heavy_Bolter_Nurgle_Inv0.png
+      597: Resources/Items/Heavy_Bolter/SM_Heavy_Bolter_Nurgle_Inv1.png
+
+      598: Resources/Items/Heavy_Bolter/SM_Heavy_Bolter_Tzeentch_Inv0.png
+      599: Resources/Items/Heavy_Bolter/SM_Heavy_Bolter_Tzeentch_Inv1.png
+
+      600: Resources/Items/Heavy_Bolter/SM_Heavy_Bolter_Slaanesh_Inv0.png
+      601: Resources/Items/Heavy_Bolter/SM_Heavy_Bolter_Slaanesh_Inv1.png
+
+#Plasma Pistols (Human-sized)
+
+      602: Resources/Items/Plasma_Pistol/Plasma_Ammo_Inv.png
+
+      603: Resources/Items/Plasma_Pistol/Plasma_Pistol_PDF_Inv0.png
+      604: Resources/Items/Plasma_Pistol/Plasma_Pistol_PDF_Inv1.png
+
+      605: Resources/Items/Plasma_Pistol/Plasma_Pistol_Chaos_Inv0.png
+      606: Resources/Items/Plasma_Pistol/Plasma_Pistol_Chaos_Inv1.png
+
+      607: Resources/Items/Plasma_Pistol/Plasma_Pistol_Khorne_Inv0.png
+      608: Resources/Items/Plasma_Pistol/Plasma_Pistol_Khorne_Inv1.png
+
+      609: Resources/Items/Plasma_Pistol/Plasma_Pistol_Nurgle_Inv0.png
+      610: Resources/Items/Plasma_Pistol/Plasma_Pistol_Nurgle_Inv1.png
+
+      611: Resources/Items/Plasma_Pistol/Plasma_Pistol_Tzeentch_Inv0.png
+      612: Resources/Items/Plasma_Pistol/Plasma_Pistol_Tzeentch_Inv1.png
+
+      613: Resources/Items/Plasma_Pistol/Plasma_Pistol_Slaanesh_Inv0.png
+      614: Resources/Items/Plasma_Pistol/Plasma_Pistol_Slaanesh_Inv1.png
+
+#Plasma Guns (Human-sized)
+
+      615: Resources/Items/Plasma_Gun/Plasma_Gun_PDF_Inv0.png
+      616: Resources/Items/Plasma_Gun/Plasma_Gun_PDF_Inv1.png
+
+      617: Resources/Items/Plasma_Gun/Plasma_Gun_Chaos_Inv0.png
+      618: Resources/Items/Plasma_Gun/Plasma_Gun_Chaos_Inv1.png
+
+      619: Resources/Items/Plasma_Gun/Plasma_Gun_Khorne_Inv0.png
+      620: Resources/Items/Plasma_Gun/Plasma_Gun_Khorne_Inv1.png
+
+      621: Resources/Items/Plasma_Gun/Plasma_Gun_Nurgle_Inv0.png
+      622: Resources/Items/Plasma_Gun/Plasma_Gun_Nurgle_Inv1.png
+
+      623: Resources/Items/Plasma_Gun/Plasma_Gun_Tzeentch_Inv0.png
+      624: Resources/Items/Plasma_Gun/Plasma_Gun_Tzeentch_Inv1.png
+
+      625: Resources/Items/Plasma_Gun/Plasma_Gun_Slaanesh_Inv0.png
+      626: Resources/Items/Plasma_Gun/Plasma_Gun_Slaanesh_Inv1.png
+
+#Plasma Pistols (Astartes-sized)
+
+      627: Resources/Items/Plasma_Pistol/SM_Plasma_Pistol_Chaos_Inv0.png
+      628: Resources/Items/Plasma_Pistol/SM_Plasma_Pistol_Chaos_Inv1.png
+
+      629: Resources/Items/Plasma_Pistol/SM_Plasma_Pistol_Khorne_Inv0.png
+      630: Resources/Items/Plasma_Pistol/SM_Plasma_Pistol_Khorne_Inv1.png
+
+      631: Resources/Items/Plasma_Pistol/SM_Plasma_Pistol_Nurgle_Inv0.png
+      632: Resources/Items/Plasma_Pistol/SM_Plasma_Pistol_Nurgle_Inv1.png
+
+      633: Resources/Items/Plasma_Pistol/SM_Plasma_Pistol_Tzeentch_Inv0.png
+      634: Resources/Items/Plasma_Pistol/SM_Plasma_Pistol_Tzeentch_Inv1.png
+
+      635: Resources/Items/Plasma_Pistol/SM_Plasma_Pistol_Slaanesh_Inv0.png
+      636: Resources/Items/Plasma_Pistol/SM_Plasma_Pistol_Slaanesh_Inv1.png
+
+#Plasma Guns (Astartes-sized)
+
+      637: Resources/Items/Plasma_Gun/SM_Plasma_Gun_Chaos_Inv0.png
+      638: Resources/Items/Plasma_Gun/SM_Plasma_Gun_Chaos_Inv1.png
+
+      639: Resources/Items/Plasma_Gun/SM_Plasma_Gun_Khorne_Inv0.png
+      640: Resources/Items/Plasma_Gun/SM_Plasma_Gun_Khorne_Inv1.png
+
+      641: Resources/Items/Plasma_Gun/SM_Plasma_Gun_Nurgle_Inv0.png
+      642: Resources/Items/Plasma_Gun/SM_Plasma_Gun_Nurgle_Inv1.png
+
+      643: Resources/Items/Plasma_Gun/SM_Plasma_Gun_Tzeentch_Inv0.png
+      644: Resources/Items/Plasma_Gun/SM_Plasma_Gun_Tzeentch_Inv1.png
+
+      645: Resources/Items/Plasma_Gun/SM_Plasma_Gun_Slaanesh_Inv0.png
+      646: Resources/Items/Plasma_Gun/SM_Plasma_Gun_Slaanesh_Inv1.png
+
+#Meltaguns (Human-sized)
+
+      649: Resources/Items/Meltagun/Meltagun_Ammo_Inv.png
+
+      650: Resources/Items/Meltagun/Meltagun_PDF_Inv0.png
+      651: Resources/Items/Meltagun/Meltagun_PDF_Inv1.png
+
+      652: Resources/Items/Meltagun/Meltagun_Chaos_Inv0.png
+      653: Resources/Items/Meltagun/Meltagun_Chaos_Inv1.png
+
+      654: Resources/Items/Meltagun/Meltagun_Khorne_Inv0.png
+      655: Resources/Items/Meltagun/Meltagun_Khorne_Inv1.png
+
+      656: Resources/Items/Meltagun/Meltagun_Nurgle_Inv0.png
+      657: Resources/Items/Meltagun/Meltagun_Nurgle_Inv1.png
+
+      658: Resources/Items/Meltagun/Meltagun_Tzeentch_Inv0.png
+      659: Resources/Items/Meltagun/Meltagun_Tzeentch_Inv1.png
+
+      660: Resources/Items/Meltagun/Meltagun_Slaanesh_Inv0.png
+      661: Resources/Items/Meltagun/Meltagun_Slaanesh_Inv1.png
+
+#Meltaguns (Astartes-sized)
+
+      662: Resources/Items/Meltagun/SM_Meltagun_Chaos_Inv0.png
+      663: Resources/Items/Meltagun/SM_Meltagun_Chaos_Inv1.png
+
+      664: Resources/Items/Meltagun/SM_Meltagun_Khorne_Inv0.png
+      665: Resources/Items/Meltagun/SM_Meltagun_Khorne_Inv1.png
+
+      666: Resources/Items/Meltagun/SM_Meltagun_Nurgle_Inv0.png
+      667: Resources/Items/Meltagun/SM_Meltagun_Nurgle_Inv1.png
+
+      668: Resources/Items/Meltagun/SM_Meltagun_Tzeentch_Inv0.png
+      669: Resources/Items/Meltagun/SM_Meltagun_Tzeentch_Inv1.png
+
+      670: Resources/Items/Meltagun/SM_Meltagun_Slaanesh_Inv0.png
+      671: Resources/Items/Meltagun/SM_Meltagun_Slaanesh_Inv1.png
+
+#Shock Maul
+
+      672: Resources/Items/Shock_Maul/Shock_Maul_PDF_Inv.png
+
+#Combat Knives (Human-sized)
+
+      673: Resources/Items/Combat_Knife/Combat_Knife_PDF_Inv.png
+      674: Resources/Items/Combat_Knife/Combat_Knife_Chaos_Inv.png
+      675: Resources/Items/Combat_Knife/Combat_Knife_Khorne_Inv.png
+      676: Resources/Items/Combat_Knife/Combat_Knife_Nurgle_Inv.png
+      677: Resources/Items/Combat_Knife/Combat_Knife_Tzeentch_Inv.png
+      678: Resources/Items/Combat_Knife/Combat_Knife_Slaanesh_Inv.png
+
+#      679: Resources/Items/
+#      680: Resources/Items/
+#      681: Resources/Items/
+#      682: Resources/Items/
+#      683: Resources/Items/
+
+#Swords
+
+      684: Resources/Items/Sword/Sword_PDF_Inv.png
+      685: Resources/Items/Sword/Sword_Chaos_Inv.png
+      686: Resources/Items/Sword/Sword_Khorne_Inv.png
+      687: Resources/Items/Sword/Sword_Nurgle_Inv.png
+      688: Resources/Items/Sword/Sword_Tzeentch_Inv.png
+      689: Resources/Items/Sword/Sword_Slaanesh_Inv.png
+
+#Combat Axe
+
+      690: Resources/Items/Combat_Axe/Combat_Axe_Khorne_Inv.png
+
+#      691: Resources/Items/
+#      692: Resources/Items/
+#      693: Resources/Items/
+#      694: Resources/Items/
+#      695: Resources/Items/
+#      696: Resources/Items/
+
+#Chainswords (Human-sized)
+
+      697: Resources/Items/Chainsword/Chainsword_PDF_Inv.png
+      698: Resources/Items/Chainsword/Chainsword_Chaos_Inv.png
+      699: Resources/Items/Chainsword/Chainsword_Khorne_Inv.png
+      700: Resources/Items/Chainsword/Chainsword_Nurgle_Inv.png
+      701: Resources/Items/Chainsword/Chainsword_Tzeentch_Inv.png
+      702: Resources/Items/Chainsword/Chainsword_Slaanesh_Inv.png
+
+#Chainswords (Astartes-sized)
+
+      703: Resources/Items/Chainsword/SM_Chainsword_Chaos_Inv.png
+      704: Resources/Items/Chainsword/SM_Chainsword_Khorne_Inv.png
+      705: Resources/Items/Chainsword/SM_Chainsword_Nurgle_Inv.png
+      706: Resources/Items/Chainsword/SM_Chainsword_Tzeentch_Inv.png
+      707: Resources/Items/Chainsword/SM_Chainsword_Slaanesh_Inv.png
+
+#Chainaxe (Human-sized)
+
+      708: Resources/Items/Chainaxe/Chainaxe_Khorne_Inv.png
+
+#Chainaxe (Astartes-sized)
+
+      709: Resources/Items/Chainaxe/SM_Chainaxe_Khorne_Inv.png
+
+#      710: Resources/Items/
+#      711: Resources/Items/
+#      712: Resources/Items/
+#      713: Resources/Items/
+#      714: Resources/Items/
+#      715: Resources/Items/
+
+#Power Swords (Human-sized)
+
+      716: Resources/Items/Power_Sword/Power_Sword_PDF_Inv.png
+      717: Resources/Items/Power_Sword/Power_Sword_Chaos_Inv.png
+      718: Resources/Items/Power_Sword/Power_Sword_Khorne_Inv.png
+      719: Resources/Items/Power_Sword/Power_Sword_Nurgle_Inv.png
+      720: Resources/Items/Power_Sword/Power_Sword_Tzeentch_Inv.png
+      721: Resources/Items/Power_Sword/Power_Sword_Slaanesh_Inv.png
+
+#Power Swords (Astartes-sized)
+
+      722: Resources/Items/Power_Sword/SM_Power_Sword_Chaos_Inv.png
+      723: Resources/Items/Power_Sword/SM_Power_Sword_Khorne_Inv.png
+      724: Resources/Items/Power_Sword/SM_Power_Sword_Nurgle_Inv.png
+      725: Resources/Items/Power_Sword/SM_Power_Sword_Tzeentch_Inv.png
+      726: Resources/Items/Power_Sword/SM_Power_Sword_Slaanesh_Inv.png
+
+
+#Power Axe (Astartes-sized)
+
+      727: Resources/Items/Power_Axe/SM_Power_Axe_Khorne_Inv.png
+
+#Force Staffs
+      728: Resources/Items/Force_Staff/Force_Staff_PDF_Inv.png
+      729: Resources/Items/Force_Staff/Force_Staff_Chaos_Inv.png
+
+
+
+#Throwing Weapons
+
+      1000: Resources/Items/Frag_Grenade/Frag_Grenade_Inv.png
+      1001: Resources/Items/Krak_Grenade/Krak_Grenade_Inv.png
+      1002: Resources/Items/Proximity_Grenade/Proximity_Grenade_Inv.png
+      1003: Resources/Items/Incendiary_Grenade/Incendiary_Grenade_Inv.png
+      1004: Resources/Items/Smoke_Grenade/Smoke_Grenade_Inv.png
+      1005: Resources/Items/Stun_Grenade/Stun_Grenade_Inv.png
+      1006: Resources/Items/Demolition_Charge/Demolition_Charge_Inv.png
+      1007: Resources/Items/Melta_Bomb/Melta_Bomb_Inv.png
+#      1007: Resources/Items/
+#      1008: Resources/Items/
+#      1009: Resources/Items/
+
+#Utility Items
+
+      1010: Resources/Items/Motion_Scanner/Motion_Scanner_Inv.png
+      1011: Resources/Items/Analyzer/Analyzer_Inv.png
+      1012: Resources/Items/Medi-Kit/Medi-Kit_Inv.png
+      1013: Resources/Items/Glow_Stick/Glow_Stick_Inv.png
+      1014: Resources/Items/Fire_Extinguisher/Fire_Extinguisher_Inv.png
+#      1015: Resources/Items/
+#      1016: Resources/Items/
+#      1017: Resources/Items/
+#      1018: Resources/Items/
+#      1019: Resources/Items/
+#      1020: Resources/Items/
+
+#PDF Units Corpses (2000 - 2199)
+
+      2000: Resources/Armors/PDF/Soldier_Uniform/Soldier_Uniform_Corpse_Inv.png
+      2001: Resources/Armors/PDF/Soldier_Flak_Armor/Soldier_Flak_Armor_Corpse_Inv.png
+      2002: Resources/Armors/PDF/Soldier_Assault_Flak_Armor/Soldier_Assault_Flak_Armor_Corpse_Inv.png
+      2003: Resources/Armors/PDF/Soldier_Carapace/Soldier_Carapace_Corpse_Inv.png
+      2004: Resources/Armors/PDF/Soldier_Assault_Carapace/Soldier_Assault_Carapace_Corpse_Inv.png
+      2005: Resources/Armors/PDF/Soldier_Heavy_Carapace/Soldier_Heavy_Carapace_Corpse_Inv.png
+#      ...
+
+      2010: Resources/Armors/PDF/Sergeant_Uniform/Sergeant_Uniform_Corpse_Inv.png
+      2011: Resources/Armors/PDF/Sergeant_Flak_Armor/Sergeant_Flak_Armor_Corpse_Inv.png
+      2012: Resources/Armors/PDF/Sergeant_Assault_Flak_Armor/Sergeant_Assault_Flak_Armor_Corpse_Inv.png
+      2013: Resources/Armors/PDF/Sergeant_Carapace/Sergeant_Carapace_Corpse_Inv.png
+      2014: Resources/Armors/PDF/Sergeant_Assault_Carapace/Sergeant_Assault_Carapace_Corpse_Inv.png
+      2015: Resources/Armors/PDF/Sergeant_Heavy_Carapace/Sergeant_Heavy_Carapace_Corpse_Inv.png
+#      ...
+
+      2020: Resources/Armors/PDF/Officer_Uniform/Officer_Uniform_Corpse_Inv.png
+      2021: Resources/Armors/PDF/Officer_Flak_Armor/Officer_Flak_Armor_Corpse_Inv.png
+      2022: Resources/Armors/PDF/Officer_Assault_Flak_Armor/Officer_Assault_Flak_Armor_Corpse_Inv.png
+      2023: Resources/Armors/PDF/Officer_Carapace/Officer_Carapace_Corpse_Inv.png
+      2024: Resources/Armors/PDF/Officer_Assault_Carapace/Officer_Assault_Carapace_Corpse_Inv.png
+      2025: Resources/Armors/PDF/Officer_Heavy_Carapace/Officer_Heavy_Carapace_Corpse_Inv.png
+#      ...
+
+
+      2030: Resources/Armors/PDF/Psyker_Uniform/Psyker_Uniform_Corpse_Inv.png
+      2031: Resources/Armors/PDF/Psyker_Flak_Armor/Psyker_Flak_Armor_Corpse_Inv.png
+      2032: Resources/Armors/PDF/Psyker_Carapace/Psyker_Carapace_Corpse_Inv.png
+#      ...
+
+
+#Chaos Units Corpses (2200 - ????)
+
+      2200: Resources/Armors/Chaos_Cultists/Cultist_Armor/Chaos_Cultist_Armor_Corpse_Inv.png
+      2201: Resources/Armors/Chaos_Cultists/Cultist_Leader_Armor/Chaos_Cultist_Leader_Armor_Corpse_Inv.png
+
+      2202: Resources/Armors/Chaos_Warriors/Warrior_Armor/Chaos_Warrior_Armor_Corpse_Inv.png
+      2203: Resources/Armors/Chaos_Warriors/Shock_Trooper_Armor/Chaos_Warrior_Shock_Trooper_Armor_Corpse_Inv.png
+      2204: Resources/Armors/Chaos_Warriors/Squad_Leader_Armor/Chaos_Warrior_Squad_Leader_Armor_Corpse_Inv.png
+      2205: Resources/Armors/Chaos_Warriors/Psyker_Armor/Chaos_Warrior_Psyker_Armor_Corpse_Inv.png
 
 
 ## FLOOR SPRITES
   - type: FLOOROB.PCK
     files:
-#100 - 199 - corpses
-      100: Resources/Armors/Arbites/Arbites_Armor/Arbites_Armor_Corpse_Floor.png
-#      101: ...
-#      102: ...
-#      103: ...
-#      104: ...
-      105: Resources/Armors/Cultists/Cultist_Clothes/Male0/Cultist_Clothes_Male0_Corpse_Floor.png
-      106: Resources/Armors/Cultists/Cultist_Clothes/Female0/Cultist_Clothes_Female0_Corpse_Floor.png
-      107: Resources/Armors/Cultists/Cultist_Clothes/Male1/Cultist_Clothes_Male1_Corpse_Floor.png
-      108: Resources/Armors/Cultists/Cultist_Clothes/Female1/Cultist_Clothes_Female1_Corpse_Floor.png
-      109: Resources/Armors/Cultists/Cultist_Clothes/Male2/Cultist_Clothes_Male2_Corpse_Floor.png
-      110: Resources/Armors/Cultists/Cultist_Clothes/Female2/Cultist_Clothes_Female2_Corpse_Floor.png
+#
+#
 
-      111: Resources/Armors/Cultists/Cultist_Armor/Male0/Cultist_Armor_Male0_Corpse_Floor.png
-      112: Resources/Armors/Cultists/Cultist_Armor/Female0/Cultist_Armor_Female0_Corpse_Floor.png
-      113: Resources/Armors/Cultists/Cultist_Armor/Male1/Cultist_Armor_Male1_Corpse_Floor.png
-      114: Resources/Armors/Cultists/Cultist_Armor/Female1/Cultist_Armor_Female1_Corpse_Floor.png
-      115: Resources/Armors/Cultists/Cultist_Armor/Male2/Cultist_Armor_Male2_Corpse_Floor.png
-      116: Resources/Armors/Cultists/Cultist_Armor/Female2/Cultist_Armor_Female2_Corpse_Floor.png
-
-      117: Resources/Armors/Cultists/Cultist_Heavy_Armor/Male0/Cultist_Heavy_Armor_Male0_Corpse_Floor.png
-      118: Resources/Armors/Cultists/Cultist_Heavy_Armor/Male1/Cultist_Heavy_Armor_Male1_Corpse_Floor.png
-      119: Resources/Armors/Cultists/Cultist_Heavy_Armor/Male2/Cultist_Heavy_Armor_Male2_Corpse_Floor.png
 
 #200 - 299 Reserved for special needs
-      201: Resources/Items/Generic/Null_Item/Invisible_Item_Floor.png
-      299: Resources/Items/Generic/Debug_Gun/Debug_Gun_Floor.png
-
-#300 - 499 Ammo
-      300: Resources/Items/Ammo/Autopistol_Ammo/Autopistol_Magazine_Floor.png
-      301: Resources/Items/Ammo/Autogun_Ammo/Autogun_Magazine_Floor.png
-      302: Resources/Items/Ammo/Heavy_Stubber_Ammo/Heavy_Stubber_Belt_Floor.png
-      303: Resources/Items/Ammo/Shotgun_Ammo/Shotgun_Shells_Floor.png
-      304: Resources/Items/Ammo/Shotgun_Ammo/Shotgun_Slugs_Floor.png
-      305: Resources/Items/Ammo/Sniper_Rifle_Ammo/Sniper_Rifle_Magazine_Floor.png
-      306: Resources/Items/Ammo/Boltpistol_Ammo/Boltpistol_Magazine_Floor.png
-#      307: ...
-#      308: ...
-      309: Resources/Items/Ammo/Boltgun_Ammo/Boltgun_Magazine_Floor.png
-#      310: ...
-#      311: ...
-      312: Resources/Items/Ammo/Grenade_Launcher_Ammo/Frag_Grenade_Pack_Floor.png
-      313: Resources/Items/Ammo/Grenade_Launcher_Ammo/Krak_Grenade_Pack_Floor.png
-      314: Resources/Items/Ammo/Grenade_Launcher_Ammo/Smoke_Grenade_Round_Floor.png
-      315: Resources/Items/Ammo/Grenade_Launcher_Ammo/Stun_Grenade_Round_Floor.png
-      316: Resources/Items/Ammo/Flamer_Ammo/Flamer_Fuel_Floor.png
-
-
-
-#500 + Weapons and other stuff
-      500: Resources/Items/Arbites/Autopistol_Arbites/Autopistol_Arbites_Floor.png
-#      501: ...
-      502: Resources/Items/Arbites/Autogun_Arbites/Autogun_Arbites_Floor.png
-#      503: ...
-      504: Resources/Items/Arbites/Heavy_Stubber_Arbites/Heavy_Stubber_Arbites_Floor.png
-#      505: ...
-#      506: ...
-#      507: ...
-      508: Resources/Items/Arbites/Shotgun_Arbites/Shotgun_Arbites_Floor.png
-      509: Resources/Items/Arbites/Sniper_Rifle_Arbites/Sniper_Rifle_Arbites_Floor.png
-#      510: ...
-      511: Resources/Items/Arbites/Boltpistol_Arbites/Boltpistol_Arbites_Floor.png
-#      512: ...
-#      513: ...
-#      514: ...
-      515: Resources/Items/Arbites/Boltgun_Arbites/Boltgun_Arbites_Floor.png
-#      516: ...
-#      517: ...
-#      518: ...
-      519: Resources/Items/Arbites/Grenade_Launcher_Arbites/Grenade_Launcher_Arbites_Floor.png
-      520: Resources/Items/Arbites/Shock_Maul_Arbites/Shock_Maul_Arbites_Floor.png
-      521: Resources/Items/Arbites/Power_Maul_Arbites/Power_Maul_Arbites_Floor.png
-      522: Resources/Items/Arbites/Suppression_Shield/Suppression_Shield_Floor.png
-
-      523: Resources/Items/Generic/Frag_Grenade/Frag_Grenade_Floor.png
-      524: Resources/Items/Generic/Krak_Grenade/Krak_Grenade_Floor.png
-      525: Resources/Items/Generic/Smoke_Grenade/Smoke_Grenade_Floor.png
-      526: Resources/Items/Generic/Stun_Grenade/Stun_Grenade_Floor.png
-      527: Resources/Items/Generic/First_Aid_Kit/First_Aid_Kit_Floor.png
-      528: Resources/Items/Generic/Auspex/Auspex_Floor.png
-      529: Resources/Items/Generic/Fire_Extinguisher/Fire_Extinguisger_Floor.png
-      530: Resources/Items/Generic/Glow_Stick/Glow_Stick_Floor.png      
-      531: Resources/Items/Generic/Electro_Flare/Electro_Flare_Floor.png
-      532: Resources/Items/Generic/Autopistol_Generic1/Autopistol_Generic1_Floor.png
-#      533: ...
-      534: Resources/Items/Generic/Autopistol_Generic2/Autopistol_Generic2_Floor.png
-#      535: ...
-      536: Resources/Items/Generic/Autopistol_Generic3/Autopistol_Generic3_Floor.png
-#      537: ...
-      538: Resources/Items/Generic/Autogun_Generic1/Autogun_Generic1_Floor.png
-#      539: ...
-      540: Resources/Items/Generic/Autogun_Generic2/Autogun_Generic2_Floor.png
-#      541: ...
-      542: Resources/Items/Generic/Autogun_Generic3/Autogun_Generic3_Floor.png
-#      543: ...
-      544: Resources/Items/Generic/Autogun_Generic4/Autogun_Generic4_Floor.png
-#      545: ...
-      546: Resources/Items/Generic/Autogun_Generic5/Autogun_Generic5_Floor.png
-#      547: ...
-      548: Resources/Items/Generic/Heavy_Stubber_Generic1/Heavy_Stubber_Generic1_Floor.png
-#      549: ...
-#      550: ...
-#      551: ...
-      552: Resources/Items/Generic/Heavy_Stubber_Generic2/Heavy_Stubber_Generic2_Floor.png
-#      553: ...
-#      554: ...
-#      555: ...
-
-      556: Resources/Items/Generic/Shotgun_Generic1/Shotgun_Generic1_Floor.png
-      557: Resources/Items/Generic/Shotgun_Generic2/Shotgun_Generic2_Floor.png
-      558: Resources/Items/Generic/Shotgun_Generic3/Shotgun_Generic3_Floor.png
-      559: Resources/Items/Generic/Shotgun_Generic4/Shotgun_Generic4_Floor.png
+      200: Resources/Items/Special_Items/Invisible_Item_Floor.png
 
 
 
 
-# +1000 temporary
+#300 -   Weapons, ammo and other stuff
+#Autopistols
+      300: Resources/Items/Autopistol/Autopistol_Ammo_Floor.png
+      301: Resources/Items/Autopistol/Autopistol_PDF_Floor.png
+      302: Resources/Items/Autopistol/Autopistol_Chaos_Floor.png
+      303: Resources/Items/Autopistol/Autopistol_Khorne_Floor.png
+      304: Resources/Items/Autopistol/Autopistol_Nurgle_Floor.png
+      305: Resources/Items/Autopistol/Autopistol_Tzeentch_Floor.png
+      306: Resources/Items/Autopistol/Autopistol_Slaanesh_Floor.png
 
-      1532: Resources/Items/Renegades/Autopistol_Renegade/Autopistol_Renegade_Floor.png
-#      533: ...
-      1534: Resources/Items/Renegades/Autogun_Renegade/Autogun_Renegade_Floor.png
-#      535: ...
-      1536: Resources/Items/Renegades/Heavy_Stubber_Renegade/Heavy_Stubber_Renegade_Floor.png
-#      537: ...
-      1538: Resources/Items/Renegades/Shotgun_Renagade/Shotgun_Renagade_Floor.png
-      1539: Resources/Items/Renegades/Boltpistol_Renegade/Boltpistol_Renegade_Floor.png
-#      540: ...
-#      541: ...
-#      542: ...
-      1543: Resources/Items/Renegades/Boltgun_Renegade/Boltgun_Renegade_Floor.png
-#      544: ...
-#      545: ...
-#      546: ...
-      1547: Resources/Items/Renegades/Flamer_Renegade/Flamer_Renegade_Floor.png
-#      548: ...
-#      549: ...
-#      550: ...
-      1551: Resources/Items/Renegades/Improvised_Mace/Improvised_Mace_Floor.png
-      1552: Resources/Items/Renegades/Improvised_Sword/Improvised_Sword_Floor.png
+#Autoguns
+
+      307: Resources/Items/Autogun/Autogun_Ammo_Floor.png
+      308: Resources/Items/Autogun/Autogun_PDF_Floor.png
+      309: Resources/Items/Autogun/Autogun_Chaos_Floor.png
+      310: Resources/Items/Autogun/Autogun_Khorne_Floor.png
+      311: Resources/Items/Autogun/Autogun_Nurgle_Floor.png
+      312: Resources/Items/Autogun/Autogun_Tzeentch_Floor.png
+      313: Resources/Items/Autogun/Autogun_Slaanesh_Floor.png
+
+#Marksman Autoguns
+
+      314: Resources/Items/Marksman_Autogun/Marksman_Autogun_PDF_Floor.png
+      315: Resources/Items/Marksman_Autogun/Marksman_Autogun_Chaos_Floor.png
+      316: Resources/Items/Marksman_Autogun/Marksman_Autogun_Khorne_Floor.png
+      317: Resources/Items/Marksman_Autogun/Marksman_Autogun_Nurgle_Floor.png
+      318: Resources/Items/Marksman_Autogun/Marksman_Autogun_Tzeentch_Floor.png
+      319: Resources/Items/Marksman_Autogun/Marksman_Autogun_Slaanesh_Floor.png
+
+#Heavy Stubbers
+
+      320: Resources/Items/Heavy_Stubber/Heavy_Stubber_Ammo_Floor.png
+      321: Resources/Items/Heavy_Stubber/Heavy_Stubber_PDF_Floor.png
+      322: Resources/Items/Heavy_Stubber/Heavy_Stubber_Chaos_Floor.png
+      323: Resources/Items/Heavy_Stubber/Heavy_Stubber_Khorne_Floor.png
+      324: Resources/Items/Heavy_Stubber/Heavy_Stubber_Nurgle_Floor.png
+      325: Resources/Items/Heavy_Stubber/Heavy_Stubber_Tzeentch_Floor.png
+      326: Resources/Items/Heavy_Stubber/Heavy_Stubber_Slaanesh_Floor.png
+
+#Grenade Launchers
+
+      327: Resources/Items/Grenade_Launcher/Grenade_Launcher_Ammo_Floor.png
+      328: Resources/Items/Grenade_Launcher/Grenade_Launcher_PDF_Floor.png
+      329: Resources/Items/Grenade_Launcher/Grenade_Launcher_Chaos_Floor.png
+      330: Resources/Items/Grenade_Launcher/Grenade_Launcher_Khorne_Floor.png
+      331: Resources/Items/Grenade_Launcher/Grenade_Launcher_Nurgle_Floor.png
+      332: Resources/Items/Grenade_Launcher/Grenade_Launcher_Tzeentch_Floor.png
+      333: Resources/Items/Grenade_Launcher/Grenade_Launcher_Slaanesh_Floor.png
+
+#Missile Launchers
+
+      334: Resources/Items/Missile_Launcher/Missile_Launcher_Ammo_Floor.png
+      335: Resources/Items/Missile_Launcher/Missile_Launcher_PDF_Floor.png
+      336: Resources/Items/Missile_Launcher/Missile_Launcher_Chaos_Floor.png
+      337: Resources/Items/Missile_Launcher/Missile_Launcher_Khorne_Floor.png
+      338: Resources/Items/Missile_Launcher/Missile_Launcher_Nurgle_Floor.png
+      339: Resources/Items/Missile_Launcher/Missile_Launcher_Tzeentch_Floor.png
+      340: Resources/Items/Missile_Launcher/Missile_Launcher_Slaanesh_Floor.png
+
+#Flamers
+
+      341: Resources/Items/Flamer/Flamer_Ammo_Floor.png
+      342: Resources/Items/Flamer/Flamer_PDF_Floor.png
+      343: Resources/Items/Flamer/Flamer_Tzeentch_Floor.png
+#      344: Resources/Items/
+#      345: Resources/Items/
+#      346: Resources/Items/
+      347: Resources/Items/Webber/Webber_Ammo_Floor.png
+      358: Resources/Items/Webber/Webber_PDF_Floor.png
+#      359: Resources/Items/
+
+#Laspistols
+
+      360: Resources/Items/Laspistol/Laspistol_PDF_Floor.png
+      361: Resources/Items/Laspistol/Laspistol_Chaos_Floor.png
+      362: Resources/Items/Laspistol/Laspistol_Khorne_Floor.png
+      363: Resources/Items/Laspistol/Laspistol_Nurgle_Floor.png
+      364: Resources/Items/Laspistol/Laspistol_Tzeentch_Floor.png
+      365: Resources/Items/Laspistol/Laspistol_Slaanesh_Floor.png
+
+#Lasguns
+
+      366: Resources/Items/Lasgun/Lasgun_PDF_Floor.png
+      367: Resources/Items/Lasgun/Lasgun_Chaos_Floor.png
+      368: Resources/Items/Lasgun/Lasgun_Khorne_Floor.png
+      369: Resources/Items/Lasgun/Lasgun_Nurgle_Floor.png
+      370: Resources/Items/Lasgun/Lasgun_Tzeentch_Floor.png
+      371: Resources/Items/Lasgun/Lasgun_Slaanesh_Floor.png
+
+#Sniper Lasguns
+
+      372: Resources/Items/Marksman_Lasgun/Marksman_Lasgun_PDF_Floor.png
+      373: Resources/Items/Marksman_Lasgun/Marksman_Lasgun_Chaos_Floor.png
+      374: Resources/Items/Marksman_Lasgun/Marksman_Lasgun_Khorne_Floor.png
+      375: Resources/Items/Marksman_Lasgun/Marksman_Lasgun_Nurgle_Floor.png
+      376: Resources/Items/Marksman_Lasgun/Marksman_Lasgun_Tzeentch_Floor.png
+      377: Resources/Items/Marksman_Lasgun/Marksman_Lasgun_Slaanesh_Floor.png
+
+#Twin Lasguns
+
+      378: Resources/Items/Twin_Lasgun/Twin_Lasgun_PDF_Floor.png
+      379: Resources/Items/Twin_Lasgun/Twin_Lasgun_Chaos_Floor.png
+      380: Resources/Items/Twin_Lasgun/Twin_Lasgun_Khorne_Floor.png
+      381: Resources/Items/Twin_Lasgun/Twin_Lasgun_Nurgle_Floor.png
+      382: Resources/Items/Twin_Lasgun/Twin_Lasgun_Tzeentch_Floor.png
+      383: Resources/Items/Twin_Lasgun/Twin_Lasgun_Slaanesh_Floor.png
+
+#Hellpistols
+
+      384: Resources/Items/Hellpistol/Hellpistol_PDF_Floor.png
+      385: Resources/Items/Hellpistol/Hellpistol_Chaos_Floor.png
+      386: Resources/Items/Hellpistol/Hellpistol_Khorne_Floor.png
+      387: Resources/Items/Hellpistol/Hellpistol_Nurgle_Floor.png
+      388: Resources/Items/Hellpistol/Hellpistol_Tzeentch_Floor.png
+      389: Resources/Items/Hellpistol/Hellpistol_Slaanesh_Floor.png
+
+#Hellguns
+
+      390: Resources/Items/Hellgun/Hellgun_PDF_Floor.png
+      391: Resources/Items/Hellgun/Hellgun_Chaos_Floor.png
+      392: Resources/Items/Hellgun/Hellgun_Khorne_Floor.png
+      393: Resources/Items/Hellgun/Hellgun_Nurgle_Floor.png
+      394: Resources/Items/Hellgun/Hellgun_Tzeentch_Floor.png
+      395: Resources/Items/Hellgun/Hellgun_Slaanesh_Floor.png
+
+#Marksman Hellguns
+
+      396: Resources/Items/Marksman_Hellgun/Marksman_Hellgun_PDF_Floor.png
+      397: Resources/Items/Marksman_Hellgun/Marksman_Hellgun_Chaos_Floor.png
+      398: Resources/Items/Marksman_Hellgun/Marksman_Hellgun_Khorne_Floor.png
+      399: Resources/Items/Marksman_Hellgun/Marksman_Hellgun_Nurgle_Floor.png
+      400: Resources/Items/Marksman_Hellgun/Marksman_Hellgun_Tzeentch_Floor.png
+      401: Resources/Items/Marksman_Hellgun/Marksman_Hellgun_Slaanesh_Floor.png
+
+#Twin Hellguns
+
+      402: Resources/Items/Twin_Hellgun/Twin_Hellgun_PDF_Floor.png
+      403: Resources/Items/Twin_Hellgun/Twin_Hellgun_Chaos_Floor.png
+      404: Resources/Items/Twin_Hellgun/Twin_Hellgun_Khorne_Floor.png
+      405: Resources/Items/Twin_Hellgun/Twin_Hellgun_Nurgle_Floor.png
+      406: Resources/Items/Twin_Hellgun/Twin_Hellgun_Tzeentch_Floor.png
+      407: Resources/Items/Twin_Hellgun/Twin_Hellgun_Slaanesh_Floor.png
+
+#Bolt Pistols (Human-sized)
+
+      408: Resources/Items/Bolt_Pistol/Bolt_Pistol_Ammo_Floor.png
+      409: Resources/Items/Bolt_Pistol/Bolt_Pistol_PDF_Floor.png
+      410: Resources/Items/Bolt_Pistol/Bolt_Pistol_Chaos_Floor.png
+      411: Resources/Items/Bolt_Pistol/Bolt_Pistol_Khorne_Floor.png
+      412: Resources/Items/Bolt_Pistol/Bolt_Pistol_Nurgle_Floor.png
+      413: Resources/Items/Bolt_Pistol/Bolt_Pistol_Tzeentch_Floor.png
+      414: Resources/Items/Bolt_Pistol/Bolt_Pistol_Slaanesh_Floor.png
+
+#Boltguns (Human-sized)
+
+      415: Resources/Items/Boltgun/Boltgun_Ammo_Floor.png
+      416: Resources/Items/Boltgun/Boltgun_PDF_Floor.png
+      417: Resources/Items/Boltgun/Boltgun_Chaos_Floor.png
+      418: Resources/Items/Boltgun/Boltgun_Khorne_Floor.png
+      419: Resources/Items/Boltgun/Boltgun_Nurgle_Floor.png
+      420: Resources/Items/Boltgun/Boltgun_Tzeentch_Floor.png
+      421: Resources/Items/Boltgun/Boltgun_Slaanesh_Floor.png
+
+#Marksman Boltguns (Human-sized)
+
+      422: Resources/Items/Marksman_Boltgun/Marksman_Boltgun_PDF_Floor.png
+      423: Resources/Items/Marksman_Boltgun/Marksman_Boltgun_Chaos_Floor.png
+      424: Resources/Items/Marksman_Boltgun/Marksman_Boltgun_Khorne_Floor.png
+      425: Resources/Items/Marksman_Boltgun/Marksman_Boltgun_Nurgle_Floor.png
+      426: Resources/Items/Marksman_Boltgun/Marksman_Boltgun_Tzeentch_Floor.png
+      427: Resources/Items/Marksman_Boltgun/Marksman_Boltgun_Slaanesh_Floor.png
+#      ???: Resources/Items/
+
+#Heavy Bolters (Human-sized)
+
+      429: Resources/Items/Heavy_Bolter/Heavy_Bolter_Ammo_Floor.png
+      430: Resources/Items/Heavy_Bolter/Heavy_Bolter_PDF_Floor.png
+      431: Resources/Items/Heavy_Bolter/Heavy_Bolter_Chaos_Floor.png
+      432: Resources/Items/Heavy_Bolter/Heavy_Bolter_Khorne_Floor.png
+      433: Resources/Items/Heavy_Bolter/Heavy_Bolter_Nurgle_Floor.png
+      434: Resources/Items/Heavy_Bolter/Heavy_Bolter_Tzeentch_Floor.png
+      435: Resources/Items/Heavy_Bolter/Heavy_Bolter_Slaanesh_Floor.png
+
+#Bolt Pistols (Astartes-sized)
+
+      436: Resources/Items/Bolt_Pistol/SM_Bolt_Pistol_Chaos_Floor.png
+      437: Resources/Items/Bolt_Pistol/SM_Bolt_Pistol_Khorne_Floor.png
+      438: Resources/Items/Bolt_Pistol/SM_Bolt_Pistol_Nurgle_Floor.png
+      439: Resources/Items/Bolt_Pistol/SM_Bolt_Pistol_Tzeentch_Floor.png
+      440: Resources/Items/Bolt_Pistol/SM_Bolt_Pistol_Slaanesh_Floor.png
+
+#Boltguns (Astartes-sized)
+
+      441: Resources/Items/Boltgun/SM_Boltgun_Chaos_Floor.png
+      442: Resources/Items/Boltgun/SM_Boltgun_Khorne_Floor.png
+      443: Resources/Items/Boltgun/SM_Boltgun_Nurgle_Floor.png
+      444: Resources/Items/Boltgun/SM_Boltgun_Tzeentch_Floor.png
+      445: Resources/Items/Boltgun/SM_Boltgun_Slaanesh_Floor.png
+
+#Storm Bolters (Astartes-sized)
+
+      446: Resources/Items/Storm_Bolter/Storm_Bolter_Ammo_Floor.png
+      447: Resources/Items/Storm_Bolter/SM_Storm_Bolter_Chaos_Floor.png
+      448: Resources/Items/Storm_Bolter/SM_Storm_Bolter_Khorne_Floor.png
+      449: Resources/Items/Storm_Bolter/SM_Storm_Bolter_Nurgle_Floor.png
+      450: Resources/Items/Storm_Bolter/SM_Storm_Bolter_Tzeentch_Floor.png
+      451: Resources/Items/Storm_Bolter/SM_Storm_Bolter_Slaanesh_Floor.png
+
+#Heavy Bolters (Astartes-sized)
+
+      452: Resources/Items/Heavy_Bolter/SM_Heavy_Bolter_Chaos_Floor.png
+      453: Resources/Items/Heavy_Bolter/SM_Heavy_Bolter_Khorne_Floor.png
+      454: Resources/Items/Heavy_Bolter/SM_Heavy_Bolter_Nurgle_Floor.png
+      455: Resources/Items/Heavy_Bolter/SM_Heavy_Bolter_Tzeentch_Floor.png
+      456: Resources/Items/Heavy_Bolter/SM_Heavy_Bolter_Slaanesh_Floor.png
+
+#Plasma Pistols (Human-sized)
+
+      457: Resources/Items/Plasma_Pistol/Plasma_Ammo_Floor.png
+
+      458: Resources/Items/Plasma_Pistol/Plasma_Pistol_PDF_Floor.png
+      459: Resources/Items/Plasma_Pistol/Plasma_Pistol_Chaos_Floor.png
+      460: Resources/Items/Plasma_Pistol/Plasma_Pistol_Khorne_Floor.png
+      461: Resources/Items/Plasma_Pistol/Plasma_Pistol_Nurgle_Floor.png
+      462: Resources/Items/Plasma_Pistol/Plasma_Pistol_Tzeentch_Floor.png
+      463: Resources/Items/Plasma_Pistol/Plasma_Pistol_Slaanesh_Floor.png
+
+#Plasma Guns (Human-sized)
+
+      464: Resources/Items/Plasma_Gun/Plasma_Gun_PDF_Floor.png
+      465: Resources/Items/Plasma_Gun/Plasma_Gun_Chaos_Floor.png
+      466: Resources/Items/Plasma_Gun/Plasma_Gun_Khorne_Floor.png
+      467: Resources/Items/Plasma_Gun/Plasma_Gun_Nurgle_Floor.png
+      468: Resources/Items/Plasma_Gun/Plasma_Gun_Tzeentch_Floor.png
+      469: Resources/Items/Plasma_Gun/Plasma_Gun_Slaanesh_Floor.png
+
+#Plasma Pistols (Astartes-sized)
+
+      470: Resources/Items/Plasma_Pistol/SM_Plasma_Pistol_Chaos_Floor.png
+      471: Resources/Items/Plasma_Pistol/SM_Plasma_Pistol_Khorne_Floor.png
+      472: Resources/Items/Plasma_Pistol/SM_Plasma_Pistol_Nurgle_Floor.png
+      473: Resources/Items/Plasma_Pistol/SM_Plasma_Pistol_Tzeentch_Floor.png
+      474: Resources/Items/Plasma_Pistol/SM_Plasma_Pistol_Slaanesh_Floor.png
+
+#Plasma Guns (Astartes-sized)
+
+      475: Resources/Items/Plasma_Gun/SM_Plasma_Gun_Chaos_Floor.png
+      476: Resources/Items/Plasma_Gun/SM_Plasma_Gun_Khorne_Floor.png
+      477: Resources/Items/Plasma_Gun/SM_Plasma_Gun_Nurgle_Floor.png
+      478: Resources/Items/Plasma_Gun/SM_Plasma_Gun_Tzeentch_Floor.png
+      479: Resources/Items/Plasma_Gun/SM_Plasma_Gun_Slaanesh_Floor.png
+
+#Meltaguns (Human-sized)
+
+      480: Resources/Items/Meltagun/Meltagun_Ammo_Floor.png
+
+      481: Resources/Items/Meltagun/Meltagun_PDF_Floor.png
+      482: Resources/Items/Meltagun/Meltagun_Chaos_Floor.png
+      483: Resources/Items/Meltagun/Meltagun_Khorne_Floor.png
+      484: Resources/Items/Meltagun/Meltagun_Nurgle_Floor.png
+      485: Resources/Items/Meltagun/Meltagun_Tzeentch_Floor.png
+      486: Resources/Items/Meltagun/Meltagun_Slaanesh_Floor.png
+
+#Meltaguns (Astartes-sized)
+
+      487: Resources/Items/Meltagun/SM_Meltagun_Chaos_Floor.png
+      488: Resources/Items/Meltagun/SM_Meltagun_Khorne_Floor.png
+      489: Resources/Items/Meltagun/SM_Meltagun_Nurgle_Floor.png
+      490: Resources/Items/Meltagun/SM_Meltagun_Tzeentch_Floor.png
+      491: Resources/Items/Meltagun/SM_Meltagun_Slaanesh_Floor.png
+
+#Shock Maul
+
+      492: Resources/Items/Shock_Maul/Shock_Maul_PDF_Floor.png
+
+#Combat Knives (Human-sized)
+
+      493: Resources/Items/Combat_Knife/Combat_Knife_PDF_Floor.png
+      494: Resources/Items/Combat_Knife/Combat_Knife_Chaos_Floor.png
+      495: Resources/Items/Combat_Knife/Combat_Knife_Khorne_Floor.png
+      496: Resources/Items/Combat_Knife/Combat_Knife_Nurgle_Floor.png
+      497: Resources/Items/Combat_Knife/Combat_Knife_Tzeentch_Floor.png
+      498: Resources/Items/Combat_Knife/Combat_Knife_Slaanesh_Floor.png
+
+#      499: Resources/Items/
+#      500: Resources/Items/
+#      501: Resources/Items/
+#      502: Resources/Items/
+#      503: Resources/Items/
+
+#Swords
+
+      504: Resources/Items/Sword/Sword_PDF_Floor.png
+      505: Resources/Items/Sword/Sword_Chaos_Floor.png
+      506: Resources/Items/Sword/Sword_Khorne_Floor.png
+      507: Resources/Items/Sword/Sword_Nurgle_Floor.png
+      508: Resources/Items/Sword/Sword_Tzeentch_Floor.png
+      509: Resources/Items/Sword/Sword_Slaanesh_Floor.png
+
+#Combat Axe
+
+      510: Resources/Items/Combat_Axe/Combat_Axe_Khorne_Floor.png
+
+#      511: Resources/Items/
+#      512: Resources/Items/
+#      513: Resources/Items/
+#      514: Resources/Items/
+#      515: Resources/Items/
+#      516: Resources/Items/
+
+#Chainswords (Human-sized)
+
+      517: Resources/Items/Chainsword/Chainsword_PDF_Floor.png
+      518: Resources/Items/Chainsword/Chainsword_Chaos_Floor.png
+      519: Resources/Items/Chainsword/Chainsword_Khorne_Floor.png
+      520: Resources/Items/Chainsword/Chainsword_Nurgle_Floor.png
+      521: Resources/Items/Chainsword/Chainsword_Tzeentch_Floor.png
+      522: Resources/Items/Chainsword/Chainsword_Slaanesh_Floor.png
+
+#Chainswords (Astartes-sized)
+
+      523: Resources/Items/Chainsword/SM_Chainsword_Chaos_Floor.png
+      524: Resources/Items/Chainsword/SM_Chainsword_Khorne_Floor.png
+      525: Resources/Items/Chainsword/SM_Chainsword_Nurgle_Floor.png
+      526: Resources/Items/Chainsword/SM_Chainsword_Tzeentch_Floor.png
+      527: Resources/Items/Chainsword/SM_Chainsword_Slaanesh_Floor.png
+
+#Chainaxe (Human-sized)
+
+      528: Resources/Items/Chainaxe/Chainaxe_Khorne_Floor.png
+
+#Chainaxe (Astartes-sized)
+
+      529: Resources/Items/Chainaxe/SM_Chainaxe_Khorne_Floor.png
+
+#      530: Resources/Items/
+#      531: Resources/Items/
+#      532: Resources/Items/
+#      533: Resources/Items/
+#      534: Resources/Items/
+#      535: Resources/Items/
+
+#Power Swords (Human-sized)
+    
+      536: Resources/Items/Power_Sword/Power_Sword_PDF_Floor.png
+      537: Resources/Items/Power_Sword/Power_Sword_Chaos_Floor.png
+      538: Resources/Items/Power_Sword/Power_Sword_Khorne_Floor.png
+      539: Resources/Items/Power_Sword/Power_Sword_Nurgle_Floor.png
+      540: Resources/Items/Power_Sword/Power_Sword_Tzeentch_Floor.png
+      541: Resources/Items/Power_Sword/Power_Sword_Slaanesh_Floor.png
+
+#Power Swords (Astartes-sized)
+
+      542: Resources/Items/Power_Sword/SM_Power_Sword_Chaos_Floor.png
+      543: Resources/Items/Power_Sword/SM_Power_Sword_Khorne_Floor.png
+      544: Resources/Items/Power_Sword/SM_Power_Sword_Nurgle_Floor.png
+      545: Resources/Items/Power_Sword/SM_Power_Sword_Tzeentch_Floor.png
+      546: Resources/Items/Power_Sword/SM_Power_Sword_Slaanesh_Floor.png
+
+#Power Axe (Astartes-sized)
+
+      547: Resources/Items/Power_Axe/SM_Power_Axe_Khorne_Floor.png
+
+#Force Staffs
+      548: Resources/Items/Force_Staff/Force_Staff_PDF_Floor.png
+      549: Resources/Items/Force_Staff/Force_Staff_Chaos_Floor.png
+
+
+#      549: Resources/Items/
+#      550: Resources/Items/
+#      551: Resources/Items/
+#      552: Resources/Items/
+#      553: Resources/Items/
+#      554: Resources/Items/
+#      555: Resources/Items/
+#      556: Resources/Items/
+#      557: Resources/Items/
+#      558: Resources/Items/
+#      559: Resources/Items/
+#      560: Resources/Items/
+#      561: Resources/Items/
+#      562: Resources/Items/
+#      563: Resources/Items/
+#      564: Resources/Items/
+#      565: Resources/Items/
+#      566: Resources/Items/
+
+#Throwing Weapons
+
+      1000: Resources/Items/Frag_Grenade/Frag_Grenade_Floor.png
+      1001: Resources/Items/Krak_Grenade/Krak_Grenade_Floor.png
+      1002: Resources/Items/Proximity_Grenade/Proximity_Grenade_Floor.png
+      1003: Resources/Items/Incendiary_Grenade/Incendiary_Grenade_Floor.png
+      1004: Resources/Items/Smoke_Grenade/Smoke_Grenade_Floor.png
+      1005: Resources/Items/Stun_Grenade/Stun_Grenade_Floor.png
+      1006: Resources/Items/Demolition_Charge/Demolition_Charge_Floor.png
+      1007: Resources/Items/Melta_Bomb/Melta_Bomb_Floor.png
+#      1008: Resources/Items/
+#      1009: Resources/Items/
+#      1010: Resources/Items/
+
+#Utility Items
+
+      1010: Resources/Items/Motion_Scanner/Motion_Scanner_Floor.png
+      1011: Resources/Items/Analyzer/Analyzer_Floor.png
+      1012: Resources/Items/Medi-Kit/Medi-Kit_Floor.png
+      1013: Resources/Items/Glow_Stick/Glow_Stick_Floor.png
+      1014: Resources/Items/Fire_Extinguisher/Fire_Extinguisher_Floor.png
+#      1015: Resources/Items/
+#      1016: Resources/Items/
+#      1017: Resources/Items/
+#      1018: Resources/Items/
+#      1019: Resources/Items/
+#      1020: Resources/Items/
+
+
+#PDF Units Corpses (2000 - 2199)
+
+      2000: Resources/Armors/PDF/Soldier_Uniform/Soldier_Uniform_Corpse_Floor.png
+      2001: Resources/Armors/PDF/Soldier_Flak_Armor/Soldier_Flak_Armor_Corpse_Floor.png
+      2002: Resources/Armors/PDF/Soldier_Assault_Flak_Armor/Soldier_Assault_Flak_Armor_Corpse_Floor.png
+      2003: Resources/Armors/PDF/Soldier_Carapace/Soldier_Carapace_Corpse_Floor.png
+      2004: Resources/Armors/PDF/Soldier_Assault_Carapace/Soldier_Assault_Carapace_Corpse_Floor.png
+      2005: Resources/Armors/PDF/Soldier_Heavy_Carapace/Soldier_Heavy_Carapace_Corpse_Floor.png
+#      ...
+
+      2010: Resources/Armors/PDF/Sergeant_Uniform/Sergeant_Uniform_Corpse_Floor.png
+      2011: Resources/Armors/PDF/Sergeant_Flak_Armor/Sergeant_Flak_Armor_Corpse_Floor.png
+      2012: Resources/Armors/PDF/Sergeant_Assault_Flak_Armor/Sergeant_Assault_Flak_Armor_Corpse_Floor.png
+      2013: Resources/Armors/PDF/Sergeant_Carapace/Sergeant_Carapace_Corpse_Floor.png
+      2014: Resources/Armors/PDF/Sergeant_Assault_Carapace/Sergeant_Assault_Carapace_Corpse_Floor.png
+      2015: Resources/Armors/PDF/Sergeant_Heavy_Carapace/Sergeant_Heavy_Carapace_Corpse_Floor.png
+#      ...
+
+      2020: Resources/Armors/PDF/Officer_Uniform/Officer_Uniform_Corpse_Floor.png
+      2021: Resources/Armors/PDF/Officer_Flak_Armor/Officer_Flak_Armor_Corpse_Floor.png
+      2022: Resources/Armors/PDF/Officer_Assault_Flak_Armor/Officer_Assault_Flak_Armor_Corpse_Floor.png
+      2023: Resources/Armors/PDF/Officer_Carapace/Officer_Carapace_Corpse_Floor.png
+      2024: Resources/Armors/PDF/Officer_Assault_Carapace/Officer_Assault_Carapace_Corpse_Floor.png
+      2025: Resources/Armors/PDF/Officer_Heavy_Carapace/Officer_Heavy_Carapace_Corpse_Floor.png
+#      ...
+
+      2030: Resources/Armors/PDF/Psyker_Uniform/Psyker_Uniform_Corpse_Floor.png
+      2031: Resources/Armors/PDF/Psyker_Flak_Armor/Psyker_Flak_Armor_Corpse_Floor.png
+      2032: Resources/Armors/PDF/Psyker_Carapace/Psyker_Carapace_Corpse_Floor.png
+#      ...
+
+
+
+#Chaos Units Corpses (2200 - ????)
+
+      2200: Resources/Armors/Chaos_Cultists/Cultist_Armor/Chaos_Cultist_Armor_Corpse_Floor.png
+      2201: Resources/Armors/Chaos_Cultists/Cultist_Leader_Armor/Chaos_Cultist_Leader_Armor_Corpse_Floor.png
+
+      2202: Resources/Armors/Chaos_Warriors/Warrior_Armor/Chaos_Warrior_Armor_Corpse_Floor.png
+      2203: Resources/Armors/Chaos_Warriors/Shock_Trooper_Armor/Chaos_Warrior_Shock_Trooper_Armor_Corpse_Floor.png
+      2204: Resources/Armors/Chaos_Warriors/Squad_Leader_Armor/Chaos_Warrior_Squad_Leader_Armor_Corpse_Floor.png
+      2205: Resources/Armors/Chaos_Warriors/Psyker_Armor/Chaos_Warrior_Psyker_Armor_Corpse_Floor.png
+
+
+
 
 ## HAND SPRITES (contains 8 images)
   - type: HANDOB.PCK
@@ -304,77 +1225,473 @@ extraSprites:
     subX: 32
     subY: 40
     files:
-      88: Resources/Items/Generic/Empty_Hand/Empty_Hand.png
+      88: Resources/Items/Special_Items/Invisible_Item_Hand.png
 
-      192: Resources/Items/Generic/Debug_Gun/Debug_Gun_Hand.png
+#      192: Resources/Items/...
 
-#Reserved just in case
-      200: Resources/Items/Arbites/Autopistol_Arbites/Autopistol_Arbites_Hand.png
-      208: Resources/Items/Arbites/Autogun_Arbites/Autogun_Arbites_Hand.png
-      216: Resources/Items/Arbites/Heavy_Stubber_Arbites/Heavy_Stubber_Arbites_Hand.png
-      224: Resources/Items/Arbites/Heavy_Stubber_Arbites/Heavy_Stubber_Arbites_Hand_Deployed.png
-      232: Resources/Items/Arbites/Shotgun_Arbites/Shotgun_Arbites_Hand.png
-      240: Resources/Items/Arbites/Sniper_Rifle_Arbites/Sniper_Rifle_Arbites_Hand.png
-      248: Resources/Items/Arbites/Boltpistol_Arbites/Boltpistol_Arbites_Hand.png
-      256: Resources/Items/Arbites/Boltgun_Arbites/Boltgun_Arbites_Hand.png
-      264: Resources/Items/Arbites/Grenade_Launcher_Arbites/Grenade_Launcher_Arbites_Hand.png
+#Autopistols
 
-      272: Resources/Items/Arbites/Shock_Maul_Arbites/Shock_Maul_Arbites_Hand.png
-      280: Resources/Items/Arbites/Power_Maul_Arbites/Power_Maul_Arbites_Hand.png
-      288: Resources/Items/Arbites/Suppression_Shield/Suppression_Shield_Hand.png
+      200: Resources/Items/Autopistol/Autopistol_PDF_Hand.png
+      208: Resources/Items/Autopistol/Autopistol_Chaos_Hand.png
+      216: Resources/Items/Autopistol/Autopistol_Khorne_Hand.png
+      224: Resources/Items/Autopistol/Autopistol_Nurgle_Hand.png
+      232: Resources/Items/Autopistol/Autopistol_Tzeentch_Hand.png
+      240: Resources/Items/Autopistol/Autopistol_Slaanesh_Hand.png
 
-      296: Resources/Items/Generic/Frag_Grenade/Frag_Grenade_Hand.png
-      304: Resources/Items/Generic/Krak_Grenade/Krak_Grenade_Hand.png
-      312: Resources/Items/Generic/Smoke_Grenade/Smoke_Grenade_Hand.png
-      320: Resources/Items/Generic/Stun_Grenade/Stun_Grenade_Hand.png
+#Autoguns
 
-      328: Resources/Items/Generic/First_Aid_Kit/First_Aid_Kit_Hand.png
-      336: Resources/Items/Generic/Auspex/Auspex_Hand.png
-      344: Resources/Items/Generic/Fire_Extinguisher/Fire_Extinguisger_Hand.png
-      352: Resources/Items/Generic/Glow_Stick/Glow_Stick_Hand.png
-      360: Resources/Items/Generic/Electro_Flare/Electro_Flare_Hand.png
+      248: Resources/Items/Autogun/Autogun_PDF_Hand.png
+      256: Resources/Items/Autogun/Autogun_Chaos_Hand.png
+      264: Resources/Items/Autogun/Autogun_Khorne_Hand.png
+      272: Resources/Items/Autogun/Autogun_Nurgle_Hand.png
+      280: Resources/Items/Autogun/Autogun_Tzeentch_Hand.png
+      288: Resources/Items/Autogun/Autogun_Slaanesh_Hand.png
 
-      368: Resources/Items/Generic/Autopistol_Generic1/Autopistol_Generic1_Hand.png
-      376: Resources/Items/Generic/Autopistol_Generic2/Autopistol_Generic2_Hand.png
-      384: Resources/Items/Generic/Autopistol_Generic3/Autopistol_Generic3_Hand.png
+#Marksman Autoguns
 
-      392: Resources/Items/Generic/Autogun_Generic1/Autogun_Generic1_Hand.png
-      400: Resources/Items/Generic/Autogun_Generic2/Autogun_Generic2_Hand.png
-      408: Resources/Items/Generic/Autogun_Generic3/Autogun_Generic3_Hand.png
-      416: Resources/Items/Generic/Autogun_Generic4/Autogun_Generic4_Hand.png
-      424: Resources/Items/Generic/Autogun_Generic5/Autogun_Generic5_Hand.png
+      296: Resources/Items/Marksman_Autogun/Marksman_Autogun_PDF_Hand.png
+      304: Resources/Items/Marksman_Autogun/Marksman_Autogun_PDF_Hand_Bipod.png
+      312: Resources/Items/Marksman_Autogun/Marksman_Autogun_Chaos_Hand.png
+      320: Resources/Items/Marksman_Autogun/Marksman_Autogun_Chaos_Hand_Bipod.png
+      328: Resources/Items/Marksman_Autogun/Marksman_Autogun_Khorne_Hand.png
+      336: Resources/Items/Marksman_Autogun/Marksman_Autogun_Khorne_Hand_Bipod.png
+      344: Resources/Items/Marksman_Autogun/Marksman_Autogun_Nurgle_Hand.png
+      352: Resources/Items/Marksman_Autogun/Marksman_Autogun_Nurgle_Hand_Bipod.png
+      360: Resources/Items/Marksman_Autogun/Marksman_Autogun_Tzeentch_Hand.png
+      368: Resources/Items/Marksman_Autogun/Marksman_Autogun_Tzeentch_Hand_Bipod.png
+      376: Resources/Items/Marksman_Autogun/Marksman_Autogun_Slaanesh_Hand.png
+      384: Resources/Items/Marksman_Autogun/Marksman_Autogun_Slaanesh_Hand_Bipod.png
 
-      432: Resources/Items/Generic/Heavy_Stubber_Generic1/Heavy_Stubber_Generic1_Hand.png
-      440: Resources/Items/Generic/Heavy_Stubber_Generic1/Heavy_Stubber_Generic1_Hand_Deployed.png
+#Heavy Stubbers
 
-      448: Resources/Items/Generic/Heavy_Stubber_Generic2/Heavy_Stubber_Generic2_Hand.png
-      456: Resources/Items/Generic/Heavy_Stubber_Generic2/Heavy_Stubber_Generic2_Hand_Deployed.png
+      392: Resources/Items/Heavy_Stubber/Heavy_Stubber_Ammo_Hand.png
+      400: Resources/Items/Heavy_Stubber/Heavy_Stubber_PDF_Hand.png
+      408: Resources/Items/Heavy_Stubber/Heavy_Stubber_PDF_Hand_Bipod.png
+      416: Resources/Items/Heavy_Stubber/Heavy_Stubber_Chaos_Hand.png
+      424: Resources/Items/Heavy_Stubber/Heavy_Stubber_Chaos_Hand_Bipod.png
+      432: Resources/Items/Heavy_Stubber/Heavy_Stubber_Khorne_Hand.png
+      440: Resources/Items/Heavy_Stubber/Heavy_Stubber_Khorne_Hand_Bipod.png
+      448: Resources/Items/Heavy_Stubber/Heavy_Stubber_Nurgle_Hand.png
+      456: Resources/Items/Heavy_Stubber/Heavy_Stubber_Nurgle_Hand_Bipod.png
+      464: Resources/Items/Heavy_Stubber/Heavy_Stubber_Tzeentch_Hand.png
+      472: Resources/Items/Heavy_Stubber/Heavy_Stubber_Tzeentch_Hand_Bipod.png
+      480: Resources/Items/Heavy_Stubber/Heavy_Stubber_Slaanesh_Hand.png
+      488: Resources/Items/Heavy_Stubber/Heavy_Stubber_Slaanesh_Hand_Bipod.png
 
-      464: Resources/Items/Generic/Shotgun_Generic1/Shotgun_Generic1_Hand.png
-      472: Resources/Items/Generic/Shotgun_Generic2/Shotgun_Generic2_Hand.png
-      480: Resources/Items/Generic/Shotgun_Generic3/Shotgun_Generic3_Hand.png
-      488: Resources/Items/Generic/Shotgun_Generic4/Shotgun_Generic4_Hand.png
+#Grenade Launchers
+
+      496: Resources/Items/Grenade_Launcher/Grenade_Launcher_Ammo_Hand.png
+      504: Resources/Items/Grenade_Launcher/Grenade_Launcher_PDF_Hand.png
+      512: Resources/Items/Grenade_Launcher/Grenade_Launcher_Chaos_Hand.png
+      520: Resources/Items/Grenade_Launcher/Grenade_Launcher_Khorne_Hand.png
+      528: Resources/Items/Grenade_Launcher/Grenade_Launcher_Nurgle_Hand.png
+      536: Resources/Items/Grenade_Launcher/Grenade_Launcher_Tzeentch_Hand.png
+      544: Resources/Items/Grenade_Launcher/Grenade_Launcher_Slaanesh_Hand.png
+
+#Missile Launchers
+
+      552: Resources/Items/Missile_Launcher/Missile_Launcher_Ammo_Hand.png
+      560: Resources/Items/Missile_Launcher/Missile_Launcher_PDF_Hand.png
+      568: Resources/Items/Missile_Launcher/Missile_Launcher_Chaos_Hand.png
+      576: Resources/Items/Missile_Launcher/Missile_Launcher_Khorne_Hand.png
+      584: Resources/Items/Missile_Launcher/Missile_Launcher_Nurgle_Hand.png
+      592: Resources/Items/Missile_Launcher/Missile_Launcher_Tzeentch_Hand.png
+      600: Resources/Items/Missile_Launcher/Missile_Launcher_Slaanesh_Hand.png
+
+#Flamers
+
+      608: Resources/Items/Flamer/Flamer_Ammo_Hand.png
+      616: Resources/Items/Flamer/Flamer_PDF_Hand.png
+      624: Resources/Items/Flamer/Flamer_Tzeentch_Hand.png
+#      632: Resources/Items/
+#      640: Resources/Items/
+      648: Resources/Items/Webber/Webber_PDF_Hand.png
+#      656: Resources/Items/
+
+#Laspistols
+
+      664: Resources/Items/Laspistol/Laspistol_PDF_Hand.png
+      672: Resources/Items/Laspistol/Laspistol_Chaos_Hand.png
+      680: Resources/Items/Laspistol/Laspistol_Khorne_Hand.png
+      688: Resources/Items/Laspistol/Laspistol_Nurgle_Hand.png
+      696: Resources/Items/Laspistol/Laspistol_Tzeentch_Hand.png
+      704: Resources/Items/Laspistol/Laspistol_Slaanesh_Hand.png
+
+#Lasguns
+
+      712: Resources/Items/Lasgun/Lasgun_PDF_Hand.png
+      720: Resources/Items/Lasgun/Lasgun_Chaos_Hand.png
+      728: Resources/Items/Lasgun/Lasgun_Khorne_Hand.png
+      736: Resources/Items/Lasgun/Lasgun_Nurgle_Hand.png
+      744: Resources/Items/Lasgun/Lasgun_Tzeentch_Hand.png
+      752: Resources/Items/Lasgun/Lasgun_Slaanesh_Hand.png
+
+#Sniper Lasguns
+
+      760: Resources/Items/Marksman_Lasgun/Marksman_Lasgun_PDF_Hand.png
+      768: Resources/Items/Marksman_Lasgun/Marksman_Lasgun_PDF_Hand_Bipod.png
+      776: Resources/Items/Marksman_Lasgun/Marksman_Lasgun_Chaos_Hand.png
+      784: Resources/Items/Marksman_Lasgun/Marksman_Lasgun_Chaos_Hand_Bipod.png
+      792: Resources/Items/Marksman_Lasgun/Marksman_Lasgun_Khorne_Hand.png
+      800: Resources/Items/Marksman_Lasgun/Marksman_Lasgun_Khorne_Hand_Bipod.png
+      808: Resources/Items/Marksman_Lasgun/Marksman_Lasgun_Nurgle_Hand.png
+      816: Resources/Items/Marksman_Lasgun/Marksman_Lasgun_Nurgle_Hand_Bipod.png
+      824: Resources/Items/Marksman_Lasgun/Marksman_Lasgun_Tzeentch_Hand.png
+      832: Resources/Items/Marksman_Lasgun/Marksman_Lasgun_Tzeentch_Hand_Bipod.png
+      840: Resources/Items/Marksman_Lasgun/Marksman_Lasgun_Slaanesh_Hand.png
+      848: Resources/Items/Marksman_Lasgun/Marksman_Lasgun_Slaanesh_Hand_Bipod.png
+
+#Twin Lasguns
+
+      856: Resources/Items/Twin_Lasgun/Twin_Lasgun_PDF_Hand.png
+      864: Resources/Items/Twin_Lasgun/Twin_Lasgun_PDF_Hand_Bipod.png
+      872: Resources/Items/Twin_Lasgun/Twin_Lasgun_Chaos_Hand.png
+      880: Resources/Items/Twin_Lasgun/Twin_Lasgun_Chaos_Hand_Bipod.png
+      888: Resources/Items/Twin_Lasgun/Twin_Lasgun_Khorne_Hand.png
+      896: Resources/Items/Twin_Lasgun/Twin_Lasgun_Khorne_Hand_Bipod.png
+      904: Resources/Items/Twin_Lasgun/Twin_Lasgun_Nurgle_Hand.png
+      912: Resources/Items/Twin_Lasgun/Twin_Lasgun_Nurgle_Hand_Bipod.png
+      920: Resources/Items/Twin_Lasgun/Twin_Lasgun_Tzeentch_Hand.png
+      928: Resources/Items/Twin_Lasgun/Twin_Lasgun_Tzeentch_Hand_Bipod.png
+      936: Resources/Items/Twin_Lasgun/Twin_Lasgun_Slaanesh_Hand.png
+      944: Resources/Items/Twin_Lasgun/Twin_Lasgun_Slaanesh_Hand_Bipod.png
+
+#Hellpistols
+
+      952: Resources/Items/Hellpistol/Hellpistol_PDF_Hand.png
+      960: Resources/Items/Hellpistol/Hellpistol_Chaos_Hand.png
+      968: Resources/Items/Hellpistol/Hellpistol_Khorne_Hand.png
+      976: Resources/Items/Hellpistol/Hellpistol_Nurgle_Hand.png
+      984: Resources/Items/Hellpistol/Hellpistol_Tzeentch_Hand.png
+      992: Resources/Items/Hellpistol/Hellpistol_Slaanesh_Hand.png
+
+#Hellguns
+
+      1000: Resources/Items/Hellgun/Hellgun_PDF_Hand.png
+      1008: Resources/Items/Hellgun/Hellgun_Chaos_Hand.png
+      1016: Resources/Items/Hellgun/Hellgun_Khorne_Hand.png
+      1024: Resources/Items/Hellgun/Hellgun_Nurgle_Hand.png
+      1032: Resources/Items/Hellgun/Hellgun_Tzeentch_Hand.png
+      1040: Resources/Items/Hellgun/Hellgun_Slaanesh_Hand.png
+
+#Marksman Hellguns
+
+      1048: Resources/Items/Marksman_Hellgun/Marksman_Hellgun_PDF_Hand.png
+      1056: Resources/Items/Marksman_Hellgun/Marksman_Hellgun_PDF_Hand_Bipod.png
+      1064: Resources/Items/Marksman_Hellgun/Marksman_Hellgun_Chaos_Hand.png
+      1072: Resources/Items/Marksman_Hellgun/Marksman_Hellgun_Chaos_Hand_Bipod.png
+      1080: Resources/Items/Marksman_Hellgun/Marksman_Hellgun_Khorne_Hand.png
+      1088: Resources/Items/Marksman_Hellgun/Marksman_Hellgun_Khorne_Hand_Bipod.png
+      1096: Resources/Items/Marksman_Hellgun/Marksman_Hellgun_Nurgle_Hand.png
+      1104: Resources/Items/Marksman_Hellgun/Marksman_Hellgun_Nurgle_Hand_Bipod.png
+      1112: Resources/Items/Marksman_Hellgun/Marksman_Hellgun_Tzeentch_Hand.png
+      1120: Resources/Items/Marksman_Hellgun/Marksman_Hellgun_Tzeentch_Hand_Bipod.png
+      1128: Resources/Items/Marksman_Hellgun/Marksman_Hellgun_Slaanesh_Hand.png
+      1136: Resources/Items/Marksman_Hellgun/Marksman_Hellgun_Slaanesh_Hand_Bipod.png
+
+#Twin Hellguns
+
+      1144: Resources/Items/Twin_Hellgun/Twin_Hellgun_PDF_Hand.png
+      1152: Resources/Items/Twin_Hellgun/Twin_Hellgun_PDF_Hand_Bipod.png
+      1160: Resources/Items/Twin_Hellgun/Twin_Hellgun_Chaos_Hand.png
+      1168: Resources/Items/Twin_Hellgun/Twin_Hellgun_Chaos_Hand_Bipod.png
+      1176: Resources/Items/Twin_Hellgun/Twin_Hellgun_Khorne_Hand.png
+      1184: Resources/Items/Twin_Hellgun/Twin_Hellgun_Khorne_Hand_Bipod.png
+      1192: Resources/Items/Twin_Hellgun/Twin_Hellgun_Nurgle_Hand.png
+      1200: Resources/Items/Twin_Hellgun/Twin_Hellgun_Nurgle_Hand_Bipod.png
+      1208: Resources/Items/Twin_Hellgun/Twin_Hellgun_Tzeentch_Hand.png
+      1216: Resources/Items/Twin_Hellgun/Twin_Hellgun_Tzeentch_Hand_Bipod.png
+      1224: Resources/Items/Twin_Hellgun/Twin_Hellgun_Slaanesh_Hand.png
+      1232: Resources/Items/Twin_Hellgun/Twin_Hellgun_Slaanesh_Hand_Bipod.png
+
+#Bolt Pistols (Non-Astartes)
+
+      1240: Resources/Items/Bolt_Pistol/Bolt_Pistol_PDF_Hand.png
+      1248: Resources/Items/Bolt_Pistol/Bolt_Pistol_Chaos_Hand.png
+      1256: Resources/Items/Bolt_Pistol/Bolt_Pistol_Khorne_Hand.png
+      1264: Resources/Items/Bolt_Pistol/Bolt_Pistol_Nurgle_Hand.png
+      1272: Resources/Items/Bolt_Pistol/Bolt_Pistol_Tzeentch_Hand.png
+      1280: Resources/Items/Bolt_Pistol/Bolt_Pistol_Slaanesh_Hand.png
+
+#Boltguns (Human-sized)
+
+      1288: Resources/Items/Boltgun/Boltgun_PDF_Hand.png
+      1296: Resources/Items/Boltgun/Boltgun_Chaos_Hand.png
+      1304: Resources/Items/Boltgun/Boltgun_Khorne_Hand.png
+      1312: Resources/Items/Boltgun/Boltgun_Nurgle_Hand.png
+      1320: Resources/Items/Boltgun/Boltgun_Tzeentch_Hand.png
+      1328: Resources/Items/Boltgun/Boltgun_Slaanesh_Hand.png
+
+#Marksman Boltguns (Human-sized)
+
+      1336: Resources/Items/Marksman_Boltgun/Marksman_Boltgun_PDF_Hand.png
+      1344: Resources/Items/Marksman_Boltgun/Marksman_Boltgun_Chaos_Hand.png
+      1352: Resources/Items/Marksman_Boltgun/Marksman_Boltgun_Khorne_Hand.png
+      1360: Resources/Items/Marksman_Boltgun/Marksman_Boltgun_Nurgle_Hand.png
+      1368: Resources/Items/Marksman_Boltgun/Marksman_Boltgun_Tzeentch_Hand.png
+      1376: Resources/Items/Marksman_Boltgun/Marksman_Boltgun_Slaanesh_Hand.png
+
+#Heavy Bolters (Human-sized)
+
+      1384: Resources/Items/Heavy_Bolter/Heavy_Bolter_Ammo_Hand.png
+      1392: Resources/Items/Heavy_Bolter/Heavy_Bolter_PDF_Hand.png
+      1400: Resources/Items/Heavy_Bolter/Heavy_Bolter_PDF_Hand_Bipod.png
+
+      1408: Resources/Items/Heavy_Bolter/Heavy_Bolter_Chaos_Hand.png
+      1416: Resources/Items/Heavy_Bolter/Heavy_Bolter_Chaos_Hand_Bipod.png
+
+      1424: Resources/Items/Heavy_Bolter/Heavy_Bolter_Khorne_Hand.png
+      1432: Resources/Items/Heavy_Bolter/Heavy_Bolter_Khorne_Hand_Bipod.png
+
+      1440: Resources/Items/Heavy_Bolter/Heavy_Bolter_Nurgle_Hand.png
+      1448: Resources/Items/Heavy_Bolter/Heavy_Bolter_Nurgle_Hand_Bipod.png
+
+      1456: Resources/Items/Heavy_Bolter/Heavy_Bolter_Tzeentch_Hand.png
+      1464: Resources/Items/Heavy_Bolter/Heavy_Bolter_Tzeentch_Hand_Bipod.png
+
+      1472: Resources/Items/Heavy_Bolter/Heavy_Bolter_Slaanesh_Hand.png
+      1480: Resources/Items/Heavy_Bolter/Heavy_Bolter_Slaanesh_Hand_Bipod.png
+
+#Bolt Pistols (Astartes-sized)
+
+      1488: Resources/Items/Bolt_Pistol/SM_Bolt_Pistol_Chaos_Hand.png
+      1496: Resources/Items/Bolt_Pistol/SM_Bolt_Pistol_Khorne_Hand.png
+      1504: Resources/Items/Bolt_Pistol/SM_Bolt_Pistol_Nurgle_Hand.png
+      1512: Resources/Items/Bolt_Pistol/SM_Bolt_Pistol_Tzeentch_Hand.png
+      1520: Resources/Items/Bolt_Pistol/SM_Bolt_Pistol_Slaanesh_Hand.png
+
+#Boltguns (Astartes-sized)
+
+      1528: Resources/Items/Boltgun/SM_Boltgun_Chaos_Hand.png
+      1536: Resources/Items/Boltgun/SM_Boltgun_Khorne_Hand.png
+      1544: Resources/Items/Boltgun/SM_Boltgun_Nurgle_Hand.png
+      1552: Resources/Items/Boltgun/SM_Boltgun_Tzeentch_Hand.png
+      1560: Resources/Items/Boltgun/SM_Boltgun_Slaanesh_Hand.png
+
+
+#Storm Bolters (Astartes-sized)
+
+      1568: Resources/Items/Storm_Bolter/SM_Storm_Bolter_Chaos_Hand.png
+      1576: Resources/Items/Storm_Bolter/SM_Storm_Bolter_Khorne_Hand.png
+      1584: Resources/Items/Storm_Bolter/SM_Storm_Bolter_Nurgle_Hand.png
+      1592: Resources/Items/Storm_Bolter/SM_Storm_Bolter_Tzeentch_Hand.png
+      1600: Resources/Items/Storm_Bolter/SM_Storm_Bolter_Slaanesh_Hand.png
+
+#Heavy Bolters (Astartes-sized)
+
+      1608: Resources/Items/Heavy_Bolter/SM_Heavy_Bolter_Chaos_Hand.png
+      1616: Resources/Items/Heavy_Bolter/SM_Heavy_Bolter_Khorne_Hand.png
+      1624: Resources/Items/Heavy_Bolter/SM_Heavy_Bolter_Nurgle_Hand.png
+      1632: Resources/Items/Heavy_Bolter/SM_Heavy_Bolter_Tzeentch_Hand.png
+      1640: Resources/Items/Heavy_Bolter/SM_Heavy_Bolter_Slaanesh_Hand.png
+
+#Plasma Pistols (Human-sized)
+
+      1648: Resources/Items/Plasma_Pistol/Plasma_Pistol_PDF_Hand.png
+      1656: Resources/Items/Plasma_Pistol/Plasma_Pistol_Chaos_Hand.png
+      1664: Resources/Items/Plasma_Pistol/Plasma_Pistol_Khorne_Hand.png
+      1672: Resources/Items/Plasma_Pistol/Plasma_Pistol_Nurgle_Hand.png
+      1680: Resources/Items/Plasma_Pistol/Plasma_Pistol_Tzeentch_Hand.png
+      1688: Resources/Items/Plasma_Pistol/Plasma_Pistol_Slaanesh_Hand.png
+
+#Plasma Guns (Human-sized)
+
+      1696: Resources/Items/Plasma_Gun/Plasma_Gun_PDF_Hand.png
+      1704: Resources/Items/Plasma_Gun/Plasma_Gun_Chaos_Hand.png
+      1712: Resources/Items/Plasma_Gun/Plasma_Gun_Khorne_Hand.png
+      1720: Resources/Items/Plasma_Gun/Plasma_Gun_Nurgle_Hand.png
+      1728: Resources/Items/Plasma_Gun/Plasma_Gun_Tzeentch_Hand.png
+      1736: Resources/Items/Plasma_Gun/Plasma_Gun_Slaanesh_Hand.png
+
+#Plasma Pistols (Astartes-sized)
+
+      1744: Resources/Items/Plasma_Pistol/SM_Plasma_Pistol_Chaos_Hand.png
+      1752: Resources/Items/Plasma_Pistol/SM_Plasma_Pistol_Khorne_Hand.png
+      1760: Resources/Items/Plasma_Pistol/SM_Plasma_Pistol_Nurgle_Hand.png
+      1768: Resources/Items/Plasma_Pistol/SM_Plasma_Pistol_Tzeentch_Hand.png
+      1776: Resources/Items/Plasma_Pistol/SM_Plasma_Pistol_Slaanesh_Hand.png
+
+#Plasma Guns (Astartes-sized)
+
+      1784: Resources/Items/Plasma_Gun/SM_Plasma_Gun_Chaos_Hand.png
+      1792: Resources/Items/Plasma_Gun/SM_Plasma_Gun_Khorne_Hand.png
+      1800: Resources/Items/Plasma_Gun/SM_Plasma_Gun_Nurgle_Hand.png
+      1808: Resources/Items/Plasma_Gun/SM_Plasma_Gun_Tzeentch_Hand.png
+      1816: Resources/Items/Plasma_Gun/SM_Plasma_Gun_Slaanesh_Hand.png
+
+#Meltaguns (Human-sized)
+
+      1824: Resources/Items/Meltagun/Meltagun_PDF_Hand.png
+      1832: Resources/Items/Meltagun/Meltagun_Chaos_Hand.png
+      1840: Resources/Items/Meltagun/Meltagun_Khorne_Hand.png
+      1848: Resources/Items/Meltagun/Meltagun_Nurgle_Hand.png
+      1856: Resources/Items/Meltagun/Meltagun_Tzeentch_Hand.png
+      1864: Resources/Items/Meltagun/Meltagun_Slaanesh_Hand.png
+
+#Meltaguns (Astartes-sized)
+
+      1872: Resources/Items/Meltagun/SM_Meltagun_Chaos_Hand.png
+      1880: Resources/Items/Meltagun/SM_Meltagun_Khorne_Hand.png
+      1888: Resources/Items/Meltagun/SM_Meltagun_Nurgle_Hand.png
+      1896: Resources/Items/Meltagun/SM_Meltagun_Tzeentch_Hand.png
+      1904: Resources/Items/Meltagun/SM_Meltagun_Slaanesh_Hand.png
+
+#Shock Maul
+
+      1912: Resources/Items/Shock_Maul/Shock_Maul_PDF_Hand.png
+
+#Combat Knives
+
+      1920: Resources/Items/Combat_Knife/Combat_Knife_PDF_Hand.png
+      1928: Resources/Items/Combat_Knife/Combat_Knife_Chaos_Hand.png
+      1936: Resources/Items/Combat_Knife/Combat_Knife_Khorne_Hand.png
+      1944: Resources/Items/Combat_Knife/Combat_Knife_Nurgle_Hand.png
+      1952: Resources/Items/Combat_Knife/Combat_Knife_Tzeentch_Hand.png
+      1960: Resources/Items/Combat_Knife/Combat_Knife_Slaanesh_Hand.png
+
+#      1968: Resources/Items/
+#      1976: Resources/Items/
+#      1984: Resources/Items/
+#      1992: Resources/Items/
+#      2000: Resources/Items/
+
+#Swords
+
+      2008: Resources/Items/Sword/Sword_PDF_Hand.png
+      2016: Resources/Items/Sword/Sword_Chaos_Hand.png
+      2024: Resources/Items/Sword/Sword_Khorne_Hand.png
+      2032: Resources/Items/Sword/Sword_Nurgle_Hand.png
+      2040: Resources/Items/Sword/Sword_Tzeentch_Hand.png
+      2048: Resources/Items/Sword/Sword_Slaanesh_Hand.png
+
+#Combat Axe
+
+      2056: Resources/Items/Combat_Axe/Combat_Axe_Khorne_Hand.png
+
+#      2064: Resources/Items/
+#      2072: Resources/Items/
+#      2080: Resources/Items/
+#      2088: Resources/Items/
+#      2096: Resources/Items/
+#      2104: Resources/Items/
+
+#Chainswords (Human-sized)
+
+      2112: Resources/Items/Chainsword/Chainsword_PDF_Hand.png
+      2120: Resources/Items/Chainsword/Chainsword_Chaos_Hand.png
+      2128: Resources/Items/Chainsword/Chainsword_Khorne_Hand.png
+      2136: Resources/Items/Chainsword/Chainsword_Nurgle_Hand.png
+      2144: Resources/Items/Chainsword/Chainsword_Tzeentch_Hand.png
+      2152: Resources/Items/Chainsword/Chainsword_Slaanesh_Hand.png
+
+#Chainswords (Astartes-sized)
+
+      2160: Resources/Items/Chainsword/SM_Chainsword_Chaos_Hand.png
+      2168: Resources/Items/Chainsword/SM_Chainsword_Khorne_Hand.png
+      2176: Resources/Items/Chainsword/SM_Chainsword_Nurgle_Hand.png
+      2184: Resources/Items/Chainsword/SM_Chainsword_Tzeentch_Hand.png
+      2192: Resources/Items/Chainsword/SM_Chainsword_Slaanesh_Hand.png
+
+#Chainaxe (Human-sized)
+
+      2200: Resources/Items/Chainaxe/Chainaxe_Khorne_Hand.png
+
+#Chainaxe (Astartes-sized)
+
+      2208: Resources/Items/Chainaxe/SM_Chainaxe_Khorne_Hand.png
+
+#      2216: Resources/Items/
+#      2224: Resources/Items/
+#      2232: Resources/Items/
+#      2240: Resources/Items/
+#      2248: Resources/Items/
+#      2256: Resources/Items/
+
+#Power Swords (Human-sized)
+
+      2264: Resources/Items/Power_Sword/Power_Sword_PDF_Hand.png
+      2272: Resources/Items/Power_Sword/Power_Sword_Chaos_Hand.png
+      2280: Resources/Items/Power_Sword/Power_Sword_Khorne_Hand.png
+      2288: Resources/Items/Power_Sword/Power_Sword_Nurgle_Hand.png
+      2296: Resources/Items/Power_Sword/Power_Sword_Tzeentch_Hand.png
+      2304: Resources/Items/Power_Sword/Power_Sword_Slaanesh_Hand.png
+
+#Power Swords (Astartes-sized)
+
+      2320: Resources/Items/Power_Sword/SM_Power_Sword_Chaos_Hand.png
+      2312: Resources/Items/Power_Sword/SM_Power_Sword_Khorne_Hand.png
+      2328: Resources/Items/Power_Sword/SM_Power_Sword_Nurgle_Hand.png
+      2336: Resources/Items/Power_Sword/SM_Power_Sword_Tzeentch_Hand.png
+      2344: Resources/Items/Power_Sword/SM_Power_Sword_Slaanesh_Hand.png
+
+#Power Axe (Astartes-sized)
+
+      2352: Resources/Items/Power_Axe/SM_Power_Axe_Khorne_Hand.png
+
+#Force Staffs
+      2360: Resources/Items/Force_Staff/Force_Staff_PDF_Hand.png
+      2368: Resources/Items/Force_Staff/Force_Staff_Chaos_Hand.png
 
 
 
-# +1000 temporary
-      1368: Resources/Items/Renegades/Autopistol_Renegade/Autopistol_Renegade_Hand.png
-      1376: Resources/Items/Renegades/Autogun_Renegade/Autogun_Renegade_Hand.png
-      1384: Resources/Items/Renegades/Heavy_Stubber_Renegade/Heavy_Stubber_Renegade_Hand.png
-      1392: Resources/Items/Renegades/Shotgun_Renagade/Shotgun_Renagade_Hand.png
-      1400: Resources/Items/Renegades/Boltpistol_Renegade/Boltpistol_Renegade_Hand.png
-      1408: Resources/Items/Renegades/Boltgun_Renegade/Boltgun_Renegade_Hand.png
-      1416: Resources/Items/Renegades/Flamer_Renegade/Flamer_Renegade_Hand.png
-      1424: Resources/Items/Renegades/Improvised_Mace/Improvised_Mace_Hand.png
-      1432: Resources/Items/Renegades/Improvised_Sword/Improvised_Sword_Hand.png
 
-#      496: Resources/Items/Arbites
-#      504: Resources/Items/Arbites
-#      512: Resources/Items/Arbites
-#      520: Resources/Items/Arbites
-#      528: Resources/Items/Arbites
-#      536: Resources/Items/Arbites
 
+
+#      2376: Resources/Items/
+#      2384: Resources/Items/
+#      2392: Resources/Items/
+#      2400: Resources/Items/
+#      2408: Resources/Items/
+#      2416: Resources/Items/
+#      2424: Resources/Items/
+#      2432: Resources/Items/
+#      2440: Resources/Items/
+#      2448: Resources/Items/
+#      2456: Resources/Items/
+#      2464: Resources/Items/
+#      2472: Resources/Items/
+#      2480: Resources/Items/
+#      2488: Resources/Items/
+#      2496: Resources/Items/
+#      2504: Resources/Items/
+#      2512: Resources/Items/
+#      2520: Resources/Items/
+#      2528: Resources/Items/
+#      2536: Resources/Items/
+#      2544: Resources/Items/
+#      2552: Resources/Items/
+#      2568: Resources/Items/
+#      2576: Resources/Items/
+#      2584: Resources/Items/
+#      2592: Resources/Items/
+#      2600: Resources/Items/
+
+
+
+
+#Throwing Weapons
+
+      4000: Resources/Items/Frag_Grenade/Frag_Grenade_Hand.png
+      4008: Resources/Items/Krak_Grenade/Krak_Grenade_Hand.png
+      4016: Resources/Items/Proximity_Grenade/Proximity_Grenade_Hand.png
+      4024: Resources/Items/Incendiary_Grenade/Incendiary_Grenade_Hand.png
+      4032: Resources/Items/Smoke_Grenade/Smoke_Grenade_Hand.png
+      4040: Resources/Items/Stun_Grenade/Stun_Grenade_Hand.png
+      4048: Resources/Items/Demolition_Charge/Demolition_Charge_Hand.png
+      4056: Resources/Items/Melta_Bomb/Melta_Bomb_Hand.png
+#      4064: Resources/Items/
+
+#Utility Items
+
+      4072: Resources/Items/Motion_Scanner/Motion_Scanner_Hand.png
+      4080: Resources/Items/Analyzer/Analyzer_Hand.png
+      4088: Resources/Items/Medi-Kit/Medi-Kit_Hand.png
+      4096: Resources/Items/Glow_Stick/Glow_Stick_Hand.png
+      4104: Resources/Items/Fire_Extinguisher/Fire_Extinguisher_Hand.png
+#      4112: Resources/Items/
+#      4120: Resources/Items/
+#      4128: Resources/Items/
+#      4136: Resources/Items/
 
 
 

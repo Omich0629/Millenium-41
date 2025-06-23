@@ -1,0 +1,193 @@
+extended:
+  tags:
+    RuleItem:
+      MORALE_BOOSTER_ITEM: int
+      TU_BOOSTER_ITEM: int
+    RuleSoldier:
+      MORALE_BOOST_POSSIBLE: int
+      TU_BOOST_POSSIBLE: int
+
+  scripts:
+    tryPsiAttackItem:
+
+      #Handles hit chance for special psi items.
+      #Hit chance is 100% if item is a Morale Booster or TU Booster
+      - offset: 4
+        code: |
+          var ptr RuleItem psiWeaponRuleset;
+          var ptr RuleSoldier victimRuleSoldier;
+
+          var int moraleBoosterTag;
+          var int isMoraleBoostPossibleTag;
+
+          var int TUBoosterTag;
+          var int isTUBoostPossibleTag;
+
+          var int attackerUnitID;
+          var int victimUnitID;
+
+
+          #debug_log "tryPsiAttackItem";
+
+          #Get ruleset of the psi item
+          item.getRuleItem psiWeaponRuleset;
+
+          #Get ruleset of the victim soldier
+          BattleUnit.getRuleSoldier victim victimRuleSoldier;
+
+          #Get MORALE_BOOSTER_ITEM tag from psi item
+          psiWeaponRuleset.getTag moraleBoosterTag Tag.MORALE_BOOSTER_ITEM;
+          #Get TU_BOOSTER_ITEM tag from psi item
+          psiWeaponRuleset.getTag TUBoosterTag Tag.TU_BOOSTER_ITEM;
+
+          #Get IDs of attacker unit and victim unit
+          BattleUnit.getId attacker attackerUnitID;
+          BattleUnit.getId victim victimUnitID;
+          #debug_log "attackerUnitID:" attackerUnitID;
+          #debug_log "victimUnitID:" victimUnitID;
+
+          #If attacker and victim are the same units, set hit chance to 0%
+          if eq attackerUnitID victimUnitID;
+            #debug_log "Attacker and victim are the same units!";
+            set psi_attack_success 0;
+            #debug_log "psi_attack_success:" psi_attack_success;
+            return psi_attack_success;
+          end;
+
+          #Execute if psi item has MORALE_BOOSTER_ITEM tag
+          if gt moraleBoosterTag 0;
+            #debug_log "Got moraleBoosterTag:" moraleBoosterTag;
+
+            #Get MORALE_BOOST_POSSIBLE tag from victim soldier
+            victimRuleSoldier.getTag isMoraleBoostPossibleTag Tag.MORALE_BOOST_POSSIBLE;
+            #debug_log "isMoraleBoostPossibleTag:" isMoraleBoostPossibleTag;
+
+            #If victim soldier has no MORALE_BOOST_POSSIBLE tag, then set hit chance to 0%
+            if eq isMoraleBoostPossibleTag 0;
+              set psi_attack_success 0;
+              #debug_log "psi_attack_success:" psi_attack_success;
+              return psi_attack_success;
+            end;
+
+            #Set hit chance to 100% if non of previous statements were true
+            set psi_attack_success 100;
+            return psi_attack_success;
+          end;
+
+          #Execute if psi item has TU_BOOSTER_ITEM tag
+          if gt TUBoosterTag 0;
+            #debug_log "Got TUBoosterTag:" TUBoosterTag;
+
+            #Get TU_BOOST_POSSIBLE tag from victim soldier
+            victimRuleSoldier.getTag isTUBoostPossibleTag Tag.TU_BOOST_POSSIBLE;
+            #debug_log "isTUBoostPossibleTag:" isTUBoostPossibleTag;
+
+            #If victim soldier has no TU_BOOST_POSSIBLE tag, then set hit chance to 0%
+            if eq isTUBoostPossibleTag 0;
+              set psi_attack_success 0;
+              #debug_log "psi_attack_success:" psi_attack_success;
+              return psi_attack_success;
+            end;
+
+            #Set hit chance to 100% if non of previous statements were true
+            set psi_attack_success 100;
+            return psi_attack_success;
+          end;
+
+          return psi_attack_success;
+
+
+    hitUnit:
+
+      #Handles the stat boosting.
+      - offset: 5
+        code: |
+
+          var ptr RuleItem psiWeaponRuleset;
+          var int moraleBoosterTag;
+          var int TUBoosterTag;
+
+          var int attackerUnitPsiSkill;
+
+          var int moraleBoost;
+          var int TUBoost;
+
+
+          #debug_log "hitUnit script";
+
+          #Get ruleset of the psi item
+          damaging_item.getRuleItem psiWeaponRuleset;
+
+          #Get MORALE_BOOSTER_ITEM tag from weapon
+          psiWeaponRuleset.getTag moraleBoosterTag Tag.MORALE_BOOSTER_ITEM;
+          #debug_log "moraleBoosterTag:" moraleBoosterTag;
+
+          #Get TU_BOOSTER_ITEM tag from weapon
+          psiWeaponRuleset.getTag TUBoosterTag Tag.TU_BOOSTER_ITEM;
+          #debug_log "TUBoosterTag:" TUBoosterTag;
+
+          #Execute if psi item has MORALE_BOOSTER_ITEM tag
+          if gt moraleBoosterTag 0;
+
+            #Get attacker unit PsiSkill
+            BattleUnit.Stats.getPsiSkill attacker attackerUnitPsiSkill;
+            #debug_log "attacker unit Psi Skill:" attackerUnitPsiSkill;
+
+            #Calculate Morale Boost (It's a half of attacker's psionic skill value)
+            set moraleBoost attackerUnitPsiSkill;
+            div moraleBoost 2;
+            #debug_log "Morale Boost:" moraleBoost;
+
+            #Apply Morale Boost to the target
+            BattleUnit.addMorale unit moraleBoost;
+
+            return power part side;
+          end;
+
+          #Execute if psi item has TU_BOOSTER_ITEM tag
+          if gt TUBoosterTag 0;
+
+            #Get attacker unit PsiSkill
+            BattleUnit.Stats.getPsiSkill attacker attackerUnitPsiSkill;
+            #debug_log "attacker unit Psi Skill:" attackerUnitPsiSkill;
+
+            #Calculate TU Boost (It's a half of attacker's psionic skill value)
+            set TUBoost attackerUnitPsiSkill;
+            div TUBoost 2;
+            #debug_log "TU Boost:" TUBoost;
+
+            #Apply TU Boost to the target
+            BattleUnit.addTimeUnits unit TUBoost;
+
+            return power part side;
+          end;
+
+
+          return power part side;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

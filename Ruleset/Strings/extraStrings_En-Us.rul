@@ -5,23 +5,91 @@ extraStrings:
 ### MAIN MENU INTERFACE ###
       STR_OPENXCOM: "M41"
 
-### COUNTRIES (CORPORATIONS) ###
-      STR_NORTH_COUNTRY_1: "NEOLOGISTICS CORP."
-      STR_NORTH_COUNTRY_2: "TRUSTED MACHINERY"
-      STR_NORTH_COUNTRY_3: "AGROCONGLOMERATE"
-      STR_NORTH_COUNTRY_4: "CYBEROPTICS CORP."
-      STR_NORTH_COUNTRY_5: "REMEDIUM CORP."
-      STR_NORTH_COUNTRY_6: "AMALGAMMA IND."
+      STR_1_BEGINNER: "1> Beginner"
+      STR_2_EXPERIENCED: "2> Experienced"
+      STR_3_VETERAN: "3> Veteran"
+      STR_4_GENIUS: "4> Genius"
+      STR_5_SUPERHUMAN: "5> Superhuman"
+
+### NEW BATTLE INTERFACE ###
+      STR_MISSION_GENERATOR: "MISSION GENERATOR"
+      STR_MAP_OPTIONS: "MAP OPTIONS"
+      STR_ALIEN_OPTIONS: "ENEMY OPTIONS"
+      STR_MAP_TERRAIN: "Terrain"
+      STR_MAP_DARKNESS: "Darkness"
+      STR_DIFFICULTY: "Difficulty"
+      STR_ALIEN_RACE: "Enemy Faction"
+      STR_ALIEN_TECH_LEVEL: "Enemy Tech Level"
+      STR_RANDOMIZE: "Randomize"
+
+
+### GEOSCAPE INTERFACE ###
+      STR_INTERCEPT: "INTERCEPT"
+      STR_BASES: "BASES"
+      STR_GRAPHS: "GRAPHS"
+      STR_UFOPAEDIA_UC: "DATABASE"
+      STR_OPTIONS_UC: "OPTIONS"
+      STR_FUNDING_UC: "FUNDING"
+
+
+      STR_CENTER_ON_UFO_TIME_5_SECONDS: "CENTER ON TARGET-TIME=5 Secs"
+      STR_GO_TO_LAST_KNOWN_UFO_POSITION: "GO TO LAST KNOWN TARGET POSITION"
+
+
+
+### TRAGET  ###
+      STR_UFO_: "TARGET-{0}"
+      STR_ALIEN_BASE_: "ENEMY BASE-{0}"
+      STR_CRASH_SITE_: "DAMAGED TARGET-{0}"
+      STR_LANDING_SITE_: "STATIONARY TARGET-{0}"
+      STR_WAY_POINT_: "WAY POINT-{0}"
+      STR_TERROR_SITE: "TERROR SITE-{0}"
+
+
+
+
+
+### BATTLESCAPE INTERFACE ###
+      STR_XCOM: "Planetary Defence Forces"
+      STR_ALIENS: "Enemies"
+
+
+
+
+
+
+### PSIONICS ###
+
+      STR_PSI_TRAINING: "Intelligence Training"
+      STR_PSIONIC_TRAINING: "INTELLIGENCE TRAINING"
+      STR_REMAINING_PSI_LAB_CAPACITY: "Remaining facility capacity> {ALT}{0}"
+      STR_PSIONIC__STRENGTH: "Psionic{NEWLINE}Strength"
+      STR_PSIONIC_SKILL_IMPROVEMENT: "Intelligence{NEWLINE}/Improvement"
+
+
+      STR_PSIONIC_SKILL: "INTELLIGENCE"
+      STR_PSIONIC_SKILL_SHORT: "Int>{ALT}{0}"
+      STR_PSIONIC_SKILL_ABBREVIATION: "INT"
+
+
+
+### COUNTRIES (PLANETARY ORGANIZATIONS) ###
+      STR_NORTH_COUNTRY_1: "NEOLOGISTICS CORP"
+      STR_NORTH_COUNTRY_2: "TRUSTED MACHINERY" #Meta-Machinery
+      STR_NORTH_COUNTRY_3: "AGROCONGLOMERATE" 
+      STR_NORTH_COUNTRY_4: "CYBEROPTICS CORP"
+      STR_NORTH_COUNTRY_5: "REMEDIUM CORP"
+      STR_NORTH_COUNTRY_6: "AMALGAMMA IND"
       STR_NORTH_COUNTRY_7: "NAUTICAL PLEXUS" #Zenith Inc.
       STR_NORTH_COUNTRY_8: "PHARMA-CARTEL"
-      STR_NORTH_COUNTRY_9: "MULTICAST INC."
+      STR_NORTH_COUNTRY_9: "MULTICAST INC"
       STR_CENTRAL_COUNTRY_1: "FUEL SYNDICATE"
-      STR_CENTRAL_COUNTRY_2: "OCTANE CORP."
-      STR_WEST_COUNTRY_1: "HARVESTECH CORP."
-      STR_SOUTH_COUNTRY_1: "OMNI-CHEM CORP."
+      STR_CENTRAL_COUNTRY_2: "OCTANE CORP"
+      STR_WEST_COUNTRY_1: "HARVESTECH CORP"
+      STR_SOUTH_COUNTRY_1: "OMNI-CHEM CORP"
       STR_SOUTH_EAST_COUNTRY_1: "INDUSTRIAL UNION"
-      STR_SOUTH_WEST_COUNTRY_1: "PHOBOS INC."
-      STR_SOUTH_WEST_COUNTRY_2: "MECHANICUS"
+      STR_SOUTH_WEST_COUNTRY_1: "PHOBOS INC" 
+      STR_SOUTH_WEST_COUNTRY_2: "MECHANICUS" #Machine Cult
 
       STR_EXTRA_LABEL_1: "QUARANTINE ZONE\n(XENOS INFESTATION)"
 
@@ -45,9 +113,27 @@ extraStrings:
       MAP_ICE_SHELF: "Ice Shelf"
 
 ### ENEMY DEPLOYMENTS ###
+
+      STR_UFO_CRASH_RECOVERY: "DAMAGED TARGET RECOVERY"
+      STR_UFO_GROUND_ASSAULT: "GROUND ASSAULT"
+
       STR_BASE_DEFENSE: "Base Defense"
       STR_CHAOS_BASE_ASSAULT: "Chaos Base Assault"
       STR_RESIDENTIAL_AREA_TERROR: "Residential Area Terror Site"
+
+
+
+### MISSION BRIEFINGS ###
+      STR_UFO_CRASH_RECOVERY_BRIEFING: "{NEWLINE}PDF operatives are given a task to dispatch the damaged enemy vehicle and its crew. {NEWLINE}Mission will be successful when all enemy units have been eliminated or neutralized. {NEWLINE}{NEWLINE}To abort the mission, return PDF operatives to transport vehicle and click on the 'Abort Mission' icon."
+
+      STR_UFO_GROUND_ASSAULT_BRIEFING: "{NEWLINE}PDF operatives are given a task to dispatch the stationary enemy vehicle and its crew. {NEWLINE}Mission will be successful when all enemy units have been eliminated or neutralized. {NEWLINE}{NEWLINE}To abort the mission, return PDF operatives to transport vehicle and click on the 'Abort Mission' icon."
+
+      STR_BASE_DEFENSE_BRIEFING: "{NEWLINE}An enemy craft has landed nearby. Our base is in severe danger. As per standard procedure all non-combat personnel and PDF craft have been evacuated. Enemy units will enter the base via hangar doors and the access lift. {NEWLINE}Defend the base at all costs - this is a fight to the death. {NEWLINE}{NEWLINE}If you click on the 'abort mission' icon you will concede defeat and lose the base."
+
+      STR_CHAOS_BASE_ASSAULT_BRIEFING: "{NEWLINE}PDF operatives have gained entrance to Chaos Cult base. {NEWLINE}Mission will be successful when all enemy units have been eliminated or neutralized. {NEWLINE}{NEWLINE}To abort the mission, return PDF operatives to green exit area and click on the 'Abort Mission' icon."
+
+      STR_RESIDENTIAL_AREA_TERROR_BRIEFING: "{NEWLINE}Enemy forces are carrying out a terrorist attack in residential area. PDF operatives must attempt to save the lives of any civilians in the area. {NEWLINE}Mission will be successful when all enemy units have been eliminated or neutralized. {NEWLINE}{NEWLINE}To abort the mission, return PDF operatives to transport vehicle and click on the 'Abort Mission' icon."
+
 
 
 
@@ -59,9 +145,9 @@ extraStrings:
       STR_FACILITY_RESEARCH: "Research Facility"
       STR_FACILITY_WORKSHOP: "Workshop"
       STR_FACILITY_HOSPITAL: "Hospital"
-      STR_FACILITY_SMALL_RADAR: "Radar Mk 1"
-      STR_FACILITY_MEDIUM_RADAR: "Radar Mk 2"
-      STR_FACILITY_LARGE_RADAR: "Radar Mk 3"
+      STR_FACILITY_SMALL_RADAR: "Short Range Radar"
+      STR_FACILITY_MEDIUM_RADAR: "Medium Range Radar"
+      STR_FACILITY_LARGE_RADAR: "Long Range Radar"
       STR_FACILITY_EDUCATION: "Education Facility"
       STR_FACILITY_PRISON: "Prison"
       STR_FACILITY_COUNTER_RADAR: "Counter Radar System"
@@ -75,25 +161,23 @@ extraStrings:
 
 ### ITEM CATEGORIES ###
 #By type
-      STR_CATEGORY_PISTOL: "Pistol"
-      STR_CATEGORY_ASSAULT: "Assault Weapon"
-      STR_CATEGORY_RAPID: "Rapid Fire Weapon"
+      STR_CATEGORY_ONEHANDED: "One-Handed Weapon"
+      STR_CATEGORY_TWOHANDED: "Two-Handed Weapon"
       STR_CATEGORY_HEAVY: "Heavy Weapon"
-      STR_CATEGORY_GRENADE: "Hand Grenade"
+      STR_CATEGORY_THROWING: "Throwing Weapon"
       STR_CATEGORY_MELEE: "Melee Weapon"
       STR_CATEGORY_AMMO: "Ammo"
       STR_CATEGORY_ARMOR: "Armor"
       STR_CATEGORY_UTILITY: "Utility Item"
 
 #By technology
-      STR_CATEGORY_STUB: "Stub Weapon"
-      STR_CATEGORY_BOLT: "Bolt Weapon"
+      STR_CATEGORY_FIREARM: "Firearm Weapon"
       STR_CATEGORY_LAUNCHER: "Launcher Weapon"
-      STR_CATEGORY_FLAMER: "Flamer Weapon"
       STR_CATEGORY_LASER: "Laser Weapon"
+      STR_CATEGORY_BOLT: "Bolt Weapon"
       STR_CATEGORY_PLASMA: "Plasma Weapon"
       STR_CATEGORY_MELTA: "Melta Weapon"
-      STR_CATEGORY_GRAVITON: "Graviton Weapon"
+      STR_CATEGORY_MELEE: "Melee Weapon"
       STR_CATEGORY_CHAIN: "Chain Weapon"
       STR_CATEGORY_POWER: "Power Weapon"
 
@@ -109,131 +193,540 @@ extraStrings:
       STR_GROUND: "Ground"
 
 ### DAMAGE TYPES ###
-      STR_DAMAGE_NONE: "NONE"
-      STR_DAMAGE_ARMOR_PIERCING: "ARMOR PIERCING"
-      STR_DAMAGE_INCENDIARY: "INCENDIARY"
-      STR_DAMAGE_HIGH_EXPLOSIVE: "HIGH EXPLOSIVE"
-      STR_DAMAGE_LASER_BEAM: "LASER"
-      STR_DAMAGE_PLASMA_BEAM: "PLASMA"
-      STR_DAMAGE_STUN: "STUN"
-      STR_DAMAGE_MELEE: "MELEE"
-      STR_DAMAGE_ACID: "POWER"
-      STR_DAMAGE_SMOKE: "SMOKE"
-      STR_DAMAGE_10: "IMPACT SHOCK"
-      STR_DAMAGE_11: "MELTA"
-      STR_DAMAGE_12: "GRAVITON"
-      STR_DAMAGE_13: "SUPPORT"
+      STR_DAMAGE_NONE: "NONE"                        #0
+      STR_DAMAGE_ARMOR_PIERCING: "KINETIC"           #1
+      STR_DAMAGE_INCENDIARY: "INCENDIARY"            #2
+      STR_DAMAGE_HIGH_EXPLOSIVE: "HIGH EXPLOSIVE"    #3
+      STR_DAMAGE_LASER_BEAM: "LASER"                 #4
+      STR_DAMAGE_PLASMA_BEAM: "PLASMA"               #5
+      STR_DAMAGE_STUN: "STUN"                        #6
+      STR_DAMAGE_MELEE: "MELEE"                      #7
+      STR_DAMAGE_ACID: "ACID "                       #8
+      STR_DAMAGE_SMOKE: "SMOKE"                      #9
+      STR_DAMAGE_10: "MELTA"                         #10   
+#      STR_DAMAGE_11: ""
+#      STR_DAMAGE_12: ""
+#      STR_DAMAGE_13: ""
 
-### ARMORS ###
-      STR_ARBITES_ARMOR: "Arbites Carapace Armor"
-      STR_ARBITES_DEFENSIVE_EQUIPMENT: "Arbites Defensive Equipment"
+### PDF ARMORS ###
+      STR_PDF_SOLDIER_UNIFORM: "Uniform"
+      STR_PDF_SERGEANT_UNIFORM: "Uniform"
+      STR_PDF_OFFICER_UNIFORM: "Uniform"
+      STR_PDF_PSYKER_UNIFORM: "Uniform"
 
-      STR_CULTIST_CLOTHES_MALE0: "Cultist Clothes"
-      STR_CULTIST_CLOTHES_FEMALE0: "Cultist Clothes"
-      STR_CULTIST_CLOTHES_MALE1: "Cultist Clothes"
-      STR_CULTIST_CLOTHES_FEMALE1: "Cultist Clothes"
-      STR_CULTIST_CLOTHES_MALE2: "Cultist Clothes"
-      STR_CULTIST_CLOTHES_FEMALE2: "Cultist Clothes"
 
-      STR_CULTIST_ARMOR_MALE0: "Cultist Armor"
-      STR_CULTIST_ARMOR_FEMALE0: "Cultist Armor"
-      STR_CULTIST_ARMOR_MALE1: "Cultist Armor"
-      STR_CULTIST_ARMOR_FEMALE1: "Cultist Armor"
-      STR_CULTIST_ARMOR_MALE2: "Cultist Armor"
-      STR_CULTIST_ARMOR_FEMALE2: "Cultist Armor"
+      STR_PDF_SOLDIER_FLAK_ARMOR: "Flak Armor"
+      STR_PDF_SERGEANT_FLAK_ARMOR: "Flak Armor"
+      STR_PDF_OFFICER_FLAK_ARMOR: "Flak Armor"
+      STR_PDF_PSYKER_FLAK_ARMOR: "Flak Armor"
 
-      STR_CULTIST_HEAVY_ARMOR_MALE0: "Cultist Heavy Armor"
-      STR_CULTIST_HEAVY_ARMOR_MALE1: "Cultist Heavy Armor"
-      STR_CULTIST_HEAVY_ARMOR_MALE2: "Cultist Heavy Armor"
+      STR_FLAK_ARMOR_STORE_ITEM: "Flak Armor" #Store item
 
-#SOLDIERS
-      STR_ARBITES: "Adeptus Arbites"
 
-#RANKS
-      STR_ARBITES_RANK0: "Arbitrator"
-      STR_ARBITES_RANK1: "Arbitrator"
-      STR_ARBITES_RANK2: "Proctor"
+      STR_PDF_SOLDIER_ASSAULT_FLAK_ARMOR: "Assault Flak Armor"
+      STR_PDF_SERGEANT_ASSAULT_FLAK_ARMOR: "Assault Flak Armor"
+      STR_PDF_OFFICER_ASSAULT_FLAK_ARMOR: "Assault Flak Armor"
+
+      STR_ASSAULT_FLAK_ARMOR_STORE_ITEM: "Assault Flak Armor" #Store item
+
+
+      STR_PDF_SOLDIER_CARAPACE: "Carapace Armor"
+      STR_PDF_SERGEANT_CARAPACE: "Carapace Armor"
+      STR_PDF_OFFICER_CARAPACE: "Carapace Armor"
+      STR_PDF_PSYKER_CARAPACE: "Carapace Armor"
+
+      STR_CARAPACE_STORE_ITEM: "Carapace Armor" #Store item
+
+
+      STR_PDF_SOLDIER_ASSAULT_CARAPACE: "Assault Carapace Armor"
+      STR_PDF_SERGEANT_ASSAULT_CARAPACE: "Assault Carapace Armor"
+      STR_PDF_OFFICER_ASSAULT_CARAPACE: "Assault Carapace Armor"
+
+      STR_ASSAULT_CARAPACE_STORE_ITEM: "Assault Carapace Armor" #Store item
+
+
+      STR_PDF_SOLDIER_HEAVY_CARAPACE: "Heavy Carapace Armor"
+      STR_PDF_SERGEANT_HEAVY_CARAPACE: "Heavy Carapace Armor"
+      STR_PDF_OFFICER_HEAVY_CARAPACE: "Heavy Carapace Armor"
+
+      STR_HEAVY_CARAPACE_STORE_ITEM: "Carapace Armor" #Store item
+
+
+
+#PDF SOLDIERS
+
+      STR_PDF_SOLDIER: "Soldier"
+      STR_PDF_SERGEANT: "Sergeant"
+      STR_PDF_OFFICER: "Officer"
+      STR_PDF_PSYKER: "Psyker"
+
+#PDF CORPSES
+
+      STR_PDF_SOLDIER_CORPSE: "PDF Soldier Corpse"
+      STR_PDF_SERGEANT_CORPSE: "PDF Sergeant Corpse"
+      STR_PDF_OFFICER_CORPSE: "PDF Officer Corpse"
+      STR_PDF_PSYKER_CORPSE: "PDF Psyker Corpse"
+
+
+#PDF RANKS
+
+      STR_SOLDIER_RANK0: "Recruit" #xcom rookie
+      STR_SOLDIER_RANK1: "Private" #xcom squaddie
+      STR_SOLDIER_RANK2: "Corporal" #xcom sergeant
+
+      STR_SERGEANT_RANK0: "Sergeant" #xcom rookie
+      STR_SERGEANT_RANK1: "Sergeant" #xcom squaddie
+      STR_SERGEANT_RANK2: "Sergeant" #xcom sergeant
+      STR_SERGEANT_RANK3: "Senior Sergeant" #xcom captain
+
+      STR_OFFICER_RANK0: "Lieutenant" #xcom rookie
+      STR_OFFICER_RANK1: "Lieutenant" #xcom squaddie
+      STR_OFFICER_RANK2: "Lieutenant" #xcom sergeant
+      STR_OFFICER_RANK3: "Lieutenant" #xcom captain
+      STR_OFFICER_RANK4: "Captain" #xcom colonel
+      STR_OFFICER_RANK5: "Major" #xcom commander
+
+      STR_PSYKER_RANK0: "Psyker" #xcom rookie
 
 #ITEMS
-      STR_AUTOPISTOL_GENERIC1: "Autopistol Sol Pattern"
-      STR_AUTOPISTOL_GENERIC2: "Autopistol Voss Pattern Mk1"
-      STR_AUTOPISTOL_GENERIC3: "Autopistol Corp Pattern"
-      STR_AUTOPISTOL_ARBITES: "Autopistol (Arbites)"
-      STR_AUTOPISTOL_RENEGADE: "Autopistol (Renegade)"
+#Autopistols
+      STR_AUTOPISTOL_PDF: "Autopistol"
+      STR_AUTOPISTOL_CHAOS: "Chaos Autopistol"
+      STR_AUTOPISTOL_KHORNE: "Khorne Autopistol"
+      STR_AUTOPISTOL_NURGLE: "Nurgle Autopistol"
+      STR_AUTOPISTOL_TZEENTCH: "Tzeentch Autopistol"
+      STR_AUTOPISTOL_SLAANESH: "Slaanesh Autopistol"
+
       STR_AUTOPISTOL_MAGAZINE: "Autopistol Magazine"
 
-      STR_AUTOGUN_GENERIC1: "Autogun Sol Pattern"
-      STR_AUTOGUN_GENERIC2: "Sawn-Off Autogun"
-      STR_AUTOGUN_GENERIC3: "Autogun Agripinaa Pattern"
-      STR_AUTOGUN_GENERIC4: "Autogun Phobos Pattern"
-      STR_AUTOGUN_GENERIC5: "Autogun Corp Pattern"
+      STR_AUTOPISTOL_CHAOS_STORE: "Chaos Autopistol" #store item for chaos autopistols
 
-      STR_AUTOGUN_ARBITES: "Autogun (Arbites)"
-      STR_AUTOGUN_RENEGADE: "Autogun (Renegade)"
+#Autoguns
+      STR_AUTOGUN_PDF: "Autogun"
+      STR_AUTOGUN_CHAOS: "Chaos Autogun"
+      STR_AUTOGUN_KHORNE: "Khorne Autogun"
+      STR_AUTOGUN_NURGLE: "Nurgle Autogun"
+      STR_AUTOGUN_TZEENTCH: "Tzeentch Autogun"
+      STR_AUTOGUN_SLAANESH: "Slaanesh Autogun"
+
       STR_AUTOGUN_MAGAZINE: "Autogun Magazine"
 
-      STR_HEAVY_STUBBER_GENERIC1: "Heavy Stubber Vraks Pattern"
-      STR_HEAVY_STUBBER_GENERIC2: "Heavy Stubber Corp Pattern"
-      STR_HEAVY_STUBBER_ARBITES: "Heavy Stubber (Arbites)"
-      STR_HEAVY_STUBBER_RENEGADE: "Heavy Stubber (Renegade)"
+      STR_AUTOGUN_CHAOS_STORE: "Chaos Autogun" #store item for chaos autoguns
+
+#Marksman Autoguns
+      STR_MARKSMAN_AUTOGUN_PDF: "Marksman Autogun"
+      STR_MARKSMAN_AUTOGUN_CHAOS: "Chaos Marksman Autogun"
+      STR_MARKSMAN_AUTOGUN_KHORNE: "Khorne Marksman Autogun"
+      STR_MARKSMAN_AUTOGUN_NURGLE: "Nurgle Marksman Autogun"
+      STR_MARKSMAN_AUTOGUN_TZEENTCH: "Tzeentch Marksman Autogun"
+      STR_MARKSMAN_AUTOGUN_SLAANESH: "Slaanesh Marksman Autogun"
+
+      STR_MARKSMAN_AUTOGUN_CHAOS_STORE: "Chaos Marksman Autogun" #store item for chaos sniper rifles
+
+#Heavy Stubbers
+      STR_HEAVY_STUBBER_PDF: "Heavy Stubber"
+      STR_HEAVY_STUBBER_CHAOS: "Chaos Heavy Stubber"
+      STR_HEAVY_STUBBER_KHORNE: "Khorne Heavy Stubber"
+      STR_HEAVY_STUBBER_NURGLE: "Nurgle Heavy Stubber"
+      STR_HEAVY_STUBBER_TZEENTCH: "Tzeentch Heavy Stubber"
+      STR_HEAVY_STUBBER_SLAANESH: "Slaanesh Heavy Stubber"
+
       STR_HEAVY_STUBBER_AMMO_BELT: "Heavy Stubber Ammo Belt"
 
-      STR_SHOTGUN_GENERIC1: "Shotgun Civilian Pattern"
-      STR_SHOTGUN_GENERIC2: "Shotgun Defender Pattern"
-      STR_SHOTGUN_GENERIC3: "Shotgun Phobos Pattern Mk1"
-      STR_SHOTGUN_GENERIC4: "Shotgun Phobos Pattern Mk1-S"
+      STR_HEAVY_STUBBER_CHAOS_STORE: "Chaos Heavy Stubber" #store item for chaos heavy stubbers
 
-      STR_SHOTGUN_ARBITES: "Shotgun (Arbites)"
-      STR_SHOTGUN_RENEGADE: "Shotgun (Renegade)"
-      STR_SHOTGUN_SHELLS: "Shotgun Shells"
-      STR_SHOTGUN_SLUGS: "Shotgun Slugs"
 
-      STR_SNIPER_RIFLE_ARBITES: "Sniper Rifle (Arbites)"
-      STR_SNIPER_RIFLE_MAGAZINE: "Sniper Rifle Magazine"
+#Grenade Lanuchers
+      STR_GRENADE_LAUNCHER_PDF: "Grenade Launcher"
+      STR_GRENADE_LAUNCHER_CHAOS: "Chaos Grenade Launcher"
+      STR_GRENADE_LAUNCHER_KHORNE: "Khorne Grenade Launcher"
+      STR_GRENADE_LAUNCHER_NURGLE: "Nurgle Grenade Launcher"
+      STR_GRENADE_LAUNCHER_TZEENTCH: "Tzeentch Grenade Launcher"
+      STR_GRENADE_LAUNCHER_SLAANESH: "Slaanesh Grenade Launcher"
 
-      STR_BOLTPISTOL_ARBITES: "Bolt Pistol (Arbites)"
-      STR_BOLTPISTOL_RENEGADE: "Bolt Pistol (Renegade)"
-      STR_BOLTPISTOL_MAGAZINE_EX: "Bolt Pistol EX Magazine"
+      STR_FRAG_GRENADE_MAGAZINE: "Frag Grenade Magazine"
+      STR_KRAK_GRENADE_MAGAZINE: "Krak Grenade Magazine"
+      STR_INCENDIARY_GRENADE_MAGAZINE: "Incendiary Grenade Magazine"
 
-      STR_BOLTGUN_ARBITES: "Boltgun (Arbites)"
-      STR_BOLTGUN_RENEGADE: "Boltgun (Renegade)"
-      STR_BOLTGUN_MAGAZINE_EX: "Boltgun EX Magazine"
+      STR_GRENADE_LAUNCHER_CHAOS_STORE: "Chaos Grenade Launcher" #store item for chaos grenade launchers
 
-      STR_GRENADE_LAUNCHER_ARBITES: "Grenade Launcher (Arbites)"
-      STR_FRAG_GRENADE_PACK: "Frag Grenade Pack"
-      STR_SMOKE_GRENADE_ROUND: "Smoke Grenade Round"
-      STR_STUN_GRENADE_ROUND: "Stun Grenade Round"
+#Missile Launchers
+      STR_MISSILE_LAUNCHER_PDF: "Missile Launcher"
+      STR_MISSILE_LAUNCHER_CHAOS: "Chaos Missile Launcher"
+      STR_MISSILE_LAUNCHER_KHORNE: "Khorne Missile Launcher"
+      STR_MISSILE_LAUNCHER_NURGLE: "Nurgle Missile Launcher"
+      STR_MISSILE_LAUNCHER_TZEENTCH: "Tzeentch Missile Launcher"
+      STR_MISSILE_LAUNCHER_SLAANESH: "Slaanesh Missile Launcher"
 
-      STR_FLAMER_RENEGADE: "Flamer (Renegade)"
+      STR_FRAG_MISSILE: "Frag Missile"
+      STR_KRAK_MISSILE: "Krak Missile"
+      STR_INCENDIARY_MISSILE: "Incendiary Missile"
+
+      STR_MISSILE_LAUNCHER_CHAOS_STORE: "Chaos Missile Launcher" #store item for chaos missile launchers
+
+#Flamers
+      STR_FLAMER_PDF: "Flamer"
+      STR_FLAMER_CHAOS: "Chaos Flamer"
+      STR_FLAMER_KHORNE: "Khorne Flamer"
+      STR_FLAMER_NURGLE: "Nurgle Flamer"
+      STR_FLAMER_TZEENTCH: "Tzeentch Flamer"
+      STR_FLAMER_SLAANESH: "Slaanesh Flamer"
+
       STR_FLAMER_FUEL: "Flamer Fuel"
 
+      STR_FLAMER_CHAOS_STORE: "Chaos Flamer" #store item for chaos flamers
+
+#Webbers
+      STR_WEBBER_PDF: "Webber"
+      STR_WEBBER_SLAANESH: "Slaanesh Webber"
+
+      STR_WEB_CHEM_CANISTER: "Web Chem Canister"
+
+#Laspistols
+      STR_LASPISTOL_PDF: "Laspistol"
+      STR_LASPISTOL_CHAOS: "Chaos Laspistol"
+      STR_LASPISTOL_KHORNE: "Khorne Laspistol"
+      STR_LASPISTOL_NURGLE: "Nurgle Laspistol"
+      STR_LASPISTOL_TZEENTCH: "Tzeentch Laspistol"
+      STR_LASPISTOL_SLAANESH: "Slaanesh Laspistol"
+
+      STR_LASPISTOL_CHAOS_STORE: "Chaos Laspistol" #store item for chaos laspistols
+
+#Lasguns
+      STR_LASGUN_PDF: "Lasgun"
+      STR_LASGUN_CHAOS: "Chaos Lasgun"
+      STR_LASGUN_KHORNE: "Khorne Lasgun"
+      STR_LASGUN_NURGLE: "Nurgle Lasgun"
+      STR_LASGUN_TZEENTCH: "Tzeentch Lasgun"
+      STR_LASGUN_SLAANESH: "Slaanesh Lasgun"
+
+      STR_LASGUN_CHAOS_STORE: "Chaos Lasgun" #store item for chaos lasguns
+
+#Marksman Lasguns
+      STR_MARKSMAN_LASGUN_PDF: "Marksman Lasgun"
+      STR_MARKSMAN_LASGUN_CHAOS: "Chaos Marksman Lasgun"
+      STR_MARKSMAN_LASGUN_KHORNE: "Khorne Marksman Lasgun"
+      STR_MARKSMAN_LASGUN_NURGLE: "Nurgle Marksman Lasgun"
+      STR_MARKSMAN_LASGUN_TZEENTCH: "Tzeentch Marksman Lasgun"
+      STR_MARKSMAN_LASGUN_SLAANESH: "Slaanesh Marksman Lasgun"
+
+      STR_MARKSMAN_LASGUN_CHAOS_STORE: "Chaos Marksman Lasgun" #store item for chaos marksman lasguns
+
+#Twin Lasguns
+      STR_TWIN_LASGUN_PDF: "Twin Lasgun"
+      STR_TWIN_LASGUN_CHAOS: "Chaos Twin Lasgun"
+      STR_TWIN_LASGUN_KHORNE: "Khorne Twin Lasgun"
+      STR_TWIN_LASGUN_NURGLE: "Nurgle Twin Lasgun"
+      STR_TWIN_LASGUN_TZEENTCH: "Tzeentch Twin Lasgun"
+      STR_TWIN_LASGUN_SLAANESH: "Slaanesh Twin Lasgun"
+
+      STR_TWIN_LASGUN_CHAOS_STORE: "Chaos Twin Lasgun" #store item for chaos twin lasguns
+
+#Hellpistols
+      STR_HELLPISTOL_PDF: "Hellpistol"
+      STR_HELLPISTOL_CHAOS: "Chaos Hellpistol"
+      STR_HELLPISTOL_KHORNE: "Khorne Hellpistol"
+      STR_HELLPISTOL_NURGLE: "Nurgle Hellpistol"
+      STR_HELLPISTOL_TZEENTCH: "Tzeentch Hellpistol"
+      STR_HELLPISTOL_SLAANESH: "Slaanesh Hellpistol"
+
+      STR_HELLPISTOL_CHAOS_STORE: "Chaos Hellpistol" #store item for chaos hellpistols
+
+#Hellguns
+      STR_HELLGUN_PDF: "Hellgun"
+      STR_HELLGUN_CHAOS: "Chaos Hellgun"
+      STR_HELLGUN_KHORNE: "Khorne Hellgun"
+      STR_HELLGUN_NURGLE: "Nurgle Hellgun"
+      STR_HELLGUN_TZEENTCH: "Tzeentch Hellgun"
+      STR_HELLGUN_SLAANESH: "Slaanesh Hellgun"
+
+      STR_HELLGUN_CHAOS_STORE: "Chaos Hellgun" #store item for chaos hellpistols
+
+#Marksman Hellguns
+      STR_MARKSMAN_HELLGUN_PDF: "Marksman Hellgun"
+      STR_MARKSMAN_HELLGUN_CHAOS: "Chaos Marksman Hellgun"
+      STR_MARKSMAN_HELLGUN_KHORNE: "Khorne Marksman Hellgun"
+      STR_MARKSMAN_HELLGUN_NURGLE: "Nurgle Marksman Hellgun"
+      STR_MARKSMAN_HELLGUN_TZEENTCH: "Tzeentch Marksman Hellgun"
+      STR_MARKSMAN_HELLGUN_SLAANESH: "Slaanesh Marksman Hellgun"
+
+      STR_MARKSMAN_HELLGUN_CHAOS_STORE: "Chaos Sniper Hellgun" #store item for chaos marksman hellguns
+
+#Twin Hellguns
+      STR_TWIN_HELLGUN_PDF: "Twin Hellgun"
+      STR_TWIN_HELLGUN_CHAOS: "Chaos Twin Hellgun"
+      STR_TWIN_HELLGUN_KHORNE: "Khorne Twin Hellgun"
+      STR_TWIN_HELLGUN_NURGLE: "Nurgle Twin Hellgun"
+      STR_TWIN_HELLGUN_TZEENTCH: "Tzeentch Twin Hellgun"
+      STR_TWIN_HELLGUN_SLAANESH: "Slaanesh Twin Hellgun"
+
+      STR_TWIN_HELLGUN_CHAOS_STORE: "Chaos Twin Hellgun" #store item for chaos twin hellguns
+
+#Bolt Pistols
+      STR_BOLT_PISTOL_PDF: "Bolt Pistol"
+      STR_BOLT_PISTOL_CHAOS: "Chaos Bolt Pistol"
+      STR_BOLT_PISTOL_KHORNE: "Khorne Bolt Pistol"
+      STR_BOLT_PISTOL_NURGLE: "Nurgle Bolt Pistol"
+      STR_BOLT_PISTOL_TZEENTCH: "Tzeentch Bolt Pistol"
+      STR_BOLT_PISTOL_SLAANESH: "Slaanesh Bolt Pistol"
+
+      STR_SM_BOLT_PISTOL_CHAOS: "Chaos Astartes Bolt Pistol"
+      STR_SM_BOLT_PISTOL_KHORNE: "Khorne Astartes Bolt Pistol"
+      STR_SM_BOLT_PISTOL_NURGLE: "Nurgle Astartes Bolt Pistol"
+      STR_SM_BOLT_PISTOL_TZEENTCH: "Tzeentch Astartes Bolt Pistol"
+      STR_SM_BOLT_PISTOL_SLAANESH: "Slaanesh Astartes Bolt Pistol"
+
+      STR_BOLT_PISTOL_MAGAZINE: "Bolt Pistol Magazine"
+
+      STR_BOLT_PISTOL_CHAOS_STORE: "Chaos Bolt Pistol" #store item for chaos bolt pistols
+
+#Boltguns
+      STR_BOLTGUN_PDF: "Boltgun"
+      STR_BOLTGUN_CHAOS: "Chaos Boltgun"
+      STR_BOLTGUN_KHORNE: "Khorne Boltgun"
+      STR_BOLTGUN_NURGLE: "Nurgle Boltgun"
+      STR_BOLTGUN_TZEENTCH: "Tzeentch Boltgun"
+      STR_BOLTGUN_SLAANESH: "Slaanesh Boltgun"
+
+      STR_SM_BOLTGUN_CHAOS: "Chaos Astartes Boltgun"
+      STR_SM_BOLTGUN_KHORNE: "Khorne Astartes Boltgun"
+      STR_SM_BOLTGUN_NURGLE: "Nurgle Astartes Boltgun"
+      STR_SM_BOLTGUN_TZEENTCH: "Tzeentch Astartes Boltgun"
+      STR_SM_BOLTGUN_SLAANESH: "Slaanesh Astartes Boltgun"
+
+      STR_BOLTGUN_MAGAZINE: "Boltgun Magazine"
+
+      STR_BOLTGUN_CHAOS_STORE: "Chaos Boltgun" #store item for chaos boltguns
+
+
+#Marksman Boltguns
+      STR_MARKSMAN_BOLTGUN_PDF: "Marksman Boltgun"
+      STR_MARKSMAN_BOLTGUN_CHAOS: "Chaos Marksman Boltgun"
+      STR_MARKSMAN_BOLTGUN_KHORNE: "Khorne Marksman Boltgun"
+      STR_MARKSMAN_BOLTGUN_NURGLE: "Nurgle Marksman Boltgun"
+      STR_MARKSMAN_BOLTGUN_TZEENTCH: "Tzeentch Marksman Boltgun"
+      STR_MARKSMAN_BOLTGUN_SLAANESH: "Slaanesh Marksman Boltgun"
+
+      STR_MARKSMAN_BOLTGUN_CHAOS_STORE: "Chaos Marksman Boltgun" #store item for chaos marksman boltguns
+
+#Storm Bolters
+
+      STR_STORM_BOLTER_MAGAZINE: "Storm Bolter Magazine"
+
+      STR_SM_STORM_BOLTER_CHAOS: "Chaos Astartes Storm Bolter"
+      STR_SM_STORM_BOLTER_KHORNE: "Khorne Astartes Storm Bolter"
+      STR_SM_STORM_BOLTER_NURGLE: "Nurgle Astartes Storm Bolter"
+      STR_SM_STORM_BOLTER_TZEENTCH: "Tzeentch Astartes Storm Bolter"
+      STR_SM_STORM_BOLTER_SLAANESH: "Slaanesh Astartes Storm Bolter"
+
+      STR_STORM_BOLTER_CHAOS_STORE: "Chaos Storm Bolter" #store item for chaos storm bolters
+
+#Heavy Bolters
+      STR_HEAVY_BOLTER_AMMO_BELT: "Heavy Bolter Ammo Belt"
+      STR_HEAVY_BOLTER_PDF: "Heavy Bolter"
+      STR_HEAVY_BOLTER_CHAOS: "Chaos Heavy Bolter"
+      STR_HEAVY_BOLTER_KHORNE: "Khorne Heavy Bolter"
+      STR_HEAVY_BOLTER_NURGLE: "Nurgle Heavy Bolter"
+      STR_HEAVY_BOLTER_TZEENTCH: "Tzeentch Heavy Bolter"
+      STR_HEAVY_BOLTER_SLAANESH: "Slaanesh Heavy Bolter"
+
+      STR_SM_HEAVY_BOLTER_CHAOS: "Chaos Astartes Heavy Bolter"
+      STR_SM_HEAVY_BOLTER_KHORNE: "Khorne Astartes Heavy Bolter"
+      STR_SM_HEAVY_BOLTER_NURGLE: "Nurgle Astartes Heavy Bolter"
+      STR_SM_HEAVY_BOLTER_TZEENTCH: "Tzeentch Astartes Heavy Bolter"
+      STR_SM_HEAVY_BOLTER_SLAANESH: "Slaanesh Astartes Heavy Bolter"
+
+      STR_HEAVY_BOLTER_CHAOS_STORE: "Chaos Heavy Bolter" #store item for chaos heavy bolters
+
+#Plasma Pistols
+
+      STR_HYDROGEN_FUEL_CELL: "Hydrogen Fuel Cell"
+
+      STR_PLASMA_PISTOL_PDF: "Plasma Pistol"
+      STR_PLASMA_PISTOL_CHAOS: "Chaos Plasma Pistol"
+      STR_PLASMA_PISTOL_KHORNE: "Khorne Plasma Pistol"
+      STR_PLASMA_PISTOL_NURGLE: "Nurgle Plasma Pistol"
+      STR_PLASMA_PISTOL_TZEENTCH: "Tzeentch Plasma Pistol"
+      STR_PLASMA_PISTOL_SLAANESH: "Slaanesh Plasma Pistol"
+
+      STR_SM_PLASMA_PISTOL_CHAOS: "Chaos Astartes Plasma Pistol"
+      STR_SM_PLASMA_PISTOL_KHORNE: "Khorne Astartes Plasma Pistol"
+      STR_SM_PLASMA_PISTOL_NURGLE: "Nurgle Astartes Plasma Pistol"
+      STR_SM_PLASMA_PISTOL_TZEENTCH: "Tzeentch Astartes Plasma Pistol"
+      STR_SM_PLASMA_PISTOL_SLAANESH: "Slaanesh Astartes Plasma Pistol"
+
+      STR_PLASMA_PISTOL_CHAOS_STORE: "Chaos Plasma Pistol" #store item for chaos plasma pistols
+
+#Plasma Guns
+
+      STR_PLASMA_GUN_PDF: "Plasma Gun"
+      STR_PLASMA_GUN_CHAOS: "Chaos Plasma Gun"
+      STR_PLASMA_GUN_KHORNE: "Khorne Plasma Gun"
+      STR_PLASMA_GUN_NURGLE: "Nurgle Plasma Gun"
+      STR_PLASMA_GUN_TZEENTCH: "Tzeentch Plasma Gun"
+      STR_PLASMA_GUN_SLAANESH: "Slaanesh Plasma Gun"
+
+      STR_SM_PLASMA_GUN_CHAOS: "Chaos Astartes Plasma Gun"
+      STR_SM_PLASMA_GUN_KHORNE: "Khorne Astartes Plasma Gun"
+      STR_SM_PLASMA_GUN_NURGLE: "Nurgle Astartes Plasma Gun"
+      STR_SM_PLASMA_GUN_TZEENTCH: "Tzeentch Astartes Plasma Gun"
+      STR_SM_PLASMA_GUN_SLAANESH: "Slaanesh Astartes Plasma Gun"
+
+      STR_PLASMA_GUN_CHAOS_STORE: "Chaos Plasma Gun" #store item for chaos plasma guns
+
+#Meltaguns
+
+      STR_MELTAGUN_FUEL: "Meltagun Fuel"
+
+      STR_MELTAGUN_PDF: "Meltagun"
+      STR_MELTAGUN_CHAOS: "Chaos Meltagun"
+      STR_MELTAGUN_KHORNE: "Khorne Meltagun"
+      STR_MELTAGUN_NURGLE: "Nurgle Meltagun"
+      STR_MELTAGUN_TZEENTCH: "Tzeentch Meltagun"
+      STR_MELTAGUN_SLAANESH: "Slaanesh Meltagun"
+
+      STR_SM_MELTAGUN_CHAOS: "Chaos Astartes Meltagun"
+      STR_SM_MELTAGUN_KHORNE: "Khorne Astartes Meltagun"
+      STR_SM_MELTAGUN_NURGLE: "Nurgle Astartes Meltagun"
+      STR_SM_MELTAGUN_TZEENTCH: "Tzeentch Astartes Meltagun"
+      STR_SM_MELTAGUN_SLAANESH: "Slaanesh Astartes Meltagun"
+
+      STR_MELTAGUN_CHAOS_STORE: "Chaos Meltagun" #store item for chaos meltaguns
+
+#Shock Maul
+
+      STR_SHOCK_MAUL_PDF: "Shock Maul"
+
+#Combat Knives
+
+      STR_COMBAT_KNIFE_PDF: "Combat Knife"
+      STR_COMBAT_KNIFE_CHAOS: "Chaos Combat Knife"
+      STR_COMBAT_KNIFE_KHORNE: "Khorne Combat Knife"
+      STR_COMBAT_KNIFE_NURGLE: "Nurgle Combat Knife"
+      STR_COMBAT_KNIFE_TZEENTCH: "Tzeentch Combat Knife"
+      STR_COMBAT_KNIFE_SLAANESH: "Slaanesh Combat Knife"
+
+      STR_SM_COMBAT_KNIFE_CHAOS: "Chaos Astartes Combat Knife"
+      STR_SM_COMBAT_KNIFE_KHORNE: "Khorne Astartes Combat Knife"
+      STR_SM_COMBAT_KNIFE_NURGLE: "Nurgle Astartes Combat Knife"
+      STR_SM_COMBAT_KNIFE_TZEENTCH: "Tzeentch Astartes Combat Knife"
+      STR_SM_COMBAT_KNIFE_SLAANESH: "Slaanesh Astartes Combat Knife"
+
+      STR_COMBAT_KNIFE_CHAOS_STORE: "Chaos Combat Knife" #store item for chaos combat knives
+
+#Swords
+
+      STR_SWORD_PDF: "Sword"
+      STR_SWORD_CHAOS: "Chaos Sword"
+      STR_SWORD_KHORNE: "Khorne Sword"
+      STR_SWORD_NURGLE: "Nurgle Sword"
+      STR_SWORD_TZEENTCH: "Tzeentch Sword"
+      STR_SWORD_SLAANESH: "Slaanesh Sword"
+
+      STR_SWORD_CHAOS_STORE: "Chaos Sword" #store item for chaos swords
+
+#Combat Axe
+
+      STR_COMBAT_AXE_KHORNE: "Khorne Combat Axe"
+
+      STR_COMBAT_AXE_CHAOS_STORE: "Chaos Combat Axe" #srore item for chaos combat axes
+
+#Chainswords
+
+      STR_CHAINSWORD_PDF: "Chainsword"
+      STR_CHAINSWORD_CHAOS: "Chaos Chainsword"
+      STR_CHAINSWORD_KHORNE: "Khorne Chainsword"
+      STR_CHAINSWORD_NURGLE: "Nurgle Chainsword"
+      STR_CHAINSWORD_TZEENTCH: "Tzeentch Chainsword"
+      STR_CHAINSWORD_SLAANESH: "Slaanesh Chainsword"
+
+      STR_SM_CHAINSWORD_CHAOS: "Chaos Astartes Chainsword"
+      STR_SM_CHAINSWORD_KHORNE: "Khorne Astartes Chainsword"
+      STR_SM_CHAINSWORD_NURGLE: "Nurgle Astartes Chainsword"
+      STR_SM_CHAINSWORD_TZEENTCH: "Tzeentch Astartes Chainsword"
+      STR_SM_CHAINSWORD_SLAANESH: "Slaanesh Astartes Chainsword"
+
+      STR_CHAINSWORD_CHAOS_STORE: "Chaos Chainsword"
+
+#Chainaxes
+
+      STR_CHAINAXE_KHORNE: "Khorne Chainaxe"
+      STR_SM_CHAINAXE_KHORNE: "Khorne Astartes Chainaxe"
+
+      STR_CHAINAXE_CHAOS_STORE: "Chaos Chainaxe"
+
+#Power Swords
+
+      STR_POWER_SWORD_PDF: "Power Sword"
+      STR_POWER_SWORD_CHAOS: "Chaos Power Sword"
+      STR_POWER_SWORD_KHORNE: "Khorne Power Sword"
+      STR_POWER_SWORD_NURGLE: "Nurgle Power Sword"
+      STR_POWER_SWORD_TZEENTCH: "Tzeentch Power Sword"
+      STR_POWER_SWORD_SLAANESH: "Slaanesh Power Sword"
+
+      STR_SM_POWER_SWORD_CHAOS: "Chaos Astartes Power Sword"
+      STR_SM_POWER_SWORD_KHORNE: "Khorne Astartes Power Sword"
+      STR_SM_POWER_SWORD_NURGLE: "Nurgle Astartes Power Sword"
+      STR_SM_POWER_SWORD_TZEENTCH: "Tzeentch Astartes Power Sword"
+      STR_SM_POWER_SWORD_SLAANESH: "Slaanesh Astartes Power Sword"
+
+      STR_POWER_SWORD_CHAOS_STORE: "Chaos Power Sword"
+
+#Power Axe
+
+      STR_SM_POWER_AXE_KHORNE: "Khorne Astartes Power Axe"
+
+      STR_POWER_AXE_CHAOS_STORE: "Chaos Power Axe"
+
+#Forse Staff
+      STR_FORCE_STAFF_PDF: "Force Staff"
+      STR_FORCE_STAFF_CHAOS: "Chaos Force Staff"
+
+
+#Throwing Weapons
+
       STR_FRAG_GRENADE: "Frag Grenade"
-      STR_FRAG_GRENADE_RENEGADE: "Frag Grenade (Renegade)"
+      STR_KRAK_GRENADE: "Krak Grenade"
+      STR_PROXIMITY_GRENADE: "Proximity Grenade"
       STR_SMOKE_GRENADE: "Smoke Grenade"
       STR_STUN_GRENADE: "Stun Grenade"
+      STR_INCENDIARY_GRENADE: "Incendiary Grenade"
+      STR_DEMOLITION_CHARGE: "Demolition Charge"
+      STR_MELTA_BOMB: "Melta Bomb"
 
-      STR_IMPROVISED_MACE: "Improvised Mace"
-      STR_IMPROVISED_SWORD: "Improvised Sword"
-      STR_SHOCK_MAUL_ARBITES: "Shock Maul (Arbites)"
-      STR_POWER_MAUL_ARBITES: "Power Maul (Arbites)"
+#Utility Items
 
-      STR_SUPPRESSION_SHIELD: "Suppression Shield"
-
+      STR_MOTION_SCANNER: "Motion Scanner"
+      STR_ANALYZER: "Tactical Analyzer"
       STR_FIRST_AID_KIT: "First Aid Kit"
-      STR_AUSPEX: "Auspex"
-      STR_FIRE_EXTINGUISHER: "Fire Extinguisher"
       STR_GLOW_STICK: "Glow Stick"
-      STR_ELECTRICAL_FLARE: "Electrical Flare"
+      STR_FIRE_EXTINGUISHER: "Fire Extinguisher"
 
-#CORPSES
-      STR_CORPSE_CULTIST: "Cultist Corpse"
+#UNIT SKILLS
+      STR_SERGEANT_SKILL: "Morale Boost"
+      STR_OFFICER_SKILL: "TU Boost"
+      STR_PSYKER_SKILL: "Psyker Skill"
+
+#CUSTOM ATTACK NAMES AND MESSAGES
+      STR_EXTINGUISH_FIRE: "Extinguish Fire"
+      STR_ANALYZE_TARGET: "Analyze Target"
+      STR_SET_TIMER: "Set Timer"
+      STR_TIMER_IS_SET: "Timer is Set!"
+      STR_PSIONIC_LIGHTNING: "Lightning Bolt"
+
+
+
+
+
+
+
 
 #CRAFTS
       STR_VALKYRIE_PDF: "Valkyrie"
       STR_EAGLE_PDF: "Eagle"
       STR_HAWK_PDF: "Hawk"
 
-#UFOS
+#ENEMY VEHICLES (UFOs)
       STR_CARGO_SHUTTLE: "Cargo Shuttle"
       STR_VALKYRIE_CHAOS: "Chaos Valkyrie"
       STR_RAVEN_CHAOS: "Chaos Raven"
@@ -243,24 +736,126 @@ extraStrings:
       STR_HEAVY_CONVOY: "Heavy Vehicle Convoy"
 
 
-#ALIEN RACES
-      STR_CULTISTS: "Chaos Cultists"
 
-#ENEMY UNITS
-      STR_CULTIST_LIGHT_TROOPER_MALE0: "Cultist Light Trooper"
-      STR_CULTIST_LIGHT_TROOPER_FEMALE0: "Cultist Light Trooper"
-      STR_CULTIST_LIGHT_TROOPER_MALE1: "Cultist Light Trooper"
-      STR_CULTIST_LIGHT_TROOPER_FEMALE1: "Cultist Light Trooper"
-      STR_CULTIST_LIGHT_TROOPER_MALE2: "Cultist Light Trooper"
-      STR_CULTIST_LIGHT_TROOPER_FEMALE2: "Cultist Light Trooper"
 
-      STR_CULTIST_RIFLEMAN_MALE0: "Cultist Rifleman"
-      STR_CULTIST_RIFLEMAN_FEMALE0: "Cultist Rifleman"
-      STR_CULTIST_RIFLEMAN_MALE1: "Cultist Rifleman"
-      STR_CULTIST_RIFLEMAN_FEMALE1: "Cultist Rifleman"
-      STR_CULTIST_RIFLEMAN_MALE2: "Cultist Rifleman"
-      STR_CULTIST_RIFLEMAN_FEMALE2: "Cultist Rifleman"
 
-      STR_CULTIST_HEAVY_TROOPER_MALE0: "Cultist Heavy Trooper"
-      STR_CULTIST_HEAVY_TROOPER_MALE1: "Cultist Heavy Trooper"
-      STR_CULTIST_HEAVY_TROOPER_MALE2: "Cultist Heavy Trooper"
+### ENEMY UNITS ###
+
+##CHAOS CULTISTS FACTION
+      STR_CHAOS_CULTISTS: "Chaos Cultists"
+
+#BATTLESCAPE NAMES
+      STR_CHAOS_CULTIST_RIFLEMAN_MALE: "Chaos Rifleman"
+      STR_CHAOS_CULTIST_RIFLEMAN_FEMALE: "Chaos Rifleman"
+
+      STR_CHAOS_CULTIST_MARKSMAN_MALE: "Chaos Marksman"
+      STR_CHAOS_CULTIST_MARKSMAN_FEMALE: "Chaos Marksman"
+
+      STR_CHAOS_CULTIST_GUNNER_MALE: "Chaos Gunner"
+      STR_CHAOS_CULTIST_GUNNER_FEMALE: "Chaos Gunner"
+
+      STR_CHAOS_CULTIST_GRENADIER_MALE: "Chaos Grenadier"
+      STR_CHAOS_CULTIST_GRENADIER_FEMALE: "Chaos Grenadier"
+
+      STR_CHAOS_CULTIST_LEADER_MALE: "Chaos Squad Leader"
+      STR_CHAOS_CULTIST_LEADER_FEMALE: "Chaos Squad Leader"
+
+#CORPSES
+      STR_CORPSE_CHAOS_CULTIST: "Chaos Cultist Corpse"
+      STR_CORPSE_CHAOS_CULTIST_LEADER: "Chaos Cultist Leader Corpse"
+
+#LIVE ENEMIES
+      STR_LIVE_CHAOS_CULTIST: "Chaos Cultist"
+      STR_LIVE_CHAOS_CULTIST_LEADER: "Chaos Cultist Leader"
+
+#ARMORS
+      STR_CHAOS_CULTIST_ARMOR_MALE: "Flak Armor"
+      STR_CHAOS_CULTIST_ARMOR_FEMALE: "Flak Armor"
+
+      STR_CHAOS_CULTIST_LEADER_ARMOR_MALE: "Flak Armor"
+      STR_CHAOS_CULTIST_LEADER_ARMOR_FEMALE: "Flak Armor"
+
+
+##CHAOS WARRIORS FACTION
+      STR_CHAOS_WARRIORS: "Chaos Warriors"
+
+#BATTLESCAPE NAMES
+      STR_CHAOS_WARRIOR_RIFLEMAN_MALE: "Chaos Rifleman"
+      STR_CHAOS_WARRIOR_RIFLEMAN_FEMALE: "Chaos Rifleman"
+
+      STR_CHAOS_WARRIOR_SHOCK_TROOPER_MALE: "Chaos Shock Trooper"
+      STR_CHAOS_WARRIOR_SHOCK_TROOPER_FEMALE: "Chaos Shock Trooper"
+
+      STR_CHAOS_WARRIOR_MARKSMAN_MALE: "Chaos Marksman"
+      STR_CHAOS_WARRIOR_MARKSMAN_FEMALE: "Chaos Marksman"
+
+      STR_CHAOS_WARRIOR_GUNNER_MALE: "Chaos Gunner"
+      STR_CHAOS_WARRIOR_GUNNER_FEMALE: "Chaos Gunner"
+
+      STR_CHAOS_WARRIOR_GRENADIER_MALE: "Chaos Grenadier"
+      STR_CHAOS_WARRIOR_GRENADIER_FEMALE: "Chaos Grenadier"
+
+      STR_CHAOS_WARRIOR_SQUAD_LEADER_MALE: "Chaos Squad Leader"
+      STR_CHAOS_WARRIOR_SQUAD_LEADER_FEMALE: "Chaos Squad Leader"
+
+      STR_CHAOS_WARRIOR_PSYKER_MALE: "Chaos Psyker"
+      STR_CHAOS_WARRIOR_PSYKER_FEMALE: "Chaos Psyker"
+
+#CORPSES
+      STR_CORPSE_CHAOS_WARRIOR: "Chaos Warrior Corpse"
+      STR_CORPSE_CHAOS_WARRIOR_SHOCK_TROOPER: "Chaos Warrior Corpse"
+      STR_CORPSE_CHAOS_WARRIOR_SQUAD_LEADER: "Chaos Warrior Squad Leader Corpse"
+      STR_CORPSE_CHAOS_WARRIOR_PSYKER: "Chaos Psyker Corpse"
+
+#LIVE ENEMIES
+      STR_LIVE_CHAOS_WARRIOR: "Chaos Warrior"
+      STR_LIVE_CHAOS_WARRIOR_SQUAD_LEADER: "Chaos Warrior Squad Leader"
+      STR_LIVE_CHAOS_WARRIOR_PSYKER: "Chaos Psyker"
+
+#ARMORS
+      STR_CHAOS_WARRIOR_ARMOR_MALE: "Carapace Armor"
+      STR_CHAOS_WARRIOR_ARMOR_FEMALE: "Carapace Armor"
+
+      STR_CHAOS_WARRIOR_SHOCK_TROOPER_ARMOR_MALE: "Assault Carapace Armor"
+      STR_CHAOS_WARRIOR_SHOCK_TROOPER_ARMOR_FEMALE: "Assault Carapace Armor"
+
+      STR_CHAOS_WARRIOR_SQUAD_LEADER_ARMOR_MALE: "Carapace Armor"
+      STR_CHAOS_WARRIOR_SQUAD_LEADER_ARMOR_FEMALE: "Carapace Armor"
+
+      STR_CHAOS_WARRIOR_PSYKER_ARMOR_MALE: "Flak Armor"
+      STR_CHAOS_WARRIOR_PSYKER_ARMOR_FEMALE: "Flak Armor"
+
+
+
+##CHAOS CHOSEN WARRIORS FACTION
+      STR_CHAOS_DISCIPLES: "Chaos Disciples"
+
+
+
+
+
+
+
+##UFOPEDIA (Database)
+
+      STR_UFOPAEDIA: "Database"
+
+      STR_XCOM_CRAFT_ARMAMENT: "PDF CRAFT & ARMAMENT"
+      STR_HEAVY_WEAPONS_PLATFORMS: "HEAVY WEAPONS PLATFORMS"
+      STR_WEAPONS_AND_EQUIPMENT: "WEAPONS AND EQUIPMENT"
+      STR_ALIEN_ARTIFACTS: "ENEMY WEAPONS AND EQUIPMENT"
+      STR_BASE_FACILITIES: "BASE FACILITIES"
+      STR_ALIEN_LIFE_FORMS: "ENEMY UNITS"
+      STR_ALIEN_RESEARCH_UC: "ENEMY RESEARCH"
+      STR_UFO_COMPONENTS: "COMPONENTS"
+      STR_UFOS: "ENEMY VEHICLES"
+      STR_SELECT_ITEM: "SELECT ITEM"
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,551 @@
+items:
+
+### PLAYER UNITS CORPSES
+
+# PDF SOLDIER CORPSE (UNIFORM)
+  - type: STR_CORPSE_PDF_SOLDIER_UNIFORM
+#RESOURCES
+    bigSprite: 2000
+    floorSprite: 2000
+    handSprite: 88 #(empty hand)
+#SPECIFICATIONS
+    name: STR_PDF_SOLDIER_CORPSE
+    battleType: 11 #Corpse
+    invWidth: 2
+    invHeight: 3
+    weight: 50
+    armor: 20
+    recover: false
+
+
+# PDF SOLDIER CORPSE (FLAK ARMOR)
+  - type: STR_CORPSE_PDF_SOLDIER_FLAK_ARMOR
+#RESOURCES
+    bigSprite: 2001
+    floorSprite: 2001
+    handSprite: 88 #(empty hand)
+#SPECIFICATIONS
+    name: STR_PDF_SOLDIER_CORPSE
+    battleType: 11 #Corpse
+    invWidth: 2
+    invHeight: 3
+    weight: 50
+    armor: 25
+    recover: false
+
+
+# PDF SOLDIER CORPSE (ASSAULT FLAK ARMOR)
+  - type: STR_CORPSE_PDF_SOLDIER_ASSAULT_FLAK_ARMOR
+#RESOURCES
+    bigSprite: 2002
+    floorSprite: 2002
+    handSprite: 88 #(empty hand)
+#SPECIFICATIONS
+    name: STR_PDF_SOLDIER_CORPSE
+    battleType: 11 #Corpse
+    invWidth: 2
+    invHeight: 3
+    weight: 50
+    armor: 35
+    recover: false
+
+
+
+# PDF SOLDIER CORPSE (CARAPACE ARMOR)
+  - type: STR_CORPSE_PDF_SOLDIER_CARAPACE
+#RESOURCES
+    bigSprite: 2003
+    floorSprite: 2003
+    handSprite: 88 #(empty hand)
+#SPECIFICATIONS
+    name: STR_PDF_SOLDIER_CORPSE
+    battleType: 11 #Corpse
+    invWidth: 2
+    invHeight: 3
+    weight: 50
+    armor: 35
+    recover: false
+
+
+# PDF SOLDIER CORPSE (ASSAULT CARAPACE ARMOR)
+  - type: STR_CORPSE_PDF_SOLDIER_ASSAULT_CARAPACE
+#RESOURCES
+    bigSprite: 2004
+    floorSprite: 2004
+    handSprite: 88 #(empty hand)
+#SPECIFICATIONS
+    name: STR_PDF_SOLDIER_CORPSE
+    battleType: 11 #Corpse
+    invWidth: 2
+    invHeight: 3
+    weight: 50
+    armor: 45
+    recover: false
+
+
+# PDF SOLDIER CORPSE (HEAVY CARAPACE ARMOR)
+  - type: STR_CORPSE_PDF_SOLDIER_HEAVY_CARAPACE
+#RESOURCES
+    bigSprite: 2005
+    floorSprite: 2005
+    handSprite: 88 #(empty hand)
+#SPECIFICATIONS
+    name: STR_PDF_SOLDIER_CORPSE
+    battleType: 11 #Corpse
+    invWidth: 2
+    invHeight: 3
+    weight: 60
+    armor: 45
+    recover: false
+
+
+
+
+
+
+
+# PDF SERGEANT CORPSE (UNIFORM)
+  - type: STR_CORPSE_PDF_SERGEANT_UNIFORM
+#RESOURCES
+    bigSprite: 2010
+    floorSprite: 2010
+    handSprite: 88 #(empty hand)
+#SPECIFICATIONS
+    name: STR_PDF_SERGEANT_CORPSE
+    battleType: 11 #Corpse
+    invWidth: 2
+    invHeight: 3
+    weight: 50
+    armor: 20
+    recover: false
+
+
+# PDF SERGEANT CORPSE (FLAK ARMOR)
+  - type: STR_CORPSE_PDF_SERGEANT_FLAK_ARMOR
+#RESOURCES
+    bigSprite: 2011
+    floorSprite: 2011
+    handSprite: 88 #(empty hand)
+#SPECIFICATIONS
+    name: STR_PDF_SERGEANT_CORPSE
+    battleType: 11 #Corpse
+    invWidth: 2
+    invHeight: 3
+    weight: 50
+    armor: 25
+    recover: false
+
+
+# PDF SERGEANT CORPSE (ASSAULT FLAK ARMOR)
+  - type: STR_CORPSE_PDF_SERGEANT_ASSAULT_FLAK_ARMOR
+#RESOURCES
+    bigSprite: 2012
+    floorSprite: 2012
+    handSprite: 88 #(empty hand)
+#SPECIFICATIONS
+    name: STR_PDF_SERGEANT_CORPSE
+    battleType: 11 #Corpse
+    invWidth: 2
+    invHeight: 3
+    weight: 50
+    armor: 35
+    recover: false
+
+
+# PDF SERGEANT CORPSE (CARAPACE ARMOR)
+  - type: STR_CORPSE_PDF_SERGEANT_CARAPACE
+#RESOURCES
+    bigSprite: 2013
+    floorSprite: 2013
+    handSprite: 88 #(empty hand)
+#SPECIFICATIONS
+    name: STR_PDF_SERGEANT_CORPSE
+    battleType: 11 #Corpse
+    invWidth: 2
+    invHeight: 3
+    weight: 50
+    armor: 35
+    recover: false
+
+
+# PDF SERGEANT CORPSE (ASSAULT CARAPACE ARMOR)
+  - type: STR_CORPSE_PDF_SERGEANT_ASSAULT_CARAPACE
+#RESOURCES
+    bigSprite: 2014
+    floorSprite: 2014
+    handSprite: 88 #(empty hand)
+#SPECIFICATIONS
+    name: STR_PDF_SERGEANT_CORPSE
+    battleType: 11 #Corpse
+    invWidth: 2
+    invHeight: 3
+    weight: 50
+    armor: 45
+    recover: false
+
+
+# PDF SERGEANT CORPSE (HEAVY CARAPACE ARMOR)
+  - type: STR_CORPSE_PDF_SERGEANT_HEAVY_CARAPACE
+#RESOURCES
+    bigSprite: 2015
+    floorSprite: 2015
+    handSprite: 88 #(empty hand)
+#SPECIFICATIONS
+    name: STR_PDF_SERGEANT_CORPSE
+    battleType: 11 #Corpse
+    invWidth: 2
+    invHeight: 3
+    weight: 60
+    armor: 45
+    recover: false
+
+
+
+
+
+
+
+
+
+
+
+# PDF OFFICER CORPSE (UNIFORM)
+  - type: STR_CORPSE_PDF_OFFICER_UNIFORM
+#RESOURCES
+    bigSprite: 2020
+    floorSprite: 2020
+    handSprite: 88 #(empty hand)
+#SPECIFICATIONS
+    name: STR_PDF_OFFICER_CORPSE
+    battleType: 11 #Corpse
+    invWidth: 2
+    invHeight: 3
+    weight: 50
+    armor: 20
+    recover: false
+
+
+# PDF OFFICER CORPSE (FLAK ARMOR)
+  - type: STR_CORPSE_PDF_OFFICER_FLAK_ARMOR
+#RESOURCES
+    bigSprite: 2021
+    floorSprite: 2021
+    handSprite: 88 #(empty hand)
+#SPECIFICATIONS
+    name: STR_PDF_OFFICER_CORPSE
+    battleType: 11 #Corpse
+    invWidth: 2
+    invHeight: 3
+    weight: 50
+    armor: 25
+    recover: false
+
+
+# PDF OFFICER CORPSE (ASSAULT FLAK ARMOR)
+  - type: STR_CORPSE_PDF_OFFICER_ASSAULT_FLAK_ARMOR
+#RESOURCES
+    bigSprite: 2022
+    floorSprite: 2022
+    handSprite: 88 #(empty hand)
+#SPECIFICATIONS
+    name: STR_PDF_OFFICER_CORPSE
+    battleType: 11 #Corpse
+    invWidth: 2
+    invHeight: 3
+    weight: 50
+    armor: 35
+    recover: false
+
+
+# PDF OFFICER CORPSE (CARAPACE ARMOR)
+  - type: STR_CORPSE_PDF_OFFICER_CARAPACE
+#RESOURCES
+    bigSprite: 2023
+    floorSprite: 2023
+    handSprite: 88 #(empty hand)
+#SPECIFICATIONS
+    name: STR_PDF_OFFICER_CORPSE
+    battleType: 11 #Corpse
+    invWidth: 2
+    invHeight: 3
+    weight: 50
+    armor: 35
+    recover: false
+
+
+# PDF OFFICER CORPSE (ASSAULT CARAPACE ARMOR)
+  - type: STR_CORPSE_PDF_OFFICER_ASSAULT_CARAPACE
+#RESOURCES
+    bigSprite: 2024
+    floorSprite: 2024
+    handSprite: 88 #(empty hand)
+#SPECIFICATIONS
+    name: STR_PDF_OFFICER_CORPSE
+    battleType: 11 #Corpse
+    invWidth: 2
+    invHeight: 3
+    weight: 50
+    armor: 45
+    recover: false
+
+
+# PDF OFFICER CORPSE (HEAVY CARAPACE ARMOR)
+  - type: STR_CORPSE_PDF_OFFICER_HEAVY_CARAPACE
+#RESOURCES
+    bigSprite: 2025
+    floorSprite: 2025
+    handSprite: 88 #(empty hand)
+#SPECIFICATIONS
+    name: STR_PDF_OFFICER_CORPSE
+    battleType: 11 #Corpse
+    invWidth: 2
+    invHeight: 3
+    weight: 60
+    armor: 45
+    recover: false
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# PDF PSYKER CORPSE (UNIFORM)
+  - type: STR_CORPSE_PDF_PSYKER_UNIFORM
+#RESOURCES
+    bigSprite: 2030
+    floorSprite: 2030
+    handSprite: 88 #(empty hand)
+#SPECIFICATIONS
+    name: STR_PDF_PSYKER_CORPSE
+    battleType: 11 #Corpse
+    invWidth: 2
+    invHeight: 3
+    weight: 50
+    armor: 20
+    recover: false
+
+
+# PDF PSYKER CORPSE (FLAK ARMOR)
+  - type: STR_CORPSE_PDF_PSYKER_FLAK_ARMOR
+#RESOURCES
+    bigSprite: 2031
+    floorSprite: 2031
+    handSprite: 88 #(empty hand)
+#SPECIFICATIONS
+    name: STR_PDF_PSYKER_CORPSE
+    battleType: 11 #Corpse
+    invWidth: 2
+    invHeight: 3
+    weight: 50
+    armor: 25
+    recover: false
+
+
+# PDF PSYKER CORPSE (CARAPACE ARMOR)
+  - type: STR_CORPSE_PDF_PSYKER_CARAPACE
+#RESOURCES
+    bigSprite: 2032
+    floorSprite: 2032
+    handSprite: 88 #(empty hand)
+#SPECIFICATIONS
+    name: STR_PDF_PSYKER_CORPSE
+    battleType: 11 #Corpse
+    invWidth: 2
+    invHeight: 3
+    weight: 50
+    armor: 30
+    recover: false
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+### ENEMY UNITS CORPSES AND LIVE ENEMIES 
+
+## CHAOS CULTIST CORPSE
+  - type: STR_CORPSE_CHAOS_CULTIST
+#RESOURCES
+    bigSprite: 2200
+    floorSprite: 2200
+    handSprite: 88 #(empty hand)
+#SPECIFICATIONS
+    size: 0.4
+    costSell: 5000
+    weight: 50
+    invWidth: 2
+    invHeight: 3
+    recoveryPoints: 5
+    battleType: 11
+    armor: 25
+
+## LIVE CHAOS CULTIST
+  - type: STR_LIVE_CHAOS_CULTIST
+#SPECIFICATIONS
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 10000
+
+
+
+## CHAOS CULTIST LEADER CORPSE
+  - type: STR_CORPSE_CHAOS_CULTIST_LEADER
+#RESOURCES
+    bigSprite: 2201
+    floorSprite: 2201
+    handSprite: 88 #(empty hand)
+#SPECIFICATIONS
+    size: 0.4
+    costSell: 5000
+    weight: 50
+    invWidth: 2
+    invHeight: 3
+    recoveryPoints: 5
+    battleType: 11
+    armor: 25
+
+## LIVE CHAOS CULTIST
+  - type: STR_LIVE_CHAOS_CULTIST_LEADER
+#SPECIFICATIONS
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 10000
+
+
+
+
+## CHAOS WARRIOR CORPSE
+  - type: STR_CORPSE_CHAOS_WARRIOR
+#RESOURCES
+    bigSprite: 2202
+    floorSprite: 2202
+    handSprite: 88 #(empty hand)
+#SPECIFICATIONS
+    size: 0.4
+    costSell: 10000
+    weight: 50
+    invWidth: 2
+    invHeight: 3
+    recoveryPoints: 5
+    battleType: 11
+    armor: 35
+
+
+## CHAOS WARRIOR SHOCK TROOPER CORPSE (GRAV-CHUTE)
+  - type: STR_CORPSE_CHAOS_WARRIOR_SHOCK_TROOPER
+#RESOURCES
+    bigSprite: 2203
+    floorSprite: 2203
+    handSprite: 88 #(empty hand)
+#SPECIFICATIONS
+    size: 0.4
+    costSell: 10000
+    weight: 50
+    invWidth: 2
+    invHeight: 3
+    recoveryPoints: 5
+    battleType: 11
+    armor: 35
+
+
+## LIVE CHAOS WARRIOR
+  - type: STR_LIVE_CHAOS_WARRIOR
+#SPECIFICATIONS
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 20000
+
+
+
+## CHAOS WARRIOR SQUAD LEADER CORPSE
+  - type: STR_CORPSE_CHAOS_WARRIOR_SQUAD_LEADER
+#RESOURCES
+    bigSprite: 2204
+    floorSprite: 2204
+    handSprite: 88 #(empty hand)
+#SPECIFICATIONS
+    size: 0.4
+    costSell: 10000
+    weight: 50
+    invWidth: 2
+    invHeight: 3
+    recoveryPoints: 5
+    battleType: 11
+    armor: 35
+
+## LIVE CHAOS SQUAD LEADER
+  - type: STR_LIVE_CHAOS_WARRIOR_SQUAD_LEADER
+#SPECIFICATIONS
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 20000
+
+
+
+## CHAOS WARRIOR PSYKER CORPSE
+  - type: STR_CORPSE_CHAOS_WARRIOR_PSYKER
+#RESOURCES
+    bigSprite: 2205
+    floorSprite: 2205
+    handSprite: 88 #(empty hand)
+#SPECIFICATIONS
+    size: 0.4
+    costSell: 20000
+    weight: 50
+    invWidth: 2
+    invHeight: 3
+    recoveryPoints: 5
+    battleType: 11
+    armor: 35
+
+
+## LIVE CHAOS PSYKER
+  - type: STR_LIVE_CHAOS_WARRIOR_PSYKER
+#SPECIFICATIONS
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 40000
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

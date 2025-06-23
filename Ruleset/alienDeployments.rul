@@ -1,10 +1,42 @@
 alienDeployments:
+#Ranks:
+# 0 COMMANDER - High Command
+# 1 LEADER - Squad Leaders
+# 2 ENGINEER - Elite Infantry (such as Space Marines)
+# 3 MEDIC - Special Weapon Operators
+# 4 NAVIGATOR - Flying units
+# 5 SOLDIER - Regular units
+# 6 TERRORIST1 - Terror related units
+# 7 TERRORIST2 - Doesn't matter, slot is reserved for civilians in terror missions 
+
+
+
+#SMALL CARGO AIRCRAFT
+#Faction: Chaos Cultists
+# 1 Cultist Leader
+# 2 - 3 Specialists
+# 4 - 6 Soldiers
+#
+#Summary: 7 to 10 Units
+
   - type: STR_CARGO_SHUTTLE
     data:
-      - alienRank: 5
-        lowQty: 5
-        highQty: 5
-        dQty: 2
+      - alienRank: 1 #LEADER
+        lowQty: 1
+        highQty: 1 
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []
+      - alienRank: 3 #MEDIC
+        lowQty: 2
+        highQty: 2
+        dQty: 1
         percentageOutsideUfo: 60
         itemSets:
           -
@@ -13,10 +45,10 @@ alienDeployments:
             []
           -
             []
-      - alienRank: 3
-        lowQty: 2
-        highQty: 2
-        dQty: 2
+      - alienRank: 5 #SOLDIER
+        lowQty: 4
+        highQty: 5
+        dQty: 1
         percentageOutsideUfo: 60
         itemSets:
           -
@@ -28,13 +60,35 @@ alienDeployments:
     width: 60
     length: 60
     height: 9
+
+
+#VALKYRIE TRANSPORT AIRCRAFT
+#Faction: Chaos Warriors
+# 1 Squad Leader
+# 2 - 3 Specialists
+# 3 - 4 Soldiers with Grav-Chutes
+# 3 - 4 Soldiers 
+
+#Summary: 9 to 12 Units
 
   - type: STR_VALKYRIE_CHAOS
     data:
-      - alienRank: 5
-        lowQty: 5
-        highQty: 5
-        dQty: 2
+      - alienRank: 1 #LEADER
+        lowQty: 1
+        highQty: 1 
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []
+      - alienRank: 3 #MEDIC
+        lowQty: 2
+        highQty: 2
+        dQty: 1
         percentageOutsideUfo: 60
         itemSets:
           -
@@ -43,10 +97,22 @@ alienDeployments:
             []
           -
             []
-      - alienRank: 3
-        lowQty: 2
-        highQty: 2
-        dQty: 2
+      - alienRank: 4 #NAVIGATOR
+        lowQty: 3
+        highQty: 3
+        dQty: 1
+        percentageOutsideUfo: 60
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []
+      - alienRank: 5 #SOLDIER
+        lowQty: 3
+        highQty: 3
+        dQty: 1
         percentageOutsideUfo: 60
         itemSets:
           -
@@ -59,6 +125,9 @@ alienDeployments:
     length: 60
     height: 9
 
+
+#LOCAL VARIATION OF STORMRAVEN AIRCRAFT
+#Faction: 
   - type: STR_RAVEN_CHAOS
     data:
       - alienRank: 5
@@ -89,7 +158,8 @@ alienDeployments:
     length: 60
     height: 9
 
-
+#LOCAL VARIATION OF STORMEAGLE AIRCRAFT
+#Faction: 
   - type: STR_EAGLE_CHAOS
     data:
       - alienRank: 5
@@ -120,6 +190,8 @@ alienDeployments:
     length: 60
     height: 9
 
+#LOCAL VARIATION OF STORMHAWK AIRCRAFT
+#Faction: 
   - type: STR_HAWK_CHAOS
     data:
       - alienRank: 5
@@ -150,25 +222,14 @@ alienDeployments:
     length: 60
     height: 9
 
-
+#LIGHT VEHICLE CONVOY
+#Faction: Chaos Cultists
   - type: STR_LIGHT_CONVOY
     data:
-      - alienRank: 5
-        lowQty: 5
-        highQty: 5
-        dQty: 2
-        percentageOutsideUfo: 60
-        itemSets:
-          -
-            []
-          -
-            []
-          -
-            []
-      - alienRank: 3
-        lowQty: 2
+      - alienRank: 3 #MEDIC
+        lowQty: 1
         highQty: 2
-        dQty: 2
+        dQty: 1
         percentageOutsideUfo: 60
         itemSets:
           -
@@ -177,48 +238,11 @@ alienDeployments:
             []
           -
             []
-    width: 60
-    length: 60
-    height: 9
-
-
-  - type: STR_HEAVY_CONVOY
-    data:
-      - alienRank: 5
+      - alienRank: 5 #SOLDIER
         lowQty: 5
-        highQty: 5
-        dQty: 2
-        percentageOutsideUfo: 60
-        itemSets:
-          -
-            []
-          -
-            []
-          -
-            []
-      - alienRank: 3
-        lowQty: 2
-        highQty: 2
-        dQty: 2
-        percentageOutsideUfo: 60
-        itemSets:
-          -
-            []
-          -
-            []
-          -
-            []
-    width: 60
-    length: 60
-    height: 9
-
-  - type: STR_RESIDENTIAL_AREA_TERROR
-    data:
-      - alienRank: 5
-        lowQty: 4
         highQty: 6
         dQty: 1
-        percentageOutsideUfo: 70
+        percentageOutsideUfo: 60
         itemSets:
           -
             []
@@ -226,45 +250,17 @@ alienDeployments:
             []
           -
             []
-      - alienRank: 4
+    width: 60
+    length: 60
+    height: 9
+
+#HEAVY VEHICLE CONVOY
+#Faction: Chaos Cultists
+  - type: STR_HEAVY_CONVOY
+    data:
+      - alienRank: 1 #LEADER
         lowQty: 1
-        highQty: 2
-        dQty: 0
-        percentageOutsideUfo: 20
-        itemSets:
-          -
-            []
-          -
-            []
-          -
-            []
-      - alienRank: 3
-        lowQty: 1
-        highQty: 1
-        dQty: 1
-        percentageOutsideUfo: 20
-        itemSets:
-          -
-            []
-          -
-            []
-          -
-            []
-      - alienRank: 2
-        lowQty: 1
-        highQty: 2
-        dQty: 0
-        percentageOutsideUfo: 20
-        itemSets:
-          -
-            []
-          -
-            []
-          -
-            []
-      - alienRank: 1
-        lowQty: 1
-        highQty: 1
+        highQty: 1 
         dQty: 0
         percentageOutsideUfo: 0
         itemSets:
@@ -274,7 +270,99 @@ alienDeployments:
             []
           -
             []
-      - alienRank: 6
+      - alienRank: 3 #MEDIC
+        lowQty: 2
+        highQty: 3
+        dQty: 1
+        percentageOutsideUfo: 60
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []
+      - alienRank: 5 #SOLDIER
+        lowQty: 5
+        highQty: 6
+        dQty: 2
+        percentageOutsideUfo: 60
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []
+    width: 60
+    length: 60
+    height: 9
+
+#Residential Area Terror Site
+  - type: STR_RESIDENTIAL_AREA_TERROR
+    data:
+      - alienRank: 1 #LEADER
+        lowQty: 1
+        highQty: 1
+        dQty: 0
+        percentageOutsideUfo: 100
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []
+      - alienRank: 2 #ENGINEER
+        lowQty: 1
+        highQty: 2
+        dQty: 0
+        percentageOutsideUfo: 100
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []
+      - alienRank: 3 #MEDIC
+        lowQty: 1
+        highQty: 1
+        dQty: 1
+        percentageOutsideUfo: 100
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []
+      - alienRank: 4 #NAVIGATOR
+        lowQty: 1
+        highQty: 2
+        dQty: 0
+        percentageOutsideUfo: 100
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []
+
+      - alienRank: 5 #SOLDIER
+        lowQty: 4
+        highQty: 6
+        dQty: 1
+        percentageOutsideUfo: 100
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []
+      - alienRank: 6 #TERRORIST
         lowQty: 1
         highQty: 3
         dQty: 2
@@ -290,7 +378,7 @@ alienDeployments:
     length: 60
     height: 8
     civilians: 0
-    civilianSpawnNodeRank: 8
+    civilianSpawnNodeRank: 8 #Misc2, TERRRORIST2
     terrains:
       - RESIDENTIAL_AREA_TERROR
     alert: STR_ALIENS_TERRORISE
@@ -305,70 +393,10 @@ alienDeployments:
 
 
 
-
+#PLAYER BASE DEFENSE
   - type: STR_BASE_DEFENSE
     data:
-      - alienRank: 5
-        lowQty: 4
-        highQty: 8
-        dQty: 4
-        percentageOutsideUfo: 50
-        itemSets:
-          -
-            []
-          -
-            []
-          -
-            []
-      - alienRank: 4
-        lowQty: 1
-        highQty: 2
-        dQty: 0
-        percentageOutsideUfo: 20
-        itemSets:
-          -
-            []
-          -
-            []
-          -
-            []
-      - alienRank: 3
-        lowQty: 1
-        highQty: 2
-        dQty: 0
-        percentageOutsideUfo: 20
-        itemSets:
-          -
-            []
-          -
-            []
-          -
-            []
-      - alienRank: 2
-        lowQty: 1
-        highQty: 2
-        dQty: 0
-        percentageOutsideUfo: 20
-        itemSets:
-          -
-            []
-          -
-            []
-          -
-            []
-      - alienRank: 1
-        lowQty: 1
-        highQty: 3
-        dQty: 0
-        percentageOutsideUfo: 0
-        itemSets:
-          -
-            []
-          -
-            []
-          -
-            []
-      - alienRank: 0
+      - alienRank: 0 #COMMANDER
         lowQty: 1
         highQty: 1
         dQty: 0
@@ -380,10 +408,58 @@ alienDeployments:
             []
           -
             []
-      - alienRank: 6
-        lowQty: 0
+      - alienRank: 1 #LEADER
+        lowQty: 1
+        highQty: 3
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []
+      - alienRank: 2 #ENGINEER
+        lowQty: 1
         highQty: 2
-        dQty: 1
+        dQty: 0
+        percentageOutsideUfo: 20
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []
+      - alienRank: 3 #MEDIC
+        lowQty: 1
+        highQty: 2
+        dQty: 0
+        percentageOutsideUfo: 20
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []
+      - alienRank: 4 #NAVIGATOR
+        lowQty: 1
+        highQty: 2
+        dQty: 0
+        percentageOutsideUfo: 20
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []
+      - alienRank: 5 #SOLDIER
+        lowQty: 4
+        highQty: 8
+        dQty: 4
         percentageOutsideUfo: 50
         itemSets:
           -
@@ -392,7 +468,7 @@ alienDeployments:
             []
           -
             []
-      - alienRank: 7
+      - alienRank: 6 #TERRORIST
         lowQty: 0
         highQty: 2
         dQty: 1
@@ -412,15 +488,21 @@ alienDeployments:
     shade: 0
     briefing:
       palette: 0
-      background: BACK01.SCR
+      background: BACK16.SCR
       music: GMENBASE
+
+#CHAOS BASE
+#Faction: Chaos Warriors
+
+
 
   - type: STR_CHAOS_BASE_ASSAULT
     data:
-      - alienRank: 6
+
+      - alienRank: 0 #COMMANDER
         lowQty: 1
-        highQty: 3
-        dQty: 1
+        highQty: 1
+        dQty: 0
         percentageOutsideUfo: 0
         itemSets:
           -
@@ -429,8 +511,20 @@ alienDeployments:
             []
           -
             []
-      - alienRank: 7
-        lowQty: 0
+      - alienRank: 1 #LEADER
+        lowQty: 1
+        highQty: 1
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []
+      - alienRank: 2 #ENGINEER
+        lowQty: 1
         highQty: 2
         dQty: 1
         percentageOutsideUfo: 0
@@ -441,7 +535,19 @@ alienDeployments:
             []
           -
             []
-      - alienRank: 5
+      - alienRank: 3 #MEDIC
+        lowQty: 2
+        highQty: 3
+        dQty: 1
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []
+      - alienRank: 5 #SOLDIER
         lowQty: 5
         highQty: 7
         dQty: 4
@@ -453,10 +559,10 @@ alienDeployments:
             []
           -
             []
-      - alienRank: 4
+      - alienRank: 6 #TERRORIST
         lowQty: 1
-        highQty: 2
-        dQty: 0
+        highQty: 3
+        dQty: 1
         percentageOutsideUfo: 0
         itemSets:
           -
@@ -465,64 +571,19 @@ alienDeployments:
             []
           -
             []
-      - alienRank: 3
-        lowQty: 1
-        highQty: 1
-        dQty: 0
-        percentageOutsideUfo: 0
-        itemSets:
-          -
-            []
-          -
-            []
-          -
-            []
-      - alienRank: 2
-        lowQty: 1
-        highQty: 2
-        dQty: 0
-        percentageOutsideUfo: 0
-        itemSets:
-          -
-            []
-          -
-            []
-          -
-            []
-      - alienRank: 1
-        lowQty: 2
-        highQty: 4
-        dQty: 0
-        percentageOutsideUfo: 0
-        itemSets:
-          -
-            []
-          -
-            []
-          -
-            []
-      - alienRank: 0
-        lowQty: 1
-        highQty: 1
-        dQty: 0
-        percentageOutsideUfo: 0
-        itemSets:
-          -
-            []
-          -
-            []
-          -
-            []
+    briefing:
+      desc: STR_CHAOS_BASE_ASSAULT_BRIEFING
+
     width: 60
     length: 60
     height: 4
     terrains:
       - CHAOS_BASE
-    shade: 15
+    shade: 5 #15
     script: CHAOS_BASE
     briefing:
       textOffset: -16
-      background: BACK01.SCR
+      background: BACK16.SCR
       showTarget: false
     objectiveType: 3
     markerName: STR_ALIEN_BASE

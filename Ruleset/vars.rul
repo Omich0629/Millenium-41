@@ -1,8 +1,13 @@
 initialFunding: 0
-#1 squad leader per 10 regular soldiers
-soldiersPerSergeant: 10
 
-#Spawn junk item instead elerium. And recover zero of them in Debriefing.
+#How many soldiers (of any rank) are required to unlock a new promotions. 
+soldiersPerSergeant: 10 #Corporal\Sergeant
+soldiersPerCaptain: 20 #Senior Sergeant\Lieutenant
+soldiersPerColonel: 30 #Captain
+soldiersPerCommander: 40 #Major
+
+
+#Spawn junk item instead of elerium. And recover zero of it in Debriefing.
 alienFuel: [STR_JUNK, 0]
 
 
@@ -10,5 +15,17 @@ alienFuel: [STR_JUNK, 0]
 fixedUserOptions:
   battleExplosionHeight: 0
 
-
+#Show distance between the craft and a target in kilometers.
 showDogfightDistanceInKm: true
+
+
+#Trails [ Red, Green, Blue, Transparency ]
+transparencyLUTs:
+  - colors:
+      - [  8,  8, 12, 1 ] # 0 White (Missiles)
+      - [ 16,  8,  0, 8 ] # 1 Orange (Flamers, Melta)
+      - [  2,  4, 16, 1 ] # 2 Blue (Plasma)
+
+#Allows AI to pick up weapons more actively.
+ai:
+  pickUpWeaponsMoreActively: true

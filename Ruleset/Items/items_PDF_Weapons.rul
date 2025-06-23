@@ -1,0 +1,2084 @@
+extended:
+  tags:
+    RuleItem:
+      ITEM_HAS_BIPOD_BIGSPRITE: int
+      ITEM_HAS_BIPOD_HANDSPRITE: int
+      AMMO_CHANGES_ITEMS_BIGSPRITE: int
+      AMMO_INDEX: int
+      HEAVY_WEAPON: int
+      MORALE_BOOSTER_ITEM: int
+      TU_BOOSTER_ITEM: int
+
+items:
+#Ruleset for PDF weapons and ammunition
+
+## PDF AUTOPISTOL
+  - type: STR_AUTOPISTOL_PDF
+#RESOURCES
+    bigSprite: 301
+    floorSprite: 301
+    handSprite: 200
+#INFO
+    categories: [STR_CATEGORY_ONEHANDED, STR_CATEGORY_FIREARM]
+    costBuy: 800
+    costSell: 600
+    listOrder: 2000
+#SPECIFICATIONS
+    battleType: 1
+    size: 0.1
+    weight: 3
+    invWidth: 1
+    invHeight: 2
+    armor: 30
+    attraction: 1
+#AMMO
+    compatibleAmmo:
+      - STR_AUTOPISTOL_MAGAZINE
+#SHOOTING
+    accuracyAuto: 40
+    tuAuto: 25
+
+    accuracySnap: 60
+    tuSnap: 15
+
+    accuracyAimed: 80
+    tuAimed: 30
+    aimRange: 20
+
+#SCRIPTING
+    tags:
+      AMMO_CHANGES_ITEMS_BIGSPRITE: 1
+
+## AUTOPISTOL MAGAZINE
+  - type: STR_AUTOPISTOL_MAGAZINE
+#RESOURCES
+    bigSprite: 300
+    floorSprite: 300
+    handSprite: 88 #empty hand
+
+    bulletSprite: 11 #Pistol bullet projectile
+    bulletSpeed: 25
+
+    hitAnimation: 200 #Bullet hit
+    explosionSpeed: 2
+
+    fireSound: 4
+    hitSound: 22
+#INFO
+    categories: [STR_CATEGORY_AMMO, STR_CATEGORY_FIREARM]
+    costBuy: 210
+    costSell: 150
+    listOrder: 2010
+#SPECIFICATION
+    battleType: 2
+    size: 0.1
+    weight: 1
+    invWidth: 1
+    invHeight: 1
+    armor: 30
+#SHOOTING
+    clipSize: 30
+    power: 26
+    damageType: 1
+    damageAlter:
+      RandomType: 7 #50-200%
+      ToArmor: 0.1
+      ToArmorPre: 0.05
+      ToTile: 0.5
+#SCRIPTING
+    tags:
+      AMMO_INDEX: 1
+
+
+## PDF AUTOGUN
+  - type: STR_AUTOGUN_PDF
+#RESOURCES
+    bigSprite: 314
+    floorSprite: 308
+    handSprite: 248
+#INFO
+    categories: [STR_CATEGORY_TWOHANDED, STR_CATEGORY_FIREARM]
+    costBuy: 3000
+    costSell: 2250
+    listOrder: 2020
+#SPECIFICATIONS
+    battleType: 1
+    size: 0.2
+    weight: 8
+    invWidth: 2
+    invHeight: 3
+    armor: 35
+    attraction: 1
+    twoHanded: true
+    oneHandedPenalty: 50
+#AMMO
+    compatibleAmmo:
+      - STR_AUTOGUN_MAGAZINE
+#SHOOTING
+    accuracyAuto: 35
+    tuAuto: 35
+
+    accuracySnap: 60
+    tuSnap: 25
+
+    accuracyAimed: 100
+    tuAimed: 75
+    aimRange: 30
+
+#SCRIPTING
+    tags:
+      AMMO_CHANGES_ITEMS_BIGSPRITE: 1
+
+
+## PDF MARKSMAN AUTOGUN
+  - type: STR_MARKSMAN_AUTOGUN_PDF
+#RESOURCES
+    bigSprite: 326
+    floorSprite: 314
+    handSprite: 296
+#INFO
+    categories: [STR_CATEGORY_TWOHANDED, STR_CATEGORY_FIREARM]
+    costBuy: 4000
+    costSell: 3000
+    listOrder: 2030
+#SPECIFICATIONS
+    battleType: 1
+    size: 0.2
+    weight: 10
+    invWidth: 2
+    invHeight: 3
+    armor: 35
+    attraction: 1
+    twoHanded: true
+    oneHandedPenalty: 50
+#AMMO
+    compatibleAmmo:
+      - STR_AUTOGUN_MAGAZINE
+#SHOOTING
+    ignoreAmmoPower: true
+    power: 40
+    kneelBonus: 125
+
+    accuracySnap: 60
+    tuSnap: 30
+
+    accuracyAimed: 110
+    tuAimed: 80
+#SCRIPTING
+    tags:
+      AMMO_CHANGES_ITEMS_BIGSPRITE: 1
+      ITEM_HAS_BIPOD_BIGSPRITE: 1
+      ITEM_HAS_BIPOD_HANDSPRITE: 1
+
+
+## AUTOGUN MAGAZINE
+  - type: STR_AUTOGUN_MAGAZINE
+#RESOURCES
+    bigSprite: 313
+    floorSprite: 307
+    handSprite: 88 #(empty hand)
+
+    bulletSprite: 12 #Rifle bullet projectile
+    bulletSpeed: 25
+
+    hitAnimation: 200 #Bullet hit
+    explosionSpeed: 2
+
+    fireSound: 4
+    hitSound: 22
+#INFO
+    categories: [STR_CATEGORY_AMMO, STR_CATEGORY_FIREARM]
+    costBuy: 200
+    costSell: 150
+    listOrder: 2040
+#SPECIFICATION
+    battleType: 2
+    size: 0.1
+    weight: 2
+    armor: 30
+#SHOOTING
+    clipSize: 20
+    power: 30
+    damageType: 1
+    damageAlter:
+      RandomType: 7 #50-200%
+      ToArmor: 0.1
+      ToArmorPre: 0.07
+      ToTile: 0.5
+#SCRIPTING
+    tags:
+      AMMO_INDEX: 1
+
+
+## PDF HEAVY STUBBER
+  - type: STR_HEAVY_STUBBER_PDF
+#RESOURCES
+    bigSprite: 351
+    floorSprite: 321
+    handSprite: 400
+#INFO
+    categories: [STR_CATEGORY_HEAVY, STR_CATEGORY_FIREARM]
+    costBuy: 3700
+    costSell: 2775
+    listOrder: 2050
+#SPECIFICATIONS
+    battleType: 1
+    size: 0.3
+    weight: 12
+    invWidth: 2
+    invHeight: 3
+    armor: 35
+    attraction: 1
+    twoHanded: true
+    blockBothHands: true
+#AMMO
+    compatibleAmmo:
+      - STR_HEAVY_STUBBER_AMMO_BELT
+#SHOOTING
+    kneelBonus: 125
+
+    accuracyAuto: 32
+    confAuto:
+      shots: 6
+    tuAuto: 40
+    autoRange: 10
+
+    accuracySnap: 56
+    confSnap:
+      shots: 3
+    tuSnap: 33
+
+    accuracyAimed: 82
+    tuAimed: 80
+    aimRange: 30
+
+#SCRIPTING
+    tags:
+      HEAVY_WEAPON: 1
+      AMMO_CHANGES_ITEMS_BIGSPRITE: 1
+      ITEM_HAS_BIPOD_BIGSPRITE: 1
+      ITEM_HAS_BIPOD_HANDSPRITE: 1
+
+
+## HEAVY STUBBER AMMO BELT
+  - type: STR_HEAVY_STUBBER_AMMO_BELT
+#RESOURCES
+    bigSprite: 350
+    floorSprite: 320
+    handSprite: 392
+
+    bulletSprite: 12 #Rifle bullet projectile
+    bulletSpeed: 25
+
+    hitAnimation: 200 #Bullet hit
+    explosionSpeed: 2
+
+    fireSound: 4
+    hitSound: 22
+#INFO
+    categories: [STR_CATEGORY_AMMO, STR_CATEGORY_FIREARM]
+    costBuy: 600
+    costSell: 450
+    listOrder: 2060
+#SPECIFICATION
+    battleType: 2
+    size: 0.1
+    weight: 6
+    invWidth: 2
+    invHeight: 1
+    armor: 30
+#SHOOTING
+    clipSize: 60
+    power: 40
+    damageType: 1
+    damageAlter:
+      RandomType: 7 #50-200%
+      ToArmor: 0.1
+      ToArmorPre: 0.07
+      ToTile: 0.5
+#SCRIPTING
+    tags:
+      AMMO_INDEX: 1
+
+
+## PDF GRENADE LAUNCHER
+  - type: STR_GRENADE_LAUNCHER_PDF
+#RESOURCES
+    bigSprite: 379
+    floorSprite: 328
+    handSprite: 504
+#INFO
+    categories: [STR_CATEGORY_HEAVY, STR_CATEGORY_LAUNCHER]
+    costBuy: 4000
+    costSell: 3200
+    listOrder: 2070
+#SPECIFICATIONS
+    battleType: 1
+    size: 0.3
+    weight: 10
+    invWidth: 2
+    invHeight: 3
+    armor: 35
+    attraction: 1
+    twoHanded: true
+#AMMO
+    compatibleAmmo:
+      - STR_FRAG_GRENADE_MAGAZINE
+      - STR_KRAK_GRENADE_MAGAZINE
+      - STR_INCENDIARY_GRENADE_MAGAZINE
+#SHOOTING
+    arcingShot: true
+
+    accuracySnap: 60
+    tuSnap: 33
+
+    accuracyAimed: 90
+    tuAimed: 75
+    aimRange: 30
+
+#SCRIPTING
+    tags:
+      HEAVY_WEAPON: 1
+      AMMO_CHANGES_ITEMS_BIGSPRITE: 1
+
+
+## FRAG GRENADE DRUM MAGAZINE
+  - type: STR_FRAG_GRENADE_MAGAZINE
+#RESOURCES
+    bigSprite: 375
+    floorSprite: 327
+    handSprite: 496
+
+    bulletSprite: 14 #40mm Grenade projectile
+    bulletSpeed: 0
+
+    fireSound: 12
+    hitSound: 0
+    hitAnimation: 8 #small frag explosion
+
+#INFO
+    categories: [STR_CATEGORY_AMMO, STR_CATEGORY_LAUNCHER]
+    costBuy: 1200
+    costSell: 960
+    listOrder: 2080
+#SPECIFICATION
+    battleType: 2
+    size: 0.1
+    weight: 6
+    invWidth: 1
+    invHeight: 2
+#SHOOTING
+    clipSize: 6
+    power: 50
+    powerForAnimation: 25
+    damageType: 1 #kinetic
+    damageAlter:
+      RandomType: 7 #50-200%
+      FixRadius: 5
+      ToTile: 0.8
+#SCRIPTING
+    tags:
+      AMMO_INDEX: 1
+
+
+## KRAK GRENADE DRUM MAGAZINE
+  - type: STR_KRAK_GRENADE_MAGAZINE
+#RESOURCES
+    bigSprite: 376
+    floorSprite: 327
+    handSprite: 496
+
+    bulletSprite: 14 #40mm Grenade projectile
+    bulletSpeed: 0
+
+    fireSound: 12
+    hitSound: 0
+
+    hitAnimation: 24 #small krak explosion
+#INFO
+    categories: [STR_CATEGORY_AMMO, STR_CATEGORY_LAUNCHER]
+    costBuy: 2400
+    costSell: 1920
+    listOrder: 2090
+#SPECIFICATION
+    battleType: 2
+    size: 0.1
+    weight: 6
+    invWidth: 1
+    invHeight: 2
+#SHOOTING
+    clipSize: 6
+    power: 70
+    powerForAnimation: 25
+    damageType: 3 #High Explosive
+    damageAlter:
+      RandomType: 2 #50-150%
+      FixRadius: 1
+      ToArmor: 0.2
+      ToArmorPre: 0.5
+      ToTile: 0.8
+#SCRIPTING
+    tags:
+      AMMO_INDEX: 2
+
+
+## INCENDIARY GRENADE DRUM MAGAZINE
+  - type: STR_INCENDIARY_GRENADE_MAGAZINE
+#RESOURCES
+    bigSprite: 377
+    floorSprite: 327
+    handSprite: 496
+
+    bulletSprite: 14 #40mm Grenade projectile
+    bulletSpeed: 0
+
+    fireSound: 12
+    hitSound: 0
+    hitAnimation: 40 #small incendiary explosion
+#INFO
+    categories: [STR_CATEGORY_AMMO, STR_CATEGORY_LAUNCHER]
+    costBuy: 1500
+    costSell: 1200
+    listOrder: 2100
+#SPECIFICATION
+    battleType: 2
+    size: 0.1
+    weight: 6
+    invWidth: 1
+    invHeight: 2
+#SHOOTING
+    clipSize: 6
+    power: 60
+    powerForAnimation: 25
+    damageType: 2 #incendiary
+    damageAlter:
+      RandomType: 2 #50-150%
+      ToHealth: 1.0
+      ToMorale: 0.5
+      ToTile: 0.5
+      FixRadius: 2
+#SCRIPTING
+    tags:
+      AMMO_INDEX: 3
+
+
+## PDF MISSILE LAUNCHER
+  - type: STR_MISSILE_LAUNCHER_PDF
+#RESOURCES
+    bigSprite: 407
+    floorSprite: 335
+    handSprite: 560
+#INFO
+    categories: [STR_CATEGORY_HEAVY, STR_CATEGORY_LAUNCHER]
+    costBuy: 4000
+    costSell: 3200
+    listOrder: 2110
+#SPECIFICATIONS
+    battleType: 1
+    size: 0.4
+    weight: 12
+    invWidth: 2
+    invHeight: 3
+    armor: 35
+    attraction: 1
+    twoHanded: true
+    blockBothHands: true
+#AMMO
+    compatibleAmmo:
+      - STR_FRAG_MISSILE
+      - STR_KRAK_MISSILE
+      - STR_INCENDIARY_MISSILE
+#SHOOTING
+    accuracySnap: 55
+    tuSnap: 45
+
+    accuracyAimed: 115
+    tuAimed: 80
+    aimRange: 40
+
+#SCRIPTING
+    tags:
+      HEAVY_WEAPON: 1
+
+
+## FRAG MISSILE
+  - type: STR_FRAG_MISSILE
+#RESOURCES
+    bigSprite: 403
+    floorSprite: 334
+    handSprite: 552
+
+    bulletSprite: 15 #Missile projectile
+    bulletSpeed: 2
+
+    fireSound: 52
+    hitSound: 0
+    hitAnimation: 16 #Large frag explosion
+
+    vaporColorSurface: 0 #White smoke trail
+    vaporDensitySurface: 30
+    vaporProbabilitySurface: 25
+#INFO
+    categories: [STR_CATEGORY_AMMO, STR_CATEGORY_LAUNCHER]
+    costBuy: 600
+    costSell: 480
+    listOrder: 2120
+#SPECIFICATION
+    battleType: 2
+    size: 0.1
+    weight: 4
+    invWidth: 1
+    invHeight: 2
+#SHOOTING
+    clipSize: 1
+    power: 75
+    powerForAnimation: 50
+    damageType: 1 #kinetic
+    damageAlter:
+      RandomType: 7 #50-200%
+      FixRadius: 6
+      ToTile: 0.7
+
+
+## KRAK MISSILE
+  - type: STR_KRAK_MISSILE
+#RESOURCES
+    bigSprite: 404
+    floorSprite: 334
+    handSprite: 552
+
+    bulletSprite: 15 #Missile projectile
+    bulletSpeed: 2
+
+    fireSound: 52
+    hitSound: 0
+    hitAnimation: 32 #Large krak explosion
+
+    vaporColorSurface: 0 #White smoke trail
+    vaporDensitySurface: 30
+    vaporProbabilitySurface: 25
+#INFO
+    categories: [STR_CATEGORY_AMMO, STR_CATEGORY_LAUNCHER]
+    costBuy: 1000
+    costSell: 800
+    listOrder: 2130
+#SPECIFICATION
+    battleType: 2
+    size: 0.1
+    weight: 4
+    invWidth: 1
+    invHeight: 2
+#SHOOTING
+    clipSize: 1
+    power: 100
+    powerForAnimation: 35
+    damageType: 3 #High Explosive
+    damageAlter:
+      RandomType: 2 #50-150%
+      FixRadius: 2
+      ToArmor: 0.2
+      ToArmorPre: 0.5
+      ToTile: 0.7
+
+
+## INCENDIARY MISSILE
+  - type: STR_INCENDIARY_MISSILE
+#RESOURCES
+    bigSprite: 405
+    floorSprite: 334
+    handSprite: 552
+
+    bulletSprite: 15 #Missile projectile
+    bulletSpeed: 2
+
+    fireSound: 52
+    hitSound: 0
+    hitAnimation: 48 #Large incendiary explosion
+
+    vaporColorSurface: 0 #White smoke trail
+    vaporDensitySurface: 30
+    vaporProbabilitySurface: 25
+#INFO
+    categories: [STR_CATEGORY_AMMO, STR_CATEGORY_LAUNCHER]
+    costBuy: 700
+    costSell: 560
+    listOrder: 2140
+#SPECIFICATION
+    battleType: 2
+    size: 0.1
+    weight: 4
+    invWidth: 1
+    invHeight: 2
+#SHOOTING
+    clipSize: 1
+    power: 90
+    powerForAnimation: 50
+    damageType: 2 #incendiary
+    damageAlter:
+      RandomType: 2 #50-150%
+      ToHealth: 1.0
+      ToMorale: 0.5
+      ToTile: 0.5
+      FixRadius: 3
+
+
+#PDF FLAMER
+  - type: STR_FLAMER_PDF
+#RESOURCES
+    bigSprite: 414
+    floorSprite: 342
+    handSprite: 616
+#INFO
+    categories: [STR_CATEGORY_HEAVY, STR_CATEGORY_LAUNCHER]
+    costBuy: 3500
+    costSell: 2800
+    listOrder: 2150
+#SPECIFICATIONS
+    battleType: 1
+    size: 0.3
+    weight: 10
+    invWidth: 2
+    invHeight: 3
+    armor: 30
+    attraction: 1
+    twoHanded: true
+#AMMO
+    compatibleAmmo:
+      - STR_FLAMER_FUEL
+#SHOOTING
+    powerRangeThreshold: 8
+    powerRangeReduction: 75
+    maxRange: 8
+
+    accuracySnap: 60
+    tuSnap: 30
+
+#SCRIPTING
+    tags:
+      HEAVY_WEAPON: 1
+      AMMO_CHANGES_ITEMS_BIGSPRITE: 1
+
+
+#FLAMER FUEL
+  - type: STR_FLAMER_FUEL
+#RESOURCES
+    bigSprite: 413
+    floorSprite: 341
+    handSprite: 608
+
+    bulletSprite: 16 #Invisible projectile
+    bulletSpeed: 1
+    explosionSpeed: 2
+
+    fireSound: 52
+    hitSound: 0
+    hitAnimation: 40 #small incendiary explosion
+#    explosionSpeed: -1
+
+    vaporColorSurface: 1 #Orange
+    vaporProbabilitySurface: 100
+    vaporDensitySurface: 50
+
+#INFO
+    categories: [STR_CATEGORY_AMMO, STR_CATEGORY_LAUNCHER]
+    costBuy: 700
+    costSell: 560
+    listOrder: 2160
+#SPECIFICATION
+    battleType: 2
+    invWidth: 1
+    invHeight: 1
+    size: 0.1
+    weight: 3
+    armor: 30
+#SHOOTING
+    clipSize: 10
+    damageType: 2
+    power: 70
+    powerForAnimation: 1
+    damageAlter:
+      RandomType: 2 #TFTD [50% - 150%]
+      ToHealth: 1.0
+      ToMorale: 0.5
+      ToTile: 0.5
+    blastRadius: 1
+#SCRIPTING
+    tags:
+      AMMO_INDEX: 1
+
+
+
+#PDF WEBBER
+  - type: STR_WEBBER_PDF
+#RESOURCES
+    bigSprite: 421
+    floorSprite: 358
+    handSprite: 648
+#INFO
+    categories: [STR_CATEGORY_HEAVY, STR_CATEGORY_LAUNCHER]
+    costBuy: 10500
+    costSell: 8400
+    listOrder: 2170
+#SPECIFICATIONS
+    battleType: 1
+    size: 0.3
+    weight: 10
+    invWidth: 2
+    invHeight: 3
+    armor: 30
+    attraction: 1
+    twoHanded: true
+#AMMO
+    compatibleAmmo:
+      - STR_WEB_CHEM_CANISTER
+#SHOOTING
+    maxRange: 15
+
+    accuracySnap: 65
+    tuSnap: 40
+
+    accuracyAimed: 100
+    tuAimed: 70
+
+#SCRIPTING
+    tags:
+      HEAVY_WEAPON: 1
+      AMMO_CHANGES_ITEMS_BIGSPRITE: 1
+
+
+#WEB CHEM CANISTER
+  - type: STR_WEB_CHEM_CANISTER
+#RESOURCES
+    bigSprite: 420
+    floorSprite: 347
+    handSprite: 88 #empty hand
+
+    bulletSprite: 24 #Webber projectile
+    bulletSpeed: 1
+
+    fireSound: 53
+    hitSound: 0
+    hitAnimation: 290 #Webber projectile hit
+
+#INFO
+    categories: [STR_CATEGORY_AMMO, STR_CATEGORY_LAUNCHER]
+    costBuy: 1400
+    costSell: 1120
+    listOrder: 2180
+#SPECIFICATION
+    battleType: 2
+    invWidth: 1
+    invHeight: 1
+    size: 0.1
+    weight: 2
+    armor: 30
+#SHOOTING
+    clipSize: 4
+    damageType: 6 #stun
+    power: 60
+    powerForAnimation: 1
+    damageAlter:
+      RandomType: 2 #TFTD [50% - 150%]
+    blastRadius: 0
+#SCRIPTING
+    tags:
+      AMMO_INDEX: 1
+
+
+## PDF LASPISTOL
+  - type: STR_LASPISTOL_PDF
+#RESOURCES
+    bigSprite: 425
+    floorSprite: 360
+    handSprite: 664
+
+    bulletSprite: 17 #Laser beam projectile
+    bulletSpeed: 25
+
+    fireSound: 11
+    hitSound: 19
+    hitAnimation: 220 #Laser hit
+
+#INFO
+    categories: [STR_CATEGORY_ONEHANDED, STR_CATEGORY_LASER]
+    costSell: 3600
+    listOrder: 2190
+#SPECIFICATION
+    battleType: 1
+    size: 0.1
+    invWidth: 1
+    invHeight: 2
+    weight: 3
+    armor: 30
+#SHOOTING
+    power: 30
+    clipSize: -1
+    damageType: 4 #laser
+    damageAlter:
+      RandomType: 7 #50-200%
+      ToArmor: 0.1
+      ToArmorPre: 0.1
+      ToTile: 0.0
+
+    accuracySnap: 75
+    tuSnap: 20
+
+    accuracyAimed: 95
+    tuAimed: 35
+    aimRange: 20
+
+
+## PDF LASGUN
+  - type: STR_LASGUN_PDF
+#RESOURCES
+    bigSprite: 431
+    floorSprite: 366
+    handSprite: 712
+
+    bulletSprite: 17 #Laser beam projectile
+    bulletSpeed: 25
+
+    fireSound: 11
+    hitSound: 19
+    hitAnimation: 220 #Laser hit
+#INFO
+    categories: [STR_CATEGORY_TWOHANDED, STR_CATEGORY_LASER]
+    costSell: 13500
+    listOrder: 2200
+#SPECIFICATIONS
+    battleType: 1
+    size: 0.2
+    weight: 9
+    invWidth: 2
+    invHeight: 3
+    armor: 35
+    attraction: 1
+    twoHanded: true
+    oneHandedPenalty: 50
+#SHOOTING
+    power: 30
+    clipSize: -1
+    damageType: 4 #laser
+    damageAlter:
+      RandomType: 7 #50-200%
+      ToArmor: 0.1
+      ToArmorPre: 0.1
+      ToTile: 0.5
+
+    accuracyAuto: 50
+    tuAuto: 40
+
+    accuracySnap: 75
+    tuSnap: 30
+
+    accuracyAimed: 115
+    tuAimed: 80
+    aimRange: 30
+
+
+## PDF MARKSMAN LASGUN
+  - type: STR_MARKSMAN_LASGUN_PDF
+#RESOURCES
+    bigSprite: 437
+    floorSprite: 372
+    handSprite: 760
+
+    bulletSprite: 17 #Laser beam projectile
+    bulletSpeed: 25
+
+    fireSound: 11
+    hitSound: 19
+    hitAnimation: 220 #Laser hit
+#INFO
+    categories: [STR_CATEGORY_TWOHANDED, STR_CATEGORY_LASER]
+    costSell: 18000
+    listOrder: 2210
+#SPECIFICATIONS
+    battleType: 1
+    size: 0.2
+    weight: 10
+    invWidth: 2
+    invHeight: 3
+    armor: 35
+    attraction: 1
+    twoHanded: true
+    oneHandedPenalty: 50
+#SHOOTING
+    power: 40
+    clipSize: -1
+    damageType: 4 #laser
+    damageAlter:
+      RandomType: 7 #50-200%
+      ToArmor: 0.1
+      ToArmorPre: 0.1
+      ToTile: 0.5
+
+    kneelBonus: 125
+
+    accuracySnap: 75
+    tuSnap: 35
+
+    accuracyAimed: 125
+    tuAimed: 80
+#SCRIPTING
+    tags:
+      ITEM_HAS_BIPOD_BIGSPRITE: 1
+      ITEM_HAS_BIPOD_HANDSPRITE: 1
+
+
+## PDF TWIN LASGUN
+  - type: STR_TWIN_LASGUN_PDF
+#RESOURCES
+    bigSprite: 449
+    floorSprite: 378
+    handSprite: 856
+#INFO
+    categories: [STR_CATEGORY_HEAVY, STR_CATEGORY_LASER]
+    costSell: 16650
+    listOrder: 2220
+
+    bulletSprite: 17 #Laser beam projectile
+    bulletSpeed: 25
+
+    fireSound: 11
+    hitSound: 19
+    hitAnimation: 220 #Laser hit
+
+#SPECIFICATIONS
+    battleType: 1
+    size: 0.3
+    weight: 14
+    invWidth: 2
+    invHeight: 3
+    armor: 35
+    attraction: 1
+    twoHanded: true
+    blockBothHands: true
+#SHOOTING
+    power: 40
+    clipSize: -1
+    damageType: 4 #laser
+    damageAlter:
+      RandomType: 7 #50-200%
+      ToArmor: 0.1
+      ToArmorPre: 0.1
+      ToTile: 0.5
+
+    kneelBonus: 125
+
+    accuracyAuto: 47
+    confAuto:
+      shots: 6
+    tuAuto: 45
+    autoRange: 10
+
+    accuracySnap: 70
+    confSnap:
+      shots: 3
+    tuSnap: 38
+
+    accuracyAimed: 95
+    tuAimed: 80
+    aimRange: 30
+
+#SCRIPTING
+    tags:
+      HEAVY_WEAPON: 1
+      ITEM_HAS_BIPOD_BIGSPRITE: 1
+      ITEM_HAS_BIPOD_HANDSPRITE: 1
+
+
+## PDF HELLPISTOL
+  - type: STR_HELLPISTOL_PDF
+#RESOURCES
+    bigSprite: 461
+    floorSprite: 384
+    handSprite: 952
+
+    bulletSprite: 18 #Hotshot laser beam projectile
+    bulletSpeed: 25
+
+    fireSound: 11
+    hitSound: 19
+    hitAnimation: 230 #Hotshot laser hit
+
+#INFO
+    categories: [STR_CATEGORY_ONEHANDED, STR_CATEGORY_LASER]
+    costSell: 20250
+    listOrder: 2230
+#SPECIFICATION
+    battleType: 1
+    size: 0.1
+    invWidth: 1
+    invHeight: 2
+    weight: 4
+    armor: 30
+#SHOOTING
+    power: 60
+    clipSize: -1
+    damageType: 4 #laser
+    damageAlter:
+      RandomType: 7 #50-200%
+      ToArmor: 0.2
+      ToArmorPre: 0.2
+      ToTile: 0.5
+
+    accuracySnap: 75
+    tuSnap: 15
+
+    accuracyAimed: 95
+    tuAimed: 30
+    aimRange: 20
+
+
+## PDF HELLGUN
+  - type: STR_HELLGUN_PDF
+#RESOURCES
+    bigSprite: 467
+    floorSprite: 390
+    handSprite: 1000
+
+    bulletSprite: 18 #Hotshot laser beam projectile
+    bulletSpeed: 25
+
+    fireSound: 11
+    hitSound: 19
+    hitAnimation: 230 #Hotshot laser hit
+#INFO
+    categories: [STR_CATEGORY_TWOHANDED, STR_CATEGORY_LASER]
+    costSell: 36000
+    listOrder: 2240
+#SPECIFICATIONS
+    battleType: 1
+    size: 0.2
+    weight: 11
+    invWidth: 2
+    invHeight: 3
+    armor: 35
+    attraction: 1
+    twoHanded: true
+    oneHandedPenalty: 50
+#SHOOTING
+    power: 60
+    clipSize: -1
+    damageType: 4 #laser
+    damageAlter:
+      RandomType: 7 #50-200%
+      ToArmor: 0.2
+      ToArmorPre: 0.2
+      ToTile: 0.5
+
+    accuracyAuto: 50
+    tuAuto: 35
+
+    accuracySnap: 75
+    tuSnap: 25
+
+    accuracyAimed: 115
+    tuAimed: 75
+    aimRange: 30
+
+
+## PDF MARKSMAN HELLGUN
+  - type: STR_MARKSMAN_HELLGUN_PDF
+#RESOURCES
+    bigSprite: 473
+    floorSprite: 396
+    handSprite: 1048
+
+    bulletSprite: 18 #Hotshot laser beam projectile
+    bulletSpeed: 25
+
+    fireSound: 11
+    hitSound: 19
+    hitAnimation: 230 #Hotshot laser hit
+#INFO
+    categories: [STR_CATEGORY_TWOHANDED, STR_CATEGORY_LASER]
+    costSell: 46800
+    listOrder: 2250
+#SPECIFICATIONS
+    battleType: 1
+    size: 0.2
+    weight: 13
+    invWidth: 2
+    invHeight: 3
+    armor: 35
+    attraction: 1
+    twoHanded: true
+    oneHandedPenalty: 50
+#SHOOTING
+    power: 70
+    clipSize: -1
+    damageType: 4 #laser
+    damageAlter:
+      RandomType: 7 #50-200%
+      ToArmor: 0.2
+      ToArmorPre: 0.2
+      ToTile: 0.5
+
+    kneelBonus: 125
+
+    accuracySnap: 75
+    tuSnap: 30
+
+    accuracyAimed: 125
+    tuAimed: 80
+#SCRIPTING
+    tags:
+      ITEM_HAS_BIPOD_BIGSPRITE: 1
+      ITEM_HAS_BIPOD_HANDSPRITE: 1
+
+
+## PDF TWIN HELLGUN
+  - type: STR_TWIN_HELLGUN_PDF
+#RESOURCES
+    bigSprite: 485
+    floorSprite: 402
+    handSprite: 1144
+#INFO
+    categories: [STR_CATEGORY_HEAVY, STR_CATEGORY_LASER]
+    costSell: 45000
+    listOrder: 2260
+
+    bulletSprite: 18 #Hotshot laser beam projectile
+    bulletSpeed: 25
+
+    fireSound: 11
+    hitSound: 19
+    hitAnimation: 230 #Hotshot laser hit
+
+#SPECIFICATIONS
+    battleType: 1
+    size: 0.3
+    weight: 18
+    invWidth: 2
+    invHeight: 3
+    armor: 35
+    attraction: 1
+    twoHanded: true
+    blockBothHands: true
+#SHOOTING
+    power: 70
+    clipSize: -1
+    damageType: 4 #laser
+    damageAlter:
+      RandomType: 7 #50-200%
+      ToArmor: 0.2
+      ToArmorPre: 0.2
+      ToTile: 0.5
+
+    kneelBonus: 125
+
+    accuracyAuto: 47
+    confAuto:
+      shots: 6
+    tuAuto: 40
+    autoRange: 10
+
+    accuracySnap: 70
+    confSnap:
+      shots: 3
+    tuSnap: 33
+
+    accuracyAimed: 95
+    tuAimed: 80
+    aimRange: 30
+
+#SCRIPTING
+    tags:
+      HEAVY_WEAPON: 1
+      ITEM_HAS_BIPOD_BIGSPRITE: 1
+      ITEM_HAS_BIPOD_HANDSPRITE: 1
+
+
+## PDF BOLT PISTOL
+  - type: STR_BOLT_PISTOL_PDF
+#RESOURCES
+    bigSprite: 498
+    floorSprite: 409
+    handSprite: 1240
+#INFO
+    categories: [STR_CATEGORY_ONEHANDED, STR_CATEGORY_BOLT]
+    costSell: 40500
+    listOrder: 2270
+#SPECIFICATION
+    battleType: 1
+    size: 0.2
+    invWidth: 2
+    invHeight: 2
+    weight: 5
+    armor: 35
+    attraction: 1
+#AMMO
+    compatibleAmmo:
+      - STR_BOLT_PISTOL_MAGAZINE
+#SHOOTING
+    accuracySnap: 65
+    tuSnap: 25
+
+    accuracyAimed: 85
+    tuAimed: 40
+    aimRange: 20
+
+#SCRIPTING
+    tags:
+      AMMO_CHANGES_ITEMS_BIGSPRITE: 1
+
+
+## BOLT PISTOL MAGAZINE
+  - type: STR_BOLT_PISTOL_MAGAZINE
+#RESOURCES
+    bigSprite: 497
+    floorSprite: 408
+    handSprite: 88 #empty hand
+
+    bulletSprite: 20 #Bolter projectile
+    bulletSpeed: 25
+
+    hitAnimation: 210 #Heavy bullet hit
+    explosionSpeed: 2
+
+    fireSound: 12
+    hitSound: 13
+#INFO
+    categories: [STR_CATEGORY_AMMO, STR_CATEGORY_BOLT]
+    costSell: 4500
+    listOrder: 2280
+#SPECIFICATION
+    battleType: 2
+    size: 0.1
+    weight: 2
+    invWidth: 1
+    invHeight: 1
+    armor: 35
+#SHOOTING
+    clipSize: 10
+    power: 90
+    damageType: 3 #High Explosive
+    damageAlter:
+      RandomType: 2 #50-150%
+      ToArmor: 0.25
+      ToArmorPre: 0.25
+      ToTile: 0.5
+      FixRadius: 0
+#SCRIPTING
+    tags:
+      AMMO_INDEX: 1
+
+
+## PDF BOLTGUN
+  - type: STR_BOLTGUN_PDF
+#RESOURCES
+    bigSprite: 511
+    floorSprite: 416
+    handSprite: 1288
+#INFO
+    categories: [STR_CATEGORY_TWOHANDED, STR_CATEGORY_BOLT]
+    costSell: 67500
+    listOrder: 2290
+#SPECIFICATIONS
+    battleType: 1
+    size: 0.3
+    weight: 10
+    invWidth: 2
+    invHeight: 3
+    armor: 35
+    attraction: 1
+    twoHanded: true
+    oneHandedPenalty: 50
+#AMMO
+    compatibleAmmo:
+      - STR_BOLTGUN_MAGAZINE
+#SHOOTING
+    accuracyAuto: 40
+    tuAuto: 40
+
+    accuracySnap: 65
+    tuSnap: 30
+
+    accuracyAimed: 100
+    tuAimed: 75
+    aimRange: 30
+
+#SCRIPTING
+    tags:
+      AMMO_CHANGES_ITEMS_BIGSPRITE: 1
+
+
+## PDF MARKSMAN BOLTGUN
+  - type: STR_MARKSMAN_BOLTGUN_PDF
+#RESOURCES
+    bigSprite: 523
+    floorSprite: 422
+    handSprite: 1336
+#INFO
+    categories: [STR_CATEGORY_TWOHANDED, STR_CATEGORY_BOLT]
+    costSell: 81000
+    listOrder: 2300
+#SPECIFICATIONS
+    battleType: 1
+    size: 0.3
+    weight: 12
+    invWidth: 2
+    invHeight: 3
+    armor: 35
+    attraction: 1
+    twoHanded: true
+    oneHandedPenalty: 50
+#AMMO
+    compatibleAmmo:
+      - STR_BOLTGUN_MAGAZINE
+#SHOOTING
+    ignoreAmmoPower: true
+    power: 100
+
+    accuracySnap: 65
+    tuSnap: 30
+
+    accuracyAimed: 120
+    tuAimed: 75
+
+#SCRIPTING
+    tags:
+      AMMO_CHANGES_ITEMS_BIGSPRITE: 1
+
+
+## BOLTGUN MAGAZINE
+  - type: STR_BOLTGUN_MAGAZINE
+#RESOURCES
+    bigSprite: 510
+    floorSprite: 415
+    handSprite: 88 #empty hand
+
+    bulletSprite: 20 #Bolter projectile
+    bulletSpeed: 25
+
+    hitAnimation: 210 #Heavy bullet hit
+    explosionSpeed: 2
+
+    fireSound: 12
+    hitSound: 13
+#INFO
+    categories: [STR_CATEGORY_AMMO, STR_CATEGORY_BOLT]
+    costSell: 9000
+    listOrder: 2310
+#SPECIFICATION
+    battleType: 2
+    size: 0.2
+    weight: 4
+    invWidth: 1
+    invHeight: 2
+    armor: 35
+#SHOOTING
+    clipSize: 20
+    power: 90
+    damageType: 3 #High Explosive
+    damageAlter:
+      RandomType: 2 #50-150%
+      ToArmor: 0.25
+      ToArmorPre: 0.25
+      ToTile: 0.5
+      FixRadius: 0
+#SCRIPTING
+    tags:
+      AMMO_INDEX: 1
+
+
+
+## PDF HEAVY BOLTER
+  - type: STR_HEAVY_BOLTER_PDF
+#RESOURCES
+    bigSprite: 537
+    floorSprite: 430
+    handSprite: 1392
+#INFO
+    categories: [STR_CATEGORY_HEAVY, STR_CATEGORY_BOLT]
+    costSell: 87750
+    listOrder: 2320
+#SPECIFICATIONS
+    battleType: 1
+    size: 0.4
+    weight: 16
+    invWidth: 2
+    invHeight: 3
+    armor: 35
+    attraction: 1
+    twoHanded: true
+    blockBothHands: true
+#AMMO
+    compatibleAmmo:
+      - STR_HEAVY_BOLTER_AMMO_BELT
+#SHOOTING
+    kneelBonus: 125
+
+    accuracyAuto: 35
+    confAuto:
+      shots: 4
+    tuAuto: 40
+    autoRange: 10
+
+    accuracySnap: 60
+    confSnap:
+      shots: 2
+    tuSnap: 33
+
+    accuracyAimed: 85
+    tuAimed: 80
+    aimRange: 30
+
+#SCRIPTING
+    tags:
+      HEAVY_WEAPON: 1
+      AMMO_CHANGES_ITEMS_BIGSPRITE: 1
+      ITEM_HAS_BIPOD_BIGSPRITE: 1
+      ITEM_HAS_BIPOD_HANDSPRITE: 1
+
+
+## HEAVY BOLTER AMMO BELT
+  - type: STR_HEAVY_BOLTER_AMMO_BELT
+#RESOURCES
+    bigSprite: 536
+    floorSprite: 429
+    handSprite: 1384
+
+    bulletSprite: 21 #Heavy bolter projectile
+    bulletSpeed: 25
+
+    hitAnimation: 210 #Heavy bullet hit
+    explosionSpeed: 2
+
+    fireSound: 12
+    hitSound: 13
+#INFO
+    categories: [STR_CATEGORY_AMMO, STR_CATEGORY_BOLT]
+    costSell: 20000
+    listOrder: 2330
+#SPECIFICATION
+    battleType: 2
+    size: 0.2
+    weight: 8
+    invWidth: 2
+    invHeight: 1
+    armor: 35
+#SHOOTING
+    clipSize: 40
+    power: 110
+    damageType: 3 #High Explosive
+    damageAlter:
+      RandomType: 2 #50-150%
+      ToArmor: 0.25
+      ToArmorPre: 0.25
+      ToTile: 0.5
+      FixRadius: 0
+#SCRIPTING
+    tags:
+      AMMO_INDEX: 1
+
+
+## PDF PLASMA PISTOL
+  - type: STR_PLASMA_PISTOL_PDF
+#RESOURCES
+    bigSprite: 603
+    floorSprite: 458
+    handSprite: 1648
+#INFO
+    categories: [STR_CATEGORY_ONEHANDED, STR_CATEGORY_PLASMA]
+    costSell: 84000
+    listOrder: 2340
+#SPECIFICATION
+    battleType: 1
+    size: 0.1
+    invWidth: 1
+    invHeight: 2
+    weight: 4
+    armor: 35
+    attraction: 1
+#AMMO
+    compatibleAmmo:
+      - STR_HYDROGEN_FUEL_CELL
+#SHOOTING
+    ignoreAmmoPower: true
+    power: 115
+
+    accuracySnap: 65
+    tuSnap: 35
+
+    accuracyAimed: 95
+    tuAimed: 70
+    aimRange: 20
+#SCRIPTING
+    tags:
+      AMMO_CHANGES_ITEMS_BIGSPRITE: 1
+
+
+## PDF PLASMA GUN
+  - type: STR_PLASMA_GUN_PDF
+#RESOURCES
+    bigSprite: 615
+    floorSprite: 464
+    handSprite: 1696
+#INFO
+    categories: [STR_CATEGORY_TWOHANDED, STR_CATEGORY_PLASMA]
+    costSell: 132000
+    listOrder: 2350
+#SPECIFICATION
+    battleType: 1
+    size: 0.2
+    invWidth: 2
+    invHeight: 3
+    weight: 10
+    armor: 35
+    attraction: 1
+    twoHanded: true
+#AMMO
+    compatibleAmmo:
+      - STR_HYDROGEN_FUEL_CELL
+#SHOOTING
+    accuracySnap: 75
+    tuSnap: 30
+
+    accuracyAimed: 105
+    tuAimed: 65
+    aimRange: 30
+#SCRIPTING
+    tags:
+      AMMO_CHANGES_ITEMS_BIGSPRITE: 1
+
+
+## HYDROGEN FUEL CELL (PLASMA AMMO)
+  - type: STR_HYDROGEN_FUEL_CELL
+#RESOURCES
+    bigSprite: 602
+    floorSprite: 457
+    handSprite: 88 #empty hand
+
+    bulletSprite: 22 #Plasma bolt projectile
+    bulletSpeed: 4
+
+    hitAnimation: 240 #Plasma hit
+    explosionSpeed: 2
+
+    fireSound: 18
+    hitSound: 19
+
+    vaporColorSurface: 2 #Blue plasma trail
+    vaporProbabilitySurface: 50
+    vaporDensitySurface: 10
+
+#INFO
+    categories: [STR_CATEGORY_AMMO, STR_CATEGORY_PLASMA]
+    costSell: 9590
+    listOrder: 2360
+#SPECIFICATION
+    battleType: 2
+    size: 0.1
+    weight: 2
+    invWidth: 1
+    invHeight: 1
+    armor: 35
+#SHOOTING
+    clipSize: 10
+    power: 130
+    damageType: 5 #Plasma
+    damageAlter:
+      RandomType: 2 #50-150%
+      ToArmor: 0.3
+      ToArmorPre: 0.3
+      ToTile: 0.5
+      FixRadius: 0
+#SCRIPTING
+    tags:
+      AMMO_INDEX: 1
+
+
+## PDF MELTAGUN
+  - type: STR_MELTAGUN_PDF
+#RESOURCES
+    bigSprite: 650
+    floorSprite: 481
+    handSprite: 1824
+#INFO
+    categories: [STR_CATEGORY_TWOHANDED, STR_CATEGORY_MELTA]
+    costSell: 142500
+    listOrder: 2370
+#SPECIFICATION
+    battleType: 1
+    size: 0.2
+    invWidth: 2
+    invHeight: 3
+    weight: 10
+    armor: 35
+    attraction: 1
+    twoHanded: true
+#AMMO
+    compatibleAmmo:
+      - STR_MELTAGUN_FUEL
+#SHOOTING
+    powerRangeThreshold: 8
+    powerRangeReduction: 110
+    maxRange: 8
+
+    accuracySnap: 60
+    tuSnap: 40
+
+    accuracyAimed: 120
+    tuAimed: 80
+#SCRIPTING
+    tags:
+      HEAVY_WEAPON: 1
+      AMMO_CHANGES_ITEMS_BIGSPRITE: 1
+
+
+## MELTAGUN FUEL
+  - type: STR_MELTAGUN_FUEL
+#RESOURCES
+    bigSprite: 649
+    floorSprite: 480
+    handSprite: 88 #empty hand
+
+    bulletSprite: 16 #Invisible projectile
+    bulletSpeed: 10
+
+    hitAnimation: 250 #Melta hit
+    explosionSpeed: 1
+
+    fireSound: 52
+    hitSound: 0
+
+    vaporColorSurface: 1 #Orange
+    vaporProbabilitySurface: 100
+    vaporDensitySurface: 5
+#INFO
+    categories: [STR_CATEGORY_AMMO, STR_CATEGORY_MELTA]
+    costSell: 8250
+    listOrder: 2380
+#SPECIFICATION
+    battleType: 2
+    size: 0.1
+    weight: 2
+    invWidth: 1
+    invHeight: 1
+    armor: 35
+#SHOOTING
+    clipSize: 6
+    power: 160
+    damageType: 10 #Melta
+    damageAlter:
+      RandomType: 2 #50-150%
+      ToArmor: 0.3
+      ToArmorPre: 0.3
+      ToTile: 0.5
+      FixRadius: 0
+#SCRIPTING
+    tags:
+      AMMO_INDEX: 1
+
+
+
+## SHOCK MAUL
+  - type: STR_SHOCK_MAUL_PDF
+#RESOURCES
+    bigSprite: 672
+    floorSprite: 492
+    handSprite: 1912
+
+    meleeAnimation: 4 #yellow melee hit
+    meleeMissAnimation: 8 #yellow melee miss
+
+    meleeSound: 39
+    meleeHitSound: 54
+#INFO
+    categories: [STR_CATEGORY_MELEE]
+    costBuy: 1260
+    costSell: 945
+    listOrder: 2410
+#SPECIFICATION
+    battleType: 3
+    size: 0.2
+    weight: 6
+    invWidth: 1
+    invHeight: 3
+    armor: 30
+#MELEE
+    clipSize: -1
+    power: 80
+    damageType: 6 #Stun
+    damageAlter:
+      RandomType: 7 #50-200%
+    accuracyMelee: 100
+    tuMelee: 30
+
+
+## PDF COMBAT KNIFE
+  - type: STR_COMBAT_KNIFE_PDF
+#RESOURCES
+    bigSprite: 673
+    floorSprite: 493
+    handSprite: 1920
+
+    meleeAnimation: 12 #white melee hit
+    meleeMissAnimation: 16 #white melee miss
+
+    meleeSound: 39
+    meleeHitSound: 54
+#INFO
+    categories: [STR_CATEGORY_MELEE]
+    costBuy: 150
+    costSell: 110
+    listOrder: 2420
+#SPECIFICATION
+    battleType: 3
+    size: 0.1
+    weight: 2
+    invWidth: 1
+    invHeight: 2
+    armor: 30
+#MELEE
+    clipSize: -1
+    power: 30
+    damageType: 7 #Melee
+    damageAlter:
+      RandomType: 7 #50-200%
+    accuracyMelee: 120
+    tuMelee: 25
+
+
+## PDF SWORD
+  - type: STR_SWORD_PDF
+#RESOURCES
+    bigSprite: 684
+    floorSprite: 504
+    handSprite: 2008
+
+    meleeAnimation: 12 #white melee hit
+    meleeMissAnimation: 16 #white melee miss
+
+    meleeSound: 39
+    meleeHitSound: 54
+#INFO
+    categories: [STR_CATEGORY_MELEE]
+    costBuy: 400
+    costSell: 300
+    listOrder: 2430
+#SPECIFICATION
+    battleType: 3
+    size: 0.2
+    weight: 6
+    invWidth: 1
+    invHeight: 3
+    armor: 30
+#MELEE
+    clipSize: -1
+    power: 40
+    damageType: 7 #Melee
+    damageAlter:
+      RandomType: 7 #50-200%
+      ToArmor: 0.1
+      ToArmorPre: 0.07
+    accuracyMelee: 100
+    tuMelee: 30
+
+
+## PDF CHAINSWORD
+  - type: STR_CHAINSWORD_PDF
+#RESOURCES
+    bigSprite: 697
+    floorSprite: 517
+    handSprite: 2112
+
+    meleeAnimation: 20 #red melee hit
+    meleeMissAnimation: 24 #red melee miss
+
+    meleeSound: 39
+    meleeHitSound: 54
+#INFO
+    categories: [STR_CATEGORY_MELEE, STR_CATEGORY_CHAIN]
+    costSell: 25000
+    listOrder: 2440
+#SPECIFICATION
+    battleType: 3
+    size: 0.2
+    weight: 7
+    invWidth: 1
+    invHeight: 3
+    armor: 35
+#MELEE
+    clipSize: -1
+    power: 70
+    damageType: 7 #Melee
+    damageAlter:
+      RandomType: 2 #50-150%
+      ToArmor: 0.25
+      ToArmorPre: 0.25
+    accuracyMelee: 100
+    tuMelee: 30
+
+
+## PDF POWER SWORD
+  - type: STR_POWER_SWORD_PDF
+#RESOURCES
+    bigSprite: 716
+    floorSprite: 536
+    handSprite: 2264
+
+    meleeAnimation: 28 #blue melee hit
+    meleeMissAnimation: 32 #blue melee miss
+
+    meleeSound: 39
+    meleeHitSound: 54
+#INFO
+    categories: [STR_CATEGORY_MELEE, STR_CATEGORY_POWER]
+    costSell: 60000
+    listOrder: 2450
+#SPECIFICATION
+    battleType: 3
+    size: 0.2
+    weight: 7
+    invWidth: 1
+    invHeight: 3
+    armor: 35
+#MELEE
+    clipSize: -1
+    power: 100
+    damageType: 7 #Melee
+    damageAlter:
+      RandomType: 2 #50-150%
+      ToArmor: 0.3
+      ToArmorPre: 0.3
+    accuracyMelee: 100
+    tuMelee: 30
+
+
+## FORCE STAFF (PSYKER FIXED WEAPON)
+  - type: STR_FORCE_STAFF_PDF
+#RESOURCES
+    bigSprite: 728
+    floorSprite: 548
+    handSprite: 2360
+
+    bulletSprite: 25 #Psionic lightning
+    bulletSpeed: 2
+    hitAnimation: 240 #Plasma hit
+    explosionSpeed: 2
+    meleeAnimation: 28 #blue melee hit
+    meleeMissAnimation: 32 #blue melee miss
+
+    fireSound: 18
+    hitSound: 19
+    meleeSound: 39
+    meleeHitSound: 54
+#SPECIFICATION
+    battleType: 1
+    weight: 8
+    invWidth: 2
+    invHeight: 3
+    fixedWeapon: true
+    fixedWeaponShow: true
+    defaultInventorySlot: STR_RIGHT_HAND
+    recover: false
+#SHOOTING
+    experienceTrainingMode: 26 #train psi skill
+    kneelBonus: 100
+
+    clipSize: -1
+    power: 0
+    damageType: 5 #Plasma
+
+    damageAlter:
+      RandomType: 2 #50-150%
+      ToArmor: 0.3
+      ToArmorPre: 0.3
+      ToTile: 0.5
+      FixRadius: 0
+
+    damageBonus:
+      psiStrength: 1.5
+
+    accuracyMultiplier:
+      firing: 0.0
+      psiSkill: 1.0
+
+    accuracySnap: 100
+    tuSnap: 60
+
+    confSnap:
+        name: STR_PSIONIC_LIGHTNING
+#MELEE
+    meleePower: 0
+    meleeType: 7 #Melee
+
+    meleeAlter:
+      RandomType: 2 #50-150%
+      ToArmor: 0.3
+      ToArmorPre: 0.3
+
+    meleeBonus:
+      psiStrength: 1.5
+
+    accuracyMelee: 100
+    tuMelee: 35
+
+
+
+
+
+
+
+
+## SERGEANT SKILL (MORALE BOOST)
+  - type: STR_SERGEANT_SKILL
+#RESOURCES
+    hitSound: 36
+    specialIconSprite: 2
+    #Animations for "Use" action
+    hitMissAnimation: 260
+    hitAnimation: 270 #Morale Boost animation
+    explosionSpeed: -7
+#SPECIFICATION
+    battleType: 9 #psi-amp
+    targetMatrix: 1 #can use only on friendlies
+    weight: 0
+    fixedWeapon: true
+    recover: false
+#USAGE
+    costUse:
+      time: 25
+    costPanic:
+      time: 0
+    costMindControl:
+      time: 0
+    accuracyUse: 100
+    psiAttackName: STR_SERGEANT_SKILL
+    maxRange: 10
+    damageType: 0
+    power: 0
+    damageBonus:
+      psiSkill: 1.0
+    damageAlter:
+      RandomType: 3
+      ToTime: 0.0
+      ToEnergy: 0.0
+      ToStun: 0.0
+      ToMorale: 0.0
+      ToHealth: 0.0
+      ToWound: 0.0
+    experienceTrainingMode: 32 #32 train nothing (alternative: 26 train psi skill)
+#SCRIPTING
+    tags:
+      MORALE_BOOSTER_ITEM: 1
+
+
+## OFFICER SKILL (TU BOOST)
+  - type: STR_OFFICER_SKILL
+#RESOURCES
+    hitSound: 36
+    specialIconSprite: 3
+    #Animations for "Use" action
+    hitMissAnimation: 260
+    hitAnimation: 280 #TU Boost animation
+    explosionSpeed: -7
+#SPECIFICATION
+    battleType: 9 #psi-amp
+    targetMatrix: 1 #can use only on friendlies
+    weight: 0
+    fixedWeapon: true
+    recover: false
+#USAGE
+    costUse:
+      time: 50
+    costPanic:
+      time: 0
+    costMindControl:
+      time: 0
+    accuracyUse: 100
+    psiAttackName: STR_OFFICER_SKILL
+    damageType: 0
+    power: 0
+    damageBonus:
+      psiSkill: 1.0
+    damageAlter:
+      RandomType: 3
+      ToTime: 0.0
+      ToEnergy: 0.0
+      ToStun: 0.0
+      ToMorale: 0.0
+      ToHealth: 0.0
+      ToWound: 0.0
+    experienceTrainingMode: 32 #32 train nothing (alternative: 26 train psi skill)
+#SCRIPTING
+    tags:
+      TU_BOOSTER_ITEM: 1
+
+## PSYKER SKILL (PSI-AMP)
+  - type: STR_PSYKER_SKILL
+#RESOURCES
+    hitSound: 36
+    specialIconSprite: 1 #Psyker skill icon
+    psiAnimation: 60
+#SPECIFICATION
+    battleType: 9 #psi-amp
+    weight: 0
+    fixedWeapon: true
+    recover: false
+#USAGE
+    costPanic:
+      time: 25
+    costMindControl:
+      time: 50
+    experienceTrainingMode: 32 #32 train nothing (alternative: 26 train psi skill)
+
+
+
+
+## BACKPACK SLOT ITEM
+  - type: STR_BACKPACK_SLOT
+#RESOURCES
+    bigSprite: 201
+#SPECIFICATION
+    battleType: 0
+    weight: 0
+    invWidth: 3
+    invHeight: 2
+    defaultInventorySlot: STR_BACK_PACK
+    fixedWeapon: true
+    recover: false
+
+
+## LEFT LEG SLOT ITEM
+  - type: STR_LEFT_LEG_SLOT
+#RESOURCES
+    bigSprite: 202
+#SPECIFICATION
+    battleType: 0
+    weight: 0
+    invWidth: 2
+    invHeight: 2
+    defaultInventorySlot: STR_LEFT_LEG
+    fixedWeapon: true
+    recover: false
+
+## RIGHT LEG SLOT ITEM
+  - type: STR_RIGHT_LEG_SLOT
+#RESOURCES
+    bigSprite: 203
+#SPECIFICATION
+    battleType: 0
+    weight: 0
+    invWidth: 2
+    invHeight: 2
+    defaultInventorySlot: STR_RIGHT_LEG
+    fixedWeapon: true
+    recover: false
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -85,21 +85,88 @@ extraSprites:
     subX: 3
     subY: 3
     files:
-      385: Resources/Projectiles/Pistol_Bullet.png            #11 (pistol bullet)
-      420: Resources/Projectiles/Assault_Rifle_Bullet.png     #12 (assault rifle bullet)
-      455: Resources/Projectiles/Rifle_Bullet.png             #13 (rifle bullet)
-      490: Resources/Projectiles/Cannon_Shell.png             #14 (autocannon shell)
-      525: Resources/Projectiles/Bolt.png                     #15 (.75 bolt)
-      560: Resources/Projectiles/Heavy_Bolt.png               #16 (.998 bolt)
-      595: Resources/Projectiles/40mm_Grenade.png             #17 (40mm grenade)
-#      630: Resources/Projectiles/     #18 (rocket-propelled missile)
-#      665: Resources/Projectiles/     #19 (regular laser beam)
-#      700: Resources/Projectiles/     #20 (hotshot laser beam)
-#      735: Resources/Projectiles/     #21 (plasma projectile)
-#      770: Resources/Projectiles/     #22 (heavy plasma projectile)
-#      805: Resources/Projectiles/     #23 (melta beam)
-#      840: Resources/Projectiles/     #24 (flamer napalm)
-#      875: Resources/Projectiles/     #25 (graviton beam)
+      385: Resources/Projectiles/11_Pistol_Bullet.png             #11 (Pistol bullet)
+      420: Resources/Projectiles/12_Rifle_Bullet.png              #12 (Rifle bullet)
+      455: Resources/Projectiles/13_Autocannon_Shell.png          #13 (Autocannon shell)
+      490: Resources/Projectiles/14_Grenade.png                   #14 (40mm grenade)
+      525: Resources/Projectiles/15_Missile.png                   #15 (Rocket-propelled missile)
+      560: Resources/Projectiles/16_Invisible_Projectile.png      #16 (Flamer, Melta, etc.)
+      595: Resources/Projectiles/17_Laser_Beam.png                #17 (Lasgun beam)
+      630: Resources/Projectiles/18_Hotshot_Laser_Beam.png        #18 (Hellgun beam)
+      665: Resources/Projectiles/19_Lascannon_Beam.png            #19 (Lascannon beam)
+      700: Resources/Projectiles/20_Bolter_Round.png              #20 (Bolter Round)
+      735: Resources/Projectiles/21_Heavy_Bolter_Round.png        #21 (Heavy Bolter Round)
+      770: Resources/Projectiles/22_Plasma_Bolt.png               #22 (Plasmagun projectile)
+      805: Resources/Projectiles/23_Heavy_Plasma_Bolt.png         #23 (Plasma Cannon projectile)
+      840: Resources/Projectiles/24_Webber_Projectile.png         #24 (Webber projectile)
+      875: Resources/Projectiles/25_Psionic_Lightning.png         #25 (Psionic lightning)
 #      910: Resources/Projectiles/     #26
 #      945: Resources/Projectiles/     #27
 #      980: Resources/Projectiles/     #28
+
+
+#PROJECTILE HIT ANIMATIONS (RANGE: 200 - ???)
+  - type: SMOKE.PCK
+    width: 320
+    height: 40
+    subX: 32
+    subY: 40
+    files:
+      200: Resources/Animations/Projectile_Hit/Bullet_Hit.png
+      210: Resources/Animations/Projectile_Hit/Heavy_Bullet_Hit.png
+      220: Resources/Animations/Projectile_Hit/Red_Laser_Hit.png
+      230: Resources/Animations/Projectile_Hit/Blue_Laser_Hit.png
+      240: Resources/Animations/Projectile_Hit/Plasma_Hit.png
+      250: Resources/Animations/Projectile_Hit/Melta_Hit.png
+      260: Resources/Animations/Stat_Boost_Hit/Stat_Boost_Miss.png
+      270: Resources/Animations/Stat_Boost_Hit/Morale_Boost_Hit.png
+      280: Resources/Animations/Stat_Boost_Hit/TU_Boost_Hit.png
+      290: Resources/Animations/Projectile_Hit/Webber_Hit.png
+
+
+#MELEE ANIMATIONS (RANGE: 4 - 56) AND PSIONIC ANIMATIONS (RANGE: 60 - ???)
+  - type: HIT.PCK
+    width: 128
+    height: 40
+    subX: 32
+    subY: 40
+    files:
+      4: Resources/Animations/Melee_Hit/Yellow_Melee_Hit.png
+      8: Resources/Animations/Melee_Hit/Yellow_Melee_Miss.png
+      12: Resources/Animations/Melee_Hit/Grey_Melee_Hit.png
+      16: Resources/Animations/Melee_Hit/Grey_Melee_Miss.png
+      20: Resources/Animations/Melee_Hit/Red_Melee_Hit.png
+      24: Resources/Animations/Melee_Hit/Red_Melee_Miss.png
+      28: Resources/Animations/Melee_Hit/Blue_Melee_Hit.png
+      32: Resources/Animations/Melee_Hit/Blue_Melee_Miss.png
+#      36: Resources/Animations/Melee_Hit/
+#      40: Resources/Animations/Melee_Hit/
+#      44: Resources/Animations/Melee_Hit/
+#      48: Resources/Animations/Melee_Hit/
+#      52: Resources/Animations/Melee_Hit/
+#      56: Resources/Animations/Melee_Hit/
+      60: Resources/Animations/Psi_Hit/Blue_Psi_Hit.png
+
+
+#EXPLOSION ANIMATIONS (RANGE: 8 - ???)
+  - type: X1.PCK
+    width: 1024
+    height: 64
+    subX: 128
+    subY: 64
+    files:
+      8: Resources/Animations/Explosion/Frag_Explosion_Small.png
+      16: Resources/Animations/Explosion/Frag_Explosion_Large.png
+      24: Resources/Animations/Explosion/Krak_Explosion_Small.png
+      32: Resources/Animations/Explosion/Krak_Explosion_Large.png
+      40: Resources/Animations/Explosion/Incendiary_Explosion_Small.png
+      48: Resources/Animations/Explosion/Incendiary_Explosion_Large.png
+      56: Resources/Animations/Explosion/Smoke_Explosion.png
+      64: Resources/Animations/Explosion/Fire_Extinguisher_Explosion.png
+      72: Resources/Animations/Explosion/Stun_Explosion.png
+      80: Resources/Animations/Explosion/Plasma_Explosion.png
+      88: Resources/Animations/Explosion/Melta_Explosion.png
+
+
+
+

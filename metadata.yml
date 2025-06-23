@@ -7,5 +7,6 @@ master: xcom1
 isMaster: true
 loadResources:
   - UFO
-reservedSpace: 2
+reservedSpace: 6
 requiredExtendedVersion: "7.5.3"
+resourceConfig: Ruleset/vars.rul

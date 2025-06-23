@@ -148,11 +148,68 @@ extraSprites:
     files:
       0: Resources/GUI/Battlescape/MotionScanner_Bits.png
 
+### SOLDIER RANK ICONS (RANGE: 100 - 199)
+  - type: SMOKE.PCK
+    files:
+      100: Resources/GUI/Battlescape/Ranks/SoldierRanks/SoldierRank0_Inv.png
+      101: Resources/GUI/Battlescape/Ranks/SoldierRanks/SoldierRank1_Inv.png
+      102: Resources/GUI/Battlescape/Ranks/SoldierRanks/SoldierRank2_Inv.png
+#     ...
+      110: Resources/GUI/Battlescape/Ranks/SergeantRanks/SergeantRank0_Inv.png
+      111: Resources/GUI/Battlescape/Ranks/SergeantRanks/SergeantRank1_Inv.png
+      112: Resources/GUI/Battlescape/Ranks/SergeantRanks/SergeantRank2_Inv.png
+      113: Resources/GUI/Battlescape/Ranks/SergeantRanks/SergeantRank3_Inv.png
+#     ...
+      120: Resources/GUI/Battlescape/Ranks/OfficerRanks/OfficerRank0_Inv.png
+      121: Resources/GUI/Battlescape/Ranks/OfficerRanks/OfficerRank1_Inv.png
+      122: Resources/GUI/Battlescape/Ranks/OfficerRanks/OfficerRank2_Inv.png
+      123: Resources/GUI/Battlescape/Ranks/OfficerRanks/OfficerRank3_Inv.png
+      124: Resources/GUI/Battlescape/Ranks/OfficerRanks/OfficerRank4_Inv.png
+      125: Resources/GUI/Battlescape/Ranks/OfficerRanks/OfficerRank5_Inv.png
+#     ...
+      130: Resources/GUI/Battlescape/Ranks/PsykerRanks/PsykerRank0_Inv.png
+
+
+  - type: TinyRanks
+    files:
+      0: Resources/GUI/Battlescape/TinyRanks/SoldierTinyRanks/SoldierTinyRank0.png
+      1: Resources/GUI/Battlescape/TinyRanks/SoldierTinyRanks/SoldierTinyRank1.png
+      2: Resources/GUI/Battlescape/TinyRanks/SoldierTinyRanks/SoldierTinyRank2.png
+#     ...
+      10: Resources/GUI/Battlescape/TinyRanks/SergeantTinyRanks/SergeantTinyRank0.png
+      11: Resources/GUI/Battlescape/TinyRanks/SergeantTinyRanks/SergeantTinyRank1.png
+      12: Resources/GUI/Battlescape/TinyRanks/SergeantTinyRanks/SergeantTinyRank2.png
+      13: Resources/GUI/Battlescape/TinyRanks/SergeantTinyRanks/SergeantTinyRank3.png
+#     ...
+      20: Resources/GUI/Battlescape/TinyRanks/OfficerTinyRanks/OfficerTinyRank0.png
+      21: Resources/GUI/Battlescape/TinyRanks/OfficerTinyRanks/OfficerTinyRank1.png
+      22: Resources/GUI/Battlescape/TinyRanks/OfficerTinyRanks/OfficerTinyRank2.png
+      23: Resources/GUI/Battlescape/TinyRanks/OfficerTinyRanks/OfficerTinyRank3.png
+      24: Resources/GUI/Battlescape/TinyRanks/OfficerTinyRanks/OfficerTinyRank4.png
+      25: Resources/GUI/Battlescape/TinyRanks/OfficerTinyRanks/OfficerTinyRank5.png
+#     ...
+      30: Resources/GUI/Battlescape/TinyRanks/PsykerTinyRanks/PsykerTinyRank0.png
+
+  - type: CURSOR.PCK
+    width: 544
+    height: 40
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/GUI/Battlescape/Battlescape_Cursor.png
 
 
 
-
-
+### SPECIAL ABILITY ICONS
+  - type: SPICONS.DAT
+    width: 32
+    height: 24
+    files:
+      0: Resources/GUI/Battlescape/Special_Icons/Rocket_Skill_Icon.png
+      1: Resources/GUI/Battlescape/Special_Icons/Psyker_Skill_Icon.png
+      2: Resources/GUI/Battlescape/Special_Icons/Sergeant_Skill_Icon.png
+      3: Resources/GUI/Battlescape/Special_Icons/Officer_Skill_Icon.png
+      4: Resources/GUI/Battlescape/Special_Icons/Chaos_Psyker_Skill_Icon.png
 
 
 

@@ -14,13 +14,13 @@ items:
 
 
 #Replacement for STR_ELERIUM_115
-#We do not have any special fuel component in this mod, so there is no need in such item.
-#It's spawns under the power source tiles anyways. It's just a junk for now. Useless item, hidden on minimap, and not recoverable.
+#There is no special fuel component in this mod, so there is no need in such item.
+#It spawns under the power source tiles anyways. It's just a junk for now. Useless item, hidden on minimap, and not recoverable.
 
   - type: STR_JUNK
 #RESOURCES
-    bigSprite: 201 #(invisible item)
-    floorSprite: 201 #(invisible item)
+    bigSprite: 200 #(invisible item)
+    floorSprite: 200 #(invisible item)
     handSprite: 88 #(empty hand)
 #INFO
     listOrder: 40000

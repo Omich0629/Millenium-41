@@ -1,0 +1,349 @@
+extended:
+  tags:
+    RuleSoldier:
+      MORALE_BOOST_POSSIBLE: int
+      TU_BOOST_POSSIBLE: int
+
+soldiers:
+
+#Playable units
+#Planetary Defence Forces (PDF)
+
+#Basic Soldier type
+  - type: STR_PDF_SOLDIER
+    costBuy: 40000
+    costSalary: 20000
+
+    minStats:
+      tu: 50
+      stamina: 40
+      health: 25
+      bravery: 10
+      reactions: 30
+      firing: 40
+      throwing: 50
+      strength: 30
+      psiStrength: 0
+      psiSkill: 20
+      melee: 20
+
+    maxStats:
+      tu: 60
+      stamina: 70
+      health: 40
+      bravery: 60
+      reactions: 60
+      firing: 70
+      throwing: 80
+      strength: 50
+      psiStrength: 100
+      psiSkill: 30
+      melee: 40
+
+    statCaps:
+      tu: 80
+      stamina: 100
+      health: 60
+      bravery: 100
+      reactions: 100
+      firing: 120
+      throwing: 120
+      strength: 80
+      psiStrength: 100
+      psiSkill: 100
+      melee: 120
+
+    trainingStatCaps:
+      tu: 80
+      stamina: 100
+      health: 60
+      firing: 120
+      throwing: 120
+      strength: 80
+      melee: 120
+      psiStrength: 100
+      psiSkill: 100
+
+    armor: STR_PDF_SOLDIER_UNIFORM
+    armorForAvatar: STR_PDF_SOLDIER_UNIFORM
+
+    allowPiloting: false
+    allowPromotion: true
+    standHeight: 22
+    kneelHeight: 14
+    femaleFrequency: 50
+    avatarOffsetX: 66
+    avatarOffsetY: 26
+    soldierNames:
+      - delete
+      - Names/Human_Names/
+    deathMale: [41, 42, 43]
+    deathFemale: [44, 45, 46]
+    rankSprite: 500 #rank sprite in basescape
+    rankBattleSprite: 100 #rank sprite in inventory
+    rankTinySprite: 0 #Tiny rank sprite in battlescape
+    rankStrings:
+      - STR_SOLDIER_RANK0 #recruit
+      - STR_SOLDIER_RANK1 #private
+      - STR_SOLDIER_RANK2 #corporal
+    value: 20
+#SCRIPTING
+    tags:
+      MORALE_BOOST_POSSIBLE: 1
+      TU_BOOST_POSSIBLE: 1
+
+
+
+
+
+#Squad leaders with morale boost ability
+  - type: STR_PDF_SERGEANT
+    costBuy: 40000
+    costSalary: 20000
+
+    minStats:
+      tu: 50
+      stamina: 40
+      health: 25
+      bravery: 10
+      reactions: 30
+      firing: 40
+      throwing: 50
+      strength: 30
+      psiStrength: 0
+      psiSkill: 30
+      melee: 20
+
+    maxStats:
+      tu: 60
+      stamina: 70
+      health: 40
+      bravery: 60
+      reactions: 60
+      firing: 70
+      throwing: 80
+      strength: 50
+      psiStrength: 100
+      psiSkill: 30
+      melee: 40
+
+    statCaps:
+      tu: 80
+      stamina: 100
+      health: 60
+      bravery: 100
+      reactions: 100
+      firing: 120
+      throwing: 120
+      strength: 80
+      psiStrength: 100
+      psiSkill: 100
+      melee: 120
+
+    trainingStatCaps:
+      tu: 80
+      stamina: 100
+      health: 60
+      firing: 120
+      throwing: 120
+      strength: 80
+      melee: 120
+      psiStrength: 100
+      psiSkill: 100
+
+    armor: STR_PDF_SERGEANT_UNIFORM
+    armorForAvatar: STR_PDF_SOLDIER_UNIFORM
+
+    specialWeapon: STR_SERGEANT_SKILL
+
+    allowPiloting: false
+    allowPromotion: true
+    standHeight: 22
+    kneelHeight: 14
+    femaleFrequency: 50
+    avatarOffsetX: 66
+    avatarOffsetY: 26
+    soldierNames:
+      - delete
+      - Names/Human_Names/
+    deathMale: [41, 42, 43]
+    deathFemale: [44, 45, 46]
+    rankSprite: 503 #rank sprite in basescape
+    rankBattleSprite: 110 #rank sprite in inventory
+    rankTinySprite: 10 #Tiny rank sprite in battlescape
+    rankStrings:
+      - STR_SERGEANT_RANK0 #sergeant
+      - STR_SERGEANT_RANK1 #sergeant
+      - STR_SERGEANT_RANK2 #sergeant
+      - STR_SERGEANT_RANK3 #senior sergeant
+    value: 20
+#SCRIPTING
+    tags:
+      MORALE_BOOST_POSSIBLE: 1
+      TU_BOOST_POSSIBLE: 1
+
+
+
+#Rear commanders with TU boost ability
+  - type: STR_PDF_OFFICER
+    costBuy: 40000
+    costSalary: 20000
+
+    minStats:
+      tu: 50
+      stamina: 40
+      health: 25
+      bravery: 10
+      reactions: 30
+      firing: 40
+      throwing: 50
+      strength: 30
+      psiStrength: 0
+      psiSkill: 50
+      melee: 20
+
+    maxStats:
+      tu: 60
+      stamina: 70
+      health: 40
+      bravery: 60
+      reactions: 60
+      firing: 70
+      throwing: 80
+      strength: 50
+      psiStrength: 100
+      psiSkill: 50
+      melee: 40
+
+    statCaps:
+      tu: 80
+      stamina: 100
+      health: 60
+      bravery: 100
+      reactions: 100
+      firing: 120
+      throwing: 120
+      strength: 80
+      psiStrength: 100
+      psiSkill: 100
+      melee: 120
+
+    trainingStatCaps:
+      tu: 80
+      stamina: 100
+      health: 60
+      firing: 120
+      throwing: 120
+      strength: 80
+      melee: 120
+      psiStrength: 100
+      psiSkill: 100
+
+    armor: STR_PDF_OFFICER_UNIFORM
+    armorForAvatar: STR_PDF_SOLDIER_UNIFORM
+
+    specialWeapon: STR_OFFICER_SKILL
+
+    allowPiloting: false
+    allowPromotion: true
+    standHeight: 22
+    kneelHeight: 14
+    femaleFrequency: 50
+    avatarOffsetX: 66
+    avatarOffsetY: 26
+    soldierNames:
+      - delete
+      - Names/Human_Names/
+    deathMale: [41, 42, 43]
+    deathFemale: [44, 45, 46]
+    rankSprite: 507 #rank sprite in basescape
+    rankBattleSprite: 120 #rank sprite in inventory
+    rankTinySprite: 20 #Tiny rank sprite in battlescape
+    rankStrings:
+      - STR_OFFICER_RANK0 #lieutenant
+      - STR_OFFICER_RANK1 #lieutenant
+      - STR_OFFICER_RANK2 #lieutenant
+      - STR_OFFICER_RANK3 #lieutenant
+      - STR_OFFICER_RANK4 #captain
+      - STR_OFFICER_RANK5 #major
+    value: 20
+
+
+#Support psionic units with panic and mind control abilities.
+  - type: STR_PDF_PSYKER
+    costBuy: 40000
+    costSalary: 20000
+
+    minStats:
+      tu: 50
+      stamina: 40
+      health: 25
+      bravery: 10
+      reactions: 30
+      firing: 40
+      throwing: 50
+      strength: 30
+      psiStrength: 70
+      psiSkill: 50
+      melee: 20
+
+    maxStats:
+      tu: 60
+      stamina: 70
+      health: 40
+      bravery: 60
+      reactions: 60
+      firing: 70
+      throwing: 80
+      strength: 40
+      psiStrength: 100
+      psiSkill: 50
+      melee: 40
+
+    statCaps:
+      tu: 80
+      stamina: 100
+      health: 60
+      bravery: 100
+      reactions: 100
+      firing: 120
+      throwing: 120
+      strength: 60
+      psiStrength: 100
+      psiSkill: 100
+      melee: 120
+
+    trainingStatCaps:
+      tu: 80
+      stamina: 100
+      health: 60
+      firing: 120
+      throwing: 120
+      strength: 80
+      melee: 120
+      psiStrength: 100
+      psiSkill: 100
+
+    armor: STR_PDF_PSYKER_UNIFORM
+    armorForAvatar: STR_PDF_PSYKER_UNIFORM
+
+
+
+    allowPiloting: false
+    allowPromotion: false
+    standHeight: 22
+    kneelHeight: 14
+    femaleFrequency: 50
+    avatarOffsetX: 66
+    avatarOffsetY: 26
+    soldierNames:
+      - delete
+      - Names/Human_Names/
+    deathMale: [41, 42, 43]
+    deathFemale: [44, 45, 46]
+    rankSprite: 513 #rank sprite in basescape
+    rankBattleSprite: 130 #rank sprite in inventory
+    rankTinySprite: 30 #Tiny rank sprite in battlescape
+    rankStrings:
+      - STR_PSYKER_RANK0 #psyker
+    value: 10
