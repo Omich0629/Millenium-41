@@ -1,0 +1,140 @@
+armors:
+
+#KHORNE CULTIST ARMOR (MALE)
+  - type: STR_KHORNE_CULTIST_ARMOR_MALE
+#GENERAL
+    drawingRoutine: 0 #x-com soldier
+    spriteSheet: KHORNE_CULTIST_ARMOR.PCK
+    spriteInv: KHORNE_CULTIST_ARMOR_MALE
+    corpseBattle:
+      - STR_CORPSE_KHORNE_CULTIST
+    loftempsSet: [ 3 ]
+    allowsKneeling: true
+    weight: 10
+
+#PROTECTION
+    frontArmor: 30
+    sideArmor: 25
+    rearArmor: 20
+    underArmor: 20
+    damageModifier:
+      - 1.0 #None
+      - 1.0 #Armor Piercing
+      - 1.0 #Incendiary
+      - 1.0 #High Explosive
+      - 1.0 #Laser
+      - 1.0 #Plasma
+      - 1.0 #Stun
+      - 1.0 #Melee
+      - 1.0 #Acid
+      - 0.0 #Smoke
+      - 1.0 #Melta
+
+
+#KHORNE CULTIST ARMOR (FEMALE)
+  - type: STR_KHORNE_CULTIST_ARMOR_FEMALE
+#GENERAL
+    drawingRoutine: 0 #x-com soldier
+    spriteSheet: KHORNE_CULTIST_ARMOR.PCK
+    spriteInv: KHORNE_CULTIST_ARMOR_FEMALE
+    corpseBattle:
+      - STR_CORPSE_KHORNE_CULTIST
+    loftempsSet: [ 3 ]
+    allowsKneeling: true
+    weight: 10
+
+#PROTECTION
+    frontArmor: 30
+    sideArmor: 25
+    rearArmor: 20
+    underArmor: 20
+    damageModifier:
+      - 1.0 #None
+      - 1.0 #Armor Piercing
+      - 1.0 #Incendiary
+      - 1.0 #High Explosive
+      - 1.0 #Laser
+      - 1.0 #Plasma
+      - 1.0 #Stun
+      - 1.0 #Melee
+      - 1.0 #Acid
+      - 0.0 #Smoke
+      - 1.0 #Melta
+
+
+
+#KHORNE CULTIST LEADER ARMOR (MALE)
+  - type: STR_KHORNE_CULTIST_LEADER_ARMOR_MALE
+#GENERAL
+    drawingRoutine: 0 #x-com soldier
+    spriteSheet: KHORNE_CULTIST_LEADER_ARMOR.PCK
+    spriteInv: KHORNE_CULTIST_LEADER_ARMOR_MALE
+    corpseBattle:
+      - STR_CORPSE_KHORNE_CULTIST_LEADER
+    loftempsSet: [ 3 ]
+    allowsKneeling: true
+    weight: 10
+
+#PROTECTION
+    frontArmor: 30
+    sideArmor: 25
+    rearArmor: 20
+    underArmor: 20
+    damageModifier:
+      - 1.0 #None
+      - 1.0 #Armor Piercing
+      - 1.0 #Incendiary
+      - 1.0 #High Explosive
+      - 1.0 #Laser
+      - 1.0 #Plasma
+      - 1.0 #Stun
+      - 1.0 #Melee
+      - 1.0 #Acid
+      - 0.0 #Smoke
+      - 1.0 #Melta
+
+
+#KHORNE CULTIST LEADER ARMOR (FEMALE)
+  - type: STR_KHORNE_CULTIST_LEADER_ARMOR_FEMALE
+#GENERAL
+    drawingRoutine: 0 #x-com soldier
+    spriteSheet: KHORNE_CULTIST_LEADER_ARMOR.PCK
+    spriteInv: KHORNE_CULTIST_LEADER_ARMOR_FEMALE
+    corpseBattle:
+      - STR_CORPSE_KHORNE_CULTIST_LEADER
+    loftempsSet: [ 3 ]
+    allowsKneeling: true
+    weight: 10
+
+#PROTECTION
+    frontArmor: 30
+    sideArmor: 25
+    rearArmor: 20
+    underArmor: 20
+    damageModifier:
+      - 1.0 #None
+      - 1.0 #Armor Piercing
+      - 1.0 #Incendiary
+      - 1.0 #High Explosive
+      - 1.0 #Laser
+      - 1.0 #Plasma
+      - 1.0 #Stun
+      - 1.0 #Melee
+      - 1.0 #Acid
+      - 0.0 #Smoke
+      - 1.0 #Melta
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,764 @@
+units:
+
+#CIVILIAN_00 MALE
+  - type: STR_CIVILIAN_00_MALE
+    race: STR_CIVILIAN
+    stats:
+      tu: 35
+      stamina: 65
+      health: 30
+      bravery: 80
+      reactions: 30
+      firing: 30
+      throwing: 50
+      strength: 20
+      psiStrength: 5
+      psiSkill: 20
+      melee: 50
+    armor: STR_CIVILIAN_00_ARMOR_MALE
+    standHeight: 21
+    kneelHeight: 14
+    value: 30
+    deathSound: [41, 42, 43] #human male
+    intelligence: 4
+    energyRecovery: 20
+
+#CIVILIAN_00 FEMALE
+  - type: STR_CIVILIAN_00_FEMALE
+    race: STR_CIVILIAN
+    stats:
+      tu: 35
+      stamina: 65
+      health: 30
+      bravery: 80
+      reactions: 30
+      firing: 30
+      throwing: 50
+      strength: 20
+      psiStrength: 5
+      psiSkill: 20
+      melee: 50
+    armor: STR_CIVILIAN_00_ARMOR_FEMALE
+    standHeight: 21
+    kneelHeight: 14
+    value: 30
+    deathSound: [44, 45, 46] #human female
+    intelligence: 4
+    energyRecovery: 20
+
+
+#CIVILIAN_01 MALE
+  - type: STR_CIVILIAN_01_MALE
+    race: STR_CIVILIAN
+    stats:
+      tu: 35
+      stamina: 65
+      health: 30
+      bravery: 80
+      reactions: 30
+      firing: 30
+      throwing: 50
+      strength: 20
+      psiStrength: 5
+      psiSkill: 20
+      melee: 50
+    armor: STR_CIVILIAN_01_ARMOR_MALE
+    standHeight: 21
+    kneelHeight: 14
+    value: 30
+    deathSound: [41, 42, 43] #human male
+    intelligence: 4
+    energyRecovery: 20
+
+#CIVILIAN_01 FEMALE
+  - type: STR_CIVILIAN_01_FEMALE
+    race: STR_CIVILIAN
+    stats:
+      tu: 35
+      stamina: 65
+      health: 30
+      bravery: 80
+      reactions: 30
+      firing: 30
+      throwing: 50
+      strength: 20
+      psiStrength: 5
+      psiSkill: 20
+      melee: 50
+    armor: STR_CIVILIAN_01_ARMOR_FEMALE
+    standHeight: 21
+    kneelHeight: 14
+    value: 30
+    deathSound: [44, 45, 46] #human female
+    intelligence: 4
+    energyRecovery: 20
+
+
+#CIVILIAN_02 MALE
+  - type: STR_CIVILIAN_02_MALE
+    race: STR_CIVILIAN
+    stats:
+      tu: 35
+      stamina: 65
+      health: 30
+      bravery: 80
+      reactions: 30
+      firing: 30
+      throwing: 50
+      strength: 20
+      psiStrength: 5
+      psiSkill: 20
+      melee: 50
+    armor: STR_CIVILIAN_02_ARMOR_MALE
+    standHeight: 21
+    kneelHeight: 14
+    value: 30
+    deathSound: [41, 42, 43] #human male
+    intelligence: 4
+    energyRecovery: 20
+
+#CIVILIAN_02 FEMALE
+  - type: STR_CIVILIAN_02_FEMALE
+    race: STR_CIVILIAN
+    stats:
+      tu: 35
+      stamina: 65
+      health: 30
+      bravery: 80
+      reactions: 30
+      firing: 30
+      throwing: 50
+      strength: 20
+      psiStrength: 5
+      psiSkill: 20
+      melee: 50
+    armor: STR_CIVILIAN_02_ARMOR_FEMALE
+    standHeight: 21
+    kneelHeight: 14
+    value: 30
+    deathSound: [44, 45, 46] #human female
+    intelligence: 4
+    energyRecovery: 20
+
+
+#CIVILIAN_03 MALE
+  - type: STR_CIVILIAN_03_MALE
+    race: STR_CIVILIAN
+    stats:
+      tu: 35
+      stamina: 65
+      health: 30
+      bravery: 80
+      reactions: 30
+      firing: 30
+      throwing: 50
+      strength: 20
+      psiStrength: 5
+      psiSkill: 20
+      melee: 50
+    armor: STR_CIVILIAN_03_ARMOR_MALE
+    standHeight: 21
+    kneelHeight: 14
+    value: 30
+    deathSound: [41, 42, 43] #human male
+    intelligence: 4
+    energyRecovery: 20
+
+#CIVILIAN_03 FEMALE
+  - type: STR_CIVILIAN_03_FEMALE
+    race: STR_CIVILIAN
+    stats:
+      tu: 35
+      stamina: 65
+      health: 30
+      bravery: 80
+      reactions: 30
+      firing: 30
+      throwing: 50
+      strength: 20
+      psiStrength: 5
+      psiSkill: 20
+      melee: 50
+    armor: STR_CIVILIAN_03_ARMOR_FEMALE
+    standHeight: 21
+    kneelHeight: 14
+    value: 30
+    deathSound: [44, 45, 46] #human female
+    intelligence: 4
+    energyRecovery: 20
+
+
+#CIVILIAN_04 MALE
+  - type: STR_CIVILIAN_04_MALE
+    race: STR_CIVILIAN
+    stats:
+      tu: 35
+      stamina: 65
+      health: 30
+      bravery: 80
+      reactions: 30
+      firing: 30
+      throwing: 50
+      strength: 20
+      psiStrength: 5
+      psiSkill: 20
+      melee: 50
+    armor: STR_CIVILIAN_04_ARMOR_MALE
+    standHeight: 21
+    kneelHeight: 14
+    value: 30
+    deathSound: [41, 42, 43] #human male
+    intelligence: 4
+    energyRecovery: 20
+
+#CIVILIAN_04 FEMALE
+  - type: STR_CIVILIAN_04_FEMALE
+    race: STR_CIVILIAN
+    stats:
+      tu: 35
+      stamina: 65
+      health: 30
+      bravery: 80
+      reactions: 30
+      firing: 30
+      throwing: 50
+      strength: 20
+      psiStrength: 5
+      psiSkill: 20
+      melee: 50
+    armor: STR_CIVILIAN_04_ARMOR_FEMALE
+    standHeight: 21
+    kneelHeight: 14
+    value: 30
+    deathSound: [44, 45, 46] #human female
+    intelligence: 4
+    energyRecovery: 20
+
+
+#CIVILIAN_05 MALE
+  - type: STR_CIVILIAN_05_MALE
+    race: STR_CIVILIAN
+    stats:
+      tu: 35
+      stamina: 65
+      health: 30
+      bravery: 80
+      reactions: 30
+      firing: 30
+      throwing: 50
+      strength: 20
+      psiStrength: 5
+      psiSkill: 20
+      melee: 50
+    armor: STR_CIVILIAN_05_ARMOR_MALE
+    standHeight: 21
+    kneelHeight: 14
+    value: 30
+    deathSound: [41, 42, 43] #human male
+    intelligence: 4
+    energyRecovery: 20
+
+#CIVILIAN_05 FEMALE
+  - type: STR_CIVILIAN_05_FEMALE
+    race: STR_CIVILIAN
+    stats:
+      tu: 35
+      stamina: 65
+      health: 30
+      bravery: 80
+      reactions: 30
+      firing: 30
+      throwing: 50
+      strength: 20
+      psiStrength: 5
+      psiSkill: 20
+      melee: 50
+    armor: STR_CIVILIAN_05_ARMOR_FEMALE
+    standHeight: 21
+    kneelHeight: 14
+    value: 30
+    deathSound: [44, 45, 46] #human female
+    intelligence: 4
+    energyRecovery: 20
+
+
+#CIVILIAN_06 MALE
+  - type: STR_CIVILIAN_06_MALE
+    race: STR_CIVILIAN
+    stats:
+      tu: 35
+      stamina: 65
+      health: 30
+      bravery: 80
+      reactions: 30
+      firing: 30
+      throwing: 50
+      strength: 20
+      psiStrength: 5
+      psiSkill: 20
+      melee: 50
+    armor: STR_CIVILIAN_06_ARMOR_MALE
+    standHeight: 21
+    kneelHeight: 14
+    value: 30
+    deathSound: [41, 42, 43] #human male
+    intelligence: 4
+    energyRecovery: 20
+
+#CIVILIAN_06 FEMALE
+  - type: STR_CIVILIAN_06_FEMALE
+    race: STR_CIVILIAN
+    stats:
+      tu: 35
+      stamina: 65
+      health: 30
+      bravery: 80
+      reactions: 30
+      firing: 30
+      throwing: 50
+      strength: 20
+      psiStrength: 5
+      psiSkill: 20
+      melee: 50
+    armor: STR_CIVILIAN_06_ARMOR_FEMALE
+    standHeight: 21
+    kneelHeight: 14
+    value: 30
+    deathSound: [44, 45, 46] #human female
+    intelligence: 4
+    energyRecovery: 20
+
+
+#CIVILIAN_07 MALE
+  - type: STR_CIVILIAN_07_MALE
+    race: STR_CIVILIAN
+    stats:
+      tu: 35
+      stamina: 65
+      health: 30
+      bravery: 80
+      reactions: 30
+      firing: 30
+      throwing: 50
+      strength: 20
+      psiStrength: 5
+      psiSkill: 20
+      melee: 50
+    armor: STR_CIVILIAN_07_ARMOR_MALE
+    standHeight: 21
+    kneelHeight: 14
+    value: 30
+    deathSound: [41, 42, 43] #human male
+    intelligence: 4
+    energyRecovery: 20
+
+#CIVILIAN_07 FEMALE
+  - type: STR_CIVILIAN_07_FEMALE
+    race: STR_CIVILIAN
+    stats:
+      tu: 35
+      stamina: 65
+      health: 30
+      bravery: 80
+      reactions: 30
+      firing: 30
+      throwing: 50
+      strength: 20
+      psiStrength: 5
+      psiSkill: 20
+      melee: 50
+    armor: STR_CIVILIAN_07_ARMOR_FEMALE
+    standHeight: 21
+    kneelHeight: 14
+    value: 30
+    deathSound: [44, 45, 46] #human female
+    intelligence: 4
+    energyRecovery: 20
+
+
+#CIVILIAN_08 MALE
+  - type: STR_CIVILIAN_08_MALE
+    race: STR_CIVILIAN
+    stats:
+      tu: 35
+      stamina: 65
+      health: 30
+      bravery: 80
+      reactions: 30
+      firing: 30
+      throwing: 50
+      strength: 20
+      psiStrength: 5
+      psiSkill: 20
+      melee: 50
+    armor: STR_CIVILIAN_08_ARMOR_MALE
+    standHeight: 21
+    kneelHeight: 14
+    value: 30
+    deathSound: [41, 42, 43] #human male
+    intelligence: 4
+    energyRecovery: 20
+
+#CIVILIAN_08 FEMALE
+  - type: STR_CIVILIAN_08_FEMALE
+    race: STR_CIVILIAN
+    stats:
+      tu: 35
+      stamina: 65
+      health: 30
+      bravery: 80
+      reactions: 30
+      firing: 30
+      throwing: 50
+      strength: 20
+      psiStrength: 5
+      psiSkill: 20
+      melee: 50
+    armor: STR_CIVILIAN_08_ARMOR_FEMALE
+    standHeight: 21
+    kneelHeight: 14
+    value: 30
+    deathSound: [44, 45, 46] #human female
+    intelligence: 4
+    energyRecovery: 20
+
+
+#CIVILIAN_09 MALE
+  - type: STR_CIVILIAN_09_MALE
+    race: STR_CIVILIAN
+    stats:
+      tu: 35
+      stamina: 65
+      health: 30
+      bravery: 80
+      reactions: 30
+      firing: 30
+      throwing: 50
+      strength: 20
+      psiStrength: 5
+      psiSkill: 20
+      melee: 50
+    armor: STR_CIVILIAN_09_ARMOR_MALE
+    standHeight: 21
+    kneelHeight: 14
+    value: 30
+    deathSound: [41, 42, 43] #human male
+    intelligence: 4
+    energyRecovery: 20
+
+#CIVILIAN_09 FEMALE
+  - type: STR_CIVILIAN_09_FEMALE
+    race: STR_CIVILIAN
+    stats:
+      tu: 35
+      stamina: 65
+      health: 30
+      bravery: 80
+      reactions: 30
+      firing: 30
+      throwing: 50
+      strength: 20
+      psiStrength: 5
+      psiSkill: 20
+      melee: 50
+    armor: STR_CIVILIAN_09_ARMOR_FEMALE
+    standHeight: 21
+    kneelHeight: 14
+    value: 30
+    deathSound: [44, 45, 46] #human female
+    intelligence: 4
+    energyRecovery: 20
+
+
+#CIVILIAN_10 MALE
+  - type: STR_CIVILIAN_10_MALE
+    race: STR_CIVILIAN
+    stats:
+      tu: 35
+      stamina: 65
+      health: 30
+      bravery: 80
+      reactions: 30
+      firing: 30
+      throwing: 50
+      strength: 20
+      psiStrength: 5
+      psiSkill: 20
+      melee: 50
+    armor: STR_CIVILIAN_10_ARMOR_MALE
+    standHeight: 21
+    kneelHeight: 14
+    value: 30
+    deathSound: [41, 42, 43] #human male
+    intelligence: 4
+    energyRecovery: 20
+
+#CIVILIAN_10 FEMALE
+  - type: STR_CIVILIAN_10_FEMALE
+    race: STR_CIVILIAN
+    stats:
+      tu: 35
+      stamina: 65
+      health: 30
+      bravery: 80
+      reactions: 30
+      firing: 30
+      throwing: 50
+      strength: 20
+      psiStrength: 5
+      psiSkill: 20
+      melee: 50
+    armor: STR_CIVILIAN_10_ARMOR_FEMALE
+    standHeight: 21
+    kneelHeight: 14
+    value: 30
+    deathSound: [44, 45, 46] #human female
+    intelligence: 4
+    energyRecovery: 20
+
+
+#CIVILIAN_11 MALE
+  - type: STR_CIVILIAN_11_MALE
+    race: STR_CIVILIAN
+    stats:
+      tu: 35
+      stamina: 65
+      health: 30
+      bravery: 80
+      reactions: 30
+      firing: 30
+      throwing: 50
+      strength: 20
+      psiStrength: 5
+      psiSkill: 20
+      melee: 50
+    armor: STR_CIVILIAN_11_ARMOR_MALE
+    standHeight: 21
+    kneelHeight: 14
+    value: 30
+    deathSound: [41, 42, 43] #human male
+    intelligence: 4
+    energyRecovery: 20
+
+#CIVILIAN_11 FEMALE
+  - type: STR_CIVILIAN_11_FEMALE
+    race: STR_CIVILIAN
+    stats:
+      tu: 35
+      stamina: 65
+      health: 30
+      bravery: 80
+      reactions: 30
+      firing: 30
+      throwing: 50
+      strength: 20
+      psiStrength: 5
+      psiSkill: 20
+      melee: 50
+    armor: STR_CIVILIAN_11_ARMOR_FEMALE
+    standHeight: 21
+    kneelHeight: 14
+    value: 30
+    deathSound: [44, 45, 46] #human female
+    intelligence: 4
+    energyRecovery: 20
+
+
+#CIVILIAN_12 MALE
+  - type: STR_CIVILIAN_12_MALE
+    race: STR_CIVILIAN
+    stats:
+      tu: 35
+      stamina: 65
+      health: 30
+      bravery: 80
+      reactions: 30
+      firing: 30
+      throwing: 50
+      strength: 20
+      psiStrength: 5
+      psiSkill: 20
+      melee: 50
+    armor: STR_CIVILIAN_12_ARMOR_MALE
+    standHeight: 21
+    kneelHeight: 14
+    value: 30
+    deathSound: [41, 42, 43] #human male
+    intelligence: 4
+    energyRecovery: 20
+
+#CIVILIAN_12 FEMALE
+  - type: STR_CIVILIAN_12_FEMALE
+    race: STR_CIVILIAN
+    stats:
+      tu: 35
+      stamina: 65
+      health: 30
+      bravery: 80
+      reactions: 30
+      firing: 30
+      throwing: 50
+      strength: 20
+      psiStrength: 5
+      psiSkill: 20
+      melee: 50
+    armor: STR_CIVILIAN_12_ARMOR_FEMALE
+    standHeight: 21
+    kneelHeight: 14
+    value: 30
+    deathSound: [44, 45, 46] #human female
+    intelligence: 4
+    energyRecovery: 20
+
+
+#CIVILIAN_13 MALE
+  - type: STR_CIVILIAN_13_MALE
+    race: STR_CIVILIAN
+    stats:
+      tu: 35
+      stamina: 65
+      health: 30
+      bravery: 80
+      reactions: 30
+      firing: 30
+      throwing: 50
+      strength: 20
+      psiStrength: 5
+      psiSkill: 20
+      melee: 50
+    armor: STR_CIVILIAN_13_ARMOR_MALE
+    standHeight: 21
+    kneelHeight: 14
+    value: 30
+    deathSound: [41, 42, 43] #human male
+    intelligence: 4
+    energyRecovery: 20
+
+#CIVILIAN_13 FEMALE
+  - type: STR_CIVILIAN_13_FEMALE
+    race: STR_CIVILIAN
+    stats:
+      tu: 35
+      stamina: 65
+      health: 30
+      bravery: 80
+      reactions: 30
+      firing: 30
+      throwing: 50
+      strength: 20
+      psiStrength: 5
+      psiSkill: 20
+      melee: 50
+    armor: STR_CIVILIAN_13_ARMOR_FEMALE
+    standHeight: 21
+    kneelHeight: 14
+    value: 30
+    deathSound: [44, 45, 46] #human female
+    intelligence: 4
+    energyRecovery: 20
+
+
+#CIVILIAN_14 MALE
+  - type: STR_CIVILIAN_14_MALE
+    race: STR_CIVILIAN
+    stats:
+      tu: 35
+      stamina: 65
+      health: 30
+      bravery: 80
+      reactions: 30
+      firing: 30
+      throwing: 50
+      strength: 20
+      psiStrength: 5
+      psiSkill: 20
+      melee: 50
+    armor: STR_CIVILIAN_14_ARMOR_MALE
+    standHeight: 21
+    kneelHeight: 14
+    value: 30
+    deathSound: [41, 42, 43] #human male
+    intelligence: 4
+    energyRecovery: 20
+
+#CIVILIAN_14 FEMALE
+  - type: STR_CIVILIAN_14_FEMALE
+    race: STR_CIVILIAN
+    stats:
+      tu: 35
+      stamina: 65
+      health: 30
+      bravery: 80
+      reactions: 30
+      firing: 30
+      throwing: 50
+      strength: 20
+      psiStrength: 5
+      psiSkill: 20
+      melee: 50
+    armor: STR_CIVILIAN_14_ARMOR_FEMALE
+    standHeight: 21
+    kneelHeight: 14
+    value: 30
+    deathSound: [44, 45, 46] #human female
+    intelligence: 4
+    energyRecovery: 20
+
+
+#CIVILIAN_15 MALE
+  - type: STR_CIVILIAN_15_MALE
+    race: STR_CIVILIAN
+    stats:
+      tu: 35
+      stamina: 65
+      health: 30
+      bravery: 80
+      reactions: 30
+      firing: 30
+      throwing: 50
+      strength: 20
+      psiStrength: 5
+      psiSkill: 20
+      melee: 50
+    armor: STR_CIVILIAN_15_ARMOR_MALE
+    standHeight: 21
+    kneelHeight: 14
+    value: 30
+    deathSound: [41, 42, 43] #human male
+    intelligence: 4
+    energyRecovery: 20
+
+#CIVILIAN_15 FEMALE
+  - type: STR_CIVILIAN_15_FEMALE
+    race: STR_CIVILIAN
+    stats:
+      tu: 35
+      stamina: 65
+      health: 30
+      bravery: 80
+      reactions: 30
+      firing: 30
+      throwing: 50
+      strength: 20
+      psiStrength: 5
+      psiSkill: 20
+      melee: 50
+    armor: STR_CIVILIAN_15_ARMOR_FEMALE
+    standHeight: 21
+    kneelHeight: 14
+    value: 30
+    deathSound: [44, 45, 46] #human female
+    intelligence: 4
+    energyRecovery: 20
+
+
+
+
+
+
+
+
+
+
+
+

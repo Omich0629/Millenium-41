@@ -31,13 +31,36 @@ extraStrings:
       STR_OPTIONS_UC: "OPTIONS"
       STR_FUNDING_UC: "FUNDING"
 
-
       STR_CENTER_ON_UFO_TIME_5_SECONDS: "CENTER ON TARGET-TIME=5 Secs"
       STR_GO_TO_LAST_KNOWN_UFO_POSITION: "GO TO LAST KNOWN TARGET POSITION"
 
+### GRAPHS MENU ###
+      STR_TOTAL_UC: "TOTAL"
+      STR_INCOME: "Income"
+      STR_EXPENDITURE: "Expenditure"
+      STR_MAINTENANCE: "Maintenance"
+      STR_BALANCE: "Balance"
+      STR_UFO_ACTIVITY_IN_AREAS: "Enemy Activity in Regions"
+      STR_UFO_ACTIVITY_IN_COUNTRIES: "Enemy Activity in Organizations"
+      STR_XCOM_ACTIVITY_IN_AREAS: "PDF Activity in Regions"
+      STR_XCOM_ACTIVITY_IN_COUNTRIES: "PDF Activity in Organizations"
+      STR_FINANCE: "Finance"
+      STR_DATE_FIRST: "{0}st"
+      STR_DATE_SECOND: "{0}nd"
+      STR_DATE_THIRD: "{0}rd"
+      STR_DATE_FOURTH: "{0}th"
+      STR_FINANCE_THOUSANDS: "$1000's"
 
 
-### TRAGET  ###
+### FUNDING MENU ###
+      STR_INTERNATIONAL_RELATIONS: "FUNDING"
+      STR_COUNTRY: "Organization"
+      STR_FUNDING: "Funding"
+      STR_CHANGE: "Change"
+
+
+
+### TARGET  ###
       STR_UFO_: "TARGET-{0}"
       STR_ALIEN_BASE_: "ENEMY BASE-{0}"
       STR_CRASH_SITE_: "DAMAGED TARGET-{0}"
@@ -58,6 +81,68 @@ extraStrings:
 
 
 
+
+
+### DEBRIEFING MENU ###
+
+      STR_UFO_IS_NOT_RECOVERED: "Target is not recovered"
+      STR_UFO_IS_RECOVERED: "Target is recovered"
+      STR_CRAFT_IS_LOST: "Craft is lost"
+      STR_TERROR_CONTINUES: "Terror continues"
+      STR_ALIENS_DEFEATED: "Enemies defeated"
+      STR_BASE_IS_LOST: "Base is lost"
+      STR_BASE_IS_SAVED: "Base is saved"
+      STR_ALIEN_BASE_STILL_INTACT: "Enemy Base still intact"
+      STR_ALIEN_BASE_DESTROYED: "Enemy Base destroyed"
+      STR_ALIENS_KILLED: "ENEMIES KILLED"
+      STR_ALIEN_CORPSES_RECOVERED: "ENEMY CORPSES RECOVERED"
+      STR_LIVE_ALIENS_RECOVERED: "LIVE ENEMIES RECOVERED"
+      STR_ALIEN_ARTIFACTS_RECOVERED: "ENEMY EQUIPMENT RECOVERED"
+      STR_ALIEN_BASE_CONTROL_DESTROYED: "ENEMY BASE CONTROL DESTROYED"
+      STR_CIVILIANS_KILLED_BY_ALIENS: "CIVILIANS KILLED BY ENEMIES"
+      STR_CIVILIANS_KILLED_BY_XCOM_OPERATIVES: "CIVILIANS KILLED BY PDF OPERATIVES"
+      STR_CIVILIANS_SAVED: "CIVILIANS SAVED"
+      STR_XCOM_OPERATIVES_KILLED: "PDF OPERATIVES KILLED"
+      STR_XCOM_OPERATIVES_MISSING_IN_ACTION: "PDF OPERATIVES MISSING IN ACTION"
+      STR_TANKS_DESTROYED: "WEAPON PLATFORMS DESTROYED"
+      STR_XCOM_CRAFT_LOST: "PDF CRAFT LOST"
+      STR_UFO_RECOVERY: "TARGET RECOVERY"
+      STR_ALIEN_BASE_RECOVERY: "ENEMY BASE RECOVERY"
+
+### SCORE
+      STR_RATING: "RATING> {0}"
+      STR_RATING_TERRIBLE: "TERRIBLE"
+      STR_RATING_POOR: "POOR"
+      STR_RATING_OK: "OK"
+      STR_RATING_GOOD: "GOOD"
+      STR_RATING_EXCELLENT: "EXCELLENT"
+      STR_SCORE: "SCORE"
+
+
+
+### PLAYER BASE DEFENSE MENU
+
+      STR_BASE_UNDER_ATTACK: "{0} under attack!"
+      STR_BASE_DEFENSES_INITIATED: "BASE DEFENSES INITIATED"
+      STR_GRAV_SHIELD_REPELS_UFO: "TARGETING SYSTEM ONLINE"
+      STR_FIRING: "FIRING"
+      STR_HIT: "HIT!"
+      STR_UFO_DESTROYED: "TARGET DESTROYED!"
+      STR_MISSED: "MISSED!"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ### PSIONICS ###
 
       STR_PSI_TRAINING: "Intelligence Training"
@@ -72,24 +157,36 @@ extraStrings:
       STR_PSIONIC_SKILL_ABBREVIATION: "INT"
 
 
+### REGIONS ###
+#Temporary names
+      STR_NORTH_POLE: "North Pole"
+      STR_WEST_CONTINENT: "Westland"
+      STR_WESTERN_NORTH_CONTINENT: "Western Northland" 
+      STR_EASTERN_NORTH_CONTINENT: "Eastern Northland"
+      STR_CENTRAL_CONTINENT: "Midland"
+      STR_SOUTH_CONTINENT: "Central Southland"
+      STR_SOUTHWEST_ISLANDS: "Southwest Islands"
+      STR_SOUTHEAST_CONTINENT: "Eastern Southland"
+      STR_SOUTH_POLE: "South Pole"
+
 
 ### COUNTRIES (PLANETARY ORGANIZATIONS) ###
       STR_NORTH_COUNTRY_1: "NEOLOGISTICS CORP"
-      STR_NORTH_COUNTRY_2: "TRUSTED MACHINERY" #Meta-Machinery
-      STR_NORTH_COUNTRY_3: "AGROCONGLOMERATE" 
+      STR_NORTH_COUNTRY_2: "META-MACHINERY IND"
+      STR_NORTH_COUNTRY_3: "AGRICONGLOMERATE" 
       STR_NORTH_COUNTRY_4: "CYBEROPTICS CORP"
-      STR_NORTH_COUNTRY_5: "REMEDIUM CORP"
-      STR_NORTH_COUNTRY_6: "AMALGAMMA IND"
-      STR_NORTH_COUNTRY_7: "NAUTICAL PLEXUS" #Zenith Inc.
+      STR_NORTH_COUNTRY_5: "REMEDIUM INC"
+      STR_NORTH_COUNTRY_6: "SUPERSTEEL CORP"
+      STR_NORTH_COUNTRY_7: "POLARIS CORP"
       STR_NORTH_COUNTRY_8: "PHARMA-CARTEL"
-      STR_NORTH_COUNTRY_9: "MULTICAST INC"
+      STR_NORTH_COUNTRY_9: "MULTICAST CORP"
       STR_CENTRAL_COUNTRY_1: "FUEL SYNDICATE"
       STR_CENTRAL_COUNTRY_2: "OCTANE CORP"
       STR_WEST_COUNTRY_1: "HARVESTECH CORP"
       STR_SOUTH_COUNTRY_1: "OMNI-CHEM CORP"
-      STR_SOUTH_EAST_COUNTRY_1: "INDUSTRIAL UNION"
-      STR_SOUTH_WEST_COUNTRY_1: "PHOBOS INC" 
-      STR_SOUTH_WEST_COUNTRY_2: "MECHANICUS" #Machine Cult
+      STR_SOUTH_EAST_COUNTRY_1: "HARDCORE IND"
+      STR_SOUTH_WEST_COUNTRY_1: "PHOBOS CORP" 
+      STR_SOUTH_WEST_COUNTRY_2: "MECHANICUS"
 
       STR_EXTRA_LABEL_1: "QUARANTINE ZONE\n(XENOS INFESTATION)"
 
@@ -124,9 +221,9 @@ extraStrings:
 
 
 ### MISSION BRIEFINGS ###
-      STR_UFO_CRASH_RECOVERY_BRIEFING: "{NEWLINE}PDF operatives are given a task to dispatch the damaged enemy vehicle and its crew. {NEWLINE}Mission will be successful when all enemy units have been eliminated or neutralized. {NEWLINE}{NEWLINE}To abort the mission, return PDF operatives to transport vehicle and click on the 'Abort Mission' icon."
+      STR_UFO_CRASH_RECOVERY_BRIEFING: "{NEWLINE}Your task is to deal with the crew of the damaged enemy vehicle. {NEWLINE}Mission will be successful when all enemy units have been eliminated or neutralized. {NEWLINE}{NEWLINE}To abort the mission, return PDF operatives to transport vehicle and click on the 'Abort Mission' icon."
 
-      STR_UFO_GROUND_ASSAULT_BRIEFING: "{NEWLINE}PDF operatives are given a task to dispatch the stationary enemy vehicle and its crew. {NEWLINE}Mission will be successful when all enemy units have been eliminated or neutralized. {NEWLINE}{NEWLINE}To abort the mission, return PDF operatives to transport vehicle and click on the 'Abort Mission' icon."
+      STR_UFO_GROUND_ASSAULT_BRIEFING: "{NEWLINE}Your task is to deal with the crew of the enemy vehicle. {NEWLINE}Mission will be successful when all enemy units have been eliminated or neutralized. {NEWLINE}{NEWLINE}To abort the mission, return PDF operatives to transport vehicle and click on the 'Abort Mission' icon."
 
       STR_BASE_DEFENSE_BRIEFING: "{NEWLINE}An enemy craft has landed nearby. Our base is in severe danger. As per standard procedure all non-combat personnel and PDF craft have been evacuated. Enemy units will enter the base via hangar doors and the access lift. {NEWLINE}Defend the base at all costs - this is a fight to the death. {NEWLINE}{NEWLINE}If you click on the 'abort mission' icon you will concede defeat and lose the base."
 
@@ -252,6 +349,10 @@ extraStrings:
       STR_HEAVY_CARAPACE_STORE_ITEM: "Carapace Armor" #Store item
 
 
+
+### NON-COMBAT PERSONNEL
+      STR_SCIENTIST: "Lexmechanic"
+      STR_ENGINEER: "Enginseer"
 
 #PDF SOLDIERS
 
@@ -829,6 +930,137 @@ extraStrings:
 
 ##CHAOS CHOSEN WARRIORS FACTION
       STR_CHAOS_DISCIPLES: "Chaos Disciples"
+
+
+
+
+
+
+
+##KHORNE CULTISTS FACTION
+      STR_KHORNE_CULTISTS: "Khorne Cultists"
+
+#BATTLESCAPE NAMES
+      STR_KHORNE_CULTIST_RIFLEMAN_MALE: "Chaos Rifleman"
+      STR_KHORNE_CULTIST_RIFLEMAN_FEMALE: "Chaos Rifleman"
+
+      STR_KHORNE_CULTIST_MARKSMAN_MALE: "Chaos Marksman"
+      STR_KHORNE_CULTIST_MARKSMAN_FEMALE: "Chaos Marksman"
+
+      STR_KHORNE_CULTIST_GUNNER_MALE: "Chaos Gunner"
+      STR_KHORNE_CULTIST_GUNNER_FEMALE: "Chaos Gunner"
+
+      STR_KHORNE_CULTIST_GRENADIER_MALE: "Chaos Grenadier"
+      STR_KHORNE_CULTIST_GRENADIER_FEMALE: "Chaos Grenadier"
+
+      STR_KHORNE_CULTIST_FANATIC_MALE: "Chaos Fanatic"
+      STR_KHORNE_CULTIST_FANATIC_FEMALE: "Chaos Fanatic"
+
+      STR_KHORNE_CULTIST_LEADER_MALE: "Chaos Squad Leader"
+      STR_KHORNE_CULTIST_LEADER_FEMALE: "Chaos Squad Leader"
+
+
+
+#CORPSES
+      STR_CORPSE_KHORNE_CULTIST: "Khorne Cultist Corpse"
+      STR_CORPSE_KHORNE_CULTIST_LEADER: "Khorne Cultist Leader Corpse"
+
+#LIVE ENEMIES
+      STR_LIVE_KHORNE_CULTIST: "Khorne Cultist"
+      STR_LIVE_KHORNE_CULTIST_LEADER: "Khorne Cultist Leader"
+
+
+#ARMORS
+      STR_KHORNE_CULTIST_ARMOR_MALE: "Flak Armor"
+      STR_KHORNE_CULTIST_ARMOR_FEMALE: "Flak Armor"
+
+      STR_KHORNE_CULTIST_LEADER_ARMOR_MALE: "Flak Armor"
+      STR_KHORNE_CULTIST_LEADER_ARMOR_FEMALE: "Flak Armor"
+
+
+
+
+
+## CIVILIANS
+
+#BATTLESCAPE NAMES
+      STR_CIVILIAN_00_MALE: "Civilian"
+      STR_CIVILIAN_00_FEMALE: "Civilian"
+      STR_CIVILIAN_01_MALE: "Civilian"
+      STR_CIVILIAN_01_FEMALE: "Civilian"
+      STR_CIVILIAN_02_MALE: "Civilian"
+      STR_CIVILIAN_02_FEMALE: "Civilian"
+      STR_CIVILIAN_03_MALE: "Civilian"
+      STR_CIVILIAN_03_FEMALE: "Civilian"
+      STR_CIVILIAN_04_MALE: "Civilian"
+      STR_CIVILIAN_04_FEMALE: "Civilian"
+      STR_CIVILIAN_05_MALE: "Civilian"
+      STR_CIVILIAN_05_FEMALE: "Civilian"
+      STR_CIVILIAN_06_MALE: "Civilian"
+      STR_CIVILIAN_06_FEMALE: "Civilian"
+      STR_CIVILIAN_07_MALE: "Civilian"
+      STR_CIVILIAN_07_FEMALE: "Civilian"
+      STR_CIVILIAN_08_MALE: "Civilian"
+      STR_CIVILIAN_08_FEMALE: "Civilian"
+      STR_CIVILIAN_09_MALE: "Civilian"
+      STR_CIVILIAN_09_FEMALE: "Civilian"
+      STR_CIVILIAN_10_MALE: "Civilian"
+      STR_CIVILIAN_10_FEMALE: "Civilian"
+      STR_CIVILIAN_11_MALE: "Civilian"
+      STR_CIVILIAN_11_FEMALE: "Civilian"
+      STR_CIVILIAN_12_MALE: "Civilian"
+      STR_CIVILIAN_12_FEMALE: "Civilian"
+      STR_CIVILIAN_13_MALE: "Civilian"
+      STR_CIVILIAN_13_FEMALE: "Civilian"
+      STR_CIVILIAN_14_MALE: "Civilian"
+      STR_CIVILIAN_14_FEMALE: "Civilian"
+      STR_CIVILIAN_15_MALE: "Civilian"
+      STR_CIVILIAN_15_FEMALE: "Civilian"
+
+
+
+
+#CORPSES
+      STR_CORPSE_CIVILIAN: "Civilian Corpse"
+
+#ARMORS
+      STR_CIVILIAN_00_ARMOR_MALE: "Civilian Clothes"
+      STR_CIVILIAN_00_ARMOR_FEMALE: "Civilian Clothes"
+      STR_CIVILIAN_01_ARMOR_MALE: "Civilian Clothes"
+      STR_CIVILIAN_01_ARMOR_FEMALE: "Civilian Clothes"
+      STR_CIVILIAN_02_ARMOR_MALE: "Civilian Clothes"
+      STR_CIVILIAN_02_ARMOR_FEMALE: "Civilian Clothes"
+      STR_CIVILIAN_03_ARMOR_MALE: "Civilian Clothes"
+      STR_CIVILIAN_03_ARMOR_FEMALE: "Civilian Clothes"
+      STR_CIVILIAN_04_ARMOR_MALE: "Civilian Clothes"
+      STR_CIVILIAN_04_ARMOR_FEMALE: "Civilian Clothes"
+      STR_CIVILIAN_05_ARMOR_MALE: "Civilian Clothes"
+      STR_CIVILIAN_05_ARMOR_FEMALE: "Civilian Clothes"
+      STR_CIVILIAN_06_ARMOR_MALE: "Civilian Clothes"
+      STR_CIVILIAN_06_ARMOR_FEMALE: "Civilian Clothes"
+      STR_CIVILIAN_07_ARMOR_MALE: "Civilian Clothes"
+      STR_CIVILIAN_07_ARMOR_FEMALE: "Civilian Clothes"
+      STR_CIVILIAN_08_ARMOR_MALE: "Civilian Clothes"
+      STR_CIVILIAN_08_ARMOR_FEMALE: "Civilian Clothes"
+      STR_CIVILIAN_09_ARMOR_MALE: "Civilian Clothes"
+      STR_CIVILIAN_09_ARMOR_FEMALE: "Civilian Clothes"
+      STR_CIVILIAN_10_ARMOR_MALE: "Civilian Clothes"
+      STR_CIVILIAN_10_ARMOR_FEMALE: "Civilian Clothes"
+      STR_CIVILIAN_11_ARMOR_MALE: "Civilian Clothes"
+      STR_CIVILIAN_11_ARMOR_FEMALE: "Civilian Clothes"
+      STR_CIVILIAN_12_ARMOR_MALE: "Civilian Clothes"
+      STR_CIVILIAN_12_ARMOR_FEMALE: "Civilian Clothes"
+      STR_CIVILIAN_13_ARMOR_MALE: "Civilian Clothes"
+      STR_CIVILIAN_13_ARMOR_FEMALE: "Civilian Clothes"
+      STR_CIVILIAN_14_ARMOR_MALE: "Civilian Clothes"
+      STR_CIVILIAN_14_ARMOR_FEMALE: "Civilian Clothes"
+      STR_CIVILIAN_15_ARMOR_MALE: "Civilian Clothes"
+      STR_CIVILIAN_15_ARMOR_FEMALE: "Civilian Clothes"
+
+
+
+
+
 
 
 

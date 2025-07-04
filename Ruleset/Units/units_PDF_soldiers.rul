@@ -327,7 +327,7 @@ soldiers:
     armor: STR_PDF_PSYKER_UNIFORM
     armorForAvatar: STR_PDF_PSYKER_UNIFORM
 
-
+    specialWeapon: STR_PSYKER_SKILL
 
     allowPiloting: false
     allowPromotion: false

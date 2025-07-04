@@ -51,7 +51,7 @@
 #NO DESCRIPRION YET
 
 regions:
-#REGION: NORTH POLE
+#REGION:NORTH POLE
   - type: STR_NORTH_POLE
     areas:
       - - 0

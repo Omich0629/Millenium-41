@@ -50,8 +50,6 @@ items:
     tags:
       AMMO_CHANGES_ITEMS_BIGSPRITE: 1
 
-#MISC
-    ignoreInCraftEquip: true #Temporary
 
 
 
@@ -97,8 +95,6 @@ items:
     tags:
       AMMO_CHANGES_ITEMS_BIGSPRITE: 1
 
-#MISC
-    ignoreInCraftEquip: true #Temporary
 
 
 ## KHORNE MARKSMAN AUTOGUN
@@ -125,6 +121,8 @@ items:
     compatibleAmmo:
       - STR_AUTOGUN_MAGAZINE
 #SHOOTING
+    ignoreAmmoPower: true
+    power: 40
     kneelBonus: 125
 
     accuracySnap: 60
@@ -142,8 +140,6 @@ items:
       ITEM_HAS_BIPOD_BIGSPRITE: 1
       ITEM_HAS_BIPOD_HANDSPRITE: 1
 
-#MISC
-    ignoreInCraftEquip: true #Temporary
 
 ## KHORNE HEAVY STUBBER
   - type: STR_HEAVY_STUBBER_KHORNE
@@ -197,8 +193,7 @@ items:
       ITEM_HAS_BIPOD_BIGSPRITE: 1
       ITEM_HAS_BIPOD_HANDSPRITE: 1
 
-#MISC
-    ignoreInCraftEquip: true #Temporary
+
 
 ## KHORNE GRENADE LAUNCHER
   - type: STR_GRENADE_LAUNCHER_KHORNE
@@ -243,8 +238,7 @@ items:
       HEAVY_WEAPON: 1
       AMMO_CHANGES_ITEMS_BIGSPRITE: 1
 
-#MISC
-    ignoreInCraftEquip: true #Temporary
+
 
 
 ## KHORNE MISSILE LAUNCHER
@@ -288,8 +282,6 @@ items:
     tags:
       HEAVY_WEAPON: 1
 
-#MISC
-    ignoreInCraftEquip: true #Temporary
 
 
 ## KHORNE LASPISTOL
@@ -337,8 +329,6 @@ items:
       STR_LASPISTOL_CHAOS_STORE: [1] #Transform into store item
     recoveryPoints: 1
 
-#MISC
-    ignoreInCraftEquip: true #Temporary
 
 
 
@@ -392,8 +382,6 @@ items:
       STR_LASGUN_CHAOS_STORE: [1] #Transform into store item
     recoveryPoints: 1
 
-#MISC
-    ignoreInCraftEquip: true #Temporary
 
 
 ## KHORNE MARKSMAN LASGUN
@@ -424,7 +412,7 @@ items:
     twoHanded: true
     oneHandedPenalty: 50
 #SHOOTING
-    power: 30
+    power: 40
     clipSize: -1
     damageType: 4 #laser
     damageAlter:
@@ -448,8 +436,6 @@ items:
       ITEM_HAS_BIPOD_BIGSPRITE: 1
       ITEM_HAS_BIPOD_HANDSPRITE: 1
 
-#MISC
-    ignoreInCraftEquip: true #Temporary
 
 
 ## KHORNE TWIN LASGUN
@@ -481,7 +467,7 @@ items:
     twoHanded: true
     blockBothHands: true
 #SHOOTING
-    power: 30
+    power: 40
     clipSize: -1
     damageType: 4 #laser
     damageAlter:
@@ -515,8 +501,6 @@ items:
       ITEM_HAS_BIPOD_BIGSPRITE: 1
       ITEM_HAS_BIPOD_HANDSPRITE: 1
 
-#MISC
-    ignoreInCraftEquip: true #Temporary
 
 
 ## KHORNE HELLPISTOL
@@ -545,7 +529,7 @@ items:
     weight: 4
     armor: 30
 #SHOOTING
-    power: 40
+    power: 60
     clipSize: -1
     damageType: 4 #laser
     damageAlter:
@@ -565,8 +549,6 @@ items:
       STR_HELLPISTOL_CHAOS_STORE: [1] #Transform into store item
     recoveryPoints: 2
 
-#MISC
-    ignoreInCraftEquip: true #Temporary
 
 
 ## KHORNE HELLGUN
@@ -597,7 +579,7 @@ items:
     twoHanded: true
     oneHandedPenalty: 50
 #SHOOTING
-    power: 40
+    power: 60
     clipSize: -1
     damageType: 4 #laser
     damageAlter:
@@ -620,8 +602,6 @@ items:
       STR_HELLGUN_CHAOS_STORE: [1] #Transform into store item
     recoveryPoints: 2
 
-#MISC
-    ignoreInCraftEquip: true #Temporary
 
 
 ## KHORNE MARKSMAN HELLGUN
@@ -652,7 +632,7 @@ items:
     twoHanded: true
     oneHandedPenalty: 50
 #SHOOTING
-    power: 40
+    power: 70
     clipSize: -1
     damageType: 4 #laser
     damageAlter:
@@ -677,8 +657,6 @@ items:
       ITEM_HAS_BIPOD_BIGSPRITE: 1
       ITEM_HAS_BIPOD_HANDSPRITE: 1
 
-#MISC
-    ignoreInCraftEquip: true #Temporary
 
 
 ## KHORNE TWIN HELLGUN
@@ -710,7 +688,7 @@ items:
     twoHanded: true
     blockBothHands: true
 #SHOOTING
-    power: 40
+    power: 70
     clipSize: -1
     damageType: 4 #laser
     damageAlter:
@@ -745,8 +723,6 @@ items:
       ITEM_HAS_BIPOD_BIGSPRITE: 1
       ITEM_HAS_BIPOD_HANDSPRITE: 1
 
-#MISC
-    ignoreInCraftEquip: true #Temporary
 
 
 ## KHORNE BOLT PISTOL (HUMAN-SIZED)
@@ -785,8 +761,6 @@ items:
     tags:
       AMMO_CHANGES_ITEMS_BIGSPRITE: 1
 
-#MISC
-    ignoreInCraftEquip: true #Temporary
 
 
 ## KHORNE BOLTGUN (HUMAN-SIZED)
@@ -830,8 +804,6 @@ items:
     tags:
       AMMO_CHANGES_ITEMS_BIGSPRITE: 1
 
-#MISC
-    ignoreInCraftEquip: true #Temporary
 
 
 ## KHORNE MARKSMAN BOLTGUN (HUMAN-SIZED)
@@ -858,6 +830,8 @@ items:
     compatibleAmmo:
       - STR_BOLTGUN_MAGAZINE
 #SHOOTING
+    ignoreAmmoPower: true
+    power: 100
 
     accuracySnap: 65
     tuSnap: 30
@@ -872,8 +846,6 @@ items:
     tags:
       AMMO_CHANGES_ITEMS_BIGSPRITE: 1
 
-#MISC
-    ignoreInCraftEquip: true #Temporary
 
 
 ## KHORNE HEAVY BOLTER (HUMAN-SIZED)
@@ -927,8 +899,6 @@ items:
       ITEM_HAS_BIPOD_BIGSPRITE: 1
       ITEM_HAS_BIPOD_HANDSPRITE: 1
 
-#MISC
-    ignoreInCraftEquip: true #Temporary
 
 
 ## KHORNE BOLT PISTOL (ASTARTES-SIZED)
@@ -1408,8 +1378,6 @@ items:
       STR_COMBAT_KNIFE_CHAOS_STORE: [1] #Transform into store item
     recoveryPoints: 0
 
-#MISC
-    ignoreInCraftEquip: true #Temporary
 
 
 
@@ -1452,8 +1420,6 @@ items:
       STR_SWORD_CHAOS_STORE: [1] #Transform into store item
     recoveryPoints: 0
 
-#MISC
-    ignoreInCraftEquip: true #Temporary
 
 
 ## KHORNE COMBAT AXE
@@ -1494,8 +1460,6 @@ items:
       STR_COMBAT_AXE_CHAOS_STORE: [1] #Transform into store item
     recoveryPoints: 0
 
-#MISC
-    ignoreInCraftEquip: true #Temporary
 
 
 
@@ -1524,7 +1488,7 @@ items:
     armor: 35
 #MELEE
     clipSize: -1
-    power: 60
+    power: 70
     damageType: 7 #Melee
     damageAlter:
       RandomType: 2 #50-150%
@@ -1537,8 +1501,6 @@ items:
       STR_CHAINSWORD_CHAOS_STORE: [1] #Transform into store item
     recoveryPoints: 1
 
-#MISC
-    ignoreInCraftEquip: true #Temporary
 
 
 ## KHORNE ASTARTES CHAINSWORD
@@ -1566,7 +1528,7 @@ items:
     armor: 35
 #MELEE
     clipSize: -1
-    power: 65
+    power: 70
     damageType: 7 #Melee
     damageAlter:
       RandomType: 2 #50-150%
@@ -1608,7 +1570,7 @@ items:
     armor: 35
 #MELEE
     clipSize: -1
-    power: 70
+    power: 80
     damageType: 7 #Melee
     damageAlter:
       RandomType: 2 #50-150%
@@ -1621,8 +1583,6 @@ items:
       STR_CHAINAXE_CHAOS_STORE: [1] #Transform into store item
     recoveryPoints: 1
 
-#MISC
-    ignoreInCraftEquip: true #Temporary
 
 
 ## KHORNE ASTARTES CHAINAXE
@@ -1650,7 +1610,7 @@ items:
     armor: 35
 #MELEE
     clipSize: -1
-    power: 75
+    power: 80
     damageType: 7 #Melee
     damageAlter:
       RandomType: 2 #50-150%
@@ -1693,7 +1653,7 @@ items:
     armor: 35
 #MELEE
     clipSize: -1
-    power: 90
+    power: 100
     damageType: 7 #Melee
     damageAlter:
       RandomType: 2 #50-150%
@@ -1735,7 +1695,7 @@ items:
     armor: 35
 #MELEE
     clipSize: -1
-    power: 95
+    power: 100
     damageType: 7 #Melee
     damageAlter:
       RandomType: 2 #50-150%
@@ -1777,7 +1737,7 @@ items:
     armor: 35
 #MELEE
     clipSize: -1
-    power: 100
+    power: 110
     damageType: 7 #Melee
     damageAlter:
       RandomType: 2 #50-150%

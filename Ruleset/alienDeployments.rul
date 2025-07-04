@@ -59,7 +59,10 @@ alienDeployments:
             []
     width: 60
     length: 60
-    height: 9
+    height: 8
+#Civilians for residential area landing sites and crash sites
+    civilians: 8
+    civilianSpawnNodeRank: 8 #Misc2, TERRRORIST2
 
 
 #VALKYRIE TRANSPORT AIRCRAFT
@@ -123,7 +126,10 @@ alienDeployments:
             []
     width: 60
     length: 60
-    height: 9
+    height: 8
+#Civilians for residential area landing sites and crash sites
+    civilians: 8
+    civilianSpawnNodeRank: 8 #Misc2, TERRRORIST2
 
 
 #LOCAL VARIATION OF STORMRAVEN AIRCRAFT
@@ -156,7 +162,11 @@ alienDeployments:
             []
     width: 60
     length: 60
-    height: 9
+    height: 8
+#Civilians for residential area landing sites and crash sites
+    civilians: 8
+    civilianSpawnNodeRank: 8 #Misc2, TERRRORIST2
+
 
 #LOCAL VARIATION OF STORMEAGLE AIRCRAFT
 #Faction: 
@@ -188,7 +198,11 @@ alienDeployments:
             []
     width: 60
     length: 60
-    height: 9
+    height: 8
+#Civilians for residential area landing sites and crash sites
+    civilians: 8
+    civilianSpawnNodeRank: 8 #Misc2, TERRRORIST2
+
 
 #LOCAL VARIATION OF STORMHAWK AIRCRAFT
 #Faction: 
@@ -220,7 +234,11 @@ alienDeployments:
             []
     width: 60
     length: 60
-    height: 9
+    height: 8
+#Civilians for residential area landing sites and crash sites
+    civilians: 8
+    civilianSpawnNodeRank: 8 #Misc2, TERRRORIST2
+
 
 #LIGHT VEHICLE CONVOY
 #Faction: Chaos Cultists
@@ -252,7 +270,11 @@ alienDeployments:
             []
     width: 60
     length: 60
-    height: 9
+    height: 8
+#Civilians for residential area landing sites and crash sites
+    civilians: 8
+    civilianSpawnNodeRank: 8 #Misc2, TERRRORIST2
+
 
 #HEAVY VEHICLE CONVOY
 #Faction: Chaos Cultists
@@ -296,9 +318,13 @@ alienDeployments:
             []
     width: 60
     length: 60
-    height: 9
+    height: 8
+#Civilians for residential area landing sites and crash sites
+    civilians: 8
+    civilianSpawnNodeRank: 8 #Misc2, TERRRORIST2
 
-#Residential Area Terror Site
+
+#RESIDENTIAL AREA TERROR SITE
   - type: STR_RESIDENTIAL_AREA_TERROR
     data:
       - alienRank: 1 #LEADER
@@ -366,7 +392,7 @@ alienDeployments:
         lowQty: 1
         highQty: 3
         dQty: 2
-        percentageOutsideUfo: 50
+        percentageOutsideUfo: 100
         itemSets:
           -
             []
@@ -377,7 +403,7 @@ alienDeployments:
     width: 60
     length: 60
     height: 8
-    civilians: 0
+    civilians: 16
     civilianSpawnNodeRank: 8 #Misc2, TERRRORIST2
     terrains:
       - RESIDENTIAL_AREA_TERROR
@@ -387,10 +413,8 @@ alienDeployments:
       palette: 2
       music: GMENBASE
     markerName: STR_TERROR_SITE
-    duration: [4, 10]
+    duration: [4, 10] # 4-10 hours
     despawnPenalty: 1000
-
-
 
 
 #PLAYER BASE DEFENSE
@@ -493,9 +517,6 @@ alienDeployments:
 
 #CHAOS BASE
 #Faction: Chaos Warriors
-
-
-
   - type: STR_CHAOS_BASE_ASSAULT
     data:
 

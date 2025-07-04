@@ -24698,7 +24698,7 @@ globe:
 
 #BORDERS
   polylines:
-#"Neologistics" East Border
+#"NEOLOGISTICS CORP" East Border
     - - 322.171624787168
       - -53.731227672927
       - 322.171624787168
@@ -24708,7 +24708,7 @@ globe:
       - 323.464719968447
       - -36.908667473097
 
-#"Neologistics" South Border
+#"NEOLOGISTICS CORP" South Border
     - - 296.926935930451
       - -20.653268577391
       - 301.835934916784
@@ -24732,7 +24732,7 @@ globe:
       - 336.878012142956
       - -21.533418543402
 
-#"Trusted Machinery" South and East Border (in 1 polyline)
+#"META-MACHINERY IND" South and East Border (in 1 polyline)
     - - 323.464719968447
       - -45.689753974948
       - 333.464719968447
@@ -24754,7 +24754,7 @@ globe:
       - 22.39653870369
       - -63.002536463316
 
-#"Agroconglamerate" East Border
+#"AGRICONGLOMERATE" East Border
     - - 22.39653870369
       - -48.685574195686
       - 22.39653870369
@@ -24768,7 +24768,7 @@ globe:
       - 32.71840821046601
       - -30.186214608564
 
-#"Agroconglamerate" South Border
+#"AGRICONGLOMERATE" South Border
     - - 352.978012142956
       - -20.32105219049
       - 358.978012142956
@@ -24776,7 +24776,7 @@ globe:
       - 7.178012142956
       - -20.32105219049
 
-#"Remedium" East Border
+#"REMEDIUM INC" East Border
     - - 52.73704833950899
       - -61.012536463316
       - 52.73704833950899
@@ -24800,7 +24800,7 @@ globe:
       - 41.9504268799103
       - -30.102106605843
 
-#"AmalGamma" South Border
+#"SUPERSTEEL CORP" South Border
     - - 49.818948210510996
       - -37.916634509155
       - 57.73640265995499
@@ -24812,7 +24812,7 @@ globe:
       - 69.59891140339097
       - -34.517540087839
 
-#"AmalGamma" West Border
+#"SUPERSTEEL CORP" West Border
     - - 89.845221145464
       - -64.382536463316
       - 89.845221145464
@@ -24830,13 +24830,13 @@ globe:
       - 86.82043468487802
       - -43.639753974948
 
-#"Pharma-Cartel" South Border
+#"PHARMA-CARTEL" South Border
     - - 98.55043468487802
       - -38.402107067783
       - 102.73838146204998
       - -38.402107067783
 
-#"Fuel Syndicate" East Border
+#"FUEL SYNDICATE" East Border
     - - 314.762191877363
       - -18.407068220735
       - 314.762191877363
@@ -24850,7 +24850,7 @@ globe:
       - 315.263956913617
       - 3.9407182511659
 
-#Border between "Fuel Syndicate" and Quarantine
+#Border between "FUEL SYNDICATE" and Quarantine
     - - 306.362250777501
       - 8.4649674153008
       - 308.489931910203
@@ -24862,7 +24862,7 @@ globe:
       - 315.263956913617
       - 3.9407182511659
 
-#Border between "Octane Corp" and Quarantine
+#Border between "OCTANE CORP" and Quarantine
     - - 315.263956913617
       - 3.9407182511659
       - 318.585737678177

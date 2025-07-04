@@ -47,7 +47,7 @@ countries:
     labelLon: 312.566795745905
     labelLat: -35.229582470906
 
-#TRUSTED MACHINERY INC.
+#META-MACHINERY INC
   - type: STR_NORTH_COUNTRY_2
     areas:
       - - 322.171624787168
@@ -67,7 +67,7 @@ countries:
     labelLon: 351.2989614971256
     labelLat: -56.503713142378
 
-#AGROCONGLAMERATE
+#AGRICONGLAMERATE
   - type: STR_NORTH_COUNTRY_3
     areas:
       - - 323.464719968447
@@ -132,7 +132,7 @@ countries:
     labelLat: -6.2555714936652
 
 
-#REMEDIUM CORP
+#REMEDIUM INC
   - type: STR_NORTH_COUNTRY_5
     areas:
       - - 22.39653870369
@@ -164,7 +164,7 @@ countries:
     labelLon: 37.76860810660298
     labelLat: -50.91601368757
 
-#AMALGAMMA INDUSTRIES
+#SUPERSTEEL CORP
   - type: STR_NORTH_COUNTRY_6
     areas:
       - - 84.057350070197
@@ -204,7 +204,7 @@ countries:
     labelLon: 70.102041243977
     labelLat: -49.486304059047
 
-#NAUTICAL PLEXUS INC.
+#POLARIS CORP
   - type: STR_NORTH_COUNTRY_7
     areas:
       - - 49.818948210510996
@@ -272,7 +272,7 @@ countries:
     labelLon: 106.45556771228001
     labelLat: -49.8434150103
 
-#MULTICAST NETWORKS
+#MULTICAST CORP
   - type: STR_NORTH_COUNTRY_9
     areas:
       - - 86.82043468487802
@@ -420,7 +420,7 @@ countries:
     labelLon: 2.521603779476095
     labelLat: 45.83369567971
 
-#INDUSTRIAL UNION
+#HARDCORE IND
   - type: STR_SOUTH_EAST_COUNTRY_1
     areas:
       - - 109.78612850064002
@@ -456,7 +456,7 @@ countries:
     labelLon: 127.22951104749
     labelLat: 24.057900052317
 
-#PHOBOS INC.
+#PHOBOS CORP
   - type: STR_SOUTH_WEST_COUNTRY_1
     areas:
       - - 192.98582417855

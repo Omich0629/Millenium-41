@@ -610,3 +610,586 @@ extraSprites:
 
 
 
+
+
+
+
+
+
+
+
+
+## KHORNE CULTIST ARMOR 
+
+#Male inventory sprites 
+  - type: KHORNE_CULTIST_ARMOR_MALE.SPK
+    singleImage: true
+    files:
+      0: Resources/Armors/Khorne_Cultists/Cultist_Armor/Khorne_Cultist_Armor_Male.png
+
+#Female inventory sprites 
+  - type: KHORNE_CULTIST_ARMOR_FEMALE.SPK
+    singleImage: true
+    files:
+      0: Resources/Armors/Khorne_Cultists/Cultist_Armor/Khorne_Cultist_Armor_Female.png
+
+#Battlescape sprites
+  - type: KHORNE_CULTIST_ARMOR.PCK
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Armors/Khorne_Cultists/Cultist_Armor/Khorne_Cultist_Armor_Battlescape.png
+
+
+## KHORNE CULTIST LEADER ARMOR 
+
+#Male inventory sprites 
+  - type: KHORNE_CULTIST_LEADER_ARMOR_MALE.SPK
+    singleImage: true
+    files:
+      0: Resources/Armors/Khorne_Cultists/Cultist_Leader_Armor/Khorne_Cultist_Leader_Armor_Male.png
+
+#Female inventory sprites 
+  - type: KHORNE_CULTIST_LEADER_ARMOR_FEMALE.SPK
+    singleImage: true
+    files:
+      0: Resources/Armors/Khorne_Cultists/Cultist_Leader_Armor/Khorne_Cultist_Leader_Armor_Female.png
+
+#Battlescape sprites
+  - type: KHORNE_CULTIST_LEADER_ARMOR.PCK
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Armors/Khorne_Cultists/Cultist_Leader_Armor/Khorne_Cultist_Leader_Armor_Battlescape.png
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+## CIVILIAN_00 ARMOR 
+
+#Male inventory sprites 
+  - type: CIVILIAN_00_ARMOR_MALE.SPK
+    singleImage: true
+    files:
+      0: Resources/Armors/Civilians/Civilian_00/Civilian_00_Male.png
+#Female inventory sprites 
+  - type: CIVILIAN_00_ARMOR_FEMALE.SPK
+    singleImage: true
+    files:
+      0: Resources/Armors/Civilians/Civilian_00/Civilian_00_Female.png
+#Male Battlescape sprites
+  - type: CIVILIAN_00_ARMOR_MALE.PCK
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Armors/Civilians/Civilian_00/Civilian_00_Male_Battlescape.png
+#Female Battlescape sprites
+  - type: CIVILIAN_00_ARMOR_FEMALE.PCK
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Armors/Civilians/Civilian_00/Civilian_00_Female_Battlescape.png
+
+
+## CIVILIAN_01 ARMOR 
+
+#Male inventory sprites 
+  - type: CIVILIAN_01_ARMOR_MALE.SPK
+    singleImage: true
+    files:
+      0: Resources/Armors/Civilians/Civilian_01/Civilian_01_Male.png
+#Female inventory sprites 
+  - type: CIVILIAN_01_ARMOR_FEMALE.SPK
+    singleImage: true
+    files:
+      0: Resources/Armors/Civilians/Civilian_01/Civilian_01_Female.png
+#Male Battlescape sprites
+  - type: CIVILIAN_01_ARMOR_MALE.PCK
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Armors/Civilians/Civilian_01/Civilian_01_Male_Battlescape.png
+#Female Battlescape sprites
+  - type: CIVILIAN_01_ARMOR_FEMALE.PCK
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Armors/Civilians/Civilian_01/Civilian_01_Female_Battlescape.png
+
+
+## CIVILIAN_02 ARMOR 
+
+#Male inventory sprites 
+  - type: CIVILIAN_02_ARMOR_MALE.SPK
+    singleImage: true
+    files:
+      0: Resources/Armors/Civilians/Civilian_02/Civilian_02_Male.png
+#Female inventory sprites 
+  - type: CIVILIAN_02_ARMOR_FEMALE.SPK
+    singleImage: true
+    files:
+      0: Resources/Armors/Civilians/Civilian_02/Civilian_02_Female.png
+#Male Battlescape sprites
+  - type: CIVILIAN_02_ARMOR_MALE.PCK
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Armors/Civilians/Civilian_02/Civilian_02_Male_Battlescape.png
+#Female Battlescape sprites
+  - type: CIVILIAN_02_ARMOR_FEMALE.PCK
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Armors/Civilians/Civilian_02/Civilian_02_Female_Battlescape.png
+
+
+## CIVILIAN_03 ARMOR 
+
+#Male inventory sprites 
+  - type: CIVILIAN_03_ARMOR_MALE.SPK
+    singleImage: true
+    files:
+      0: Resources/Armors/Civilians/Civilian_03/Civilian_03_Male.png
+#Female inventory sprites 
+  - type: CIVILIAN_03_ARMOR_FEMALE.SPK
+    singleImage: true
+    files:
+      0: Resources/Armors/Civilians/Civilian_03/Civilian_03_Female.png
+#Male Battlescape sprites
+  - type: CIVILIAN_03_ARMOR_MALE.PCK
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Armors/Civilians/Civilian_03/Civilian_03_Male_Battlescape.png
+#Female Battlescape sprites
+  - type: CIVILIAN_03_ARMOR_FEMALE.PCK
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Armors/Civilians/Civilian_03/Civilian_03_Female_Battlescape.png
+
+
+## CIVILIAN_04 ARMOR 
+
+#Male inventory sprites 
+  - type: CIVILIAN_04_ARMOR_MALE.SPK
+    singleImage: true
+    files:
+      0: Resources/Armors/Civilians/Civilian_04/Civilian_04_Male.png
+#Female inventory sprites 
+  - type: CIVILIAN_04_ARMOR_FEMALE.SPK
+    singleImage: true
+    files:
+      0: Resources/Armors/Civilians/Civilian_04/Civilian_04_Female.png
+#Male Battlescape sprites
+  - type: CIVILIAN_04_ARMOR_MALE.PCK
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Armors/Civilians/Civilian_04/Civilian_04_Male_Battlescape.png
+#Female Battlescape sprites
+  - type: CIVILIAN_04_ARMOR_FEMALE.PCK
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Armors/Civilians/Civilian_04/Civilian_04_Female_Battlescape.png
+
+
+## CIVILIAN_05 ARMOR 
+
+#Male inventory sprites 
+  - type: CIVILIAN_05_ARMOR_MALE.SPK
+    singleImage: true
+    files:
+      0: Resources/Armors/Civilians/Civilian_05/Civilian_05_Male.png
+#Female inventory sprites 
+  - type: CIVILIAN_05_ARMOR_FEMALE.SPK
+    singleImage: true
+    files:
+      0: Resources/Armors/Civilians/Civilian_05/Civilian_05_Female.png
+#Male Battlescape sprites
+  - type: CIVILIAN_05_ARMOR_MALE.PCK
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Armors/Civilians/Civilian_05/Civilian_05_Male_Battlescape.png
+#Female Battlescape sprites
+  - type: CIVILIAN_05_ARMOR_FEMALE.PCK
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Armors/Civilians/Civilian_05/Civilian_05_Female_Battlescape.png
+
+
+## CIVILIAN_06 ARMOR 
+
+#Male inventory sprites 
+  - type: CIVILIAN_06_ARMOR_MALE.SPK
+    singleImage: true
+    files:
+      0: Resources/Armors/Civilians/Civilian_06/Civilian_06_Male.png
+#Female inventory sprites 
+  - type: CIVILIAN_06_ARMOR_FEMALE.SPK
+    singleImage: true
+    files:
+      0: Resources/Armors/Civilians/Civilian_06/Civilian_06_Female.png
+#Male Battlescape sprites
+  - type: CIVILIAN_06_ARMOR_MALE.PCK
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Armors/Civilians/Civilian_06/Civilian_06_Male_Battlescape.png
+#Female Battlescape sprites
+  - type: CIVILIAN_06_ARMOR_FEMALE.PCK
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Armors/Civilians/Civilian_06/Civilian_06_Female_Battlescape.png
+
+
+## CIVILIAN_07 ARMOR 
+
+#Male inventory sprites 
+  - type: CIVILIAN_07_ARMOR_MALE.SPK
+    singleImage: true
+    files:
+      0: Resources/Armors/Civilians/Civilian_07/Civilian_07_Male.png
+#Female inventory sprites 
+  - type: CIVILIAN_07_ARMOR_FEMALE.SPK
+    singleImage: true
+    files:
+      0: Resources/Armors/Civilians/Civilian_07/Civilian_07_Female.png
+#Male Battlescape sprites
+  - type: CIVILIAN_07_ARMOR_MALE.PCK
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Armors/Civilians/Civilian_07/Civilian_07_Male_Battlescape.png
+#Female Battlescape sprites
+  - type: CIVILIAN_07_ARMOR_FEMALE.PCK
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Armors/Civilians/Civilian_07/Civilian_07_Female_Battlescape.png
+
+
+## CIVILIAN_08 ARMOR 
+
+#Male inventory sprites 
+  - type: CIVILIAN_08_ARMOR_MALE.SPK
+    singleImage: true
+    files:
+      0: Resources/Armors/Civilians/Civilian_08/Civilian_08_Male.png
+#Female inventory sprites 
+  - type: CIVILIAN_08_ARMOR_FEMALE.SPK
+    singleImage: true
+    files:
+      0: Resources/Armors/Civilians/Civilian_08/Civilian_08_Female.png
+#Male Battlescape sprites
+  - type: CIVILIAN_08_ARMOR_MALE.PCK
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Armors/Civilians/Civilian_08/Civilian_08_Male_Battlescape.png
+#Female Battlescape sprites
+  - type: CIVILIAN_08_ARMOR_FEMALE.PCK
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Armors/Civilians/Civilian_08/Civilian_08_Female_Battlescape.png
+
+
+## CIVILIAN_09 ARMOR 
+
+#Male inventory sprites 
+  - type: CIVILIAN_09_ARMOR_MALE.SPK
+    singleImage: true
+    files:
+      0: Resources/Armors/Civilians/Civilian_09/Civilian_09_Male.png
+#Female inventory sprites 
+  - type: CIVILIAN_09_ARMOR_FEMALE.SPK
+    singleImage: true
+    files:
+      0: Resources/Armors/Civilians/Civilian_09/Civilian_09_Female.png
+#Male Battlescape sprites
+  - type: CIVILIAN_09_ARMOR_MALE.PCK
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Armors/Civilians/Civilian_09/Civilian_09_Male_Battlescape.png
+#Female Battlescape sprites
+  - type: CIVILIAN_09_ARMOR_FEMALE.PCK
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Armors/Civilians/Civilian_09/Civilian_09_Female_Battlescape.png
+
+
+## CIVILIAN_10 ARMOR 
+
+#Male inventory sprites 
+  - type: CIVILIAN_10_ARMOR_MALE.SPK
+    singleImage: true
+    files:
+      0: Resources/Armors/Civilians/Civilian_10/Civilian_10_Male.png
+#Female inventory sprites 
+  - type: CIVILIAN_10_ARMOR_FEMALE.SPK
+    singleImage: true
+    files:
+      0: Resources/Armors/Civilians/Civilian_10/Civilian_10_Female.png
+#Male Battlescape sprites
+  - type: CIVILIAN_10_ARMOR_MALE.PCK
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Armors/Civilians/Civilian_10/Civilian_10_Male_Battlescape.png
+#Female Battlescape sprites
+  - type: CIVILIAN_10_ARMOR_FEMALE.PCK
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Armors/Civilians/Civilian_10/Civilian_10_Female_Battlescape.png
+
+
+## CIVILIAN_11 ARMOR 
+
+#Male inventory sprites 
+  - type: CIVILIAN_11_ARMOR_MALE.SPK
+    singleImage: true
+    files:
+      0: Resources/Armors/Civilians/Civilian_11/Civilian_11_Male.png
+#Female inventory sprites 
+  - type: CIVILIAN_11_ARMOR_FEMALE.SPK
+    singleImage: true
+    files:
+      0: Resources/Armors/Civilians/Civilian_11/Civilian_11_Female.png
+#Male Battlescape sprites
+  - type: CIVILIAN_11_ARMOR_MALE.PCK
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Armors/Civilians/Civilian_11/Civilian_11_Male_Battlescape.png
+#Female Battlescape sprites
+  - type: CIVILIAN_11_ARMOR_FEMALE.PCK
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Armors/Civilians/Civilian_11/Civilian_11_Female_Battlescape.png
+
+
+## CIVILIAN_12 ARMOR 
+
+#Male inventory sprites 
+  - type: CIVILIAN_12_ARMOR_MALE.SPK
+    singleImage: true
+    files:
+      0: Resources/Armors/Civilians/Civilian_12/Civilian_12_Male.png
+#Female inventory sprites 
+  - type: CIVILIAN_12_ARMOR_FEMALE.SPK
+    singleImage: true
+    files:
+      0: Resources/Armors/Civilians/Civilian_12/Civilian_12_Female.png
+#Male Battlescape sprites
+  - type: CIVILIAN_12_ARMOR_MALE.PCK
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Armors/Civilians/Civilian_12/Civilian_12_Male_Battlescape.png
+#Female Battlescape sprites
+  - type: CIVILIAN_12_ARMOR_FEMALE.PCK
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Armors/Civilians/Civilian_12/Civilian_12_Female_Battlescape.png
+
+
+## CIVILIAN_13 ARMOR 
+
+#Male inventory sprites 
+  - type: CIVILIAN_13_ARMOR_MALE.SPK
+    singleImage: true
+    files:
+      0: Resources/Armors/Civilians/Civilian_13/Civilian_13_Male.png
+#Female inventory sprites 
+  - type: CIVILIAN_13_ARMOR_FEMALE.SPK
+    singleImage: true
+    files:
+      0: Resources/Armors/Civilians/Civilian_13/Civilian_13_Female.png
+#Male Battlescape sprites
+  - type: CIVILIAN_13_ARMOR_MALE.PCK
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Armors/Civilians/Civilian_13/Civilian_13_Male_Battlescape.png
+#Female Battlescape sprites
+  - type: CIVILIAN_13_ARMOR_FEMALE.PCK
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Armors/Civilians/Civilian_13/Civilian_13_Female_Battlescape.png
+
+
+## CIVILIAN_14 ARMOR 
+
+#Male inventory sprites 
+  - type: CIVILIAN_14_ARMOR_MALE.SPK
+    singleImage: true
+    files:
+      0: Resources/Armors/Civilians/Civilian_14/Civilian_14_Male.png
+#Female inventory sprites 
+  - type: CIVILIAN_14_ARMOR_FEMALE.SPK
+    singleImage: true
+    files:
+      0: Resources/Armors/Civilians/Civilian_14/Civilian_14_Female.png
+#Male Battlescape sprites
+  - type: CIVILIAN_14_ARMOR_MALE.PCK
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Armors/Civilians/Civilian_14/Civilian_14_Male_Battlescape.png
+#Female Battlescape sprites
+  - type: CIVILIAN_14_ARMOR_FEMALE.PCK
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Armors/Civilians/Civilian_14/Civilian_14_Female_Battlescape.png
+
+
+## CIVILIAN_15 ARMOR 
+
+#Male inventory sprites 
+  - type: CIVILIAN_15_ARMOR_MALE.SPK
+    singleImage: true
+    files:
+      0: Resources/Armors/Civilians/Civilian_15/Civilian_15_Male.png
+#Female inventory sprites 
+  - type: CIVILIAN_15_ARMOR_FEMALE.SPK
+    singleImage: true
+    files:
+      0: Resources/Armors/Civilians/Civilian_15/Civilian_15_Female.png
+#Male Battlescape sprites
+  - type: CIVILIAN_15_ARMOR_MALE.PCK
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Armors/Civilians/Civilian_15/Civilian_15_Male_Battlescape.png
+#Female Battlescape sprites
+  - type: CIVILIAN_15_ARMOR_FEMALE.PCK
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Armors/Civilians/Civilian_15/Civilian_15_Female_Battlescape.png
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

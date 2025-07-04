@@ -1,0 +1,574 @@
+units:
+
+#AI units
+##KHORNE CULTISTS
+
+#KHORNE CULTIST RIFLEMAN MALE
+  - type: STR_KHORNE_CULTIST_RIFLEMAN_MALE
+    race: STR_KHORNE_CULTISTS
+    rank: STR_LIVE_SOLDIER
+    stats:
+      tu: 55
+      stamina: 60
+      health: 35
+      bravery: 60
+      reactions: 50
+      firing: 50
+      throwing: 30
+      strength: 40
+      psiStrength: 50
+      psiSkill: 0
+      melee: 55
+    armor: STR_KHORNE_CULTIST_ARMOR_MALE
+    standHeight: 22
+    kneelHeight: 14
+    value: 10
+    moraleLossWhenKilled: 100
+    deathSound: [41, 42, 43] #human male 
+    intelligence: 3
+    aggression: 3
+    berserkChance: 100
+    capturable: true
+    liveAlien: STR_LIVE_KHORNE_CULTIST
+    builtInWeaponSets:
+#ITEM SET 0
+      - - STR_AUTOGUN_KHORNE
+        - STR_AUTOGUN_MAGAZINE
+        - STR_AUTOGUN_MAGAZINE
+#ITEM SET 1
+      - - STR_AUTOGUN_KHORNE
+        - STR_AUTOGUN_MAGAZINE
+        - STR_AUTOGUN_MAGAZINE
+        - STR_FRAG_GRENADE
+#ITEM SET 2
+      - - STR_LASGUN_KHORNE
+        - STR_FRAG_GRENADE
+        - STR_FRAG_GRENADE
+
+
+#KHORNE CULTIST RIFLEMAN FEMALE
+  - type: STR_KHORNE_CULTIST_RIFLEMAN_FEMALE
+    race: STR_KHORNE_CULTISTS
+    rank: STR_LIVE_SOLDIER
+    stats:
+      tu: 55
+      stamina: 60
+      health: 35
+      bravery: 60
+      reactions: 50
+      firing: 50
+      throwing: 30
+      strength: 40
+      psiStrength: 50
+      psiSkill: 0
+      melee: 55
+    armor: STR_KHORNE_CULTIST_ARMOR_FEMALE
+    standHeight: 22
+    kneelHeight: 14
+    value: 10
+    moraleLossWhenKilled: 100
+    deathSound: [44, 45, 46] #human female
+    intelligence: 3
+    aggression: 3
+    berserkChance: 100
+    capturable: true
+    liveAlien: STR_LIVE_KHORNE_CULTIST
+    builtInWeaponSets:
+#ITEM SET 0
+      - - STR_AUTOGUN_KHORNE
+        - STR_AUTOGUN_MAGAZINE
+        - STR_AUTOGUN_MAGAZINE
+#ITEM SET 1
+      - - STR_AUTOGUN_KHORNE
+        - STR_AUTOGUN_MAGAZINE
+        - STR_AUTOGUN_MAGAZINE
+        - STR_FRAG_GRENADE
+#ITEM SET 2
+      - - STR_LASGUN_KHORNE
+        - STR_FRAG_GRENADE
+        - STR_FRAG_GRENADE
+
+
+#KHORNE CULTIST MARKSMAN MALE
+  - type: STR_KHORNE_CULTIST_MARKSMAN_MALE
+    race: STR_KHORNE_CULTISTS
+    rank: STR_LIVE_MEDIC
+    stats:
+      tu: 55
+      stamina: 60
+      health: 35
+      bravery: 60
+      reactions: 60
+      firing: 60
+      throwing: 30
+      strength: 40
+      psiStrength: 50
+      psiSkill: 0
+      melee: 50
+    armor: STR_KHORNE_CULTIST_ARMOR_MALE
+    standHeight: 22
+    kneelHeight: 14
+    value: 10
+    moraleLossWhenKilled: 100
+    deathSound: [41, 42, 43] #human male 
+    intelligence: 3
+    aggression: 1
+    berserkChance: 100
+    capturable: true
+    liveAlien: STR_LIVE_KHORNE_CULTIST
+    builtInWeaponSets:
+#ITEM SET 0
+      - - STR_MARKSMAN_AUTOGUN_KHORNE
+        - STR_AUTOGUN_MAGAZINE
+        - STR_AUTOGUN_MAGAZINE
+#ITEM SET 1
+      - - STR_MARKSMAN_AUTOGUN_KHORNE
+        - STR_AUTOGUN_MAGAZINE
+        - STR_AUTOGUN_MAGAZINE
+        - STR_FRAG_GRENADE
+#ITEM SET 2
+      - - STR_MARKSMAN_LASGUN_KHORNE
+        - STR_FRAG_GRENADE
+        - STR_FRAG_GRENADE
+
+
+#KHORNE CULTIST MARKSMAN MALE
+  - type: STR_KHORNE_CULTIST_MARKSMAN_FEMALE
+    race: STR_KHORNE_CULTISTS
+    rank: STR_LIVE_MEDIC
+    stats:
+      tu: 55
+      stamina: 60
+      health: 35
+      bravery: 60
+      reactions: 60
+      firing: 60
+      throwing: 30
+      strength: 40
+      psiStrength: 50
+      psiSkill: 0
+      melee: 50
+    armor: STR_KHORNE_CULTIST_ARMOR_FEMALE
+    standHeight: 22
+    kneelHeight: 14
+    value: 10
+    moraleLossWhenKilled: 100
+    deathSound: [44, 45, 46] #human female
+    intelligence: 3
+    aggression: 1
+    berserkChance: 100
+    capturable: true
+    liveAlien: STR_LIVE_KHORNE_CULTIST
+    builtInWeaponSets:
+#ITEM SET 0
+      - - STR_MARKSMAN_AUTOGUN_KHORNE
+        - STR_AUTOGUN_MAGAZINE
+        - STR_AUTOGUN_MAGAZINE
+#ITEM SET 1
+      - - STR_MARKSMAN_AUTOGUN_KHORNE
+        - STR_AUTOGUN_MAGAZINE
+        - STR_AUTOGUN_MAGAZINE
+        - STR_FRAG_GRENADE
+#ITEM SET 2
+      - - STR_MARKSMAN_LASGUN_KHORNE
+        - STR_FRAG_GRENADE
+        - STR_FRAG_GRENADE
+
+
+
+
+
+#KHORNE CULTIST GUNNER MALE
+  - type: STR_KHORNE_CULTIST_GUNNER_MALE
+    race: STR_KHORNE_CULTISTS
+    rank: STR_LIVE_MEDIC
+    stats:
+      tu: 55
+      stamina: 60
+      health: 35
+      bravery: 60
+      reactions: 45
+      firing: 50
+      throwing: 30
+      strength: 45
+      psiStrength: 50
+      psiSkill: 0
+      melee: 50
+    armor: STR_KHORNE_CULTIST_ARMOR_MALE
+    standHeight: 22
+    kneelHeight: 14
+    value: 10
+    moraleLossWhenKilled: 100
+    deathSound: [41, 42, 43] #human male 
+    intelligence: 3
+    aggression: 2
+    berserkChance: 100
+    capturable: true
+    liveAlien: STR_LIVE_KHORNE_CULTIST
+    builtInWeaponSets:
+#ITEM SET 0
+      - - STR_HEAVY_STUBBER_KHORNE
+        - STR_HEAVY_STUBBER_AMMO_BELT
+        - STR_HEAVY_STUBBER_AMMO_BELT
+#ITEM SET 1
+      - - STR_HEAVY_STUBBER_KHORNE
+        - STR_HEAVY_STUBBER_AMMO_BELT
+        - STR_HEAVY_STUBBER_AMMO_BELT
+        - STR_FRAG_GRENADE
+#ITEM SET 2
+      - - STR_TWIN_LASGUN_KHORNE
+        - STR_FRAG_GRENADE
+        - STR_FRAG_GRENADE
+
+
+#KHORNE CULTIST GUNNER FEMALE
+  - type: STR_KHORNE_CULTIST_GUNNER_FEMALE
+    race: STR_KHORNE_CULTISTS
+    rank: STR_LIVE_MEDIC
+    stats:
+      tu: 55
+      stamina: 60
+      health: 35
+      bravery: 60
+      reactions: 45
+      firing: 50
+      throwing: 30
+      strength: 45
+      psiStrength: 50
+      psiSkill: 0
+      melee: 50
+    armor: STR_KHORNE_CULTIST_ARMOR_FEMALE
+    standHeight: 22
+    kneelHeight: 14
+    value: 10
+    moraleLossWhenKilled: 100
+    deathSound: [44, 45, 46] #human female
+    intelligence: 3
+    aggression: 2
+    berserkChance: 100
+    capturable: true
+    liveAlien: STR_LIVE_KHORNE_CULTIST
+    builtInWeaponSets:
+#ITEM SET 0
+      - - STR_HEAVY_STUBBER_KHORNE
+        - STR_HEAVY_STUBBER_AMMO_BELT
+        - STR_HEAVY_STUBBER_AMMO_BELT
+#ITEM SET 1
+      - - STR_HEAVY_STUBBER_KHORNE
+        - STR_HEAVY_STUBBER_AMMO_BELT
+        - STR_HEAVY_STUBBER_AMMO_BELT
+        - STR_FRAG_GRENADE
+#ITEM SET 2
+      - - STR_TWIN_LASGUN_KHORNE
+        - STR_FRAG_GRENADE
+        - STR_FRAG_GRENADE
+
+
+
+
+
+#KHORNE CULTIST GRENADIER MALE
+  - type: STR_KHORNE_CULTIST_GRENADIER_MALE
+    race: STR_KHORNE_CULTISTS
+    rank: STR_LIVE_MEDIC
+    stats:
+      tu: 55
+      stamina: 60
+      health: 35
+      bravery: 60
+      reactions: 40
+      firing: 50
+      throwing: 30
+      strength: 50
+      psiStrength: 50
+      psiSkill: 0
+      melee: 50
+    armor: STR_KHORNE_CULTIST_ARMOR_MALE
+    standHeight: 22
+    kneelHeight: 14
+    value: 10
+    moraleLossWhenKilled: 100
+    deathSound: [41, 42, 43] #human male 
+    intelligence: 3
+    aggression: 2
+    berserkChance: 100
+    capturable: true
+    liveAlien: STR_LIVE_KHORNE_CULTIST
+    builtInWeaponSets:
+#ITEM SET 0
+      - - STR_GRENADE_LAUNCHER_KHORNE
+        - STR_FRAG_GRENADE_MAGAZINE
+        - STR_FRAG_GRENADE_MAGAZINE
+#ITEM SET 1
+      - - STR_GRENADE_LAUNCHER_KHORNE
+        - STR_FRAG_GRENADE_MAGAZINE
+        - STR_FRAG_GRENADE_MAGAZINE
+        - STR_FRAG_GRENADE
+        - STR_FRAG_GRENADE
+#ITEM SET 2
+      - - STR_GRENADE_LAUNCHER_KHORNE
+        - STR_KRAK_GRENADE_MAGAZINE
+        - STR_KRAK_GRENADE_MAGAZINE
+        - STR_KRAK_GRENADE
+        - STR_KRAK_GRENADE
+
+
+#KHORNE CULTIST GRENADIER FEMALE
+  - type: STR_KHORNE_CULTIST_GRENADIER_FEMALE
+    race: STR_KHORNE_CULTISTS
+    rank: STR_LIVE_MEDIC
+    stats:
+      tu: 55
+      stamina: 60
+      health: 35
+      bravery: 60
+      reactions: 40
+      firing: 50
+      throwing: 30
+      strength: 50
+      psiStrength: 50
+      psiSkill: 0
+      melee: 50
+    armor: STR_KHORNE_CULTIST_ARMOR_FEMALE
+    standHeight: 22
+    kneelHeight: 14
+    value: 10
+    moraleLossWhenKilled: 100
+    deathSound: [44, 45, 46] #human female
+    intelligence: 3
+    aggression: 2
+    berserkChance: 100
+    capturable: true
+    liveAlien: STR_LIVE_KHORNE_CULTIST
+    builtInWeaponSets:
+#ITEM SET 0
+      - - STR_GRENADE_LAUNCHER_KHORNE
+        - STR_FRAG_GRENADE_MAGAZINE
+        - STR_FRAG_GRENADE_MAGAZINE
+#ITEM SET 1
+      - - STR_GRENADE_LAUNCHER_KHORNE
+        - STR_FRAG_GRENADE_MAGAZINE
+        - STR_FRAG_GRENADE_MAGAZINE
+        - STR_FRAG_GRENADE
+        - STR_FRAG_GRENADE
+#ITEM SET 2
+      - - STR_GRENADE_LAUNCHER_KHORNE
+        - STR_KRAK_GRENADE_MAGAZINE
+        - STR_KRAK_GRENADE_MAGAZINE
+        - STR_KRAK_GRENADE
+        - STR_KRAK_GRENADE
+
+
+
+
+#KHORNE CULTIST FANATIC MALE
+  - type: STR_KHORNE_CULTIST_FANATIC_MALE
+    race: STR_KHORNE_CULTISTS
+    rank: STR_LIVE_TERRORIST
+    stats:
+      tu: 80
+      stamina: 80
+      health: 45
+      bravery: 80
+      reactions: 50
+      firing: 50
+      throwing: 40
+      strength: 50
+      psiStrength: 50
+      psiSkill: 0
+      melee: 70
+    armor: STR_KHORNE_CULTIST_ARMOR_MALE
+    standHeight: 22
+    kneelHeight: 14
+    value: 10
+    moraleLossWhenKilled: 100
+    deathSound: [41, 42, 43] #human male 
+    intelligence: 3
+    aggression: 5
+    berserkChance: 100
+    isLeeroyJenkins: true
+    energyRecovery: 80
+    capturable: true
+    liveAlien: STR_LIVE_KHORNE_CULTIST
+    builtInWeaponSets:
+#ITEM SET 0
+      - - STR_COMBAT_AXE_KHORNE
+        - STR_AUTOPISTOL_KHORNE
+        - STR_AUTOPISTOL_MAGAZINE
+        - STR_AUTOPISTOL_MAGAZINE
+#ITEM SET 1
+      - - STR_COMBAT_AXE_KHORNE
+        - STR_AUTOPISTOL_KHORNE
+        - STR_AUTOPISTOL_MAGAZINE
+        - STR_AUTOPISTOL_MAGAZINE
+        - STR_FRAG_GRENADE
+#ITEM SET 2
+      - - STR_COMBAT_AXE_KHORNE
+        - STR_LASPISTOL_KHORNE
+        - STR_FRAG_GRENADE
+        - STR_FRAG_GRENADE
+
+
+
+#KHORNE CULTIST FANATIC FEMALE
+  - type: STR_KHORNE_CULTIST_FANATIC_FEMALE
+    race: STR_KHORNE_CULTISTS
+    rank: STR_LIVE_TERRORIST
+    stats:
+      tu: 80
+      stamina: 80
+      health: 45
+      bravery: 80
+      reactions: 50
+      firing: 50
+      throwing: 40
+      strength: 50
+      psiStrength: 50
+      psiSkill: 0
+      melee: 70
+    armor: STR_KHORNE_CULTIST_ARMOR_FEMALE
+    standHeight: 22
+    kneelHeight: 14
+    value: 10
+    moraleLossWhenKilled: 100
+    deathSound: [44, 45, 46] #human female
+    intelligence: 3
+    aggression: 5
+    berserkChance: 100
+    isLeeroyJenkins: true
+    energyRecovery: 80
+    capturable: true
+    liveAlien: STR_LIVE_KHORNE_CULTIST
+    builtInWeaponSets:
+#ITEM SET 0
+      - - STR_COMBAT_AXE_KHORNE
+        - STR_AUTOPISTOL_KHORNE
+        - STR_AUTOPISTOL_MAGAZINE
+        - STR_AUTOPISTOL_MAGAZINE
+#ITEM SET 1
+      - - STR_COMBAT_AXE_KHORNE
+        - STR_AUTOPISTOL_KHORNE
+        - STR_AUTOPISTOL_MAGAZINE
+        - STR_AUTOPISTOL_MAGAZINE
+        - STR_FRAG_GRENADE
+#ITEM SET 2
+      - - STR_COMBAT_AXE_KHORNE
+        - STR_LASPISTOL_KHORNE
+        - STR_FRAG_GRENADE
+        - STR_FRAG_GRENADE
+
+
+#KHORNE CULTIST LEADER MALE
+  - type: STR_KHORNE_CULTIST_LEADER_MALE
+    race: STR_KHORNE_CULTISTS
+    rank: STR_LIVE_LEADER
+    stats:
+      tu: 60
+      stamina: 60
+      health: 45
+      bravery: 60
+      reactions: 60
+      firing: 60
+      throwing: 40
+      strength: 40
+      psiStrength: 60
+      psiSkill: 0
+      melee: 80
+    armor: STR_KHORNE_CULTIST_LEADER_ARMOR_MALE
+    standHeight: 22
+    kneelHeight: 14
+    value: 15
+    moraleLossWhenKilled: 200
+    deathSound: [41, 42, 43] #human male 
+    intelligence: 3
+    aggression: 3
+    berserkChance: 100
+    capturable: true
+    liveAlien: STR_LIVE_KHORNE_CULTIST_LEADER
+    builtInWeaponSets:
+#ITEM SET 0
+      - - STR_COMBAT_KNIFE_KHORNE
+        - STR_AUTOPISTOL_KHORNE
+        - STR_AUTOPISTOL_MAGAZINE
+        - STR_AUTOPISTOL_MAGAZINE
+#ITEM SET 1
+      - - STR_SWORD_KHORNE
+        - STR_AUTOPISTOL_KHORNE
+        - STR_AUTOPISTOL_MAGAZINE
+        - STR_AUTOPISTOL_MAGAZINE
+        - STR_FRAG_GRENADE
+#ITEM SET 2
+      - - STR_SWORD_KHORNE
+        - STR_LASPISTOL_KHORNE
+        - STR_FRAG_GRENADE
+        - STR_FRAG_GRENADE
+
+
+
+#KHORNE CULTIST LEADER FEMALE
+  - type: STR_KHORNE_CULTIST_LEADER_FEMALE
+    race: STR_KHORNE_CULTISTS
+    rank: STR_LIVE_LEADER
+    stats:
+      tu: 60
+      stamina: 60
+      health: 45
+      bravery: 60
+      reactions: 60
+      firing: 60
+      throwing: 40
+      strength: 40
+      psiStrength: 60
+      psiSkill: 0
+      melee: 80
+    armor: STR_KHORNE_CULTIST_LEADER_ARMOR_FEMALE
+    standHeight: 22
+    kneelHeight: 14
+    value: 15
+    moraleLossWhenKilled: 200
+    deathSound: [44, 45, 46] #human female
+    intelligence: 3
+    aggression: 3
+    berserkChance: 100
+    capturable: true
+    liveAlien: STR_LIVE_KHORNE_CULTIST_LEADER
+    builtInWeaponSets:
+#ITEM SET 0
+      - - STR_COMBAT_KNIFE_KHORNE
+        - STR_AUTOPISTOL_KHORNE
+        - STR_AUTOPISTOL_MAGAZINE
+        - STR_AUTOPISTOL_MAGAZINE
+#ITEM SET 1
+      - - STR_SWORD_KHORNE
+        - STR_AUTOPISTOL_KHORNE
+        - STR_AUTOPISTOL_MAGAZINE
+        - STR_AUTOPISTOL_MAGAZINE
+        - STR_FRAG_GRENADE
+#ITEM SET 2
+      - - STR_SWORD_KHORNE
+        - STR_LASPISTOL_KHORNE
+        - STR_FRAG_GRENADE
+        - STR_FRAG_GRENADE
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

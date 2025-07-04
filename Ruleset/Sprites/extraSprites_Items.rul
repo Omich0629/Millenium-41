@@ -732,7 +732,7 @@ extraSprites:
 #      ...
 
 
-#Chaos Units Corpses (2200 - ????)
+#Chaos Units Corpses (2200 - 2299)
 
       2200: Resources/Armors/Chaos_Cultists/Cultist_Armor/Chaos_Cultist_Armor_Corpse_Inv.png
       2201: Resources/Armors/Chaos_Cultists/Cultist_Leader_Armor/Chaos_Cultist_Leader_Armor_Corpse_Inv.png
@@ -742,6 +742,39 @@ extraSprites:
       2204: Resources/Armors/Chaos_Warriors/Squad_Leader_Armor/Chaos_Warrior_Squad_Leader_Armor_Corpse_Inv.png
       2205: Resources/Armors/Chaos_Warriors/Psyker_Armor/Chaos_Warrior_Psyker_Armor_Corpse_Inv.png
 
+#Khorne Units Corpses (2300 - 2399)
+
+      2300: Resources/Armors/Khorne_Cultists/Cultist_Armor/Khorne_Cultist_Armor_Corpse_Inv.png
+      2301: Resources/Armors/Khorne_Cultists/Cultist_Leader_Armor/Khorne_Cultist_Leader_Armor_Corpse_Inv.png
+
+#Nurgle Units Corpses (2400 - 2499)
+
+
+#Tzeentch Units Corpses (2500 - 2599)
+
+
+#Slaanesh Units Corpses (2600 - 2699)
+
+
+
+#Civilian Units Corpses (3000 - ????)
+
+      3000: Resources/Armors/Civilians/Civilian_00/Civilian_00_Corpse_Inv.png
+      3001: Resources/Armors/Civilians/Civilian_01/Civilian_01_Corpse_Inv.png
+      3002: Resources/Armors/Civilians/Civilian_02/Civilian_02_Corpse_Inv.png
+      3003: Resources/Armors/Civilians/Civilian_03/Civilian_03_Corpse_Inv.png
+      3004: Resources/Armors/Civilians/Civilian_04/Civilian_04_Corpse_Inv.png
+      3005: Resources/Armors/Civilians/Civilian_05/Civilian_05_Corpse_Inv.png
+      3006: Resources/Armors/Civilians/Civilian_06/Civilian_06_Corpse_Inv.png
+      3007: Resources/Armors/Civilians/Civilian_07/Civilian_07_Corpse_Inv.png
+      3008: Resources/Armors/Civilians/Civilian_08/Civilian_08_Corpse_Inv.png
+      3009: Resources/Armors/Civilians/Civilian_09/Civilian_09_Corpse_Inv.png
+      3010: Resources/Armors/Civilians/Civilian_10/Civilian_10_Corpse_Inv.png
+      3011: Resources/Armors/Civilians/Civilian_11/Civilian_11_Corpse_Inv.png
+      3012: Resources/Armors/Civilians/Civilian_12/Civilian_12_Corpse_Inv.png
+      3013: Resources/Armors/Civilians/Civilian_13/Civilian_13_Corpse_Inv.png
+      3014: Resources/Armors/Civilians/Civilian_14/Civilian_14_Corpse_Inv.png
+      3015: Resources/Armors/Civilians/Civilian_15/Civilian_15_Corpse_Inv.png
 
 ## FLOOR SPRITES
   - type: FLOOROB.PCK
@@ -1205,7 +1238,7 @@ extraSprites:
 
 
 
-#Chaos Units Corpses (2200 - ????)
+#Chaos Units Corpses (2200 - 2299)
 
       2200: Resources/Armors/Chaos_Cultists/Cultist_Armor/Chaos_Cultist_Armor_Corpse_Floor.png
       2201: Resources/Armors/Chaos_Cultists/Cultist_Leader_Armor/Chaos_Cultist_Leader_Armor_Corpse_Floor.png
@@ -1214,6 +1247,33 @@ extraSprites:
       2203: Resources/Armors/Chaos_Warriors/Shock_Trooper_Armor/Chaos_Warrior_Shock_Trooper_Armor_Corpse_Floor.png
       2204: Resources/Armors/Chaos_Warriors/Squad_Leader_Armor/Chaos_Warrior_Squad_Leader_Armor_Corpse_Floor.png
       2205: Resources/Armors/Chaos_Warriors/Psyker_Armor/Chaos_Warrior_Psyker_Armor_Corpse_Floor.png
+
+
+#Khorne Units Corpses (2300 - 2399)
+
+      2300: Resources/Armors/Khorne_Cultists/Cultist_Armor/Khorne_Cultist_Armor_Corpse_Floor.png
+      2301: Resources/Armors/Khorne_Cultists/Cultist_Leader_Armor/Khorne_Cultist_Leader_Armor_Corpse_Floor.png
+
+
+#Civilian Units Corpses (3000 - ????)
+
+      3000: Resources/Armors/Civilians/Civilian_00/Civilian_00_Corpse_Floor.png
+      3001: Resources/Armors/Civilians/Civilian_01/Civilian_01_Corpse_Floor.png
+      3002: Resources/Armors/Civilians/Civilian_02/Civilian_02_Corpse_Floor.png
+      3003: Resources/Armors/Civilians/Civilian_03/Civilian_03_Corpse_Floor.png
+      3004: Resources/Armors/Civilians/Civilian_04/Civilian_04_Corpse_Floor.png
+      3005: Resources/Armors/Civilians/Civilian_05/Civilian_05_Corpse_Floor.png
+      3006: Resources/Armors/Civilians/Civilian_06/Civilian_06_Corpse_Floor.png
+      3007: Resources/Armors/Civilians/Civilian_07/Civilian_07_Corpse_Floor.png
+      3008: Resources/Armors/Civilians/Civilian_08/Civilian_08_Corpse_Floor.png
+      3009: Resources/Armors/Civilians/Civilian_09/Civilian_09_Corpse_Floor.png
+      3010: Resources/Armors/Civilians/Civilian_10/Civilian_10_Corpse_Floor.png
+      3011: Resources/Armors/Civilians/Civilian_11/Civilian_11_Corpse_Floor.png
+      3012: Resources/Armors/Civilians/Civilian_12/Civilian_12_Corpse_Floor.png
+      3013: Resources/Armors/Civilians/Civilian_13/Civilian_13_Corpse_Floor.png
+      3014: Resources/Armors/Civilians/Civilian_14/Civilian_14_Corpse_Floor.png
+      3015: Resources/Armors/Civilians/Civilian_15/Civilian_15_Corpse_Floor.png
+
 
 
 

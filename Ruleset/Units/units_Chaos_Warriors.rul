@@ -538,7 +538,7 @@ units:
 
     standHeight: 22
     kneelHeight: 14
-    value: 15
+    value: 25
     moraleLossWhenKilled: 100
     deathSound: [41, 42, 43] #human male 
     intelligence: 8
@@ -575,7 +575,7 @@ units:
 
     standHeight: 22
     kneelHeight: 14
-    value: 15
+    value: 25
     moraleLossWhenKilled: 100
     deathSound: [44, 45, 46] #human female
     intelligence: 8

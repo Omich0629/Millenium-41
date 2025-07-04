@@ -1,0 +1,1049 @@
+armors:
+
+#CIVILIAN_00 ARMOR
+
+  - type: STR_CIVILIAN_00_ARMOR_MALE
+#GENERAL
+    drawingRoutine: 0 #x-com soldier
+    spriteSheet: CIVILIAN_00_ARMOR_MALE.PCK
+    spriteInv: CIVILIAN_00_ARMOR_MALE
+    corpseBattle:
+      - STR_CORPSE_CIVILIAN_00
+    loftempsSet: [ 3 ]
+    weight: 0
+
+    builtInWeapons:
+      - STR_BACKPACK_SLOT
+
+#PROTECTION
+    frontArmor: 0
+    sideArmor: 0
+    rearArmor: 0
+    underArmor: 0
+    damageModifier:
+      - 1.0 #None
+      - 1.0 #Armor Piercing
+      - 1.0 #Incendiary
+      - 1.0 #High Explosive
+      - 1.0 #Laser
+      - 1.0 #Plasma
+      - 1.0 #Stun
+      - 1.0 #Melee
+      - 1.0 #Acid
+      - 1.0 #Smoke
+      - 1.0 #Melta
+
+  - type: STR_CIVILIAN_00_ARMOR_FEMALE
+#GENERAL
+    drawingRoutine: 0 #x-com soldier
+    spriteSheet: CIVILIAN_00_ARMOR_FEMALE.PCK
+    spriteInv: CIVILIAN_00_ARMOR_FEMALE
+    corpseBattle:
+      - STR_CORPSE_CIVILIAN_00
+    loftempsSet: [ 3 ]
+    weight: 0
+
+    builtInWeapons:
+      - STR_BACKPACK_SLOT
+
+#PROTECTION
+    frontArmor: 0
+    sideArmor: 0
+    rearArmor: 0
+    underArmor: 0
+    damageModifier:
+      - 1.0 #None
+      - 1.0 #Armor Piercing
+      - 1.0 #Incendiary
+      - 1.0 #High Explosive
+      - 1.0 #Laser
+      - 1.0 #Plasma
+      - 1.0 #Stun
+      - 1.0 #Melee
+      - 1.0 #Acid
+      - 1.0 #Smoke
+      - 1.0 #Melta
+
+
+#CIVILIAN_01 ARMOR
+
+  - type: STR_CIVILIAN_01_ARMOR_MALE
+#GENERAL
+    drawingRoutine: 0 #x-com soldier
+    spriteSheet: CIVILIAN_01_ARMOR_MALE.PCK
+    spriteInv: CIVILIAN_01_ARMOR_MALE
+    corpseBattle:
+      - STR_CORPSE_CIVILIAN_01
+    loftempsSet: [ 3 ]
+    weight: 0
+
+    builtInWeapons:
+      - STR_BACKPACK_SLOT
+
+#PROTECTION
+    frontArmor: 0
+    sideArmor: 0
+    rearArmor: 0
+    underArmor: 0
+    damageModifier:
+      - 1.0 #None
+      - 1.0 #Armor Piercing
+      - 1.0 #Incendiary
+      - 1.0 #High Explosive
+      - 1.0 #Laser
+      - 1.0 #Plasma
+      - 1.0 #Stun
+      - 1.0 #Melee
+      - 1.0 #Acid
+      - 1.0 #Smoke
+      - 1.0 #Melta
+
+  - type: STR_CIVILIAN_01_ARMOR_FEMALE
+#GENERAL
+    drawingRoutine: 0 #x-com soldier
+    spriteSheet: CIVILIAN_01_ARMOR_FEMALE.PCK
+    spriteInv: CIVILIAN_01_ARMOR_FEMALE
+    corpseBattle:
+      - STR_CORPSE_CIVILIAN_01
+    loftempsSet: [ 3 ]
+    weight: 0
+
+    builtInWeapons:
+      - STR_BACKPACK_SLOT
+
+#PROTECTION
+    frontArmor: 0
+    sideArmor: 0
+    rearArmor: 0
+    underArmor: 0
+    damageModifier:
+      - 1.0 #None
+      - 1.0 #Armor Piercing
+      - 1.0 #Incendiary
+      - 1.0 #High Explosive
+      - 1.0 #Laser
+      - 1.0 #Plasma
+      - 1.0 #Stun
+      - 1.0 #Melee
+      - 1.0 #Acid
+      - 1.0 #Smoke
+      - 1.0 #Melta
+
+
+#CIVILIAN_02 ARMOR
+
+  - type: STR_CIVILIAN_02_ARMOR_MALE
+#GENERAL
+    drawingRoutine: 0 #x-com soldier
+    spriteSheet: CIVILIAN_02_ARMOR_MALE.PCK
+    spriteInv: CIVILIAN_02_ARMOR_MALE
+    corpseBattle:
+      - STR_CORPSE_CIVILIAN_02
+    loftempsSet: [ 3 ]
+    weight: 0
+
+    builtInWeapons:
+      - STR_BACKPACK_SLOT
+
+#PROTECTION
+    frontArmor: 0
+    sideArmor: 0
+    rearArmor: 0
+    underArmor: 0
+    damageModifier:
+      - 1.0 #None
+      - 1.0 #Armor Piercing
+      - 1.0 #Incendiary
+      - 1.0 #High Explosive
+      - 1.0 #Laser
+      - 1.0 #Plasma
+      - 1.0 #Stun
+      - 1.0 #Melee
+      - 1.0 #Acid
+      - 1.0 #Smoke
+      - 1.0 #Melta
+
+  - type: STR_CIVILIAN_02_ARMOR_FEMALE
+#GENERAL
+    drawingRoutine: 0 #x-com soldier
+    spriteSheet: CIVILIAN_02_ARMOR_FEMALE.PCK
+    spriteInv: CIVILIAN_02_ARMOR_FEMALE
+    corpseBattle:
+      - STR_CORPSE_CIVILIAN_02
+    loftempsSet: [ 3 ]
+    weight: 0
+
+    builtInWeapons:
+      - STR_BACKPACK_SLOT
+
+#PROTECTION
+    frontArmor: 0
+    sideArmor: 0
+    rearArmor: 0
+    underArmor: 0
+    damageModifier:
+      - 1.0 #None
+      - 1.0 #Armor Piercing
+      - 1.0 #Incendiary
+      - 1.0 #High Explosive
+      - 1.0 #Laser
+      - 1.0 #Plasma
+      - 1.0 #Stun
+      - 1.0 #Melee
+      - 1.0 #Acid
+      - 1.0 #Smoke
+      - 1.0 #Melta
+
+
+#CIVILIAN_03 ARMOR
+
+  - type: STR_CIVILIAN_03_ARMOR_MALE
+#GENERAL
+    drawingRoutine: 0 #x-com soldier
+    spriteSheet: CIVILIAN_03_ARMOR_MALE.PCK
+    spriteInv: CIVILIAN_03_ARMOR_MALE
+    corpseBattle:
+      - STR_CORPSE_CIVILIAN_03
+    loftempsSet: [ 3 ]
+    weight: 0
+
+    builtInWeapons:
+      - STR_BACKPACK_SLOT
+
+#PROTECTION
+    frontArmor: 0
+    sideArmor: 0
+    rearArmor: 0
+    underArmor: 0
+    damageModifier:
+      - 1.0 #None
+      - 1.0 #Armor Piercing
+      - 1.0 #Incendiary
+      - 1.0 #High Explosive
+      - 1.0 #Laser
+      - 1.0 #Plasma
+      - 1.0 #Stun
+      - 1.0 #Melee
+      - 1.0 #Acid
+      - 1.0 #Smoke
+      - 1.0 #Melta
+
+  - type: STR_CIVILIAN_03_ARMOR_FEMALE
+#GENERAL
+    drawingRoutine: 0 #x-com soldier
+    spriteSheet: CIVILIAN_03_ARMOR_FEMALE.PCK
+    spriteInv: CIVILIAN_03_ARMOR_FEMALE
+    corpseBattle:
+      - STR_CORPSE_CIVILIAN_03
+    loftempsSet: [ 3 ]
+    weight: 0
+
+    builtInWeapons:
+      - STR_BACKPACK_SLOT
+
+#PROTECTION
+    frontArmor: 0
+    sideArmor: 0
+    rearArmor: 0
+    underArmor: 0
+    damageModifier:
+      - 1.0 #None
+      - 1.0 #Armor Piercing
+      - 1.0 #Incendiary
+      - 1.0 #High Explosive
+      - 1.0 #Laser
+      - 1.0 #Plasma
+      - 1.0 #Stun
+      - 1.0 #Melee
+      - 1.0 #Acid
+      - 1.0 #Smoke
+      - 1.0 #Melta
+
+
+#CIVILIAN_04 ARMOR
+
+  - type: STR_CIVILIAN_04_ARMOR_MALE
+#GENERAL
+    drawingRoutine: 0 #x-com soldier
+    spriteSheet: CIVILIAN_04_ARMOR_MALE.PCK
+    spriteInv: CIVILIAN_04_ARMOR_MALE
+    corpseBattle:
+      - STR_CORPSE_CIVILIAN_04
+    loftempsSet: [ 3 ]
+    weight: 0
+
+    builtInWeapons:
+      - STR_BACKPACK_SLOT
+
+#PROTECTION
+    frontArmor: 0
+    sideArmor: 0
+    rearArmor: 0
+    underArmor: 0
+    damageModifier:
+      - 1.0 #None
+      - 1.0 #Armor Piercing
+      - 1.0 #Incendiary
+      - 1.0 #High Explosive
+      - 1.0 #Laser
+      - 1.0 #Plasma
+      - 1.0 #Stun
+      - 1.0 #Melee
+      - 1.0 #Acid
+      - 1.0 #Smoke
+      - 1.0 #Melta
+
+  - type: STR_CIVILIAN_04_ARMOR_FEMALE
+#GENERAL
+    drawingRoutine: 0 #x-com soldier
+    spriteSheet: CIVILIAN_04_ARMOR_FEMALE.PCK
+    spriteInv: CIVILIAN_04_ARMOR_FEMALE
+    corpseBattle:
+      - STR_CORPSE_CIVILIAN_04
+    loftempsSet: [ 3 ]
+    weight: 0
+
+    builtInWeapons:
+      - STR_BACKPACK_SLOT
+
+#PROTECTION
+    frontArmor: 0
+    sideArmor: 0
+    rearArmor: 0
+    underArmor: 0
+    damageModifier:
+      - 1.0 #None
+      - 1.0 #Armor Piercing
+      - 1.0 #Incendiary
+      - 1.0 #High Explosive
+      - 1.0 #Laser
+      - 1.0 #Plasma
+      - 1.0 #Stun
+      - 1.0 #Melee
+      - 1.0 #Acid
+      - 1.0 #Smoke
+      - 1.0 #Melta
+
+
+#CIVILIAN_05 ARMOR
+
+  - type: STR_CIVILIAN_05_ARMOR_MALE
+#GENERAL
+    drawingRoutine: 0 #x-com soldier
+    spriteSheet: CIVILIAN_05_ARMOR_MALE.PCK
+    spriteInv: CIVILIAN_05_ARMOR_MALE
+    corpseBattle:
+      - STR_CORPSE_CIVILIAN_05
+    loftempsSet: [ 3 ]
+    weight: 0
+
+    builtInWeapons:
+      - STR_BACKPACK_SLOT
+
+#PROTECTION
+    frontArmor: 0
+    sideArmor: 0
+    rearArmor: 0
+    underArmor: 0
+    damageModifier:
+      - 1.0 #None
+      - 1.0 #Armor Piercing
+      - 1.0 #Incendiary
+      - 1.0 #High Explosive
+      - 1.0 #Laser
+      - 1.0 #Plasma
+      - 1.0 #Stun
+      - 1.0 #Melee
+      - 1.0 #Acid
+      - 1.0 #Smoke
+      - 1.0 #Melta
+
+  - type: STR_CIVILIAN_05_ARMOR_FEMALE
+#GENERAL
+    drawingRoutine: 0 #x-com soldier
+    spriteSheet: CIVILIAN_05_ARMOR_FEMALE.PCK
+    spriteInv: CIVILIAN_05_ARMOR_FEMALE
+    corpseBattle:
+      - STR_CORPSE_CIVILIAN_05
+    loftempsSet: [ 3 ]
+    weight: 0
+
+    builtInWeapons:
+      - STR_BACKPACK_SLOT
+
+#PROTECTION
+    frontArmor: 0
+    sideArmor: 0
+    rearArmor: 0
+    underArmor: 0
+    damageModifier:
+      - 1.0 #None
+      - 1.0 #Armor Piercing
+      - 1.0 #Incendiary
+      - 1.0 #High Explosive
+      - 1.0 #Laser
+      - 1.0 #Plasma
+      - 1.0 #Stun
+      - 1.0 #Melee
+      - 1.0 #Acid
+      - 1.0 #Smoke
+      - 1.0 #Melta
+
+
+#CIVILIAN_06 ARMOR
+
+  - type: STR_CIVILIAN_06_ARMOR_MALE
+#GENERAL
+    drawingRoutine: 0 #x-com soldier
+    spriteSheet: CIVILIAN_06_ARMOR_MALE.PCK
+    spriteInv: CIVILIAN_06_ARMOR_MALE
+    corpseBattle:
+      - STR_CORPSE_CIVILIAN_06
+    loftempsSet: [ 3 ]
+    weight: 0
+
+    builtInWeapons:
+      - STR_BACKPACK_SLOT
+
+#PROTECTION
+    frontArmor: 0
+    sideArmor: 0
+    rearArmor: 0
+    underArmor: 0
+    damageModifier:
+      - 1.0 #None
+      - 1.0 #Armor Piercing
+      - 1.0 #Incendiary
+      - 1.0 #High Explosive
+      - 1.0 #Laser
+      - 1.0 #Plasma
+      - 1.0 #Stun
+      - 1.0 #Melee
+      - 1.0 #Acid
+      - 1.0 #Smoke
+      - 1.0 #Melta
+
+  - type: STR_CIVILIAN_06_ARMOR_FEMALE
+#GENERAL
+    drawingRoutine: 0 #x-com soldier
+    spriteSheet: CIVILIAN_06_ARMOR_FEMALE.PCK
+    spriteInv: CIVILIAN_06_ARMOR_FEMALE
+    corpseBattle:
+      - STR_CORPSE_CIVILIAN_06
+    loftempsSet: [ 3 ]
+    weight: 0
+
+    builtInWeapons:
+      - STR_BACKPACK_SLOT
+
+#PROTECTION
+    frontArmor: 0
+    sideArmor: 0
+    rearArmor: 0
+    underArmor: 0
+    damageModifier:
+      - 1.0 #None
+      - 1.0 #Armor Piercing
+      - 1.0 #Incendiary
+      - 1.0 #High Explosive
+      - 1.0 #Laser
+      - 1.0 #Plasma
+      - 1.0 #Stun
+      - 1.0 #Melee
+      - 1.0 #Acid
+      - 1.0 #Smoke
+      - 1.0 #Melta
+
+
+#CIVILIAN_07 ARMOR
+
+  - type: STR_CIVILIAN_07_ARMOR_MALE
+#GENERAL
+    drawingRoutine: 0 #x-com soldier
+    spriteSheet: CIVILIAN_07_ARMOR_MALE.PCK
+    spriteInv: CIVILIAN_07_ARMOR_MALE
+    corpseBattle:
+      - STR_CORPSE_CIVILIAN_07
+    loftempsSet: [ 3 ]
+    weight: 0
+
+    builtInWeapons:
+      - STR_BACKPACK_SLOT
+
+#PROTECTION
+    frontArmor: 0
+    sideArmor: 0
+    rearArmor: 0
+    underArmor: 0
+    damageModifier:
+      - 1.0 #None
+      - 1.0 #Armor Piercing
+      - 1.0 #Incendiary
+      - 1.0 #High Explosive
+      - 1.0 #Laser
+      - 1.0 #Plasma
+      - 1.0 #Stun
+      - 1.0 #Melee
+      - 1.0 #Acid
+      - 1.0 #Smoke
+      - 1.0 #Melta
+
+  - type: STR_CIVILIAN_07_ARMOR_FEMALE
+#GENERAL
+    drawingRoutine: 0 #x-com soldier
+    spriteSheet: CIVILIAN_07_ARMOR_FEMALE.PCK
+    spriteInv: CIVILIAN_07_ARMOR_FEMALE
+    corpseBattle:
+      - STR_CORPSE_CIVILIAN_07
+    loftempsSet: [ 3 ]
+    weight: 0
+
+    builtInWeapons:
+      - STR_BACKPACK_SLOT
+
+#PROTECTION
+    frontArmor: 0
+    sideArmor: 0
+    rearArmor: 0
+    underArmor: 0
+    damageModifier:
+      - 1.0 #None
+      - 1.0 #Armor Piercing
+      - 1.0 #Incendiary
+      - 1.0 #High Explosive
+      - 1.0 #Laser
+      - 1.0 #Plasma
+      - 1.0 #Stun
+      - 1.0 #Melee
+      - 1.0 #Acid
+      - 1.0 #Smoke
+      - 1.0 #Melta
+
+
+#CIVILIAN_08 ARMOR
+
+  - type: STR_CIVILIAN_08_ARMOR_MALE
+#GENERAL
+    drawingRoutine: 0 #x-com soldier
+    spriteSheet: CIVILIAN_08_ARMOR_MALE.PCK
+    spriteInv: CIVILIAN_08_ARMOR_MALE
+    corpseBattle:
+      - STR_CORPSE_CIVILIAN_08
+    loftempsSet: [ 3 ]
+    weight: 0
+
+    builtInWeapons:
+      - STR_BACKPACK_SLOT
+
+#PROTECTION
+    frontArmor: 0
+    sideArmor: 0
+    rearArmor: 0
+    underArmor: 0
+    damageModifier:
+      - 1.0 #None
+      - 1.0 #Armor Piercing
+      - 1.0 #Incendiary
+      - 1.0 #High Explosive
+      - 1.0 #Laser
+      - 1.0 #Plasma
+      - 1.0 #Stun
+      - 1.0 #Melee
+      - 1.0 #Acid
+      - 1.0 #Smoke
+      - 1.0 #Melta
+
+  - type: STR_CIVILIAN_08_ARMOR_FEMALE
+#GENERAL
+    drawingRoutine: 0 #x-com soldier
+    spriteSheet: CIVILIAN_08_ARMOR_FEMALE.PCK
+    spriteInv: CIVILIAN_08_ARMOR_FEMALE
+    corpseBattle:
+      - STR_CORPSE_CIVILIAN_08
+    loftempsSet: [ 3 ]
+    weight: 0
+
+    builtInWeapons:
+      - STR_BACKPACK_SLOT
+
+#PROTECTION
+    frontArmor: 0
+    sideArmor: 0
+    rearArmor: 0
+    underArmor: 0
+    damageModifier:
+      - 1.0 #None
+      - 1.0 #Armor Piercing
+      - 1.0 #Incendiary
+      - 1.0 #High Explosive
+      - 1.0 #Laser
+      - 1.0 #Plasma
+      - 1.0 #Stun
+      - 1.0 #Melee
+      - 1.0 #Acid
+      - 1.0 #Smoke
+      - 1.0 #Melta
+
+
+#CIVILIAN_09 ARMOR
+
+  - type: STR_CIVILIAN_09_ARMOR_MALE
+#GENERAL
+    drawingRoutine: 0 #x-com soldier
+    spriteSheet: CIVILIAN_09_ARMOR_MALE.PCK
+    spriteInv: CIVILIAN_09_ARMOR_MALE
+    corpseBattle:
+      - STR_CORPSE_CIVILIAN_09
+    loftempsSet: [ 3 ]
+    weight: 0
+
+    builtInWeapons:
+      - STR_BACKPACK_SLOT
+
+#PROTECTION
+    frontArmor: 0
+    sideArmor: 0
+    rearArmor: 0
+    underArmor: 0
+    damageModifier:
+      - 1.0 #None
+      - 1.0 #Armor Piercing
+      - 1.0 #Incendiary
+      - 1.0 #High Explosive
+      - 1.0 #Laser
+      - 1.0 #Plasma
+      - 1.0 #Stun
+      - 1.0 #Melee
+      - 1.0 #Acid
+      - 1.0 #Smoke
+      - 1.0 #Melta
+
+  - type: STR_CIVILIAN_09_ARMOR_FEMALE
+#GENERAL
+    drawingRoutine: 0 #x-com soldier
+    spriteSheet: CIVILIAN_09_ARMOR_FEMALE.PCK
+    spriteInv: CIVILIAN_09_ARMOR_FEMALE
+    corpseBattle:
+      - STR_CORPSE_CIVILIAN_09
+    loftempsSet: [ 3 ]
+    weight: 0
+
+    builtInWeapons:
+      - STR_BACKPACK_SLOT
+
+#PROTECTION
+    frontArmor: 0
+    sideArmor: 0
+    rearArmor: 0
+    underArmor: 0
+    damageModifier:
+      - 1.0 #None
+      - 1.0 #Armor Piercing
+      - 1.0 #Incendiary
+      - 1.0 #High Explosive
+      - 1.0 #Laser
+      - 1.0 #Plasma
+      - 1.0 #Stun
+      - 1.0 #Melee
+      - 1.0 #Acid
+      - 1.0 #Smoke
+      - 1.0 #Melta
+
+
+#CIVILIAN_10 ARMOR
+
+  - type: STR_CIVILIAN_10_ARMOR_MALE
+#GENERAL
+    drawingRoutine: 0 #x-com soldier
+    spriteSheet: CIVILIAN_10_ARMOR_MALE.PCK
+    spriteInv: CIVILIAN_10_ARMOR_MALE
+    corpseBattle:
+      - STR_CORPSE_CIVILIAN_10
+    loftempsSet: [ 3 ]
+    weight: 0
+
+    builtInWeapons:
+      - STR_BACKPACK_SLOT
+
+#PROTECTION
+    frontArmor: 0
+    sideArmor: 0
+    rearArmor: 0
+    underArmor: 0
+    damageModifier:
+      - 1.0 #None
+      - 1.0 #Armor Piercing
+      - 1.0 #Incendiary
+      - 1.0 #High Explosive
+      - 1.0 #Laser
+      - 1.0 #Plasma
+      - 1.0 #Stun
+      - 1.0 #Melee
+      - 1.0 #Acid
+      - 1.0 #Smoke
+      - 1.0 #Melta
+
+  - type: STR_CIVILIAN_10_ARMOR_FEMALE
+#GENERAL
+    drawingRoutine: 0 #x-com soldier
+    spriteSheet: CIVILIAN_10_ARMOR_FEMALE.PCK
+    spriteInv: CIVILIAN_10_ARMOR_FEMALE
+    corpseBattle:
+      - STR_CORPSE_CIVILIAN_10
+    loftempsSet: [ 3 ]
+    weight: 0
+
+    builtInWeapons:
+      - STR_BACKPACK_SLOT
+
+#PROTECTION
+    frontArmor: 0
+    sideArmor: 0
+    rearArmor: 0
+    underArmor: 0
+    damageModifier:
+      - 1.0 #None
+      - 1.0 #Armor Piercing
+      - 1.0 #Incendiary
+      - 1.0 #High Explosive
+      - 1.0 #Laser
+      - 1.0 #Plasma
+      - 1.0 #Stun
+      - 1.0 #Melee
+      - 1.0 #Acid
+      - 1.0 #Smoke
+      - 1.0 #Melta
+
+
+#CIVILIAN_11 ARMOR
+
+  - type: STR_CIVILIAN_11_ARMOR_MALE
+#GENERAL
+    drawingRoutine: 0 #x-com soldier
+    spriteSheet: CIVILIAN_11_ARMOR_MALE.PCK
+    spriteInv: CIVILIAN_11_ARMOR_MALE
+    corpseBattle:
+      - STR_CORPSE_CIVILIAN_11
+    loftempsSet: [ 3 ]
+    weight: 0
+
+    builtInWeapons:
+      - STR_BACKPACK_SLOT
+
+#PROTECTION
+    frontArmor: 0
+    sideArmor: 0
+    rearArmor: 0
+    underArmor: 0
+    damageModifier:
+      - 1.0 #None
+      - 1.0 #Armor Piercing
+      - 1.0 #Incendiary
+      - 1.0 #High Explosive
+      - 1.0 #Laser
+      - 1.0 #Plasma
+      - 1.0 #Stun
+      - 1.0 #Melee
+      - 1.0 #Acid
+      - 1.0 #Smoke
+      - 1.0 #Melta
+
+  - type: STR_CIVILIAN_11_ARMOR_FEMALE
+#GENERAL
+    drawingRoutine: 0 #x-com soldier
+    spriteSheet: CIVILIAN_11_ARMOR_FEMALE.PCK
+    spriteInv: CIVILIAN_11_ARMOR_FEMALE
+    corpseBattle:
+      - STR_CORPSE_CIVILIAN_11
+    loftempsSet: [ 3 ]
+    weight: 0
+
+    builtInWeapons:
+      - STR_BACKPACK_SLOT
+
+#PROTECTION
+    frontArmor: 0
+    sideArmor: 0
+    rearArmor: 0
+    underArmor: 0
+    damageModifier:
+      - 1.0 #None
+      - 1.0 #Armor Piercing
+      - 1.0 #Incendiary
+      - 1.0 #High Explosive
+      - 1.0 #Laser
+      - 1.0 #Plasma
+      - 1.0 #Stun
+      - 1.0 #Melee
+      - 1.0 #Acid
+      - 1.0 #Smoke
+      - 1.0 #Melta
+
+
+#CIVILIAN_12 ARMOR
+
+  - type: STR_CIVILIAN_12_ARMOR_MALE
+#GENERAL
+    drawingRoutine: 0 #x-com soldier
+    spriteSheet: CIVILIAN_12_ARMOR_MALE.PCK
+    spriteInv: CIVILIAN_12_ARMOR_MALE
+    corpseBattle:
+      - STR_CORPSE_CIVILIAN_12
+    loftempsSet: [ 3 ]
+    weight: 0
+
+    builtInWeapons:
+      - STR_BACKPACK_SLOT
+
+#PROTECTION
+    frontArmor: 0
+    sideArmor: 0
+    rearArmor: 0
+    underArmor: 0
+    damageModifier:
+      - 1.0 #None
+      - 1.0 #Armor Piercing
+      - 1.0 #Incendiary
+      - 1.0 #High Explosive
+      - 1.0 #Laser
+      - 1.0 #Plasma
+      - 1.0 #Stun
+      - 1.0 #Melee
+      - 1.0 #Acid
+      - 1.0 #Smoke
+      - 1.0 #Melta
+
+  - type: STR_CIVILIAN_12_ARMOR_FEMALE
+#GENERAL
+    drawingRoutine: 0 #x-com soldier
+    spriteSheet: CIVILIAN_12_ARMOR_FEMALE.PCK
+    spriteInv: CIVILIAN_12_ARMOR_FEMALE
+    corpseBattle:
+      - STR_CORPSE_CIVILIAN_12
+    loftempsSet: [ 3 ]
+    weight: 0
+
+    builtInWeapons:
+      - STR_BACKPACK_SLOT
+
+#PROTECTION
+    frontArmor: 0
+    sideArmor: 0
+    rearArmor: 0
+    underArmor: 0
+    damageModifier:
+      - 1.0 #None
+      - 1.0 #Armor Piercing
+      - 1.0 #Incendiary
+      - 1.0 #High Explosive
+      - 1.0 #Laser
+      - 1.0 #Plasma
+      - 1.0 #Stun
+      - 1.0 #Melee
+      - 1.0 #Acid
+      - 1.0 #Smoke
+      - 1.0 #Melta
+
+
+#CIVILIAN_13 ARMOR
+
+  - type: STR_CIVILIAN_13_ARMOR_MALE
+#GENERAL
+    drawingRoutine: 0 #x-com soldier
+    spriteSheet: CIVILIAN_13_ARMOR_MALE.PCK
+    spriteInv: CIVILIAN_13_ARMOR_MALE
+    corpseBattle:
+      - STR_CORPSE_CIVILIAN_13
+    loftempsSet: [ 3 ]
+    weight: 0
+
+    builtInWeapons:
+      - STR_BACKPACK_SLOT
+
+#PROTECTION
+    frontArmor: 0
+    sideArmor: 0
+    rearArmor: 0
+    underArmor: 0
+    damageModifier:
+      - 1.0 #None
+      - 1.0 #Armor Piercing
+      - 1.0 #Incendiary
+      - 1.0 #High Explosive
+      - 1.0 #Laser
+      - 1.0 #Plasma
+      - 1.0 #Stun
+      - 1.0 #Melee
+      - 1.0 #Acid
+      - 1.0 #Smoke
+      - 1.0 #Melta
+
+  - type: STR_CIVILIAN_13_ARMOR_FEMALE
+#GENERAL
+    drawingRoutine: 0 #x-com soldier
+    spriteSheet: CIVILIAN_13_ARMOR_FEMALE.PCK
+    spriteInv: CIVILIAN_13_ARMOR_FEMALE
+    corpseBattle:
+      - STR_CORPSE_CIVILIAN_13
+    loftempsSet: [ 3 ]
+    weight: 0
+
+    builtInWeapons:
+      - STR_BACKPACK_SLOT
+
+#PROTECTION
+    frontArmor: 0
+    sideArmor: 0
+    rearArmor: 0
+    underArmor: 0
+    damageModifier:
+      - 1.0 #None
+      - 1.0 #Armor Piercing
+      - 1.0 #Incendiary
+      - 1.0 #High Explosive
+      - 1.0 #Laser
+      - 1.0 #Plasma
+      - 1.0 #Stun
+      - 1.0 #Melee
+      - 1.0 #Acid
+      - 1.0 #Smoke
+      - 1.0 #Melta
+
+
+#CIVILIAN_14 ARMOR
+
+  - type: STR_CIVILIAN_14_ARMOR_MALE
+#GENERAL
+    drawingRoutine: 0 #x-com soldier
+    spriteSheet: CIVILIAN_14_ARMOR_MALE.PCK
+    spriteInv: CIVILIAN_14_ARMOR_MALE
+    corpseBattle:
+      - STR_CORPSE_CIVILIAN_14
+    loftempsSet: [ 3 ]
+    weight: 0
+
+    builtInWeapons:
+      - STR_BACKPACK_SLOT
+
+#PROTECTION
+    frontArmor: 0
+    sideArmor: 0
+    rearArmor: 0
+    underArmor: 0
+    damageModifier:
+      - 1.0 #None
+      - 1.0 #Armor Piercing
+      - 1.0 #Incendiary
+      - 1.0 #High Explosive
+      - 1.0 #Laser
+      - 1.0 #Plasma
+      - 1.0 #Stun
+      - 1.0 #Melee
+      - 1.0 #Acid
+      - 1.0 #Smoke
+      - 1.0 #Melta
+
+  - type: STR_CIVILIAN_14_ARMOR_FEMALE
+#GENERAL
+    drawingRoutine: 0 #x-com soldier
+    spriteSheet: CIVILIAN_14_ARMOR_FEMALE.PCK
+    spriteInv: CIVILIAN_14_ARMOR_FEMALE
+    corpseBattle:
+      - STR_CORPSE_CIVILIAN_14
+    loftempsSet: [ 3 ]
+    weight: 0
+
+    builtInWeapons:
+      - STR_BACKPACK_SLOT
+
+#PROTECTION
+    frontArmor: 0
+    sideArmor: 0
+    rearArmor: 0
+    underArmor: 0
+    damageModifier:
+      - 1.0 #None
+      - 1.0 #Armor Piercing
+      - 1.0 #Incendiary
+      - 1.0 #High Explosive
+      - 1.0 #Laser
+      - 1.0 #Plasma
+      - 1.0 #Stun
+      - 1.0 #Melee
+      - 1.0 #Acid
+      - 1.0 #Smoke
+      - 1.0 #Melta
+
+
+#CIVILIAN_15 ARMOR
+
+  - type: STR_CIVILIAN_15_ARMOR_MALE
+#GENERAL
+    drawingRoutine: 0 #x-com soldier
+    spriteSheet: CIVILIAN_15_ARMOR_MALE.PCK
+    spriteInv: CIVILIAN_15_ARMOR_MALE
+    corpseBattle:
+      - STR_CORPSE_CIVILIAN_15
+    loftempsSet: [ 3 ]
+    weight: 0
+
+    builtInWeapons:
+      - STR_BACKPACK_SLOT
+
+#PROTECTION
+    frontArmor: 0
+    sideArmor: 0
+    rearArmor: 0
+    underArmor: 0
+    damageModifier:
+      - 1.0 #None
+      - 1.0 #Armor Piercing
+      - 1.0 #Incendiary
+      - 1.0 #High Explosive
+      - 1.0 #Laser
+      - 1.0 #Plasma
+      - 1.0 #Stun
+      - 1.0 #Melee
+      - 1.0 #Acid
+      - 1.0 #Smoke
+      - 1.0 #Melta
+
+  - type: STR_CIVILIAN_15_ARMOR_FEMALE
+#GENERAL
+    drawingRoutine: 0 #x-com soldier
+    spriteSheet: CIVILIAN_15_ARMOR_FEMALE.PCK
+    spriteInv: CIVILIAN_15_ARMOR_FEMALE
+    corpseBattle:
+      - STR_CORPSE_CIVILIAN_15
+    loftempsSet: [ 3 ]
+    weight: 0
+
+    builtInWeapons:
+      - STR_BACKPACK_SLOT
+
+#PROTECTION
+    frontArmor: 0
+    sideArmor: 0
+    rearArmor: 0
+    underArmor: 0
+    damageModifier:
+      - 1.0 #None
+      - 1.0 #Armor Piercing
+      - 1.0 #Incendiary
+      - 1.0 #High Explosive
+      - 1.0 #Laser
+      - 1.0 #Plasma
+      - 1.0 #Stun
+      - 1.0 #Melee
+      - 1.0 #Acid
+      - 1.0 #Smoke
+      - 1.0 #Melta
+
+
+
+
+
+
+
+
+

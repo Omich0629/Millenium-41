@@ -537,6 +537,57 @@ items:
 
 
 
+## KHORNE CULTIST CORPSE
+  - type: STR_CORPSE_KHORNE_CULTIST
+#RESOURCES
+    bigSprite: 2300
+    floorSprite: 2300
+    handSprite: 88 #(empty hand)
+#SPECIFICATIONS
+    size: 0.4
+    costSell: 5000
+    weight: 50
+    invWidth: 2
+    invHeight: 3
+    recoveryPoints: 5
+    battleType: 11
+    armor: 25
+
+## LIVE KHORNE CULTIST
+  - type: STR_LIVE_KHORNE_CULTIST
+#SPECIFICATIONS
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 10000
+
+
+
+
+
+## KHORNE CULTIST LEADER CORPSE
+  - type: STR_CORPSE_KHORNE_CULTIST_LEADER
+#RESOURCES
+    bigSprite: 2301
+    floorSprite: 2301
+    handSprite: 88 #(empty hand)
+#SPECIFICATIONS
+    size: 0.4
+    costSell: 5000
+    weight: 50
+    invWidth: 2
+    invHeight: 3
+    recoveryPoints: 5
+    battleType: 11
+    armor: 25
+
+## LIVE KHORNE CULTIST
+  - type: STR_LIVE_KHORNE_CULTIST_LEADER
+#SPECIFICATIONS
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 10000
 
 
 
@@ -547,5 +598,245 @@ items:
 
 
 
+
+## CIVILIAN_00 CORPSE
+  - type: STR_CORPSE_CIVILIAN_00
+#RESOURCES
+    bigSprite: 3000
+    floorSprite: 3000
+    handSprite: 88 #(empty hand)
+#SPECIFICATIONS
+    name: STR_CORPSE_CIVILIAN
+    weight: 30
+    invWidth: 2
+    invHeight: 3
+    battleType: 11
+    armor: 15
+    recover: false
+
+## CIVILIAN_01 CORPSE
+  - type: STR_CORPSE_CIVILIAN_01
+#RESOURCES
+    bigSprite: 3001
+    floorSprite: 3001
+    handSprite: 88 #(empty hand)
+#SPECIFICATIONS
+    name: STR_CORPSE_CIVILIAN
+    weight: 30
+    invWidth: 2
+    invHeight: 3
+    battleType: 11
+    armor: 15
+    recover: false
+
+## CIVILIAN_02 CORPSE
+  - type: STR_CORPSE_CIVILIAN_02
+#RESOURCES
+    bigSprite: 3002
+    floorSprite: 3002
+    handSprite: 88 #(empty hand)
+#SPECIFICATIONS
+    name: STR_CORPSE_CIVILIAN
+    weight: 30
+    invWidth: 2
+    invHeight: 3
+    battleType: 11
+    armor: 15
+    recover: false
+
+## CIVILIAN_03 CORPSE
+  - type: STR_CORPSE_CIVILIAN_03
+#RESOURCES
+    bigSprite: 3003
+    floorSprite: 3003
+    handSprite: 88 #(empty hand)
+#SPECIFICATIONS
+    name: STR_CORPSE_CIVILIAN
+    weight: 30
+    invWidth: 2
+    invHeight: 3
+    battleType: 11
+    armor: 15
+    recover: false
+
+## CIVILIAN_04 CORPSE
+  - type: STR_CORPSE_CIVILIAN_04
+#RESOURCES
+    bigSprite: 3004
+    floorSprite: 3004
+    handSprite: 88 #(empty hand)
+#SPECIFICATIONS
+    name: STR_CORPSE_CIVILIAN
+    weight: 30
+    invWidth: 2
+    invHeight: 3
+    battleType: 11
+    armor: 15
+    recover: false
+
+## CIVILIAN_05 CORPSE
+  - type: STR_CORPSE_CIVILIAN_05
+#RESOURCES
+    bigSprite: 3005
+    floorSprite: 3005
+    handSprite: 88 #(empty hand)
+#SPECIFICATIONS
+    name: STR_CORPSE_CIVILIAN
+    weight: 30
+    invWidth: 2
+    invHeight: 3
+    battleType: 11
+    armor: 15
+    recover: false
+
+## CIVILIAN_06 CORPSE
+  - type: STR_CORPSE_CIVILIAN_06
+#RESOURCES
+    bigSprite: 3006
+    floorSprite: 3006
+    handSprite: 88 #(empty hand)
+#SPECIFICATIONS
+    name: STR_CORPSE_CIVILIAN
+    weight: 30
+    invWidth: 2
+    invHeight: 3
+    battleType: 11
+    armor: 15
+    recover: false
+
+## CIVILIAN_07 CORPSE
+  - type: STR_CORPSE_CIVILIAN_07
+#RESOURCES
+    bigSprite: 3007
+    floorSprite: 3007
+    handSprite: 88 #(empty hand)
+#SPECIFICATIONS
+    name: STR_CORPSE_CIVILIAN
+    weight: 30
+    invWidth: 2
+    invHeight: 3
+    battleType: 11
+    armor: 15
+    recover: false
+
+## CIVILIAN_08 CORPSE
+  - type: STR_CORPSE_CIVILIAN_08
+#RESOURCES
+    bigSprite: 3008
+    floorSprite: 3008
+    handSprite: 88 #(empty hand)
+#SPECIFICATIONS
+    name: STR_CORPSE_CIVILIAN
+    weight: 30
+    invWidth: 2
+    invHeight: 3
+    battleType: 11
+    armor: 15
+    recover: false
+
+## CIVILIAN_09 CORPSE
+  - type: STR_CORPSE_CIVILIAN_09
+#RESOURCES
+    bigSprite: 3009
+    floorSprite: 3009
+    handSprite: 88 #(empty hand)
+#SPECIFICATIONS
+    name: STR_CORPSE_CIVILIAN
+    weight: 30
+    invWidth: 2
+    invHeight: 3
+    battleType: 11
+    armor: 15
+    recover: false
+
+## CIVILIAN_10 CORPSE
+  - type: STR_CORPSE_CIVILIAN_10
+#RESOURCES
+    bigSprite: 3010
+    floorSprite: 3010
+    handSprite: 88 #(empty hand)
+#SPECIFICATIONS
+    name: STR_CORPSE_CIVILIAN
+    weight: 30
+    invWidth: 2
+    invHeight: 3
+    battleType: 11
+    armor: 15
+    recover: false
+
+## CIVILIAN_11 CORPSE
+  - type: STR_CORPSE_CIVILIAN_11
+#RESOURCES
+    bigSprite: 3011
+    floorSprite: 3011
+    handSprite: 88 #(empty hand)
+#SPECIFICATIONS
+    name: STR_CORPSE_CIVILIAN
+    weight: 30
+    invWidth: 2
+    invHeight: 3
+    battleType: 11
+    armor: 15
+    recover: false
+
+## CIVILIAN_12 CORPSE
+  - type: STR_CORPSE_CIVILIAN_12
+#RESOURCES
+    bigSprite: 3012
+    floorSprite: 3012
+    handSprite: 88 #(empty hand)
+#SPECIFICATIONS
+    name: STR_CORPSE_CIVILIAN
+    weight: 30
+    invWidth: 2
+    invHeight: 3
+    battleType: 11
+    armor: 15
+    recover: false
+
+## CIVILIAN_13 CORPSE
+  - type: STR_CORPSE_CIVILIAN_13
+#RESOURCES
+    bigSprite: 3013
+    floorSprite: 3013
+    handSprite: 88 #(empty hand)
+#SPECIFICATIONS
+    name: STR_CORPSE_CIVILIAN
+    weight: 30
+    invWidth: 2
+    invHeight: 3
+    battleType: 11
+    armor: 15
+    recover: false
+
+## CIVILIAN_14 CORPSE
+  - type: STR_CORPSE_CIVILIAN_14
+#RESOURCES
+    bigSprite: 3014
+    floorSprite: 3014
+    handSprite: 88 #(empty hand)
+#SPECIFICATIONS
+    name: STR_CORPSE_CIVILIAN
+    weight: 30
+    invWidth: 2
+    invHeight: 3
+    battleType: 11
+    armor: 15
+    recover: false
+
+## CIVILIAN_15 CORPSE
+  - type: STR_CORPSE_CIVILIAN_15
+#RESOURCES
+    bigSprite: 3015
+    floorSprite: 3015
+    handSprite: 88 #(empty hand)
+#SPECIFICATIONS
+    name: STR_CORPSE_CIVILIAN
+    weight: 30
+    invWidth: 2
+    invHeight: 3
+    battleType: 11
+    armor: 15
+    recover: false
 
 
