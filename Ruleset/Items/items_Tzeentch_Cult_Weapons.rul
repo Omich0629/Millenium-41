@@ -208,7 +208,7 @@ items:
 ## TZEENTCH GRENADE LAUNCHER
   - type: STR_GRENADE_LAUNCHER_TZEENTCH
 #RESOURCES
-    bigSprite: 395
+    bigSprite: 396
     floorSprite: 332
     handSprite: 536
 #INFO
@@ -256,7 +256,7 @@ items:
 ## TZEENTCH MISSILE LAUNCHER
   - type: STR_MISSILE_LAUNCHER_TZEENTCH
 #RESOURCES
-    bigSprite: 411
+    bigSprite: 412
     floorSprite: 339
     handSprite: 592
 #INFO
@@ -302,7 +302,7 @@ items:
 #TZEENTCH FLAMER
   - type: STR_FLAMER_TZEENTCH
 #RESOURCES
-    bigSprite: 416
+    bigSprite: 417
     floorSprite: 343
     handSprite: 624
 #INFO

@@ -1,0 +1,1224 @@
+armors:
+
+#CIVILIAN_ZOMBIE_00 ARMOR
+  - type: STR_CIVILIAN_ZOMBIE_00_ARMOR_MALE
+#GENERAL
+    drawingRoutine: 0 #x-com soldier
+    spriteSheet: CIVILIAN_ZOMBIE_00_ARMOR_MALE.PCK
+    spriteInv: CIVILIAN_ZOMBIE_00_ARMOR_MALE
+    corpseBattle:
+      - STR_CORPSE_CIVILIAN_ZOMBIE_00
+    loftempsSet: [ 3 ]
+    weight: 0
+
+    bleedImmune: true
+    fearImmune: true
+    painImmune: true
+
+    builtInWeapons:
+      - STR_ZOMBIE_WEAPON
+      - STR_ZOMBIE_WEAPON
+      - STR_BACKPACK_SLOT
+
+#PROTECTION
+    frontArmor: 0
+    sideArmor: 0
+    rearArmor: 0
+    underArmor: 0
+    damageModifier:
+      - 1.0 #None
+      - 0.6 #Armor Piercing
+      - 1.5 #Incendiary
+      - 0.8 #High Explosive
+      - 0.7 #Laser
+      - 1.0 #Plasma
+      - 0.0 #Stun
+      - 1.0 #Melee
+      - 0.0 #Acid
+      - 0.0 #Smoke
+      - 1.0 #Melta
+
+  - type: STR_CIVILIAN_ZOMBIE_00_ARMOR_FEMALE
+#GENERAL
+    drawingRoutine: 0 #x-com soldier
+    spriteSheet: CIVILIAN_ZOMBIE_00_ARMOR_FEMALE.PCK
+    spriteInv: CIVILIAN_ZOMBIE_00_ARMOR_FEMALE
+    corpseBattle:
+      - STR_CORPSE_CIVILIAN_ZOMBIE_00
+    loftempsSet: [ 3 ]
+    weight: 0
+
+    bleedImmune: true
+    fearImmune: true
+    painImmune: true
+
+    builtInWeapons:
+      - STR_ZOMBIE_WEAPON
+      - STR_ZOMBIE_WEAPON
+      - STR_BACKPACK_SLOT
+
+#PROTECTION
+    frontArmor: 0
+    sideArmor: 0
+    rearArmor: 0
+    underArmor: 0
+    damageModifier:
+      - 1.0 #None
+      - 0.6 #Armor Piercing
+      - 1.5 #Incendiary
+      - 0.8 #High Explosive
+      - 0.7 #Laser
+      - 1.0 #Plasma
+      - 0.0 #Stun
+      - 1.0 #Melee
+      - 0.0 #Acid
+      - 0.0 #Smoke
+      - 1.0 #Melta
+
+
+#CIVILIAN_ZOMBIE_01 ARMOR
+  - type: STR_CIVILIAN_ZOMBIE_01_ARMOR_MALE
+#GENERAL
+    drawingRoutine: 0 #x-com soldier
+    spriteSheet: CIVILIAN_ZOMBIE_01_ARMOR_MALE.PCK
+    spriteInv: CIVILIAN_ZOMBIE_01_ARMOR_MALE
+    corpseBattle:
+      - STR_CORPSE_CIVILIAN_ZOMBIE_01
+    loftempsSet: [ 3 ]
+    weight: 0
+
+    bleedImmune: true
+    fearImmune: true
+    painImmune: true
+
+    builtInWeapons:
+      - STR_ZOMBIE_WEAPON
+      - STR_ZOMBIE_WEAPON
+      - STR_BACKPACK_SLOT
+
+#PROTECTION
+    frontArmor: 0
+    sideArmor: 0
+    rearArmor: 0
+    underArmor: 0
+    damageModifier:
+      - 1.0 #None
+      - 0.6 #Armor Piercing
+      - 1.5 #Incendiary
+      - 0.8 #High Explosive
+      - 0.7 #Laser
+      - 1.0 #Plasma
+      - 0.0 #Stun
+      - 1.0 #Melee
+      - 0.0 #Acid
+      - 0.0 #Smoke
+      - 1.0 #Melta
+
+  - type: STR_CIVILIAN_ZOMBIE_01_ARMOR_FEMALE
+#GENERAL
+    drawingRoutine: 0 #x-com soldier
+    spriteSheet: CIVILIAN_ZOMBIE_01_ARMOR_FEMALE.PCK
+    spriteInv: CIVILIAN_ZOMBIE_01_ARMOR_FEMALE
+    corpseBattle:
+      - STR_CORPSE_CIVILIAN_ZOMBIE_01
+    loftempsSet: [ 3 ]
+    weight: 0
+
+    bleedImmune: true
+    fearImmune: true
+    painImmune: true
+
+    builtInWeapons:
+      - STR_ZOMBIE_WEAPON
+      - STR_ZOMBIE_WEAPON
+      - STR_BACKPACK_SLOT
+
+#PROTECTION
+    frontArmor: 0
+    sideArmor: 0
+    rearArmor: 0
+    underArmor: 0
+    damageModifier:
+      - 1.0 #None
+      - 0.6 #Armor Piercing
+      - 1.5 #Incendiary
+      - 0.8 #High Explosive
+      - 0.7 #Laser
+      - 1.0 #Plasma
+      - 0.0 #Stun
+      - 1.0 #Melee
+      - 0.0 #Acid
+      - 0.0 #Smoke
+      - 1.0 #Melta
+
+
+#CIVILIAN_ZOMBIE_02 ARMOR
+  - type: STR_CIVILIAN_ZOMBIE_02_ARMOR_MALE
+#GENERAL
+    drawingRoutine: 0 #x-com soldier
+    spriteSheet: CIVILIAN_ZOMBIE_02_ARMOR_MALE.PCK
+    spriteInv: CIVILIAN_ZOMBIE_02_ARMOR_MALE
+    corpseBattle:
+      - STR_CORPSE_CIVILIAN_ZOMBIE_02
+    loftempsSet: [ 3 ]
+    weight: 0
+
+    bleedImmune: true
+    fearImmune: true
+    painImmune: true
+
+    builtInWeapons:
+      - STR_ZOMBIE_WEAPON
+      - STR_ZOMBIE_WEAPON
+      - STR_BACKPACK_SLOT
+
+#PROTECTION
+    frontArmor: 0
+    sideArmor: 0
+    rearArmor: 0
+    underArmor: 0
+    damageModifier:
+      - 1.0 #None
+      - 0.6 #Armor Piercing
+      - 1.5 #Incendiary
+      - 0.8 #High Explosive
+      - 0.7 #Laser
+      - 1.0 #Plasma
+      - 0.0 #Stun
+      - 1.0 #Melee
+      - 0.0 #Acid
+      - 0.0 #Smoke
+      - 1.0 #Melta
+
+  - type: STR_CIVILIAN_ZOMBIE_02_ARMOR_FEMALE
+#GENERAL
+    drawingRoutine: 0 #x-com soldier
+    spriteSheet: CIVILIAN_ZOMBIE_02_ARMOR_FEMALE.PCK
+    spriteInv: CIVILIAN_ZOMBIE_02_ARMOR_FEMALE
+    corpseBattle:
+      - STR_CORPSE_CIVILIAN_ZOMBIE_02
+    loftempsSet: [ 3 ]
+    weight: 0
+
+    bleedImmune: true
+    fearImmune: true
+    painImmune: true
+
+    builtInWeapons:
+      - STR_ZOMBIE_WEAPON
+      - STR_ZOMBIE_WEAPON
+      - STR_BACKPACK_SLOT
+
+#PROTECTION
+    frontArmor: 0
+    sideArmor: 0
+    rearArmor: 0
+    underArmor: 0
+    damageModifier:
+      - 1.0 #None
+      - 0.6 #Armor Piercing
+      - 1.5 #Incendiary
+      - 0.8 #High Explosive
+      - 0.7 #Laser
+      - 1.0 #Plasma
+      - 0.0 #Stun
+      - 1.0 #Melee
+      - 0.0 #Acid
+      - 0.0 #Smoke
+      - 1.0 #Melta
+
+
+#CIVILIAN_ZOMBIE_03 ARMOR
+  - type: STR_CIVILIAN_ZOMBIE_03_ARMOR_MALE
+#GENERAL
+    drawingRoutine: 0 #x-com soldier
+    spriteSheet: CIVILIAN_ZOMBIE_03_ARMOR_MALE.PCK
+    spriteInv: CIVILIAN_ZOMBIE_03_ARMOR_MALE
+    corpseBattle:
+      - STR_CORPSE_CIVILIAN_ZOMBIE_03
+    loftempsSet: [ 3 ]
+    weight: 0
+
+    bleedImmune: true
+    fearImmune: true
+    painImmune: true
+
+    builtInWeapons:
+      - STR_ZOMBIE_WEAPON
+      - STR_ZOMBIE_WEAPON
+      - STR_BACKPACK_SLOT
+
+#PROTECTION
+    frontArmor: 0
+    sideArmor: 0
+    rearArmor: 0
+    underArmor: 0
+    damageModifier:
+      - 1.0 #None
+      - 0.6 #Armor Piercing
+      - 1.5 #Incendiary
+      - 0.8 #High Explosive
+      - 0.7 #Laser
+      - 1.0 #Plasma
+      - 0.0 #Stun
+      - 1.0 #Melee
+      - 0.0 #Acid
+      - 0.0 #Smoke
+      - 1.0 #Melta
+
+  - type: STR_CIVILIAN_ZOMBIE_03_ARMOR_FEMALE
+#GENERAL
+    drawingRoutine: 0 #x-com soldier
+    spriteSheet: CIVILIAN_ZOMBIE_03_ARMOR_FEMALE.PCK
+    spriteInv: CIVILIAN_ZOMBIE_03_ARMOR_FEMALE
+    corpseBattle:
+      - STR_CORPSE_CIVILIAN_ZOMBIE_03
+    loftempsSet: [ 3 ]
+    weight: 0
+
+    bleedImmune: true
+    fearImmune: true
+    painImmune: true
+
+    builtInWeapons:
+      - STR_ZOMBIE_WEAPON
+      - STR_ZOMBIE_WEAPON
+      - STR_BACKPACK_SLOT
+
+#PROTECTION
+    frontArmor: 0
+    sideArmor: 0
+    rearArmor: 0
+    underArmor: 0
+    damageModifier:
+      - 1.0 #None
+      - 0.6 #Armor Piercing
+      - 1.5 #Incendiary
+      - 0.8 #High Explosive
+      - 0.7 #Laser
+      - 1.0 #Plasma
+      - 0.0 #Stun
+      - 1.0 #Melee
+      - 0.0 #Acid
+      - 0.0 #Smoke
+      - 1.0 #Melta
+
+
+#CIVILIAN_ZOMBIE_04 ARMOR
+  - type: STR_CIVILIAN_ZOMBIE_04_ARMOR_MALE
+#GENERAL
+    drawingRoutine: 0 #x-com soldier
+    spriteSheet: CIVILIAN_ZOMBIE_04_ARMOR_MALE.PCK
+    spriteInv: CIVILIAN_ZOMBIE_04_ARMOR_MALE
+    corpseBattle:
+      - STR_CORPSE_CIVILIAN_ZOMBIE_04
+    loftempsSet: [ 3 ]
+    weight: 0
+
+    bleedImmune: true
+    fearImmune: true
+    painImmune: true
+
+    builtInWeapons:
+      - STR_ZOMBIE_WEAPON
+      - STR_ZOMBIE_WEAPON
+      - STR_BACKPACK_SLOT
+
+#PROTECTION
+    frontArmor: 0
+    sideArmor: 0
+    rearArmor: 0
+    underArmor: 0
+    damageModifier:
+      - 1.0 #None
+      - 0.6 #Armor Piercing
+      - 1.5 #Incendiary
+      - 0.8 #High Explosive
+      - 0.7 #Laser
+      - 1.0 #Plasma
+      - 0.0 #Stun
+      - 1.0 #Melee
+      - 0.0 #Acid
+      - 0.0 #Smoke
+      - 1.0 #Melta
+
+  - type: STR_CIVILIAN_ZOMBIE_04_ARMOR_FEMALE
+#GENERAL
+    drawingRoutine: 0 #x-com soldier
+    spriteSheet: CIVILIAN_ZOMBIE_04_ARMOR_FEMALE.PCK
+    spriteInv: CIVILIAN_ZOMBIE_04_ARMOR_FEMALE
+    corpseBattle:
+      - STR_CORPSE_CIVILIAN_ZOMBIE_04
+    loftempsSet: [ 3 ]
+    weight: 0
+
+    bleedImmune: true
+    fearImmune: true
+    painImmune: true
+
+    builtInWeapons:
+      - STR_ZOMBIE_WEAPON
+      - STR_ZOMBIE_WEAPON
+      - STR_BACKPACK_SLOT
+
+#PROTECTION
+    frontArmor: 0
+    sideArmor: 0
+    rearArmor: 0
+    underArmor: 0
+    damageModifier:
+      - 1.0 #None
+      - 0.6 #Armor Piercing
+      - 1.5 #Incendiary
+      - 0.8 #High Explosive
+      - 0.7 #Laser
+      - 1.0 #Plasma
+      - 0.0 #Stun
+      - 1.0 #Melee
+      - 0.0 #Acid
+      - 0.0 #Smoke
+      - 1.0 #Melta
+
+
+#CIVILIAN_ZOMBIE_05 ARMOR
+  - type: STR_CIVILIAN_ZOMBIE_05_ARMOR_MALE
+#GENERAL
+    drawingRoutine: 0 #x-com soldier
+    spriteSheet: CIVILIAN_ZOMBIE_05_ARMOR_MALE.PCK
+    spriteInv: CIVILIAN_ZOMBIE_05_ARMOR_MALE
+    corpseBattle:
+      - STR_CORPSE_CIVILIAN_ZOMBIE_05
+    loftempsSet: [ 3 ]
+    weight: 0
+
+    bleedImmune: true
+    fearImmune: true
+    painImmune: true
+
+    builtInWeapons:
+      - STR_ZOMBIE_WEAPON
+      - STR_ZOMBIE_WEAPON
+      - STR_BACKPACK_SLOT
+
+#PROTECTION
+    frontArmor: 0
+    sideArmor: 0
+    rearArmor: 0
+    underArmor: 0
+    damageModifier:
+      - 1.0 #None
+      - 0.6 #Armor Piercing
+      - 1.5 #Incendiary
+      - 0.8 #High Explosive
+      - 0.7 #Laser
+      - 1.0 #Plasma
+      - 0.0 #Stun
+      - 1.0 #Melee
+      - 0.0 #Acid
+      - 0.0 #Smoke
+      - 1.0 #Melta
+
+  - type: STR_CIVILIAN_ZOMBIE_05_ARMOR_FEMALE
+#GENERAL
+    drawingRoutine: 0 #x-com soldier
+    spriteSheet: CIVILIAN_ZOMBIE_05_ARMOR_FEMALE.PCK
+    spriteInv: CIVILIAN_ZOMBIE_05_ARMOR_FEMALE
+    corpseBattle:
+      - STR_CORPSE_CIVILIAN_ZOMBIE_05
+    loftempsSet: [ 3 ]
+    weight: 0
+
+    bleedImmune: true
+    fearImmune: true
+    painImmune: true
+
+    builtInWeapons:
+      - STR_ZOMBIE_WEAPON
+      - STR_ZOMBIE_WEAPON
+      - STR_BACKPACK_SLOT
+
+#PROTECTION
+    frontArmor: 0
+    sideArmor: 0
+    rearArmor: 0
+    underArmor: 0
+    damageModifier:
+      - 1.0 #None
+      - 0.6 #Armor Piercing
+      - 1.5 #Incendiary
+      - 0.8 #High Explosive
+      - 0.7 #Laser
+      - 1.0 #Plasma
+      - 0.0 #Stun
+      - 1.0 #Melee
+      - 0.0 #Acid
+      - 0.0 #Smoke
+      - 1.0 #Melta
+
+
+#CIVILIAN_ZOMBIE_06 ARMOR
+  - type: STR_CIVILIAN_ZOMBIE_06_ARMOR_MALE
+#GENERAL
+    drawingRoutine: 0 #x-com soldier
+    spriteSheet: CIVILIAN_ZOMBIE_06_ARMOR_MALE.PCK
+    spriteInv: CIVILIAN_ZOMBIE_06_ARMOR_MALE
+    corpseBattle:
+      - STR_CORPSE_CIVILIAN_ZOMBIE_06
+    loftempsSet: [ 3 ]
+    weight: 0
+
+    bleedImmune: true
+    fearImmune: true
+    painImmune: true
+
+    builtInWeapons:
+      - STR_ZOMBIE_WEAPON
+      - STR_ZOMBIE_WEAPON
+      - STR_BACKPACK_SLOT
+
+#PROTECTION
+    frontArmor: 0
+    sideArmor: 0
+    rearArmor: 0
+    underArmor: 0
+    damageModifier:
+      - 1.0 #None
+      - 0.6 #Armor Piercing
+      - 1.5 #Incendiary
+      - 0.8 #High Explosive
+      - 0.7 #Laser
+      - 1.0 #Plasma
+      - 0.0 #Stun
+      - 1.0 #Melee
+      - 0.0 #Acid
+      - 0.0 #Smoke
+      - 1.0 #Melta
+
+  - type: STR_CIVILIAN_ZOMBIE_06_ARMOR_FEMALE
+#GENERAL
+    drawingRoutine: 0 #x-com soldier
+    spriteSheet: CIVILIAN_ZOMBIE_06_ARMOR_FEMALE.PCK
+    spriteInv: CIVILIAN_ZOMBIE_06_ARMOR_FEMALE
+    corpseBattle:
+      - STR_CORPSE_CIVILIAN_ZOMBIE_06
+    loftempsSet: [ 3 ]
+    weight: 0
+
+    bleedImmune: true
+    fearImmune: true
+    painImmune: true
+
+    builtInWeapons:
+      - STR_ZOMBIE_WEAPON
+      - STR_ZOMBIE_WEAPON
+      - STR_BACKPACK_SLOT
+
+#PROTECTION
+    frontArmor: 0
+    sideArmor: 0
+    rearArmor: 0
+    underArmor: 0
+    damageModifier:
+      - 1.0 #None
+      - 0.6 #Armor Piercing
+      - 1.5 #Incendiary
+      - 0.8 #High Explosive
+      - 0.7 #Laser
+      - 1.0 #Plasma
+      - 0.0 #Stun
+      - 1.0 #Melee
+      - 0.0 #Acid
+      - 0.0 #Smoke
+      - 1.0 #Melta
+
+
+#CIVILIAN_ZOMBIE_07 ARMOR
+  - type: STR_CIVILIAN_ZOMBIE_07_ARMOR_MALE
+#GENERAL
+    drawingRoutine: 0 #x-com soldier
+    spriteSheet: CIVILIAN_ZOMBIE_07_ARMOR_MALE.PCK
+    spriteInv: CIVILIAN_ZOMBIE_07_ARMOR_MALE
+    corpseBattle:
+      - STR_CORPSE_CIVILIAN_ZOMBIE_07
+    loftempsSet: [ 3 ]
+    weight: 0
+
+    bleedImmune: true
+    fearImmune: true
+    painImmune: true
+
+    builtInWeapons:
+      - STR_ZOMBIE_WEAPON
+      - STR_ZOMBIE_WEAPON
+      - STR_BACKPACK_SLOT
+
+#PROTECTION
+    frontArmor: 0
+    sideArmor: 0
+    rearArmor: 0
+    underArmor: 0
+    damageModifier:
+      - 1.0 #None
+      - 0.6 #Armor Piercing
+      - 1.5 #Incendiary
+      - 0.8 #High Explosive
+      - 0.7 #Laser
+      - 1.0 #Plasma
+      - 0.0 #Stun
+      - 1.0 #Melee
+      - 0.0 #Acid
+      - 0.0 #Smoke
+      - 1.0 #Melta
+
+  - type: STR_CIVILIAN_ZOMBIE_07_ARMOR_FEMALE
+#GENERAL
+    drawingRoutine: 0 #x-com soldier
+    spriteSheet: CIVILIAN_ZOMBIE_07_ARMOR_FEMALE.PCK
+    spriteInv: CIVILIAN_ZOMBIE_07_ARMOR_FEMALE
+    corpseBattle:
+      - STR_CORPSE_CIVILIAN_ZOMBIE_07
+    loftempsSet: [ 3 ]
+    weight: 0
+
+    bleedImmune: true
+    fearImmune: true
+    painImmune: true
+
+    builtInWeapons:
+      - STR_ZOMBIE_WEAPON
+      - STR_ZOMBIE_WEAPON
+      - STR_BACKPACK_SLOT
+
+#PROTECTION
+    frontArmor: 0
+    sideArmor: 0
+    rearArmor: 0
+    underArmor: 0
+    damageModifier:
+      - 1.0 #None
+      - 0.6 #Armor Piercing
+      - 1.5 #Incendiary
+      - 0.8 #High Explosive
+      - 0.7 #Laser
+      - 1.0 #Plasma
+      - 0.0 #Stun
+      - 1.0 #Melee
+      - 0.0 #Acid
+      - 0.0 #Smoke
+      - 1.0 #Melta
+
+
+#CIVILIAN_ZOMBIE_08 ARMOR
+  - type: STR_CIVILIAN_ZOMBIE_08_ARMOR_MALE
+#GENERAL
+    drawingRoutine: 0 #x-com soldier
+    spriteSheet: CIVILIAN_ZOMBIE_08_ARMOR_MALE.PCK
+    spriteInv: CIVILIAN_ZOMBIE_08_ARMOR_MALE
+    corpseBattle:
+      - STR_CORPSE_CIVILIAN_ZOMBIE_08
+    loftempsSet: [ 3 ]
+    weight: 0
+
+    bleedImmune: true
+    fearImmune: true
+    painImmune: true
+
+    builtInWeapons:
+      - STR_ZOMBIE_WEAPON
+      - STR_ZOMBIE_WEAPON
+      - STR_BACKPACK_SLOT
+
+#PROTECTION
+    frontArmor: 0
+    sideArmor: 0
+    rearArmor: 0
+    underArmor: 0
+    damageModifier:
+      - 1.0 #None
+      - 0.6 #Armor Piercing
+      - 1.5 #Incendiary
+      - 0.8 #High Explosive
+      - 0.7 #Laser
+      - 1.0 #Plasma
+      - 0.0 #Stun
+      - 1.0 #Melee
+      - 0.0 #Acid
+      - 0.0 #Smoke
+      - 1.0 #Melta
+
+  - type: STR_CIVILIAN_ZOMBIE_08_ARMOR_FEMALE
+#GENERAL
+    drawingRoutine: 0 #x-com soldier
+    spriteSheet: CIVILIAN_ZOMBIE_08_ARMOR_FEMALE.PCK
+    spriteInv: CIVILIAN_ZOMBIE_08_ARMOR_FEMALE
+    corpseBattle:
+      - STR_CORPSE_CIVILIAN_ZOMBIE_08
+    loftempsSet: [ 3 ]
+    weight: 0
+
+    bleedImmune: true
+    fearImmune: true
+    painImmune: true
+
+    builtInWeapons:
+      - STR_ZOMBIE_WEAPON
+      - STR_ZOMBIE_WEAPON
+      - STR_BACKPACK_SLOT
+
+#PROTECTION
+    frontArmor: 0
+    sideArmor: 0
+    rearArmor: 0
+    underArmor: 0
+    damageModifier:
+      - 1.0 #None
+      - 0.6 #Armor Piercing
+      - 1.5 #Incendiary
+      - 0.8 #High Explosive
+      - 0.7 #Laser
+      - 1.0 #Plasma
+      - 0.0 #Stun
+      - 1.0 #Melee
+      - 0.0 #Acid
+      - 0.0 #Smoke
+      - 1.0 #Melta
+
+
+#CIVILIAN_ZOMBIE_09 ARMOR
+  - type: STR_CIVILIAN_ZOMBIE_09_ARMOR_MALE
+#GENERAL
+    drawingRoutine: 0 #x-com soldier
+    spriteSheet: CIVILIAN_ZOMBIE_09_ARMOR_MALE.PCK
+    spriteInv: CIVILIAN_ZOMBIE_09_ARMOR_MALE
+    corpseBattle:
+      - STR_CORPSE_CIVILIAN_ZOMBIE_09
+    loftempsSet: [ 3 ]
+    weight: 0
+
+    bleedImmune: true
+    fearImmune: true
+    painImmune: true
+
+    builtInWeapons:
+      - STR_ZOMBIE_WEAPON
+      - STR_ZOMBIE_WEAPON
+      - STR_BACKPACK_SLOT
+
+#PROTECTION
+    frontArmor: 0
+    sideArmor: 0
+    rearArmor: 0
+    underArmor: 0
+    damageModifier:
+      - 1.0 #None
+      - 0.6 #Armor Piercing
+      - 1.5 #Incendiary
+      - 0.8 #High Explosive
+      - 0.7 #Laser
+      - 1.0 #Plasma
+      - 0.0 #Stun
+      - 1.0 #Melee
+      - 0.0 #Acid
+      - 0.0 #Smoke
+      - 1.0 #Melta
+
+  - type: STR_CIVILIAN_ZOMBIE_09_ARMOR_FEMALE
+#GENERAL
+    drawingRoutine: 0 #x-com soldier
+    spriteSheet: CIVILIAN_ZOMBIE_09_ARMOR_FEMALE.PCK
+    spriteInv: CIVILIAN_ZOMBIE_09_ARMOR_FEMALE
+    corpseBattle:
+      - STR_CORPSE_CIVILIAN_ZOMBIE_09
+    loftempsSet: [ 3 ]
+    weight: 0
+
+    bleedImmune: true
+    fearImmune: true
+    painImmune: true
+
+    builtInWeapons:
+      - STR_ZOMBIE_WEAPON
+      - STR_ZOMBIE_WEAPON
+      - STR_BACKPACK_SLOT
+
+#PROTECTION
+    frontArmor: 0
+    sideArmor: 0
+    rearArmor: 0
+    underArmor: 0
+    damageModifier:
+      - 1.0 #None
+      - 0.6 #Armor Piercing
+      - 1.5 #Incendiary
+      - 0.8 #High Explosive
+      - 0.7 #Laser
+      - 1.0 #Plasma
+      - 0.0 #Stun
+      - 1.0 #Melee
+      - 0.0 #Acid
+      - 0.0 #Smoke
+      - 1.0 #Melta
+
+
+#CIVILIAN_ZOMBIE_10 ARMOR
+  - type: STR_CIVILIAN_ZOMBIE_10_ARMOR_MALE
+#GENERAL
+    drawingRoutine: 0 #x-com soldier
+    spriteSheet: CIVILIAN_ZOMBIE_10_ARMOR_MALE.PCK
+    spriteInv: CIVILIAN_ZOMBIE_10_ARMOR_MALE
+    corpseBattle:
+      - STR_CORPSE_CIVILIAN_ZOMBIE_10
+    loftempsSet: [ 3 ]
+    weight: 0
+
+    bleedImmune: true
+    fearImmune: true
+    painImmune: true
+
+    builtInWeapons:
+      - STR_ZOMBIE_WEAPON
+      - STR_ZOMBIE_WEAPON
+      - STR_BACKPACK_SLOT
+
+#PROTECTION
+    frontArmor: 0
+    sideArmor: 0
+    rearArmor: 0
+    underArmor: 0
+    damageModifier:
+      - 1.0 #None
+      - 0.6 #Armor Piercing
+      - 1.5 #Incendiary
+      - 0.8 #High Explosive
+      - 0.7 #Laser
+      - 1.0 #Plasma
+      - 0.0 #Stun
+      - 1.0 #Melee
+      - 0.0 #Acid
+      - 0.0 #Smoke
+      - 1.0 #Melta
+
+  - type: STR_CIVILIAN_ZOMBIE_10_ARMOR_FEMALE
+#GENERAL
+    drawingRoutine: 0 #x-com soldier
+    spriteSheet: CIVILIAN_ZOMBIE_10_ARMOR_FEMALE.PCK
+    spriteInv: CIVILIAN_ZOMBIE_10_ARMOR_FEMALE
+    corpseBattle:
+      - STR_CORPSE_CIVILIAN_ZOMBIE_10
+    loftempsSet: [ 3 ]
+    weight: 0
+
+    bleedImmune: true
+    fearImmune: true
+    painImmune: true
+
+    builtInWeapons:
+      - STR_ZOMBIE_WEAPON
+      - STR_ZOMBIE_WEAPON
+      - STR_BACKPACK_SLOT
+
+#PROTECTION
+    frontArmor: 0
+    sideArmor: 0
+    rearArmor: 0
+    underArmor: 0
+    damageModifier:
+      - 1.0 #None
+      - 0.6 #Armor Piercing
+      - 1.5 #Incendiary
+      - 0.8 #High Explosive
+      - 0.7 #Laser
+      - 1.0 #Plasma
+      - 0.0 #Stun
+      - 1.0 #Melee
+      - 0.0 #Acid
+      - 0.0 #Smoke
+      - 1.0 #Melta
+
+
+#CIVILIAN_ZOMBIE_11 ARMOR
+  - type: STR_CIVILIAN_ZOMBIE_11_ARMOR_MALE
+#GENERAL
+    drawingRoutine: 0 #x-com soldier
+    spriteSheet: CIVILIAN_ZOMBIE_11_ARMOR_MALE.PCK
+    spriteInv: CIVILIAN_ZOMBIE_11_ARMOR_MALE
+    corpseBattle:
+      - STR_CORPSE_CIVILIAN_ZOMBIE_11
+    loftempsSet: [ 3 ]
+    weight: 0
+
+    bleedImmune: true
+    fearImmune: true
+    painImmune: true
+
+    builtInWeapons:
+      - STR_ZOMBIE_WEAPON
+      - STR_ZOMBIE_WEAPON
+      - STR_BACKPACK_SLOT
+
+#PROTECTION
+    frontArmor: 0
+    sideArmor: 0
+    rearArmor: 0
+    underArmor: 0
+    damageModifier:
+      - 1.0 #None
+      - 0.6 #Armor Piercing
+      - 1.5 #Incendiary
+      - 0.8 #High Explosive
+      - 0.7 #Laser
+      - 1.0 #Plasma
+      - 0.0 #Stun
+      - 1.0 #Melee
+      - 0.0 #Acid
+      - 0.0 #Smoke
+      - 1.0 #Melta
+
+  - type: STR_CIVILIAN_ZOMBIE_11_ARMOR_FEMALE
+#GENERAL
+    drawingRoutine: 0 #x-com soldier
+    spriteSheet: CIVILIAN_ZOMBIE_11_ARMOR_FEMALE.PCK
+    spriteInv: CIVILIAN_ZOMBIE_11_ARMOR_FEMALE
+    corpseBattle:
+      - STR_CORPSE_CIVILIAN_ZOMBIE_11
+    loftempsSet: [ 3 ]
+    weight: 0
+
+    bleedImmune: true
+    fearImmune: true
+    painImmune: true
+
+    builtInWeapons:
+      - STR_ZOMBIE_WEAPON
+      - STR_ZOMBIE_WEAPON
+      - STR_BACKPACK_SLOT
+
+#PROTECTION
+    frontArmor: 0
+    sideArmor: 0
+    rearArmor: 0
+    underArmor: 0
+    damageModifier:
+      - 1.0 #None
+      - 0.6 #Armor Piercing
+      - 1.5 #Incendiary
+      - 0.8 #High Explosive
+      - 0.7 #Laser
+      - 1.0 #Plasma
+      - 0.0 #Stun
+      - 1.0 #Melee
+      - 0.0 #Acid
+      - 0.0 #Smoke
+      - 1.0 #Melta
+
+
+#CIVILIAN_ZOMBIE_12 ARMOR
+  - type: STR_CIVILIAN_ZOMBIE_12_ARMOR_MALE
+#GENERAL
+    drawingRoutine: 0 #x-com soldier
+    spriteSheet: CIVILIAN_ZOMBIE_12_ARMOR_MALE.PCK
+    spriteInv: CIVILIAN_ZOMBIE_12_ARMOR_MALE
+    corpseBattle:
+      - STR_CORPSE_CIVILIAN_ZOMBIE_12
+    loftempsSet: [ 3 ]
+    weight: 0
+
+    bleedImmune: true
+    fearImmune: true
+    painImmune: true
+
+    builtInWeapons:
+      - STR_ZOMBIE_WEAPON
+      - STR_ZOMBIE_WEAPON
+      - STR_BACKPACK_SLOT
+
+#PROTECTION
+    frontArmor: 0
+    sideArmor: 0
+    rearArmor: 0
+    underArmor: 0
+    damageModifier:
+      - 1.0 #None
+      - 0.6 #Armor Piercing
+      - 1.5 #Incendiary
+      - 0.8 #High Explosive
+      - 0.7 #Laser
+      - 1.0 #Plasma
+      - 0.0 #Stun
+      - 1.0 #Melee
+      - 0.0 #Acid
+      - 0.0 #Smoke
+      - 1.0 #Melta
+
+  - type: STR_CIVILIAN_ZOMBIE_12_ARMOR_FEMALE
+#GENERAL
+    drawingRoutine: 0 #x-com soldier
+    spriteSheet: CIVILIAN_ZOMBIE_12_ARMOR_FEMALE.PCK
+    spriteInv: CIVILIAN_ZOMBIE_12_ARMOR_FEMALE
+    corpseBattle:
+      - STR_CORPSE_CIVILIAN_ZOMBIE_12
+    loftempsSet: [ 3 ]
+    weight: 0
+
+    bleedImmune: true
+    fearImmune: true
+    painImmune: true
+
+    builtInWeapons:
+      - STR_ZOMBIE_WEAPON
+      - STR_ZOMBIE_WEAPON
+      - STR_BACKPACK_SLOT
+
+#PROTECTION
+    frontArmor: 0
+    sideArmor: 0
+    rearArmor: 0
+    underArmor: 0
+    damageModifier:
+      - 1.0 #None
+      - 0.6 #Armor Piercing
+      - 1.5 #Incendiary
+      - 0.8 #High Explosive
+      - 0.7 #Laser
+      - 1.0 #Plasma
+      - 0.0 #Stun
+      - 1.0 #Melee
+      - 0.0 #Acid
+      - 0.0 #Smoke
+      - 1.0 #Melta
+
+
+#CIVILIAN_ZOMBIE_13 ARMOR
+  - type: STR_CIVILIAN_ZOMBIE_13_ARMOR_MALE
+#GENERAL
+    drawingRoutine: 0 #x-com soldier
+    spriteSheet: CIVILIAN_ZOMBIE_13_ARMOR_MALE.PCK
+    spriteInv: CIVILIAN_ZOMBIE_13_ARMOR_MALE
+    corpseBattle:
+      - STR_CORPSE_CIVILIAN_ZOMBIE_13
+    loftempsSet: [ 3 ]
+    weight: 0
+
+    bleedImmune: true
+    fearImmune: true
+    painImmune: true
+
+    builtInWeapons:
+      - STR_ZOMBIE_WEAPON
+      - STR_ZOMBIE_WEAPON
+      - STR_BACKPACK_SLOT
+
+#PROTECTION
+    frontArmor: 0
+    sideArmor: 0
+    rearArmor: 0
+    underArmor: 0
+    damageModifier:
+      - 1.0 #None
+      - 0.6 #Armor Piercing
+      - 1.5 #Incendiary
+      - 0.8 #High Explosive
+      - 0.7 #Laser
+      - 1.0 #Plasma
+      - 0.0 #Stun
+      - 1.0 #Melee
+      - 0.0 #Acid
+      - 0.0 #Smoke
+      - 1.0 #Melta
+
+  - type: STR_CIVILIAN_ZOMBIE_13_ARMOR_FEMALE
+#GENERAL
+    drawingRoutine: 0 #x-com soldier
+    spriteSheet: CIVILIAN_ZOMBIE_13_ARMOR_FEMALE.PCK
+    spriteInv: CIVILIAN_ZOMBIE_13_ARMOR_FEMALE
+    corpseBattle:
+      - STR_CORPSE_CIVILIAN_ZOMBIE_13
+    loftempsSet: [ 3 ]
+    weight: 0
+
+    bleedImmune: true
+    fearImmune: true
+    painImmune: true
+
+    builtInWeapons:
+      - STR_ZOMBIE_WEAPON
+      - STR_ZOMBIE_WEAPON
+      - STR_BACKPACK_SLOT
+
+#PROTECTION
+    frontArmor: 0
+    sideArmor: 0
+    rearArmor: 0
+    underArmor: 0
+    damageModifier:
+      - 1.0 #None
+      - 0.6 #Armor Piercing
+      - 1.5 #Incendiary
+      - 0.8 #High Explosive
+      - 0.7 #Laser
+      - 1.0 #Plasma
+      - 0.0 #Stun
+      - 1.0 #Melee
+      - 0.0 #Acid
+      - 0.0 #Smoke
+      - 1.0 #Melta
+
+
+#CIVILIAN_ZOMBIE_14 ARMOR
+  - type: STR_CIVILIAN_ZOMBIE_14_ARMOR_MALE
+#GENERAL
+    drawingRoutine: 0 #x-com soldier
+    spriteSheet: CIVILIAN_ZOMBIE_14_ARMOR_MALE.PCK
+    spriteInv: CIVILIAN_ZOMBIE_14_ARMOR_MALE
+    corpseBattle:
+      - STR_CORPSE_CIVILIAN_ZOMBIE_14
+    loftempsSet: [ 3 ]
+    weight: 0
+
+    bleedImmune: true
+    fearImmune: true
+    painImmune: true
+
+    builtInWeapons:
+      - STR_ZOMBIE_WEAPON
+      - STR_ZOMBIE_WEAPON
+      - STR_BACKPACK_SLOT
+
+#PROTECTION
+    frontArmor: 0
+    sideArmor: 0
+    rearArmor: 0
+    underArmor: 0
+    damageModifier:
+      - 1.0 #None
+      - 0.6 #Armor Piercing
+      - 1.5 #Incendiary
+      - 0.8 #High Explosive
+      - 0.7 #Laser
+      - 1.0 #Plasma
+      - 0.0 #Stun
+      - 1.0 #Melee
+      - 0.0 #Acid
+      - 0.0 #Smoke
+      - 1.0 #Melta
+
+  - type: STR_CIVILIAN_ZOMBIE_14_ARMOR_FEMALE
+#GENERAL
+    drawingRoutine: 0 #x-com soldier
+    spriteSheet: CIVILIAN_ZOMBIE_14_ARMOR_FEMALE.PCK
+    spriteInv: CIVILIAN_ZOMBIE_14_ARMOR_FEMALE
+    corpseBattle:
+      - STR_CORPSE_CIVILIAN_ZOMBIE_14
+    loftempsSet: [ 3 ]
+    weight: 0
+
+    bleedImmune: true
+    fearImmune: true
+    painImmune: true
+
+    builtInWeapons:
+      - STR_ZOMBIE_WEAPON
+      - STR_ZOMBIE_WEAPON
+      - STR_BACKPACK_SLOT
+
+#PROTECTION
+    frontArmor: 0
+    sideArmor: 0
+    rearArmor: 0
+    underArmor: 0
+    damageModifier:
+      - 1.0 #None
+      - 0.6 #Armor Piercing
+      - 1.5 #Incendiary
+      - 0.8 #High Explosive
+      - 0.7 #Laser
+      - 1.0 #Plasma
+      - 0.0 #Stun
+      - 1.0 #Melee
+      - 0.0 #Acid
+      - 0.0 #Smoke
+      - 1.0 #Melta
+
+
+#CIVILIAN_ZOMBIE_15 ARMOR
+  - type: STR_CIVILIAN_ZOMBIE_15_ARMOR_MALE
+#GENERAL
+    drawingRoutine: 0 #x-com soldier
+    spriteSheet: CIVILIAN_ZOMBIE_15_ARMOR_MALE.PCK
+    spriteInv: CIVILIAN_ZOMBIE_15_ARMOR_MALE
+    corpseBattle:
+      - STR_CORPSE_CIVILIAN_ZOMBIE_15
+    loftempsSet: [ 3 ]
+    weight: 0
+
+    bleedImmune: true
+    fearImmune: true
+    painImmune: true
+
+    builtInWeapons:
+      - STR_ZOMBIE_WEAPON
+      - STR_ZOMBIE_WEAPON
+      - STR_BACKPACK_SLOT
+
+#PROTECTION
+    frontArmor: 0
+    sideArmor: 0
+    rearArmor: 0
+    underArmor: 0
+    damageModifier:
+      - 1.0 #None
+      - 0.6 #Armor Piercing
+      - 1.5 #Incendiary
+      - 0.8 #High Explosive
+      - 0.7 #Laser
+      - 1.0 #Plasma
+      - 0.0 #Stun
+      - 1.0 #Melee
+      - 0.0 #Acid
+      - 0.0 #Smoke
+      - 1.0 #Melta
+
+  - type: STR_CIVILIAN_ZOMBIE_15_ARMOR_FEMALE
+#GENERAL
+    drawingRoutine: 0 #x-com soldier
+    spriteSheet: CIVILIAN_ZOMBIE_15_ARMOR_FEMALE.PCK
+    spriteInv: CIVILIAN_ZOMBIE_15_ARMOR_FEMALE
+    corpseBattle:
+      - STR_CORPSE_CIVILIAN_ZOMBIE_15
+    loftempsSet: [ 3 ]
+    weight: 0
+
+    bleedImmune: true
+    fearImmune: true
+    painImmune: true
+
+    builtInWeapons:
+      - STR_ZOMBIE_WEAPON
+      - STR_ZOMBIE_WEAPON
+      - STR_BACKPACK_SLOT
+
+#PROTECTION
+    frontArmor: 0
+    sideArmor: 0
+    rearArmor: 0
+    underArmor: 0
+    damageModifier:
+      - 1.0 #None
+      - 0.6 #Armor Piercing
+      - 1.5 #Incendiary
+      - 0.8 #High Explosive
+      - 0.7 #Laser
+      - 1.0 #Plasma
+      - 0.0 #Stun
+      - 1.0 #Melee
+      - 0.0 #Acid
+      - 0.0 #Smoke
+      - 1.0 #Melta
+
+
+
+
+
+
+
+

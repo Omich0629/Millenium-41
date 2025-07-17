@@ -352,8 +352,8 @@ alienDeployments:
           -
             []
       - alienRank: 3 #MEDIC
-        lowQty: 1
-        highQty: 1
+        lowQty: 2
+        highQty: 2
         dQty: 1
         percentageOutsideUfo: 100
         itemSets:
@@ -389,7 +389,7 @@ alienDeployments:
           -
             []
       - alienRank: 6 #TERRORIST
-        lowQty: 1
+        lowQty: 2
         highQty: 3
         dQty: 2
         percentageOutsideUfo: 100

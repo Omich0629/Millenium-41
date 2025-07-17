@@ -1,0 +1,519 @@
+units:
+
+#AI units
+##NURGLE CULTISTS
+
+#NURGLE CULTIST RIFLEMAN MALE
+  - type: STR_NURGLE_CULTIST_RIFLEMAN_MALE
+    race: STR_NURGLE_CULTISTS
+    rank: STR_LIVE_SOLDIER
+    stats:
+      tu: 50
+      stamina: 60
+      health: 40
+      bravery: 60
+      reactions: 40
+      firing: 50
+      throwing: 50
+      strength: 40
+      psiStrength: 50
+      psiSkill: 0
+      melee: 50
+    armor: STR_NURGLE_CULTIST_ARMOR_MALE
+    standHeight: 22
+    kneelHeight: 14
+    value: 10
+    moraleLossWhenKilled: 100
+    deathSound: [41, 42, 43] #human male 
+    intelligence: 3
+    aggression: 2
+    capturable: true
+    liveAlien: STR_LIVE_NURGLE_CULTIST
+    builtInWeaponSets:
+#ITEM SET 0
+      - - STR_AUTOGUN_NURGLE
+        - STR_AUTOGUN_MAGAZINE
+        - STR_AUTOGUN_MAGAZINE
+#ITEM SET 1
+      - - STR_AUTOGUN_NURGLE
+        - STR_AUTOGUN_MAGAZINE
+        - STR_AUTOGUN_MAGAZINE
+        - STR_ACID_GRENADE
+#ITEM SET 2
+      - - STR_LASGUN_NURGLE
+        - STR_ACID_GRENADE
+        - STR_ACID_GRENADE
+
+
+#NURGLE CULTIST RIFLEMAN FEMALE
+  - type: STR_NURGLE_CULTIST_RIFLEMAN_FEMALE
+    race: STR_NURGLE_CULTISTS
+    rank: STR_LIVE_SOLDIER
+    stats:
+      tu: 50
+      stamina: 60
+      health: 40
+      bravery: 60
+      reactions: 40
+      firing: 50
+      throwing: 50
+      strength: 40
+      psiStrength: 50
+      psiSkill: 0
+      melee: 50
+    armor: STR_NURGLE_CULTIST_ARMOR_FEMALE
+    standHeight: 22
+    kneelHeight: 14
+    value: 10
+    moraleLossWhenKilled: 100
+    deathSound: [44, 45, 46] #human female
+    intelligence: 3
+    aggression: 2
+    capturable: true
+    liveAlien: STR_LIVE_NURGLE_CULTIST
+    builtInWeaponSets:
+#ITEM SET 0
+      - - STR_AUTOGUN_NURGLE
+        - STR_AUTOGUN_MAGAZINE
+        - STR_AUTOGUN_MAGAZINE
+#ITEM SET 1
+      - - STR_AUTOGUN_NURGLE
+        - STR_AUTOGUN_MAGAZINE
+        - STR_AUTOGUN_MAGAZINE
+        - STR_ACID_GRENADE
+#ITEM SET 2
+      - - STR_LASGUN_NURGLE
+        - STR_ACID_GRENADE
+        - STR_ACID_GRENADE
+
+
+
+
+
+#NURGLE CULTIST MARKSMAN MALE
+  - type: STR_NURGLE_CULTIST_MARKSMAN_MALE
+    race: STR_NURGLE_CULTISTS
+    rank: STR_LIVE_MEDIC
+    stats:
+      tu: 50
+      stamina: 60
+      health: 40
+      bravery: 60
+      reactions: 50
+      firing: 60
+      throwing: 50
+      strength: 40
+      psiStrength: 50
+      psiSkill: 0
+      melee: 50
+    armor: STR_NURGLE_CULTIST_ARMOR_MALE
+    standHeight: 22
+    kneelHeight: 14
+    value: 10
+    moraleLossWhenKilled: 100
+    deathSound: [41, 42, 43] #human male 
+    intelligence: 3
+    aggression: 0 #mostly passive
+    capturable: true
+    liveAlien: STR_LIVE_NURGLE_CULTIST
+    builtInWeaponSets:
+#ITEM SET 0
+      - - STR_MARKSMAN_AUTOGUN_NURGLE
+        - STR_AUTOGUN_MAGAZINE
+        - STR_AUTOGUN_MAGAZINE
+#ITEM SET 1
+      - - STR_MARKSMAN_AUTOGUN_NURGLE
+        - STR_AUTOGUN_MAGAZINE
+        - STR_AUTOGUN_MAGAZINE
+        - STR_ACID_GRENADE
+#ITEM SET 2
+      - - STR_MARKSMAN_LASGUN_NURGLE
+        - STR_ACID_GRENADE
+        - STR_ACID_GRENADE
+
+
+#NURGLE CULTIST MARKSMAN MALE
+  - type: STR_NURGLE_CULTIST_MARKSMAN_FEMALE
+    race: STR_NURGLE_CULTISTS
+    rank: STR_LIVE_MEDIC
+    stats:
+      tu: 50
+      stamina: 60
+      health: 40
+      bravery: 60
+      reactions: 50
+      firing: 60
+      throwing: 50
+      strength: 40
+      psiStrength: 50
+      psiSkill: 0
+      melee: 50
+    armor: STR_NURGLE_CULTIST_ARMOR_FEMALE
+    standHeight: 22
+    kneelHeight: 14
+    value: 10
+    moraleLossWhenKilled: 100
+    deathSound: [44, 45, 46] #human female
+    intelligence: 3
+    aggression: 0 #mostly passive
+    capturable: true
+    liveAlien: STR_LIVE_NURGLE_CULTIST
+    builtInWeaponSets:
+#ITEM SET 0
+      - - STR_MARKSMAN_AUTOGUN_NURGLE
+        - STR_AUTOGUN_MAGAZINE
+        - STR_AUTOGUN_MAGAZINE
+#ITEM SET 1
+      - - STR_MARKSMAN_AUTOGUN_NURGLE
+        - STR_AUTOGUN_MAGAZINE
+        - STR_AUTOGUN_MAGAZINE
+        - STR_ACID_GRENADE
+#ITEM SET 2
+      - - STR_MARKSMAN_LASGUN_NURGLE
+        - STR_ACID_GRENADE
+        - STR_ACID_GRENADE
+
+
+#NURGLE CULTIST GUNNER MALE
+  - type: STR_NURGLE_CULTIST_GUNNER_MALE
+    race: STR_NURGLE_CULTISTS
+    rank: STR_LIVE_MEDIC
+    stats:
+      tu: 55
+      stamina: 60
+      health: 40
+      bravery: 60
+      reactions: 45
+      firing: 50
+      throwing: 30
+      strength: 40
+      psiStrength: 50
+      psiSkill: 0
+      melee: 50
+    armor: STR_NURGLE_CULTIST_ARMOR_MALE
+    standHeight: 22
+    kneelHeight: 14
+    value: 10
+    moraleLossWhenKilled: 100
+    deathSound: [41, 42, 43] #human male 
+    intelligence: 3
+    aggression: 2
+    capturable: true
+    liveAlien: STR_LIVE_NURGLE_CULTIST
+    builtInWeaponSets:
+#ITEM SET 0
+      - - STR_HEAVY_STUBBER_NURGLE
+        - STR_HEAVY_STUBBER_AMMO_BELT
+        - STR_HEAVY_STUBBER_AMMO_BELT
+#ITEM SET 1
+      - - STR_HEAVY_STUBBER_NURGLE
+        - STR_HEAVY_STUBBER_AMMO_BELT
+        - STR_HEAVY_STUBBER_AMMO_BELT
+        - STR_ACID_GRENADE
+#ITEM SET 2
+      - - STR_TWIN_LASGUN_NURGLE
+        - STR_ACID_GRENADE
+        - STR_ACID_GRENADE
+
+
+#NURGLE CULTIST GUNNER FEMALE
+  - type: STR_NURGLE_CULTIST_GUNNER_FEMALE
+    race: STR_NURGLE_CULTISTS
+    rank: STR_LIVE_MEDIC
+    stats:
+      tu: 55
+      stamina: 60
+      health: 40
+      bravery: 60
+      reactions: 45
+      firing: 50
+      throwing: 30
+      strength: 40
+      psiStrength: 50
+      psiSkill: 0
+      melee: 50
+    armor: STR_NURGLE_CULTIST_ARMOR_FEMALE
+    standHeight: 22
+    kneelHeight: 14
+    value: 10
+    moraleLossWhenKilled: 100
+    deathSound: [44, 45, 46] #human female
+    intelligence: 3
+    aggression: 2
+    capturable: true
+    liveAlien: STR_LIVE_NURGLE_CULTIST
+    builtInWeaponSets:
+#ITEM SET 0
+      - - STR_HEAVY_STUBBER_NURGLE
+        - STR_HEAVY_STUBBER_AMMO_BELT
+        - STR_HEAVY_STUBBER_AMMO_BELT
+#ITEM SET 1
+      - - STR_HEAVY_STUBBER_NURGLE
+        - STR_HEAVY_STUBBER_AMMO_BELT
+        - STR_HEAVY_STUBBER_AMMO_BELT
+        - STR_ACID_GRENADE
+#ITEM SET 2
+      - - STR_TWIN_LASGUN_NURGLE
+        - STR_ACID_GRENADE
+        - STR_ACID_GRENADE
+
+
+#NURGLE CULTIST GRENADIER MALE
+  - type: STR_NURGLE_CULTIST_GRENADIER_MALE
+    race: STR_NURGLE_CULTISTS
+    rank: STR_LIVE_MEDIC
+    stats:
+      tu: 55
+      stamina: 60
+      health: 40
+      bravery: 60
+      reactions: 40
+      firing: 50
+      throwing: 50
+      strength: 45
+      psiStrength: 50
+      psiSkill: 0
+      melee: 45
+    armor: STR_NURGLE_CULTIST_ARMOR_MALE
+    standHeight: 22
+    kneelHeight: 14
+    value: 10
+    moraleLossWhenKilled: 100
+    deathSound: [41, 42, 43] #human male 
+    intelligence: 3
+    aggression: 2
+    capturable: true
+    liveAlien: STR_LIVE_NURGLE_CULTIST
+    builtInWeaponSets:
+#ITEM SET 0
+      - - STR_GRENADE_LAUNCHER_NURGLE
+        - STR_ACID_GRENADE_MAGAZINE
+        - STR_ACID_GRENADE_MAGAZINE
+#ITEM SET 1
+      - - STR_GRENADE_LAUNCHER_NURGLE
+        - STR_ACID_GRENADE_MAGAZINE
+        - STR_ACID_GRENADE_MAGAZINE
+        - STR_ACID_GRENADE
+#ITEM SET 2
+      - - STR_GRENADE_LAUNCHER_NURGLE
+        - STR_ACID_GRENADE_MAGAZINE
+        - STR_ACID_GRENADE_MAGAZINE
+        - STR_ACID_GRENADE
+        - STR_ACID_GRENADE
+
+
+#NURGLE CULTIST GRENADIER FEMALE
+  - type: STR_NURGLE_CULTIST_GRENADIER_FEMALE
+    race: STR_NURGLE_CULTISTS
+    rank: STR_LIVE_MEDIC
+    stats:
+      tu: 55
+      stamina: 60
+      health: 40
+      bravery: 60
+      reactions: 40
+      firing: 50
+      throwing: 50
+      strength: 45
+      psiStrength: 50
+      psiSkill: 0
+      melee: 45
+    armor: STR_NURGLE_CULTIST_ARMOR_FEMALE
+    standHeight: 22
+    kneelHeight: 14
+    value: 10
+    moraleLossWhenKilled: 100
+    deathSound: [44, 45, 46] #human female
+    intelligence: 3
+    aggression: 2
+    capturable: true
+    liveAlien: STR_LIVE_NURGLE_CULTIST
+    builtInWeaponSets:
+#ITEM SET 0
+      - - STR_GRENADE_LAUNCHER_NURGLE
+        - STR_ACID_GRENADE_MAGAZINE
+        - STR_ACID_GRENADE_MAGAZINE
+#ITEM SET 1
+      - - STR_GRENADE_LAUNCHER_NURGLE
+        - STR_ACID_GRENADE_MAGAZINE
+        - STR_ACID_GRENADE_MAGAZINE
+        - STR_ACID_GRENADE
+#ITEM SET 2
+      - - STR_GRENADE_LAUNCHER_NURGLE
+        - STR_ACID_GRENADE_MAGAZINE
+        - STR_ACID_GRENADE_MAGAZINE
+        - STR_ACID_GRENADE
+        - STR_ACID_GRENADE
+
+
+#NURGLE CULTIST LEADER MALE
+  - type: STR_NURGLE_CULTIST_LEADER_MALE
+    race: STR_NURGLE_CULTISTS
+    rank: STR_LIVE_LEADER
+    stats:
+      tu: 60
+      stamina: 60
+      health: 45
+      bravery: 70
+      reactions: 40
+      firing: 60
+      throwing: 60
+      strength: 40
+      psiStrength: 60
+      psiSkill: 0
+      melee: 60
+    armor: STR_NURGLE_CULTIST_LEADER_ARMOR_MALE
+    standHeight: 22
+    kneelHeight: 14
+    value: 15
+    moraleLossWhenKilled: 200
+    deathSound: [41, 42, 43] #human male 
+    intelligence: 4
+    aggression: 2
+    capturable: true
+    liveAlien: STR_LIVE_NURGLE_CULTIST_LEADER
+    builtInWeaponSets:
+#ITEM SET 0
+      - - STR_COMBAT_KNIFE_NURGLE
+        - STR_AUTOPISTOL_NURGLE
+        - STR_AUTOPISTOL_MAGAZINE
+        - STR_AUTOPISTOL_MAGAZINE
+#ITEM SET 1
+      - - STR_SWORD_NURGLE
+        - STR_AUTOPISTOL_NURGLE
+        - STR_AUTOPISTOL_MAGAZINE
+        - STR_AUTOPISTOL_MAGAZINE
+        - STR_ACID_GRENADE
+#ITEM SET 2
+      - - STR_SWORD_NURGLE
+        - STR_LASPISTOL_NURGLE
+        - STR_ACID_GRENADE
+        - STR_ACID_GRENADE
+
+
+
+#NURGLE CULTIST LEADER FEMALE
+  - type: STR_NURGLE_CULTIST_LEADER_FEMALE
+    race: STR_NURGLE_CULTISTS
+    rank: STR_LIVE_LEADER
+    stats:
+      tu: 60
+      stamina: 60
+      health: 45
+      bravery: 70
+      reactions: 40
+      firing: 60
+      throwing: 60
+      strength: 40
+      psiStrength: 60
+      psiSkill: 0
+      melee: 60
+    armor: STR_NURGLE_CULTIST_LEADER_ARMOR_FEMALE
+    standHeight: 22
+    kneelHeight: 14
+    value: 15
+    moraleLossWhenKilled: 200
+    deathSound: [44, 45, 46] #human female
+    intelligence: 4
+    aggression: 2
+    capturable: true
+    liveAlien: STR_LIVE_NURGLE_CULTIST_LEADER
+    builtInWeaponSets:
+#ITEM SET 0
+      - - STR_COMBAT_KNIFE_NURGLE
+        - STR_AUTOPISTOL_NURGLE
+        - STR_AUTOPISTOL_MAGAZINE
+        - STR_AUTOPISTOL_MAGAZINE
+#ITEM SET 1
+      - - STR_SWORD_NURGLE
+        - STR_AUTOPISTOL_NURGLE
+        - STR_AUTOPISTOL_MAGAZINE
+        - STR_AUTOPISTOL_MAGAZINE
+        - STR_ACID_GRENADE
+#ITEM SET 2
+      - - STR_SWORD_NURGLE
+        - STR_LASPISTOL_NURGLE
+        - STR_ACID_GRENADE
+        - STR_ACID_GRENADE
+
+
+
+
+#NURGLE CULTIST ZOMBIE MALE
+  - type: STR_NURGLE_CULTIST_ZOMBIE_MALE
+    race: STR_NURGLE_CULTISTS
+    rank: STR_LIVE_TERRORIST
+    stats:
+      tu: 70
+      stamina: 70
+      health: 60
+      bravery: 100
+      reactions: 30
+      firing: 60
+      throwing: 60
+      strength: 40
+      psiStrength: 0
+      psiSkill: 0
+      melee: 70
+    energyRecovery: 70
+    armor: STR_NURGLE_CULTIST_ZOMBIE_ARMOR_MALE
+    standHeight: 22
+    kneelHeight: 14
+    value: 10
+    moraleLossWhenKilled: 100
+    # Zombies are silent on death, no deathSound
+    canPanic: false
+    canBeMindControlled: false
+    isLeeroyJenkins: true
+    intelligence: 2
+    aggression: 8
+    capturable: false
+
+
+#NURGLE CULTIST ZOMBIE FEMALE
+  - type: STR_NURGLE_CULTIST_ZOMBIE_FEMALE
+    race: STR_NURGLE_CULTISTS
+    rank: STR_LIVE_TERRORIST
+    stats:
+      tu: 70
+      stamina: 70
+      health: 60
+      bravery: 100
+      reactions: 30
+      firing: 60
+      throwing: 60
+      strength: 40
+      psiStrength: 0
+      psiSkill: 0
+      melee: 70
+    energyRecovery: 70
+    armor: STR_NURGLE_CULTIST_ZOMBIE_ARMOR_FEMALE
+    standHeight: 22
+    kneelHeight: 14
+    value: 10
+    moraleLossWhenKilled: 100
+    # Zombies are silent on death, no deathSound
+    canPanic: false
+    canBeMindControlled: false
+    isLeeroyJenkins: true
+    intelligence: 2
+    aggression: 8
+    capturable: false
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

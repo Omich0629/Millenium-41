@@ -377,6 +377,7 @@ units:
       psiStrength: 50
       psiSkill: 0
       melee: 70
+    energyRecovery: 80
     armor: STR_KHORNE_CULTIST_ARMOR_MALE
     standHeight: 22
     kneelHeight: 14
@@ -387,7 +388,6 @@ units:
     aggression: 5
     berserkChance: 100
     isLeeroyJenkins: true
-    energyRecovery: 80
     capturable: true
     liveAlien: STR_LIVE_KHORNE_CULTIST
     builtInWeaponSets:
@@ -426,6 +426,7 @@ units:
       psiStrength: 50
       psiSkill: 0
       melee: 70
+    energyRecovery: 80
     armor: STR_KHORNE_CULTIST_ARMOR_FEMALE
     standHeight: 22
     kneelHeight: 14
@@ -436,7 +437,6 @@ units:
     aggression: 5
     berserkChance: 100
     isLeeroyJenkins: true
-    energyRecovery: 80
     capturable: true
     liveAlien: STR_LIVE_KHORNE_CULTIST
     builtInWeaponSets:

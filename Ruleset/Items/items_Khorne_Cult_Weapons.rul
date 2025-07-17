@@ -49,8 +49,8 @@ items:
 #SCRIPTING
     tags:
       AMMO_CHANGES_ITEMS_BIGSPRITE: 1
-
-
+#MISC
+    ignoreInCraftEquip: true
 
 
 ## KHORNE AUTOGUN
@@ -94,6 +94,8 @@ items:
 #SCRIPTING
     tags:
       AMMO_CHANGES_ITEMS_BIGSPRITE: 1
+#MISC
+    ignoreInCraftEquip: true
 
 
 
@@ -139,6 +141,8 @@ items:
       AMMO_CHANGES_ITEMS_BIGSPRITE: 1
       ITEM_HAS_BIPOD_BIGSPRITE: 1
       ITEM_HAS_BIPOD_HANDSPRITE: 1
+#MISC
+    ignoreInCraftEquip: true
 
 
 ## KHORNE HEAVY STUBBER
@@ -192,6 +196,8 @@ items:
       AMMO_CHANGES_ITEMS_BIGSPRITE: 1
       ITEM_HAS_BIPOD_BIGSPRITE: 1
       ITEM_HAS_BIPOD_HANDSPRITE: 1
+#MISC
+    ignoreInCraftEquip: true
 
 
 
@@ -237,14 +243,14 @@ items:
     tags:
       HEAVY_WEAPON: 1
       AMMO_CHANGES_ITEMS_BIGSPRITE: 1
-
-
+#MISC
+    ignoreInCraftEquip: true
 
 
 ## KHORNE MISSILE LAUNCHER
   - type: STR_MISSILE_LAUNCHER_KHORNE
 #RESOURCES
-    bigSprite: 409
+    bigSprite: 410
     floorSprite: 337
     handSprite: 576
 #INFO
@@ -281,7 +287,8 @@ items:
 #SCRIPTING
     tags:
       HEAVY_WEAPON: 1
-
+#MISC
+    ignoreInCraftEquip: true
 
 
 ## KHORNE LASPISTOL
@@ -328,8 +335,8 @@ items:
     recoveryTransformations:
       STR_LASPISTOL_CHAOS_STORE: [1] #Transform into store item
     recoveryPoints: 1
-
-
+#MISC
+    ignoreInCraftEquip: true
 
 
 ## KHORNE LASGUN
@@ -381,7 +388,8 @@ items:
     recoveryTransformations:
       STR_LASGUN_CHAOS_STORE: [1] #Transform into store item
     recoveryPoints: 1
-
+#MISC
+    ignoreInCraftEquip: true
 
 
 ## KHORNE MARKSMAN LASGUN
@@ -435,7 +443,8 @@ items:
     tags:
       ITEM_HAS_BIPOD_BIGSPRITE: 1
       ITEM_HAS_BIPOD_HANDSPRITE: 1
-
+#MISC
+    ignoreInCraftEquip: true
 
 
 ## KHORNE TWIN LASGUN
@@ -500,7 +509,8 @@ items:
       HEAVY_WEAPON: 1
       ITEM_HAS_BIPOD_BIGSPRITE: 1
       ITEM_HAS_BIPOD_HANDSPRITE: 1
-
+#MISC
+    ignoreInCraftEquip: true
 
 
 ## KHORNE HELLPISTOL
@@ -548,7 +558,8 @@ items:
     recoveryTransformations:
       STR_HELLPISTOL_CHAOS_STORE: [1] #Transform into store item
     recoveryPoints: 2
-
+#MISC
+    ignoreInCraftEquip: true
 
 
 ## KHORNE HELLGUN
@@ -601,7 +612,8 @@ items:
     recoveryTransformations:
       STR_HELLGUN_CHAOS_STORE: [1] #Transform into store item
     recoveryPoints: 2
-
+#MISC
+    ignoreInCraftEquip: true
 
 
 ## KHORNE MARKSMAN HELLGUN
@@ -656,7 +668,8 @@ items:
     tags:
       ITEM_HAS_BIPOD_BIGSPRITE: 1
       ITEM_HAS_BIPOD_HANDSPRITE: 1
-
+#MISC
+    ignoreInCraftEquip: true
 
 
 ## KHORNE TWIN HELLGUN
@@ -722,7 +735,8 @@ items:
       HEAVY_WEAPON: 1
       ITEM_HAS_BIPOD_BIGSPRITE: 1
       ITEM_HAS_BIPOD_HANDSPRITE: 1
-
+#MISC
+    ignoreInCraftEquip: true
 
 
 ## KHORNE BOLT PISTOL (HUMAN-SIZED)
@@ -760,7 +774,8 @@ items:
 #SCRIPTING
     tags:
       AMMO_CHANGES_ITEMS_BIGSPRITE: 1
-
+#MISC
+    ignoreInCraftEquip: true
 
 
 ## KHORNE BOLTGUN (HUMAN-SIZED)
@@ -803,7 +818,8 @@ items:
 #SCRIPTING
     tags:
       AMMO_CHANGES_ITEMS_BIGSPRITE: 1
-
+#MISC
+    ignoreInCraftEquip: true
 
 
 ## KHORNE MARKSMAN BOLTGUN (HUMAN-SIZED)
@@ -845,7 +861,8 @@ items:
 #SCRIPTING
     tags:
       AMMO_CHANGES_ITEMS_BIGSPRITE: 1
-
+#MISC
+    ignoreInCraftEquip: true
 
 
 ## KHORNE HEAVY BOLTER (HUMAN-SIZED)
@@ -898,7 +915,8 @@ items:
       AMMO_CHANGES_ITEMS_BIGSPRITE: 1
       ITEM_HAS_BIPOD_BIGSPRITE: 1
       ITEM_HAS_BIPOD_HANDSPRITE: 1
-
+#MISC
+    ignoreInCraftEquip: true
 
 
 ## KHORNE BOLT PISTOL (ASTARTES-SIZED)
@@ -936,7 +954,6 @@ items:
 #SCRIPTING
     tags:
       AMMO_CHANGES_ITEMS_BIGSPRITE: 1
-
 #MISC
     ignoreInCraftEquip: true #Temporary
 
@@ -981,7 +998,6 @@ items:
 #SCRIPTING
     tags:
       AMMO_CHANGES_ITEMS_BIGSPRITE: 1
-
 #MISC
     ignoreInCraftEquip: true #Temporary
 
@@ -1030,7 +1046,6 @@ items:
 #SCRIPTING
     tags:
       AMMO_CHANGES_ITEMS_BIGSPRITE: 1
-
 #MISC
     ignoreInCraftEquip: true #Temporary
 
@@ -1059,7 +1074,6 @@ items:
     compatibleAmmo:
       - STR_HEAVY_BOLTER_AMMO_BELT
 #SHOOTING
-
     accuracyAuto: 40
     confAuto:
       shots: 4
@@ -1082,7 +1096,6 @@ items:
     tags:
       HEAVY_WEAPON: 1
       AMMO_CHANGES_ITEMS_BIGSPRITE: 1
-
 #MISC
     ignoreInCraftEquip: true #Temporary
 
@@ -1122,7 +1135,6 @@ items:
 #SCRIPTING
     tags:
       AMMO_CHANGES_ITEMS_BIGSPRITE: 1
-
 #MISC
     ignoreInCraftEquip: true #Temporary
 
@@ -1163,7 +1175,6 @@ items:
 #SCRIPTING
     tags:
       AMMO_CHANGES_ITEMS_BIGSPRITE: 1
-
 #MISC
     ignoreInCraftEquip: true #Temporary
 
@@ -1204,7 +1215,6 @@ items:
 #SCRIPTING
     tags:
       AMMO_CHANGES_ITEMS_BIGSPRITE: 1
-
 #MISC
     ignoreInCraftEquip: true #Temporary
 
@@ -1246,7 +1256,6 @@ items:
 #SCRIPTING
     tags:
       AMMO_CHANGES_ITEMS_BIGSPRITE: 1
-
 #MISC
     ignoreInCraftEquip: true #Temporary
 
@@ -1291,10 +1300,8 @@ items:
 #SCRIPTING
     tags:
       AMMO_CHANGES_ITEMS_BIGSPRITE: 1
-
 #MISC
     ignoreInCraftEquip: true #Temporary
-
 
 
 ## KHORNE MELTAGUN (ASTARTES-SIZED)
@@ -1336,10 +1343,8 @@ items:
 #SCRIPTING
     tags:
       AMMO_CHANGES_ITEMS_BIGSPRITE: 1
-
 #MISC
     ignoreInCraftEquip: true #Temporary
-
 
 
 ## KHORNE COMBAT KNIFE
@@ -1377,9 +1382,8 @@ items:
     recoveryTransformations:
       STR_COMBAT_KNIFE_CHAOS_STORE: [1] #Transform into store item
     recoveryPoints: 0
-
-
-
+#MISC
+    ignoreInCraftEquip: true
 
 
 ## KHORNE SWORD
@@ -1419,7 +1423,8 @@ items:
     recoveryTransformations:
       STR_SWORD_CHAOS_STORE: [1] #Transform into store item
     recoveryPoints: 0
-
+#MISC
+    ignoreInCraftEquip: true
 
 
 ## KHORNE COMBAT AXE
@@ -1459,8 +1464,8 @@ items:
     recoveryTransformations:
       STR_COMBAT_AXE_CHAOS_STORE: [1] #Transform into store item
     recoveryPoints: 0
-
-
+#MISC
+    ignoreInCraftEquip: true
 
 
 ## KHORNE CHAINSWORD
@@ -1500,7 +1505,8 @@ items:
     recoveryTransformations:
       STR_CHAINSWORD_CHAOS_STORE: [1] #Transform into store item
     recoveryPoints: 1
-
+#MISC
+    ignoreInCraftEquip: true
 
 
 ## KHORNE ASTARTES CHAINSWORD
@@ -1540,7 +1546,6 @@ items:
     recoveryTransformations:
       STR_CHAINSWORD_CHAOS_STORE: [1] #Transform into store item
     recoveryPoints: 1
-
 #MISC
     ignoreInCraftEquip: true #Temporary
 
@@ -1582,7 +1587,8 @@ items:
     recoveryTransformations:
       STR_CHAINAXE_CHAOS_STORE: [1] #Transform into store item
     recoveryPoints: 1
-
+#MISC
+    ignoreInCraftEquip: true
 
 
 ## KHORNE ASTARTES CHAINAXE
@@ -1622,7 +1628,6 @@ items:
     recoveryTransformations:
       STR_CHAINAXE_CHAOS_STORE: [1] #Transform into store item
     recoveryPoints: 1
-
 #MISC
     ignoreInCraftEquip: true #Temporary
 
@@ -1665,7 +1670,6 @@ items:
     recoveryTransformations:
       STR_POWER_SWORD_CHAOS_STORE: [1] #Transform into store item
     recoveryPoints: 2
-
 #MISC
     ignoreInCraftEquip: true #Temporary
 
@@ -1707,7 +1711,6 @@ items:
     recoveryTransformations:
       STR_POWER_SWORD_CHAOS_STORE: [1] #Transform into store item
     recoveryPoints: 2
-
 #MISC
     ignoreInCraftEquip: true #Temporary
 
@@ -1749,7 +1752,6 @@ items:
     recoveryTransformations:
       STR_POWER_AXE_CHAOS_STORE: [1] #Transform into store item
     recoveryPoints: 2
-
 #MISC
     ignoreInCraftEquip: true #Temporary
 

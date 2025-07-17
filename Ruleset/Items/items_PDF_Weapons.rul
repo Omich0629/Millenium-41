@@ -465,7 +465,7 @@ items:
 ## PDF MISSILE LAUNCHER
   - type: STR_MISSILE_LAUNCHER_PDF
 #RESOURCES
-    bigSprite: 407
+    bigSprite: 408
     floorSprite: 335
     handSprite: 560
 #INFO
@@ -504,7 +504,7 @@ items:
 ## FRAG MISSILE
   - type: STR_FRAG_MISSILE
 #RESOURCES
-    bigSprite: 403
+    bigSprite: 404
     floorSprite: 334
     handSprite: 552
 
@@ -543,7 +543,7 @@ items:
 ## KRAK MISSILE
   - type: STR_KRAK_MISSILE
 #RESOURCES
-    bigSprite: 404
+    bigSprite: 405
     floorSprite: 334
     handSprite: 552
 
@@ -584,7 +584,7 @@ items:
 ## INCENDIARY MISSILE
   - type: STR_INCENDIARY_MISSILE
 #RESOURCES
-    bigSprite: 405
+    bigSprite: 406
     floorSprite: 334
     handSprite: 552
 
@@ -625,7 +625,7 @@ items:
 #PDF FLAMER
   - type: STR_FLAMER_PDF
 #RESOURCES
-    bigSprite: 414
+    bigSprite: 415
     floorSprite: 342
     handSprite: 616
 #INFO
@@ -662,7 +662,7 @@ items:
 #FLAMER FUEL
   - type: STR_FLAMER_FUEL
 #RESOURCES
-    bigSprite: 413
+    bigSprite: 414
     floorSprite: 341
     handSprite: 608
 

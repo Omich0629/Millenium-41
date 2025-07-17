@@ -581,13 +581,104 @@ items:
     battleType: 11
     armor: 25
 
-## LIVE KHORNE CULTIST
+## LIVE KHORNE LEADER CULTIST
   - type: STR_LIVE_KHORNE_CULTIST_LEADER
 #SPECIFICATIONS
     size: 0.0
     recover: true
     liveAlien: true
     costSell: 10000
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+## NURGLE CULTIST CORPSE
+  - type: STR_CORPSE_NURGLE_CULTIST
+#RESOURCES
+    bigSprite: 2400
+    floorSprite: 2400
+    handSprite: 88 #(empty hand)
+#SPECIFICATIONS
+    size: 0.4
+    costSell: 5000
+    weight: 50
+    invWidth: 2
+    invHeight: 3
+    recoveryPoints: 5
+    battleType: 11
+    armor: 25
+
+## LIVE NURGLE CULTIST
+  - type: STR_LIVE_NURGLE_CULTIST
+#SPECIFICATIONS
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 10000
+
+
+## NURGLE CULTIST LEADER CORPSE
+  - type: STR_CORPSE_NURGLE_CULTIST_LEADER
+#RESOURCES
+    bigSprite: 2401
+    floorSprite: 2401
+    handSprite: 88 #(empty hand)
+#SPECIFICATIONS
+    size: 0.4
+    costSell: 5000
+    weight: 50
+    invWidth: 2
+    invHeight: 3
+    recoveryPoints: 5
+    battleType: 11
+    armor: 25
+
+## LIVE NURGLE LEADER CULTIST
+  - type: STR_LIVE_NURGLE_CULTIST_LEADER
+#SPECIFICATIONS
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 10000
+
+
+
+
+## NURGLE CULTIST ZOMBIE CORPSE
+  - type: STR_CORPSE_NURGLE_CULTIST_ZOMBIE
+#RESOURCES
+    bigSprite: 2402
+    floorSprite: 2402
+    handSprite: 88 #(empty hand)
+#SPECIFICATIONS
+    size: 0.4
+    costSell: 5000
+    weight: 50
+    invWidth: 2
+    invHeight: 3
+    recoveryPoints: 5
+    battleType: 11
+    armor: 25
+
+
+
+
 
 
 
@@ -838,5 +929,263 @@ items:
     battleType: 11
     armor: 15
     recover: false
+
+
+
+
+
+
+## CIVILIAN_ZOMBIE_00 CORPSE
+  - type: STR_CORPSE_CIVILIAN_ZOMBIE_00
+#RESOURCES
+    bigSprite: 3200
+    floorSprite: 3200
+    handSprite: 88 #(empty hand)
+#SPECIFICATIONS
+    name: STR_CORPSE_CIVILIAN_ZOMBIE
+    weight: 30
+    invWidth: 2
+    invHeight: 3
+    battleType: 11
+    armor: 15
+    recover: false
+
+## CIVILIAN_ZOMBIE_01 CORPSE
+  - type: STR_CORPSE_CIVILIAN_ZOMBIE_01
+#RESOURCES
+    bigSprite: 3201
+    floorSprite: 3201
+    handSprite: 88 #(empty hand)
+#SPECIFICATIONS
+    name: STR_CORPSE_CIVILIAN_ZOMBIE
+    weight: 30
+    invWidth: 2
+    invHeight: 3
+    battleType: 11
+    armor: 15
+    recover: false
+
+## CIVILIAN_ZOMBIE_02 CORPSE
+  - type: STR_CORPSE_CIVILIAN_ZOMBIE_02
+#RESOURCES
+    bigSprite: 3202
+    floorSprite: 3202
+    handSprite: 88 #(empty hand)
+#SPECIFICATIONS
+    name: STR_CORPSE_CIVILIAN_ZOMBIE
+    weight: 30
+    invWidth: 2
+    invHeight: 3
+    battleType: 11
+    armor: 15
+    recover: false
+
+## CIVILIAN_ZOMBIE_03 CORPSE
+  - type: STR_CORPSE_CIVILIAN_ZOMBIE_03
+#RESOURCES
+    bigSprite: 3203
+    floorSprite: 3203
+    handSprite: 88 #(empty hand)
+#SPECIFICATIONS
+    name: STR_CORPSE_CIVILIAN_ZOMBIE
+    weight: 30
+    invWidth: 2
+    invHeight: 3
+    battleType: 11
+    armor: 15
+    recover: false
+
+## CIVILIAN_ZOMBIE_04 CORPSE
+  - type: STR_CORPSE_CIVILIAN_ZOMBIE_04
+#RESOURCES
+    bigSprite: 3204
+    floorSprite: 3204
+    handSprite: 88 #(empty hand)
+#SPECIFICATIONS
+    name: STR_CORPSE_CIVILIAN_ZOMBIE
+    weight: 30
+    invWidth: 2
+    invHeight: 3
+    battleType: 11
+    armor: 15
+    recover: false
+
+## CIVILIAN_ZOMBIE_05 CORPSE
+  - type: STR_CORPSE_CIVILIAN_ZOMBIE_05
+#RESOURCES
+    bigSprite: 3205
+    floorSprite: 3205
+    handSprite: 88 #(empty hand)
+#SPECIFICATIONS
+    name: STR_CORPSE_CIVILIAN_ZOMBIE
+    weight: 30
+    invWidth: 2
+    invHeight: 3
+    battleType: 11
+    armor: 15
+    recover: false
+
+## CIVILIAN_ZOMBIE_06 CORPSE
+  - type: STR_CORPSE_CIVILIAN_ZOMBIE_06
+#RESOURCES
+    bigSprite: 3206
+    floorSprite: 3206
+    handSprite: 88 #(empty hand)
+#SPECIFICATIONS
+    name: STR_CORPSE_CIVILIAN_ZOMBIE
+    weight: 30
+    invWidth: 2
+    invHeight: 3
+    battleType: 11
+    armor: 15
+    recover: false
+
+## CIVILIAN_ZOMBIE_07 CORPSE
+  - type: STR_CORPSE_CIVILIAN_ZOMBIE_07
+#RESOURCES
+    bigSprite: 3207
+    floorSprite: 3207
+    handSprite: 88 #(empty hand)
+#SPECIFICATIONS
+    name: STR_CORPSE_CIVILIAN_ZOMBIE
+    weight: 30
+    invWidth: 2
+    invHeight: 3
+    battleType: 11
+    armor: 15
+    recover: false
+
+## CIVILIAN_ZOMBIE_08 CORPSE
+  - type: STR_CORPSE_CIVILIAN_ZOMBIE_08
+#RESOURCES
+    bigSprite: 3208
+    floorSprite: 3208
+    handSprite: 88 #(empty hand)
+#SPECIFICATIONS
+    name: STR_CORPSE_CIVILIAN_ZOMBIE
+    weight: 30
+    invWidth: 2
+    invHeight: 3
+    battleType: 11
+    armor: 15
+    recover: false
+
+## CIVILIAN_ZOMBIE_09 CORPSE
+  - type: STR_CORPSE_CIVILIAN_ZOMBIE_09
+#RESOURCES
+    bigSprite: 3209
+    floorSprite: 3209
+    handSprite: 88 #(empty hand)
+#SPECIFICATIONS
+    name: STR_CORPSE_CIVILIAN_ZOMBIE
+    weight: 30
+    invWidth: 2
+    invHeight: 3
+    battleType: 11
+    armor: 15
+    recover: false
+
+## CIVILIAN_ZOMBIE_10 CORPSE
+  - type: STR_CORPSE_CIVILIAN_ZOMBIE_10
+#RESOURCES
+    bigSprite: 3210
+    floorSprite: 3210
+    handSprite: 88 #(empty hand)
+#SPECIFICATIONS
+    name: STR_CORPSE_CIVILIAN_ZOMBIE
+    weight: 30
+    invWidth: 2
+    invHeight: 3
+    battleType: 11
+    armor: 15
+    recover: false
+
+## CIVILIAN_ZOMBIE_11 CORPSE
+  - type: STR_CORPSE_CIVILIAN_ZOMBIE_11
+#RESOURCES
+    bigSprite: 3211
+    floorSprite: 3211
+    handSprite: 88 #(empty hand)
+#SPECIFICATIONS
+    name: STR_CORPSE_CIVILIAN_ZOMBIE
+    weight: 30
+    invWidth: 2
+    invHeight: 3
+    battleType: 11
+    armor: 15
+    recover: false
+
+## CIVILIAN_ZOMBIE_12 CORPSE
+  - type: STR_CORPSE_CIVILIAN_ZOMBIE_12
+#RESOURCES
+    bigSprite: 3212
+    floorSprite: 3212
+    handSprite: 88 #(empty hand)
+#SPECIFICATIONS
+    name: STR_CORPSE_CIVILIAN_ZOMBIE
+    weight: 30
+    invWidth: 2
+    invHeight: 3
+    battleType: 11
+    armor: 15
+    recover: false
+
+## CIVILIAN_ZOMBIE_13 CORPSE
+  - type: STR_CORPSE_CIVILIAN_ZOMBIE_13
+#RESOURCES
+    bigSprite: 3213
+    floorSprite: 3213
+    handSprite: 88 #(empty hand)
+#SPECIFICATIONS
+    name: STR_CORPSE_CIVILIAN_ZOMBIE
+    weight: 30
+    invWidth: 2
+    invHeight: 3
+    battleType: 11
+    armor: 15
+    recover: false
+
+## CIVILIAN_ZOMBIE_14 CORPSE
+  - type: STR_CORPSE_CIVILIAN_ZOMBIE_14
+#RESOURCES
+    bigSprite: 3214
+    floorSprite: 3214
+    handSprite: 88 #(empty hand)
+#SPECIFICATIONS
+    name: STR_CORPSE_CIVILIAN_ZOMBIE
+    weight: 30
+    invWidth: 2
+    invHeight: 3
+    battleType: 11
+    armor: 15
+    recover: false
+
+## CIVILIAN_ZOMBIE_15 CORPSE
+  - type: STR_CORPSE_CIVILIAN_ZOMBIE_15
+#RESOURCES
+    bigSprite: 3215
+    floorSprite: 3215
+    handSprite: 88 #(empty hand)
+#SPECIFICATIONS
+    name: STR_CORPSE_CIVILIAN_ZOMBIE
+    weight: 30
+    invWidth: 2
+    invHeight: 3
+    battleType: 11
+    armor: 15
+    recover: false
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 

@@ -208,7 +208,7 @@ items:
 ## SLAANESH GRENADE LAUNCHER
   - type: STR_GRENADE_LAUNCHER_SLAANESH
 #RESOURCES
-    bigSprite: 399
+    bigSprite: 400
     floorSprite: 333
     handSprite: 544
 #INFO
@@ -256,7 +256,7 @@ items:
 ## SLAANESH MISSILE LAUNCHER
   - type: STR_MISSILE_LAUNCHER_SLAANESH
 #RESOURCES
-    bigSprite: 412
+    bigSprite: 413
     floorSprite: 340
     handSprite: 600
 #INFO

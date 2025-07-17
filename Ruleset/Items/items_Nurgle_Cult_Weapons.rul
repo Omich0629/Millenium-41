@@ -227,6 +227,7 @@ items:
       - STR_FRAG_GRENADE_MAGAZINE
       - STR_KRAK_GRENADE_MAGAZINE
       - STR_INCENDIARY_GRENADE_MAGAZINE
+      - STR_ACID_GRENADE_MAGAZINE
 #SHOOTING
     arcingShot: true
 
@@ -250,17 +251,61 @@ items:
     ignoreInCraftEquip: true #Temporary
 
 
+## ACID GRENADE DRUM MAGAZINE
+  - type: STR_ACID_GRENADE_MAGAZINE
+#RESOURCES
+    bigSprite: 378
+    floorSprite: 327
+    handSprite: 496
+
+    bulletSprite: 14 #40mm Grenade projectile
+    bulletSpeed: 0
+
+    fireSound: 12
+    hitSound: 0
+
+    hitAnimation: 96 #acid explosion
+#INFO
+    categories: [STR_CATEGORY_AMMO, STR_CATEGORY_LAUNCHER]
+    costSell: 1200
+    listOrder: 6050
+#SPECIFICATION
+    battleType: 2
+    size: 0.1
+    weight: 6
+    invWidth: 1
+    invHeight: 2
+#SHOOTING
+    clipSize: 6
+    power: 60
+    powerForAnimation: 25
+    damageType: 8 #Acid
+    damageAlter:
+      RandomType: 2 #50-150%
+      ToHealth: 1.0
+      ToArmor: 0.3
+      ToArmorPre: 0.5
+      ToMorale: 0.5
+      ToTile: 1.0
+      FixRadius: 3
+#SCRIPTING
+    tags:
+      AMMO_INDEX: 4
+#MISC
+    ignoreInCraftEquip: true
+
+
 
 ## NURGLE MISSILE LAUNCHER
   - type: STR_MISSILE_LAUNCHER_NURGLE
 #RESOURCES
-    bigSprite: 410
+    bigSprite: 411
     floorSprite: 338
     handSprite: 584
 #INFO
     categories: [STR_CATEGORY_HEAVY, STR_CATEGORY_LAUNCHER]
     costSell: 1600
-    listOrder: 6050
+    listOrder: 6060
 #SPECIFICATIONS
     battleType: 1
     size: 0.4
@@ -276,6 +321,8 @@ items:
       - STR_FRAG_MISSILE
       - STR_KRAK_MISSILE
       - STR_INCENDIARY_MISSILE
+      - STR_ACID_MISSILE
+
 #SHOOTING
     accuracySnap: 55
     tuSnap: 45
@@ -297,6 +344,50 @@ items:
 
 
 
+## ACID MISSILE
+  - type: STR_ACID_MISSILE
+#RESOURCES
+    bigSprite: 407
+    floorSprite: 334
+    handSprite: 552
+
+    bulletSprite: 15 #Missile projectile
+    bulletSpeed: 2
+
+    fireSound: 52
+    hitSound: 0
+    hitAnimation: 96 #acid explosion
+
+    vaporColorSurface: 0 #White smoke trail
+    vaporDensitySurface: 30
+    vaporProbabilitySurface: 25
+#INFO
+    categories: [STR_CATEGORY_AMMO, STR_CATEGORY_LAUNCHER]
+    costSell: 560
+    listOrder: 6070
+#SPECIFICATION
+    battleType: 2
+    size: 0.1
+    weight: 4
+    invWidth: 1
+    invHeight: 2
+#SHOOTING
+    clipSize: 1
+    power: 90
+    powerForAnimation: 50
+    damageType: 8 #Acid
+    damageAlter:
+      RandomType: 2 #50-150%
+      ToHealth: 1.0
+      ToArmor: 0.3
+      ToArmorPre: 0.5
+      ToMorale: 0.5
+      ToTile: 0.8
+      FixRadius: 4
+#MISC
+    ignoreInCraftEquip: true
+
+
 ## NURGLE LASPISTOL
   - type: STR_LASPISTOL_NURGLE
 #RESOURCES
@@ -314,7 +405,7 @@ items:
 #INFO
     categories: [STR_CATEGORY_ONEHANDED, STR_CATEGORY_LASER]
     costSell: 1800
-    listOrder: 6070
+    listOrder: 6080
 #SPECIFICATION
     battleType: 1
     size: 0.1
@@ -363,7 +454,7 @@ items:
 #INFO
     categories: [STR_CATEGORY_TWOHANDED, STR_CATEGORY_LASER]
     costSell: 6750
-    listOrder: 6080
+    listOrder: 6090
 #SPECIFICATIONS
     battleType: 1
     size: 0.2
@@ -418,7 +509,7 @@ items:
 #INFO
     categories: [STR_CATEGORY_TWOHANDED, STR_CATEGORY_LASER]
     costSell: 9000
-    listOrder: 6090
+    listOrder: 6100
 #SPECIFICATIONS
     battleType: 1
     size: 0.2
@@ -468,7 +559,7 @@ items:
 #INFO
     categories: [STR_CATEGORY_HEAVY, STR_CATEGORY_LASER]
     costSell: 8325
-    listOrder: 6100
+    listOrder: 6110
 
     bulletSprite: 17 #Laser beam projectile
     bulletSpeed: 25
@@ -544,7 +635,7 @@ items:
 #INFO
     categories: [STR_CATEGORY_ONEHANDED, STR_CATEGORY_LASER]
     costSell: 10125
-    listOrder: 6110
+    listOrder: 6120
 #SPECIFICATION
     battleType: 1
     size: 0.1
@@ -594,7 +685,7 @@ items:
 #INFO
     categories: [STR_CATEGORY_TWOHANDED, STR_CATEGORY_LASER]
     costSell: 18000
-    listOrder: 6120
+    listOrder: 6130
 #SPECIFICATIONS
     battleType: 1
     size: 0.2
@@ -650,7 +741,7 @@ items:
 #INFO
     categories: [STR_CATEGORY_TWOHANDED, STR_CATEGORY_LASER]
     costSell: 23400
-    listOrder: 6130
+    listOrder: 6140
 #SPECIFICATIONS
     battleType: 1
     size: 0.2
@@ -701,7 +792,7 @@ items:
 #INFO
     categories: [STR_CATEGORY_HEAVY, STR_CATEGORY_LASER]
     costSell: 22500
-    listOrder: 6140
+    listOrder: 6150
 
     bulletSprite: 18 #Hotshot laser beam projectile
     bulletSpeed: 25
@@ -770,7 +861,7 @@ items:
 #INFO
     categories: [STR_CATEGORY_ONEHANDED, STR_CATEGORY_BOLT]
     costSell: 20250
-    listOrder: 6150
+    listOrder: 6160
 #SPECIFICATION
     battleType: 1
     size: 0.2
@@ -811,7 +902,7 @@ items:
 #INFO
     categories: [STR_CATEGORY_TWOHANDED, STR_CATEGORY_BOLT]
     costSell: 33750
-    listOrder: 6160
+    listOrder: 6170
 #SPECIFICATIONS
     battleType: 1
     size: 0.3
@@ -857,7 +948,7 @@ items:
 #INFO
     categories: [STR_CATEGORY_TWOHANDED, STR_CATEGORY_BOLT]
     costSell: 40500
-    listOrder: 6170
+    listOrder: 6180
 #SPECIFICATIONS
     battleType: 1
     size: 0.3
@@ -900,7 +991,7 @@ items:
 #INFO
     categories: [STR_CATEGORY_HEAVY, STR_CATEGORY_BOLT]
     costSell: 43875
-    listOrder: 6180
+    listOrder: 6190
 #SPECIFICATIONS
     battleType: 1
     size: 0.4
@@ -956,7 +1047,7 @@ items:
 #INFO
     categories: [STR_CATEGORY_ONEHANDED, STR_CATEGORY_BOLT]
     costSell: 20250
-    listOrder: 6190
+    listOrder: 6200
 #SPECIFICATION
     battleType: 1
     size: 0.2
@@ -997,7 +1088,7 @@ items:
 #INFO
     categories: [STR_CATEGORY_TWOHANDED, STR_CATEGORY_BOLT]
     costSell: 33750
-    listOrder: 6200
+    listOrder: 6210
 #SPECIFICATIONS
     battleType: 1
     size: 0.3
@@ -1043,7 +1134,7 @@ items:
 #INFO
     categories: [STR_CATEGORY_ONEHANDED, STR_CATEGORY_BOLT]
     costSell: 40500
-    listOrder: 6210
+    listOrder: 6220
 #SPECIFICATION
     battleType: 1
     size: 0.3
@@ -1093,7 +1184,7 @@ items:
 #INFO
     categories: [STR_CATEGORY_HEAVY, STR_CATEGORY_BOLT]
     costSell: 43875
-    listOrder: 6220
+    listOrder: 6230
 #SPECIFICATIONS
     battleType: 1
     size: 0.4
@@ -1146,7 +1237,7 @@ items:
 #INFO
     categories: [STR_CATEGORY_ONEHANDED, STR_CATEGORY_PLASMA]
     costSell: 42000
-    listOrder: 6230
+    listOrder: 6240
 #SPECIFICATION
     battleType: 1
     size: 0.1
@@ -1187,7 +1278,7 @@ items:
 #INFO
     categories: [STR_CATEGORY_TWOHANDED, STR_CATEGORY_PLASMA]
     costSell: 66000
-    listOrder: 6240
+    listOrder: 6250
 #SPECIFICATION
     battleType: 1
     size: 0.2
@@ -1229,7 +1320,7 @@ items:
 #INFO
     categories: [STR_CATEGORY_ONEHANDED, STR_CATEGORY_PLASMA]
     costSell: 42000
-    listOrder: 6250
+    listOrder: 6260
 #SPECIFICATION
     battleType: 1
     size: 0.1
@@ -1270,7 +1361,7 @@ items:
 #INFO
     categories: [STR_CATEGORY_TWOHANDED, STR_CATEGORY_PLASMA]
     costSell: 66000
-    listOrder: 6260
+    listOrder: 6270
 #SPECIFICATION
     battleType: 1
     size: 0.2
@@ -1312,7 +1403,7 @@ items:
 #INFO
     categories: [STR_CATEGORY_TWOHANDED, STR_CATEGORY_MELTA]
     costSell: 71250
-    listOrder: 6270
+    listOrder: 6280
 #SPECIFICATION
     battleType: 1
     size: 0.2
@@ -1357,7 +1448,7 @@ items:
 #INFO
     categories: [STR_CATEGORY_TWOHANDED, STR_CATEGORY_MELTA]
     costSell: 71250
-    listOrder: 6280
+    listOrder: 6290
 #SPECIFICATION
     battleType: 1
     size: 0.2
@@ -1408,7 +1499,7 @@ items:
 #INFO
     categories: [STR_CATEGORY_MELEE]
     costSell: 55
-    listOrder: 6290
+    listOrder: 6300
 #SPECIFICATION
     battleType: 3
     size: 0.1
@@ -1491,7 +1582,7 @@ items:
 #INFO
     categories: [STR_CATEGORY_MELEE, STR_CATEGORY_CHAIN]
     costSell: 12500
-    listOrder: 6330
+    listOrder: 6320
 #SPECIFICATION
     battleType: 3
     size: 0.2
@@ -1534,7 +1625,7 @@ items:
 #INFO
     categories: [STR_CATEGORY_MELEE, STR_CATEGORY_CHAIN]
     costSell: 12500
-    listOrder: 6340
+    listOrder: 6330
 #SPECIFICATION
     battleType: 3
     size: 0.2
@@ -1577,7 +1668,7 @@ items:
 #INFO
     categories: [STR_CATEGORY_MELEE, STR_CATEGORY_POWER]
     costSell: 30000
-    listOrder: 6360
+    listOrder: 6340
 #SPECIFICATION
     battleType: 3
     size: 0.2
@@ -1620,7 +1711,7 @@ items:
 #INFO
     categories: [STR_CATEGORY_MELEE, STR_CATEGORY_POWER]
     costSell: 30000
-    listOrder: 6370
+    listOrder: 6350
 #SPECIFICATION
     battleType: 3
     size: 0.2
@@ -1647,6 +1738,73 @@ items:
     ignoreInCraftEquip: true #Temporary
 
 
+
+
+## FIXED ZOMBIE WEAPON
+  - type: STR_ZOMBIE_WEAPON
+#RESOURCES
+    bigSprite: 204
+    handSprite: 88 #empty hand
+
+    meleeAnimation: 36 #green melee hit
+    meleeMissAnimation: 40 #green melee miss
+
+    meleeSound: 39
+    meleeHitSound: 54
+#SPECIFICATION
+    battleType: 3
+    weight: 0
+    invWidth: 2
+    invHeight: 3
+    fixedWeapon: true
+    fixedWeaponShow: false
+#    defaultInventorySlot: STR_RIGHT_HAND
+    recover: false
+#MELEE
+    clipSize: -1
+    power: 50
+    damageType: 8 #Acid
+    damageAlter:
+      RandomType: 7 #50-200%
+      ToArmor: 0.25
+      ToArmorPre: 0.25
+    accuracyMelee: 100
+    tuMelee: 30
+#ZOMBIFICATION
+    specialChance: 100
+    zombieUnitByType:
+      STR_CIVILIAN_00_MALE: STR_CIVILIAN_ZOMBIE_00_MALE
+      STR_CIVILIAN_00_FEMALE: STR_CIVILIAN_ZOMBIE_00_FEMALE
+      STR_CIVILIAN_01_MALE: STR_CIVILIAN_ZOMBIE_01_MALE
+      STR_CIVILIAN_01_FEMALE: STR_CIVILIAN_ZOMBIE_01_FEMALE
+      STR_CIVILIAN_02_MALE: STR_CIVILIAN_ZOMBIE_02_MALE
+      STR_CIVILIAN_02_FEMALE: STR_CIVILIAN_ZOMBIE_02_FEMALE
+      STR_CIVILIAN_03_MALE: STR_CIVILIAN_ZOMBIE_03_MALE
+      STR_CIVILIAN_03_FEMALE: STR_CIVILIAN_ZOMBIE_03_FEMALE
+      STR_CIVILIAN_04_MALE: STR_CIVILIAN_ZOMBIE_04_MALE
+      STR_CIVILIAN_04_FEMALE: STR_CIVILIAN_ZOMBIE_04_FEMALE
+      STR_CIVILIAN_05_MALE: STR_CIVILIAN_ZOMBIE_05_MALE
+      STR_CIVILIAN_05_FEMALE: STR_CIVILIAN_ZOMBIE_05_FEMALE
+      STR_CIVILIAN_06_MALE: STR_CIVILIAN_ZOMBIE_06_MALE
+      STR_CIVILIAN_06_FEMALE: STR_CIVILIAN_ZOMBIE_06_FEMALE
+      STR_CIVILIAN_07_MALE: STR_CIVILIAN_ZOMBIE_07_MALE
+      STR_CIVILIAN_07_FEMALE: STR_CIVILIAN_ZOMBIE_07_FEMALE
+      STR_CIVILIAN_08_MALE: STR_CIVILIAN_ZOMBIE_08_MALE
+      STR_CIVILIAN_08_FEMALE: STR_CIVILIAN_ZOMBIE_08_FEMALE
+      STR_CIVILIAN_09_MALE: STR_CIVILIAN_ZOMBIE_09_MALE
+      STR_CIVILIAN_09_FEMALE: STR_CIVILIAN_ZOMBIE_09_FEMALE
+      STR_CIVILIAN_10_MALE: STR_CIVILIAN_ZOMBIE_10_MALE
+      STR_CIVILIAN_10_FEMALE: STR_CIVILIAN_ZOMBIE_10_FEMALE
+      STR_CIVILIAN_11_MALE: STR_CIVILIAN_ZOMBIE_11_MALE
+      STR_CIVILIAN_11_FEMALE: STR_CIVILIAN_ZOMBIE_11_FEMALE
+      STR_CIVILIAN_12_MALE: STR_CIVILIAN_ZOMBIE_12_MALE
+      STR_CIVILIAN_12_FEMALE: STR_CIVILIAN_ZOMBIE_12_FEMALE
+      STR_CIVILIAN_13_MALE: STR_CIVILIAN_ZOMBIE_13_MALE
+      STR_CIVILIAN_13_FEMALE: STR_CIVILIAN_ZOMBIE_13_FEMALE
+      STR_CIVILIAN_14_MALE: STR_CIVILIAN_ZOMBIE_14_MALE
+      STR_CIVILIAN_14_FEMALE: STR_CIVILIAN_ZOMBIE_14_FEMALE
+      STR_CIVILIAN_15_MALE: STR_CIVILIAN_ZOMBIE_15_MALE
+      STR_CIVILIAN_15_FEMALE: STR_CIVILIAN_ZOMBIE_15_FEMALE
 
 
 

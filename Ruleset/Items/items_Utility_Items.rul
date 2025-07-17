@@ -9,9 +9,9 @@ items:
 ## MOTION SCANNER ##
   - type: STR_MOTION_SCANNER
 #RESOURCES
-    bigSprite: 1010
-    floorSprite: 1010
-    handSprite: 4072
+    bigSprite: 1014
+    floorSprite: 1014
+    handSprite: 4112
 #INFO
     categories: [STR_CATEGORY_UTILITY]
     costSell: 45600
@@ -29,9 +29,9 @@ items:
 ## TACTICAL ANALYZER (Mind Probe) ##
   - type: STR_ANALYZER
 #RESOURCES
-    bigSprite: 1011
-    floorSprite: 1011
-    handSprite: 4080
+    bigSprite: 1015
+    floorSprite: 1015
+    handSprite: 4120
     hitSound: 37
 #INFO
     categories: [STR_CATEGORY_UTILITY]
@@ -52,9 +52,9 @@ items:
 ## MEDI-KIT ##
   - type: STR_MEDI_KIT
 #RESOURCES
-    bigSprite: 1012
-    floorSprite: 1012
-    handSprite: 4088
+    bigSprite: 1016
+    floorSprite: 1016
+    handSprite: 4128
 #INFO
     categories: [STR_CATEGORY_UTILITY]
     costSell: 46500
@@ -82,9 +82,9 @@ items:
 ## GLOW STICK ##
   - type: STR_GLOW_STICK
 #RESOURCES
-    bigSprite: 1013
-    floorSprite: 1013
-    handSprite: 4096
+    bigSprite: 1017
+    floorSprite: 1017
+    handSprite: 4136
 #INFO
     categories: [STR_CATEGORY_UTILITY]
     costBuy: 60
@@ -103,9 +103,9 @@ items:
 ## FIRE EXTINGUISHER ##
   - type: STR_FIRE_EXTINGUISHER
 #RESOURCES
-    bigSprite: 1014
-    floorSprite: 1014
-    handSprite: 4104
+    bigSprite: 1018
+    floorSprite: 1018
+    handSprite: 4144
 
     hitAnimation: 64 #fire extinguisher "explosion"
 

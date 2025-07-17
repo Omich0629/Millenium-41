@@ -49,6 +49,8 @@ items:
 #SCRIPTING
     tags:
       AMMO_CHANGES_ITEMS_BIGSPRITE: 1
+#MISC
+    ignoreInCraftEquip: true
 
 
 ## CHAOS AUTOGUN
@@ -84,7 +86,6 @@ items:
     accuracyAimed: 100
     tuAimed: 75
     aimRange: 30
-
 #RECOVERY
     recoveryTransformations:
       STR_AUTOGUN_CHAOS_STORE: [1] #Transform into store item
@@ -92,6 +93,8 @@ items:
 #SCRIPTING
     tags:
       AMMO_CHANGES_ITEMS_BIGSPRITE: 1
+#MISC
+    ignoreInCraftEquip: true
 
 
 ## CHAOS MARKSMAN AUTOGUN
@@ -136,6 +139,8 @@ items:
       AMMO_CHANGES_ITEMS_BIGSPRITE: 1
       ITEM_HAS_BIPOD_BIGSPRITE: 1
       ITEM_HAS_BIPOD_HANDSPRITE: 1
+#MISC
+    ignoreInCraftEquip: true
 
 
 ## CHAOS HEAVY STUBBER
@@ -178,7 +183,6 @@ items:
     accuracyAimed: 82
     tuAimed: 80
     aimRange: 30
-
 #RECOVERY
     recoveryTransformations:
       STR_HEAVY_STUBBER_CHAOS_STORE: [1] #Transform into store item
@@ -189,6 +193,8 @@ items:
       AMMO_CHANGES_ITEMS_BIGSPRITE: 1
       ITEM_HAS_BIPOD_BIGSPRITE: 1
       ITEM_HAS_BIPOD_HANDSPRITE: 1
+#MISC
+    ignoreInCraftEquip: true
 
 
 ## CHAOS GRENADE LAUNCHER
@@ -224,17 +230,18 @@ items:
     accuracyAimed: 90
     tuAimed: 75
     aimRange: 30
-
 #SCRIPTING
     tags:
       HEAVY_WEAPON: 1
       AMMO_CHANGES_ITEMS_BIGSPRITE: 1
+#MISC
+    ignoreInCraftEquip: true
 
 
 ## CHAOS MISSILE LAUNCHER
   - type: STR_MISSILE_LAUNCHER_CHAOS
 #RESOURCES
-    bigSprite: 408
+    bigSprite: 409
     floorSprite: 336
     handSprite: 568
 #INFO
@@ -263,7 +270,6 @@ items:
     accuracyAimed: 115
     tuAimed: 80
     aimRange: 40
-
 #RECOVERY
     recoveryTransformations:
       STR_MISSILE_LAUNCHER_CHAOS_STORE: [1] #Transform into store item
@@ -271,6 +277,8 @@ items:
 #SCRIPTING
     tags:
       HEAVY_WEAPON: 1
+#MISC
+    ignoreInCraftEquip: true
 
 
 ## CHAOS LASPISTOL
@@ -318,6 +326,8 @@ items:
     recoveryTransformations:
       STR_LASPISTOL_CHAOS_STORE: [1] #Transform into store item
     recoveryPoints: 1
+#MISC
+    ignoreInCraftEquip: true
 
 
 ## CHAOS LASGUN
@@ -370,6 +380,8 @@ items:
     recoveryTransformations:
       STR_LASGUN_CHAOS_STORE: [1] #Transform into store item
     recoveryPoints: 1
+#MISC
+    ignoreInCraftEquip: true
 
 
 ## CHAOS MARKSMAN LASGUN
@@ -424,6 +436,8 @@ items:
     tags:
       ITEM_HAS_BIPOD_BIGSPRITE: 1
       ITEM_HAS_BIPOD_HANDSPRITE: 1
+#MISC
+    ignoreInCraftEquip: true
 
 
 ## CHAOS TWIN LASGUN
@@ -489,6 +503,8 @@ items:
       HEAVY_WEAPON: 1
       ITEM_HAS_BIPOD_BIGSPRITE: 1
       ITEM_HAS_BIPOD_HANDSPRITE: 1
+#MISC
+    ignoreInCraftEquip: true
 
 
 ## CHAOS HELLPISTOL
@@ -536,6 +552,8 @@ items:
     recoveryTransformations:
       STR_HELLPISTOL_CHAOS_STORE: [1] #Transform into store item
     recoveryPoints: 2
+#MISC
+    ignoreInCraftEquip: true
 
 
 ## CHAOS HELLGUN
@@ -588,6 +606,8 @@ items:
     recoveryTransformations:
       STR_HELLGUN_CHAOS_STORE: [1] #Transform into store item
     recoveryPoints: 2
+#MISC
+    ignoreInCraftEquip: true
 
 
 ## CHAOS MARKSMAN HELLGUN
@@ -642,6 +662,8 @@ items:
     tags:
       ITEM_HAS_BIPOD_BIGSPRITE: 1
       ITEM_HAS_BIPOD_HANDSPRITE: 1
+#MISC
+    ignoreInCraftEquip: true
 
 
 ## CHAOS TWIN HELLGUN
@@ -661,7 +683,6 @@ items:
     fireSound: 11
     hitSound: 19
     hitAnimation: 230 #Hotshot laser hit
-
 #SPECIFICATIONS
     battleType: 1
     size: 0.3
@@ -707,6 +728,8 @@ items:
       HEAVY_WEAPON: 1
       ITEM_HAS_BIPOD_BIGSPRITE: 1
       ITEM_HAS_BIPOD_HANDSPRITE: 1
+#MISC
+    ignoreInCraftEquip: true
 
 
 ## CHAOS BOLT PISTOL (HUMAN-SIZED)
@@ -744,6 +767,8 @@ items:
 #SCRIPTING
     tags:
       AMMO_CHANGES_ITEMS_BIGSPRITE: 1
+#MISC
+    ignoreInCraftEquip: true
 
 
 ## CHAOS BOLTGUN (HUMAN-SIZED)
@@ -786,6 +811,8 @@ items:
 #SCRIPTING
     tags:
       AMMO_CHANGES_ITEMS_BIGSPRITE: 1
+#MISC
+    ignoreInCraftEquip: true
 
 
 ## CHAOS MARKSMAN BOLTGUN (HUMAN-SIZED)
@@ -827,6 +854,8 @@ items:
 #SCRIPTING
     tags:
       AMMO_CHANGES_ITEMS_BIGSPRITE: 1
+#MISC
+    ignoreInCraftEquip: true
 
 
 ## CHAOS HEAVY BOLTER (HUMAN-SIZED)
@@ -879,6 +908,8 @@ items:
       AMMO_CHANGES_ITEMS_BIGSPRITE: 1
       ITEM_HAS_BIPOD_BIGSPRITE: 1
       ITEM_HAS_BIPOD_HANDSPRITE: 1
+#MISC
+    ignoreInCraftEquip: true
 
 
 ## CHAOS BOLT PISTOL (ASTARTES-SIZED)
@@ -916,6 +947,8 @@ items:
 #SCRIPTING
     tags:
       AMMO_CHANGES_ITEMS_BIGSPRITE: 1
+#MISC
+    ignoreInCraftEquip: true
 
 
 ## CHAOS BOLTGUN (ASTARTES-SIZED)
@@ -958,6 +991,8 @@ items:
 #SCRIPTING
     tags:
       AMMO_CHANGES_ITEMS_BIGSPRITE: 1
+#MISC
+    ignoreInCraftEquip: true
 
 
 ## CHAOS STORM BOLTER (ASTARTES-SIZED)
@@ -1004,6 +1039,8 @@ items:
 #SCRIPTING
     tags:
       AMMO_CHANGES_ITEMS_BIGSPRITE: 1
+#MISC
+    ignoreInCraftEquip: true
 
 
 ## STORM BOLTER MAGAZINE
@@ -1045,6 +1082,8 @@ items:
 #SCRIPTING
     tags:
       AMMO_INDEX: 1
+#MISC
+    ignoreInCraftEquip: true
 
 
 ## CHAOS HEAVY BOLTER (ASTARTES-SIZED)
@@ -1094,6 +1133,8 @@ items:
     tags:
       HEAVY_WEAPON: 1
       AMMO_CHANGES_ITEMS_BIGSPRITE: 1
+#MISC
+    ignoreInCraftEquip: true
 
 
 ## CHAOS PLASMA PISTOL (HUMAN-SIZED)
@@ -1134,6 +1175,8 @@ items:
 #SCRIPTING
     tags:
       AMMO_CHANGES_ITEMS_BIGSPRITE: 1
+#MISC
+    ignoreInCraftEquip: true
 
 
 ## CHAOS PLASMA GUN (HUMAN-SIZED)
@@ -1172,6 +1215,8 @@ items:
 #SCRIPTING
     tags:
       AMMO_CHANGES_ITEMS_BIGSPRITE: 1
+#MISC
+    ignoreInCraftEquip: true
 
 
 ## CHAOS PLASMA PISTOL (ASTARTES-SIZED)
@@ -1209,6 +1254,8 @@ items:
 #SCRIPTING
     tags:
       AMMO_CHANGES_ITEMS_BIGSPRITE: 1
+#MISC
+    ignoreInCraftEquip: true
 
 
 ## CHAOS PLASMA GUN (ASTARTES-SIZED)
@@ -1247,6 +1294,8 @@ items:
 #SCRIPTING
     tags:
       AMMO_CHANGES_ITEMS_BIGSPRITE: 1
+#MISC
+    ignoreInCraftEquip: true
 
 
 ## CHAOS MELTAGUN (HUMAN-SIZED)
@@ -1288,6 +1337,8 @@ items:
 #SCRIPTING
     tags:
       AMMO_CHANGES_ITEMS_BIGSPRITE: 1
+#MISC
+    ignoreInCraftEquip: true
 
 
 ## CHAOS MELTAGUN (ASTARTES-SIZED)
@@ -1329,6 +1380,8 @@ items:
 #SCRIPTING
     tags:
       AMMO_CHANGES_ITEMS_BIGSPRITE: 1
+#MISC
+    ignoreInCraftEquip: true
 
 
 ## CHAOS COMBAT KNIFE
@@ -1366,6 +1419,8 @@ items:
     recoveryTransformations:
       STR_COMBAT_KNIFE_CHAOS_STORE: [1] #Transform into store item
     recoveryPoints: 0
+#MISC
+    ignoreInCraftEquip: true
 
 
 ## CHAOS SWORD
@@ -1405,6 +1460,8 @@ items:
     recoveryTransformations:
       STR_SWORD_CHAOS_STORE: [1] #Transform into store item
     recoveryPoints: 0
+#MISC
+    ignoreInCraftEquip: true
 
 
 ## CHAOS CHAINSWORD
@@ -1444,6 +1501,8 @@ items:
     recoveryTransformations:
       STR_CHAINSWORD_CHAOS_STORE: [1] #Transform into store item
     recoveryPoints: 1
+#MISC
+    ignoreInCraftEquip: true
 
 
 ## CHAOS ASTARTES CHAINSWORD
@@ -1483,7 +1542,8 @@ items:
     recoveryTransformations:
       STR_CHAINSWORD_CHAOS_STORE: [1] #Transform into store item
     recoveryPoints: 1
-
+#MISC
+    ignoreInCraftEquip: true
 
 
 ## CHAOS POWER SWORD
@@ -1523,6 +1583,8 @@ items:
     recoveryTransformations:
       STR_POWER_SWORD_CHAOS_STORE: [1] #Transform into store item
     recoveryPoints: 2
+#MISC
+    ignoreInCraftEquip: true
 
 
 ## CHAOS ASTARTES POWER SWORD
@@ -1562,7 +1624,8 @@ items:
     recoveryTransformations:
       STR_POWER_SWORD_CHAOS_STORE: [1] #Transform into store item
     recoveryPoints: 2
-
+#MISC
+    ignoreInCraftEquip: true
 
 
 ## FORCE STAFF (CHAOS PSYKER FIXED WEAPON)

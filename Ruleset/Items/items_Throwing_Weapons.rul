@@ -289,3 +289,54 @@ items:
     throwRange: 10
 
 
+## ACID GRENADE (NURGLE WEAPON)
+  - type: STR_ACID_GRENADE 
+#RESOURCES
+    bigSprite: 1008
+    floorSprite: 1008
+    handSprite: 4064
+    hitAnimation: 96 #acid explosion
+    # explosionHitSound: 
+#INFO
+    categories: [STR_CATEGORY_GRENADE]
+    costSell: 400
+    listOrder: 3080
+#SPECIFICATIONS
+    battleType: 4
+    size: 0.1
+    weight: 1
+    armor: 30
+    invWidth: 1
+    invHeight: 1
+#THROWING
+    power: 60
+    powerForAnimation: 25
+    damageType: 8 #Acid
+    damageAlter:
+      RandomType: 2 #50-150%
+      ToHealth: 1.0
+      ToArmor: 0.3
+      ToArmorPre: 0.5
+      ToMorale: 0.5
+      ToTile: 1.0
+      FixRadius: 3
+    tuPrime: 50
+    tuThrow: 25
+    fuseType: 0 #explodes at the end of the turn
+    flatRate: false
+    throwRange: 20
+#MISC
+    ignoreInCraftEquip: true
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,226 @@
+armors:
+
+#NURGLE CULTIST ARMOR (MALE)
+  - type: STR_NURGLE_CULTIST_ARMOR_MALE
+#GENERAL
+    drawingRoutine: 0 #x-com soldier
+    spriteSheet: NURGLE_CULTIST_ARMOR.PCK
+    spriteInv: NURGLE_CULTIST_ARMOR_MALE
+    corpseBattle:
+      - STR_CORPSE_NURGLE_CULTIST
+    loftempsSet: [ 3 ]
+    allowsKneeling: true
+    weight: 7
+
+#PROTECTION
+    frontArmor: 25
+    sideArmor: 20
+    rearArmor: 20
+    underArmor: 20
+    damageModifier:
+      - 1.0 #None
+      - 0.6 #Armor Piercing
+      - 1.5 #Incendiary
+      - 0.8 #High Explosive
+      - 0.7 #Laser
+      - 1.0 #Plasma
+      - 1.0 #Stun
+      - 1.0 #Melee
+      - 0.0 #Acid
+      - 0.0 #Smoke
+      - 1.0 #Melta
+
+
+
+#NURGLE CULTIST ARMOR (FEMALE)
+  - type: STR_NURGLE_CULTIST_ARMOR_FEMALE
+#GENERAL
+    drawingRoutine: 0 #x-com soldier
+    spriteSheet: NURGLE_CULTIST_ARMOR.PCK
+    spriteInv: NURGLE_CULTIST_ARMOR_FEMALE
+    corpseBattle:
+      - STR_CORPSE_NURGLE_CULTIST
+    loftempsSet: [ 3 ]
+    allowsKneeling: true
+    weight: 7
+
+#PROTECTION
+    frontArmor: 25
+    sideArmor: 20
+    rearArmor: 20
+    underArmor: 20
+    damageModifier:
+      - 1.0 #None
+      - 0.6 #Armor Piercing
+      - 1.5 #Incendiary
+      - 0.8 #High Explosive
+      - 0.7 #Laser
+      - 1.0 #Plasma
+      - 1.0 #Stun
+      - 1.0 #Melee
+      - 0.0 #Acid
+      - 0.0 #Smoke
+      - 1.0 #Melta
+
+
+
+
+#NURGLE CULTIST LEADER ARMOR (MALE)
+  - type: STR_NURGLE_CULTIST_LEADER_ARMOR_MALE
+#GENERAL
+    drawingRoutine: 0 #x-com soldier
+    spriteSheet: NURGLE_CULTIST_LEADER_ARMOR.PCK
+    spriteInv: NURGLE_CULTIST_LEADER_ARMOR_MALE
+    corpseBattle:
+      - STR_CORPSE_NURGLE_CULTIST_LEADER
+    loftempsSet: [ 3 ]
+    allowsKneeling: true
+    weight: 8
+
+#PROTECTION
+    frontArmor: 25
+    sideArmor: 25
+    rearArmor: 20
+    underArmor: 20
+    damageModifier:
+      - 1.0 #None
+      - 0.8 #Armor Piercing
+      - 1.5 #Incendiary
+      - 1.0 #High Explosive
+      - 0.8 #Laser
+      - 1.0 #Plasma
+      - 1.0 #Stun
+      - 1.0 #Melee
+      - 0.0 #Acid
+      - 0.0 #Smoke
+      - 1.0 #Melta
+
+
+#NURGLE CULTIST LEADER ARMOR (FEMALE)
+  - type: STR_NURGLE_CULTIST_LEADER_ARMOR_FEMALE
+#GENERAL
+    drawingRoutine: 0 #x-com soldier
+    spriteSheet: NURGLE_CULTIST_LEADER_ARMOR.PCK
+    spriteInv: NURGLE_CULTIST_LEADER_ARMOR_FEMALE
+    corpseBattle:
+      - STR_CORPSE_NURGLE_CULTIST_LEADER
+    loftempsSet: [ 3 ]
+    allowsKneeling: true
+    weight: 8
+
+#PROTECTION
+    frontArmor: 25
+    sideArmor: 25
+    rearArmor: 20
+    underArmor: 20
+    damageModifier:
+      - 1.0 #None
+      - 0.8 #Armor Piercing
+      - 1.5 #Incendiary
+      - 1.0 #High Explosive
+      - 0.8 #Laser
+      - 1.0 #Plasma
+      - 1.0 #Stun
+      - 1.0 #Melee
+      - 0.0 #Acid
+      - 0.0 #Smoke
+      - 1.0 #Melta
+
+
+
+
+
+#NURGLE CULTIST ZOMBIE ARMOR (MALE)
+  - type: STR_NURGLE_CULTIST_ZOMBIE_ARMOR_MALE
+#GENERAL
+    drawingRoutine: 0 #x-com soldier
+    spriteSheet: NURGLE_CULTIST_ZOMBIE_ARMOR.PCK
+    spriteInv: NURGLE_CULTIST_ZOMBIE_ARMOR_MALE
+    corpseBattle:
+      - STR_CORPSE_NURGLE_CULTIST_ZOMBIE
+    loftempsSet: [ 3 ]
+    allowsKneeling: false
+    weight: 8
+
+    bleedImmune: true
+    fearImmune: true
+    painImmune: true
+
+    builtInWeapons:
+      - STR_ZOMBIE_WEAPON
+      - STR_ZOMBIE_WEAPON
+      - STR_BACKPACK_SLOT
+
+#PROTECTION
+    frontArmor: 25
+    sideArmor: 25
+    rearArmor: 20
+    underArmor: 20
+    damageModifier:
+      - 1.0 #None
+      - 0.6 #Armor Piercing
+      - 1.5 #Incendiary
+      - 0.8 #High Explosive
+      - 0.7 #Laser
+      - 1.0 #Plasma
+      - 0.0 #Stun
+      - 1.0 #Melee
+      - 0.0 #Acid
+      - 0.0 #Smoke
+      - 1.0 #Melta
+
+
+#NURGLE CULTIST ZOMBIE ARMOR (FEMALE)
+  - type: STR_NURGLE_CULTIST_ZOMBIE_ARMOR_FEMALE
+#GENERAL
+    drawingRoutine: 0 #x-com soldier
+    spriteSheet: NURGLE_CULTIST_ZOMBIE_ARMOR.PCK
+    spriteInv: NURGLE_CULTIST_ZOMBIE_ARMOR_FEMALE
+    corpseBattle:
+      - STR_CORPSE_NURGLE_CULTIST_ZOMBIE
+    loftempsSet: [ 3 ]
+    allowsKneeling: false
+    weight: 8
+
+    bleedImmune: true
+    fearImmune: true
+    painImmune: true
+
+    builtInWeapons:
+      - STR_ZOMBIE_WEAPON
+      - STR_ZOMBIE_WEAPON
+      - STR_BACKPACK_SLOT
+
+#PROTECTION
+    frontArmor: 25
+    sideArmor: 25
+    rearArmor: 20
+    underArmor: 20
+    damageModifier:
+      - 1.0 #None
+      - 0.6 #Armor Piercing
+      - 1.5 #Incendiary
+      - 0.8 #High Explosive
+      - 0.7 #Laser
+      - 1.0 #Plasma
+      - 0.0 #Stun
+      - 1.0 #Melee
+      - 0.0 #Acid
+      - 0.0 #Smoke
+      - 1.0 #Melta
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

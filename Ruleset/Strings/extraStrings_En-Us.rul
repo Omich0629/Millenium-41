@@ -448,6 +448,7 @@ extraStrings:
       STR_FRAG_GRENADE_MAGAZINE: "Frag Grenade Magazine"
       STR_KRAK_GRENADE_MAGAZINE: "Krak Grenade Magazine"
       STR_INCENDIARY_GRENADE_MAGAZINE: "Incendiary Grenade Magazine"
+      STR_ACID_GRENADE_MAGAZINE: "Acid Grenade Magazine"
 
       STR_GRENADE_LAUNCHER_CHAOS_STORE: "Chaos Grenade Launcher" #store item for chaos grenade launchers
 
@@ -462,6 +463,7 @@ extraStrings:
       STR_FRAG_MISSILE: "Frag Missile"
       STR_KRAK_MISSILE: "Krak Missile"
       STR_INCENDIARY_MISSILE: "Incendiary Missile"
+      STR_ACID_MISSILE: "Acid Missile"
 
       STR_MISSILE_LAUNCHER_CHAOS_STORE: "Chaos Missile Launcher" #store item for chaos missile launchers
 
@@ -795,6 +797,9 @@ extraStrings:
       STR_DEMOLITION_CHARGE: "Demolition Charge"
       STR_MELTA_BOMB: "Melta Bomb"
 
+      STR_ACID_GRENADE: "Acid Grenade"
+
+
 #Utility Items
 
       STR_MOTION_SCANNER: "Motion Scanner"
@@ -802,6 +807,11 @@ extraStrings:
       STR_FIRST_AID_KIT: "First Aid Kit"
       STR_GLOW_STICK: "Glow Stick"
       STR_FIRE_EXTINGUISHER: "Fire Extinguisher"
+
+#Fixed Weapons
+      STR_ZOMBIE_WEAPON: "Necrotic Touch"
+
+
 
 #UNIT SKILLS
       STR_SERGEANT_SKILL: "Morale Boost"
@@ -959,8 +969,6 @@ extraStrings:
       STR_KHORNE_CULTIST_LEADER_MALE: "Chaos Squad Leader"
       STR_KHORNE_CULTIST_LEADER_FEMALE: "Chaos Squad Leader"
 
-
-
 #CORPSES
       STR_CORPSE_KHORNE_CULTIST: "Khorne Cultist Corpse"
       STR_CORPSE_KHORNE_CULTIST_LEADER: "Khorne Cultist Leader Corpse"
@@ -976,6 +984,54 @@ extraStrings:
 
       STR_KHORNE_CULTIST_LEADER_ARMOR_MALE: "Flak Armor"
       STR_KHORNE_CULTIST_LEADER_ARMOR_FEMALE: "Flak Armor"
+
+
+
+
+
+##NURGLE CULTISTS FACTION
+      STR_NURGLE_CULTISTS: "Nurgle Cultists"
+
+#BATTLESCAPE NAMES
+      STR_NURGLE_CULTIST_RIFLEMAN_MALE: "Chaos Rifleman"
+      STR_NURGLE_CULTIST_RIFLEMAN_FEMALE: "Chaos Rifleman"
+
+      STR_NURGLE_CULTIST_MARKSMAN_MALE: "Chaos Marksman"
+      STR_NURGLE_CULTIST_MARKSMAN_FEMALE: "Chaos Marksman"
+
+      STR_NURGLE_CULTIST_GUNNER_MALE: "Chaos Gunner"
+      STR_NURGLE_CULTIST_GUNNER_FEMALE: "Chaos Gunner"
+
+      STR_NURGLE_CULTIST_GRENADIER_MALE: "Chaos Grenadier"
+      STR_NURGLE_CULTIST_GRENADIER_FEMALE: "Chaos Grenadier"
+
+      STR_NURGLE_CULTIST_LEADER_MALE: "Chaos Squad Leader"
+      STR_NURGLE_CULTIST_LEADER_FEMALE: "Chaos Squad Leader"
+
+      STR_NURGLE_CULTIST_ZOMBIE_MALE: "Plague Zombie"
+      STR_NURGLE_CULTIST_ZOMBIE_FEMALE: "Plague Zombie"
+
+#CORPSES
+      STR_CORPSE_NURGLE_CULTIST: "Nurgle Cultist Corpse"
+      STR_CORPSE_NURGLE_CULTIST_LEADER: "Nurgle Cultist Leader Corpse"
+      STR_CORPSE_NURGLE_CULTIST_ZOMBIE: "Nurgle Cultist Zombie Corpse"
+
+#LIVE ENEMIES
+      STR_LIVE_NURGLE_CULTIST: "Nurgle Cultist"
+      STR_LIVE_NURGLE_CULTIST_LEADER: "Nurgle Cultist Leader"
+
+#ARMORS
+      STR_NURGLE_CULTIST_ARMOR_MALE: "Flak Armor"
+      STR_NURGLE_CULTIST_ARMOR_FEMALE: "Flak Armor"
+
+      STR_NURGLE_CULTIST_LEADER_ARMOR_MALE: "Flak Armor"
+      STR_NURGLE_CULTIST_LEADER_ARMOR_FEMALE: "Flak Armor"
+
+      STR_NURGLE_CULTIST_ZOMBIE_ARMOR_MALE: "Flak Armor"
+      STR_NURGLE_CULTIST_ZOMBIE_ARMOR_FEMALE: "Flak Armor"
+
+
+
 
 
 
@@ -1017,9 +1073,6 @@ extraStrings:
       STR_CIVILIAN_15_MALE: "Civilian"
       STR_CIVILIAN_15_FEMALE: "Civilian"
 
-
-
-
 #CORPSES
       STR_CORPSE_CIVILIAN: "Civilian Corpse"
 
@@ -1057,15 +1110,79 @@ extraStrings:
       STR_CIVILIAN_15_ARMOR_MALE: "Civilian Clothes"
       STR_CIVILIAN_15_ARMOR_FEMALE: "Civilian Clothes"
 
+## ZOMBIE CIVILIANS
+      STR_ZOMBIE: "Infected Civilians"
 
+#BATTLESCAPE NAMES
+      STR_CIVILIAN_ZOMBIE_00_MALE: "Plague Zombie"
+      STR_CIVILIAN_ZOMBIE_00_FEMALE: "Plague Zombie"
+      STR_CIVILIAN_ZOMBIE_01_MALE: "Plague Zombie"
+      STR_CIVILIAN_ZOMBIE_01_FEMALE: "Plague Zombie"
+      STR_CIVILIAN_ZOMBIE_02_MALE: "Plague Zombie"
+      STR_CIVILIAN_ZOMBIE_02_FEMALE: "Plague Zombie"
+      STR_CIVILIAN_ZOMBIE_03_MALE: "Plague Zombie"
+      STR_CIVILIAN_ZOMBIE_03_FEMALE: "Plague Zombie"
+      STR_CIVILIAN_ZOMBIE_04_MALE: "Plague Zombie"
+      STR_CIVILIAN_ZOMBIE_04_FEMALE: "Plague Zombie"
+      STR_CIVILIAN_ZOMBIE_05_MALE: "Plague Zombie"
+      STR_CIVILIAN_ZOMBIE_05_FEMALE: "Plague Zombie"
+      STR_CIVILIAN_ZOMBIE_06_MALE: "Plague Zombie"
+      STR_CIVILIAN_ZOMBIE_06_FEMALE: "Plague Zombie"
+      STR_CIVILIAN_ZOMBIE_07_MALE: "Plague Zombie"
+      STR_CIVILIAN_ZOMBIE_07_FEMALE: "Plague Zombie"
+      STR_CIVILIAN_ZOMBIE_08_MALE: "Plague Zombie"
+      STR_CIVILIAN_ZOMBIE_08_FEMALE: "Plague Zombie"
+      STR_CIVILIAN_ZOMBIE_09_MALE: "Plague Zombie"
+      STR_CIVILIAN_ZOMBIE_09_FEMALE: "Plague Zombie"
+      STR_CIVILIAN_ZOMBIE_10_MALE: "Plague Zombie"
+      STR_CIVILIAN_ZOMBIE_10_FEMALE: "Plague Zombie"
+      STR_CIVILIAN_ZOMBIE_11_MALE: "Plague Zombie"
+      STR_CIVILIAN_ZOMBIE_11_FEMALE: "Plague Zombie"
+      STR_CIVILIAN_ZOMBIE_12_MALE: "Plague Zombie"
+      STR_CIVILIAN_ZOMBIE_12_FEMALE: "Plague Zombie"
+      STR_CIVILIAN_ZOMBIE_13_MALE: "Plague Zombie"
+      STR_CIVILIAN_ZOMBIE_13_FEMALE: "Plague Zombie"
+      STR_CIVILIAN_ZOMBIE_14_MALE: "Plague Zombie"
+      STR_CIVILIAN_ZOMBIE_14_FEMALE: "Plague Zombie"
+      STR_CIVILIAN_ZOMBIE_15_MALE: "Plague Zombie"
+      STR_CIVILIAN_ZOMBIE_15_FEMALE: "Plague Zombie"
 
+#CORPSES
+      STR_CORPSE_CIVILIAN_ZOMBIE: "Plague Zombie Corpse"
 
-
-
-
-
-
-
+#ARMORS
+      STR_CIVILIAN_ZOMBIE_00_ARMOR_MALE: "Civilian Clothes"
+      STR_CIVILIAN_ZOMBIE_00_ARMOR_FEMALE: "Civilian Clothes"
+      STR_CIVILIAN_ZOMBIE_01_ARMOR_MALE: "Civilian Clothes"
+      STR_CIVILIAN_ZOMBIE_01_ARMOR_FEMALE: "Civilian Clothes"
+      STR_CIVILIAN_ZOMBIE_02_ARMOR_MALE: "Civilian Clothes"
+      STR_CIVILIAN_ZOMBIE_02_ARMOR_FEMALE: "Civilian Clothes"
+      STR_CIVILIAN_ZOMBIE_03_ARMOR_MALE: "Civilian Clothes"
+      STR_CIVILIAN_ZOMBIE_03_ARMOR_FEMALE: "Civilian Clothes"
+      STR_CIVILIAN_ZOMBIE_04_ARMOR_MALE: "Civilian Clothes"
+      STR_CIVILIAN_ZOMBIE_04_ARMOR_FEMALE: "Civilian Clothes"
+      STR_CIVILIAN_ZOMBIE_05_ARMOR_MALE: "Civilian Clothes"
+      STR_CIVILIAN_ZOMBIE_05_ARMOR_FEMALE: "Civilian Clothes"
+      STR_CIVILIAN_ZOMBIE_06_ARMOR_MALE: "Civilian Clothes"
+      STR_CIVILIAN_ZOMBIE_06_ARMOR_FEMALE: "Civilian Clothes"
+      STR_CIVILIAN_ZOMBIE_07_ARMOR_MALE: "Civilian Clothes"
+      STR_CIVILIAN_ZOMBIE_07_ARMOR_FEMALE: "Civilian Clothes"
+      STR_CIVILIAN_ZOMBIE_08_ARMOR_MALE: "Civilian Clothes"
+      STR_CIVILIAN_ZOMBIE_08_ARMOR_FEMALE: "Civilian Clothes"
+      STR_CIVILIAN_ZOMBIE_09_ARMOR_MALE: "Civilian Clothes"
+      STR_CIVILIAN_ZOMBIE_09_ARMOR_FEMALE: "Civilian Clothes"
+      STR_CIVILIAN_ZOMBIE_10_ARMOR_MALE: "Civilian Clothes"
+      STR_CIVILIAN_ZOMBIE_10_ARMOR_FEMALE: "Civilian Clothes"
+      STR_CIVILIAN_ZOMBIE_11_ARMOR_MALE: "Civilian Clothes"
+      STR_CIVILIAN_ZOMBIE_11_ARMOR_FEMALE: "Civilian Clothes"
+      STR_CIVILIAN_ZOMBIE_12_ARMOR_MALE: "Civilian Clothes"
+      STR_CIVILIAN_ZOMBIE_12_ARMOR_FEMALE: "Civilian Clothes"
+      STR_CIVILIAN_ZOMBIE_13_ARMOR_MALE: "Civilian Clothes"
+      STR_CIVILIAN_ZOMBIE_13_ARMOR_FEMALE: "Civilian Clothes"
+      STR_CIVILIAN_ZOMBIE_14_ARMOR_MALE: "Civilian Clothes"
+      STR_CIVILIAN_ZOMBIE_14_ARMOR_FEMALE: "Civilian Clothes"
+      STR_CIVILIAN_ZOMBIE_15_ARMOR_MALE: "Civilian Clothes"
+      STR_CIVILIAN_ZOMBIE_15_ARMOR_FEMALE: "Civilian Clothes"
 
 
 ##UFOPEDIA (Database)
@@ -1074,7 +1191,7 @@ extraStrings:
 
       STR_XCOM_CRAFT_ARMAMENT: "PDF CRAFT & ARMAMENT"
       STR_HEAVY_WEAPONS_PLATFORMS: "HEAVY WEAPONS PLATFORMS"
-      STR_WEAPONS_AND_EQUIPMENT: "WEAPONS AND EQUIPMENT"
+      STR_WEAPONS_AND_EQUIPMENT: "PDF WEAPONS AND EQUIPMENT"
       STR_ALIEN_ARTIFACTS: "ENEMY WEAPONS AND EQUIPMENT"
       STR_BASE_FACILITIES: "BASE FACILITIES"
       STR_ALIEN_LIFE_FORMS: "ENEMY UNITS"

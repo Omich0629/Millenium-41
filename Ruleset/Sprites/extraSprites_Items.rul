@@ -25,6 +25,8 @@ extraSprites:
       201: Resources/Items/Special_Items/Backpack_Slot_Item_Inv.png
       202: Resources/Items/Special_Items/Left_Leg_Slot_Item_Inv.png
       203: Resources/Items/Special_Items/Right_Leg_Slot_Item_Inv.png
+      204: Resources/Items/Special_Items/Nurgle_Weapon_Inv.png
+
 
 
 #      299: Resources/Items/...
@@ -164,40 +166,41 @@ extraSprites:
       392: Resources/Items/Grenade_Launcher/Grenade_Launcher_Nurgle_Inv1.png
       393: Resources/Items/Grenade_Launcher/Grenade_Launcher_Nurgle_Inv2.png
       394: Resources/Items/Grenade_Launcher/Grenade_Launcher_Nurgle_Inv3.png
+      395: Resources/Items/Grenade_Launcher/Grenade_Launcher_Nurgle_Inv4.png
 
-      395: Resources/Items/Grenade_Launcher/Grenade_Launcher_Tzeentch_Inv0.png
-      396: Resources/Items/Grenade_Launcher/Grenade_Launcher_Tzeentch_Inv1.png
-      397: Resources/Items/Grenade_Launcher/Grenade_Launcher_Tzeentch_Inv2.png
-      398: Resources/Items/Grenade_Launcher/Grenade_Launcher_Tzeentch_Inv3.png
+      396: Resources/Items/Grenade_Launcher/Grenade_Launcher_Tzeentch_Inv0.png
+      397: Resources/Items/Grenade_Launcher/Grenade_Launcher_Tzeentch_Inv1.png
+      398: Resources/Items/Grenade_Launcher/Grenade_Launcher_Tzeentch_Inv2.png
+      399: Resources/Items/Grenade_Launcher/Grenade_Launcher_Tzeentch_Inv3.png
 
-      399: Resources/Items/Grenade_Launcher/Grenade_Launcher_Slaanesh_Inv0.png
-      400: Resources/Items/Grenade_Launcher/Grenade_Launcher_Slaanesh_Inv1.png
-      401: Resources/Items/Grenade_Launcher/Grenade_Launcher_Slaanesh_Inv2.png
-      402: Resources/Items/Grenade_Launcher/Grenade_Launcher_Slaanesh_Inv3.png
+      400: Resources/Items/Grenade_Launcher/Grenade_Launcher_Slaanesh_Inv0.png
+      401: Resources/Items/Grenade_Launcher/Grenade_Launcher_Slaanesh_Inv1.png
+      402: Resources/Items/Grenade_Launcher/Grenade_Launcher_Slaanesh_Inv2.png
+      403: Resources/Items/Grenade_Launcher/Grenade_Launcher_Slaanesh_Inv3.png
+
 
 #Missile Launchers
 
-      403: Resources/Items/Missile_Launcher/Missile_Launcher_Ammo_Inv1.png
-      404: Resources/Items/Missile_Launcher/Missile_Launcher_Ammo_Inv2.png
-      405: Resources/Items/Missile_Launcher/Missile_Launcher_Ammo_Inv3.png
-      406: Resources/Items/Missile_Launcher/Missile_Launcher_Ammo_Inv4.png
+      404: Resources/Items/Missile_Launcher/Missile_Launcher_Ammo_Inv1.png
+      405: Resources/Items/Missile_Launcher/Missile_Launcher_Ammo_Inv2.png
+      406: Resources/Items/Missile_Launcher/Missile_Launcher_Ammo_Inv3.png
+      407: Resources/Items/Missile_Launcher/Missile_Launcher_Ammo_Inv4.png
 
-      407: Resources/Items/Missile_Launcher/Missile_Launcher_PDF_Inv.png
-      408: Resources/Items/Missile_Launcher/Missile_Launcher_Chaos_Inv.png
-      409: Resources/Items/Missile_Launcher/Missile_Launcher_Khorne_Inv.png
-      410: Resources/Items/Missile_Launcher/Missile_Launcher_Nurgle_Inv.png
-      411: Resources/Items/Missile_Launcher/Missile_Launcher_Tzeentch_Inv.png
-      412: Resources/Items/Missile_Launcher/Missile_Launcher_Slaanesh_Inv.png
+      408: Resources/Items/Missile_Launcher/Missile_Launcher_PDF_Inv.png
+      409: Resources/Items/Missile_Launcher/Missile_Launcher_Chaos_Inv.png
+      410: Resources/Items/Missile_Launcher/Missile_Launcher_Khorne_Inv.png
+      411: Resources/Items/Missile_Launcher/Missile_Launcher_Nurgle_Inv.png
+      412: Resources/Items/Missile_Launcher/Missile_Launcher_Tzeentch_Inv.png
+      413: Resources/Items/Missile_Launcher/Missile_Launcher_Slaanesh_Inv.png
 
 #Flamers
 
-      413: Resources/Items/Flamer/Flamer_Ammo_Inv.png
+      414: Resources/Items/Flamer/Flamer_Ammo_Inv.png
 
-      414: Resources/Items/Flamer/Flamer_PDF_Inv0.png
-      415: Resources/Items/Flamer/Flamer_PDF_Inv1.png
-      416: Resources/Items/Flamer/Flamer_Tzeentch_Inv0.png
-      417: Resources/Items/Flamer/Flamer_Tzeentch_Inv1.png
-#      418: Resources/Items/
+      415: Resources/Items/Flamer/Flamer_PDF_Inv0.png
+      416: Resources/Items/Flamer/Flamer_PDF_Inv1.png
+      417: Resources/Items/Flamer/Flamer_Tzeentch_Inv0.png
+      418: Resources/Items/Flamer/Flamer_Tzeentch_Inv1.png
 #      419: Resources/Items/
 
 
@@ -681,23 +684,27 @@ extraSprites:
       1005: Resources/Items/Stun_Grenade/Stun_Grenade_Inv.png
       1006: Resources/Items/Demolition_Charge/Demolition_Charge_Inv.png
       1007: Resources/Items/Melta_Bomb/Melta_Bomb_Inv.png
-#      1007: Resources/Items/
-#      1008: Resources/Items/
+      1008: Resources/Items/Acid_Grenade/Acid_Grenade_Inv.png
 #      1009: Resources/Items/
+#      1010: Resources/Items/
+#      1011: Resources/Items/
+#      1012: Resources/Items/
+#      1013: Resources/Items/
+
 
 #Utility Items
 
-      1010: Resources/Items/Motion_Scanner/Motion_Scanner_Inv.png
-      1011: Resources/Items/Analyzer/Analyzer_Inv.png
-      1012: Resources/Items/Medi-Kit/Medi-Kit_Inv.png
-      1013: Resources/Items/Glow_Stick/Glow_Stick_Inv.png
-      1014: Resources/Items/Fire_Extinguisher/Fire_Extinguisher_Inv.png
-#      1015: Resources/Items/
-#      1016: Resources/Items/
-#      1017: Resources/Items/
-#      1018: Resources/Items/
+      1014: Resources/Items/Motion_Scanner/Motion_Scanner_Inv.png
+      1015: Resources/Items/Analyzer/Analyzer_Inv.png
+      1016: Resources/Items/Medi-Kit/Medi-Kit_Inv.png
+      1017: Resources/Items/Glow_Stick/Glow_Stick_Inv.png
+      1018: Resources/Items/Fire_Extinguisher/Fire_Extinguisher_Inv.png
 #      1019: Resources/Items/
 #      1020: Resources/Items/
+#      1021: Resources/Items/
+#      1022: Resources/Items/
+#      1023: Resources/Items/
+#      1024: Resources/Items/
 
 #PDF Units Corpses (2000 - 2199)
 
@@ -748,6 +755,10 @@ extraSprites:
       2301: Resources/Armors/Khorne_Cultists/Cultist_Leader_Armor/Khorne_Cultist_Leader_Armor_Corpse_Inv.png
 
 #Nurgle Units Corpses (2400 - 2499)
+      2400: Resources/Armors/Nurgle_Cultists/Cultist_Armor/Nurgle_Cultist_Armor_Corpse_Inv.png
+      2401: Resources/Armors/Nurgle_Cultists/Cultist_Leader_Armor/Nurgle_Cultist_Leader_Armor_Corpse_Inv.png
+      2402: Resources/Armors/Nurgle_Cultists/Cultist_Zombie_Armor/Nurgle_Cultist_Zombie_Armor_Corpse_Inv.png
+
 
 
 #Tzeentch Units Corpses (2500 - 2599)
@@ -775,6 +786,26 @@ extraSprites:
       3013: Resources/Armors/Civilians/Civilian_13/Civilian_13_Corpse_Inv.png
       3014: Resources/Armors/Civilians/Civilian_14/Civilian_14_Corpse_Inv.png
       3015: Resources/Armors/Civilians/Civilian_15/Civilian_15_Corpse_Inv.png
+
+#Zombie Units Corpses (3200 - ????)
+      3200: Resources/Armors/Zombies/Civilian_Zombie_00/Civilian_Zombie_00_Corpse_Inv.png
+      3201: Resources/Armors/Zombies/Civilian_Zombie_01/Civilian_Zombie_01_Corpse_Inv.png
+      3202: Resources/Armors/Zombies/Civilian_Zombie_02/Civilian_Zombie_02_Corpse_Inv.png
+      3203: Resources/Armors/Zombies/Civilian_Zombie_03/Civilian_Zombie_03_Corpse_Inv.png
+      3204: Resources/Armors/Zombies/Civilian_Zombie_04/Civilian_Zombie_04_Corpse_Inv.png
+      3205: Resources/Armors/Zombies/Civilian_Zombie_05/Civilian_Zombie_05_Corpse_Inv.png
+      3206: Resources/Armors/Zombies/Civilian_Zombie_06/Civilian_Zombie_06_Corpse_Inv.png
+      3207: Resources/Armors/Zombies/Civilian_Zombie_07/Civilian_Zombie_07_Corpse_Inv.png
+      3208: Resources/Armors/Zombies/Civilian_Zombie_08/Civilian_Zombie_08_Corpse_Inv.png
+      3209: Resources/Armors/Zombies/Civilian_Zombie_09/Civilian_Zombie_09_Corpse_Inv.png
+      3210: Resources/Armors/Zombies/Civilian_Zombie_10/Civilian_Zombie_10_Corpse_Inv.png
+      3211: Resources/Armors/Zombies/Civilian_Zombie_11/Civilian_Zombie_11_Corpse_Inv.png
+      3212: Resources/Armors/Zombies/Civilian_Zombie_12/Civilian_Zombie_12_Corpse_Inv.png
+      3213: Resources/Armors/Zombies/Civilian_Zombie_13/Civilian_Zombie_13_Corpse_Inv.png
+      3214: Resources/Armors/Zombies/Civilian_Zombie_14/Civilian_Zombie_14_Corpse_Inv.png
+      3215: Resources/Armors/Zombies/Civilian_Zombie_15/Civilian_Zombie_15_Corpse_Inv.png
+
+
 
 ## FLOOR SPRITES
   - type: FLOOROB.PCK
@@ -1186,23 +1217,26 @@ extraSprites:
       1005: Resources/Items/Stun_Grenade/Stun_Grenade_Floor.png
       1006: Resources/Items/Demolition_Charge/Demolition_Charge_Floor.png
       1007: Resources/Items/Melta_Bomb/Melta_Bomb_Floor.png
-#      1008: Resources/Items/
+      1008: Resources/Items/Acid_Grenade/Acid_Grenade_Floor.png
 #      1009: Resources/Items/
 #      1010: Resources/Items/
+#      1011: Resources/Items/
+#      1012: Resources/Items/
+#      1013: Resources/Items/
 
 #Utility Items
 
-      1010: Resources/Items/Motion_Scanner/Motion_Scanner_Floor.png
-      1011: Resources/Items/Analyzer/Analyzer_Floor.png
-      1012: Resources/Items/Medi-Kit/Medi-Kit_Floor.png
-      1013: Resources/Items/Glow_Stick/Glow_Stick_Floor.png
-      1014: Resources/Items/Fire_Extinguisher/Fire_Extinguisher_Floor.png
-#      1015: Resources/Items/
-#      1016: Resources/Items/
-#      1017: Resources/Items/
-#      1018: Resources/Items/
+      1014: Resources/Items/Motion_Scanner/Motion_Scanner_Floor.png
+      1015: Resources/Items/Analyzer/Analyzer_Floor.png
+      1016: Resources/Items/Medi-Kit/Medi-Kit_Floor.png
+      1017: Resources/Items/Glow_Stick/Glow_Stick_Floor.png
+      1018: Resources/Items/Fire_Extinguisher/Fire_Extinguisher_Floor.png
 #      1019: Resources/Items/
 #      1020: Resources/Items/
+#      1021: Resources/Items/
+#      1022: Resources/Items/
+#      1023: Resources/Items/
+#      1024: Resources/Items/
 
 
 #PDF Units Corpses (2000 - 2199)
@@ -1254,6 +1288,11 @@ extraSprites:
       2300: Resources/Armors/Khorne_Cultists/Cultist_Armor/Khorne_Cultist_Armor_Corpse_Floor.png
       2301: Resources/Armors/Khorne_Cultists/Cultist_Leader_Armor/Khorne_Cultist_Leader_Armor_Corpse_Floor.png
 
+#Nurgle Units Corpses (2400 - 2499)
+      2400: Resources/Armors/Nurgle_Cultists/Cultist_Armor/Nurgle_Cultist_Armor_Corpse_Floor.png
+      2401: Resources/Armors/Nurgle_Cultists/Cultist_Leader_Armor/Nurgle_Cultist_Leader_Armor_Corpse_Floor.png
+      2402: Resources/Armors/Nurgle_Cultists/Cultist_Zombie_Armor/Nurgle_Cultist_Zombie_Armor_Corpse_Floor.png
+
 
 #Civilian Units Corpses (3000 - ????)
 
@@ -1273,6 +1312,24 @@ extraSprites:
       3013: Resources/Armors/Civilians/Civilian_13/Civilian_13_Corpse_Floor.png
       3014: Resources/Armors/Civilians/Civilian_14/Civilian_14_Corpse_Floor.png
       3015: Resources/Armors/Civilians/Civilian_15/Civilian_15_Corpse_Floor.png
+
+#Zombie Units Corpses (3200 - ????)
+      3200: Resources/Armors/Zombies/Civilian_Zombie_00/Civilian_Zombie_00_Corpse_Floor.png
+      3201: Resources/Armors/Zombies/Civilian_Zombie_01/Civilian_Zombie_01_Corpse_Floor.png
+      3202: Resources/Armors/Zombies/Civilian_Zombie_02/Civilian_Zombie_02_Corpse_Floor.png
+      3203: Resources/Armors/Zombies/Civilian_Zombie_03/Civilian_Zombie_03_Corpse_Floor.png
+      3204: Resources/Armors/Zombies/Civilian_Zombie_04/Civilian_Zombie_04_Corpse_Floor.png
+      3205: Resources/Armors/Zombies/Civilian_Zombie_05/Civilian_Zombie_05_Corpse_Floor.png
+      3206: Resources/Armors/Zombies/Civilian_Zombie_06/Civilian_Zombie_06_Corpse_Floor.png
+      3207: Resources/Armors/Zombies/Civilian_Zombie_07/Civilian_Zombie_07_Corpse_Floor.png
+      3208: Resources/Armors/Zombies/Civilian_Zombie_08/Civilian_Zombie_08_Corpse_Floor.png
+      3209: Resources/Armors/Zombies/Civilian_Zombie_09/Civilian_Zombie_09_Corpse_Floor.png
+      3210: Resources/Armors/Zombies/Civilian_Zombie_10/Civilian_Zombie_10_Corpse_Floor.png
+      3211: Resources/Armors/Zombies/Civilian_Zombie_11/Civilian_Zombie_11_Corpse_Floor.png
+      3212: Resources/Armors/Zombies/Civilian_Zombie_12/Civilian_Zombie_12_Corpse_Floor.png
+      3213: Resources/Armors/Zombies/Civilian_Zombie_13/Civilian_Zombie_13_Corpse_Floor.png
+      3214: Resources/Armors/Zombies/Civilian_Zombie_14/Civilian_Zombie_14_Corpse_Floor.png
+      3215: Resources/Armors/Zombies/Civilian_Zombie_15/Civilian_Zombie_15_Corpse_Floor.png
 
 
 
@@ -1739,19 +1796,38 @@ extraSprites:
       4040: Resources/Items/Stun_Grenade/Stun_Grenade_Hand.png
       4048: Resources/Items/Demolition_Charge/Demolition_Charge_Hand.png
       4056: Resources/Items/Melta_Bomb/Melta_Bomb_Hand.png
-#      4064: Resources/Items/
+      4064: Resources/Items/Acid_Grenade/Acid_Grenade_Hand.png
+#      4072: Resources/Items/
+#      4080: Resources/Items/
+#      4088: Resources/Items/
+#      4096: Resources/Items/
+#      4104: Resources/Items/
+
+
 
 #Utility Items
 
-      4072: Resources/Items/Motion_Scanner/Motion_Scanner_Hand.png
-      4080: Resources/Items/Analyzer/Analyzer_Hand.png
-      4088: Resources/Items/Medi-Kit/Medi-Kit_Hand.png
-      4096: Resources/Items/Glow_Stick/Glow_Stick_Hand.png
-      4104: Resources/Items/Fire_Extinguisher/Fire_Extinguisher_Hand.png
-#      4112: Resources/Items/
-#      4120: Resources/Items/
-#      4128: Resources/Items/
-#      4136: Resources/Items/
+      4112: Resources/Items/Motion_Scanner/Motion_Scanner_Hand.png
+      4120: Resources/Items/Analyzer/Analyzer_Hand.png
+      4128: Resources/Items/Medi-Kit/Medi-Kit_Hand.png
+      4136: Resources/Items/Glow_Stick/Glow_Stick_Hand.png
+      4144: Resources/Items/Fire_Extinguisher/Fire_Extinguisher_Hand.png
+#      4152: Resources/Items/
+#      4160: Resources/Items/
+#      4168: Resources/Items/
+#      4176: Resources/Items/
+#      4184: Resources/Items/
+#      4192: Resources/Items/
+
+
+
+
+
+#      4200: Resources/Items/
+
+
+
+
 
 
 

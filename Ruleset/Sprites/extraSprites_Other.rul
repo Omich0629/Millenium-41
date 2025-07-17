@@ -139,8 +139,8 @@ extraSprites:
       24: Resources/Animations/Melee_Hit/Red_Melee_Miss.png
       28: Resources/Animations/Melee_Hit/Blue_Melee_Hit.png
       32: Resources/Animations/Melee_Hit/Blue_Melee_Miss.png
-#      36: Resources/Animations/Melee_Hit/
-#      40: Resources/Animations/Melee_Hit/
+      36: Resources/Animations/Melee_Hit/Green_Melee_Hit.png
+      40: Resources/Animations/Melee_Hit/Green_Melee_Miss.png
 #      44: Resources/Animations/Melee_Hit/
 #      48: Resources/Animations/Melee_Hit/
 #      52: Resources/Animations/Melee_Hit/
@@ -166,7 +166,7 @@ extraSprites:
       72: Resources/Animations/Explosion/Stun_Explosion.png
       80: Resources/Animations/Explosion/Plasma_Explosion.png
       88: Resources/Animations/Explosion/Melta_Explosion.png
-
+      96: Resources/Animations/Explosion/Acid_Explosion.png
 
 
 
