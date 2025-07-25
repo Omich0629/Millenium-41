@@ -423,7 +423,7 @@ items:
     battleType: 11
     armor: 25
 
-## LIVE CHAOS CULTIST
+## LIVE CHAOS CULTIST LEADER
   - type: STR_LIVE_CHAOS_CULTIST_LEADER
 #SPECIFICATIONS
     size: 0.0
@@ -494,7 +494,7 @@ items:
     battleType: 11
     armor: 35
 
-## LIVE CHAOS SQUAD LEADER
+## LIVE CHAOS WARRIOR SQUAD LEADER
   - type: STR_LIVE_CHAOS_WARRIOR_SQUAD_LEADER
 #SPECIFICATIONS
     size: 0.0
@@ -521,7 +521,7 @@ items:
     armor: 35
 
 
-## LIVE CHAOS PSYKER
+## LIVE CHAOS WARRIOR PSYKER
   - type: STR_LIVE_CHAOS_WARRIOR_PSYKER
 #SPECIFICATIONS
     size: 0.0
@@ -581,7 +581,7 @@ items:
     battleType: 11
     armor: 25
 
-## LIVE KHORNE LEADER CULTIST
+## LIVE KHORNE CULTIST LEADER
   - type: STR_LIVE_KHORNE_CULTIST_LEADER
 #SPECIFICATIONS
     size: 0.0
@@ -649,15 +649,13 @@ items:
     battleType: 11
     armor: 25
 
-## LIVE NURGLE LEADER CULTIST
+## LIVE NURGLE CULTIST LEADER
   - type: STR_LIVE_NURGLE_CULTIST_LEADER
 #SPECIFICATIONS
     size: 0.0
     recover: true
     liveAlien: true
     costSell: 10000
-
-
 
 
 ## NURGLE CULTIST ZOMBIE CORPSE
@@ -675,6 +673,85 @@ items:
     recoveryPoints: 5
     battleType: 11
     armor: 25
+
+
+
+
+
+## TZEENTCH CULTIST CORPSE
+  - type: STR_CORPSE_TZEENTCH_CULTIST
+#RESOURCES
+    bigSprite: 2500
+    floorSprite: 2500
+    handSprite: 88 #(empty hand)
+#SPECIFICATIONS
+    size: 0.4
+    costSell: 5000
+    weight: 50
+    invWidth: 2
+    invHeight: 3
+    recoveryPoints: 5
+    battleType: 11
+    armor: 25
+
+## LIVE TZEENTCH CULTIST
+  - type: STR_LIVE_TZEENTCH_CULTIST
+#SPECIFICATIONS
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 10000
+
+
+## TZEENTCH CULTIST LEADER CORPSE
+  - type: STR_CORPSE_TZEENTCH_CULTIST_LEADER
+#RESOURCES
+    bigSprite: 2501
+    floorSprite: 2501
+    handSprite: 88 #(empty hand)
+#SPECIFICATIONS
+    size: 0.4
+    costSell: 5000
+    weight: 50
+    invWidth: 2
+    invHeight: 3
+    recoveryPoints: 5
+    battleType: 11
+    armor: 25
+
+## LIVE TZEENTCH CULTIST LEADER
+  - type: STR_LIVE_TZEENTCH_CULTIST_LEADER
+#SPECIFICATIONS
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 10000
+
+
+## TZEENTCH CULTIST MUTANT CORPSE
+  - type: STR_CORPSE_TZEENTCH_CULTIST_MUTANT
+#RESOURCES
+    bigSprite: 2502
+    floorSprite: 2502
+    handSprite: 88 #(empty hand)
+#SPECIFICATIONS
+    size: 0.4
+    costSell: 5000
+    weight: 50
+    invWidth: 2
+    invHeight: 3
+    recoveryPoints: 5
+    battleType: 11
+    armor: 25
+
+## LIVE TZEENTCH CULTIST MUTANT
+  - type: STR_LIVE_TZEENTCH_CULTIST_MUTANT
+#SPECIFICATIONS
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 10000
+
 
 
 

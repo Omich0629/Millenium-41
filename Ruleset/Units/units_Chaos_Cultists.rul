@@ -16,8 +16,8 @@ units:
       firing: 50
       throwing: 30
       strength: 35
-      psiStrength: 50
-      psiSkill: 0
+      psiStrength: 25
+      psiSkill: 25
       melee: 45
     armor: STR_CHAOS_CULTIST_ARMOR_MALE
     standHeight: 22
@@ -59,8 +59,8 @@ units:
       firing: 50
       throwing: 30
       strength: 35
-      psiStrength: 50
-      psiSkill: 0
+      psiStrength: 25
+      psiSkill: 25
       melee: 45
     armor: STR_CHAOS_CULTIST_ARMOR_FEMALE
     standHeight: 22
@@ -101,8 +101,8 @@ units:
       firing: 60
       throwing: 30
       strength: 35
-      psiStrength: 50
-      psiSkill: 0
+      psiStrength: 25
+      psiSkill: 25
       melee: 45
     armor: STR_CHAOS_CULTIST_ARMOR_MALE
     standHeight: 22
@@ -130,7 +130,7 @@ units:
         - STR_FRAG_GRENADE
 
 
-#CHAOS CULTIST MARKSMAN MALE
+#CHAOS CULTIST MARKSMAN FEMALE
   - type: STR_CHAOS_CULTIST_MARKSMAN_FEMALE
     race: STR_CHAOS_CULTISTS
     rank: STR_LIVE_MEDIC
@@ -143,8 +143,8 @@ units:
       firing: 60
       throwing: 30
       strength: 35
-      psiStrength: 50
-      psiSkill: 0
+      psiStrength: 25
+      psiSkill: 25
       melee: 45
     armor: STR_CHAOS_CULTIST_ARMOR_FEMALE
     standHeight: 22
@@ -185,8 +185,8 @@ units:
       firing: 50
       throwing: 30
       strength: 40
-      psiStrength: 50
-      psiSkill: 0
+      psiStrength: 25
+      psiSkill: 25
       melee: 45
     armor: STR_CHAOS_CULTIST_ARMOR_MALE
     standHeight: 22
@@ -227,8 +227,8 @@ units:
       firing: 50
       throwing: 30
       strength: 40
-      psiStrength: 50
-      psiSkill: 0
+      psiStrength: 25
+      psiSkill: 25
       melee: 45
     armor: STR_CHAOS_CULTIST_ARMOR_FEMALE
     standHeight: 22
@@ -272,8 +272,8 @@ units:
       firing: 50
       throwing: 30
       strength: 45
-      psiStrength: 50
-      psiSkill: 0
+      psiStrength: 25
+      psiSkill: 25
       melee: 45
     armor: STR_CHAOS_CULTIST_ARMOR_MALE
     standHeight: 22
@@ -317,8 +317,8 @@ units:
       firing: 50
       throwing: 30
       strength: 45
-      psiStrength: 50
-      psiSkill: 0
+      psiStrength: 25
+      psiSkill: 25
       melee: 45
     armor: STR_CHAOS_CULTIST_ARMOR_FEMALE
     standHeight: 22
@@ -363,8 +363,8 @@ units:
       firing: 60
       throwing: 40
       strength: 35
-      psiStrength: 60
-      psiSkill: 0
+      psiStrength: 35
+      psiSkill: 35
       melee: 60
     armor: STR_CHAOS_CULTIST_LEADER_ARMOR_MALE
     standHeight: 22
@@ -409,8 +409,8 @@ units:
       firing: 60
       throwing: 40
       strength: 35
-      psiStrength: 60
-      psiSkill: 0
+      psiStrength: 35
+      psiSkill: 35
       melee: 60
     armor: STR_CHAOS_CULTIST_LEADER_ARMOR_FEMALE
     standHeight: 22

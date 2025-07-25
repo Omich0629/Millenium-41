@@ -16,8 +16,8 @@ units:
       firing: 50
       throwing: 50
       strength: 40
-      psiStrength: 50
-      psiSkill: 0
+      psiStrength: 45
+      psiSkill: 15
       melee: 50
     armor: STR_NURGLE_CULTIST_ARMOR_MALE
     standHeight: 22
@@ -58,8 +58,8 @@ units:
       firing: 50
       throwing: 50
       strength: 40
-      psiStrength: 50
-      psiSkill: 0
+      psiStrength: 45
+      psiSkill: 15
       melee: 50
     armor: STR_NURGLE_CULTIST_ARMOR_FEMALE
     standHeight: 22
@@ -103,8 +103,8 @@ units:
       firing: 60
       throwing: 50
       strength: 40
-      psiStrength: 50
-      psiSkill: 0
+      psiStrength: 45
+      psiSkill: 15
       melee: 50
     armor: STR_NURGLE_CULTIST_ARMOR_MALE
     standHeight: 22
@@ -145,8 +145,8 @@ units:
       firing: 60
       throwing: 50
       strength: 40
-      psiStrength: 50
-      psiSkill: 0
+      psiStrength: 45
+      psiSkill: 15
       melee: 50
     armor: STR_NURGLE_CULTIST_ARMOR_FEMALE
     standHeight: 22
@@ -187,8 +187,8 @@ units:
       firing: 50
       throwing: 30
       strength: 40
-      psiStrength: 50
-      psiSkill: 0
+      psiStrength: 45
+      psiSkill: 15
       melee: 50
     armor: STR_NURGLE_CULTIST_ARMOR_MALE
     standHeight: 22
@@ -229,8 +229,8 @@ units:
       firing: 50
       throwing: 30
       strength: 40
-      psiStrength: 50
-      psiSkill: 0
+      psiStrength: 45
+      psiSkill: 15
       melee: 50
     armor: STR_NURGLE_CULTIST_ARMOR_FEMALE
     standHeight: 22
@@ -271,8 +271,8 @@ units:
       firing: 50
       throwing: 50
       strength: 45
-      psiStrength: 50
-      psiSkill: 0
+      psiStrength: 45
+      psiSkill: 15
       melee: 45
     armor: STR_NURGLE_CULTIST_ARMOR_MALE
     standHeight: 22
@@ -315,8 +315,8 @@ units:
       firing: 50
       throwing: 50
       strength: 45
-      psiStrength: 50
-      psiSkill: 0
+      psiStrength: 45
+      psiSkill: 15
       melee: 45
     armor: STR_NURGLE_CULTIST_ARMOR_FEMALE
     standHeight: 22
@@ -359,8 +359,8 @@ units:
       firing: 60
       throwing: 60
       strength: 40
-      psiStrength: 60
-      psiSkill: 0
+      psiStrength: 50
+      psiSkill: 25
       melee: 60
     armor: STR_NURGLE_CULTIST_LEADER_ARMOR_MALE
     standHeight: 22
@@ -405,8 +405,8 @@ units:
       firing: 60
       throwing: 60
       strength: 40
-      psiStrength: 60
-      psiSkill: 0
+      psiStrength: 50
+      psiSkill: 25
       melee: 60
     armor: STR_NURGLE_CULTIST_LEADER_ARMOR_FEMALE
     standHeight: 22

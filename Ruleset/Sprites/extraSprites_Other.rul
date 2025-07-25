@@ -141,8 +141,8 @@ extraSprites:
       32: Resources/Animations/Melee_Hit/Blue_Melee_Miss.png
       36: Resources/Animations/Melee_Hit/Green_Melee_Hit.png
       40: Resources/Animations/Melee_Hit/Green_Melee_Miss.png
-#      44: Resources/Animations/Melee_Hit/
-#      48: Resources/Animations/Melee_Hit/
+      44: Resources/Animations/Melee_Hit/Pink_Melee_Hit.png
+      48: Resources/Animations/Melee_Hit/Pink_Melee_Miss.png
 #      52: Resources/Animations/Melee_Hit/
 #      56: Resources/Animations/Melee_Hit/
       60: Resources/Animations/Psi_Hit/Blue_Psi_Hit.png

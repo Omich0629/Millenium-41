@@ -26,7 +26,7 @@ extraSprites:
       202: Resources/Items/Special_Items/Left_Leg_Slot_Item_Inv.png
       203: Resources/Items/Special_Items/Right_Leg_Slot_Item_Inv.png
       204: Resources/Items/Special_Items/Nurgle_Weapon_Inv.png
-
+      205: Resources/Items/Special_Items/Tzeentch_Weapon_Inv.png
 
 
 #      299: Resources/Items/...
@@ -199,8 +199,8 @@ extraSprites:
 
       415: Resources/Items/Flamer/Flamer_PDF_Inv0.png
       416: Resources/Items/Flamer/Flamer_PDF_Inv1.png
-      417: Resources/Items/Flamer/Flamer_Tzeentch_Inv0.png
-      418: Resources/Items/Flamer/Flamer_Tzeentch_Inv1.png
+#      417: Resources/Items/
+#      418: Resources/Items/
 #      419: Resources/Items/
 
 
@@ -759,10 +759,10 @@ extraSprites:
       2401: Resources/Armors/Nurgle_Cultists/Cultist_Leader_Armor/Nurgle_Cultist_Leader_Armor_Corpse_Inv.png
       2402: Resources/Armors/Nurgle_Cultists/Cultist_Zombie_Armor/Nurgle_Cultist_Zombie_Armor_Corpse_Inv.png
 
-
-
 #Tzeentch Units Corpses (2500 - 2599)
-
+      2500: Resources/Armors/Tzeentch_Cultists/Cultist_Armor/Tzeentch_Cultist_Armor_Corpse_Inv.png
+      2501: Resources/Armors/Tzeentch_Cultists/Cultist_Leader_Armor/Tzeentch_Cultist_Leader_Armor_Corpse_Inv.png
+      2502: Resources/Armors/Tzeentch_Cultists/Cultist_Mutant_Armor/Tzeentch_Cultist_Mutant_Armor_Corpse_Inv.png
 
 #Slaanesh Units Corpses (2600 - 2699)
 
@@ -883,7 +883,7 @@ extraSprites:
 
       341: Resources/Items/Flamer/Flamer_Ammo_Floor.png
       342: Resources/Items/Flamer/Flamer_PDF_Floor.png
-      343: Resources/Items/Flamer/Flamer_Tzeentch_Floor.png
+#      343: Resources/Items/
 #      344: Resources/Items/
 #      345: Resources/Items/
 #      346: Resources/Items/
@@ -1293,6 +1293,11 @@ extraSprites:
       2401: Resources/Armors/Nurgle_Cultists/Cultist_Leader_Armor/Nurgle_Cultist_Leader_Armor_Corpse_Floor.png
       2402: Resources/Armors/Nurgle_Cultists/Cultist_Zombie_Armor/Nurgle_Cultist_Zombie_Armor_Corpse_Floor.png
 
+#Tzeentch Units Corpses (2500 - 2599)
+      2500: Resources/Armors/Tzeentch_Cultists/Cultist_Armor/Tzeentch_Cultist_Armor_Corpse_Floor.png
+      2501: Resources/Armors/Tzeentch_Cultists/Cultist_Leader_Armor/Tzeentch_Cultist_Leader_Armor_Corpse_Floor.png
+      2502: Resources/Armors/Tzeentch_Cultists/Cultist_Mutant_Armor/Tzeentch_Cultist_Mutant_Armor_Corpse_Floor.png
+
 
 #Civilian Units Corpses (3000 - ????)
 
@@ -1419,7 +1424,7 @@ extraSprites:
 
       608: Resources/Items/Flamer/Flamer_Ammo_Hand.png
       616: Resources/Items/Flamer/Flamer_PDF_Hand.png
-      624: Resources/Items/Flamer/Flamer_Tzeentch_Hand.png
+#      624: Resources/Items/
 #      632: Resources/Items/
 #      640: Resources/Items/
       648: Resources/Items/Webber/Webber_PDF_Hand.png

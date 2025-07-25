@@ -289,7 +289,7 @@ items:
     armor: 30
 #SHOOTING
     clipSize: 60
-    power: 40
+    power: 30
     damageType: 1
     damageAlter:
       RandomType: 7 #50-200%

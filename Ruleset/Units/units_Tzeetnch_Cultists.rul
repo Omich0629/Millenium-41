@@ -1,0 +1,558 @@
+units:
+
+#AI units
+##TZEENTCH CULTISTS
+
+#TZEENTCH CULTIST RIFLEMAN MALE
+  - type: STR_TZEENTCH_CULTIST_RIFLEMAN_MALE
+    race: STR_TZEENTCH_CULTISTS
+    rank: STR_LIVE_SOLDIER
+    stats:
+      tu: 55
+      stamina: 60
+      health: 35
+      bravery: 60
+      reactions: 50
+      firing: 55
+      throwing: 40
+      strength: 35
+      psiStrength: 50
+      psiSkill: 30
+      melee: 40
+    armor: STR_TZEENTCH_CULTIST_ARMOR_MALE
+    standHeight: 22
+    kneelHeight: 14
+    value: 10
+    moraleLossWhenKilled: 100
+    deathSound: [41, 42, 43] #human male 
+    intelligence: 4
+    aggression: 2
+    capturable: true
+    liveAlien: STR_LIVE_TZEENTCH_CULTIST
+    builtInWeaponSets:
+#ITEM SET 0
+      - - STR_AUTOGUN_TZEENTCH
+        - STR_AUTOGUN_MAGAZINE
+        - STR_AUTOGUN_MAGAZINE
+#ITEM SET 1
+      - - STR_AUTOGUN_TZEENTCH
+        - STR_AUTOGUN_MAGAZINE
+        - STR_AUTOGUN_MAGAZINE
+        - STR_INCENDIARY_GRENADE
+#ITEM SET 2
+      - - STR_LASGUN_TZEENTCH
+        - STR_INCENDIARY_GRENADE
+        - STR_INCENDIARY_GRENADE
+
+
+#TZEENTCH CULTIST RIFLEMAN FEMALE
+  - type: STR_TZEENTCH_CULTIST_RIFLEMAN_FEMALE
+    race: STR_TZEENTCH_CULTISTS
+    rank: STR_LIVE_SOLDIER
+    stats:
+      tu: 55
+      stamina: 60
+      health: 35
+      bravery: 60
+      reactions: 50
+      firing: 55
+      throwing: 40
+      strength: 35
+      psiStrength: 50
+      psiSkill: 30
+      melee: 40
+    armor: STR_TZEENTCH_CULTIST_ARMOR_FEMALE
+    standHeight: 22
+    kneelHeight: 14
+    value: 10
+    moraleLossWhenKilled: 100
+    deathSound: [44, 45, 46] #human female
+    intelligence: 4
+    aggression: 2
+    capturable: true
+    liveAlien: STR_LIVE_TZEENTCH_CULTIST
+    builtInWeaponSets:
+#ITEM SET 0
+      - - STR_AUTOGUN_TZEENTCH
+        - STR_AUTOGUN_MAGAZINE
+        - STR_AUTOGUN_MAGAZINE
+#ITEM SET 1
+      - - STR_AUTOGUN_TZEENTCH
+        - STR_AUTOGUN_MAGAZINE
+        - STR_AUTOGUN_MAGAZINE
+        - STR_INCENDIARY_GRENADE
+#ITEM SET 2
+      - - STR_LASGUN_TZEENTCH
+        - STR_INCENDIARY_GRENADE
+        - STR_INCENDIARY_GRENADE
+
+
+
+#TZEENTCH CULTIST MARKSMAN MALE
+  - type: STR_TZEENTCH_CULTIST_MARKSMAN_MALE
+    race: STR_TZEENTCH_CULTISTS
+    rank: STR_LIVE_MEDIC
+    stats:
+      tu: 55
+      stamina: 60
+      health: 35
+      bravery: 60
+      reactions: 50
+      firing: 65
+      throwing: 40
+      strength: 35
+      psiStrength: 50
+      psiSkill: 30
+      melee: 40
+    armor: STR_TZEENTCH_CULTIST_ARMOR_MALE
+    standHeight: 22
+    kneelHeight: 14
+    value: 10
+    moraleLossWhenKilled: 100
+    deathSound: [41, 42, 43] #human male 
+    intelligence: 4
+    aggression: 0 #mostly passive
+    capturable: true
+    liveAlien: STR_LIVE_TZEENTCH_CULTIST
+    builtInWeaponSets:
+#ITEM SET 0
+      - - STR_MARKSMAN_AUTOGUN_TZEENTCH
+        - STR_AUTOGUN_MAGAZINE
+        - STR_AUTOGUN_MAGAZINE
+#ITEM SET 1
+      - - STR_MARKSMAN_AUTOGUN_TZEENTCH
+        - STR_AUTOGUN_MAGAZINE
+        - STR_AUTOGUN_MAGAZINE
+        - STR_INCENDIARY_GRENADE
+#ITEM SET 2
+      - - STR_MARKSMAN_LASGUN_TZEENTCH
+        - STR_INCENDIARY_GRENADE
+        - STR_INCENDIARY_GRENADE
+
+
+#TZEENTCH CULTIST MARKSMAN FEMALE
+  - type: STR_TZEENTCH_CULTIST_MARKSMAN_FEMALE
+    race: STR_TZEENTCH_CULTISTS
+    rank: STR_LIVE_MEDIC
+    stats:
+      tu: 55
+      stamina: 60
+      health: 35
+      bravery: 60
+      reactions: 50
+      firing: 65
+      throwing: 40
+      strength: 35
+      psiStrength: 50
+      psiSkill: 30
+      melee: 40
+    armor: STR_TZEENTCH_CULTIST_ARMOR_FEMALE
+    standHeight: 22
+    kneelHeight: 14
+    value: 10
+    moraleLossWhenKilled: 100
+    deathSound: [44, 45, 46] #human female
+    intelligence: 3
+    aggression: 0 #mostly passive
+    capturable: true
+    liveAlien: STR_LIVE_TZEENTCH_CULTIST
+    builtInWeaponSets:
+#ITEM SET 0
+      - - STR_MARKSMAN_AUTOGUN_TZEENTCH
+        - STR_AUTOGUN_MAGAZINE
+        - STR_AUTOGUN_MAGAZINE
+#ITEM SET 1
+      - - STR_MARKSMAN_AUTOGUN_TZEENTCH
+        - STR_AUTOGUN_MAGAZINE
+        - STR_AUTOGUN_MAGAZINE
+        - STR_INCENDIARY_GRENADE
+#ITEM SET 2
+      - - STR_MARKSMAN_LASGUN_TZEENTCH
+        - STR_INCENDIARY_GRENADE
+        - STR_INCENDIARY_GRENADE
+
+
+
+#TZEENTCH CULTIST GUNNER MALE
+  - type: STR_TZEENTCH_CULTIST_GUNNER_MALE
+    race: STR_TZEENTCH_CULTISTS
+    rank: STR_LIVE_MEDIC
+    stats:
+      tu: 55
+      stamina: 60
+      health: 35
+      bravery: 60
+      reactions: 40
+      firing: 55
+      throwing: 40
+      strength: 40
+      psiStrength: 50
+      psiSkill: 30
+      melee: 40
+    armor: STR_TZEENTCH_CULTIST_ARMOR_MALE
+    standHeight: 22
+    kneelHeight: 14
+    value: 10
+    moraleLossWhenKilled: 100
+    deathSound: [41, 42, 43] #human male 
+    intelligence: 3
+    aggression: 2
+    capturable: true
+    liveAlien: STR_LIVE_TZEENTCH_CULTIST
+    builtInWeaponSets:
+#ITEM SET 0
+      - - STR_HEAVY_STUBBER_TZEENTCH
+        - STR_HEAVY_STUBBER_AMMO_BELT
+        - STR_HEAVY_STUBBER_AMMO_BELT
+#ITEM SET 1
+      - - STR_HEAVY_STUBBER_TZEENTCH
+        - STR_HEAVY_STUBBER_AMMO_BELT
+        - STR_HEAVY_STUBBER_AMMO_BELT
+        - STR_INCENDIARY_GRENADE
+#ITEM SET 2
+      - - STR_TWIN_LASGUN_TZEENTCH
+        - STR_INCENDIARY_GRENADE
+        - STR_INCENDIARY_GRENADE
+
+
+#TZEENTCH CULTIST GUNNER FEMALE
+  - type: STR_TZEENTCH_CULTIST_GUNNER_FEMALE
+    race: STR_TZEENTCH_CULTISTS
+    rank: STR_LIVE_MEDIC
+    stats:
+      tu: 55
+      stamina: 60
+      health: 35
+      bravery: 60
+      reactions: 40
+      firing: 55
+      throwing: 40
+      strength: 40
+      psiStrength: 50
+      psiSkill: 30
+      melee: 40
+    armor: STR_TZEENTCH_CULTIST_ARMOR_FEMALE
+    standHeight: 22
+    kneelHeight: 14
+    value: 10
+    moraleLossWhenKilled: 100
+    deathSound: [44, 45, 46] #human female
+    intelligence: 3
+    aggression: 2
+    capturable: true
+    liveAlien: STR_LIVE_TZEENTCH_CULTIST
+    builtInWeaponSets:
+#ITEM SET 0
+      - - STR_HEAVY_STUBBER_TZEENTCH
+        - STR_HEAVY_STUBBER_AMMO_BELT
+        - STR_HEAVY_STUBBER_AMMO_BELT
+#ITEM SET 1
+      - - STR_HEAVY_STUBBER_TZEENTCH
+        - STR_HEAVY_STUBBER_AMMO_BELT
+        - STR_HEAVY_STUBBER_AMMO_BELT
+        - STR_INCENDIARY_GRENADE
+#ITEM SET 2
+      - - STR_TWIN_LASGUN_TZEENTCH
+        - STR_INCENDIARY_GRENADE
+        - STR_INCENDIARY_GRENADE
+
+
+
+#TZEENTCH CULTIST GRENADIER MALE
+  - type: STR_TZEENTCH_CULTIST_GRENADIER_MALE
+    race: STR_TZEENTCH_CULTISTS
+    rank: STR_LIVE_MEDIC
+    stats:
+      tu: 55
+      stamina: 60
+      health: 35
+      bravery: 60
+      reactions: 40
+      firing: 55
+      throwing: 40
+      strength: 45
+      psiStrength: 50
+      psiSkill: 30
+      melee: 40
+    armor: STR_TZEENTCH_CULTIST_ARMOR_MALE
+    standHeight: 22
+    kneelHeight: 14
+    value: 10
+    moraleLossWhenKilled: 100
+    deathSound: [41, 42, 43] #human male 
+    intelligence: 3
+    aggression: 2
+    capturable: true
+    liveAlien: STR_LIVE_TZEENTCH_CULTIST
+    builtInWeaponSets:
+#ITEM SET 0
+      - - STR_GRENADE_LAUNCHER_TZEENTCH
+        - STR_INCENDIARY_GRENADE_MAGAZINE
+        - STR_INCENDIARY_GRENADE_MAGAZINE
+#ITEM SET 1
+      - - STR_GRENADE_LAUNCHER_TZEENTCH
+        - STR_INCENDIARY_GRENADE_MAGAZINE
+        - STR_INCENDIARY_GRENADE_MAGAZINE
+        - STR_INCENDIARY_GRENADE
+#ITEM SET 2
+      - - STR_GRENADE_LAUNCHER_TZEENTCH
+        - STR_INCENDIARY_GRENADE_MAGAZINE
+        - STR_INCENDIARY_GRENADE_MAGAZINE
+        - STR_INCENDIARY_GRENADE
+        - STR_INCENDIARY_GRENADE
+
+
+#TZEENTCH CULTIST GRENADIER FEMALE
+  - type: STR_TZEENTCH_CULTIST_GRENADIER_FEMALE
+    race: STR_TZEENTCH_CULTISTS
+    rank: STR_LIVE_MEDIC
+    stats:
+      tu: 55
+      stamina: 60
+      health: 35
+      bravery: 60
+      reactions: 40
+      firing: 55
+      throwing: 40
+      strength: 45
+      psiStrength: 50
+      psiSkill: 30
+      melee: 40
+    armor: STR_TZEENTCH_CULTIST_ARMOR_FEMALE
+    standHeight: 22
+    kneelHeight: 14
+    value: 10
+    moraleLossWhenKilled: 100
+    deathSound: [44, 45, 46] #human female
+    intelligence: 3
+    aggression: 2
+    capturable: true
+    liveAlien: STR_LIVE_TZEENTCH_CULTIST
+    builtInWeaponSets:
+#ITEM SET 0
+      - - STR_GRENADE_LAUNCHER_TZEENTCH
+        - STR_INCENDIARY_GRENADE_MAGAZINE
+        - STR_INCENDIARY_GRENADE_MAGAZINE
+#ITEM SET 1
+      - - STR_GRENADE_LAUNCHER_TZEENTCH
+        - STR_INCENDIARY_GRENADE_MAGAZINE
+        - STR_INCENDIARY_GRENADE_MAGAZINE
+        - STR_INCENDIARY_GRENADE
+#ITEM SET 2
+      - - STR_GRENADE_LAUNCHER_TZEENTCH
+        - STR_INCENDIARY_GRENADE_MAGAZINE
+        - STR_INCENDIARY_GRENADE_MAGAZINE
+        - STR_INCENDIARY_GRENADE
+        - STR_INCENDIARY_GRENADE
+
+
+
+#TZEENTCH CULTIST LEADER MALE
+  - type: STR_TZEENTCH_CULTIST_LEADER_MALE
+    race: STR_TZEENTCH_CULTISTS
+    rank: STR_LIVE_LEADER
+    stats:
+      tu: 55
+      stamina: 60
+      health: 45
+      bravery: 60
+      reactions: 60
+      firing: 65
+      throwing: 45
+      strength: 35
+      psiStrength: 60
+      psiSkill: 40
+      melee: 55
+    armor: STR_TZEENTCH_CULTIST_LEADER_ARMOR_MALE
+    standHeight: 22
+    kneelHeight: 14
+    value: 15
+    moraleLossWhenKilled: 200
+    deathSound: [41, 42, 43] #human male 
+    intelligence: 4
+    aggression: 2
+    capturable: true
+    liveAlien: STR_LIVE_TZEENTCH_CULTIST_LEADER
+    builtInWeaponSets:
+#ITEM SET 0
+      - - STR_COMBAT_KNIFE_TZEENTCH
+        - STR_AUTOPISTOL_TZEENTCH
+        - STR_AUTOPISTOL_MAGAZINE
+        - STR_AUTOPISTOL_MAGAZINE
+#ITEM SET 1
+      - - STR_SWORD_TZEENTCH
+        - STR_AUTOPISTOL_TZEENTCH
+        - STR_AUTOPISTOL_MAGAZINE
+        - STR_AUTOPISTOL_MAGAZINE
+        - STR_INCENDIARY_GRENADE
+#ITEM SET 2
+      - - STR_SWORD_TZEENTCH
+        - STR_LASPISTOL_TZEENTCH
+        - STR_INCENDIARY_GRENADE
+        - STR_INCENDIARY_GRENADE
+
+
+
+#TZEENTCH CULTIST LEADER FEMALE
+  - type: STR_TZEENTCH_CULTIST_LEADER_FEMALE
+    race: STR_TZEENTCH_CULTISTS
+    rank: STR_LIVE_LEADER
+    stats:
+      tu: 55
+      stamina: 60
+      health: 45
+      bravery: 60
+      reactions: 60
+      firing: 65
+      throwing: 45
+      strength: 35
+      psiStrength: 60
+      psiSkill: 40
+      melee: 55
+    armor: STR_TZEENTCH_CULTIST_LEADER_ARMOR_FEMALE
+    standHeight: 22
+    kneelHeight: 14
+    value: 15
+    moraleLossWhenKilled: 200
+    deathSound: [44, 45, 46] #human female
+    intelligence: 4
+    aggression: 2
+    capturable: true
+    liveAlien: STR_LIVE_TZEENTCH_CULTIST_LEADER
+    builtInWeaponSets:
+#ITEM SET 0
+      - - STR_COMBAT_KNIFE_TZEENTCH
+        - STR_AUTOPISTOL_TZEENTCH
+        - STR_AUTOPISTOL_MAGAZINE
+        - STR_AUTOPISTOL_MAGAZINE
+#ITEM SET 1
+      - - STR_SWORD_TZEENTCH
+        - STR_AUTOPISTOL_TZEENTCH
+        - STR_AUTOPISTOL_MAGAZINE
+        - STR_AUTOPISTOL_MAGAZINE
+        - STR_INCENDIARY_GRENADE
+#ITEM SET 2
+      - - STR_SWORD_TZEENTCH
+        - STR_LASPISTOL_TZEENTCH
+        - STR_INCENDIARY_GRENADE
+        - STR_INCENDIARY_GRENADE
+
+
+#TZEENTCH CULTIST MUTANT MALE
+  - type: STR_TZEENTCH_CULTIST_MUTANT_MALE
+    race: STR_TZEENTCH_CULTISTS
+    rank: STR_LIVE_TERRORIST
+    stats:
+      tu: 80
+      stamina: 80
+      health: 60
+      bravery: 80
+      reactions: 60
+      firing: 50
+      throwing: 30
+      strength: 35
+      psiStrength: 60
+      psiSkill: 15
+      melee: 70
+    armor: STR_TZEENTCH_CULTIST_MUTANT_ARMOR_MALE
+    standHeight: 22
+    kneelHeight: 14
+    value: 10
+    isLeeroyJenkins: true
+    moraleLossWhenKilled: 100
+    deathSound: [41, 42, 43] #human male 
+    intelligence: 4
+    aggression: 3
+    capturable: true
+    liveAlien: STR_LIVE_TZEENTCH_CULTIST_MUTANT
+    builtInWeaponSets:
+#ITEM SET 0
+      - - STR_AUTOPISTOL_TZEENTCH
+        - STR_AUTOPISTOL_MAGAZINE
+        - STR_AUTOPISTOL_MAGAZINE
+#ITEM SET 1
+      - - STR_AUTOPISTOL_TZEENTCH
+        - STR_AUTOPISTOL_MAGAZINE
+        - STR_AUTOPISTOL_MAGAZINE
+        - STR_AUTOPISTOL_MAGAZINE
+#ITEM SET 2
+      - - STR_LASPISTOL_TZEENTCH
+
+
+#TZEENTCH CULTIST MUTANT FEMALE
+  - type: STR_TZEENTCH_CULTIST_MUTANT_FEMALE
+    race: STR_TZEENTCH_CULTISTS
+    rank: STR_LIVE_TERRORIST
+    stats:
+      tu: 80
+      stamina: 80
+      health: 60
+      bravery: 80
+      reactions: 60
+      firing: 50
+      throwing: 30
+      strength: 35
+      psiStrength: 60
+      psiSkill: 15
+      melee: 70
+    armor: STR_TZEENTCH_CULTIST_MUTANT_ARMOR_FEMALE
+    standHeight: 22
+    kneelHeight: 14
+    value: 10
+    isLeeroyJenkins: true
+    moraleLossWhenKilled: 100
+    deathSound: [44, 45, 46] #human female
+    intelligence: 4
+    aggression: 3
+    capturable: true
+    liveAlien: STR_LIVE_TZEENTCH_CULTIST_MUTANT
+    builtInWeaponSets:
+#ITEM SET 0
+      - - STR_AUTOPISTOL_TZEENTCH
+        - STR_AUTOPISTOL_MAGAZINE
+        - STR_AUTOPISTOL_MAGAZINE
+#ITEM SET 1
+      - - STR_AUTOPISTOL_TZEENTCH
+        - STR_AUTOPISTOL_MAGAZINE
+        - STR_AUTOPISTOL_MAGAZINE
+        - STR_AUTOPISTOL_MAGAZINE
+#ITEM SET 2
+      - - STR_LASPISTOL_TZEENTCH
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

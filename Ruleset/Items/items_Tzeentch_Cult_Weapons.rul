@@ -298,51 +298,6 @@ items:
     ignoreInCraftEquip: true #Temporary
 
 
-
-#TZEENTCH FLAMER
-  - type: STR_FLAMER_TZEENTCH
-#RESOURCES
-    bigSprite: 417
-    floorSprite: 343
-    handSprite: 624
-#INFO
-    categories: [STR_CATEGORY_HEAVY, STR_CATEGORY_LAUNCHER]
-    costSell: 1400
-    listOrder: 7060
-#SPECIFICATIONS
-    battleType: 1
-    size: 0.3
-    weight: 10
-    invWidth: 2
-    invHeight: 3
-    armor: 30
-    attraction: 1
-    twoHanded: true
-#AMMO
-    compatibleAmmo:
-      - STR_FLAMER_FUEL
-#SHOOTING
-    powerRangeThreshold: 8
-    powerRangeReduction: 75
-    maxRange: 8
-
-    accuracySnap: 60
-    tuSnap: 30
-
-#RECOVERY
-    recoveryTransformations:
-      STR_FLAMER_CHAOS_STORE: [1] #Transform into store item
-    recoveryPoints: 1
-#SCRIPTING
-    tags:
-      HEAVY_WEAPON: 1
-      AMMO_CHANGES_ITEMS_BIGSPRITE: 1
-
-#MISC
-    ignoreInCraftEquip: true #Temporary
-
-
-
 ## TZEENTCH LASPISTOL
   - type: STR_LASPISTOL_TZEENTCH
 #RESOURCES
@@ -1697,7 +1652,36 @@ items:
 
 
 
+## FIXED MUTANT WEAPON
+  - type: STR_HAND_OF_TZEENTCH
+#RESOURCES
+    bigSprite: 205
+    handSprite: 88 #empty hand
 
+    meleeAnimation: 44 #pink melee hit
+    meleeMissAnimation: 48 #pink melee miss
+
+    meleeSound: 39
+    meleeHitSound: 54
+#SPECIFICATION
+    battleType: 3
+    weight: 0
+    invWidth: 2
+    invHeight: 3
+    fixedWeapon: true
+    fixedWeaponShow: false
+    defaultInventorySlot: STR_LEFT_HAND
+    recover: false
+#MELEE
+    clipSize: -1
+    power: 60
+    damageType: 7 #Melee
+    damageAlter:
+      RandomType: 7 #50-200%
+      ToArmor: 0.25
+      ToArmorPre: 0.25
+    accuracyMelee: 100
+    tuMelee: 25
 
 
 

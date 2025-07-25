@@ -16,8 +16,8 @@ units:
       firing: 50
       throwing: 30
       strength: 40
-      psiStrength: 50
-      psiSkill: 0
+      psiStrength: 40
+      psiSkill: 20
       melee: 55
     armor: STR_KHORNE_CULTIST_ARMOR_MALE
     standHeight: 22
@@ -59,8 +59,8 @@ units:
       firing: 50
       throwing: 30
       strength: 40
-      psiStrength: 50
-      psiSkill: 0
+      psiStrength: 40
+      psiSkill: 20
       melee: 55
     armor: STR_KHORNE_CULTIST_ARMOR_FEMALE
     standHeight: 22
@@ -102,8 +102,8 @@ units:
       firing: 60
       throwing: 30
       strength: 40
-      psiStrength: 50
-      psiSkill: 0
+      psiStrength: 40
+      psiSkill: 20
       melee: 50
     armor: STR_KHORNE_CULTIST_ARMOR_MALE
     standHeight: 22
@@ -145,8 +145,8 @@ units:
       firing: 60
       throwing: 30
       strength: 40
-      psiStrength: 50
-      psiSkill: 0
+      psiStrength: 40
+      psiSkill: 20
       melee: 50
     armor: STR_KHORNE_CULTIST_ARMOR_FEMALE
     standHeight: 22
@@ -191,8 +191,8 @@ units:
       firing: 50
       throwing: 30
       strength: 45
-      psiStrength: 50
-      psiSkill: 0
+      psiStrength: 40
+      psiSkill: 20
       melee: 50
     armor: STR_KHORNE_CULTIST_ARMOR_MALE
     standHeight: 22
@@ -234,8 +234,8 @@ units:
       firing: 50
       throwing: 30
       strength: 45
-      psiStrength: 50
-      psiSkill: 0
+      psiStrength: 40
+      psiSkill: 20
       melee: 50
     armor: STR_KHORNE_CULTIST_ARMOR_FEMALE
     standHeight: 22
@@ -280,8 +280,8 @@ units:
       firing: 50
       throwing: 30
       strength: 50
-      psiStrength: 50
-      psiSkill: 0
+      psiStrength: 40
+      psiSkill: 20
       melee: 50
     armor: STR_KHORNE_CULTIST_ARMOR_MALE
     standHeight: 22
@@ -326,8 +326,8 @@ units:
       firing: 50
       throwing: 30
       strength: 50
-      psiStrength: 50
-      psiSkill: 0
+      psiStrength: 40
+      psiSkill: 20
       melee: 50
     armor: STR_KHORNE_CULTIST_ARMOR_FEMALE
     standHeight: 22
@@ -375,7 +375,7 @@ units:
       throwing: 40
       strength: 50
       psiStrength: 50
-      psiSkill: 0
+      psiSkill: 15
       melee: 70
     energyRecovery: 80
     armor: STR_KHORNE_CULTIST_ARMOR_MALE
@@ -424,7 +424,7 @@ units:
       throwing: 40
       strength: 50
       psiStrength: 50
-      psiSkill: 0
+      psiSkill: 15
       melee: 70
     energyRecovery: 80
     armor: STR_KHORNE_CULTIST_ARMOR_FEMALE
@@ -471,8 +471,8 @@ units:
       firing: 60
       throwing: 40
       strength: 40
-      psiStrength: 60
-      psiSkill: 0
+      psiStrength: 50
+      psiSkill: 30
       melee: 80
     armor: STR_KHORNE_CULTIST_LEADER_ARMOR_MALE
     standHeight: 22
@@ -518,8 +518,8 @@ units:
       firing: 60
       throwing: 40
       strength: 40
-      psiStrength: 60
-      psiSkill: 0
+      psiStrength: 50
+      psiSkill: 30
       melee: 80
     armor: STR_KHORNE_CULTIST_LEADER_ARMOR_FEMALE
     standHeight: 22
