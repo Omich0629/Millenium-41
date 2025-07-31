@@ -1,0 +1,563 @@
+units:
+
+#AI units
+##SLAANESH CULTISTS
+
+#SLAANESH CULTIST RIFLEMAN MALE
+  - type: STR_SLAANESH_CULTIST_RIFLEMAN_MALE
+    race: STR_SLAANESH_CULTISTS
+    rank: STR_LIVE_SOLDIER
+    stats:
+      tu: 65
+      stamina: 65
+      health: 35
+      bravery: 60
+      reactions: 70
+      firing: 55
+      throwing: 50
+      strength: 35
+      psiStrength: 25
+      psiSkill: 20
+      melee: 50
+    armor: STR_SLAANESH_CULTIST_ARMOR_MALE
+    standHeight: 22
+    kneelHeight: 14
+    value: 10
+    moraleLossWhenKilled: 100
+    deathSound: [41, 42, 43] #human male 
+    intelligence: 3
+    aggression: 2
+    capturable: true
+    liveAlien: STR_LIVE_SLAANESH_CULTIST
+    builtInWeaponSets:
+#ITEM SET 0
+      - - STR_AUTOGUN_SLAANESH
+        - STR_AUTOGUN_MAGAZINE
+        - STR_AUTOGUN_MAGAZINE
+#ITEM SET 1
+      - - STR_AUTOGUN_SLAANESH
+        - STR_AUTOGUN_MAGAZINE
+        - STR_AUTOGUN_MAGAZINE
+        - STR_FRAG_GRENADE
+#ITEM SET 2
+      - - STR_LASGUN_SLAANESH
+        - STR_FRAG_GRENADE
+        - STR_FRAG_GRENADE
+
+
+#SLAANESH CULTIST RIFLEMAN FEMALE
+  - type: STR_SLAANESH_CULTIST_RIFLEMAN_FEMALE
+    race: STR_SLAANESH_CULTISTS
+    rank: STR_LIVE_SOLDIER
+    stats:
+      tu: 65
+      stamina: 65
+      health: 35
+      bravery: 60
+      reactions: 70
+      firing: 55
+      throwing: 50
+      strength: 35
+      psiStrength: 25
+      psiSkill: 20
+      melee: 50
+    armor: STR_SLAANESH_CULTIST_ARMOR_FEMALE
+    standHeight: 22
+    kneelHeight: 14
+    value: 10
+    moraleLossWhenKilled: 100
+    deathSound: [44, 45, 46] #human female
+    intelligence: 3
+    aggression: 2
+    capturable: true
+    liveAlien: STR_LIVE_SLAANESH_CULTIST
+    builtInWeaponSets:
+#ITEM SET 0
+      - - STR_AUTOGUN_SLAANESH
+        - STR_AUTOGUN_MAGAZINE
+        - STR_AUTOGUN_MAGAZINE
+#ITEM SET 1
+      - - STR_AUTOGUN_SLAANESH
+        - STR_AUTOGUN_MAGAZINE
+        - STR_AUTOGUN_MAGAZINE
+        - STR_FRAG_GRENADE
+#ITEM SET 2
+      - - STR_LASGUN_SLAANESH
+        - STR_FRAG_GRENADE
+        - STR_FRAG_GRENADE
+
+
+#SLAANESH CULTIST MARKSMAN MALE
+  - type: STR_SLAANESH_CULTIST_MARKSMAN_MALE
+    race: STR_SLAANESH_CULTISTS
+    rank: STR_LIVE_MEDIC
+    stats:
+      tu: 65
+      stamina: 65
+      health: 35
+      bravery: 60
+      reactions: 70
+      firing: 65
+      throwing: 50
+      strength: 35
+      psiStrength: 25
+      psiSkill: 20
+      melee: 50
+    armor: STR_SLAANESH_CULTIST_ARMOR_MALE
+    standHeight: 22
+    kneelHeight: 14
+    value: 10
+    moraleLossWhenKilled: 100
+    deathSound: [41, 42, 43] #human male 
+    intelligence: 3
+    aggression: 0 #mostly passive
+    capturable: true
+    liveAlien: STR_LIVE_SLAANESH_CULTIST
+    builtInWeaponSets:
+#ITEM SET 0
+      - - STR_MARKSMAN_AUTOGUN_SLAANESH
+        - STR_AUTOGUN_MAGAZINE
+        - STR_AUTOGUN_MAGAZINE
+#ITEM SET 1
+      - - STR_MARKSMAN_AUTOGUN_SLAANESH
+        - STR_AUTOGUN_MAGAZINE
+        - STR_AUTOGUN_MAGAZINE
+        - STR_FRAG_GRENADE
+#ITEM SET 2
+      - - STR_MARKSMAN_LASGUN_SLAANESH
+        - STR_FRAG_GRENADE
+        - STR_FRAG_GRENADE
+
+
+#SLAANESH CULTIST MARKSMAN FEMALE
+  - type: STR_SLAANESH_CULTIST_MARKSMAN_FEMALE
+    race: STR_SLAANESH_CULTISTS
+    rank: STR_LIVE_MEDIC
+    stats:
+      tu: 65
+      stamina: 65
+      health: 35
+      bravery: 60
+      reactions: 70
+      firing: 65
+      throwing: 50
+      strength: 35
+      psiStrength: 25
+      psiSkill: 20
+      melee: 50
+    armor: STR_SLAANESH_CULTIST_ARMOR_FEMALE
+    standHeight: 22
+    kneelHeight: 14
+    value: 10
+    moraleLossWhenKilled: 100
+    deathSound: [44, 45, 46] #human female
+    intelligence: 3
+    aggression: 0 #mostly passive
+    capturable: true
+    liveAlien: STR_LIVE_SLAANESH_CULTIST
+    builtInWeaponSets:
+#ITEM SET 0
+      - - STR_MARKSMAN_AUTOGUN_SLAANESH
+        - STR_AUTOGUN_MAGAZINE
+        - STR_AUTOGUN_MAGAZINE
+#ITEM SET 1
+      - - STR_MARKSMAN_AUTOGUN_SLAANESH
+        - STR_AUTOGUN_MAGAZINE
+        - STR_AUTOGUN_MAGAZINE
+        - STR_FRAG_GRENADE
+#ITEM SET 2
+      - - STR_MARKSMAN_LASGUN_SLAANESH
+        - STR_FRAG_GRENADE
+        - STR_FRAG_GRENADE
+
+
+#SLAANESH CULTIST GUNNER MALE
+  - type: STR_SLAANESH_CULTIST_GUNNER_MALE
+    race: STR_SLAANESH_CULTISTS
+    rank: STR_LIVE_MEDIC
+    stats:
+      tu: 65
+      stamina: 65
+      health: 35
+      bravery: 60
+      reactions: 70
+      firing: 55
+      throwing: 50
+      strength: 40
+      psiStrength: 25
+      psiSkill: 20
+      melee: 50
+    armor: STR_SLAANESH_CULTIST_ARMOR_MALE
+    standHeight: 22
+    kneelHeight: 14
+    value: 10
+    moraleLossWhenKilled: 100
+    deathSound: [41, 42, 43] #human male 
+    intelligence: 3
+    aggression: 2
+    capturable: true
+    liveAlien: STR_LIVE_SLAANESH_CULTIST
+    builtInWeaponSets:
+#ITEM SET 0
+      - - STR_HEAVY_STUBBER_SLAANESH
+        - STR_HEAVY_STUBBER_AMMO_BELT
+        - STR_HEAVY_STUBBER_AMMO_BELT
+#ITEM SET 1
+      - - STR_HEAVY_STUBBER_SLAANESH
+        - STR_HEAVY_STUBBER_AMMO_BELT
+        - STR_HEAVY_STUBBER_AMMO_BELT
+        - STR_FRAG_GRENADE
+#ITEM SET 2
+      - - STR_TWIN_LASGUN_SLAANESH
+        - STR_FRAG_GRENADE
+        - STR_FRAG_GRENADE
+
+
+#SLAANESH CULTIST GUNNER FEMALE
+  - type: STR_SLAANESH_CULTIST_GUNNER_FEMALE
+    race: STR_SLAANESH_CULTISTS
+    rank: STR_LIVE_MEDIC
+    stats:
+      tu: 65
+      stamina: 65
+      health: 35
+      bravery: 60
+      reactions: 70
+      firing: 55
+      throwing: 50
+      strength: 40
+      psiStrength: 25
+      psiSkill: 20
+      melee: 50
+    armor: STR_SLAANESH_CULTIST_ARMOR_FEMALE
+    standHeight: 22
+    kneelHeight: 14
+    value: 10
+    moraleLossWhenKilled: 100
+    deathSound: [44, 45, 46] #human female
+    intelligence: 3
+    aggression: 2
+    capturable: true
+    liveAlien: STR_LIVE_SLAANESH_CULTIST
+    builtInWeaponSets:
+#ITEM SET 0
+      - - STR_HEAVY_STUBBER_SLAANESH
+        - STR_HEAVY_STUBBER_AMMO_BELT
+        - STR_HEAVY_STUBBER_AMMO_BELT
+#ITEM SET 1
+      - - STR_HEAVY_STUBBER_SLAANESH
+        - STR_HEAVY_STUBBER_AMMO_BELT
+        - STR_HEAVY_STUBBER_AMMO_BELT
+        - STR_FRAG_GRENADE
+#ITEM SET 2
+      - - STR_TWIN_LASGUN_SLAANESH
+        - STR_FRAG_GRENADE
+        - STR_FRAG_GRENADE
+
+
+
+#SLAANESH CULTIST GRENADIER MALE
+  - type: STR_SLAANESH_CULTIST_GRENADIER_MALE
+    race: STR_SLAANESH_CULTISTS
+    rank: STR_LIVE_MEDIC
+    stats:
+      tu: 65
+      stamina: 65
+      health: 35
+      bravery: 60
+      reactions: 70
+      firing: 55
+      throwing: 50
+      strength: 45
+      psiStrength: 25
+      psiSkill: 20
+      melee: 50
+    armor: STR_SLAANESH_CULTIST_ARMOR_MALE
+    standHeight: 22
+    kneelHeight: 14
+    value: 10
+    moraleLossWhenKilled: 100
+    deathSound: [41, 42, 43] #human male 
+    intelligence: 3
+    aggression: 2
+    capturable: true
+    liveAlien: STR_LIVE_SLAANESH_CULTIST
+    builtInWeaponSets:
+#ITEM SET 0
+      - - STR_GRENADE_LAUNCHER_SLAANESH
+        - STR_FRAG_GRENADE_MAGAZINE
+        - STR_FRAG_GRENADE_MAGAZINE
+#ITEM SET 1
+      - - STR_GRENADE_LAUNCHER_SLAANESH
+        - STR_FRAG_GRENADE_MAGAZINE
+        - STR_FRAG_GRENADE_MAGAZINE
+        - STR_FRAG_GRENADE
+        - STR_FRAG_GRENADE
+#ITEM SET 2
+      - - STR_GRENADE_LAUNCHER_SLAANESH
+        - STR_KRAK_GRENADE_MAGAZINE
+        - STR_KRAK_GRENADE_MAGAZINE
+        - STR_KRAK_GRENADE
+        - STR_KRAK_GRENADE
+
+
+#SLAANESH CULTIST GRENADIER FEMALE
+  - type: STR_SLAANESH_CULTIST_GRENADIER_FEMALE
+    race: STR_SLAANESH_CULTISTS
+    rank: STR_LIVE_MEDIC
+    stats:
+      tu: 65
+      stamina: 65
+      health: 35
+      bravery: 60
+      reactions: 70
+      firing: 55
+      throwing: 50
+      strength: 45
+      psiStrength: 25
+      psiSkill: 20
+      melee: 50
+    armor: STR_SLAANESH_CULTIST_ARMOR_FEMALE
+    standHeight: 22
+    kneelHeight: 14
+    value: 10
+    moraleLossWhenKilled: 100
+    deathSound: [44, 45, 46] #human female
+    intelligence: 3
+    aggression: 2
+    capturable: true
+    liveAlien: STR_LIVE_SLAANESH_CULTIST
+    builtInWeaponSets:
+#ITEM SET 0
+      - - STR_GRENADE_LAUNCHER_SLAANESH
+        - STR_FRAG_GRENADE_MAGAZINE
+        - STR_FRAG_GRENADE_MAGAZINE
+#ITEM SET 1
+      - - STR_GRENADE_LAUNCHER_SLAANESH
+        - STR_FRAG_GRENADE_MAGAZINE
+        - STR_FRAG_GRENADE_MAGAZINE
+        - STR_FRAG_GRENADE
+        - STR_FRAG_GRENADE
+#ITEM SET 2
+      - - STR_GRENADE_LAUNCHER_SLAANESH
+        - STR_KRAK_GRENADE_MAGAZINE
+        - STR_KRAK_GRENADE_MAGAZINE
+        - STR_KRAK_GRENADE
+        - STR_KRAK_GRENADE
+
+
+
+#SLAANESH CULTIST LEADER MALE
+  - type: STR_SLAANESH_CULTIST_LEADER_MALE
+    race: STR_SLAANESH_CULTISTS
+    rank: STR_LIVE_LEADER
+    stats:
+      tu: 65
+      stamina: 65
+      health: 35
+      bravery: 60
+      reactions: 70
+      firing: 60
+      throwing: 55
+      strength: 35
+      psiStrength: 25
+      psiSkill: 30
+      melee: 50
+    armor: STR_SLAANESH_CULTIST_LEADER_ARMOR_MALE
+    standHeight: 22
+    kneelHeight: 14
+    value: 15
+    moraleLossWhenKilled: 200
+    deathSound: [41, 42, 43] #human male 
+    intelligence: 3
+    aggression: 2
+    capturable: true
+    liveAlien: STR_LIVE_SLAANESH_CULTIST_LEADER
+    builtInWeaponSets:
+#ITEM SET 0
+      - - STR_COMBAT_KNIFE_SLAANESH
+        - STR_AUTOPISTOL_SLAANESH
+        - STR_AUTOPISTOL_MAGAZINE
+        - STR_AUTOPISTOL_MAGAZINE
+#ITEM SET 1
+      - - STR_SWORD_SLAANESH
+        - STR_AUTOPISTOL_SLAANESH
+        - STR_AUTOPISTOL_MAGAZINE
+        - STR_AUTOPISTOL_MAGAZINE
+        - STR_FRAG_GRENADE
+#ITEM SET 2
+      - - STR_SWORD_SLAANESH
+        - STR_LASPISTOL_SLAANESH
+        - STR_FRAG_GRENADE
+        - STR_FRAG_GRENADE
+
+
+#SLAANESH CULTIST LEADER FEMALE
+  - type: STR_SLAANESH_CULTIST_LEADER_FEMALE
+    race: STR_SLAANESH_CULTISTS
+    rank: STR_LIVE_LEADER
+    stats:
+      tu: 65
+      stamina: 65
+      health: 35
+      bravery: 60
+      reactions: 70
+      firing: 60
+      throwing: 55
+      strength: 35
+      psiStrength: 25
+      psiSkill: 30
+      melee: 50
+    armor: STR_SLAANESH_CULTIST_LEADER_ARMOR_FEMALE
+    standHeight: 22
+    kneelHeight: 14
+    value: 15
+    moraleLossWhenKilled: 200
+    deathSound: [44, 45, 46] #human female
+    intelligence: 3
+    aggression: 2
+    capturable: true
+    liveAlien: STR_LIVE_SLAANESH_CULTIST_LEADER
+    builtInWeaponSets:
+#ITEM SET 0
+      - - STR_COMBAT_KNIFE_SLAANESH
+        - STR_AUTOPISTOL_SLAANESH
+        - STR_AUTOPISTOL_MAGAZINE
+        - STR_AUTOPISTOL_MAGAZINE
+#ITEM SET 1
+      - - STR_SWORD_SLAANESH
+        - STR_AUTOPISTOL_SLAANESH
+        - STR_AUTOPISTOL_MAGAZINE
+        - STR_AUTOPISTOL_MAGAZINE
+        - STR_FRAG_GRENADE
+#ITEM SET 2
+      - - STR_SWORD_SLAANESH
+        - STR_LASPISTOL_SLAANESH
+        - STR_FRAG_GRENADE
+        - STR_FRAG_GRENADE
+
+
+
+
+
+
+#SLAANESH CULTIST SHOCK TROOPER MALE
+  - type: STR_SLAANESH_CULTIST_SHOCK_TROOPER_MALE
+    race: STR_SLAANESH_CULTISTS
+    rank: STR_LIVE_NAVIGATOR
+    stats:
+      tu: 65
+      stamina: 65
+      health: 35
+      bravery: 60
+      reactions: 70
+      firing: 55
+      throwing: 50
+      strength: 35
+      psiStrength: 25
+      psiSkill: 20
+      melee: 50
+    armor: STR_SLAANESH_CULTIST_SHOCK_TROOPER_ARMOR_MALE
+    standHeight: 22
+    kneelHeight: 14
+    value: 10
+    moraleLossWhenKilled: 100
+    deathSound: [41, 42, 43] #human male 
+    intelligence: 3
+    aggression: 2
+    capturable: true
+    liveAlien: STR_LIVE_SLAANESH_CULTIST
+    builtInWeaponSets:
+#ITEM SET 0
+      - - STR_AUTOGUN_SLAANESH
+        - STR_AUTOGUN_MAGAZINE
+        - STR_AUTOGUN_MAGAZINE
+#ITEM SET 1
+      - - STR_AUTOGUN_SLAANESH
+        - STR_AUTOGUN_MAGAZINE
+        - STR_AUTOGUN_MAGAZINE
+        - STR_FRAG_GRENADE
+#ITEM SET 2
+      - - STR_LASGUN_SLAANESH
+        - STR_FRAG_GRENADE
+        - STR_FRAG_GRENADE
+
+
+#SLAANESH CULTIST SHOCK TROOPER FEMALE
+  - type: STR_SLAANESH_CULTIST_SHOCK_TROOPER_FEMALE
+    race: STR_SLAANESH_CULTISTS
+    rank: STR_LIVE_NAVIGATOR
+    stats:
+      tu: 65
+      stamina: 65
+      health: 35
+      bravery: 60
+      reactions: 70
+      firing: 55
+      throwing: 50
+      strength: 35
+      psiStrength: 25
+      psiSkill: 20
+      melee: 50
+    armor: STR_SLAANESH_CULTIST_SHOCK_TROOPER_ARMOR_FEMALE
+    standHeight: 22
+    kneelHeight: 14
+    value: 10
+    moraleLossWhenKilled: 100
+    deathSound: [44, 45, 46] #human female
+    intelligence: 3
+    aggression: 2
+    capturable: true
+    liveAlien: STR_LIVE_SLAANESH_CULTIST
+    builtInWeaponSets:
+#ITEM SET 0
+      - - STR_AUTOGUN_SLAANESH
+        - STR_AUTOGUN_MAGAZINE
+        - STR_AUTOGUN_MAGAZINE
+#ITEM SET 1
+      - - STR_AUTOGUN_SLAANESH
+        - STR_AUTOGUN_MAGAZINE
+        - STR_AUTOGUN_MAGAZINE
+        - STR_FRAG_GRENADE
+#ITEM SET 2
+      - - STR_LASGUN_SLAANESH
+        - STR_FRAG_GRENADE
+        - STR_FRAG_GRENADE
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

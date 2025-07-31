@@ -2,8 +2,8 @@ alienDeployments:
 #Ranks:
 # 0 COMMANDER - High Command
 # 1 LEADER - Squad Leaders
-# 2 ENGINEER - Elite Infantry (such as Space Marines)
-# 3 MEDIC - Special Weapon Operators
+# 2 ENGINEER - Elite Units
+# 3 MEDIC - Specialists (Special Weapon Operators)
 # 4 NAVIGATOR - Flying units
 # 5 SOLDIER - Regular units
 # 6 TERRORIST1 - Terror related units
@@ -12,16 +12,20 @@ alienDeployments:
 
 
 #SMALL CARGO AIRCRAFT
+#Space: 12 passengers + 1 pilot
 #Faction: Chaos Cultists
-# 1 Cultist Leader
-# 2 - 3 Specialists
-# 4 - 6 Soldiers
-#
-#Summary: 7 to 10 Units
+
+#Cultist Leader: 1 on any difficulty
+#Specialists:    2 on Beginner/Experienced, 4 on Superhuman
+#Regular Units:  4 on Beginner/Experienced, 6 on Superhuman, 0-1 random additional
+
+#Summary:
+# 7-8 units on Beginner/Experienced
+# 11-12 units on Superhuman
 
   - type: STR_CARGO_SHUTTLE
     data:
-      - alienRank: 1 #LEADER
+      - alienRank: 1 #LEADER (Squad Leaders)
         lowQty: 1
         highQty: 1 
         dQty: 0
@@ -33,10 +37,10 @@ alienDeployments:
             []
           -
             []
-      - alienRank: 3 #MEDIC
+      - alienRank: 3 #MEDIC (Specialists)
         lowQty: 2
-        highQty: 2
-        dQty: 1
+        highQty: 4
+        dQty: 0
         percentageOutsideUfo: 60
         itemSets:
           -
@@ -45,9 +49,9 @@ alienDeployments:
             []
           -
             []
-      - alienRank: 5 #SOLDIER
+      - alienRank: 5 #SOLDIER (Regular Units)
         lowQty: 4
-        highQty: 5
+        highQty: 6
         dQty: 1
         percentageOutsideUfo: 60
         itemSets:
@@ -66,17 +70,22 @@ alienDeployments:
 
 
 #VALKYRIE TRANSPORT AIRCRAFT
+#Space: 12 passengers + 2 pilots
 #Faction: Chaos Warriors
-# 1 Squad Leader
-# 2 - 3 Specialists
-# 3 - 4 Soldiers with Grav-Chutes
-# 3 - 4 Soldiers 
 
-#Summary: 9 to 12 Units
+#Squad Leader:  1 on any difficulty
+#Specialists:   2 on Beginner/Experienced, 4 on Superhuman
+#Flying units:  2 on Beginner/Experienced, 3 on Superhuman
+#Regular Units: 3 on Beginner/Experienced, 4 on Superhuman, 0-1 random additional
+
+#Summary:
+# 8-9 units on Beginner/Experienced
+# 12-13 units on Superhuman
+
 
   - type: STR_VALKYRIE_CHAOS
     data:
-      - alienRank: 1 #LEADER
+      - alienRank: 1 #LEADER (Squad Leaders)
         lowQty: 1
         highQty: 1 
         dQty: 0
@@ -88,10 +97,10 @@ alienDeployments:
             []
           -
             []
-      - alienRank: 3 #MEDIC
+      - alienRank: 3 #MEDIC (Specialists)
         lowQty: 2
-        highQty: 2
-        dQty: 1
+        highQty: 4
+        dQty: 0
         percentageOutsideUfo: 60
         itemSets:
           -
@@ -100,10 +109,10 @@ alienDeployments:
             []
           -
             []
-      - alienRank: 4 #NAVIGATOR
-        lowQty: 3
+      - alienRank: 4 #NAVIGATOR (Flying units)
+        lowQty: 2
         highQty: 3
-        dQty: 1
+        dQty: 0
         percentageOutsideUfo: 60
         itemSets:
           -
@@ -112,9 +121,9 @@ alienDeployments:
             []
           -
             []
-      - alienRank: 5 #SOLDIER
+      - alienRank: 5 #SOLDIER (Regular Units)
         lowQty: 3
-        highQty: 3
+        highQty: 4
         dQty: 1
         percentageOutsideUfo: 60
         itemSets:
@@ -132,7 +141,7 @@ alienDeployments:
     civilianSpawnNodeRank: 8 #Misc2, TERRRORIST2
 
 
-#LOCAL VARIATION OF STORMRAVEN AIRCRAFT
+#RAVEN AIRCRAFT (LOCAL VARIATION OF STORMRAVEN)
 #Faction: 
   - type: STR_RAVEN_CHAOS
     data:
@@ -168,7 +177,7 @@ alienDeployments:
     civilianSpawnNodeRank: 8 #Misc2, TERRRORIST2
 
 
-#LOCAL VARIATION OF STORMEAGLE AIRCRAFT
+#EAGLE AIRCRAFT (LOCAL VARIATION OF STORMEAGLE)
 #Faction: 
   - type: STR_EAGLE_CHAOS
     data:
@@ -204,7 +213,7 @@ alienDeployments:
     civilianSpawnNodeRank: 8 #Misc2, TERRRORIST2
 
 
-#LOCAL VARIATION OF STORMHAWK AIRCRAFT
+#HAWK AIRCRAFT (LOCAL VARIATION OF STORMHAWK) 
 #Faction: 
   - type: STR_HAWK_CHAOS
     data:
@@ -240,14 +249,35 @@ alienDeployments:
     civilianSpawnNodeRank: 8 #Misc2, TERRRORIST2
 
 
-#LIGHT VEHICLE CONVOY
+#LIGHT VEHICLE CONVOY (Three pick-up trucks, one empty, one with AA-gun, one with crates)
+#Space: 12 (3 drivers, 9 passengers)
 #Faction: Chaos Cultists
+
+#Cultist Leader: 1 on any difficulty
+#Specialists:    2 on Beginner/Experienced, 3 on Superhuman
+#Regular Units:  3 on Beginner/Experienced, 5 on Superhuman, 0-1 random additional
+
+#Summary:
+# 6-7 units on Beginner/Experienced
+# 9-10 units on Superhuman
   - type: STR_LIGHT_CONVOY
     data:
-      - alienRank: 3 #MEDIC
+      - alienRank: 1 #LEADER (Squad Leaders)
         lowQty: 1
-        highQty: 2
-        dQty: 1
+        highQty: 1 
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []
+      - alienRank: 3 #MEDIC (Specialists)
+        lowQty: 2
+        highQty: 3
+        dQty: 0
         percentageOutsideUfo: 60
         itemSets:
           -
@@ -256,9 +286,9 @@ alienDeployments:
             []
           -
             []
-      - alienRank: 5 #SOLDIER
-        lowQty: 5
-        highQty: 6
+      - alienRank: 5 #SOLDIER (Regular Units)
+        lowQty: 3
+        highQty: 5
         dQty: 1
         percentageOutsideUfo: 60
         itemSets:
@@ -276,11 +306,20 @@ alienDeployments:
     civilianSpawnNodeRank: 8 #Misc2, TERRRORIST2
 
 
-#HEAVY VEHICLE CONVOY
+#HEAVY VEHICLE CONVOY (Two heavy trucks, one with AA-gun)
+#Space: 12 (2 drivers, 12 passengers)
 #Faction: Chaos Cultists
+
+#Cultist Leader: 1 on any difficulty
+#Specialists: 2 on Beginner/Experienced, 4 on Superhuman
+#Regular Units: 4 on Beginner/Experienced, 6 on Superhuman, 0-1 random additional
+
+#Summary:
+# 7-8 units on Beginner/Experienced
+# 11-12 units on Superhuman
   - type: STR_HEAVY_CONVOY
     data:
-      - alienRank: 1 #LEADER
+      - alienRank: 1 #LEADER (Squad Leaders)
         lowQty: 1
         highQty: 1 
         dQty: 0
@@ -292,10 +331,10 @@ alienDeployments:
             []
           -
             []
-      - alienRank: 3 #MEDIC
+      - alienRank: 3 #MEDIC (Specialists)
         lowQty: 2
-        highQty: 3
-        dQty: 1
+        highQty: 4
+        dQty: 0
         percentageOutsideUfo: 60
         itemSets:
           -
@@ -304,10 +343,10 @@ alienDeployments:
             []
           -
             []
-      - alienRank: 5 #SOLDIER
-        lowQty: 5
+      - alienRank: 5 #SOLDIER (Regular Units)
+        lowQty: 4
         highQty: 6
-        dQty: 2
+        dQty: 1
         percentageOutsideUfo: 60
         itemSets:
           -
@@ -325,9 +364,22 @@ alienDeployments:
 
 
 #RESIDENTIAL AREA TERROR SITE
+#Leader: 1 on any difficulty
+#Elite Units: 1 on Beginner/Experienced, 2 on Superhuman, 0-1 random additional
+#Specialists: 2 on Beginner/Experienced, 3 on Superhuman, 0-1 random additional
+#Flying units: 2 on Beginner/Experienced, 3 on Superhuman, 0-1 random additional
+#Regular Units: 2 on Beginner/Experienced, 3 on Superhuman, 0-1 random additional
+#Terrorist: 2 on Beginner/Experienced, 4 on Superhuman, 0-2 random additional
+
+#Summary:
+# 10-16 on Beginner/Experienced
+# 16-22 on Superhuman
+
+
+
   - type: STR_RESIDENTIAL_AREA_TERROR
     data:
-      - alienRank: 1 #LEADER
+      - alienRank: 1 #LEADER (Squad Leaders)
         lowQty: 1
         highQty: 1
         dQty: 0
@@ -339,20 +391,8 @@ alienDeployments:
             []
           -
             []
-      - alienRank: 2 #ENGINEER
+      - alienRank: 2 #ENGINEER (Elite Units)
         lowQty: 1
-        highQty: 2
-        dQty: 0
-        percentageOutsideUfo: 100
-        itemSets:
-          -
-            []
-          -
-            []
-          -
-            []
-      - alienRank: 3 #MEDIC
-        lowQty: 2
         highQty: 2
         dQty: 1
         percentageOutsideUfo: 100
@@ -363,10 +403,22 @@ alienDeployments:
             []
           -
             []
-      - alienRank: 4 #NAVIGATOR
-        lowQty: 1
-        highQty: 2
-        dQty: 0
+      - alienRank: 3 #MEDIC (Specialists)
+        lowQty: 2
+        highQty: 3
+        dQty: 1
+        percentageOutsideUfo: 100
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []
+      - alienRank: 4 #NAVIGATOR (Flying Units)
+        lowQty: 2
+        highQty: 3
+        dQty: 1
         percentageOutsideUfo: 100
         itemSets:
           -
@@ -376,9 +428,9 @@ alienDeployments:
           -
             []
 
-      - alienRank: 5 #SOLDIER
-        lowQty: 4
-        highQty: 6
+      - alienRank: 5 #SOLDIER (Regular Units)
+        lowQty: 2
+        highQty: 3
         dQty: 1
         percentageOutsideUfo: 100
         itemSets:
@@ -390,7 +442,7 @@ alienDeployments:
             []
       - alienRank: 6 #TERRORIST
         lowQty: 2
-        highQty: 3
+        highQty: 4
         dQty: 2
         percentageOutsideUfo: 100
         itemSets:
@@ -418,9 +470,21 @@ alienDeployments:
 
 
 #PLAYER BASE DEFENSE
+
+#Commander:     1 on any difficulty
+#Leader:        1 on Beginner/Experienced, 2 on Superhuman
+#Elite Units:   1 on Beginner/Experienced, 2 on Superhuman, 0-1 random additional
+#Specialists:   2 on Beginner/Experienced, 4 on Superhuman, 0-1 random additional
+#Flying units:  2 on Beginner/Experienced, 3 on Superhuman, 0-1 random additional
+#Regular Units: 2 on Beginner/Experienced, 6 on Superhuman, 0-1 random additional
+#Terrorists:    0 on Beginner/Experienced, 4 on Superhuman, 0-2 random additional
+#Summary:
+# 9-15 on Beginner/Experienced
+# 22-28 on Superhuman
+
   - type: STR_BASE_DEFENSE
     data:
-      - alienRank: 0 #COMMANDER
+      - alienRank: 0 #COMMANDER (High Command)
         lowQty: 1
         highQty: 1
         dQty: 0
@@ -432,9 +496,9 @@ alienDeployments:
             []
           -
             []
-      - alienRank: 1 #LEADER
+      - alienRank: 1 #LEADER (Squad Leaders)
         lowQty: 1
-        highQty: 3
+        highQty: 2
         dQty: 0
         percentageOutsideUfo: 0
         itemSets:
@@ -444,11 +508,11 @@ alienDeployments:
             []
           -
             []
-      - alienRank: 2 #ENGINEER
+      - alienRank: 2 #ENGINEER (Elite Units)
         lowQty: 1
         highQty: 2
-        dQty: 0
-        percentageOutsideUfo: 20
+        dQty: 1
+        percentageOutsideUfo: 50
         itemSets:
           -
             []
@@ -456,11 +520,11 @@ alienDeployments:
             []
           -
             []
-      - alienRank: 3 #MEDIC
-        lowQty: 1
-        highQty: 2
-        dQty: 0
-        percentageOutsideUfo: 20
+      - alienRank: 3 #MEDIC (Specialists)
+        lowQty: 2
+        highQty: 4
+        dQty: 1
+        percentageOutsideUfo: 50
         itemSets:
           -
             []
@@ -468,11 +532,11 @@ alienDeployments:
             []
           -
             []
-      - alienRank: 4 #NAVIGATOR
-        lowQty: 1
-        highQty: 2
-        dQty: 0
-        percentageOutsideUfo: 20
+      - alienRank: 4 #NAVIGATOR (Flying units)
+        lowQty: 2
+        highQty: 3
+        dQty: 1
+        percentageOutsideUfo: 50
         itemSets:
           -
             []
@@ -480,10 +544,10 @@ alienDeployments:
             []
           -
             []
-      - alienRank: 5 #SOLDIER
-        lowQty: 4
-        highQty: 8
-        dQty: 4
+      - alienRank: 5 #SOLDIER (Regular units)
+        lowQty: 2
+        highQty: 6
+        dQty: 1
         percentageOutsideUfo: 50
         itemSets:
           -
@@ -494,8 +558,8 @@ alienDeployments:
             []
       - alienRank: 6 #TERRORIST
         lowQty: 0
-        highQty: 2
-        dQty: 1
+        highQty: 4
+        dQty: 2
         percentageOutsideUfo: 50
         itemSets:
           -
@@ -516,11 +580,24 @@ alienDeployments:
       music: GMENBASE
 
 #CHAOS BASE
-#Faction: Chaos Warriors
+#Faction: Chaos Warriors, Chaos Disciples
+
+#Commander:     1 on any difficulty
+#Leader:        1 on Beginner/Experienced, 2 on Superhuman
+#Elite Units:   1 on Beginner/Experienced, 2 on Superhuman, 0-1 random additional
+#Specialists:   3 on Beginner/Experienced, 4 on Superhuman, 0-1 random additional
+#Flying units:  2 on Beginner/Experienced, 3 on Superhuman, 0-1 random additional
+#Regular Units: 2 on Beginner/Experienced, 6 on Superhuman, 0-1 random additional
+#Terrorists:    2 on Beginner/Experienced, 4 on Superhuman, 0-2 random additional
+#Summary:
+# 12-18 on Beginner/Experienced
+# 22-28 on Superhuman
+
+
   - type: STR_CHAOS_BASE_ASSAULT
     data:
 
-      - alienRank: 0 #COMMANDER
+      - alienRank: 0 #COMMANDER (High Command)
         lowQty: 1
         highQty: 1
         dQty: 0
@@ -532,9 +609,9 @@ alienDeployments:
             []
           -
             []
-      - alienRank: 1 #LEADER
+      - alienRank: 1 #LEADER (Squad Leaders)
         lowQty: 1
-        highQty: 1
+        highQty: 2
         dQty: 0
         percentageOutsideUfo: 0
         itemSets:
@@ -544,7 +621,7 @@ alienDeployments:
             []
           -
             []
-      - alienRank: 2 #ENGINEER
+      - alienRank: 2 #ENGINEER (Elite Units)
         lowQty: 1
         highQty: 2
         dQty: 1
@@ -556,7 +633,19 @@ alienDeployments:
             []
           -
             []
-      - alienRank: 3 #MEDIC
+      - alienRank: 3 #MEDIC (Specialists)
+        lowQty: 3
+        highQty: 4
+        dQty: 1
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []
+      - alienRank: 4 #NAVIGATOR (Flying units)
         lowQty: 2
         highQty: 3
         dQty: 1
@@ -568,10 +657,10 @@ alienDeployments:
             []
           -
             []
-      - alienRank: 5 #SOLDIER
-        lowQty: 5
-        highQty: 7
-        dQty: 4
+      - alienRank: 5 #SOLDIER (Regular Units)
+        lowQty: 2
+        highQty: 6
+        dQty: 1
         percentageOutsideUfo: 0
         itemSets:
           -
@@ -581,9 +670,9 @@ alienDeployments:
           -
             []
       - alienRank: 6 #TERRORIST
-        lowQty: 1
-        highQty: 3
-        dQty: 1
+        lowQty: 2
+        highQty: 4
+        dQty: 2
         percentageOutsideUfo: 0
         itemSets:
           -

@@ -140,7 +140,7 @@ armors:
       - STR_CORPSE_NURGLE_CULTIST_ZOMBIE
     loftempsSet: [ 3 ]
     allowsKneeling: false
-    weight: 8
+    weight: 7
 
     bleedImmune: true
     fearImmune: true
@@ -180,7 +180,7 @@ armors:
       - STR_CORPSE_NURGLE_CULTIST_ZOMBIE
     loftempsSet: [ 3 ]
     allowsKneeling: false
-    weight: 8
+    weight: 7
 
     bleedImmune: true
     fearImmune: true

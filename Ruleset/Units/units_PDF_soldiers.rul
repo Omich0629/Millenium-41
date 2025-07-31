@@ -279,7 +279,7 @@ soldiers:
       stamina: 40
       health: 25
       bravery: 10
-      reactions: 30
+      reactions: 20
       firing: 40
       throwing: 50
       strength: 30
@@ -292,7 +292,7 @@ soldiers:
       stamina: 70
       health: 40
       bravery: 60
-      reactions: 60
+      reactions: 50
       firing: 70
       throwing: 80
       strength: 40
