@@ -372,13 +372,6 @@ extraSprites:
 
 
 
-
-
-
-
-
-
-
 ## PDF PSYKER UNIFORM 
 
 #Inventory sprites
@@ -436,6 +429,70 @@ extraSprites:
     subY: 40
     files:
       0: Resources/Armors/PDF/Psyker_Carapace/Psyker_Carapace_Battlescape.png
+
+
+
+## PDF TANK ARMOR (HEAVY STUBBER)
+
+#Battlescape sprites
+  - type: PDF_TANK_HEAVY_STUBBER_ARMOR.PCK
+    width: 256
+    height: 640
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Armors/PDF/Tank/Tank_Heavy_Stubber_Battlescape.png
+
+
+## PDF TANK ARMOR (MISSILE LAUNCHER)
+
+#Battlescape sprites
+  - type: PDF_TANK_MISSILE_LAUNCHER_ARMOR.PCK
+    width: 256
+    height: 640
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Armors/PDF/Tank/Tank_Missile_Launcher_Battlescape.png
+
+
+## PDF TANK ARMOR (MULTI-LASER)
+
+#Battlescape sprites
+  - type: PDF_TANK_MULTI_LASER_ARMOR.PCK
+    width: 256
+    height: 640
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Armors/PDF/Tank/Tank_Multi_Laser_Battlescape.png
+
+
+## PDF TANK ARMOR (PLASMA CANNON)
+
+#Battlescape sprites
+  - type: PDF_TANK_PLASMA_CANNON_ARMOR.PCK
+    width: 256
+    height: 640
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Armors/PDF/Tank/Tank_Plasma_Cannon_Battlescape.png
+
+
+## PDF TANK ARMOR (MULTI-MELTA)
+
+#Battlescape sprites
+  - type: PDF_TANK_MULTI_MELTA_ARMOR.PCK
+    width: 256
+    height: 640
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Armors/PDF/Tank/Tank_Multi_Melta_Battlescape.png
+
+
+
 
 
 

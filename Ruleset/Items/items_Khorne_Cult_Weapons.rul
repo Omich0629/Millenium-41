@@ -34,6 +34,9 @@ items:
 #SHOOTING
     accuracyAuto: 40
     tuAuto: 25
+    confAuto:
+      shots: 3
+      name: STR_AUTO_SHOT_X3
 
     accuracySnap: 60
     tuSnap: 15
@@ -79,6 +82,9 @@ items:
 #SHOOTING
     accuracyAuto: 35
     tuAuto: 35
+    confAuto:
+      shots: 3
+      name: STR_AUTO_SHOT_X3
 
     accuracySnap: 60
     tuSnap: 25
@@ -172,15 +178,17 @@ items:
     kneelBonus: 125
 
     accuracyAuto: 32
-    confAuto:
-      shots: 6
     tuAuto: 40
     autoRange: 10
+    confAuto:
+      shots: 6
+      name: STR_AUTO_SHOT_X6
 
     accuracySnap: 56
+    tuSnap: 33
     confSnap:
       shots: 3
-    tuSnap: 33
+      name: STR_SNAP_SHOT_X3
 
     accuracyAimed: 82
     tuAimed: 80
@@ -377,6 +385,9 @@ items:
 
     accuracyAuto: 50
     tuAuto: 40
+    confAuto:
+      shots: 3
+      name: STR_AUTO_SHOT_X3
 
     accuracySnap: 75
     tuSnap: 30
@@ -487,15 +498,17 @@ items:
     kneelBonus: 125
 
     accuracyAuto: 47
-    confAuto:
-      shots: 6
     tuAuto: 45
     autoRange: 10
+    confAuto:
+      shots: 6
+      name: STR_AUTO_SHOT_X6
 
     accuracySnap: 70
+    tuSnap: 38
     confSnap:
       shots: 3
-    tuSnap: 38
+      name: STR_SNAP_SHOT_X3
 
     accuracyAimed: 95
     tuAimed: 80
@@ -601,6 +614,9 @@ items:
 
     accuracyAuto: 50
     tuAuto: 35
+    confAuto:
+      shots: 3
+      name: STR_AUTO_SHOT_X3
 
     accuracySnap: 75
     tuSnap: 25
@@ -713,15 +729,17 @@ items:
     kneelBonus: 125
 
     accuracyAuto: 47
-    confAuto:
-      shots: 6
     tuAuto: 40
     autoRange: 10
+    confAuto:
+      shots: 6
+      name: STR_AUTO_SHOT_X6
 
     accuracySnap: 70
+    tuSnap: 33
     confSnap:
       shots: 3
-    tuSnap: 33
+      name: STR_SNAP_SHOT_X3
 
     accuracyAimed: 95
     tuAimed: 80
@@ -804,6 +822,9 @@ items:
 #SHOOTING
     accuracyAuto: 40
     tuAuto: 40
+    confAuto:
+      shots: 3
+      name: STR_AUTO_SHOT_X3
 
     accuracySnap: 65
     tuSnap: 30
@@ -846,9 +867,6 @@ items:
     compatibleAmmo:
       - STR_BOLTGUN_MAGAZINE
 #SHOOTING
-    ignoreAmmoPower: true
-    power: 100
-
     accuracySnap: 65
     tuSnap: 30
 
@@ -892,15 +910,17 @@ items:
     kneelBonus: 125
 
     accuracyAuto: 35
-    confAuto:
-      shots: 4
     tuAuto: 40
     autoRange: 10
+    confAuto:
+      shots: 4
+      name: STR_AUTO_SHOT_X4
 
     accuracySnap: 60
+    tuSnap: 33
     confSnap:
       shots: 2
-    tuSnap: 33
+      name: STR_SNAP_SHOT_X2
 
     accuracyAimed: 85
     tuAimed: 80

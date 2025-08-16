@@ -37,6 +37,9 @@ items:
 #SHOOTING
     accuracyAuto: 40
     tuAuto: 25
+    confAuto:
+      shots: 3
+      name: STR_AUTO_SHOT_X3
 
     accuracySnap: 60
     tuSnap: 15
@@ -69,7 +72,7 @@ items:
     costBuy: 210
     costSell: 150
     listOrder: 2010
-#SPECIFICATION
+#SPECIFICATIONS
     battleType: 2
     size: 0.1
     weight: 1
@@ -117,6 +120,9 @@ items:
 #SHOOTING
     accuracyAuto: 35
     tuAuto: 35
+    confAuto:
+      shots: 3
+      name: STR_AUTO_SHOT_X3
 
     accuracySnap: 60
     tuSnap: 25
@@ -191,7 +197,7 @@ items:
     costBuy: 200
     costSell: 150
     listOrder: 2040
-#SPECIFICATION
+#SPECIFICATIONS
     battleType: 2
     size: 0.1
     weight: 2
@@ -238,15 +244,17 @@ items:
     kneelBonus: 125
 
     accuracyAuto: 32
-    confAuto:
-      shots: 6
     tuAuto: 40
     autoRange: 10
+    confAuto:
+      shots: 6
+      name: STR_AUTO_SHOT_X6
 
     accuracySnap: 56
+    tuSnap: 33
     confSnap:
       shots: 3
-    tuSnap: 33
+      name: STR_SNAP_SHOT_X3
 
     accuracyAimed: 82
     tuAimed: 80
@@ -280,7 +288,7 @@ items:
     costBuy: 600
     costSell: 450
     listOrder: 2060
-#SPECIFICATION
+#SPECIFICATIONS
     battleType: 2
     size: 0.1
     weight: 6
@@ -361,7 +369,7 @@ items:
     costBuy: 1200
     costSell: 960
     listOrder: 2080
-#SPECIFICATION
+#SPECIFICATIONS
     battleType: 2
     size: 0.1
     weight: 6
@@ -376,6 +384,7 @@ items:
       RandomType: 7 #50-200%
       FixRadius: 5
       ToTile: 0.8
+      ArmorEffectiveness: 1.5
 #SCRIPTING
     tags:
       AMMO_INDEX: 1
@@ -535,9 +544,11 @@ items:
     powerForAnimation: 50
     damageType: 1 #kinetic
     damageAlter:
-      RandomType: 7 #50-200%
+      RandomType: 2 #50-150%
       FixRadius: 6
       ToTile: 0.7
+      ArmorEffectiveness: 1.5
+
 
 
 ## KRAK MISSILE
@@ -867,6 +878,9 @@ items:
 
     accuracyAuto: 50
     tuAuto: 40
+    confAuto:
+      shots: 3
+      name: STR_AUTO_SHOT_X3
 
     accuracySnap: 75
     tuSnap: 30
@@ -967,15 +981,17 @@ items:
     kneelBonus: 125
 
     accuracyAuto: 47
-    confAuto:
-      shots: 6
     tuAuto: 45
     autoRange: 10
+    confAuto:
+      shots: 6
+      name: STR_AUTO_SHOT_X6
 
     accuracySnap: 70
+    tuSnap: 38
     confSnap:
       shots: 3
-    tuSnap: 38
+      name: STR_SNAP_SHOT_X3
 
     accuracyAimed: 95
     tuAimed: 80
@@ -1070,6 +1086,9 @@ items:
 
     accuracyAuto: 50
     tuAuto: 35
+    confAuto:
+      shots: 3
+      name: STR_AUTO_SHOT_X3
 
     accuracySnap: 75
     tuSnap: 25
@@ -1170,15 +1189,18 @@ items:
     kneelBonus: 125
 
     accuracyAuto: 47
-    confAuto:
-      shots: 6
     tuAuto: 40
     autoRange: 10
+    confAuto:
+      shots: 6
+      name: STR_AUTO_SHOT_X6
 
     accuracySnap: 70
+    tuSnap: 33
     confSnap:
       shots: 3
-    tuSnap: 33
+      name: STR_SNAP_SHOT_X3
+
 
     accuracyAimed: 95
     tuAimed: 80
@@ -1292,6 +1314,9 @@ items:
 #SHOOTING
     accuracyAuto: 40
     tuAuto: 40
+    confAuto:
+      shots: 3
+      name: STR_AUTO_SHOT_X3
 
     accuracySnap: 65
     tuSnap: 30
@@ -1329,8 +1354,6 @@ items:
     compatibleAmmo:
       - STR_BOLTGUN_MAGAZINE
 #SHOOTING
-    ignoreAmmoPower: true
-    power: 100
 
     accuracySnap: 65
     tuSnap: 30
@@ -1412,15 +1435,17 @@ items:
     kneelBonus: 125
 
     accuracyAuto: 35
-    confAuto:
-      shots: 4
     tuAuto: 40
     autoRange: 10
+    confAuto:
+      shots: 4
+      name: STR_AUTO_SHOT_X4
 
     accuracySnap: 60
+    tuSnap: 33
     confSnap:
       shots: 2
-    tuSnap: 33
+      name: STR_SNAP_SHOT_X2
 
     accuracyAimed: 85
     tuAimed: 80
@@ -1497,9 +1522,6 @@ items:
     compatibleAmmo:
       - STR_HYDROGEN_FUEL_CELL
 #SHOOTING
-    ignoreAmmoPower: true
-    power: 115
-
     accuracySnap: 65
     tuSnap: 35
 
@@ -1581,7 +1603,7 @@ items:
     power: 130
     damageType: 5 #Plasma
     damageAlter:
-      RandomType: 2 #50-150%
+      RandomType: 1 #0-200%
       ToArmor: 0.3
       ToArmorPre: 0.3
       ToTile: 0.5
@@ -1615,7 +1637,7 @@ items:
       - STR_MELTAGUN_FUEL
 #SHOOTING
     powerRangeThreshold: 8
-    powerRangeReduction: 110
+    powerRangeReduction: 160
     maxRange: 8
 
     accuracySnap: 60
@@ -1625,7 +1647,6 @@ items:
     tuAimed: 80
 #SCRIPTING
     tags:
-      HEAVY_WEAPON: 1
       AMMO_CHANGES_ITEMS_BIGSPRITE: 1
 
 
@@ -1902,7 +1923,8 @@ items:
     tuSnap: 60
 
     confSnap:
-        name: STR_PSIONIC_LIGHTNING
+      name: STR_PSIONIC_LIGHTNING
+
 #MELEE
     meleePower: 0
     meleeType: 7 #Melee
@@ -2073,6 +2095,358 @@ items:
 
 
 
+
+## HEAVY WEAPONS PLATFORMS
+
+#HWP (HEAVY STUBBER)
+  - type: STR_TANK_HEAVY_STUBBER_PDF
+#RESOURCES
+    bigSprite: 1100
+    floorSprite: 0
+    handSprite: 0
+#INFO
+    categories: [STR_CATEGORY_HWP]
+    costBuy: 280000
+    costSell: 225000
+    transferTime: 96
+    listOrder: 1000
+#SPECIFICATIONS
+    battleType: 1
+    size: 6
+    weight: 1
+    invWidth: 2
+    invHeight: 3
+    fixedWeapon: true
+    turretType: 0
+#AMMO
+    compatibleAmmo:
+      - STR_TANK_HEAVY_STUBBER_AMMO
+#SHOOTING
+    accuracyAuto: 32
+    tuAuto: 40
+    autoRange: 10
+    confAuto:
+      shots: 4
+      name: STR_AUTO_SHOT_X4
+
+    accuracySnap: 60
+    tuSnap: 33
+    confSnap:
+      shots: 2
+      name: STR_SNAP_SHOT_X2
+
+    accuracyAimed: 100
+    tuAimed: 80
+    aimRange: 30
+#SCRIPTING
+    tags:
+      HEAVY_WEAPON: 1
+
+
+#HWP HEAVY STUBBER AMMO
+  - type: STR_TANK_HEAVY_STUBBER_AMMO
+#RESOURCES
+    bulletSprite: 13 #Anti-material bullet
+    bulletSpeed: 25
+
+    hitAnimation: 200 #Bullet hit
+    explosionSpeed: 2
+
+    fireSound: 4
+    hitSound: 22
+#INFO
+    categories: [STR_CATEGORY_HWP]
+    costBuy: 1200
+    costSell: 900
+    transferTime: 48
+    listOrder: 1010
+#SPECIFICATION
+    battleType: 2
+    size: 0.1
+    weight: 1
+#SHOOTING
+    clipSize: 60
+    power: 60
+    damageType: 1
+    damageAlter:
+      RandomType: 7 #50-200%
+      ToArmor: 0.1
+      ToArmorPre: 0.07
+      ToTile: 0.5
+
+
+#HWP (MISSILE LAUNCHER)
+  - type: STR_TANK_MISSILE_LAUNCHER_PDF
+#RESOURCES
+    bigSprite: 1101
+    floorSprite: 0
+    handSprite: 0
+#INFO
+    categories: [STR_CATEGORY_HWP]
+    costBuy: 480000
+    costSell: 360000
+    transferTime: 96
+    listOrder: 1020
+#SPECIFICATIONS
+    battleType: 1
+    size: 6
+    weight: 1
+    invWidth: 2
+    invHeight: 3
+    fixedWeapon: true
+    turretType: 0
+#AMMO
+    compatibleAmmo:
+      - STR_TANK_MISSILE_LAUNCHER_AMMO
+#SHOOTING
+    accuracySnap: 55
+    tuSnap: 45
+
+    accuracyAimed: 115
+    tuAimed: 80
+    aimRange: 40
+#SCRIPTING
+    tags:
+      HEAVY_WEAPON: 1
+
+
+#HWP MISSILE LAUNCHER AMMO
+  - type: STR_TANK_MISSILE_LAUNCHER_AMMO
+#RESOURCES
+    bulletSprite: 15 #Missile projectile
+    bulletSpeed: 2
+
+    fireSound: 52
+    hitSound: 0
+    hitAnimation: 32 #Large krak explosion
+
+    vaporColorSurface: 0 #White smoke trail
+    vaporDensitySurface: 30
+    vaporProbabilitySurface: 25
+#INFO
+    categories: [STR_CATEGORY_HWP]
+    costBuy: 8000
+    costSell: 6400
+    transferTime: 48
+    listOrder: 1030
+#SPECIFICATIONS
+    battleType: 2
+    size: 0.6
+    weight: 1
+#SHOOTING
+    clipSize: 8
+    power: 100
+    powerForAnimation: 35
+    damageType: 3 #High Explosive
+    damageAlter:
+      RandomType: 2 #50-150%
+      FixRadius: 2
+      ToArmor: 0.2
+      ToArmorPre: 0.5
+      ToTile: 0.7
+
+
+#HWP (MULTI-LASER)
+  - type: STR_TANK_MULTI_LASER_PDF
+#RESOURCES
+    bigSprite: 1102
+    floorSprite: 0
+    handSprite: 0
+
+    bulletSprite: 19 #Multi-Laser beam projectile
+    bulletSpeed: 25
+
+    fireSound: 11
+    hitSound: 19
+    hitAnimation: 230 #Hotshot laser hit
+#INFO
+    categories: [STR_CATEGORY_HWP]
+    costSell: 594000
+    transferTime: 96
+    listOrder: 1040
+#SPECIFICATIONS
+    battleType: 1
+    size: 6
+    weight: 1
+    invWidth: 2
+    invHeight: 3
+    fixedWeapon: true
+    turretType: 0
+#SHOOTING
+    clipSize: -1
+    power: 75
+
+    damageType: 4 #laser
+    damageAlter:
+      RandomType: 7 #50-200%
+      ToArmor: 0.2
+      ToArmorPre: 0.2
+      ToTile: 0.5
+
+    accuracyAuto: 35
+    tuAuto: 40
+    autoRange: 10
+    confAuto:
+      shots: 4
+      name: STR_AUTO_SHOT_X4
+
+    accuracySnap: 70
+    tuSnap: 33
+    confSnap:
+      shots: 2
+      name: STR_SNAP_SHOT_X2
+
+    accuracyAimed: 100
+    tuAimed: 80
+    aimRange: 30
+
+
+#HWP (PLASMA CANNON)
+  - type: STR_TANK_PLASMA_CANNON_PDF
+#RESOURCES
+    bigSprite: 1103
+    floorSprite: 0
+    handSprite: 0
+#INFO
+    categories: [STR_CATEGORY_HWP]
+    costSell: 980000
+    transferTime: 96
+    listOrder: 1050
+#SPECIFICATIONS
+    battleType: 1
+    size: 6
+    weight: 1
+    invWidth: 2
+    invHeight: 3
+    fixedWeapon: true
+    turretType: 0
+#AMMO
+    compatibleAmmo:
+      - STR_TANK_PLASMA_CANNON_AMMO
+#SHOOTING
+    accuracySnap: 75
+    tuSnap: 30
+
+    accuracyAimed: 105
+    tuAimed: 60
+    aimRange: 30
+#SCRIPTING
+    tags:
+      HEAVY_WEAPON: 1
+
+
+#HWP PLASMA CANNON AMMO
+  - type: STR_TANK_PLASMA_CANNON_AMMO
+#RESOURCES
+    bulletSprite: 23 #Plasma Cannon Projectile
+    bulletSpeed: 4
+
+    fireSound: 18
+    explosionHitSound: 19
+    hitAnimation: 80 #Plasma Explosion
+
+    vaporColorSurface: 2 #Blue plasma trail
+    vaporProbabilitySurface: 50
+    vaporDensitySurface: 10
+#INFO
+    categories: [STR_CATEGORY_HWP]
+    costSell: 30000
+    transferTime: 48
+    listOrder: 1060
+#SPECIFICATION
+    battleType: 2
+    size: 0.1
+    weight: 1
+#SHOOTING
+    clipSize: 30
+    power: 130
+    powerForAnimation: 30
+    damageType: 5 #Plasma
+    damageAlter:
+      RandomType: 1 #0-200%
+      ToArmor: 0.3
+      ToArmorPre: 0.3
+      ToTile: 0.5
+      FixRadius: 1
+
+
+#HWP (MULTI-MELTA)
+  - type: STR_TANK_MULTI_MELTA_PDF
+#RESOURCES
+    bigSprite: 1104
+    floorSprite: 0
+    handSprite: 0
+#INFO
+    categories: [STR_CATEGORY_HWP]
+    costSell: 1043000
+    transferTime: 96
+    listOrder: 1070
+#SPECIFICATIONS
+    battleType: 1
+    size: 6
+    weight: 1
+    invWidth: 2
+    invHeight: 3
+    fixedWeapon: true
+    turretType: 0
+#AMMO
+    compatibleAmmo:
+      - STR_TANK_MULTI_MELTA_AMMO
+#SHOOTING
+    powerRangeThreshold: 12
+    powerRangeReduction: 160
+    maxRange: 12
+
+    accuracySnap: 60
+    tuSnap: 40
+
+    accuracyAuto: 50
+    tuAuto: 60
+    confAuto:
+      shots: 2
+      name: STR_AUTO_SHOT_X2
+
+    accuracyAimed: 120
+    tuAimed: 80
+#SCRIPTING
+    tags:
+      HEAVY_WEAPON: 1
+
+
+#HWP MULTI-MELTA AMMO
+  - type: STR_TANK_MULTI_MELTA_AMMO
+#RESOURCES
+    bulletSprite: 16 #Invisible projectile
+    bulletSpeed: 10
+
+    hitAnimation: 250 #Melta hit
+    explosionSpeed: 1
+
+    fireSound: 52
+    hitSound: 0
+
+    vaporColorSurface: 1 #Orange
+    vaporProbabilitySurface: 100
+    vaporDensitySurface: 5
+#INFO
+    categories: [STR_CATEGORY_HWP]
+    costSell: 41250
+    transferTime: 48
+    listOrder: 1080
+#SPECIFICATION
+    battleType: 2
+    size: 0.1
+    weight: 1
+#SHOOTING
+    clipSize: 20
+    power: 160
+    damageType: 10 #Melta
+    damageAlter:
+      RandomType: 2 #50-150%
+      ToArmor: 0.3
+      ToArmorPre: 0.3
+      ToTile: 0.5
+      FixRadius: 0
 
 
 

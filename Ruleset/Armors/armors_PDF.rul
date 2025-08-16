@@ -2572,6 +2572,198 @@ armors:
 
 
 
+#PDF HEAVY WEAPON PLATFORM (HEAVY STUBBER)
+  - type: PDF_TANK_HEAVY_STUBBER_ARMOR
+#GENERAL
+    drawingRoutine: 2 #HWP
+    size: 2 #2x2 unit
+    spriteSheet: PDF_TANK_HEAVY_STUBBER_ARMOR.PCK
+    allowInv: false
+    corpseBattle:
+      - PDF_TANK_CORPSE_1
+      - PDF_TANK_CORPSE_2
+      - PDF_TANK_CORPSE_3
+      - PDF_TANK_CORPSE_4
+    loftempsSet: [ 92, 89, 90, 91 ]
+    allowsKneeling: false
+
+    bleedImmune: true
+    fearImmune: true
+    painImmune: true
+
+#PROTECTION
+    frontArmor: 90
+    sideArmor: 75
+    rearArmor: 60
+    underArmor: 60
+    damageModifier:
+      - 1.0 #None
+      - 1.0 #Armor Piercing
+      - 0.4 #Incendiary
+      - 1.0 #High Explosive
+      - 1.0 #Laser
+      - 1.0 #Plasma
+      - 0.0 #Stun
+      - 1.0 #Melee
+      - 1.0 #Acid
+      - 0.0 #Smoke
+      - 1.0 #Melta
+
+
+
+
+#PDF HEAVY WEAPON PLATFORM (MISSILE LAUNCHER)
+  - type: PDF_TANK_MISSILE_LAUNCHER_ARMOR
+#GENERAL
+    drawingRoutine: 2 #HWP
+    size: 2 #2x2 unit
+    spriteSheet: PDF_TANK_MISSILE_LAUNCHER_ARMOR.PCK
+    allowInv: false
+    corpseBattle:
+      - PDF_TANK_CORPSE_1
+      - PDF_TANK_CORPSE_2
+      - PDF_TANK_CORPSE_3
+      - PDF_TANK_CORPSE_4
+    loftempsSet: [ 92, 89, 90, 91 ]
+    allowsKneeling: false
+
+    bleedImmune: true
+    fearImmune: true
+    painImmune: true
+
+#PROTECTION
+    frontArmor: 90
+    sideArmor: 75
+    rearArmor: 60
+    underArmor: 60
+    damageModifier:
+      - 1.0 #None
+      - 1.0 #Armor Piercing
+      - 0.4 #Incendiary
+      - 1.0 #High Explosive
+      - 1.0 #Laser
+      - 1.0 #Plasma
+      - 0.0 #Stun
+      - 1.0 #Melee
+      - 1.0 #Acid
+      - 0.0 #Smoke
+      - 1.0 #Melta
+
+
+#PDF HEAVY WEAPON PLATFORM (MULTI-LASER)
+  - type: PDF_TANK_MULTI_LASER_ARMOR
+#GENERAL
+    drawingRoutine: 2 #HWP
+    size: 2 #2x2 unit
+    spriteSheet: PDF_TANK_MULTI_LASER_ARMOR.PCK
+    allowInv: false
+    corpseBattle:
+      - PDF_TANK_CORPSE_1
+      - PDF_TANK_CORPSE_2
+      - PDF_TANK_CORPSE_3
+      - PDF_TANK_CORPSE_4
+    loftempsSet: [ 92, 89, 90, 91 ]
+    allowsKneeling: false
+
+    bleedImmune: true
+    fearImmune: true
+    painImmune: true
+
+#PROTECTION
+    frontArmor: 90
+    sideArmor: 75
+    rearArmor: 60
+    underArmor: 60
+    damageModifier:
+      - 1.0 #None
+      - 1.0 #Armor Piercing
+      - 0.4 #Incendiary
+      - 1.0 #High Explosive
+      - 1.0 #Laser
+      - 1.0 #Plasma
+      - 0.0 #Stun
+      - 1.0 #Melee
+      - 1.0 #Acid
+      - 0.0 #Smoke
+      - 1.0 #Melta
+
+
+
+#PDF HEAVY WEAPON PLATFORM (PLASMA CANNON)
+  - type: PDF_TANK_PLASMA_CANNON_ARMOR
+#GENERAL
+    drawingRoutine: 2 #HWP
+    size: 2 #2x2 unit
+    spriteSheet: PDF_TANK_PLASMA_CANNON_ARMOR.PCK
+    allowInv: false
+    corpseBattle:
+      - PDF_TANK_CORPSE_1
+      - PDF_TANK_CORPSE_2
+      - PDF_TANK_CORPSE_3
+      - PDF_TANK_CORPSE_4
+    loftempsSet: [ 92, 89, 90, 91 ]
+    allowsKneeling: false
+
+    bleedImmune: true
+    fearImmune: true
+    painImmune: true
+
+#PROTECTION
+    frontArmor: 120
+    sideArmor: 120
+    rearArmor: 90
+    underArmor: 90
+    damageModifier:
+      - 1.0 #None
+      - 1.0 #Armor Piercing
+      - 0.4 #Incendiary
+      - 1.0 #High Explosive
+      - 1.0 #Laser
+      - 1.0 #Plasma
+      - 0.0 #Stun
+      - 1.0 #Melee
+      - 1.0 #Acid
+      - 0.0 #Smoke
+      - 1.0 #Melta
+
+
+#PDF HEAVY WEAPON PLATFORM (MULTI-MELTA)
+  - type: PDF_TANK_MULTI_MELTA_ARMOR
+#GENERAL
+    drawingRoutine: 2 #HWP
+    size: 2 #2x2 unit
+    spriteSheet: PDF_TANK_MULTI_MELTA_ARMOR.PCK
+    allowInv: false
+    corpseBattle:
+      - PDF_TANK_CORPSE_1
+      - PDF_TANK_CORPSE_2
+      - PDF_TANK_CORPSE_3
+      - PDF_TANK_CORPSE_4
+    loftempsSet: [ 92, 89, 90, 91 ]
+    allowsKneeling: false
+
+    bleedImmune: true
+    fearImmune: true
+    painImmune: true
+
+#PROTECTION
+    frontArmor: 120
+    sideArmor: 120
+    rearArmor: 90
+    underArmor: 90
+    damageModifier:
+      - 1.0 #None
+      - 1.0 #Armor Piercing
+      - 0.4 #Incendiary
+      - 1.0 #High Explosive
+      - 1.0 #Laser
+      - 1.0 #Plasma
+      - 0.0 #Stun
+      - 1.0 #Melee
+      - 1.0 #Acid
+      - 0.0 #Smoke
+      - 1.0 #Melta
+
 
 
 

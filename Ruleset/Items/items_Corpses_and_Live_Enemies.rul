@@ -345,6 +345,49 @@ items:
     armor: 30
     recover: false
 
+# PDF TANK "CORPSES"
+  - type: PDF_TANK_CORPSE_1
+    floorSprite: 2040
+    invWidth: 0
+    invHeight: 0
+    battleType: 11
+    recover: false
+  - type: PDF_TANK_CORPSE_2
+    floorSprite: 2041
+    invWidth: 0
+    invHeight: 0
+    battleType: 11
+    recover: false
+  - type: PDF_TANK_CORPSE_3
+    floorSprite: 2042
+    invWidth: 0
+    invHeight: 0
+    battleType: 11
+    recover: false
+  - type: PDF_TANK_CORPSE_4
+    floorSprite: 2043
+    invWidth: 0
+    invHeight: 0
+    battleType: 11
+    recover: false
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

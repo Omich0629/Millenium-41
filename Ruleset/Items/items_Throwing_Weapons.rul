@@ -34,11 +34,13 @@ items:
       RandomType: 7 #50-200%
       FixRadius: 5
       ToTile: 0.8
+      ArmorEffectiveness: 1.5
     tuPrime: 50
     tuThrow: 25
     fuseType: 0 #explodes at the end of the turn
     flatRate: false
     throwRange: 20
+
 
 ## KRAK GRENADE
   - type: STR_KRAK_GRENADE

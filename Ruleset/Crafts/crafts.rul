@@ -37,7 +37,7 @@ crafts:
       # - STR_CRAFT_SLOT_UPGRADE
 #CREW
     soldiers: 12
-    vehicles: 0
+    vehicles: 1
     pilots: 0
     allowLanding: true
 #BATTLESCAPE

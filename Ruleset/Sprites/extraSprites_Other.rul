@@ -85,21 +85,21 @@ extraSprites:
     subX: 3
     subY: 3
     files:
-      385: Resources/Projectiles/11_Pistol_Bullet.png             #11 (Pistol bullet)
-      420: Resources/Projectiles/12_Rifle_Bullet.png              #12 (Rifle bullet)
-      455: Resources/Projectiles/13_Autocannon_Shell.png          #13 (Autocannon shell)
-      490: Resources/Projectiles/14_Grenade.png                   #14 (40mm grenade)
-      525: Resources/Projectiles/15_Missile.png                   #15 (Rocket-propelled missile)
+      385: Resources/Projectiles/11_Pistol_Bullet.png             #11 (Pistol Bullet)
+      420: Resources/Projectiles/12_Rifle_Bullet.png              #12 (Rifle Bullet)
+      455: Resources/Projectiles/13_Anti-Material_Bullet.png      #13 (Anti-Material Bullet)
+      490: Resources/Projectiles/14_Grenade.png                   #14 (40mm Grenade)
+      525: Resources/Projectiles/15_Missile.png                   #15 (Rocket-Propelled Missile)
       560: Resources/Projectiles/16_Invisible_Projectile.png      #16 (Flamer, Melta, etc.)
-      595: Resources/Projectiles/17_Laser_Beam.png                #17 (Lasgun beam)
-      630: Resources/Projectiles/18_Hotshot_Laser_Beam.png        #18 (Hellgun beam)
-      665: Resources/Projectiles/19_Lascannon_Beam.png            #19 (Lascannon beam)
+      595: Resources/Projectiles/17_Laser_Beam.png                #17 (Lasgun Beam)
+      630: Resources/Projectiles/18_Hotshot_Laser_Beam.png        #18 (Hellgun Beam)
+      665: Resources/Projectiles/19_Multi_Laser_Beam.png          #19 (Multi-Laser Beam)
       700: Resources/Projectiles/20_Bolter_Round.png              #20 (Bolter Round)
       735: Resources/Projectiles/21_Heavy_Bolter_Round.png        #21 (Heavy Bolter Round)
-      770: Resources/Projectiles/22_Plasma_Bolt.png               #22 (Plasmagun projectile)
-      805: Resources/Projectiles/23_Heavy_Plasma_Bolt.png         #23 (Plasma Cannon projectile)
-      840: Resources/Projectiles/24_Webber_Projectile.png         #24 (Webber projectile)
-      875: Resources/Projectiles/25_Psionic_Lightning.png         #25 (Psionic lightning)
+      770: Resources/Projectiles/22_Plasma_Bolt.png               #22 (Plasmagun Projectile)
+      805: Resources/Projectiles/23_Heavy_Plasma_Bolt.png         #23 (Plasma Cannon Projectile)
+      840: Resources/Projectiles/24_Webber_Projectile.png         #24 (Webber Projectile)
+      875: Resources/Projectiles/25_Psionic_Lightning.png         #25 (Psionic Lightning)
 #      910: Resources/Projectiles/     #26
 #      945: Resources/Projectiles/     #27
 #      980: Resources/Projectiles/     #28

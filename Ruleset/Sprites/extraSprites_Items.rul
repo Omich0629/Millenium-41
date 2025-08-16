@@ -706,6 +706,16 @@ extraSprites:
 #      1023: Resources/Items/
 #      1024: Resources/Items/
 
+
+#Tank Weapons
+
+      1100: Resources/Items/Tank_Weapons/Tank_Heavy_Stubber_Inv.png
+      1101: Resources/Items/Tank_Weapons/Tank_Missile_Launcher_Inv.png
+      1102: Resources/Items/Tank_Weapons/Tank_Multi_Laser_Inv.png
+      1103: Resources/Items/Tank_Weapons/Tank_Plasma_Cannon_Inv.png
+      1104: Resources/Items/Tank_Weapons/Tank_Multi_Melta_Inv.png
+
+
 #PDF Units Corpses (2000 - 2199)
 
       2000: Resources/Armors/PDF/Soldier_Uniform/Soldier_Uniform_Corpse_Inv.png
@@ -1270,6 +1280,10 @@ extraSprites:
       2032: Resources/Armors/PDF/Psyker_Carapace/Psyker_Carapace_Corpse_Floor.png
 #      ...
 
+      2040: Resources/Armors/PDF/Tank/Tank_Corpse_01_Floor.png
+      2041: Resources/Armors/PDF/Tank/Tank_Corpse_02_Floor.png
+      2042: Resources/Armors/PDF/Tank/Tank_Corpse_03_Floor.png
+      2043: Resources/Armors/PDF/Tank/Tank_Corpse_04_Floor.png
 
 
 #Chaos Units Corpses (2200 - 2299)

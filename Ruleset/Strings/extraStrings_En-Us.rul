@@ -266,6 +266,8 @@ extraStrings:
       STR_CATEGORY_AMMO: "Ammo"
       STR_CATEGORY_ARMOR: "Armor"
       STR_CATEGORY_UTILITY: "Utility Item"
+      STR_CATEGORY_HWP: "HWP"
+
 
 #By technology
       STR_CATEGORY_FIREARM: "Firearm Weapon"
@@ -819,12 +821,47 @@ extraStrings:
       STR_PSYKER_SKILL: "Psyker Skill"
 
 #CUSTOM ATTACK NAMES AND MESSAGES
+      STR_AUTO_SHOT_X2: "Auto Shot (x2)"
+      STR_AUTO_SHOT_X3: "Auto Shot (x3)"
+      STR_AUTO_SHOT_X4: "Auto Shot (x4)"
+      STR_AUTO_SHOT_X5: "Auto Shot (x5)"
+      STR_AUTO_SHOT_X6: "Auto Shot (x6)"
+
+      STR_SNAP_SHOT_X2: "Snap Shot (x2)"
+      STR_SNAP_SHOT_X3: "Snap Shot (x3)"
+      STR_SNAP_SHOT_X4: "Snap Shot (x4)"
+      STR_SNAP_SHOT_X5: "Snap Shot (x5)"
+      STR_SNAP_SHOT_X6: "Snap Shot (x6)"
+
       STR_EXTINGUISH_FIRE: "Extinguish Fire"
       STR_ANALYZE_TARGET: "Analyze Target"
       STR_SET_TIMER: "Set Timer"
       STR_TIMER_IS_SET: "Timer is Set!"
       STR_PSIONIC_LIGHTNING: "Lightning Bolt"
 
+
+
+#HEAVY WEAPONS PLATFORMS (TANKS)
+
+      STR_TANK_HEAVY_STUBBER_PDF: "Tank/Heavy Stubber"
+      STR_TANK_HEAVY_STUBBER_AMMO: "HWP Heavy Stubber Ammo"
+
+      STR_TANK_MISSILE_LAUNCHER_PDF: "Tank/Missile Launcher"
+      STR_TANK_MISSILE_LAUNCHER_AMMO: "HWP Krak Missiles"
+
+      STR_TANK_MULTI_LASER_PDF: "Tank/Multi-Laser"
+
+      STR_TANK_PLASMA_CANNON_PDF: "Tank/Plasma Cannon"
+      STR_TANK_PLASMA_CANNON_AMMO: "HWP Plasma Cannon Fuel"
+
+      STR_TANK_MULTI_MELTA_PDF: "Tank/Multi-Melta"
+      STR_TANK_MULTI_MELTA_AMMO: "HWP Multi-Melta Fuel"
+
+      PDF_TANK_HEAVY_STUBBER_ARMOR: "Tank Armor"
+      PDF_TANK_MISSILE_LAUNCHER_ARMOR: "Tank Armor"
+      PDF_TANK_MULTI_LASER_ARMOR: "Tank Armor"
+      PDF_TANK_PLASMA_CANNON_ARMOR: "Tank Armor"
+      PDF_TANK_MULTI_MELTA_ARMOR: "Tank Armor"
 
 
 
